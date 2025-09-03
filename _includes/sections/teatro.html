@@ -1,0 +1,73 @@
+<section id="teatro" class="teatro scrollto">
+
+  <div class="row clearfix">
+    <div class="col-1">
+      <div class="section-heading">
+        <h3></h3>
+        <h2 class="section-title">Práctica escénica</h2>
+
+        <!-- Production hero 1: La Cueva de Salamanca -->
+        <div class="production-hero">
+          <div class="production-slider" onclick="openProductionModal()">
+            <!-- Las imágenes se cargarán automáticamente -->
+          </div>
+          <div class="production-info">
+            <h3>La Cueva de Salamanca</h3>
+            <p><b>Dirección:</b> Gaston Gilabert<br>
+            <b>Compañía:</b> METADRAMA<br>
+            <b>Año:</b> 2024-2025</p>
+            <p>El 20 de diciembre de 2024, el laboratorio escénico METADRAMA presentó en un doble pase en la Capilla del edificio histórico de la Universitat de Barcelona esta comedia del dramaturgo novohispano Juan Ruiz de Alarcón. Entre 2024 y 2025 se realizaron diez funciones en encuentros de investigación y festivales de teatro en Barcelona y Toledo. El montaje recibió 15 premios en los festivales de teatro MUTIS y Cascabeles.</p>
+          </div>
+        </div>
+
+        <!-- Modal para el carrusel grande -->
+        <div id="productionModal" class="production-modal" onclick="closeProductionModal(event)">
+          <span class="close-modal" onclick="closeProductionModal(event)">&times;</span>
+          <div class="modal-carousel">
+            <!-- Las imágenes se cargarán automáticamente -->
+            <button class="modal-prev" onclick="modalPrev(event)"></button>
+            <button class="modal-next" onclick="modalNext(event)"></button>
+            <div class="modal-indicators">
+              <span class="modal-counter">1 / 1</span>
+              <div class="modal-dots">
+                <!-- Los dots se cargarán automáticamente -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Production hero 2: Fuenteovejuna -->
+        <div class="production-hero reverse">
+          <div class="production-info">
+            <h3>Fuenteovejuna</h3>
+            <p><b>Dirección:</b> Cristina Suárez<br>
+            <b>Compañía:</b> ESAD de Asturias<br>
+            <b>Año:</b> 2018</p>
+            <p>En mayo de 2018, varios estudiantes del Grado en Arte Dramático culminamos nuestra formación con el Taller Escénico Final representando una de las obras más emblemáticas del Siglo de Oro español. Dirigido por Cristina Suárez, el montaje se convirtió en un homenaje a la potencia del teatro clásico como herramienta de reflexión social. Estrenado en el Teatro de La Laboral (Gijón), tuvo varias funciones en Asturias, incluyendo un pasacalles en Oviedo.</p>
+          </div>
+          <div class="production-slider" onclick="openFuenteovejunaModal()">
+            <!-- Las imágenes se cargarán automáticamente -->
+          </div>
+        </div>
+
+        <!-- Modal para Fuenteovejuna -->
+        <div id="fuenteovejunaModal" class="production-modal" onclick="closeFuenteovejunaModal(event)">
+          <span class="close-modal" onclick="closeFuenteovejunaModal(event)">&times;</span>
+          <div class="modal-carousel">
+            <!-- Las imágenes se cargarán automáticamente -->
+            <button class="modal-prev" onclick="fuenteovejunaModalPrev(event)"></button>
+            <button class="modal-next" onclick="fuenteovejunaModalNext(event)"></button>
+            <div class="modal-indicators">
+              <span class="modal-counter">1 / 1</span>
+              <div class="modal-dots">
+                <!-- Los dots se cargarán automáticamente -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- .section-heading -->
+    </div><!-- .col-1 -->
+  </div><!-- .row -->
+
+</section>

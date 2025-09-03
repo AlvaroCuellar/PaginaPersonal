@@ -1,0 +1,7 @@
+title: "Currens Theme"
+description: "Plantilla one-page bilingüe para portfolios de investigación"
+timezone: Europe/Madrid
+permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
