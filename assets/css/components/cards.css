@@ -1,0 +1,284 @@
+/* ═══════════════════════════════════════════════════════════
+   CARDS & GRIDS - TARJETAS Y SISTEMAS DE GRID
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Hero project - Proyecto destacado principal
+   ········································· */
+
+.hero-project {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    margin: var(--spacing-l) 0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background: var(--bg-secondary);
+}
+
+.hero-project__image {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-project__content {
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-project__badge {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--color-white);
+    padding: 4px 12px;
+    border-radius: var(--border-radius);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-sm);
+    margin-bottom: var(--spacing-m);
+    width: fit-content;
+}
+
+.hero-project__title {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-m);
+    line-height: var(--line-height-normal);
+}
+
+.hero-project__description {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-l);
+    line-height: var(--line-height-relaxed);
+}
+
+/* ·········································
+   Projects grid - Grid de proyectos
+   ········································· */
+
+.projects-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-l);
+}
+
+.projects-row {
+    width: 100%;
+    display: grid;
+    gap: var(--spacing-l);
+    height: 400px;
+}
+
+.projects-row:first-child {
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects-row:nth-child(2) {
+    grid-template-columns: 5fr 7fr;
+}
+
+.project-card {
+    position: relative;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--bg-secondary);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    display: block;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: var(--spacing-xl);
+    color: white;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-overlay h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-bold);
+    margin: 0 0 var(--spacing-s) 0;
+    color: white;
+}
+
+.project-overlay p {
+    font-size: var(--text-sm);
+    margin: 0 0 var(--spacing-m) 0;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: var(--line-height-normal);
+}
+
+.project-badge {
+    position: absolute;
+    top: var(--spacing-xl);
+    right: var(--spacing-xl);
+    background: var(--accent-color);
+    color: var(--color-white);
+    padding: 4px 12px;
+    border-radius: var(--border-radius);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-sm);
+    opacity: 0;
+    transform: translateY(-7px);
+    transition: opacity 0.5s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+.project-card:hover .project-badge {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ·········································
+   Event cards - Tarjetas de eventos
+   ········································· */
+
+.event-category {
+    margin-bottom: var(--spacing-xl);
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-m);
+    margin: var(--spacing-m) 0;
+}
+
+.event-card {
+    background: var(--bg-secondary);
+    padding: var(--spacing-m);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 120px;
+}
+
+.event-card-content {
+    margin-top: auto;
+}
+
+.event-card h4 {
+    margin: 0 0 var(--spacing-s) 0;
+    color: var(--text-primary);
+    font-size: var(--text-base);
+    flex-grow: 1;
+}
+
+.event-name {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    line-height: var(--line-height-normal);
+    margin-bottom: var(--spacing-s);
+}
+
+.event-institution {
+    color: var(--text-primary);
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+}
+
+/* ·········································
+   Publication cards - Tarjetas de publicaciones
+   ········································· */
+
+.publication-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-l);
+    margin: var(--spacing-m) 0;
+}
+
+.publication-card {
+    background: var(--bg-secondary);
+    padding: var(--spacing-l);
+    border-radius: var(--border-radius);
+}
+
+.publication-title {
+    font-size: var(--text-lg);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-s);
+    font-weight: var(--font-normal);
+}
+
+.publication-metadata {
+    color: var(--text-secondary);
+    font-size: var(--text-sm);
+    line-height: var(--line-height-normal);
+}
+
+.publication-source {
+    margin-bottom: var(--spacing-s);
+}
+
+.publication-details {
+    font-weight: var(--font-normal);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-none);
+}
+
+.publication-metadata::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.publication-metadata button {
+    margin: 0 !important;
+}
+
+.more-cv {
+    text-align: right;
+    margin-top: var(--spacing-s);
+}
+
+/* ·········································
+   Etiquetas de categoría compartidas
+   ········································· */
+
+.category-label {
+    font-size: var(--text-sm);
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-sm);
+    margin: 0 0 var(--spacing-s);
+    color: var(--primary-color);
+}

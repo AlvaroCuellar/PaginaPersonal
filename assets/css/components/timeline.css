@@ -1,0 +1,154 @@
+/* ═══════════════════════════════════════════════════════════
+   TIMELINE COMPONENT - Versión limpia y moderna
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Timeline container
+   ········································· */
+
+.timeline-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    padding: var(--spacing-lg) 0;
+}
+
+/* Línea vertical central */
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    bottom: -20px;
+    width: 2px;
+    background-color: var(--primary-color);
+    transform: translateX(-50%);
+}
+
+/* ·········································
+   Timeline items
+   ········································· */
+
+.timeline-item {
+    position: relative;
+    margin-bottom: var(--spacing-xxxl);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: calc(50% + var(--spacing-xl));
+}
+
+/* Último elemento del timeline con menos margen */
+.timeline-item:last-child {
+    margin-bottom: var(--spacing-none);
+}
+
+/* Items alternados (derecha) */
+.timeline-item.right {
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: calc(50% + var(--spacing-xl));
+}
+
+/* ·········································
+   Timeline markers (puntos)
+   ········································· */
+
+.timeline-point {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-sm);
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+
+/* Estado activado cuando el item está visible */
+.timeline-item.visible .timeline-point {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+/* ·········································
+   Timeline content
+   ········································· */
+
+.timeline-content {
+    background: transparent;
+    text-align: right;
+    position: relative;
+}
+
+.timeline-item.right .timeline-content {
+    text-align: left;
+}
+
+/* ·········································
+   Timeline text styling
+   ········································· */
+
+.timeline-date {
+    font-size: var(--text-sm);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-none);
+    font-weight: var(--font-semibold);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.timeline-title {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--color-black);
+    margin-bottom: var(--spacing-none);
+    line-height: var(--line-height-tight);
+    font-family: var(--font-family-headings);
+}
+
+.timeline-subtitle {
+    font-size: var(--text-base);
+    color: var(--color-black);
+    line-height: var(--line-height-normal);
+    font-weight: var(--font-normal);
+}
+
+.timeline-description {
+    font-size: var(--text-sm);
+    color: var(--text-primary);
+    margin-top: var(--spacing-xxs);
+    line-height: var(--line-height-normal);
+    font-style: normal;
+}
+
+/* ·········································
+   Responsive design moved to responsive.css
+   ········································· */
+
+/* ·········································
+   Animaciones
+   ········································· */
+
+.timeline-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInTimeline 0.6s ease forwards;
+}
+
+@keyframes fadeInTimeline {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Retraso progresivo en la animación */
+.timeline-item:nth-child(1) { animation-delay: 0.1s; }
+.timeline-item:nth-child(2) { animation-delay: 0.2s; }
+.timeline-item:nth-child(3) { animation-delay: 0.3s; }
+.timeline-item:nth-child(4) { animation-delay: 0.4s; }
+.timeline-item:nth-child(5) { animation-delay: 0.5s; }
+.timeline-item:nth-child(6) { animation-delay: 0.6s; }

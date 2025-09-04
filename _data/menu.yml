@@ -1,0 +1,22 @@
+- key: "bio"
+  show: true
+  section_id: "bio"
+- key: "research"
+  show: true
+  section_id: "research"
+- key: "gallery"
+  show: true
+  section_id: "gallery"
+- key: "publications"
+  show: true
+  section_id: "publications"
+- key: "talks"
+  show: true
+  section_id: "talks"
+- key: "cv"
+  show: true
+  url:
+    es: "/es/cv/"
+    en: "/en/cv/"
+  button: true
+

@@ -1,0 +1,127 @@
+/* ═══════════════════════════════════════════════════════════
+   CV LAYOUT - Layout y posicionamiento específico del CV
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Base del CV
+   ········································· */
+
+/* Contenedor principal del CV */
+.cv-container {
+  position: relative;
+  max-width: 1245px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}
+
+/* Layout específico del CV - completamente independiente */
+.cv-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--spacing-m);
+  align-items: start;
+  min-height: 100vh;
+  max-width: 1245px;
+  margin: 0 auto;
+}
+
+/* Resetear cualquier estilo del grid general */
+.cv-container .row {
+  display: block;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-container [class*='col-'] {
+  float: none;
+  width: auto;
+  padding: 0;
+  display: block;
+}
+
+/* ·········································
+   Sidebar 
+   ········································· */
+
+.cv-container .cv-sidebar {
+  position: sticky;
+  top: 50vh;
+  transform: translateY(-50%);
+  height: fit-content;
+  max-height: calc(100vh - var(--spacing-xl));
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 220px;
+}
+
+.cv-container .side-menu {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+/* CV responsive settings moved to responsive.css */
+
+.cv-container .side-menu li {
+  margin-bottom: var(--spacing-s);
+}
+
+.cv-container .side-menu a {
+  font-size: var(--text-base);
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: var(--font-medium);
+  transition: font-size 0.5s cubic-bezier(0.25,0.8,0.25,1), padding 0.5s cubic-bezier(0.25,0.8,0.25,1), line-height 0.5s cubic-bezier(0.25,0.8,0.25,1);
+  line-height: var(--line-height-relaxed);
+}
+
+.cv-container .side-menu a:hover {
+  text-decoration: none !important;
+  color: var(--accent-color);
+  font-size: var(--text-lg);
+  padding-left: 8px;
+  line-height: var(--line-height-relaxed);
+}
+
+.cv-container .side-menu a.active {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: var(--text-lg);
+  padding-left: 8px;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ·········································
+   Contenido principal
+   ········································· */
+
+.cv-container .cv-content {
+  padding: var(--spacing-l);
+}
+
+/* ·········································
+   Indicador de desplazamiento
+   ········································· */
+
+.cv-container .scroll-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    background-color: var(--accent-color);
+    transition: height 0.3s ease;
+    z-index: 10;
+    border-radius: 2px;
+}
+
+/* Asegurar que el ul tenga posición relativa para el indicador */
+.cv-container .side-menu ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    padding-left: 12px;
+    margin: 0;
+}

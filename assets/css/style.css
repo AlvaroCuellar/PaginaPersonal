@@ -1,0 +1,66 @@
+/* =================================================================
+   ARCHIVO CSS PRINCIPAL - IMPORTA TODOS LOS ESTILOS
+   ================================================================= */
+
+/* =================================================================
+   1. CONFIGURACIÓN BASE - Variables y estilos base
+   ================================================================= */
+@import url('config/variables.css');
+@import url('config/base.css');
+
+/* =================================================================
+   2. ICONOS - Fuentes de iconos
+   ================================================================= */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('icons/academicons.min.css');
+
+/* =================================================================
+   3. LAYOUT - Estructura principal de la página
+   ================================================================= */
+@import url('layout/grid.css');
+@import url('layout/header.css');
+@import url('layout/navigation.css');
+@import url('layout/banner.css');
+@import url('layout/footer.css');
+
+/* =================================================================
+   4. COMPONENTES - Elementos reutilizables
+   ================================================================= */
+@import url('components/cards.css');
+@import url('components/links-buttons.css');
+@import url('components/gallery.css');
+@import url('components/tabs.css');
+@import url('components/timeline.css');
+
+/* =================================================================
+   6. DISEÑO RESPONSIVO - Adaptaciones para diferentes dispositivos
+   ================================================================= */
+@import url('responsive/responsive.css');
+
+/* =================================================================
+   ESTILOS GLOBALES ADICIONALES
+   Estilos que no están en otros archivos específicos
+   ================================================================= */
+
+/* Asegurar que el body tenga un reset limpio */
+* {
+    box-sizing: border-box;
+}
+
+/* Suavizar transiciones globales */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Asegurar que las imágenes sean responsivas por defecto */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mejorar la legibilidad del texto */
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

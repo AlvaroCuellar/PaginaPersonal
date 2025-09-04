@@ -1,0 +1,98 @@
+/* ═══════════════════════════════════════════════════════════
+   FOOTER - PIE DE PÁGINA
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Estructura base del footer
+   ········································· */
+
+#landing-footer {
+    clear: both;
+    padding: 60px 0 40px 0;
+}
+
+#landing-footer .row {
+    padding: 0;
+}
+
+/* ·········································
+   Contenedor principal del footer
+   ········································· */
+
+.footer-content {
+    text-align: center;
+}
+
+/* ·········································
+   Secciones del footer
+   ········································· */
+
+.footer-social {
+    margin-bottom: 30px;
+}
+
+/* ·········································
+   Tipografía del footer
+   ········································· */
+
+#landing-footer p {
+    margin: 0;
+}
+
+.copyright {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-normal);
+}
+
+.copyright a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* ·········································
+   Iconos sociales
+   ········································· */
+
+#landing-footer i {
+    color: var(--primary-color);
+}
+
+#landing-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#landing-footer li {
+    display: inline-block;
+    margin: 0 var(--spacing-s);
+}
+
+.footer-social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: var(--text-sm);
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
+
+.footer-social-icons a i {
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.footer-social-icons span {
+    display: none;
+}

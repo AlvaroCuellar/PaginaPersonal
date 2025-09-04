@@ -1,0 +1,52 @@
+<section id="research" class="research scrollto">
+
+  <div class="row clearfix">
+    <div class="col-1">
+      <div class="section-heading">
+        <!--<h3></h3>-->
+        <h2 class="section-title">{{ site.data.i18n[page.lang].research }}</h2>
+      </div>
+
+      <!-- Featured Project -->
+      <div class="hero-project">
+        <div class="hero-project__image" style="background-image: url({{ site.data.research.featured.image | relative_url }});">
+        </div>
+        <div class="hero-project__content">
+          <span class="hero-project__badge">{{ site.data.research.featured.badge[page.lang] }}</span>
+          <h3 class="hero-project__title">{{ site.data.research.featured.title[page.lang] }}</h3>
+          <p class="hero-project__description">
+            {{ site.data.research.featured.description[page.lang] }}
+          </p>
+          <div class="hero-project__links">
+            <a href="{{ site.data.research.featured.url }}" class="button no-icon">{{ site.data.i18n[page.lang].project_button }}</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Research Projects Grid -->
+      <div class="projects-grid">
+        {% assign projects_per_row = 2 %}
+        {% for project_pair in site.data.research.projects %}
+          {% assign row_index = forloop.index0 | modulo: projects_per_row %}
+          {% if row_index == 0 %}
+        <div class="projects-row">
+          {% endif %}
+          <a href="{{ project_pair.url }}" target="_blank" class="project-card">
+            <div class="project-image" style="background-image: url({{ project_pair.image | relative_url }});">
+              <span class="project-badge">{{ project_pair.badge[page.lang] }}</span>
+              <div class="project-overlay">
+                <h3>{{ project_pair.title[page.lang] }}</h3>
+                <p>{{ project_pair.description[page.lang] }}</p>
+                <span class="access-link">{{ site.data.i18n[page.lang].access_text }}</span>
+              </div>
+            </div>
+          </a>
+          {% if row_index == 1 or forloop.last %}
+        </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+</section>

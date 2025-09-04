@@ -5,18 +5,38 @@
 
         <!-- Logo & Site Title -->
         <div id="logo">
-          <a href="#banner" id="navigation-logo">David <b>Merino Recalde</b></a>
+          <a href="#banner" id="navigation-logo">{{ site.data.personal.name }}</a>
         </div>
 
         <!-- Main Navigation Menu -->
-        <nav id="nav-main">
+  <nav id="nav-main">
           <ul>
-            <li><a href="#bio">bio</a></li>
-            <li><a href="#investigacion">investigación</a></li>
-            <li><a href="#teatro">práctica escénica</a></li>
-            <li><a href="#publicaciones">publicaciones</a></li>
-            <li><a href="#ponencias">ponencias</a></li>
-            <li><a class="menu-button" href="/cv/index.html"><span>cv</span></a></li>
+            {% assign lang = page.lang | default: 'es' %}
+            {% for item in site.data.menu %}
+              {% if item.show != false %}
+                <li>
+                  {% if item.section_id %}
+                    {% assign link_url = '#' | append: item.section_id %}
+                  {% elsif item.url[lang] %}
+                    {% assign link_url = item.url[lang] %}
+                  {% else %}
+                    {% assign link_url = item.url %}
+                  {% endif %}
+                  
+                  {% if item.button or item.key == 'cv' %}
+                    <a href="{{ link_url }}" class="menu-button"><span>{{ site.data.i18n[lang][item.key] | default: item.key }}</span></a>
+                  {% else %}
+                    <a href="{{ link_url }}">{{ site.data.i18n[lang][item.key] | default: item.key }}</a>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li class="lang-switcher">
+              <div class="lang-toggle">
+                <a href="{{ page.url | replace:'/es/','/en/' }}" class="lang-option{% if lang == 'en' %} active{% endif %}"><span>EN</span></a>
+                <a href="{{ page.url | replace:'/en/','/es/' }}" class="lang-option{% if lang == 'es' %} active{% endif %}"><span>ES</span></a>
+              </div>
+            </li>
           </ul>
         </nav>
         <!-- End Main Navigation -->
@@ -35,40 +55,17 @@
   <div id="banner-content" class="row clearfix">
     <div class="col-1">
       <div class="section-heading">
-        <h1>David <b>Merino Recalde</b></h1>
+        <h1>{{ site.data.personal.name }}</h1>
         <h2>
-          <b>Investigador predoctoral </b><br>
-          Universitat Autònoma de Barcelona<br><br>
-          Teatro del Siglo de Oro. Humanidades Digitales<br><br>
+          <b>{{ site.data.personal.position[lang] }}</b><br>
+          {{ site.data.personal.affiliation }}<br><br>
+          {% for interest in site.data.personal.interests[lang] %}{{ interest }}{% if forloop.last == false %}. {% endif %}{% endfor %}<br><br>
         </h2>
         <br>
 
         <!-- Social Media Links -->
         <div class="banner-social-icons">
-          <a target="_blank" title="email" class="no-icon" href="mailto:david.merino@uab.cat">
-            <i class="fa fa-envelope fa-2x"></i><span>email</span>
-          </a>
-          <a target="_blank" title="ORCiD" class="no-icon" href="https://orcid.org/0000-0003-2740-7831">
-            <i class="ai ai-orcid ai-2x"></i><span>ORCiD</span>
-          </a>
-          <a target="_blank" title="Google Scholar" class="no-icon" href="https://scholar.google.es/citations?user=HS7G8eYAAAAJ&hl=es">
-            <i class="ai ai-google-scholar ai-2x"></i><span>Google Scholar</span>
-          </a>
-          <a target="_blank" title="Zotero" class="no-icon" href="https://www.zotero.org/dxvidmr/">
-            <i class="ai ai-zotero ai-2x"></i><span>Zotero</span>
-          </a>
-          <a target="_blank" title="GitHub" class="no-icon" href="https://github.com/dxvidmr">
-            <i class="fa-brands fa-github fa-2x"></i><span>GitHub</span>
-          </a>
-          <a target="_blank" title="X" class="no-icon" href="http://www.x.com/dxvidmr">
-            <i class="fa-brands fa-x-twitter fa-2x"></i><span>X</span>
-          </a>
-          <a target="_blank" title="Bluesky" class="no-icon" href="https://bsky.app/profile/dxvidmr.bsky.social">
-            <i class="fa-brands fa-bluesky fa-2x"></i><span>Bluesky</span>
-          </a>
-          <a target="_blank" title="Instagram" class="no-icon" href="https://www.instagram.com/davidmerinorecalde">
-            <i class="fa-brands fa-instagram fa-2x"></i><span>Instagram</span>
-          </a>
+          {% include components/social-icons.html %}
         </div>
         <!-- End Social Media Links -->
       </div>

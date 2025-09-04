@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<!-- CSS específico del CV -->
+<link rel="stylesheet" href="{{ '/assets/css/pages/cv.css' | relative_url }}">
+
+<body class="cv-page">
+<div class="cv-container">
+  <div class="cv-layout">
+
+    <!-- Sidebar / Menú lateral -->
+    <div class="cv-sidebar">
+      <nav class="side-menu" id="nav-main">
+        <div class="cv-back-icon">
+          <a href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/es/' | relative_url }}{% endif %}" title="Volver al inicio">
+            <svg class="back-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M8 5L3 10L8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 10H11C16.5228 10 21 14.4772 21 20V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+        <ul>
+          <!-- Etiquetas tal cual por ahora (luego i18n) -->
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#grants">GRANTS & AWARDS</a></li>
+          <li><a href="#research">RESEARCH PROJECTS</a></li>
+          <li><a href="#software">SOFTWARE & TOOLS</a></li>
+          <li><a href="#publications">PUBLICATIONS</a></li>
+          <li><a href="#talks">TALKS</a></li>
+          <li><a href="#teaching">TEACHING</a></li>
+          <li><a href="#activities">ACTIVITIES</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#languages">LANGUAGES</a></li>
+        </ul>
+      </nav>
+
+      <!-- Toggle móvil (lo conserva tu JS) -->
+      <div id="nav-trigger"><span></span></div>
+      <nav id="nav-mobile"></nav>
+    </div>
+
+    <!-- Contenido variable del CV (por idioma) -->
+    <main class="cv-content">
+      {{ content }}
+    </main>
+
+  </div>
+</div>
+</body>
+<!-- JS específicos del CV -->
+<script src="{{ '/assets/js/jquery.1.8.3.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.waypoints.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/scroll-cv.js' | relative_url }}"></script>

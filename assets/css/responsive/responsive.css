@@ -1,0 +1,523 @@
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE DESIGN SYSTEM - UNIFIED
+   ═══════════════════════════════════════════════════════════
+   
+   Breakpoints unificados para todo el sitio:
+   - Tablet/Small Desktop: 1024px
+   - Mobile: 768px
+   - Small Mobile: 480px
+   - Tiny Mobile: 360px
+   - Large Screens: 1200px
+   - Ultra Wide: 1600px
+   
+   ═══════════════════════════════════════════════════════════ */
+
+/* =================================================================
+   TABLET & SMALL DESKTOP - 1024px
+   ================================================================= */
+
+@media (max-width: 1024px) {
+    
+    /* ·········································
+       NAVIGATION SYSTEM
+       ········································· */
+    
+    /* Mostrar hamburger menu overlay */
+    .hamburger-menu {
+        display: block;
+    }
+    
+    /* Ocultar navegación principal en móvil SOLO en página principal */
+    body:not(.cv-page) #nav-main {
+        display: none !important;
+    }
+    
+    /* En el CV, mantener #nav-main accesible para JS pero ocultar visualmente */
+    .cv-page .cv-sidebar {
+        position: absolute;
+        left: -9999px;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    /* Ocultar sistema de menú móvil antiguo cuando overlay está activo */
+    #nav-trigger,
+    #nav-mobile {
+        display: none !important;
+    }
+    
+    /* Navegación tradicional mobile (backup) - solo página principal */
+    body:not(.cv-page) nav#nav-main {
+        display: none;
+    }
+
+    nav#nav-mobile {
+        display: block;
+    }
+
+    nav#nav-mobile li {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    #header aside {
+        display: none;
+    }
+
+    .publication-grid {
+        margin: 0;
+    }
+    
+    /* ·········································
+       CV LAYOUT SYSTEM
+       ········································· */
+    
+    /* En el CV, ocultar el menú lateral físico pero mantener accesible para JS */
+    .cv-page .cv-sidebar {
+        display: none;
+    }
+    
+    /* Ajustar el layout del CV a una sola columna */
+    .cv-page .cv-layout {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-m);
+    }
+    
+    /* Dar espacio superior para el menú hamburguesa */
+    .cv-page .cv-content {
+        padding-top: 80px;
+    }
+}
+
+/* =================================================================
+   MOBILE DESIGN - 768px
+   ================================================================= */
+
+@media (max-width: 768px) {
+    
+    /* ·········································
+       CORE LAYOUT
+       ········································· */
+    
+    #wrapper {
+        overflow-x: hidden;
+    }
+
+    .page-border, 
+    #scrollUp, 
+    #scrollUp:before {
+        display: none;
+    }
+    
+    /* ·········································
+       GRID SYSTEM
+       ········································· */
+    
+    .row {
+        padding: 40px 20px;
+    }
+    
+    [class*='col-'] {
+        float: none !important;
+        width: 100%;
+    }
+
+    .col-8 {
+        display: none;
+    }
+    
+    /* ·········································
+       TYPOGRAPHY
+       ········································· */
+    
+    h1 {
+        font-size: var(--text-4xl);
+        line-height: 1.2;
+    }
+    
+    h2 {
+        font-size: var(--text-3xl);
+        line-height: 1.3;
+    }
+    
+    h3 {
+        font-size: var(--text-2xl);
+        line-height: 1.4;
+    }
+    
+    p, li {
+        font-size: var(--text-base);
+        line-height: 1.6;
+    }
+    
+    /* ·········································
+       SOCIAL ICONS - BANNER
+       ········································· */
+    
+    .banner-social-icons a {
+        margin: 0 var(--spacing-s);
+        width: 28px;
+    }
+
+    .banner-social-icons a i {
+        font-size: var(--text-2xl);
+    }
+    
+    /* ·········································
+       SOCIAL ICONS - FOOTER
+       ········································· */
+    
+    #landing-footer li {
+        margin: 0 var(--spacing-xs);
+    }
+
+    .footer-social-icons a {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+    #landing-footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--spacing-xs);
+    }
+    
+    /* ·········································
+       PROFILE ELEMENTS
+       ········································· */
+    
+    .profile-photo {
+        width: 280px;
+        height: 280px;
+    }
+    
+    /* ·········································
+       PROJECT COMPONENTS
+       ········································· */
+    
+    .hero-project {
+        grid-template-columns: 1fr;
+        margin-bottom: var(--spacing-m);
+        margin-top: var(--spacing-none);
+    }
+    
+    .hero-project__image {
+        min-height: 250px;
+    }
+    
+    .projects-row,
+    .projects-row:first-child,
+    .projects-row:nth-child(2) {
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: var(--spacing-m);
+    }
+    
+    .project-card {
+        height: 300px;
+    }
+    
+    /* ·········································
+       PRODUCTION COMPONENTS
+       ········································· */
+    
+    .production-hero {
+        display: flex;
+        flex-direction: column;
+        min-height: auto;
+        margin: var(--spacing-m) 0 var(--spacing-l);
+    }
+    
+    .production-hero .production-slider {
+        order: 1;
+    }
+    
+    .production-hero .production-info {
+        order: 2;
+    }
+    
+    .production-slider {
+        min-height: 250px;
+    }
+    
+    /* ·········································
+       LANGUAGE TABS
+       ········································· */
+    
+    .language-tabs {
+        display: flex;
+        flex-direction: row;
+        gap: var(--spacing-s);
+        justify-content: center;
+    }
+
+    .language-tab {
+        flex: 1;
+        margin-right: 0;
+        text-align: center;
+        max-width: 150px;
+    }
+    
+    /* ·········································
+       EVENT GRID
+       ········································· */
+    
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* ·········································
+       TIMELINE COMPONENT
+       ········································· */
+    
+    .timeline-line {
+        left: var(--spacing-lg);
+        transform: none;
+    }
+
+    .timeline-item,
+    .timeline-item.right {
+        padding-left: calc(var(--spacing-lg) + var(--spacing-xl));
+        padding-right: var(--spacing-lg);
+        justify-content: flex-start;
+    }
+
+    .timeline-point {
+        left: var(--spacing-lg);
+        transform: translateX(-50%);
+    }
+
+    .timeline-item:hover .timeline-point {
+        transform: translateX(-50%) scale(1.2);
+    }
+
+    .timeline-content {
+        margin-left: var(--spacing-xl);
+    }
+
+    .timeline-content,
+    .timeline-item.right .timeline-content {
+        text-align: left;
+    }
+
+    .timeline-title {
+        font-size: var(--text-lg);
+    }
+
+    .timeline-subtitle {
+        font-size: var(--text-sm);
+    }
+    
+    /* ·········································
+       MODAL SYSTEM
+       ········································· */
+    
+    .close-modal {
+        top: 1rem;
+    }
+
+    .prev-slide,
+    .next-slide {
+        padding: 0.5rem;
+        font-size: var(--text-2xl);
+    }
+
+    .prev-slide {
+        left: 1rem;
+    }
+
+    .next-slide {
+        right: 1rem;
+    }
+}
+
+/* =================================================================
+   TABLET RANGE - 768px to 900px
+   ================================================================= */
+
+@media (min-width: 768px) and (max-width: 900px) {
+    
+    .projects-row:nth-child(2) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .event-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/* =================================================================
+   SMALL MOBILE - 480px
+   ================================================================= */
+
+@media (max-width: 480px) {
+    
+    /* ·········································
+       GRID SYSTEM
+       ········································· */
+    
+    .row {
+        padding: var(--spacing-xs);
+        padding-top: var(--spacing-l);
+        padding-bottom: var(--spacing-l);
+    }
+    
+    [class*='col-'] {
+        padding: 8px;
+    }
+
+    .bio-content {
+        padding: var(--spacing-none);
+        padding-top: var(--spacing-m);
+    }
+
+    
+    /* ·········································
+       SOCIAL ICONS - BANNER
+       ········································· */
+    
+    .banner-social-icons a {
+        margin: 0 var(--spacing-xxs);
+        width: 24px;
+    }
+
+    .banner-social-icons a i {
+        font-size: var(--text-2xl);
+    }
+    
+    /* ·········································
+       SOCIAL ICONS - FOOTER
+       ········································· */
+    
+    #landing-footer li {
+        margin: 0 var(--spacing-xxs);
+    }
+
+    .footer-social-icons a {
+        width: 32px;
+        height: 32px;
+    }
+
+    .copyright {
+        font-size: var(--text-xs);
+    }
+    
+    /* ·········································
+       PROFILE ELEMENTS
+       ········································· */
+    
+    .profile-photo {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/* =================================================================
+   TINY MOBILE - 360px
+   ================================================================= */
+
+@media (max-width: 360px) {
+    
+    /* ·········································
+       CONTENT SPACING
+       ········································· */
+    
+    .hero-project__content {
+        padding: var(--spacing-m);
+    }
+
+    .production-info {
+        padding: var(--spacing-m);
+    }
+    
+    /* ·········································
+       SOCIAL ICONS - BANNER
+       ········································· */
+    
+    .banner-social-icons a {
+        margin: 0 1px;
+        width: 22px;
+    }
+
+    .banner-social-icons a i {
+        font-size: var(--text-xl);
+    }
+    
+    /* ·········································
+       SOCIAL ICONS - FOOTER
+       ········································· */
+    
+    #landing-footer li {
+        margin: 0 1px;
+    }
+
+    .footer-social-icons a {
+        width: 28px;
+        height: 28px;
+    }
+    
+    /* ·········································
+       PROFILE ELEMENTS
+       ········································· */
+    
+    .profile-photo {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* =================================================================
+   LARGE SCREENS - 1200px+
+   ================================================================= */
+
+@media (min-width: 1200px) {
+    
+    .projects-grid {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero-project {
+        max-width: 1200px;
+        margin: var(--spacing-l) auto;
+    }
+
+    .production-hero {
+        max-width: 1200px;
+        margin: var(--spacing-xl) auto;
+    }
+
+    .event-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}
+
+/* =================================================================
+   ULTRA WIDE SCREENS - 1600px+
+   ================================================================= */
+
+@media (min-width: 1600px) {
+    
+    .projects-grid,
+    .hero-project,
+    .production-hero {
+        max-width: 1400px;
+    }
+}
+
+/* =================================================================
+   BODY SCROLL CONTROL
+   ================================================================= */
+
+body.menu-open {
+    overflow: hidden;
+    height: 100vh;
+}

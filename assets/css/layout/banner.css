@@ -1,0 +1,83 @@
+/* ═══════════════════════════════════════════════════════════
+   BANNER - HERO SECTION
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Estilos del banner principal
+   ········································· */
+
+#banner {
+    background-color: var(--dark-primary);
+    background-image: linear-gradient(121deg, var(--dark-primary) 0%, var(--primary-color) 66%, var(--accent-color) 100%);
+    background-size: cover;
+    height: 100vh;
+}
+
+#banner-content.row {
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+
+/* ·········································
+   Tipografía del banner
+   ········································· */
+
+#banner h1 {
+    font-family: var(--font-family-headings);
+    font-size: var(--text-6xl);
+    line-height: var(--line-height-tight);
+    font-weight: var(--font-bold);
+    color: var(--color-white);
+    padding-top: 5%;
+    text-transform: none;
+}
+
+#banner h2 {
+    font-family: var(--font-family-body);
+    font-size: var(--text-lg);
+    font-weight: var(--font-light);
+    color: var(--color-white);
+}
+
+#banner h2 b {
+    font-weight: var(--font-bold);
+}
+
+#banner .section-heading:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-top: 30px;
+}
+
+/* ·········································
+   Responsive design
+   ········································· */
+
+@media (max-width: 768px) {
+    #banner h1 {
+        font-size: var(--text-5xl);
+        line-height: var(--line-height-tight);
+    }
+
+    #banner h2 {
+        font-size: var(--text-sm);
+    }
+
+    #banner-content.row {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #banner h1 {
+        font-size: var(--text-6xl);
+        line-height: var(--line-height-tight);
+    }
+
+    #banner h2 {
+        font-size: var(--text-base);
+    }
+}

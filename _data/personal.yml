@@ -1,0 +1,29 @@
+name: "David Merino Recalde"
+
+email: "david.merino@uab.cat"
+
+affiliation: "Universitat Autònoma de Barcelona"
+subaffiliation: "PROLOPE, Departamento de Filología Española"
+
+position:
+  es: "Investigador predoctoral"
+  en: "PhD Researcher"
+
+interests:
+  es:
+    - "Teatro del Siglo de Oro"
+    - "Humanidades Digitales"
+  en:
+    - "Spanish Golden Age Theatre"
+    - "Digital Humanities"
+
+social:
+  orcid: "0000-0003-2740-7831"
+  github: "dxvidmr"
+  google_scholar: "HS7G8eYAAAAJ"
+  zotero: "dxvidmr"
+  x: "dxvidmr"
+  bluesky: "dxvidmr.bsky.social"
+  instagram: "davidmerinorecalde"
+
+license: "This customized theme is free to use under the terms of <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' class='no-icon'>CC BY 4.0</a>."

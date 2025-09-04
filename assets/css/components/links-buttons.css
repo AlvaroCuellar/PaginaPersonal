@@ -1,0 +1,208 @@
+/* ═══════════════════════════════════════════════════════════
+   LINKS & BUTTONS
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Enlaces básicos
+   ········································· */
+
+a {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+/* ·········································
+   Enlaces externos
+   ········································· */
+
+/* Clase para prevenir iconos automáticos en enlaces */
+.no-icon {
+    position: relative; /* Asegurar contexto para pseudo-elementos */
+}
+
+/* Agregar icono externo a enlaces http/https */
+a[href^="http://"]:not(.no-icon)::after,
+a[href^="https://"]:not(.no-icon)::after {
+    font-family: 'FontAwesome';
+    content: '\f08e';
+    margin-left: 5px;
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: var(--text-sm);
+}
+
+/* Línea animada debajo de enlaces externos */
+a[href^="http://"]:not(.no-icon)::before,
+a[href^="https://"]:not(.no-icon)::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, transparent, var(--primary-color));
+    transition: width 0.3s ease;
+}
+
+a:not(.no-icon):hover::before {
+    width: 100%;
+}
+
+/* ·········································
+   Botones principales
+   ········································· */
+
+.button {
+    font-weight: var(--font-medium);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-size: var(--text-base);
+    margin: var(--spacing-m) 0;
+    padding: 11px 16px;
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+.button:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+/* ·········································
+   Botones especiales
+   ········································· */
+
+/* Link Button Style */
+.link-button {
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    transition: all .3s linear;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius);
+}
+
+.link-button:hover {
+    border-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+    color: var(--color-white);
+    opacity: .75;
+    cursor: pointer;
+}
+
+/* Menu Button Style */
+.menu-button {
+    font-weight: var(--font-bold);
+    padding-left: var(--spacing-l) !important;
+}
+
+.menu-button span {
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-s) var(--spacing-m);
+    transition: all 0.3s ease;
+}
+
+.menu-button:hover span {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.mobile-menu-content .menu-button:hover span {
+    background-color: var(--accent-color);
+    color: var(--bg-primary);
+}
+
+.mobile-menu-content .menu-button {
+    margin-top: var(--spacing-m);
+}
+
+/* Menu Button in nav-solid state */
+#header.nav-solid .menu-button span {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+#header.nav-solid .menu-button:hover span {
+    background-color: var(--primary-color);
+    color: var(--color-white);
+}
+
+/* ·········································
+   Botones de banner
+   ········································· */
+
+#banner .button {
+    font-family: var(--font-family-body);
+    font-size: var(--text-base);
+    color: var(--color-black);
+    border-color: var(--color-black);
+}
+
+#banner .button:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* ·········································
+   Botones de CV
+   ········································· */
+
+/* ·········································
+   Enlaces en componentes
+   ········································· */
+
+/* Enlaces en proyectos */
+.hero-project__links {
+    display: flex;
+    gap: var(--spacing-m);
+}
+
+.project-overlay .access-link {
+    font-size: var(--text-sm);
+    color: var(--accent-color);
+    font-weight: var(--font-bold);
+    text-decoration: none;
+}
+
+/* Botones en publicaciones */
+.publication-metadata .button {
+    margin-top: var(--spacing-m);
+    float: right;
+    margin-left: var(--spacing-s);
+    margin-bottom: 0;
+}
+
+/* Enlaces en menú lateral del CV */
+.side-menu a {
+    font-size: var(--text-s);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: var(--font-semibold);
+    transition: font-size 0.5s ease;
+}
+
+.side-menu a:hover {
+    font-size: var(--text-m);
+}
+

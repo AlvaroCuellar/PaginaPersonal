@@ -2,8 +2,9 @@
 layout: default
 ---
 {% include header.html %}
-{% include sections/bio.html %}
-{% include sections/investigacion.html %}
-{% include sections/teatro.html %}
-{% include sections/publicaciones.html %}
-{% include sections/ponencias.html %}
+{% assign lang = page.lang | default: 'es' %}
+{% for item in site.data.menu %}
+  {% if item.show != false and item.key != "cv" %}
+    {% include sections/{{ item.section_id }}.html %}
+  {% endif %}
+{% endfor %}

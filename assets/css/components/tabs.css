@@ -1,0 +1,81 @@
+/* ═════════════════════════════════════════════════════════════════════════════
+   TABS - Sistema de pestañas para navegación de contenido
+   ═════════════════════════════════════════════════════════════════════════════ */
+
+
+/* ·········································································
+   Contenedor y estructura de pestañas
+   ········································································· */
+
+.language-tabs {
+    display: flex;
+    background: transparent;
+    position: relative;
+}
+
+
+/* ·········································································
+   Estilos individuales de pestañas
+   ········································································· */
+
+.language-tab {
+    background: transparent;
+    border: none;
+    padding: 12px 24px;
+    margin-right: var(--spacing-m);
+    cursor: pointer;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.language-tab:hover {
+    color: var(--primary-color);
+}
+
+.language-tab.active {
+    color: var(--primary-color);
+}
+
+.language-tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px;
+    animation: slideIn 0.3s ease;
+}
+
+
+/* ·········································································
+   Animaciones para transiciones
+   ········································································· */
+
+@keyframes slideIn {
+    from {
+        width: 0;
+        left: 50%;
+        right: 50%;
+    }
+    to {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+/* ·········································································
+   Contenido de las pestañas
+   ········································································· */
+
+.bio-content {
+    padding: var(--spacing-l);
+}
