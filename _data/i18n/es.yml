@@ -1,9 +1,29 @@
-bio: "BIO"
-research: "INVESTIGACIÓN"
-gallery: "PRACTICA ESCÉNICA"
-publications: "PUBLICACIONES"
-talks: "PONENCIAS"
-cv: "CV"
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
 cv_button: "CV completo"
 project_button: "Ver proyecto"
 access_text: "Acceder →"
+
+# CV Section texts
+cv:
+  sections:
+    about: "ACERCA DE MÍ"
+    education: "EDUCACIÓN"
+    grants: "BECAS Y PREMIOS"
+    research: "EXPERIENCIA INVESTIGADORA"
+    software: "SOFTWARE Y PROYECTOS TÉCNICOS"
+    publications: "PUBLICACIONES"
+    talks: "PONENCIAS Y CONFERENCIAS"
+    teaching: "DOCENCIA"
+    activities: "ACTIVIDADES PROFESIONALES"
+    skills: "HABILIDADES TÉCNICAS"
+    languages: "IDIOMAS"
+
+  education:
+    supervised_by: "Dirigida por"
+    
+  software:
+    technologies: "Tecnologías:"
+    
+  advanced_training: "Formación Avanzada"
+  course_results: "Resultados del curso"

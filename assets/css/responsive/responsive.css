@@ -225,25 +225,37 @@
     }
     
     /* ·········································
-       PRODUCTION COMPONENTS
+       GALLERY COMPONENTS
        ········································· */
     
-    .production-hero {
+    .gallery-hero {
         display: flex;
         flex-direction: column;
-        min-height: auto;
+        height: auto; /* Altura automática para móviles */
         margin: var(--spacing-m) 0 var(--spacing-l);
     }
     
-    .production-hero .production-slider {
+    .gallery-hero .gallery-slider {
         order: 1;
+        min-height: 250px; /* Altura mínima para el slider */
+        height: 250px; /* Altura fija para el slider en móviles */
     }
     
-    .production-hero .production-info {
+    .gallery-hero .gallery-info {
         order: 2;
+        padding: var(--spacing-l); /* Padding más generoso en móviles */
+    }
+
+    /* En móviles, tanto normal como reverse tienen el mismo orden */
+    .gallery-hero.reverse .gallery-slider {
+        order: 1; /* Forzar orden 1 en móviles */
     }
     
-    .production-slider {
+    .gallery-hero.reverse .gallery-info {
+        order: 2; /* Forzar orden 2 en móviles */
+    }
+    
+    .gallery-slider {
         min-height: 250px;
     }
     
@@ -434,7 +446,7 @@
         padding: var(--spacing-m);
     }
 
-    .production-info {
+    .gallery-info {
         padding: var(--spacing-m);
     }
     

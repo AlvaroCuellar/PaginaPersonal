@@ -1,0 +1,7 @@
+<!-- About Me Section -->
+<section id="about" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.about }}
+  </h2>
+  {{ site.data.cv.about[page.lang] | markdownify }}
+</section>

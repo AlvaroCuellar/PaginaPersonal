@@ -1,0 +1,69 @@
+<!-- Talks Section -->
+<section id="talks" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.talks }}
+  </h2>
+
+  {% for cat in site.data.talks.categories %}
+    <h3 class="subsection-title">
+      {{ cat.title[page.lang] }}
+    </h3>
+    {% for talk in cat.items %}
+      <div class="item-container{% if talk.highlight %} highlight{% endif %}">
+        <h5 class="item-date">
+          {% assign meses_es = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+          {% assign mes_num = talk.date | date: "%m" | minus: 1 %}
+          {% assign mes_es = meses_es[mes_num] %}
+          {% assign mes_num_end = talk.date_end | date: "%m" | minus: 1 %}
+          {% assign mes_es_end = meses_es[mes_num_end] %}
+          {% assign dia_ini = talk.date | date: "%d" %}
+          {% assign dia_fin = talk.date_end | date: "%d" %}
+          {% assign mes_ini = talk.date | date: "%m" %}
+          {% assign mes_fin = talk.date_end | date: "%m" %}
+          {% assign anio_ini = talk.date | date: "%Y" %}
+          {% assign anio_fin = talk.date_end | date: "%Y" %}
+          {% if page.lang == 'es' %}
+            {% if talk.date_end %}
+              {% if mes_ini == mes_fin and anio_ini == anio_fin %}
+                {{ dia_ini | plus: 0 }}-{{ dia_fin | plus: 0 }} de {{ mes_es }} de {{ anio_ini }}
+              {% elsif anio_ini == anio_fin %}
+                {{ dia_ini | plus: 0 }} de {{ mes_es }} – {{ dia_fin | plus: 0 }} de {{ mes_es_end }} de {{ anio_ini }}
+              {% else %}
+                {{ dia_ini | plus: 0 }} de {{ mes_es }} de {{ anio_ini }} – {{ dia_fin | plus: 0 }} de {{ mes_es_end }} de {{ anio_fin }}
+              {% endif %}
+            {% else %}
+              {{ dia_ini | plus: 0 }} de {{ mes_es }} de {{ anio_ini }}
+            {% endif %}
+          {% else %}
+            {% if talk.date_end %}
+              {{ talk.date | date: "%B %d" }}–{{ talk.date_end | date: "%d, %Y" }}
+            {% else %}
+              {{ talk.date | date: "%B %d, %Y" }}
+            {% endif %}
+          {% endif %}
+        </h5>
+        <h4 class="item-title">{{ talk.title }}</h4>
+        <div class="item-metadata">
+          {% if talk.event %}
+            {{ talk.event }}<br>
+          {% endif %}
+          {% if talk.institution %}{{ talk.institution }}, {% endif %}{{ talk.location }}
+          {% if talk.role %}<br><em>
+            {% if talk.role[page.lang] %}
+              {{ talk.role[page.lang] }}
+            {% else %}
+              {{ talk.role }}
+            {% endif %}
+          </em>{% endif %}
+          {% if talk.award %}<br><strong>
+            {% if talk.award[page.lang] %}
+              {{ talk.award[page.lang] }}
+            {% else %}
+              {{ talk.award }}
+            {% endif %}
+          </strong>{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</section>

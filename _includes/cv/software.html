@@ -1,0 +1,56 @@
+<!-- Software & Tools Section -->
+<!-- 
+  OPTIONAL SECTION: Software & Digital Tools Developed
+  
+  This section is designed for professionals who develop software, digital tools, 
+  or technical solutions as part of their work. Examples include:
+  - Researchers with custom analysis tools
+  - Academics with digital humanities projects  
+  - Developers with personal/professional software
+  - Digital archivists with specialized databases
+  
+  USAGE:
+  - If not applicable to your field, simply don't include this section in your CV layout
+  - Data structure supports: title, date, type, description, technologies, url, featured flag
+  - Can be adapted for other types of "created works" by changing the title and terminology
+  
+  TO REMOVE: Delete the include cv/software.html line from your CV layout file
+-->
+<section id="software" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.software }}
+  </h2>
+  
+  {% for software in site.data.cv.software %}
+    <div class="item-container{% if software.highlight %} highlight{% endif %}">
+      <h5 class="item-date">{{ software.date }}</h5>
+      <h4 class="item-title">
+        {% if software.url %}
+          <a href="{{ software.url }}" target="_blank">{{ software.title }}</a>
+        {% else %}
+          {{ software.title }}
+        {% endif %}
+      </h4>
+      {% if software.type %}
+        <div class="item-metadata">{{ software.type }}</div>
+      {% endif %}
+      {% if software.description %}
+        <div class="item-description">
+          {% if software.description[page.lang] %}
+            {{ software.description[page.lang] }}
+          {% else %}
+            {{ software.description }}
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if software.technologies %}
+        <div class="item-technologies">
+          <strong>
+            {{ site.data.i18n[page.lang].cv.software.technologies }}
+          </strong>
+          {{ software.technologies | join: ", " }}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>

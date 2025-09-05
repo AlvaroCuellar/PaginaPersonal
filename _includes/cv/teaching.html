@@ -1,0 +1,33 @@
+<!-- Teaching Section -->
+<section id="teaching" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.teaching }}
+  </h2>
+
+  {% for section in site.data.cv.teaching %}
+    <h3 class="subsection-title">{{ section.title[page.lang] }}</h3>
+    {% for item in section.items %}
+      <div class="item-container{% if item.featured %} highlight{% endif %}">
+        <h5 class="item-date">{{ item.date }}</h5>
+        <h4 class="item-title">
+          {% if item.title[page.lang] %}
+            {{ item.title[page.lang] }}
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </h4>
+        <div class="item-metadata">
+          {% if item.event %}{{ item.event }}<br>{% endif %}
+          {{ item.institution }}
+          {% if item.role %}<br><em>
+            {% if item.role[page.lang] %}
+              {{ item.role[page.lang] }}
+            {% else %}
+              {{ item.role }}
+            {% endif %}
+          </em>{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</section>

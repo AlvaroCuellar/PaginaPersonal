@@ -1,0 +1,106 @@
+# =============================================================================
+# TALKS & PRESENTATIONS DATA
+# =============================================================================
+
+
+# Talks & Presentations (dynamic categories)
+categories:
+  - key: invited
+    title:
+      es: "Charlas invitadas"
+      en: "Invited Talks"
+    items:
+      - id: "fuenteovejuna-digital-2025"
+        type: "invited_talk"
+        highlight: true
+        featured: true
+        date: "2025-05-29"
+        date_end: "2025-05-30"
+        title: "Entre lo clásico y lo digital: modelar la transmisión y recepción del teatro áureo"
+        event: "Seminario internacional 'Digitalizar el patrimonio: métodos y herramientas'"
+        institution: "Universidad de Barcelona"
+        location: "Barcelona, Spain"
+      - id: "lope-ai-2025"
+        type: "invited_talk"
+        highlight: true
+        featured: true
+        date: "2025-02-26"
+        title: "Lope de Vega en la era de la Inteligencia Artificial: nuevos métodos para el estudio del teatro áureo"
+        event: "Ciclo de conferencias 'Literatura y Tecnología'"
+        institution: "Universidad Complutense de Madrid"
+        location: "Madrid, Spain"
+      - id: "archivo-participativo-2024"
+        type: "invited_talk"
+        highlight: false
+        featured: false
+        date: "2024-10-31"
+        title: "Hacia un archivo participativo del teatro clásico español"
+        event: "Jornadas de Investigación en Humanidades"
+        institution: "Universidad de Salamanca"
+        location: "Salamanca, Spain"
+  - key: conferences
+    title:
+      es: "Ponencias en congresos (peer-reviewed)"
+      en: "Conference Papers (peer-reviewed)"
+    items:
+      - id: "personajes-redes-2025"
+        type: "conference_paper"
+        highlight: true
+        featured: true
+        date: "2025-10-22"
+        date_end: "2025-10-24"
+        title: "Redes de personajes en el teatro de Lope: análisis computacional de las relaciones dramáticas"
+        event: "XVI Congreso de la Asociación Internacional Siglo de Oro"
+        location: "Salamanca, Spain"
+      - id: "metadrama-tecnica-2024"
+        type: "conference_paper"
+        highlight: true
+        featured: true
+        date: "2024-09-04"
+        date_end: "2024-09-07"
+        title: "METADRAMA: técnica del actor y verso clásico en el laboratorio escénico universitario"
+        event: "XV Congreso de la Asociación Internacional de Teatro Español y Novohispano"
+        location: "Ciudad de México, México"
+      - id: "archivo-digital-fuenteovejuna-2023"
+        type: "conference_paper"
+        highlight: false
+        featured: false
+        date: "2023-07-10"
+        date_end: "2023-07-14"
+        title: "Archivo digital de 'Fuenteovejuna': metodología para la preservación del patrimonio teatral"
+        event: "Digital Humanities 2023"
+        location: "Graz, Austria"
+  - key: panels
+    title:
+      es: "Paneles y mesas redondas"
+      en: "Panels and Roundtables"
+    items:
+      - id: "futuro-edicion-digital-2024"
+        type: "panel"
+        highlight: false
+        featured: false
+        date: "2024-07-22"
+        date_end: "2024-07-24"
+        title: "Mesa redonda: El futuro de la edición digital en los estudios áureos"
+        event: "XIV Congreso Internacional de la AISO"
+        location: "Madrid, Spain"
+        role:
+          es: "Participante"
+          en: "Participant"
+  - key: posters
+    title:
+      es: "Pósters"
+      en: "Posters"
+    items:
+      - id: "modelado-ontologico-2023"
+        type: "poster"
+        highlight: true
+        featured: true
+        date: "2023-10-18"
+        date_end: "2023-10-20"
+        title: "Modelado ontológico para el patrimonio teatral: el caso de 'Fuenteovejuna'"
+        event: "VI Congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas"
+        location: "Universidad Internacional de La Rioja, Logroño, Spain"
+        award:
+          es: "Premio al Mejor Póster"
+          en: "Best Poster Award"

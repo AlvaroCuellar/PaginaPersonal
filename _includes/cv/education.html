@@ -1,0 +1,49 @@
+<!-- Education Section -->
+<section id="education" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.education }}
+  </h2>
+  
+  {% for item in site.data.cv.education %}
+    <div class="item-container{% if item.highlight %} highlight{% endif %}">
+      <h5 class="item-date">
+        {% if item.date[page.lang] %}
+          {{ item.date[page.lang] }}
+        {% else %}
+          {{ item.date }}
+        {% endif %}
+      </h5>
+      <h4 class="item-title">
+        {% if item.title[page.lang] %}
+          {{ item.title[page.lang] }}
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h4>
+      <div class="item-metadata">
+        {{ item.institution }}
+      </div>
+      {% if item.thesis %}
+        <div class="item-description">
+          <strong>
+            {% if item.thesis.type[page.lang] %}
+              {{ item.thesis.type[page.lang] }}
+            {% else %}
+              {{ item.thesis.type }}
+            {% endif %}
+          </strong>
+          <br>
+          {{ item.thesis.title }}
+          {% if item.thesis.supervisors %}
+            <br>
+            {{ site.data.i18n[page.lang].cv.education.supervised_by }}: {{ item.thesis.supervisors | join: ', ' }}
+          {% endif %}
+          {% if item.thesis.url %}
+            <br>
+            <a href="{{ item.thesis.url }}" target="_blank">{{ item.thesis.url }}</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>

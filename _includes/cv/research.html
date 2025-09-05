@@ -1,0 +1,25 @@
+<!-- Research Projects Section -->
+<section id="research" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.research }}
+  </h2>
+
+  {% for project in site.data.cv.research %}
+    <div class="item-container">
+      <h5 class="item-date">{{ project.date }}</h5>
+      <h4 class="item-title">{{ project.title }}</h4>
+      {% if project.metadata %}
+        <div class="item-metadata">{{ project.metadata | newline_to_br }}</div>
+      {% endif %}
+      {% if project.description %}
+        <div class="item-description">
+          {% if project.description[page.lang] %}
+            {{ project.description[page.lang] }}
+          {% else %}
+            {{ project.description }}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>

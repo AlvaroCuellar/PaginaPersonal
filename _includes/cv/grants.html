@@ -1,0 +1,37 @@
+<!-- Grants & Awards Section -->
+<section id="grants" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.grants }}
+  </h2>
+  
+  {% for grant in site.data.cv.grants %}
+    <div class="item-container{% if grant.highlight %} highlight{% endif %}">
+      <h5 class="item-date">
+        {% if grant.date[page.lang] %}
+          {{ grant.date[page.lang] }}
+        {% else %}
+          {{ grant.date }}
+        {% endif %}
+      </h5>
+      <h4 class="item-title">
+        {% if grant.title[page.lang] %}
+          {{ grant.title[page.lang] }}
+        {% else %}
+          {{ grant.title }}
+        {% endif %}
+      </h4>
+      <div class="item-metadata">
+        {{ grant.institution }}
+      </div>
+      {% if grant.description %}
+        <div class="item-description">
+          {% if grant.description[page.lang] %}
+            {{ grant.description[page.lang] | newline_to_br }}
+          {% else %}
+            {{ grant.description | newline_to_br }}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>

@@ -65,9 +65,35 @@
 
 .projects-grid {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     gap: var(--spacing-l);
+    grid-auto-rows: 400px;
+}
+
+/* Width classes for flexible project sizing */
+.project-card[data-width="full"] {
+    grid-column: span 12;
+}
+
+.project-card[data-width="1/2"] {
+    grid-column: span 6;
+}
+
+.project-card[data-width="1/3"] {
+    grid-column: span 4;
+}
+
+.project-card[data-width="2/3"] {
+    grid-column: span 8;
+}
+
+.project-card[data-width="5/12"] {
+    grid-column: span 5;
+}
+
+.project-card[data-width="7/12"] {
+    grid-column: span 7;
 }
 
 .projects-row {

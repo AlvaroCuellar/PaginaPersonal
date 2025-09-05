@@ -1,0 +1,27 @@
+<!-- Skills Section -->
+<section id="skills" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.sections.skills }}
+  </h2>
+  
+  <div class="skills-grid">
+    {% for skill_category in site.data.cv.skills %}
+      {% assign category_name = skill_category[0] %}
+      {% assign category_data = skill_category[1] %}
+      <div class="skill-group">
+        <h4>
+          {% if category_data.title[page.lang] %}
+            {{ category_data.title[page.lang] }}
+          {% else %}
+            {{ category_data.title }}
+          {% endif %}
+        </h4>
+        <ul class="skill-list">
+          {% for item in category_data.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</section>

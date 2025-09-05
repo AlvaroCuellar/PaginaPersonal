@@ -5,8 +5,10 @@
         {% assign lang = page.lang | default: 'es' %}
         <div class="col-2">
             <div class="section-heading">
-                <h3>{{ site.data.bio.subtitle[lang] }}</h3>
-                <h2 class="section-title">{{ site.data.bio.title[lang] }}</h2>
+                {% if site.data.bio.subtitle[lang] %}
+                  <h3>{{ site.data.bio.subtitle[lang] }}</h3>
+                {% endif %}
+                <h2 class="section-title">{{ site.data.bio.section_title[lang] }}</h2>
             </div>
             <div class="bio-content">
                 {{ site.data.bio.bio[lang] | markdownify }}

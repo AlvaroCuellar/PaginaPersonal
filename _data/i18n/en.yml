@@ -1,9 +1,29 @@
-bio: "BIO"
-research: "RESEARCH"
-gallery: "THEATRE"
-publications: "PUBLICATIONS"
-talks: "TALKS"
-cv: "CV"
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
 cv_button: "Full CV"
 project_button: "View project"
 access_text: "Access →"
+
+# CV Section texts
+cv:
+  sections:
+    about: "ABOUT ME"
+    education: "EDUCATION"
+    grants: "GRANTS AND AWARDS"
+    research: "RESEARCH EXPERIENCE"
+    software: "SOFTWARE AND TECHNICAL PROJECTS"
+    publications: "PUBLICATIONS"
+    talks: "TALKS AND PRESENTATIONS"
+    teaching: "TEACHING EXPERIENCE"
+    activities: "PROFESSIONAL ACTIVITIES"
+    skills: "TECHNICAL SKILLS"
+    languages: "LANGUAGES"
+
+  education:
+    supervised_by: "Supervised by"
+    
+  software:
+    technologies: "Technologies:"
+    
+  advanced_training: "Advanced Training"
+  course_results: "Course results"

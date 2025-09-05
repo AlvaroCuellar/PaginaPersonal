@@ -1,0 +1,77 @@
+<!-- Advanced Training Section -->
+<section id="training" class="cv-section">
+  <h2 class="section-title">
+    {{ site.data.i18n[page.lang].cv.advanced_training }}
+  </h2>
+  
+  {% if site.data.cv.training %}
+    <div class="training-chips">
+      {% for training in site.data.cv.training %}
+        <div class="training-chip" data-training="{{ training.id }}">
+          <div class="chip-summary">
+            <span class="chip-title">
+              {% if training.skill[page.lang] %}
+                {{ training.skill[page.lang] }}
+              {% elsif training.skill.en %}
+                {{ training.skill.en }}
+              {% else %}
+                {{ training.skill }}
+              {% endif %}
+            </span>
+            <span class="chip-year">
+              {% if training.date[page.lang] %}
+                {{ training.date[page.lang] | date: "%Y" }}
+              {% else %}
+                {{ training.date | date: "%Y" }}
+              {% endif %}
+            </span>
+          </div>
+          <div class="chip-details">
+            <h4 class="training-full-title">
+              {% if training.title[page.lang] %}
+                {{ training.title[page.lang] }}
+              {% elsif training.title.en %}
+                {{ training.title.en }}
+              {% else %}
+                {{ training.title }}
+              {% endif %}
+            </h4>
+            <div class="training-meta">
+              <div class="training-institution">{{ training.institution }}</div>
+              <div class="training-type">
+                {% if training.type[page.lang] %}
+                  {{ training.type[page.lang] }}
+                {% else %}
+                  {{ training.type }}
+                {% endif %}
+              </div>
+              <div class="training-date">
+                {% if training.date[page.lang] %}
+                  {{ training.date[page.lang] }}
+                {% else %}
+                  {{ training.date }}
+                {% endif %}
+              </div>
+            </div>
+            {% if training.results %}
+              <div class="training-results">
+                <strong>{{ site.data.i18n[page.lang].cv.course_results }}:</strong>
+                {% for result in training.results %}
+                  <a href="{{ result.url }}" target="_blank" class="result-link">
+                    {% if result.title[page.lang] %}
+                      {{ result.title[page.lang] }}
+                    {% elsif result.title.en %}
+                      {{ result.title.en }}
+                    {% else %}
+                      {{ result.title }}
+                    {% endif %}
+                  </a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>

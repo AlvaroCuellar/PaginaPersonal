@@ -1,0 +1,26 @@
+{% comment %}
+Helper para obtener texto traducido o texto directo
+Uso: {% include helpers/translate.html text=item.field %}
+Retorna: texto en el idioma actual si existe, o texto directo si no hay traducciones
+{% endcomment %}
+
+{% assign helper_text = include.text %}
+{% assign helper_lang = page.lang %}
+{% assign helper_result = '' %}
+
+{% unless helper_text == nil or helper_text == '' %}
+  {% assign helper_text_type = helper_text | type %}
+  {% if helper_text_type == 'Hash' %}
+    {% if helper_text[helper_lang] %}
+      {% assign helper_result = helper_text[helper_lang] %}
+    {% elsif helper_text.en %}
+      {% assign helper_result = helper_text.en %}
+    {% elsif helper_text.es %}
+      {% assign helper_result = helper_text.es %}
+    {% endif %}
+  {% else %}
+    {% assign helper_result = helper_text %}
+  {% endif %}
+{% endunless %}
+
+{{ helper_result }}
