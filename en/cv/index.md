@@ -1,11 +1,20 @@
 ---
 layout: cv
-title: "Currículum"
-permalink: /es/cv/
-lang: es
+title: "Curriculum Vitae"
+permalink: /en/cv/
+lang: en
 ---
 
-<!-- Pega aquí tus secciones del CV en el orden original:
-     #header, #about, #education, #grants, #research, #software,
-     #publications, #talks, #teaching, #activities, #skills, #languages
-     (solo el contenido; sin <html>, <head>, ni sidebar) -->
+{% include cv/header.html %}
+{% include cv/about.html %}
+{% include cv/education.html %}
+{% include cv/training.html %}
+{% include cv/grants.html %}
+{% include cv/research.html %}
+{% include cv/software.html %}
+{% include cv/publications.html %}
+{% include cv/talks.html %}
+{% include cv/teaching.html %}
+{% include cv/activities.html %}
+{% include cv/skills.html %}
+{% include cv/languages.html %}
