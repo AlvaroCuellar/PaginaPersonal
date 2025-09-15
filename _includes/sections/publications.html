@@ -1,75 +1,68 @@
 <section id="publications" class="publications scrollto">
-
   <div class="row clearfix">
     <div class="col-1">
       <div class="section-heading">
-        <h3>Selección de</h3>
-        <h2 class="section-title">Publicaciones</h2>
+        {% assign lang = page.lang | default: 'es' %}
+        {% if site.data.home.publications.subtitle[lang] %}
+          <h3>{{ site.data.home.publications.subtitle[lang] }}</h3>
+        {% endif %}
+        <h2 class="section-title">{{ site.data.home.publications.section_title[lang] }}</h2>
       </div>
       <div class="col-8"></div>
-
       <div class="col-3-4">
         <div class="publication-grid">
-
-          <div class="publication-card">
-            <h5 class="category-label">Book Chapter (forthcoming)</h5>
-            <div class="publication-title">
-              Documentos en acción: fundamentos para la investigación escénica de la técnica actoral del Siglo de Oro
-            </div>
-            <div class="publication-metadata">
-              <div class="publication-source">En <i>Título por confirmar</i>, editado por Gaston Gilabert.</div>
-              <div class="publication-details">Reichenberger, 2025</div>
-            </div>
-          </div>
-
-          <div class="publication-card">
-            <h5 class="category-label">Book Chapter</h5>
-            <div class="publication-title">
-              De la escena al grafo: visualización de personajes teatrales como herramienta pedagógica en las obras de la Edad de Plata
-            </div>
-            <div class="publication-metadata">
-              <div class="publication-source">En <i>Escritoras de la Edad de Plata: recuperando su memoria en educación secundaria y bachillerato</i>, editado por María Aboal López y José Torres Álvarez.</div>
-              <div class="publication-details">Tirant lo Blanch, 2025</div>
-              <a href="https://open.tirant.com/cloudLibrary/ebook/info/9788410814356" target="_blank" class="button no-icon">Acceder</a>
-            </div>
-          </div>
-
-          <div class="publication-card">
-            <h5 class="category-label">Peer-reviewed Tutorial</h5>
-            <div class="publication-title">
-              Análisis de redes sociales de personajes teatrales
-            </div>
-            <div class="publication-metadata">
-              <div class="publication-source"><i>Programming Historian en español</i>, n.º 7 (2023)</div>
-              <div class="publication-details"></div>
-              <a href="https://doi.org/10.46430/phes0065" target="_blank" class="button no-icon">Parte 2</a>
-              <a href="https://doi.org/10.46430/phes0064" target="_blank" class="button no-icon">Parte 1</a>
-            </div>
-          </div>
-
-          <div class="publication-card">
-            <h5 class="category-label">Book Chapter</h5>
-            <div class="publication-title">
-              Estructuras de personajes en ocho comedias urbanas de Lope de Vega a través del análisis de redes sociales
-            </div>
-            <div class="publication-metadata">
-              <div class="publication-source">En <i>"Multum legendum". Actas del XII Congreso Internacional Jóvenes Investigadores Siglo de Oro (JISO 2022)</i>, editado por Carlos Mata Induráin, Ariel Núñez Sepúlveda, y Miren Usunáriz Iribertegui, 453-473.</div>
-              <div class="publication-details">BIADIG 71. Pamplona: Servicio de Publicaciones de la Universidad de Navarra, 2023</div>
-              <a href="https://hdl.handle.net/10171/67725" target="_blank" class="button no-icon">Acceder</a>
-            </div>
-          </div>
-
+          <!-- Featured publications from processed bibliography data -->
+          {% assign featured_keys = site.data.home.publications.featured_keys %}
+          {% for key in featured_keys %}
+            {% assign entry = site.data.bibliography[key] %}
+            {% if entry %}
+              <div class="publication-card">
+                <h5 class="category-label">{{ site.data.i18n[lang].publication_types[entry.type] | default: entry.type | capitalize }}</h5>
+                <div class="publication-title">{{ entry.title }}</div>
+                <div class="publication-metadata">
+                  <div class="publication-source">
+                    {% assign source_text = "" %}
+                    {% if entry.journal and entry.journal != "" %}
+                      {% assign source_text = "<em>" | append: entry.journal | append: "</em>" %}
+                    {% endif %}
+                    {% if entry.booktitle and entry.booktitle != "" %}
+                      {% assign source_text = site.data.i18n[lang].publication_text.in | append: " <em>" | append: entry.booktitle | append: "</em>" %}
+                    {% endif %}
+                    {% if entry.year and entry.year != "" %}
+                      {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
+                      {% assign source_text = source_text | append: entry.year %}
+                    {% endif %}
+                    {{ source_text }}
+                  </div>
+                  <div class="publication-details">
+                    {% assign detail_parts = "" | split: "" %}
+                    {% if entry.publisher and entry.publisher != "" %}{% assign detail_parts = detail_parts | push: entry.publisher %}{% endif %}
+                    {% if entry.address and entry.address != "" %}{% assign detail_parts = detail_parts | push: entry.address %}{% endif %}
+                    {% if entry.pages and entry.pages != "" %}{% assign detail_parts = detail_parts | push: entry.pages %}{% endif %}
+                    {{ detail_parts | join: ", " }}
+                  </div>
+                  {% if entry.url and entry.url != "" %}<a href="{{ entry.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
+                  {% if entry.doi and entry.doi != "" %}<a href="https://doi.org/{{ entry.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
+                  {% assign links = site.data.home.publications.links[key] %}
+                  {% if links.pdf %}<a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+                  {% if links.code %}<a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+                  {% if links.slides %}<a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+                  {% if links.data %}<a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+                  {% if links.video %}<a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
+                  {% if links.poster %}<a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
 
         <div class="more-cv">
-          <a href="cv/index.html#publications" class="link-button">
-            Ver todas las publicaciones →
+          <a href="{% if lang == 'en' %}/en{% else %}/es{% endif %}/cv/#publications" class="link-button">
+            {{ site.data.i18n[lang].more_cv.publications }}
           </a>
         </div>
       </div>
-
       <div class="col-8"></div>
     </div>
   </div>
-
 </section>

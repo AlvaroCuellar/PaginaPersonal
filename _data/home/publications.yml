@@ -1,0 +1,25 @@
+subtitle:
+  es: "Selección de"
+  en: "Featured"
+section_title:
+  es: "Publicaciones"
+  en: "Publications"
+
+
+
+# Metadatos adicionales para publicaciones
+# Las claves deben coincidir con las del publications.bib
+
+featured_keys:
+  - "merino2025teatro"
+  - "merino2024fuenteovejuna"
+  - "gonzalez2023citcem"
+
+# Links adicionales a DOI o URL por publicación (opcional)
+links:
+  merino2024fuenteovejuna:
+    pdf: "/assets/papers/merino2024.pdf"
+    slides: "/assets/slides/merino2024.pdf"
+  merino2025teatro:
+    pdf: "/assets/papers/merino2023.pdf"
+    code: "https://github.com/dxvidmr/network-analysis"

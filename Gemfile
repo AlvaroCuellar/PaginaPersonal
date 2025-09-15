@@ -6,5 +6,6 @@ gem 'tzinfo'
 gem 'tzinfo-data'
 
 group :jekyll_plugins do
-  # plugins
+  gem 'jekyll-scholar'
+  gem 'bibtex-ruby'
 end

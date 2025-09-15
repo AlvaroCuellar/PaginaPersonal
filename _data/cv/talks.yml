@@ -1,7 +1,6 @@
-# =============================================================================
-# TALKS & PRESENTATIONS DATA
-# =============================================================================
-
+section_title:
+  es: "Ponencias y conferencias"
+  en: "Talks and Presentations"
 
 # Talks & Presentations (dynamic categories)
 categories:

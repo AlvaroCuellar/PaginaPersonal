@@ -5,3 +5,19 @@ permalink: pretty
 
 markdown: kramdown
 highlighter: rouge
+
+# Jekyll Scholar Configuration
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: _data
+  bibliography: publications.bib
+  repository: assets/papers
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"

@@ -1,0 +1,14 @@
+section_title:
+  es: "Idiomas"
+  en: "Languages"
+
+items:
+- language: "Spanish"
+  level:
+    es: "Nativo"
+    en: "Native"
+
+- language: "English"
+  level:
+    es: "Intermedio alto a avanzado"
+    en: "Upper-Intermediate to Advanced"

@@ -1,0 +1,77 @@
+{% comment %}
+  HELPER DE FECHAS PARA CV
+  Formatea fechas individuales o rangos de fechas según el idioma
+  
+  Parámetros:
+  - date_start: fecha de inicio (requerido) - puede ser string o objeto multiidioma
+  - date_end: fecha de fin (opcional) - puede ser string o objeto multiidioma
+  - lang: idioma ('es' o 'en')
+  - format: 'full' (completo), 'year' (solo año), o 'simple' (sin formateo especial)
+{% endcomment %}
+
+{% assign meses_es = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+
+{% comment %} Determinar fecha de inicio {% endcomment %}
+{% if include.date_start[include.lang] %}
+  {% assign start_date = include.date_start[include.lang] %}
+{% elsif include.date_start.en %}
+  {% assign start_date = include.date_start.en %}
+{% else %}
+  {% assign start_date = include.date_start %}
+{% endif %}
+
+{% comment %} Determinar fecha de fin si existe {% endcomment %}
+{% if include.date_end %}
+  {% if include.date_end[include.lang] %}
+    {% assign end_date = include.date_end[include.lang] %}
+  {% elsif include.date_end.en %}
+    {% assign end_date = include.date_end.en %}
+  {% else %}
+    {% assign end_date = include.date_end %}
+  {% endif %}
+{% endif %}
+
+{% if include.format == 'year' %}
+  {% comment %} Solo año para chips y badges {% endcomment %}
+  {% if start_date %}
+    {{ start_date | date: "%Y" }}
+  {% endif %}
+{% elsif include.format == 'simple' %}
+  {% comment %} Formato simple sin procesamiento {% endcomment %}
+  {{ start_date }}
+{% else %}
+  {% comment %} Formato completo para eventos {% endcomment %}
+  {% assign mes_num = start_date | date: "%m" | minus: 1 %}
+  {% assign mes_es = meses_es[mes_num] %}
+  {% assign dia_ini = start_date | date: "%d" %}
+  {% assign mes_ini = start_date | date: "%m" %}
+  {% assign anio_ini = start_date | date: "%Y" %}
+  
+  {% if end_date %}
+    {% assign mes_num_end = end_date | date: "%m" | minus: 1 %}
+    {% assign mes_es_end = meses_es[mes_num_end] %}
+    {% assign dia_fin = end_date | date: "%d" %}
+    {% assign mes_fin = end_date | date: "%m" %}
+    {% assign anio_fin = end_date | date: "%Y" %}
+  {% endif %}
+  
+  {% if include.lang == 'es' %}
+    {% if end_date %}
+      {% if mes_ini == mes_fin and anio_ini == anio_fin %}
+        {{ dia_ini | plus: 0 }}-{{ dia_fin | plus: 0 }} de {{ mes_es }} de {{ anio_ini }}
+      {% elsif anio_ini == anio_fin %}
+        {{ dia_ini | plus: 0 }} de {{ mes_es }} – {{ dia_fin | plus: 0 }} de {{ mes_es_end }} de {{ anio_ini }}
+      {% else %}
+        {{ dia_ini | plus: 0 }} de {{ mes_es }} de {{ anio_ini }} – {{ dia_fin | plus: 0 }} de {{ mes_es_end }} de {{ anio_fin }}
+      {% endif %}
+    {% else %}
+      {{ dia_ini | plus: 0 }} de {{ mes_es }} de {{ anio_ini }}
+    {% endif %}
+  {% else %}
+    {% if end_date %}
+      {{ start_date | date: "%B %d" }}–{{ end_date | date: "%d, %Y" }}
+    {% else %}
+      {{ start_date | date: "%B %d, %Y" }}
+    {% endif %}
+  {% endif %}
+{% endif %}

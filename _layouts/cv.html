@@ -22,42 +22,13 @@
           </a>
         </div>
         <ul>
-          <li><a href="#about">
-            {% if page.lang == 'en' %}ABOUT ME{% else %}SOBRE MÍ{% endif %}
-          </a></li>
-          <li><a href="#education">
-            {% if page.lang == 'en' %}EDUCATION{% else %}FORMACIÓN{% endif %}
-          </a></li>
-          <li><a href="#training">
-            {% if page.lang == 'en' %}TRAINING{% else %}CURSOS{% endif %}
-          </a></li>
-          <li><a href="#grants">
-            {% if page.lang == 'en' %}GRANTS & AWARDS{% else %}BECAS Y PREMIOS{% endif %}
-          </a></li>
-          <li><a href="#research">
-            {% if page.lang == 'en' %}RESEARCH{% else %}INVESTIGACIÓN{% endif %}
-          </a></li>
-          <li><a href="#software">
-            {% if page.lang == 'en' %}SOFTWARE{% else %}SOFTWARE{% endif %}
-          </a></li>
-          <li><a href="#publications">
-            {% if page.lang == 'en' %}PUBLICATIONS{% else %}PUBLICACIONES{% endif %}
-          </a></li>
-          <li><a href="#talks">
-            {% if page.lang == 'en' %}TALKS{% else %}PONENCIAS{% endif %}
-          </a></li>
-          <li><a href="#teaching">
-            {% if page.lang == 'en' %}TEACHING{% else %}DOCENCIA{% endif %}
-          </a></li>
-          <li><a href="#activities">
-            {% if page.lang == 'en' %}ACTIVITIES{% else %}ACTIVIDADES{% endif %}
-          </a></li>
-          <li><a href="#skills">
-            {% if page.lang == 'en' %}SKILLS{% else %}HABILIDADES{% endif %}
-          </a></li>
-          <li><a href="#languages">
-            {% if page.lang == 'en' %}LANGUAGES{% else %}IDIOMAS{% endif %}
-          </a></li>
+          {% for item in site.data.cv.menu %}
+            {% if item.show != false %}
+              <li><a href="#{{ item.section_id }}">
+                {{ item.title[page.lang] }}
+              </a></li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </nav>
 
@@ -69,18 +40,13 @@
     <!-- Contenido principal del CV -->
     <main class="cv-content">
       {% include cv/header.html %}
-      {% include cv/about.html %}
-      {% include cv/education.html %}
-      {% include cv/training.html %}
-      {% include cv/grants.html %}
-      {% include cv/research.html %}
-      {% include cv/software.html %}
-      {% include cv/publications.html %}
-      {% include cv/talks.html %}
-      {% include cv/teaching.html %}
-      {% include cv/activities.html %}
-      {% include cv/skills.html %}
-      {% include cv/languages.html %}
+      
+      {% for item in site.data.cv.menu %}
+        {% if item.show != false %}
+          {% capture include_path %}cv/{{ item.key }}.html{% endcapture %}
+          {% include {{ include_path }} %}
+        {% endif %}
+      {% endfor %}
       
       {{ content }}
     </main>
@@ -91,8 +57,8 @@
 <!-- JS específicos del CV -->
 <script src="{{ '/assets/js/jquery.1.8.3.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/jquery.waypoints.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/scroll-cv.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/training-chips.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/navigation-cv.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/mobile-overlay.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/interactive-chips.js' | relative_url }}"></script>
 </body>
 </html>

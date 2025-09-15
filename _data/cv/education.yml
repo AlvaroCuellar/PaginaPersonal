@@ -1,0 +1,69 @@
+section_title:
+  es: "Formación académica"
+  en: "Education"
+
+items:
+- id: "phd-spanish-2023"
+  highlight: true
+  date: 
+    es: "2023 – Presente"
+    en: "2023 – Present"
+  title:
+    es: "Doctorado en Filología Española"
+    en: "PhD in Spanish Filology"
+  institution: "Universitat Autònoma de Barcelona"
+  thesis:
+    type:
+      es: "Tesis doctoral (en curso)"
+      en: "Doctoral Thesis (in progress)"
+    title: "<i>Todos a una</i>: transmisión, recepción e impacto cultural de un clásico. Modelado, edición y archivo digital de <i>Fuenteovejuna</i>, de Lope de Vega."
+    supervisors:
+      - "Dr. Ramón Valdés Gázquez (UAB)"
+      - "Dr. Susanna Allès Torrent (University of Miami)"
+
+- id: "ma-literary-2022"
+  highlight: false
+  date: 
+    es: "2020–2022"
+    en: "2020–2022"
+  title:
+    es: "Máster en Formación e Investigación Literaria y Teatral"
+    en: "M.A. in Literary and Theatre Training and Research"
+  institution: "Universidad Nacional de Educación a Distancia"
+  thesis:
+    type:
+      es: "Trabajo de Fin de Máster"
+      en: "Master's Thesis"
+    title: "El sistema de personajes de las comedias urbanas de Lope de Vega. Propuesta metodológica y posibilidades del análisis de redes sociales para el estudio del teatro del Siglo de Oro"
+    url: "https://hdl.handle.net/20.500.14468/21790"
+
+- id: "ma-digital-2020"
+  highlight: true
+  date: 
+    es: "2019–2020"
+    en: "2019–2020"
+  title:
+    es: "Máster en Humanidades Digitales"
+    en: "M.A. in Digital Humanities"
+  institution: "Universidad Nacional de Educación a Distancia"
+  thesis:
+    type:
+      es: "Trabajo de Fin de Máster"
+      en: "Master's Thesis"
+    title: "Estudios teatrales y Humanidades Digitales. Un estado de la cuestión del cruce entre disciplinas en la investigación del teatro español"
+    url: "https://hdl.handle.net/20.500.14468/21889"
+
+- id: "ba-theatre-2019"
+  highlight: false
+  date: 
+    es: "2014–2019"
+    en: "2014–2019"
+  title:
+    es: "Grado en Arte Dramático (Interpretación)"
+    en: "B.A. in Theatre and Performing Arts (Acting)"
+  institution: "Escuela Superior de Arte Dramático del Principado de Asturias"
+  thesis:
+    type:
+      es: "Trabajo de Fin de Grado"
+      en: "Bachelor's Thesis"
+    title: "Sodomitas, travestis, putos y mari(c)ones barrocos: la inversión sexual masculina como recurso cómico del teatro breve del Siglo de Oro español"

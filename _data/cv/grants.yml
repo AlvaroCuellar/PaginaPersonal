@@ -1,0 +1,38 @@
+section_title:
+  es: "Becas y financiación"
+  en: "Grants and Funding"
+
+items:
+- id: "joan-oro-2023"
+  highlight: true
+  date: 
+    es: "2023 – Presente"
+    en: "2023 – Present"
+  title:
+    es: "Beca predoctoral Joan Oró"
+    en: "Joan Oró PhD Fellowship"
+  institution: "AGAUR-FI 2023 / €73,125.40"
+  description:
+    es: |
+      Secretaría de Universidades e Investigación de Cataluña.
+      Cofinanciada por el Fondo Social Europeo Plus.
+      Beca competitiva que financia un contrato de investigación predoctoral en la Universitat Autònoma de Barcelona.
+    en: |
+      Catalan Secretariat for Research and Universities.
+      Co-funded by the European Social Plus Fund.
+      Competitive fellowship funding a PhD research contract at the Universitat Autònoma de Barcelona.
+
+- id: "best-poster-2023"
+  highlight: false
+  date: "2023"
+  title:
+    es: "Premio al Mejor Póster"
+    en: "Best Poster Award"
+  institution: "VI Congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas"
+  description:
+    es: |
+      Universidad Internacional de La Rioja, Logroño, 18–20 de octubre de 2023.
+      Reconocimiento por la presentación de investigación en formato póster.
+    en: |
+      Universidad Internacional de La Rioja, Logroño, October 18–20, 2023.
+      Recognition for poster presentation of research findings.

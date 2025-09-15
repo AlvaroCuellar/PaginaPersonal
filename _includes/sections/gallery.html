@@ -3,13 +3,13 @@
   <div class="row clearfix">
     <div class="col-1">
       <div class="section-heading">
-        {% if site.data.gallery.subtitle[page.lang] %}
-          <h3>{{ site.data.gallery.subtitle[page.lang] }}</h3>
+        {% if site.data.home.gallery.subtitle[page.lang] %}
+          <h3>{{ site.data.home.gallery.subtitle[page.lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.gallery.section_title[page.lang] }}</h2>
+        <h2 class="section-title">{{ site.data.home.gallery.section_title[page.lang] }}</h2>
       </div>
 
-      {% for item in site.data.gallery.items %}
+      {% for item in site.data.home.gallery.items %}
         {% assign item_index = forloop.index0 %}
         
         <!-- Gallery Hero Item -->
@@ -61,7 +61,7 @@
   <!-- Script para inyectar datos de la galería en JavaScript -->
   <script>
     window.galleryData = [
-      {% for item in site.data.gallery.items %}
+      {% for item in site.data.home.gallery.items %}
       {
         images_folder: "{{ item.images_folder }}",
         images_prefix: "{{ item.images_prefix }}",

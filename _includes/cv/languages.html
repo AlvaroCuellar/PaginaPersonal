@@ -1,13 +1,13 @@
 <!-- Languages Section -->
 <section id="languages" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.languages }}
+    {{ site.data.cv.languages.section_title[page.lang] }}
   </h2>
   
   <div class="skills-grid">
     <div class="skill-group">
       <ul class="skill-list">
-        {% for language in site.data.cv.languages %}
+        {% for language in site.data.cv.languages.items %}
           <li>
             <strong>{{ language.language }}:</strong> 
             {% if language.level[page.lang] %}

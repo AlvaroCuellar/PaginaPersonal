@@ -1,0 +1,15 @@
+section_title:
+  es: "Software y herramientas"
+  en: "Software and Tools"
+
+items:
+- id: "currens-theme-2025"
+  highlight: true
+  date: "2025"
+  title: "Currens Academic Theme"
+  type: "Jekyll Theme"
+  description:
+    es: "Tema académico responsivo para Jekyll con soporte multiidioma, gestión de CV, galería de proyectos y sistema de navegación optimizado."
+    en: "Responsive academic theme for Jekyll with multilingual support, CV management, project gallery and optimized navigation system."
+  url: "https://github.com/dxvidmr/currens-theme"
+  technologies: ["Jekyll", "YAML", "SCSS", "JavaScript", "Liquid"]

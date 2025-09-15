@@ -3,7 +3,7 @@ layout: default
 ---
 {% include header.html %}
 {% assign lang = page.lang | default: 'es' %}
-{% for item in site.data.menu %}
+{% for item in site.data.home.menu %}
   {% if item.show != false and item.key != "cv" %}
     {% include sections/{{ item.section_id }}.html %}
   {% endif %}

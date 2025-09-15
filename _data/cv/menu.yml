@@ -1,0 +1,72 @@
+- key: "about"
+  show: true
+  section_id: "about"
+  title:
+    es: "ACERCA DE MÍ"
+    en: "ABOUT ME"
+- key: "education"
+  show: true
+  section_id: "education"
+  title:
+    es: "EDUCACIÓN"
+    en: "EDUCATION"
+- key: "grants"
+  show: true
+  section_id: "grants"
+  title:
+    es: "BECAS Y PREMIOS"
+    en: "GRANTS AND AWARDS"
+- key: "research"
+  show: true
+  section_id: "research"
+  title:
+    es: "EXPERIENCIA INVESTIGADORA"
+    en: "RESEARCH EXPERIENCE"
+- key: "software"
+  show: true
+  section_id: "software"
+  title:
+    es: "SOFTWARE Y PROYECTOS TÉCNICOS"
+    en: "SOFTWARE AND TECHNICAL PROJECTS"
+- key: "publications"
+  show: true
+  section_id: "publications"
+  title:
+    es: "PUBLICACIONES"
+    en: "PUBLICATIONS"
+- key: "talks"
+  show: true
+  section_id: "talks"
+  title:
+    es: "PONENCIAS Y CONFERENCIAS"
+    en: "TALKS AND PRESENTATIONS"
+- key: "teaching"
+  show: true
+  section_id: "teaching"
+  title:
+    es: "DOCENCIA"
+    en: "TEACHING EXPERIENCE"
+- key: "activities"
+  show: true
+  section_id: "activities"
+  title:
+    es: "ACTIVIDADES PROFESIONALES"
+    en: "PROFESSIONAL ACTIVITIES"
+- key: "training"
+  show: true
+  section_id: "training"
+  title:
+    es: "FORMACIÓN AVANZADA"
+    en: "ADVANCED TRAINING"
+- key: "skills"
+  show: true
+  section_id: "skills"
+  title:
+    es: "HABILIDADES TÉCNICAS"
+    en: "TECHNICAL SKILLS"
+- key: "languages"
+  show: true
+  section_id: "languages"
+  title:
+    es: "IDIOMAS"
+    en: "LANGUAGES"

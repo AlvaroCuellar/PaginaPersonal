@@ -3,25 +3,25 @@
   <div class="row clearfix">
     <div class="col-1">
       <div class="section-heading">
-        {% if site.data.research.subtitle[page.lang] %}
-          <h3>{{ site.data.research.subtitle[page.lang] }}</h3>
+        {% if site.data.home.research.subtitle[page.lang] %}
+          <h3>{{ site.data.home.research.subtitle[page.lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.research.section_title[page.lang] }}</h2>
+        <h2 class="section-title">{{ site.data.home.research.section_title[page.lang] }}</h2>
       </div>
 
       <!-- Featured Project -->
       <div class="hero-project">
         <div class="hero-project__image"
-          style="background-image: url({{ '/assets/images/projects/' | append: site.data.research.featured.image | relative_url }});">
+          style="background-image: url({{ '/assets/images/projects/' | append: site.data.home.research.featured.image | relative_url }});">
         </div>
         <div class="hero-project__content">
-          <span class="hero-project__badge">{{ site.data.research.featured.badge[page.lang] }}</span>
-          <h3 class="hero-project__title">{{ site.data.research.featured.title[page.lang] }}</h3>
+          <span class="hero-project__badge">{{ site.data.home.research.featured.badge[page.lang] }}</span>
+          <h3 class="hero-project__title">{{ site.data.home.research.featured.title[page.lang] }}</h3>
           <p class="hero-project__description">
-            {{ site.data.research.featured.description[page.lang] }}
+            {{ site.data.home.research.featured.description[page.lang] }}
           </p>
           <div class="hero-project__links">
-            <a href="{{ site.data.research.featured.url }}" class="button no-icon">{{
+            <a href="{{ site.data.home.research.featured.url }}" class="button no-icon">{{
               site.data.i18n[page.lang].project_button }}</a>
           </div>
         </div>
@@ -29,7 +29,7 @@
 
       <!-- Research Projects Grid -->
       <div class="projects-grid" id="projects-grid">
-        {% for project in site.data.research.projects %}
+        {% for project in site.data.home.research.projects %}
           <a href="{{ project.url }}" target="_blank" class="project-card" data-width="{{ project.width }}">
             <div class="project-image"
               style="background-image: url({{ '/assets/images/projects/' | append: project.image | relative_url }});">

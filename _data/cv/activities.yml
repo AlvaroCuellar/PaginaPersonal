@@ -1,0 +1,44 @@
+section_title:
+  es: "Actividades académicas"
+  en: "Academic Activities"
+
+conferences:
+  - id: "dh2025-organization"
+    date: "2025"
+    title: "Digital Humanities 2025"
+    role:
+      es: "Comité organizador local"
+      en: "Local organizing committee"
+    location: "Lisboa"
+    
+editing:
+  - id: "prolope-review-2023"
+    date: "2023"
+    title:
+      es: "Revisión de dos ediciones críticas para PROLOPE-Gredos (Parte XXII)"
+      en: "Review of two critical editions for PROLOPE-Gredos (Parte XXII)"
+      
+peer_review:
+  journals:
+    - journal: "Revista de Humanidades Digitales"
+      years: ["2024", "2021"]
+      
+  conferences:
+    - conference: "Digital Humanities 2025"
+      organization: "Alliance of Digital Humanities Organizations (ADHO)"
+      location: "Lisboa"
+      date: "July 14-18, 2025"
+    - conference: "Digital Humanities 2022"
+      organization: "Alliance of Digital Humanities Organizations (ADHO)" 
+      location: "Tokyo"
+      date: "July 25-29, 2022"
+      
+associations:
+  - name: "Sociedad Internacional de Humanidades Digitales Hispánicas"
+    role:
+      es: "Miembro"
+      en: "Member"
+  - name: "Alliance of Digital Humanities Organizations (ADHO)"
+    role:
+      es: "Miembro"
+      en: "Member"

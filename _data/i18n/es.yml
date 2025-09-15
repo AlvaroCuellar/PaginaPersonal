@@ -4,21 +4,57 @@ cv_button: "CV completo"
 project_button: "Ver proyecto"
 access_text: "Acceder →"
 
-# CV Section texts
-cv:
-  sections:
-    about: "ACERCA DE MÍ"
-    education: "EDUCACIÓN"
-    grants: "BECAS Y PREMIOS"
-    research: "EXPERIENCIA INVESTIGADORA"
-    software: "SOFTWARE Y PROYECTOS TÉCNICOS"
-    publications: "PUBLICACIONES"
-    talks: "PONENCIAS Y CONFERENCIAS"
-    teaching: "DOCENCIA"
-    activities: "ACTIVIDADES PROFESIONALES"
-    skills: "HABILIDADES TÉCNICAS"
-    languages: "IDIOMAS"
+# Publication types
+publication_types:
+  article: "Artículo"
+  incollection: "Capítulo de libro"
+  inproceedings: "Conferencia"
+  inbook: "Capítulo"
+  book: "Libro"
+  phdthesis: "Tesis doctoral"
+  mastersthesis: "Tesis de máster"
+  unpublished: "No publicado"
+  techreport: "Informe técnico"
+  misc: "Otros"
+  proceedings: "Actas"
+  manual: "Manual"
+  booklet: "Folleto"
 
+# Publication buttons
+publication_buttons:
+  pdf: "PDF"
+  code: "Código"
+  slides: "Diapositivas"
+  data: "Datos"
+  video: "Video"
+  poster: "Póster"
+
+# Publication text
+publication_text:
+  in: "En"
+
+# Month names
+months:
+  january: "Enero"
+  february: "Febrero"
+  march: "Marzo"
+  april: "Abril"
+  may: "Mayo"
+  june: "Junio"
+  july: "Julio"
+  august: "Agosto"
+  september: "Septiembre"
+  october: "Octubre"
+  november: "Noviembre"
+  december: "Diciembre"
+
+# More CV buttons
+more_cv:
+  publications: "Ver todas las publicaciones →"
+  talks: "Ver todas las ponencias →"
+
+# CV texts
+cv:
   education:
     supervised_by: "Dirigida por"
     

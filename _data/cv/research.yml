@@ -1,0 +1,42 @@
+section_title:
+  es: "Investigación"
+  en: "Research"
+
+items:
+- id: "todos-a-una-2023"
+  date: "2023 – Present"
+  title: "Todos a una"
+  metadata: |
+    Proyecto Doctoral
+    Financiado por la Beca Predoctoral Joan Oró
+    Vinculado a PROLOPE
+  description:
+    es: "Proyecto de investigación doctoral sobre la transmisión, recepción e impacto cultural de 'Fuenteovejuna' de Lope de Vega. Combina edición crítica digital, archivo participativo y modelado de datos."
+    en: "Doctoral research project on the transmission, reception, and cultural impact of Lope de Vega's 'Fuenteovejuna'. Combines digital scholarly editing, participatory archiving, and data modeling."
+- id: "metadrama-2025"
+  date: "2025–2028"
+  title: "Teatro áureo en diacronía: estudio, edición y puesta en escena del verso clásico (METADRAMA)"
+  metadata: |
+    PID2024-161481NB-I00
+    Ministerio de Ciencia e Innovación (€67,500)
+  description:
+    es: "Proyecto de investigación sobre el verso clásico en el teatro áureo."
+    en: "Research project on classical verse in Golden Age theatre."
+- id: "prolope-ii-2025"
+  date: "2025–2027"
+  title: "La integral dramática de Lope de Vega: Texts, Methods, Challenges, Projections (II)"
+  metadata: |
+    PID2024-155584NB-I00
+    Ministerio de Ciencia e Innovación (€68,750)
+  description:
+    es: "Segunda fase del proyecto PROLOPE sobre la obra de Lope de Vega."
+    en: "Second phase of the PROLOPE project on Lope de Vega's works."
+- id: "e-dramas-2024"
+  date: "2024–2025"
+  title: "e-DrAMAS"
+  metadata: |
+    HDAUNIR Research Group, Universidad Internacional de la Rioja
+    UNIR Transfer Projects
+  description:
+    es: "Proyecto de investigación interdisciplinar sobre teatro digital."
+    en: "Interdisciplinary research project on digital theatre."

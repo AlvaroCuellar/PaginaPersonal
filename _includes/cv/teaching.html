@@ -1,14 +1,16 @@
 <!-- Teaching Section -->
 <section id="teaching" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.teaching }}
+    {{ site.data.cv.teaching.section_title[page.lang] }}
   </h2>
 
-  {% for section in site.data.cv.teaching %}
+  {% for section in site.data.cv.teaching.items %}
     <h3 class="subsection-title">{{ section.title[page.lang] }}</h3>
     {% for item in section.items %}
       <div class="item-container{% if item.featured %} highlight{% endif %}">
-        <h5 class="item-date">{{ item.date }}</h5>
+        <h5 class="item-date">
+          {% include helpers/format-date.html date_start=item.date lang=page.lang format='simple' %}
+        </h5>
         <h4 class="item-title">
           {% if item.title[page.lang] %}
             {{ item.title[page.lang] }}

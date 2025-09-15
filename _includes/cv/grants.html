@@ -1,17 +1,13 @@
 <!-- Grants & Awards Section -->
 <section id="grants" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.grants }}
+    {{ site.data.cv.grants.section_title[page.lang] }}
   </h2>
   
-  {% for grant in site.data.cv.grants %}
+  {% for grant in site.data.cv.grants.items %}
     <div class="item-container{% if grant.highlight %} highlight{% endif %}">
       <h5 class="item-date">
-        {% if grant.date[page.lang] %}
-          {{ grant.date[page.lang] }}
-        {% else %}
-          {{ grant.date }}
-        {% endif %}
+        {% include helpers/format-date.html date_start=grant.date lang=page.lang format='simple' %}
       </h5>
       <h4 class="item-title">
         {% if grant.title[page.lang] %}

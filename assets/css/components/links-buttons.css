@@ -103,7 +103,6 @@ a:not(.no-icon):hover::before {
     border-radius: var(--border-radius);
     background-color: var(--primary-color);
     color: var(--color-white);
-    opacity: .75;
     cursor: pointer;
 }
 

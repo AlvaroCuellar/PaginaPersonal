@@ -6,6 +6,11 @@
    Base del CV
    ········································· */
 
+/* Smooth scroll nativo para el CV */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Contenedor principal del CV */
 .cv-container {
   position: relative;
@@ -14,15 +19,19 @@
   padding: var(--spacing-xl);
 }
 
-/* Layout específico del CV - completamente independiente */
+/* Layout específico del CV - sidebar fijo independiente */
 .cv-layout {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: var(--spacing-m);
-  align-items: start;
-  min-height: 100vh;
+  display: block;
   max-width: 1245px;
   margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Contenido principal con margen para el sidebar fijo */
+.cv-container .cv-content {
+  margin-left: calc(220px + var(--spacing-m));
+  padding: var(--spacing-l);
 }
 
 /* Resetear cualquier estilo del grid general */
@@ -45,16 +54,18 @@
    ········································· */
 
 .cv-container .cv-sidebar {
-  position: sticky;
+  position: fixed;
+  left: calc(50% - 622.5px + var(--spacing-xl));
   top: 50vh;
   transform: translateY(-50%);
+  width: 220px;
   height: fit-content;
   max-height: calc(100vh - var(--spacing-xl));
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 220px;
+  z-index: 100;
 }
 
 .cv-container .side-menu {
@@ -92,14 +103,6 @@
   font-size: var(--text-lg);
   padding-left: 8px;
   line-height: var(--line-height-relaxed);
-}
-
-/* ·········································
-   Contenido principal
-   ········································· */
-
-.cv-container .cv-content {
-  padding: var(--spacing-l);
 }
 
 /* ·········································

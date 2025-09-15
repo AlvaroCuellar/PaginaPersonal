@@ -12,7 +12,7 @@
   <nav id="nav-main">
           <ul>
             {% assign lang = page.lang | default: 'es' %}
-            {% for item in site.data.menu %}
+            {% for item in site.data.home.menu %}
               {% if item.show != false %}
                 <li>
                   {% if item.section_id %}
@@ -24,7 +24,7 @@
                   {% endif %}
                   
                   {% if item.button or item.key == 'cv' %}
-                    <a href="{{ link_url }}" class="menu-button"><span>{{ site.data.i18n[lang][item.key] | default: item.key }}</span></a>
+                    <a href="{{ link_url }}" class="menu-button"><span>{% if item.key == 'cv' %}CV{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</span></a>
                   {% else %}
                     <a href="{{ link_url }}">{{ site.data.i18n[lang][item.key] | default: item.key }}</a>
                   {% endif %}

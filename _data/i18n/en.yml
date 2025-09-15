@@ -4,21 +4,57 @@ cv_button: "Full CV"
 project_button: "View project"
 access_text: "Access →"
 
-# CV Section texts
-cv:
-  sections:
-    about: "ABOUT ME"
-    education: "EDUCATION"
-    grants: "GRANTS AND AWARDS"
-    research: "RESEARCH EXPERIENCE"
-    software: "SOFTWARE AND TECHNICAL PROJECTS"
-    publications: "PUBLICATIONS"
-    talks: "TALKS AND PRESENTATIONS"
-    teaching: "TEACHING EXPERIENCE"
-    activities: "PROFESSIONAL ACTIVITIES"
-    skills: "TECHNICAL SKILLS"
-    languages: "LANGUAGES"
+# Publication types
+publication_types:
+  article: "Article"
+  incollection: "Book Chapter"
+  inproceedings: "Conference Paper"
+  inbook: "Chapter"
+  book: "Book"
+  phdthesis: "PhD Thesis"
+  mastersthesis: "Master's Thesis"
+  unpublished: "Unpublished"
+  techreport: "Technical Report"
+  misc: "Miscellaneous"
+  proceedings: "Proceedings"
+  manual: "Manual"
+  booklet: "Booklet"
 
+# Publication buttons
+publication_buttons:
+  pdf: "PDF"
+  code: "Code"
+  slides: "Slides"
+  data: "Data"
+  video: "Video"
+  poster: "Poster"
+
+# Publication text
+publication_text:
+  in: "In"
+
+# Month names
+months:
+  january: "January"
+  february: "February"
+  march: "March"
+  april: "April"
+  may: "May"
+  june: "June"
+  july: "July"
+  august: "August"
+  september: "September"
+  october: "October"
+  november: "November"
+  december: "December"
+
+# More CV buttons
+more_cv:
+  publications: "View all publications →"
+  talks: "View all talks →"
+
+# CV texts
+cv:
   education:
     supervised_by: "Supervised by"
     
@@ -26,4 +62,5 @@ cv:
     technologies: "Technologies:"
     
   advanced_training: "Advanced Training"
+  course_results: "Course results"
   course_results: "Course results"

@@ -1,5 +1,5 @@
 <!-- CV Header Section -->
 <section id="cv-header" class="cv-header">
-  <h1 class="header-title">{{ site.data.cv.header.name }}</h1>
-  <p class="header-subtitle">{{ site.data.cv.header.position[page.lang] }}</p>
+  <h1 class="header-title">{{ site.data.personal.name | upcase }}</h1>
+  <p class="header-subtitle">{{ site.data.personal.position[page.lang] }}, {{ site.data.personal.affiliation }}</p>
 </section>

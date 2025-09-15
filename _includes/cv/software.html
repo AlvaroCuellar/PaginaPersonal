@@ -18,12 +18,14 @@
 -->
 <section id="software" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.software }}
+    {{ site.data.cv.software.section_title[page.lang] }}
   </h2>
   
-  {% for software in site.data.cv.software %}
+  {% for software in site.data.cv.software.items %}
     <div class="item-container{% if software.highlight %} highlight{% endif %}">
-      <h5 class="item-date">{{ software.date }}</h5>
+      <h5 class="item-date">
+        {% include helpers/format-date.html date_start=software.date lang=page.lang format='simple' %}
+      </h5>
       <h4 class="item-title">
         {% if software.url %}
           <a href="{{ software.url }}" target="_blank">{{ software.title }}</a>

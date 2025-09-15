@@ -32,12 +32,9 @@
         display: none !important;
     }
     
-    /* En el CV, mantener #nav-main accesible para JS pero ocultar visualmente */
+    /* En el CV, ocultar sidebar solo en móvil y mostrar overlay */
     .cv-page .cv-sidebar {
-        position: absolute;
-        left: -9999px;
-        visibility: hidden;
-        pointer-events: none;
+        display: none;
     }
     
     /* Ocultar sistema de menú móvil antiguo cuando overlay está activo */
@@ -73,20 +70,20 @@
        CV LAYOUT SYSTEM
        ········································· */
     
-    /* En el CV, ocultar el menú lateral físico pero mantener accesible para JS */
+    /* En el CV, ocultar el sidebar fijo en móvil */
     .cv-page .cv-sidebar {
         display: none;
     }
     
-    /* Ajustar el layout del CV a una sola columna */
+    /* Ajustar el layout del CV en móvil */
     .cv-page .cv-layout {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-m);
+        display: block;
     }
     
-    /* Dar espacio superior para el menú hamburguesa */
+    /* Remover margen del sidebar y dar espacio para hamburguesa */
     .cv-page .cv-content {
-        padding-top: 80px;
+        margin-left: 0;
+        padding: 80px var(--spacing-l) var(--spacing-l);
     }
 }
 
@@ -532,4 +529,29 @@
 body.menu-open {
     overflow: hidden;
     height: 100vh;
+}
+
+/* =================================================================
+   DESKTOP - Above 768px (restore CV sidebar)
+   ================================================================= */
+
+@media (min-width: 769px) {
+    /* Restaurar el sidebar fijo del CV en desktop */
+    .cv-page .cv-sidebar {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+    }
+    
+    /* Mantener el layout sin grid en desktop */
+    .cv-page .cv-layout {
+        display: block;
+    }
+    
+    /* Mantener margen para sidebar fijo */
+    .cv-page .cv-content {
+        margin-left: calc(220px + var(--spacing-m));
+        padding: var(--spacing-l);
+    }
 }

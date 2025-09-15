@@ -1,13 +1,13 @@
 <!-- Advanced Training Section -->
 <section id="training" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.advanced_training }}
+    {{ site.data.cv.training.section_title[page.lang] }}
   </h2>
   
   {% if site.data.cv.training %}
     <div class="training-chips">
-      {% for training in site.data.cv.training %}
-        <div class="training-chip" data-training="{{ training.id }}">
+      {% for training in site.data.cv.training.items %}
+        <div class="interactive-chip training-chip" data-training="{{ training.id }}">
           <div class="chip-summary">
             <span class="chip-title">
               {% if training.skill[page.lang] %}
@@ -18,12 +18,8 @@
                 {{ training.skill }}
               {% endif %}
             </span>
-            <span class="chip-year">
-              {% if training.date[page.lang] %}
-                {{ training.date[page.lang] | date: "%Y" }}
-              {% else %}
-                {{ training.date | date: "%Y" }}
-              {% endif %}
+            <span class="chip-badge chip-year">
+              {% include helpers/format-date.html date_start=training.date lang=page.lang format='year' %}
             </span>
           </div>
           <div class="chip-details">
@@ -46,11 +42,7 @@
                 {% endif %}
               </div>
               <div class="training-date">
-                {% if training.date[page.lang] %}
-                  {{ training.date[page.lang] }}
-                {% else %}
-                  {{ training.date }}
-                {% endif %}
+                {% include helpers/format-date.html date_start=training.date date_end=training.date_end lang=page.lang format='full' %}
               </div>
             </div>
             {% if training.results %}

@@ -1,27 +1,32 @@
 <!-- Skills Section -->
 <section id="skills" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.skills }}
+    {{ site.data.cv.skills.section_title[page.lang] }}
   </h2>
   
-  <div class="skills-grid">
-    {% for skill_category in site.data.cv.skills %}
-      {% assign category_name = skill_category[0] %}
-      {% assign category_data = skill_category[1] %}
-      <div class="skill-group">
-        <h4>
-          {% if category_data.title[page.lang] %}
-            {{ category_data.title[page.lang] }}
-          {% else %}
-            {{ category_data.title }}
-          {% endif %}
-        </h4>
-        <ul class="skill-list">
-          {% for item in category_data.items %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
-  </div>
+  {% if site.data.cv.skills.categories %}
+    <div class="skills-chips">
+      {% for category in site.data.cv.skills.categories %}
+        <div class="interactive-chip skill-chip" data-skill="{{ category.key }}">
+          <div class="chip-summary">
+            <span class="chip-title">
+              {% if category.title[page.lang] %}
+                {{ category.title[page.lang] }}
+              {% else %}
+                {{ category.title }}
+              {% endif %}
+            </span>
+            <span class="chip-badge chip-toggle">+</span>
+          </div>
+          <div class="chip-details">
+            <div class="skill-items">
+              {% for item in category.items %}
+                <span class="skill-item">{{ item }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>

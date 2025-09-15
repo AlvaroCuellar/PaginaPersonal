@@ -1,12 +1,14 @@
 <!-- Research Projects Section -->
 <section id="research" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.research }}
+    {{ site.data.cv.research.section_title[page.lang] }}
   </h2>
 
-  {% for project in site.data.cv.research %}
+  {% for project in site.data.cv.research.items %}
     <div class="item-container">
-      <h5 class="item-date">{{ project.date }}</h5>
+      <h5 class="item-date">
+        {% include helpers/format-date.html date_start=project.date lang=page.lang format='simple' %}
+      </h5>
       <h4 class="item-title">{{ project.title }}</h4>
       {% if project.metadata %}
         <div class="item-metadata">{{ project.metadata | newline_to_br }}</div>

@@ -5,18 +5,18 @@
         {% assign lang = page.lang | default: 'es' %}
         <div class="col-2">
             <div class="section-heading">
-                {% if site.data.bio.subtitle[lang] %}
-                  <h3>{{ site.data.bio.subtitle[lang] }}</h3>
+                {% if site.data.home.bio.subtitle[lang] %}
+                  <h3>{{ site.data.home.bio.subtitle[lang] }}</h3>
                 {% endif %}
-                <h2 class="section-title">{{ site.data.bio.section_title[lang] }}</h2>
+                <h2 class="section-title">{{ site.data.home.bio.section_title[lang] }}</h2>
             </div>
             <div class="bio-content">
-                {{ site.data.bio.bio[lang] | markdownify }}
+                {{ site.data.home.bio.bio[lang] | markdownify }}
             </div>
         </div>
 
         <div class="col-2" style="text-align: center;">
-            <img src="{{ site.data.bio.photo }}" alt="me" class="profile-photo"/>
+            <img src="{{ site.data.home.bio.photo }}" alt="me" class="profile-photo"/>
             <p class="section-subtitle">
                 <br>
                 <b>{{ site.data.personal.position[lang] }}</b><br>
@@ -25,20 +25,20 @@
                 <br>
                 <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;</i><a href="mailto:{{ site.data.personal.email }}" target="_blank">{{ site.data.personal.email }}</a>
             </p>
-            {% assign cv_item = site.data.menu | where: 'key', 'cv' | first %}
+            {% assign cv_item = site.data.home.menu | where: 'key', 'cv' | first %}
             {% if cv_item %}
                 <a href="{{ cv_item.url[lang] }}" class="button">{{ site.data.i18n[lang].cv_button | default: 'CV completo' }}</a>
             {% endif %}
         </div>
 
 
-    {% if site.data.bio.show_timeline %}
-      <!-- Timeline - Formación Académica -->
+    {% if site.data.home.bio.show_timeline %}
+      <!-- Timeline -->
       <div class="row">
         <div class="col-1">
           <div class="timeline-container">
             <div class="timeline-line"></div>
-            {% for item in site.data.bio.timeline %}
+            {% for item in site.data.home.bio.timeline %}
               {% assign is_even = forloop.index | modulo: 2 %}
               {% if is_even == 0 %}
                   <div class="timeline-item right">

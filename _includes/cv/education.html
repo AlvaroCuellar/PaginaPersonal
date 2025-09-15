@@ -1,17 +1,13 @@
 <!-- Education Section -->
 <section id="education" class="cv-section">
   <h2 class="section-title">
-    {{ site.data.i18n[page.lang].cv.sections.education }}
+    {{ site.data.cv.education.section_title[page.lang] }}
   </h2>
   
-  {% for item in site.data.cv.education %}
+  {% for item in site.data.cv.education.items %}
     <div class="item-container{% if item.highlight %} highlight{% endif %}">
       <h5 class="item-date">
-        {% if item.date[page.lang] %}
-          {{ item.date[page.lang] }}
-        {% else %}
-          {{ item.date }}
-        {% endif %}
+        {% include helpers/format-date.html date_start=item.date lang=page.lang format='simple' %}
       </h5>
       <h4 class="item-title">
         {% if item.title[page.lang] %}
