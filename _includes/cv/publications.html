@@ -45,17 +45,23 @@
           {% if entry.pages and entry.pages != "" %}{% assign detail_parts = detail_parts | push: entry.pages %}{% endif %}
           {% if detail_parts.size > 0 %}, {{ detail_parts | join: ", " }}{% endif %}
           
-          {% if entry.url and entry.url != "" %} <a href="{{ entry.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
-          {% if entry.doi and entry.doi != "" %} <a href="https://doi.org/{{ entry.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
+          {% comment %} Enlaces en nueva línea para URL y DOI {% endcomment %}
+          {% if entry.url and entry.url != "" %}<br><a href="{{ entry.url }}" target="_blank">{{ entry.url }}</a>{% endif %}
+          {% if entry.doi and entry.doi != "" %}<br><a href="https://doi.org/{{ entry.doi }}" target="_blank">DOI: {{ entry.doi }}</a>{% endif %}
           
+          {% comment %} Botones solo para recursos adicionales {% endcomment %}
           {% assign key = entry.key %}
           {% assign links = site.data.cv.publications.links[key] %}
-          {% if links.pdf %} <a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
-          {% if links.code %} <a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
-          {% if links.slides %} <a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
-          {% if links.data %} <a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
-          {% if links.video %} <a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
-          {% if links.poster %} <a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+          {% if links.pdf or links.code or links.slides or links.data or links.video or links.poster %}
+            <div class="publication-resources">
+              {% if links.pdf %}<a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+              {% if links.code %}<a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+              {% if links.slides %}<a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+              {% if links.data %}<a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+              {% if links.video %}<a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
+              {% if links.poster %}<a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+            </div>
+          {% endif %}
         </div>
       </div>
       
@@ -100,17 +106,23 @@
               {% if entry.pages and entry.pages != "" %}{% assign detail_parts = detail_parts | push: entry.pages %}{% endif %}
               {% if detail_parts.size > 0 %}, {{ detail_parts | join: ", " }}{% endif %}
               
-              {% if entry.url and entry.url != "" %} <a href="{{ entry.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
-              {% if entry.doi and entry.doi != "" %} <a href="https://doi.org/{{ entry.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
+              {% comment %} Enlaces en nueva línea para URL y DOI {% endcomment %}
+              {% if entry.url and entry.url != "" %}<br><a href="{{ entry.url }}" target="_blank">{{ entry.url }}</a>{% endif %}
+              {% if entry.doi and entry.doi != "" %}<br><a href="https://doi.org/{{ entry.doi }}" target="_blank">DOI: {{ entry.doi }}</a>{% endif %}
               
+              {% comment %} Botones solo para recursos adicionales {% endcomment %}
               {% assign key = entry.key %}
               {% assign links = site.data.cv.publications.links[key] %}
-              {% if links.pdf %} <a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
-              {% if links.code %} <a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
-              {% if links.slides %} <a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
-              {% if links.data %} <a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
-              {% if links.video %} <a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
-              {% if links.poster %} <a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+              {% if links.pdf or links.code or links.slides or links.data or links.video or links.poster %}
+                <div class="publication-resources">
+                  {% if links.pdf %}<a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+                  {% if links.code %}<a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+                  {% if links.slides %}<a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+                  {% if links.data %}<a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+                  {% if links.video %}<a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
+                  {% if links.poster %}<a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+                </div>
+              {% endif %}
             </div>
           </div>
           
