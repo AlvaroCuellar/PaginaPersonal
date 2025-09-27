@@ -3,69 +3,119 @@
   <h2 class="section-title">
     {{ site.data.cv.publications.section_title[page.lang] }}
   </h2>
-  
-  <!-- Nota: Por ahora mostramos un placeholder para las publicaciones -->
-  <!-- TODO: Implementar procesador de archivo .bib -->
-  
-  <h3 class="subsection-title">
-    {{ site.data.i18n[page.lang].cv.publications.book_chapters }}
-  </h3>
-  <div class="item-container highlight">
-    <div class="publication-author">Merino Recalde, David</div>
-    <div class="publication-title">
-      {% if page.lang == 'es' %}
-        "Teatro y tecnología: nuevas perspectivas para la investigación del Siglo de Oro"
-      {% else %}
-        "Theatre and technology: new perspectives for Golden Age research"
-      {% endif %}
-    </div>
-    <div class="publication-details">
-      {% if page.lang == 'es' %}
-        En <em>Humanidades Digitales Hispánicas: métodos, herramientas y aplicaciones</em>, eds. Ana García Martínez y Carlos López Silva. Madrid: Iberoamericana Vervuert, 2025, pp. 145-168.
-      {% else %}
-        In <em>Hispanic Digital Humanities: methods, tools and applications</em>, eds. Ana García Martínez and Carlos López Silva. Madrid: Iberoamericana Vervuert, 2025, pp. 145-168.
-      {% endif %}
-    </div>
-  </div>
 
-  <h3 class="subsection-title">
-    {{ site.data.i18n[page.lang].cv.publications.journal_articles }}
-  </h3>
-  <div class="item-container highlight">
-    <div class="publication-author">Merino Recalde, David</div>
-    <div class="publication-title">
-      {% if page.lang == 'es' %}
-        "Análisis de redes sociales en el teatro de Lope de Vega: metodología y resultados"
-      {% else %}
-        "Social network analysis in Lope de Vega's theatre: methodology and results"
-      {% endif %}
-    </div>
-    <div class="publication-details">
-      <em>Revista de Literatura</em> 86.172 (2024): 421-445. DOI: 10.3989/revliteratura.2024.02.018
-    </div>
-  </div>
+  {% assign lang = page.lang %}
+  {% assign organization = site.data.cv.publications.organization | default: "by_type" %}
 
-  <h3 class="subsection-title">
-    {{ site.data.i18n[page.lang].cv.publications.academic_tutorials }}
-  </h3>
-  <div class="item-container highlight">
-    <div class="publication-author">Merino Recalde, David</div>
-    <div class="publication-title">
-      {% if page.lang == 'es' %}
-        "Introducción a la edición digital con XML-TEI para textos teatrales"
-      {% else %}
-        "Introduction to digital editing with XML-TEI for theatrical texts"
+  {% if organization == "by_year" %}
+    <!-- Organization by year -->
+    {% assign all_publications = site.data.bibliography | values %}
+    {% assign publications_with_year = all_publications | where_exp: "item", "item.year != nil and item.year != ''" %}
+    {% assign publications = publications_with_year | sort: 'year' | reverse %}
+    {% assign current_year = "" %}
+    {% for entry in publications %}
+      {% if entry.year != current_year %}
+        {% assign current_year = entry.year %}
+        <h3 class="subsection-title">{{ current_year }}</h3>
       {% endif %}
-    </div>
-    <div class="publication-details">
-      <em>Programming Historian en español</em> (2024). <a href="https://programminghistorian.org/es/lecciones/xml-tei-teatro" target="_blank">https://programminghistorian.org/es/lecciones/xml-tei-teatro</a>
-    </div>
-  </div>
-
-  <!-- Placeholder para indicar que se necesita procesador .bib -->
-  <div class="cv-note">
-    <p><em>
-      {{ site.data.i18n[page.lang].cv.publications.bib_note }}
-    </em></p>
-  </div>
+      
+      <!-- Publication Item -->
+      <div class="item-container">
+        {% if entry.author %}
+          <div class="publication-author">{{ entry.author }}</div>
+        {% endif %}
+        <div class="publication-title">{{ entry.title }}</div>
+        <div class="publication-details">
+          {% assign source_text = "" %}
+          {% if entry.journal and entry.journal != "" %}
+            {% assign source_text = "<em>" | append: entry.journal | append: "</em>" %}
+          {% endif %}
+          {% if entry.booktitle and entry.booktitle != "" %}
+            {% assign source_text = site.data.i18n[lang].publication_text.in | append: " <em>" | append: entry.booktitle | append: "</em>" %}
+          {% endif %}
+          {% if entry.year and entry.year != "" %}
+            {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
+            {% assign source_text = source_text | append: entry.year %}
+          {% endif %}
+          {{ source_text }}
+          
+          {% assign detail_parts = "" | split: "" %}
+          {% if entry.publisher and entry.publisher != "" %}{% assign detail_parts = detail_parts | push: entry.publisher %}{% endif %}
+          {% if entry.address and entry.address != "" %}{% assign detail_parts = detail_parts | push: entry.address %}{% endif %}
+          {% if entry.pages and entry.pages != "" %}{% assign detail_parts = detail_parts | push: entry.pages %}{% endif %}
+          {% if detail_parts.size > 0 %}, {{ detail_parts | join: ", " }}{% endif %}
+          
+          {% if entry.url and entry.url != "" %} <a href="{{ entry.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
+          {% if entry.doi and entry.doi != "" %} <a href="https://doi.org/{{ entry.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
+          
+          {% assign key = entry.key %}
+          {% assign links = site.data.cv.publications.links[key] %}
+          {% if links.pdf %} <a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+          {% if links.code %} <a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+          {% if links.slides %} <a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+          {% if links.data %} <a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+          {% if links.video %} <a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
+          {% if links.poster %} <a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+        </div>
+      </div>
+      
+    {% endfor %}
+  {% else %}
+    <!-- Organization by type -->
+    {% assign publications = site.data.bibliography | values %}
+    {% assign types_order = "article,inproceedings,incollection,book,phdthesis,mastersthesis,misc" | split: "," %}
+    
+    {% for type in types_order %}
+      {% assign type_publications = publications | where: "type", type %}
+      {% if type_publications.size > 0 %}
+        <h3 class="subsection-title">
+          {{ site.data.i18n[lang].publication_types[type] | default: type | capitalize }}
+        </h3>
+        {% assign sorted_pubs = type_publications | sort: 'year' | reverse %}
+        {% for entry in sorted_pubs %}
+          
+          <!-- Publication Item -->
+          <div class="item-container">
+            {% if entry.author %}
+              <div class="publication-author">{{ entry.author }}</div>
+            {% endif %}
+            <div class="publication-title">{{ entry.title }}</div>
+            <div class="publication-details">
+              {% assign source_text = "" %}
+              {% if entry.journal and entry.journal != "" %}
+                {% assign source_text = "<em>" | append: entry.journal | append: "</em>" %}
+              {% endif %}
+              {% if entry.booktitle and entry.booktitle != "" %}
+                {% assign source_text = site.data.i18n[lang].publication_text.in | append: " <em>" | append: entry.booktitle | append: "</em>" %}
+              {% endif %}
+              {% if entry.year and entry.year != "" %}
+                {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
+                {% assign source_text = source_text | append: entry.year %}
+              {% endif %}
+              {{ source_text }}
+              
+              {% assign detail_parts = "" | split: "" %}
+              {% if entry.publisher and entry.publisher != "" %}{% assign detail_parts = detail_parts | push: entry.publisher %}{% endif %}
+              {% if entry.address and entry.address != "" %}{% assign detail_parts = detail_parts | push: entry.address %}{% endif %}
+              {% if entry.pages and entry.pages != "" %}{% assign detail_parts = detail_parts | push: entry.pages %}{% endif %}
+              {% if detail_parts.size > 0 %}, {{ detail_parts | join: ", " }}{% endif %}
+              
+              {% if entry.url and entry.url != "" %} <a href="{{ entry.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
+              {% if entry.doi and entry.doi != "" %} <a href="https://doi.org/{{ entry.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
+              
+              {% assign key = entry.key %}
+              {% assign links = site.data.cv.publications.links[key] %}
+              {% if links.pdf %} <a href="{{ links.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+              {% if links.code %} <a href="{{ links.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+              {% if links.slides %} <a href="{{ links.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+              {% if links.data %} <a href="{{ links.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+              {% if links.video %} <a href="{{ links.video }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.video }}</a>{% endif %}
+              {% if links.poster %} <a href="{{ links.poster }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.poster }}</a>{% endif %}
+            </div>
+          </div>
+          
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </section>

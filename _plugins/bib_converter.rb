@@ -30,9 +30,16 @@ module Jekyll
             value = entry[field].to_s.strip
             # Remove extra whitespace and normalize
             value = value.gsub(/\s+/, ' ').strip
-            entry_data[field] = value
-          else
-            entry_data[field] = ''
+            
+            # Special handling for year field - convert to integer
+            if field == 'year' && value.match?(/^\d{4}$/)
+              entry_data[field] = value.to_i
+            elsif field == 'featured' && value.downcase == 'true'
+              entry_data[field] = true
+            elsif !value.empty?
+              entry_data[field] = value
+            end
+            # Skip empty fields instead of setting to empty string
           end
         end
         

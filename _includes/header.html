@@ -24,9 +24,10 @@
                   {% endif %}
                   
                   {% if item.button or item.key == 'cv' %}
-                    <a href="{{ link_url }}" class="menu-button"><span>{% if item.key == 'cv' %}CV{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</span></a>
+                    <a href="{{ link_url }}" class="menu-button"><span>{% if item.key == 'cv' %}CV{% else %}{% assign section_data = site.data.home[item.key] %}{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}{% endif %}</span></a>
                   {% else %}
-                    <a href="{{ link_url }}">{{ site.data.i18n[lang][item.key] | default: item.key }}</a>
+                    {% assign section_data = site.data.home[item.key] %}
+                    <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
                   {% endif %}
                 </li>
               {% endif %}

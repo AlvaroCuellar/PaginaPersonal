@@ -1,3 +1,16 @@
 section_title:
   es: "Publicaciones"
   en: "Publications"
+
+# Organización de publicaciones: "by_year" o "by_type"
+organization: "by_type"
+
+# Links adicionales a DOI o URL por publicación (opcional)
+# Las claves deben coincidir con las del publications.bib
+links:
+  merino2024fuenteovejuna:
+    pdf: "/assets/papers/merino2024.pdf"
+    slides: "/assets/slides/merino2024.pdf"
+  merino2025teatro:
+    pdf: "/assets/papers/merino2023.pdf"
+    code: "https://github.com/dxvidmr/network-analysis"
