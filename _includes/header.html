@@ -32,10 +32,19 @@
                 </li>
               {% endif %}
             {% endfor %}
-            <li class="lang-switcher">
-              <div class="lang-toggle">
-                <a href="{{ page.url | replace:'/es/','/en/' }}" class="lang-option{% if lang == 'en' %} active{% endif %}"><span>EN</span></a>
-                <a href="{{ page.url | replace:'/en/','/es/' }}" class="lang-option{% if lang == 'es' %} active{% endif %}"><span>ES</span></a>
+            <li>
+              {% if lang == 'es' %}
+                {% assign en_url = page.url | replace: '/es/', '/en/' %}
+                {% assign es_url = page.url %}
+              {% else %}
+                {% assign en_url = page.url %}
+                {% assign es_url = page.url | replace: '/en/', '/es/' %}
+              {% endif %}
+              
+              <div class="lang-switcher" data-active="{{ lang }}">
+                <a href="{{ es_url }}" class="lang-option{% if lang == 'es' %} active{% endif %}" data-lang="es">ES</a>
+                <a href="{{ en_url }}" class="lang-option{% if lang == 'en' %} active{% endif %}" data-lang="en">EN</a>
+                <div class="lang-slider"></div>
               </div>
             </li>
           </ul>

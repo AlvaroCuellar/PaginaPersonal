@@ -567,51 +567,221 @@ nav#nav-mobile .menu-button {
         opacity: 0.8;
     }
 
-/* Selector de idioma en la barra de navegación - Toggle con fondo móvil */
-#header .lang-switcher {
+/* ═══════════════════════════════════════════════════════════
+   LANGUAGE SWITCHER - Implementación absoluta posicionada
+   ═══════════════════════════════════════════════════════════ */
+
+.lang-switcher {
+    position: relative;
     display: inline-block;
     vertical-align: middle;
     margin-left: var(--spacing-m);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    width: 68px; /* Fixed width: 32px + 32px + 4px padding */
+    height: 32px; /* Fixed height */
 }
 
-#header .lang-toggle {
-    display: flex;
-    gap: var(--spacing-xxs);
-}
-
-#header .lang-option {
-    display: inline-block;
+.lang-option {
+    position: absolute;
+    top: 2px;
+    width: 32px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
     text-decoration: none;
-    transition: all 0.2s ease;
-    /* Resetear los estilos del nav por defecto */
-    height: auto !important;
-    line-height: normal !important;
-    padding: 0 !important;
-}
-
-#header .lang-option span {
-    display: inline-block;
-    padding: var(--spacing-xxs) var(--spacing-xs);
-    font-weight: var(--font-medium);
     font-size: var(--text-xs);
+    font-weight: var(--font-medium);
     text-transform: uppercase;
-    color: var(--text-secondary);
-    background: transparent;
-    border-radius: var(--border-radius-sm);
-    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.3s ease;
+    z-index: 10; /* Higher z-index to ensure visibility */
+    /* Resetear completamente estilos de navegación */
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    /* Asegurar visibilidad */
+    display: block !important;
+    visibility: visible !important;
 }
 
-#header.nav-solid .lang-option:hover:not(.active) span,
-#header:not(.nav-solid) .lang-option:hover:not(.active) span {
-    color: var(--primary-color);
-    background: rgba(55, 93, 102, 0.1);
+/* Posicionamiento específico para cada opción */
+.lang-option[data-lang="es"] {
+    left: 2px;
 }
 
-/* Active state with higher specificity to override #header.nav-solid .active */
-#header.nav-solid .lang-option.active span,
-#header:not(.nav-solid) .lang-option.active span {
-    background: var(--primary-color) !important;
+.lang-option[data-lang="en"] {
+    left: 34px; /* 32px + 2px */
+}
+
+.lang-slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 32px;
+    height: 28px;
+    background: var(--primary-color);
+    border-radius: 18px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 1; /* Below the text */
+}
+
+/* Estados del slider según el idioma activo */
+.lang-switcher[data-active="es"] .lang-slider {
+    transform: translateX(0);
+}
+
+.lang-switcher[data-active="en"] .lang-slider {
+    transform: translateX(32px);
+}
+
+/* Estilos del texto según el estado */
+.lang-option.active {
     color: var(--color-white) !important;
     font-weight: var(--font-semibold);
-    transform: scale(1.05);
+}
+
+.lang-option:not(.active) {
+    color: var(--color-white) !important;
+    opacity: 0.7;
+}
+
+/* Hover effects */
+.lang-option:not(.active):hover {
+    color: var(--color-white) !important;
+    opacity: 1;
+}
+
+/* Estados específicos del header */
+#header.nav-solid .lang-option.active {
+    color: var(--color-white) !important;
+}
+
+#header.nav-solid .lang-option:not(.active) {
+    color: var(--text-primary) !important;
+    opacity: 0.7;
+}
+
+#header.nav-solid .lang-option:not(.active):hover {
+    color: var(--primary-color) !important;
+    opacity: 1;
+}
+
+/* Estilos finales del selector de idiomas - Elegante y minimalista */
+.lang-switcher {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: var(--spacing-m);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    overflow: hidden;
+    width: 68px;
+    height: 32px;
+    backdrop-filter: blur(10px); /* Efecto glassmorphism sutil */
+}
+
+.lang-option {
+    position: absolute;
+    top: 2px;
+    width: 32px;
+    height: 28px;
+    line-height: 28px !important;
+    text-align: center !important;
+    text-decoration: none;
+    font-size: var(--text-xs) !important;
+    font-weight: var(--font-semibold) !important;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    z-index: 10 !important;
+    /* Asegurar visibilidad forzada */
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    /* Resetear estilos de navegación */
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+/* Posicionamiento específico */
+.lang-option[data-lang="es"] {
+    left: 2px;
+}
+
+.lang-option[data-lang="en"] {
+    left: 34px;
+}
+
+.lang-slider {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 32px;
+    height: 28px;
+    background: var(--primary-color);
+    border-radius: 18px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estados del slider */
+.lang-switcher[data-active="es"] .lang-slider {
+    transform: translateX(0);
+}
+
+.lang-switcher[data-active="en"] .lang-slider {
+    transform: translateX(32px);
+}
+
+/* Estilos de texto - Estado activo */
+.lang-option.active {
+    color: var(--color-white) !important;
+    font-weight: var(--font-bold) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important; /* Sombra para contraste */
+}
+
+/* Estilos de texto - Estado inactivo */
+.lang-option:not(.active) {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: var(--font-medium) !important;
+}
+
+/* Hover effects */
+.lang-option:not(.active):hover {
+    color: var(--color-white) !important;
+    transform: scale(1.05) !important;
+}
+
+/* Estados para header sólido */
+#header.nav-solid .lang-switcher {
+    background: rgba(var(--text-primary-rgb, 51, 51, 51), 0.1);
+    border-color: rgba(var(--text-primary-rgb, 51, 51, 51), 0.2);
+}
+
+#header.nav-solid .lang-option.active {
+    color: var(--color-white) !important;
+}
+
+#header.nav-solid .lang-option:not(.active) {
+    color: var(--text-secondary) !important;
+    opacity: 1 !important;
+}
+
+#header.nav-solid .lang-option:not(.active):hover {
+    color: var(--primary-color) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .lang-switcher {
+        margin: 0 var(--spacing-xs);
+    }
 }

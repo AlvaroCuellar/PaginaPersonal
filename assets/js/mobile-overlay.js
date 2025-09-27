@@ -80,7 +80,7 @@
             
             menuHTML += '</ul>';
             menuContent.innerHTML = menuHTML;
-            console.log('Home menu created with', navItems.length, 'items');
+            console.log('Home menu created with', navItems.length, 'items (lang-switcher excluded)');
         } else {
             console.warn('Nav main not found - home overlay menu not created');
             // Sin fallback - si no hay nav-main, no crear menú
