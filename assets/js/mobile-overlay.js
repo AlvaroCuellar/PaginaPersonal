@@ -229,20 +229,19 @@
         
         if (!hamburgerButton || !banner) return;
         
-        // Configurar waypoint para detectar cuando sales del banner
-        if (typeof $ !== 'undefined' && $.fn.waypoint) {
-            $('#banner').waypoint(function (direction) {
-                if (direction === 'down') {
-                    // Fuera del banner: usar primary
-                    hamburgerButton.classList.add('over-content');
-                } else {
-                    // Sobre el banner: usar accent
-                    hamburgerButton.classList.remove('over-content');
-                }
-            }, {
-                offset: '-90%'
-            });
-        }
+        // Usar scroll listener simple en lugar de waypoints
+        window.addEventListener('scroll', function() {
+            const bannerHeight = banner.offsetHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop >= bannerHeight * 0.9) {
+                // Fuera del banner: usar primary
+                hamburgerButton.classList.add('over-content');
+            } else {
+                // Sobre el banner: usar accent
+                hamburgerButton.classList.remove('over-content');
+            }
+        });
     }
     
     // Exponer funciones para uso externo

@@ -91,21 +91,43 @@ $(document).ready(function () {
 		}
 	});
 
-	/* Sticky Navigation */
-	if (!!$.prototype.stickyNavbar) {
-		$('#header').stickyNavbar();
-	}
-
-	/* Navigation waypoint for solid background */
-	$('#banner').waypoint(function (direction) {
-		if (direction === 'down') {
-			$('#header').addClass('nav-solid');
+	/* Sistema de navegación simplificado - Solo cambio de estado sin animaciones */
+	$(window).scroll(function() {
+		var scroll = $(window).scrollTop();
+		var bannerHeight = $('#banner').height() || 0;
+		
+		// Cambio instantáneo de estado al terminar el banner (no al empezar el scroll)
+		if (scroll >= bannerHeight) {
+			if (!$('#header').hasClass('nav-solid')) {
+				$('#header').addClass('nav-solid');
+			}
 		} else {
-			$('#header').removeClass('nav-solid');
+			if ($('#header').hasClass('nav-solid')) {
+				$('#header').removeClass('nav-solid');
+			}
 		}
-	}, {
-		offset: '-90%'
+		
+		// Marcar sección activa sin animaciones
+		markActiveSection();
 	});
+	
+	/* Función para marcar sección activa */
+	function markActiveSection() {
+		var scrollPos = $(window).scrollTop() + 100; // Offset para compensar header
+		
+		$('.scrollto').each(function() {
+			var sectionTop = $(this).offset().top;
+			var sectionBottom = sectionTop + $(this).outerHeight();
+			var sectionId = $(this).attr('id');
+			
+			if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+				// Remover active de todos los enlaces
+				$('#nav-main a').removeClass('active');
+				// Agregar active al enlace correspondiente
+				$('#nav-main a[href="#' + sectionId + '"]').addClass('active');
+			}
+		});
+	}
 
     // Al cargar la página, restaurar el scroll si existe
     var scrollPos = localStorage.getItem('scrollPos');
@@ -114,14 +136,13 @@ $(document).ready(function () {
         localStorage.removeItem('scrollPos');
     }
 
-    /* Smooth scroll para enlaces del menú */
+    /* Scroll instantáneo sin animaciones */
     $('a[href^="#"]:not([href="#"])').on('click', function(e) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
             e.preventDefault();
-            $('html, body').animate({
-                scrollTop: target.offset().top - 80 // Offset para compensar header fijo
-            }, 800, 'easeInOutExpo');
+            // Scroll instantáneo sin animación
+            window.scrollTo(0, target.offset().top - 80);
         }
     });
 });
