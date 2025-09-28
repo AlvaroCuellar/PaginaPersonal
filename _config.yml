@@ -3,6 +3,10 @@ description: "Plantilla one-page bilingüe para portfolios de investigación"
 timezone: Europe/Madrid
 permalink: pretty
 
+# GitHub Pages configuration
+url: "https://dxvidmr.github.io"
+baseurl: "/currens-theme"
+
 markdown: kramdown
 highlighter: rouge
 
