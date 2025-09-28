@@ -43,8 +43,8 @@
               {% endif %}
               
               <div class="lang-switcher" data-active="{{ lang }}">
-                <a href="{{ es_url }}" class="lang-option{% if lang == 'es' %} active{% endif %}" data-lang="es">ES</a>
-                <a href="{{ en_url }}" class="lang-option{% if lang == 'en' %} active{% endif %}" data-lang="en">EN</a>
+                <a href="{{ es_url | relative_url }}" class="lang-option{% if lang == 'es' %} active{% endif %}" data-lang="es">ES</a>
+                <a href="{{ en_url | relative_url }}" class="lang-option{% if lang == 'en' %} active{% endif %}" data-lang="en">EN</a>
                 <div class="lang-slider"></div>
               </div>
             </li>
