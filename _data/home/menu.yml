@@ -4,19 +4,19 @@
 - key: "research"
   show: true
   section_id: "research"
-- key: "gallery"
-  show: true
-  section_id: "gallery"
 - key: "publications"
   show: true
   section_id: "publications"
 - key: "talks"
   show: true
   section_id: "talks"
-- key: "cv"
+- key: "projects"
   show: true
-  url:
-    es: "/es/cv/"
-    en: "/en/cv/"
-  button: true
+  section_id: "projects"
+- key: "press"
+  show: true
+  section_id: "press"
+- key: "dissemination"
+  show: true
+  section_id: "dissemination"
 

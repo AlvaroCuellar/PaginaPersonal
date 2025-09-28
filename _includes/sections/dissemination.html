@@ -1,0 +1,16 @@
+<section id="dissemination" class="dissemination scrollto">
+  <div class="row clearfix">
+    {% assign lang = page.lang | default: 'es' %}
+    <div class="col-1">
+      <div class="section-heading">
+        {% if site.data.home.dissemination.subtitle[lang] %}
+          <h3>{{ site.data.home.dissemination.subtitle[lang] }}</h3>
+        {% endif %}
+        <h2 class="section-title">{{ site.data.home.dissemination.section_title[lang] }}</h2>
+      </div>
+      <div class="dissemination-content">
+        {{ site.data.home.dissemination.content[lang] | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>

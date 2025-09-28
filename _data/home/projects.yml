@@ -1,0 +1,20 @@
+section_title:
+  es: "Proyectos"
+  en: "Projects"
+subtitle:
+  es: "Investigación aplicada"
+  en: "Applied research"
+
+# Featured project
+featured:
+  badge: 
+    es: "tesis doctoral"
+    en: "PhD thesis"
+  title: 
+    es: "Todos a una: transmisión, recepción e impacto cultural de Fuenteovejuna"
+    en: "All as one: transmission, reception and cultural impact of Fuenteovejuna"
+  description: 
+    es: "Un estudio integral de la transmisión, recepción e impacto cultural de Fuenteovejuna que combina la edición digital y el archivo documental, integrando metodologías de humanidades digitales y participación abierta."
+    en: "A comprehensive study of the transmission, reception and cultural impact of Fuenteovejuna, combining digital edition and documentary archive, integrating digital humanities methodologies and open participation."
+  image: "todosauna.jpg"
+  url: "#"

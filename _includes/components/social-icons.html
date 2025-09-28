@@ -1,8 +1,27 @@
+
 <a target="_blank" title="email" class="no-icon" href="mailto:{{ site.data.personal.email }}"><i class="fa fa-envelope fa-2x"></i><span>email</span></a>
-<a target="_blank" title="ORCiD" class="no-icon" href="https://orcid.org/{{ site.data.personal.social.orcid }}"><i class="ai ai-orcid ai-2x"></i><span>ORCiD</span></a>
-<a target="_blank" title="Google Scholar" class="no-icon" href="https://scholar.google.es/citations?user={{ site.data.personal.social.google_scholar }}&hl=es"><i class="ai ai-google-scholar ai-2x"></i><span>Google Scholar</span></a>
-<a target="_blank" title="Zotero" class="no-icon" href="https://www.zotero.org/{{ site.data.personal.social.zotero }}/"><i class="ai ai-zotero ai-2x"></i><span>Zotero</span></a>
-<a target="_blank" title="GitHub" class="no-icon" href="https://github.com/{{ site.data.personal.social.github }}"><i class="fa-brands fa-github fa-2x"></i><span>GitHub</span></a>
-<a target="_blank" title="X" class="no-icon" href="http://www.x.com/{{ site.data.personal.social.x }}"><i class="fa-brands fa-x-twitter fa-2x"></i><span>X</span></a>
-<a target="_blank" title="Bluesky" class="no-icon" href="https://bsky.app/profile/{{ site.data.personal.social.bluesky }}"><i class="fa-brands fa-bluesky fa-2x"></i><span>Bluesky</span></a>
-<a target="_blank" title="Instagram" class="no-icon" href="https://www.instagram.com/{{ site.data.personal.social.instagram }}"><i class="fa-brands fa-instagram fa-2x"></i><span>Instagram</span></a>
+{% assign social = site.data.personal.social %}
+{% for item in social %}
+	{% assign key = item[0] %}
+	{% assign value = item[1] %}
+	{% if value %}
+		{% case key %}
+			{% when "orcid" %}
+				<a target="_blank" title="ORCiD" class="no-icon" href="https://orcid.org/{{ value }}"><i class="ai ai-orcid ai-2x"></i><span>ORCiD</span></a>
+			{% when "google_scholar" %}
+				<a target="_blank" title="Google Scholar" class="no-icon" href="https://scholar.google.es/citations?user={{ value }}&hl=es"><i class="ai ai-google-scholar ai-2x"></i><span>Google Scholar</span></a>
+			{% when "academia" %}
+				<a target="_blank" title="Academia.edu" class="no-icon" href="https://www.academia.edu/{{ value }}"><i class="ai ai-academia ai-2x"></i><span>Academia.edu</span></a>
+			{% when "x" %}
+				<a target="_blank" title="X" class="no-icon" href="http://www.x.com/{{ value }}"><i class="fa-brands fa-x-twitter fa-2x"></i><span>X</span></a>
+			{% when "github" %}
+				<a target="_blank" title="GitHub" class="no-icon" href="https://github.com/{{ value }}"><i class="fa-brands fa-github fa-2x"></i><span>GitHub</span></a>
+			{% when "zotero" %}
+				<a target="_blank" title="Zotero" class="no-icon" href="https://www.zotero.org/{{ value }}/"><i class="ai ai-zotero ai-2x"></i><span>Zotero</span></a>
+			{% when "bluesky" %}
+				<a target="_blank" title="Bluesky" class="no-icon" href="https://bsky.app/profile/{{ value }}"><i class="fa-brands fa-bluesky fa-2x"></i><span>Bluesky</span></a>
+			{% when "instagram" %}
+				<a target="_blank" title="Instagram" class="no-icon" href="https://www.instagram.com/{{ value }}"><i class="fa-brands fa-instagram fa-2x"></i><span>Instagram</span></a>
+		{% endcase %}
+	{% endif %}
+{% endfor %}

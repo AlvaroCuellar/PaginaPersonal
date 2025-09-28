@@ -1,58 +1,56 @@
 
 section_title:
-  es: "Bio"
-  en: "Bio"
+  es: "Trayectoria"
+  en: "Career"
 subtitle:
   es: "Sobre mí"
   en: "About me"
-photo: "/assets/images/perfil/ejemplo.jpg"
 bio:
   es: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo nec urna dictum cursus. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, vitae facilisis enim erat nec sem. Proin ac massa ac velit cursus dictum. Nullam euismod, justo at facilisis cursus, enim erat dictum enim, vitae cursus enim erat nec sem.
 
-    Este es un texto de ejemplo para la sección biográfica. Puedes describir aquí tu perfil profesional, intereses, experiencia o cualquier información relevante. Sustituye este texto por tu propia presentación cuando uses la plantilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo nec urna dictum cursus. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, vitae facilisis enim erat nec sem. Proin ac massa ac velit cursus dictum. Nullam euismod, justo at facilisis cursus, enim erat dictum enim, vitae cursus enim erat nec sem.
+
   en: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo nec urna dictum cursus. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, vitae facilisis enim erat nec sem. Proin ac massa ac velit cursus dictum. Nullam euismod, justo at facilisis cursus, enim erat dictum enim, vitae cursus enim erat nec sem.
 
-    This is a sample text for the biography section. You can describe your professional profile, interests, experience, or any relevant information here. Replace this text with your own introduction when using the template.
-show_timeline: true
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo nec urna dictum cursus. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, vitae facilisis enim erat nec sem. Proin ac massa ac velit cursus dictum. Nullam euismod, justo at facilisis cursus, enim erat dictum enim, vitae cursus enim erat nec sem.
+
+show_timeline: false
 timeline:
   - date:
-      es: "2024–2025"
-      en: "2024–2025"
+      es: "fecha"
+      en: "date"
     title:
-      es: "Doctorado en Ejemplo"
-      en: "PhD in Example Studies"
+      es: "Título del hito"
+      en: "Title of the milestone"
     subtitle:
-      es: "Instituto de Estudios Ejemplo"
-      en: "Institute of Example Studies"
+      es: "Subtítulo del hito"
+      en: "Subtitle of the milestone"
     description:
-      es: "Beca de investigación genérica"
-      en: "Generic research scholarship"
+      es: "Descripción del hito"
+      en: "Description of the milestone"
   - date:
-      es: "2022–2024"
-      en: "2022–2024"
+      es: "fecha"
+      en: "date"
     title:
-      es: "Máster en Ejemplo Aplicado"
-      en: "MA in Applied Example"
+      es: "Título del hito"
+      en: "Title of the milestone"
     subtitle:
-      es: "Universidad Ejemplo"
-      en: "Example University"
+      es: "Subtítulo del hito"
+      en: "Subtitle of the milestone"
+    description:
+      es: "Descripción del hito"
+      en: "Description of the milestone"
   - date:
-      es: "2020–2022"
-      en: "2020–2022"
+      es: "fecha"
+      en: "date"
     title:
-      es: "Grado en Ejemplo"
-      en: "BA in Example Studies"
+      es: "Título del hito"
+      en: "Title of the milestone"
     subtitle:
-      es: "Escuela Superior de Ejemplo"
-      en: "Higher School of Example"
-  - date:
-      es: "2018–2020"
-      en: "2018–2020"
-    title:
-      es: "Curso de Especialización en Ejemplo"
-      en: "Specialization Course in Example"
-    subtitle:
-      es: "Centro de Formación Ejemplo"
-      en: "Example Training Center"
+      es: "Subtítulo del hito"
+      en: "Subtitle of the milestone"
+    description:
+      es: "Descripción del hito"
+      en: "Description of the milestone"

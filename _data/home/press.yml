@@ -1,0 +1,16 @@
+section_title:
+  es: "Prensa"
+  en: "Press"
+subtitle:
+  es: "Apariciones en medios"
+  en: "Media appearances"
+content:
+  es: |
+    Contenido de la sección de prensa en español.
+    
+    Se puede escribir en múltiples párrafos y usar **Markdown** para formatear el texto.
+    
+  en: |
+    Content for the press section in English.
+    
+    Multiple paragraphs can be written and **Markdown** can be used to format the text.

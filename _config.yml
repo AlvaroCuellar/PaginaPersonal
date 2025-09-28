@@ -1,11 +1,11 @@
-title: "Currens Theme"
-description: "Plantilla one-page bilingüe para portfolios de investigación"
+title: "Álvaro Cuéllar"
+description: "Portfolio de investigación"
 timezone: Europe/Madrid
 permalink: pretty
 
 # GitHub Pages configuration
-url: "https://dxvidmr.github.io"
-baseurl: "/currens-theme"
+url: "https://alvarocuellar.github.io"
+baseurl: ""
 
 markdown: kramdown
 highlighter: rouge

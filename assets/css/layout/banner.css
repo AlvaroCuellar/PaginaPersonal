@@ -15,7 +15,7 @@
 
 #banner-content.row {
     padding-top: 170px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 /* ·········································
@@ -49,6 +49,82 @@
     width: 30px;
     height: 5px;
     margin-top: 30px;
+}
+
+#banner-email {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* ·········································
+   Foto de perfil en banner
+   ········································· */
+
+.banner-profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.banner-profile-photo .profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px solid;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ·········································
+   Carrusel de hitos
+   ········································· */
+
+.banner-achievements-wrapper {
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+}
+
+.banner-achievements {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.achievements-carousel {
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+.achievements-track {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll-left 40s linear infinite;
+}
+
+.achievement-item {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: var(--text-sm);
+    font-weight: var(--font-light);
+    margin-right: 3em;
+    flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 /* ·········································

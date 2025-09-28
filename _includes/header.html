@@ -64,12 +64,13 @@
        BANNER CONTENT & HERO SECTION
        ═══════════════════════════════════════ -->
   <div id="banner-content" class="row clearfix">
-    <div class="col-1">
+    <div class="col-2-3">
       <div class="section-heading">
         <h1>{{ site.data.personal.name }}</h1>
         <h2>
           <b>{{ site.data.personal.position[lang] }}</b><br>
           {{ site.data.personal.affiliation }}<br><br>
+          <a id="banner-email" href="mailto:{{ site.data.personal.email }}">{{ site.data.personal.email }}</a><br><br>
           {% for interest in site.data.personal.interests[lang] %}{{ interest }}{% if forloop.last == false %}. {% endif %}{% endfor %}<br><br>
         </h2>
         <br>
@@ -81,6 +82,32 @@
         <!-- End Social Media Links -->
       </div>
     </div>
+    <div class="col-3">
+      <div class="banner-profile-photo">
+        <img src="{{ site.data.personal.photo }}" alt="profile" class="profile-img">
+      </div>
+    </div>
+      <!-- Hitos Carousel - Full Width -->
+  <div class="banner-achievements-wrapper">
+    <div class="banner-achievements">
+      <div class="achievements-carousel">
+        <div class="achievements-track">
+          {% if site.data.personal.hitos[lang] %}
+            {% for hito in site.data.personal.hitos[lang] %}
+              <span class="achievement-item">{{ hito }}</span>
+            {% endfor %}
+            <!-- Duplicar para efecto continuo -->
+            {% for hito in site.data.personal.hitos[lang] %}
+              <span class="achievement-item">{{ hito }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- End Hitos Carousel -->
+  </div>
+  
+
   <!-- End Banner Content -->
 </header>

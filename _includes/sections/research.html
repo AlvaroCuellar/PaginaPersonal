@@ -1,49 +1,33 @@
 <section id="research" class="research scrollto">
-
   <div class="row clearfix">
+    {% assign lang = page.lang | default: 'es' %}
     <div class="col-1">
       <div class="section-heading">
-        {% if site.data.home.research.subtitle[page.lang] %}
-          <h3>{{ site.data.home.research.subtitle[page.lang] }}</h3>
+        {% if site.data.home.research.subtitle[lang] %}
+          <h3>{{ site.data.home.research.subtitle[lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.home.research.section_title[page.lang] }}</h2>
+        <h2 class="section-title">{{ site.data.home.research.section_title[lang] }}</h2>
       </div>
-
-      <!-- Featured Project -->
-      <div class="hero-project">
-        <div class="hero-project__image"
-          style="background-image: url({{ '/assets/images/projects/' | append: site.data.home.research.featured.image | relative_url }});">
+    </div>
+  </div>
+  
+  <!-- Research Lines -->
+  <div class="research-lines-container">
+    {% for line in site.data.home.research.research_lines %}
+      {% assign is_even = forloop.index | modulo: 2 %}
+      <div class="research-line{% if is_even == 0 %} reverse{% endif %}">
+        <div class="research-content">
+          <h3 class="research-title">{{ line.title[lang] }}</h3>
         </div>
-        <div class="hero-project__content">
-          <span class="hero-project__badge">{{ site.data.home.research.featured.badge[page.lang] }}</span>
-          <h3 class="hero-project__title">{{ site.data.home.research.featured.title[page.lang] }}</h3>
-          <p class="hero-project__description">
-            {{ site.data.home.research.featured.description[page.lang] }}
-          </p>
-          <div class="hero-project__links">
-            <a href="{{ site.data.home.research.featured.url }}" class="button no-icon">{{
-              site.data.i18n[page.lang].project_button }}</a>
+        <div class="research-image">
+          <div class="research-image-container">
+            <img src="{{ line.image }}" alt="{{ line.title[lang] }}" class="research-img">
+            <div class="research-overlay">
+              <p class="research-overlay-description">{{ line.description[lang] }}</p>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- Research Projects Grid -->
-      <div class="projects-grid" id="projects-grid">
-        {% for project in site.data.home.research.projects %}
-          <a href="{{ project.url }}" target="_blank" class="project-card" data-width="{{ project.width }}">
-            <div class="project-image"
-              style="background-image: url({{ '/assets/images/projects/' | append: project.image | relative_url }});">
-              <span class="project-badge">{{ project.badge[page.lang] }}</span>
-              <div class="project-overlay">
-                <h3>{{ project.title[page.lang] }}</h3>
-                <p>{{ project.description[page.lang] }}</p>
-                <span class="access-link">{{ site.data.i18n[page.lang].access_text }}</span>
-              </div>
-            </div>
-          </a>
-        {% endfor %}
-      </div>
-
-    </div>
+    {% endfor %}
   </div>
 </section>

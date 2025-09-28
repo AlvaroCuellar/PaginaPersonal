@@ -308,3 +308,128 @@
     margin: 0 0 var(--spacing-s);
     color: var(--primary-color);
 }
+
+/* ·········································
+   Research lines - Líneas de investigación
+   ········································· */
+
+.research-lines-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.research-line {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: var(--spacing-xl);
+    max-height: 120px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--bg-secondary);
+}
+
+.research-line.reverse {
+    flex-direction: row-reverse;
+}
+
+.research-content {
+    flex: 1;
+    padding: var(--spacing-l);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.research-title {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+    margin: 0;
+    line-height: var(--line-height-tight);
+}
+
+.research-description {
+    display: none; /* Ocultar por defecto, se mostrará en el overlay */
+}
+
+.research-image {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.research-image-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: var(--bg-secondary);
+}
+
+.research-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.research-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: var(--spacing-l);
+    color: white;
+}
+
+.research-image-container:hover .research-overlay {
+    opacity: 1;
+}
+
+.research-image-container:hover .research-img {
+    transform: scale(1.05);
+}
+
+.research-overlay-description {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: var(--text-sm);
+    line-height: var(--line-height-relaxed);
+    margin: 0;
+}
+
+/* Responsive para líneas de investigación */
+@media (max-width: 768px) {
+    .research-lines-container {
+        max-width: 100%;
+        padding: 0 var(--spacing-m);
+    }
+    
+    .research-line,
+    .research-line.reverse {
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto var(--spacing-xl) auto;
+    }
+    
+    .research-content {
+        flex: none;
+        padding: var(--spacing-m);
+    }
+    
+    .research-image {
+        flex: none;
+        height: 200px;
+    }
+    
+    .research-title {
+        font-size: var(--text-lg);
+    }
+}

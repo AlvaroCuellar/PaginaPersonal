@@ -1,81 +1,57 @@
-# Research projects and developments
+# Research lines and developments
 
-# Section title (customizable by user)
 section_title:
   es: "Investigación"
   en: "Research"
 subtitle:
-  es: "Proyectos y desarrollos"
-  en: "Projects and developments"
+  es: "Líneas de investigación"
+  en: "Research Lines"
 
-# Featured project
-featured:
-  badge: 
-    es: "tesis doctoral"
-    en: "PhD thesis"
-  title: 
-    es: "Todos a una: transmisión, recepción e impacto cultural de Fuenteovejuna"
-    en: "All as one: transmission, reception and cultural impact of Fuenteovejuna"
-  description: 
-    es: "Un estudio integral de la transmisión, recepción e impacto cultural de Fuenteovejuna que combina la edición digital y el archivo documental, integrando metodologías de humanidades digitales y participación abierta."
-    en: "A comprehensive study of the transmission, reception and cultural impact of Fuenteovejuna, combining digital edition and documentary archive, integrating digital humanities methodologies and open participation."
-  image: "todosauna.jpg"
-  url: "#"
-
-# Other projects
-projects:
-  # Software Development
-  - badge: 
-      es: "Software"
-      en: "Software"
-    title: 
-      es: "feniX-ML"
-      en: "feniX-ML"
-    description: 
-      es: "Herramienta de transformación semiautomática de ediciones críticas a XML-TEI."
-      en: "Semi-automatic tool for transforming critical editions to XML-TEI."
-    image: "feniX-ML.png"
-    url: "https://github.com/prolopeuab/feniX-ML"
-    width: "2/3"  # Opciones: "full", "1/2", "1/3", "2/3", "5/12", "7/12"
-
-  # Bibliography & Research
-  - badge: 
-      es: "bibliografía"
-      en: "bibliography"
-    title: 
-      es: "Bibliografía en Zotero"
-      en: "Bibliography in Zotero"
-    description: 
-      es: "Colección pública de referencias bibliográficas sobre estudios teatrales y humanidades digitales."
-      en: "Public collection of bibliographic references on theatre studies and digital humanities."
-    image: "zotero.png"
-    url: "https://www.zotero.org/groups/2662498/teatro_y_humanidades_digitales"
-    width: "1/3"
-
-  # Academic Thesis  
-  - badge: 
-      es: "master's thesis"
-      en: "master's thesis"
-    title: 
-      es: "enREDos"
-      en: "enREDos"
-    description: 
-      es: "Análisis de redes sociales aplicado a los personajes de comedias urbanas de Lope de Vega."
-      en: "Social network analysis applied to the characters of Lope de Vega's urban comedies."
-    image: "Amar-tipos.png"
-    url: "https://github.com/dxvidmr/enredos"
-    width: "5/12"
-  
-  # Digital Edition
-  - badge: 
-      es: "edición digital"
-      en: "digital edition"
-    title: 
-      es: "Fray Andrés de San Miguel"
-      en: "Fray Andrés de San Miguel"
-    description: 
-      es: "Edición digital de la sección de carpintería del manuscrito de Fray Andrés de San Miguel. Financiado por la LILLAS Benson Digital Scholarship."
-      en: "Digital edition of the carpentry section of Fray Andrés de San Miguel's manuscript. Funded by the LILLAS Benson Digital Scholarship."
-    image: "edicionfray.png"
-    url: "https://frayandresdesanmiguel.fmamanif.com/"
-    width: "7/12"
+research_lines:
+  - title:
+      es: "Estilometría"
+      en: "Stylometry"
+    description:
+      es: "Análisis computacional del estilo literario para la atribución de autoría y caracterización de textos del Siglo de Oro español."
+      en: "Computational analysis of literary style for authorship attribution and characterization of Spanish Golden Age texts."
+    image: "/assets/images/research/linea1.jpg"
+    
+  - title:
+      es: "Construcción de corpus"
+      en: "Corpus Construction"
+    description:
+      es: "Desarrollo de grandes corpus digitales de teatro áureo con metadatos enriquecidos y anotación lingüística avanzada."
+      en: "Development of large digital corpora of Golden Age theater with enriched metadata and advanced linguistic annotation."
+    image: "/assets/images/research/linea1.jpg"
+    
+  - title:
+      es: "Inteligencia Artificial"
+      en: "Artificial Intelligence"
+    description:
+      es: "Aplicación de técnicas de machine learning y deep learning para el análisis automatizado de patrimonio literario histórico."
+      en: "Application of machine learning and deep learning techniques for automated analysis of historical literary heritage."
+    image: "/assets/images/research/linea1.jpg"
+    
+  - title:
+      es: "Transcripción automática"
+      en: "Automatic Transcription"
+    description:
+      es: "Desarrollo de sistemas de reconocimiento óptico de caracteres especializados en manuscritos y textos impresos antiguos."
+      en: "Development of optical character recognition systems specialized in manuscripts and old printed texts."
+    image: "/assets/images/research/linea1.jpg"
+    
+  - title:
+      es: "Detección automática de copistas"
+      en: "Automatic Copyist Detection"
+    description:
+      es: "Identificación computacional de manos escribanas en manuscritos mediante análisis paleográfico automatizado."
+      en: "Computational identification of scribal hands in manuscripts through automated paleographic analysis."
+    image: "/assets/images/research/linea1.jpg"
+    
+  - title:
+      es: "Datación automática"
+      en: "Automatic Dating"
+    description:
+      es: "Estimación cronológica de textos literarios mediante análisis lingüístico y estilístico computacional."
+      en: "Chronological estimation of literary texts through computational linguistic and stylistic analysis."
+    image: "/assets/images/research/linea1.jpg"
