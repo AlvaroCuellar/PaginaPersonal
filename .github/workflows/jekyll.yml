@@ -30,7 +30,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true # ejecuta 'bundle install' y cachea gems
+          bundler-cache: false # deshabilitamos el cache inicial para regenerar para Linux
+          
+      - name: Install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
           
       - name: Setup Pages (solo para main)
         id: pages
