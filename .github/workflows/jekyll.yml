@@ -1,0 +1,75 @@
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches: ["main", "develop", "testing"]
+  pull_request:
+    branches: ["main"]
+  # Permite ejecutar el workflow manualmente desde la interfaz de GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Permite solo un despliegue concurrente, saltándose las ejecuciones en cola entre la ejecución en progreso y la más reciente.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Job de compilación que se ejecuta en todas las ramas
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true # ejecuta 'bundle install' y cachea gems
+          
+      - name: Setup Pages (solo para main)
+        id: pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v4
+        
+      - name: Build with Jekyll
+        run: |
+          if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "Construyendo para producción (main)..."
+            bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          else
+            echo "Construyendo para rama de desarrollo (${{ github.ref_name }})..."
+            bundle exec jekyll build
+          fi
+        env:
+          JEKYLL_ENV: ${{ github.ref == 'refs/heads/main' && 'production' || 'development' }}
+          
+      - name: Upload artifact (solo para main)
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        
+      - name: Show build info for development branches
+        if: github.ref != 'refs/heads/main'
+        run: |
+          echo "✅ Sitio compilado correctamente para la rama: ${{ github.ref_name }}"
+          echo "🔍 Esta es una rama de desarrollo, no se desplegará a Pages"
+          echo "📁 Contenido generado en _site/"
+          ls -la _site/ | head -10
+
+  # Job de despliegue que solo se ejecuta para la rama main
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
