@@ -31,7 +31,7 @@
     transition: all 0.3s ease;
 }
 
-#header nav a:hover {
+#header nav a:hover:not(.lang-option) {
     color: var(--primary-color) !important;
 }
 
@@ -43,7 +43,7 @@
     transition: all 0.4s ease;
 }
 
-#header nav a, 
+#header nav a:not(.lang-option), 
 #header i {
     color: var(--color-white) !important;
     transition: color 0.8s ease;
@@ -55,11 +55,16 @@
     z-index: 10000;
 }
 
-#header nav a:hover {
+#header nav a:hover:not(.lang-option) {
     color: var(--accent-color) !important;
 }
 
-#header.nav-solid a, 
+/* Enlaces activos en estado transparente */
+#header nav a.active:not(.lang-option) {
+    color: var(--accent-color) !important;
+}
+
+#header.nav-solid a:not(.lang-option), 
 #header.nav-solid i, 
 #nav-mobile ul li a {
     color: var(--text-primary) !important;
@@ -70,24 +75,23 @@
     color: var(--primary-color) !important;
 }
 
-#header.nav-solid .active {
+#header.nav-solid nav a.active:not(.lang-option) {
     color: var(--primary-color) !important;
-    border-color: var(--primary-color);
+    border-color: var(--primary-color) !important;
 }
 
-
-#header.nav-solid nav a:hover {
+#header.nav-solid nav a:hover:not(.lang-option) {
     color: var(--primary-color) !important;
     opacity: 0.8;
 }
 
-#header.nav-solid nav a {
+#header.nav-solid nav a:not(.lang-option) {
     border-bottom: 3px solid;
     border-color: var(--bg-primary);
     transition: all 0.3s ease-out;
 }
 
-#header.nav-solid nav a:hover {
+#header.nav-solid nav a:hover:not(.lang-option) {
     opacity: 1;
 }
 
@@ -576,28 +580,30 @@ nav#nav-mobile .menu-button {
     display: inline-block;
     vertical-align: middle;
     margin-left: var(--spacing-m);
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    padding: 2px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: var(--border-radius); 
+    padding: 0; /* Sin padding para que el slider ocupe todo */
+    border: 1px solid rgba(255, 255, 255, 0.05);
     overflow: hidden;
-    width: 68px; /* Fixed width: 32px + 32px + 4px padding */
-    height: 32px; /* Fixed height */
+    width: 64px; /* Ancho fijo: 2 * 32px */
+    height: 32px; /* Altura fija */
+    backdrop-filter: blur(10px);
 }
 
 .lang-option {
     position: absolute;
-    top: 2px;
+    top: 0;
     width: 32px;
-    height: 28px;
-    line-height: 28px;
-    text-align: center;
-    text-decoration: none;
-    font-size: var(--text-xs);
-    font-weight: var(--font-medium);
+    height: 32px; /* Ocupa toda la altura del contenedor */
+    line-height: 32px !important; /* Centrado vertical perfecto */
+    text-align: center !important;
+    text-decoration: none !important;
+    font-size: var(--text-xs) !important;
+    font-weight: var(--font-medium) !important;
     text-transform: uppercase;
-    transition: all 0.3s ease;
-    z-index: 10; /* Higher z-index to ensure visibility */
+    transition: opacity 0.3s ease !important; /* Solo transición de opacidad */
+    z-index: 10; 
+    border-radius: var(--border-radius);
     /* Resetear completamente estilos de navegación */
     margin: 0 !important;
     padding: 0 !important;
@@ -606,27 +612,30 @@ nav#nav-mobile .menu-button {
     /* Asegurar visibilidad */
     display: block !important;
     visibility: visible !important;
+    /* Forzar que NO cambie en hover */
+    transform: none !important;
+    scale: 1 !important;
 }
 
-/* Posicionamiento específico para cada opción */
+/* Posicionamiento específico para cada opción - Sin padding */
 .lang-option[data-lang="es"] {
-    left: 2px;
+    left: 0;
 }
 
 .lang-option[data-lang="en"] {
-    left: 34px; /* 32px + 2px */
+    left: 32px; /* Exactamente en la mitad */
 }
 
 .lang-slider {
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 0;
+    left: 0;
     width: 32px;
-    height: 28px;
+    height: 32px; /* Ocupa toda la altura del contenedor */
     background: var(--primary-color);
-    border-radius: 18px;
+    border-radius: var(--border-radius); /* Mismo border-radius que el contenedor */
     transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    z-index: 1; /* Below the text */
+    z-index: 1; 
 }
 
 /* Estados del slider según el idioma activo */
@@ -638,146 +647,159 @@ nav#nav-mobile .menu-button {
     transform: translateX(32px);
 }
 
-/* Estilos del texto según el estado */
-.lang-option.active {
-    color: var(--color-white) !important;
-    font-weight: var(--font-semibold);
-}
+/* Las reglas de color están definidas arriba - sección consolidada */
 
-.lang-option:not(.active) {
-    color: var(--color-white) !important;
-    opacity: 0.7;
-}
+/* ═══════════════════════════════════════════════════════════
+   LANGUAGE SWITCHER - SISTEMA SIMPLIFICADO DE COLORES
+   ═══════════════════════════════════════════════════════════ */
 
-/* Hover effects */
-.lang-option:not(.active):hover {
-    color: var(--color-white) !important;
-    opacity: 1;
-}
-
-/* Estados específicos del header */
-#header.nav-solid .lang-option.active {
-    color: var(--color-white) !important;
-}
-
-#header.nav-solid .lang-option:not(.active) {
-    color: var(--text-primary) !important;
-    opacity: 0.7;
-}
-
-#header.nav-solid .lang-option:not(.active):hover {
-    color: var(--primary-color) !important;
-    opacity: 1;
-}
-
-/* Estilos finales del selector de idiomas - Elegante y minimalista */
-.lang-switcher {
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: var(--spacing-m);
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    padding: 2px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    overflow: hidden;
-    width: 68px;
-    height: 32px;
-    backdrop-filter: blur(10px); /* Efecto glassmorphism sutil */
-}
-
-.lang-option {
-    position: absolute;
-    top: 2px;
-    width: 32px;
-    height: 28px;
-    line-height: 28px !important;
-    text-align: center !important;
-    text-decoration: none;
-    font-size: var(--text-xs) !important;
-    font-weight: var(--font-semibold) !important;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    z-index: 10 !important;
-    /* Asegurar visibilidad forzada */
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    /* Resetear estilos de navegación */
-    margin: 0 !important;
+/* RESET COMPLETO - Anular herencia de navegación */
+.lang-switcher .lang-option {
+    /* Resetear propiedades de navegación heredadas */
+    height: 32px !important;
+    line-height: 32px !important;
     padding: 0 !important;
+    margin: 0 !important;
     border: none !important;
+    border-bottom: none !important;
     background: transparent !important;
+    text-decoration: none !important;
+    font-size: var(--text-xs) !important;
+    font-weight: var(--font-medium) !important;
+    text-transform: uppercase !important;
+    transition: opacity 0.3s ease !important;
+    /* Mantener posicionamiento */
+    position: absolute !important;
+    top: 0 !important;
+    width: 32px !important;
+    text-align: center !important;
+    z-index: 10 !important;
+    border-radius: var(--border-radius) !important;
 }
 
-/* Posicionamiento específico */
-.lang-option[data-lang="es"] {
-    left: 2px;
+/* Hover effect en el slider - Se mueve hacia el elemento hovereado */
+.lang-switcher:hover .lang-slider {
+    transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.lang-option[data-lang="en"] {
-    left: 34px;
+/* Cuando hover en ES, slider va a posición ES */
+.lang-option[data-lang="es"]:hover ~ .lang-slider {
+    transform: translateX(0) !important;
 }
 
-.lang-slider {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 32px;
-    height: 28px;
-    background: var(--primary-color);
-    border-radius: 18px;
+/* Cuando hover en EN, slider va a posición EN */
+.lang-option[data-lang="en"]:hover ~ .lang-slider {
+    transform: translateX(32px) !important;
+}
+
+/* Al salir del hover, volver a la posición del idioma activo */
+.lang-switcher:not(:hover) .lang-slider {
     transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    z-index: 1;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-/* Estados del slider */
-.lang-switcher[data-active="es"] .lang-slider {
-    transform: translateX(0);
+/* HOVER STATES - Comportamiento dinámico del hover */
+
+/* Cuando hover en ES: ES se ve como activo, EN se ve como inactivo */
+.lang-option[data-lang="es"]:hover {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
 }
 
-.lang-switcher[data-active="en"] .lang-slider {
-    transform: translateX(32px);
-}
-
-/* Estilos de texto - Estado activo */
-.lang-option.active {
-    color: var(--color-white) !important;
-    font-weight: var(--font-bold) !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important; /* Sombra para contraste */
-}
-
-/* Estilos de texto - Estado inactivo */
-.lang-option:not(.active) {
-    color: rgba(255, 255, 255, 0.8) !important;
+.lang-option[data-lang="es"]:hover ~ .lang-option[data-lang="en"] {
+    color: #ffffff !important;
+    opacity: 0.7 !important;
     font-weight: var(--font-medium) !important;
 }
 
-/* Hover effects */
-.lang-option:not(.active):hover {
-    color: var(--color-white) !important;
-    transform: scale(1.05) !important;
-}
-
-/* Estados para header sólido */
-#header.nav-solid .lang-switcher {
-    background: rgba(var(--text-primary-rgb, 51, 51, 51), 0.1);
-    border-color: rgba(var(--text-primary-rgb, 51, 51, 51), 0.2);
-}
-
-#header.nav-solid .lang-option.active {
-    color: var(--color-white) !important;
-}
-
-#header.nav-solid .lang-option:not(.active) {
-    color: var(--text-secondary) !important;
+/* Cuando hover en EN: EN se ve como activo, ES se ve como inactivo */
+.lang-option[data-lang="en"]:hover {
+    color: #ffffff !important;
     opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
 }
 
-#header.nav-solid .lang-option:not(.active):hover {
-    color: var(--primary-color) !important;
+.lang-switcher:hover .lang-option[data-lang="es"]:not(:hover) {
+    color: #ffffff !important;
+    opacity: 0.7 !important;
+    font-weight: var(--font-medium) !important;
 }
+
+/* Header sólido - Hover states */
+#header.nav-solid .lang-option[data-lang="es"]:hover {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-bold) !important;
+}
+
+#header.nav-solid .lang-option[data-lang="es"]:hover ~ .lang-option[data-lang="en"] {
+    color: #666666 !important;
+    opacity: 0.8 !important;
+    font-weight: var(--font-medium) !important;
+}
+
+#header.nav-solid .lang-option[data-lang="en"]:hover {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-bold) !important;
+}
+
+#header.nav-solid .lang-switcher:hover .lang-option[data-lang="es"]:not(:hover) {
+    color: #666666 !important;
+    opacity: 0.8 !important;
+    font-weight: var(--font-medium) !important;
+}
+
+/* COLORES HEADER TRANSPARENTE - Por defecto */
+.lang-option {
+    color: #ffffff !important;
+    opacity: 0.7 !important;
+}
+
+/* SOLUCIÓN ALTERNATIVA - Usar data-attributes para header transparente */
+.lang-switcher[data-active="es"] .lang-option[data-lang="es"],
+.lang-switcher[data-active="en"] .lang-option[data-lang="en"] {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+/* Mantener regla con clase active por si acaso */
+.lang-option.active {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+/* Regla de hover básica removida - ahora manejada por estados específicos arriba */
+
+/* COLORES HEADER SÓLIDO - Mayor especificidad */
+#header.nav-solid .lang-switcher {
+    background: rgba(51, 51, 51, 0.08);
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
+#header.nav-solid .lang-switcher .lang-option {
+    color: #666666 !important;
+    opacity: 0.8 !important;
+}
+
+/* SOLUCIÓN ALTERNATIVA - Usar data-attributes en lugar de clase active */
+#header.nav-solid .lang-switcher[data-active="es"] .lang-option[data-lang="es"],
+#header.nav-solid .lang-switcher[data-active="en"] .lang-option[data-lang="en"] {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-bold) !important;
+}
+
+/* Mantener regla con clase active por si acaso */
+#header.nav-solid .lang-switcher .lang-option.active {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: var(--font-bold) !important;
+}
+
+/* Regla de hover básica removida - ahora manejada por estados específicos arriba */
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

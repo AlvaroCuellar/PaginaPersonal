@@ -109,7 +109,6 @@ a:not(.no-icon):hover::before {
 /* Menu Button Style */
 .menu-button {
     font-weight: var(--font-bold);
-    padding-left: var(--spacing-l) !important;
 }
 
 .menu-button span {
