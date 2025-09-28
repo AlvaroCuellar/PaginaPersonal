@@ -91,12 +91,12 @@ $(document).ready(function () {
 		}
 	});
 
-	/* Sistema de navegación simplificado - Solo cambio de estado sin animaciones */
-	$(window).scroll(function() {
+	/* Función para actualizar estado de navegación */
+	function updateNavState() {
 		var scroll = $(window).scrollTop();
 		var bannerHeight = $('#banner').height() || 0;
 		
-		// Cambio instantáneo de estado al terminar el banner (no al empezar el scroll)
+		// Cambio de estado al terminar el banner
 		if (scroll >= bannerHeight) {
 			if (!$('#header').hasClass('nav-solid')) {
 				$('#header').addClass('nav-solid');
@@ -106,8 +106,13 @@ $(document).ready(function () {
 				$('#header').removeClass('nav-solid');
 			}
 		}
-		
-		// Marcar sección activa sin animaciones
+	}
+
+
+
+	/* Sistema de navegación simplificado */
+	$(window).scroll(function() {
+		updateNavState();
 		markActiveSection();
 	});
 	
@@ -136,13 +141,14 @@ $(document).ready(function () {
         localStorage.removeItem('scrollPos');
     }
 
-    /* Scroll instantáneo sin animaciones */
+    /* Scroll suave a secciones */
     $('a[href^="#"]:not([href="#"])').on('click', function(e) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
             e.preventDefault();
-            // Scroll instantáneo sin animación
-            window.scrollTo(0, target.offset().top - 80);
+            $('html, body').animate({
+                scrollTop: target.offset().top - 80
+            }, 800);
         }
     });
 });

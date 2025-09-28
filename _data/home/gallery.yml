@@ -1,135 +1,58 @@
-# Gallery section configuration
-
-# Section title (customizable by user)
 section_title:
-  es: "Práctica escénica"
-  en: "Theatre Practice"
+  es: "Galería"
+  en: "Gallery"
 subtitle:
-  es: "Proyectos teatrales y colaboraciones artísticas"
-  en: "Theatre projects and artistic collaborations"
-
-# Gallery items
-# Para cada item, puedes incluir:
-# - title: Título del proyecto (obligatorio)
-# - highlights: Lista de hasta 3 campos destacados (opcional)
-#   Cada highlight tiene:
-#   - label: Etiqueta del campo (ej: "Dirección", "Año", "Técnica", etc.)
-#   - content: Contenido del campo (puede ser multiidioma o simple texto)
-# - description: Descripción del proyecto (obligatorio)
-# - images_folder, images_prefix, images_extension: Configuración de imágenes
-# - layout: "normal" o "reverse" (opcional, por defecto "normal")
-
+  es: "Subtítulo"
+  en: "Subtitle"
 items:
-items:
-  # Gallery Item 1
+  # Ejemplo 1
   - title:
-      es: "La Cueva de Salamanca"
-      en: "La Cueva de Salamanca"
+      es: "Título de ejemplo"
+      en: "Sample Title"
     highlights:
       - label:
-          es: "Dirección"
-          en: "Direction"
+          es: "Autor"
+          en: "Author"
         content:
-          es: "Gaston Gilabert"
-          en: "Gaston Gilabert"
-      - label:
-          es: "Compañía"
-          en: "Company"
-        content:
-          es: "METADRAMA"
-          en: "METADRAMA"
+          es: "Nombre"
+          en: "Name"
       - label:
           es: "Año"
           en: "Year"
-        content: "2024-2025"
+        content: "202X"
+      - label:
+          es: "Técnica"
+          en: "Technique"
+        content:
+          es: "Ejemplo"
+          en: "Example"
     description:
-      es: "El 20 de diciembre de 2024, el laboratorio escénico METADRAMA presentó en un doble pase en la Capilla del edificio histórico de la Universitat de Barcelona esta comedia del dramaturgo novohispano Juan Ruiz de Alarcón. Entre 2024 y 2025 se realizaron diez funciones en encuentros de investigación y festivales de teatro en Barcelona y Toledo. El montaje recibió 15 premios en los festivales de teatro MUTIS y Cascabeles."
-      en: "On December 20, 2024, the METADRAMA theatre laboratory presented this comedy by the New Spanish playwright Juan Ruiz de Alarcón in a double performance at the Chapel of the historic building of the University of Barcelona. Between 2024 and 2025, ten performances were held at research meetings and theatre festivals in Barcelona and Toledo. The production received 15 awards at the MUTIS and Cascabeles theatre festivals."
-    images_folder: "LaCuevaDeSalamanca"
-    images_prefix: "cueva"
-    images_extension: ".jpeg"
-    layout: "normal"  # Options: "normal", "reverse"
+      es: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Descripción de ejemplo."
+      en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sample description."
+    images_folder: "gallery-1"
+    images_prefix: "img"
+    images_extension: ".jpg"
+    layout: "normal"
 
-  # Gallery Item 2
+  # Ejemplo 2
   - title:
-      es: "Fuenteovejuna"
-      en: "Fuenteovejuna"
+      es: "Título de ejemplo 2"
+      en: "Sample Title 2"
     highlights:
       - label:
-          es: "Dirección"
-          en: "Direction"
+          es: "Ubicación"
+          en: "Location"
         content:
-          es: "Cristina Suárez"
-          en: "Cristina Suárez"
-      - label:
-          es: "Compañía"
-          en: "Company"
-        content:
-          es: "ESAD de Asturias"
-          en: "ESAD de Asturias"
+          es: "Lugar"
+          en: "Place"
       - label:
           es: "Año"
           en: "Year"
-        content: "2018"
+        content: "202X"
     description:
-      es: "En mayo de 2018, varios estudiantes del Grado en Arte Dramático culminamos nuestra formación con el Taller Escénico Final representando una de las obras más emblemáticas del Siglo de Oro español. Dirigido por Cristina Suárez, el montaje se convirtió en un homenaje a la potencia del teatro clásico como herramienta de reflexión social. Estrenado en el Teatro de La Laboral (Gijón), tuvo varias funciones en Asturias, incluyendo un pasacalles en Oviedo."
-      en: "In May 2018, several students from the Dramatic Arts Degree culminated our training with the Final Stage Workshop representing one of the most emblematic works of the Spanish Golden Age. Directed by Cristina Suárez, the production became a tribute to the power of classical theatre as a tool for social reflection. Premiered at the Teatro de La Laboral (Gijón), it had several performances in Asturias, including a street parade in Oviedo."
-    images_folder: "Fuenteovejuna"
-    images_prefix: "fo"
+      es: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Descripción de ejemplo."
+      en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sample description."
+    images_folder: "gallery-2"
+    images_prefix: "img"
     images_extension: ".jpg"
     layout: "reverse"
-
-  # Ejemplo con diferentes tipos de campos y solo 2 highlights
-  # (Comentar o descomentar según necesites)
-  # - title:
-  #     es: "Exposición de Arte Contemporáneo"
-  #     en: "Contemporary Art Exhibition"
-  #   highlights:
-  #     - label:
-  #         es: "Técnica"
-  #         en: "Technique"
-  #       content:
-  #         es: "Óleo sobre lienzo"
-  #         en: "Oil on canvas"
-  #     - label:
-  #         es: "Ubicación"
-  #         en: "Location"
-  #       content:
-  #         es: "Galería Nacional"
-  #         en: "National Gallery"
-  #   description:
-  #     es: "Una muestra de obras contemporáneas que exploran la intersección entre tradición y modernidad."
-  #     en: "A showcase of contemporary works exploring the intersection between tradition and modernity."
-  #   images_folder: "Arte"
-  #   images_prefix: "art"
-  #   images_extension: ".jpg"
-  #   layout: "normal"
-
-  # Ejemplo con solo 1 highlight
-  # - title:
-  #     es: "Documental Independiente"
-  #     en: "Independent Documentary"
-  #   highlights:
-  #     - label:
-  #         es: "Duración"
-  #         en: "Duration"
-  #       content: "85 minutos" # Contenido simple sin traducción
-  #   description:
-  #     es: "Un documental que retrata la vida cotidiana en comunidades rurales."
-  #     en: "A documentary portraying daily life in rural communities."
-  #   images_folder: "Documental"
-  #   images_prefix: "doc"
-  #   images_extension: ".png"
-  #   layout: "reverse"
-
-  # Ejemplo sin highlights (solo título y descripción)
-  # - title:
-  #     es: "Instalación Multimedia"
-  #     en: "Multimedia Installation"
-  #   description:
-  #     es: "Una experiencia inmersiva que combina video, sonido y elementos interactivos."
-  #     en: "An immersive experience combining video, sound and interactive elements."
-  #   images_folder: "Instalacion"
-  #   images_prefix: "inst"
-  #   images_extension: ".jpeg"
-  #   layout: "normal"

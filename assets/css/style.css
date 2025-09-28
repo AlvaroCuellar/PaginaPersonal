@@ -47,11 +47,6 @@
     box-sizing: border-box;
 }
 
-/* Suavizar transiciones globales */
-* {
-    transition: all 0.3s ease;
-}
-
 /* Asegurar que las imágenes sean responsivas por defecto */
 img {
     max-width: 100%;

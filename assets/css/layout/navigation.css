@@ -28,7 +28,7 @@
     display: block;
     padding: 0 10px;
     color: var(--text-primary);
-    /* Sin transiciones para cambios instantáneos */
+    transition: color 0.3s ease;
 }
 
 #header nav a:hover:not(.lang-option) {
@@ -39,12 +39,9 @@
    Colores de navegación por estado
    ········································· */
 
-/* Header sin transiciones para evitar parpadeo en cambio de idioma */
-
 #header nav a:not(.lang-option), 
 #header i {
     color: var(--color-white) !important;
-    /* Sin transiciones para cambios instantáneos */
 }
 
 #header #navigation-logo {
@@ -66,7 +63,6 @@
 #header.nav-solid i, 
 #nav-mobile ul li a {
     color: var(--text-primary) !important;
-    /* Sin transiciones para cambios instantáneos */
 }
 
 #header.nav-solid #navigation-logo {
@@ -86,7 +82,6 @@
 #header.nav-solid nav a:not(.lang-option) {
     border-bottom: 3px solid;
     border-color: var(--bg-primary);
-    /* Sin transiciones para cambios instantáneos */
 }
 
 #header.nav-solid nav a:hover:not(.lang-option) {
@@ -115,7 +110,6 @@
     text-align: center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    /* Sin transiciones para evitar efectos sutiles */
 }
 
 #nav-trigger span:after {
@@ -175,34 +169,16 @@ nav#nav-mobile ul {
     box-shadow: var(--shadow-sm);
     max-height: 0;
     overflow: hidden;
-    transform: none; 
     opacity: 0;
     visibility: hidden;
-    transition: none;
     z-index: 1000;
-}
-
-/* Estado: Abriendo */
-nav#nav-mobile ul.expanding {
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
 }
 
 /* Estado: Abierto */
 nav#nav-mobile ul.expanded {
     max-height: calc(100vh - 71px); 
-    transform: translateY(0);
     opacity: 1;
     visibility: visible;
-}
-
-/* Estado: Cerrando */
-nav#nav-mobile ul.collapsing {
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
-    box-shadow: 0 5px 3px rgba(0, 0, 0, 0);
-    max-height: 0;
-    transform: translateY(-20px);
 }
 
 nav#nav-mobile ul:after {
@@ -255,25 +231,10 @@ nav#nav-mobile a {
     height: auto;
     line-height: var(--line-height-relaxed);
     border-bottom: none !important;
-    /* Transiciones controladas por estado del contenedor */
     opacity: 1;
-    transition: none;
 }
 
-/* Enlaces cuando el menú se está abriendo */
-nav#nav-mobile ul.expanding a,
-nav#nav-mobile ul.expanded a {
-    opacity: 1;
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
-}
 
-/* Enlaces cuando el menú se está cerrando */
-nav#nav-mobile ul.collapsing a {
-    opacity: 0;
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
-}
 
 nav#nav-mobile a:hover {
     color: var(--primary-color);
@@ -300,7 +261,7 @@ nav#nav-mobile .menu-button {
     text-align: center;
     color: var(--accent-color);
     margin: 0 var(--spacing-s);
-    /* Sin transiciones para evitar interferencias */
+    transition: all 0.3s ease;
 }
 
 .banner-social-icons a:hover {
@@ -336,7 +297,6 @@ nav#nav-mobile .menu-button {
 }
 
 #header.nav-solid .banner-social-icons a {
-    /* Sin transiciones */
     opacity: 0.5;
     margin-top: 20px;
 }
@@ -360,7 +320,6 @@ nav#nav-mobile .menu-button {
     text-align: center;
     text-decoration: none;
     color: var(--text-secondary);
-    /* Sin transición para evitar efectos sutiles */
     position: fixed;
     z-index: 9000;
 }
@@ -411,8 +370,6 @@ nav#nav-mobile .menu-button {
     cursor: pointer;
     padding: 8px;
     border-radius: 4px;
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
 }
 
 .hamburger-menu:hover {
@@ -423,9 +380,7 @@ nav#nav-mobile .menu-button {
 .hamburger-menu .hamburger-icon {
     font-family: "FontAwesome";
     font-size: var(--text-2xl);
-    color: var(--primary-color); 
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
+    color: var(--primary-color);
 }
 
 /* En página con banner: accent cuando está sobre el banner */
@@ -466,9 +421,6 @@ nav#nav-mobile .menu-button {
     opacity: 0;
     visibility: hidden;
     transform: scale(1.1);
-    
-    /* Sin transiciones - cambio instantáneo */
-    transition: none;
 }
 
 .mobile-menu-overlay.show {

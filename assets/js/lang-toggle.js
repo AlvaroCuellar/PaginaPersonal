@@ -16,28 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
         langSwitcher.setAttribute('data-active', lang);
     }
     
-    // Agregar feedback visual al hover
+    // Sistema simplificado - solo posicionamiento del slider
     langOptions.forEach(option => {
-        option.addEventListener('mouseenter', function() {
-            if (!this.classList.contains('active')) {
-                this.style.transform = 'scale(1.05)';
-            }
-        });
-        
-        option.addEventListener('mouseleave', function() {
-            this.style.transform = 'scale(1)';
-        });
-        
-        // Agregar efecto de click
         option.addEventListener('click', function(e) {
-            // Pequeña animación antes de la navegación
-            this.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                this.style.transform = 'scale(1)';
-            }, 150);
+            // Actualizar data-active al hacer clic
+            const lang = this.getAttribute('data-lang');
+            langSwitcher.setAttribute('data-active', lang);
         });
     });
-    
-    // Agregar clase para animaciones mejoradas
-    langSwitcher.classList.add('enhanced');
 });
