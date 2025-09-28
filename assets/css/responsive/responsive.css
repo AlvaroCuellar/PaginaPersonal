@@ -257,21 +257,11 @@
     }
     
     /* ·········································
-       LANGUAGE TABS
+       LANGUAGE SWITCHER
        ········································· */
     
-    .language-tabs {
-        display: flex;
-        flex-direction: row;
-        gap: var(--spacing-s);
-        justify-content: center;
-    }
-
-    .language-tab {
-        flex: 1;
-        margin-right: 0;
-        text-align: center;
-        max-width: 150px;
+    .lang-switcher {
+        margin: 0 var(--spacing-xs);
     }
     
     /* ·········································

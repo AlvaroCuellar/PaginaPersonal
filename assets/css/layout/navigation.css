@@ -504,12 +504,28 @@ nav#nav-mobile .menu-button {
 }
 
 .mobile-menu-content li {
-    margin-bottom: var(--spacing-none);
+    margin-bottom: var(--spacing-s);
+    text-align: center;
     opacity: 0;
     transform: translateY(20px);
     transition: 
         opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
         transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Último elemento sin margen inferior */
+.mobile-menu-content li:last-child {
+    margin-bottom: 0;
+}
+
+/* Más espacio después de enlaces normales y antes del menu-button */
+.mobile-menu-content li:has(a:not(.menu-button):not(.cv-back-link):not(.lang-option)) {
+    margin-bottom: var(--spacing-s);
+}
+
+/* Más espacio después del menu-button y antes del language switcher */
+.mobile-menu-content li:has(.menu-button) {
+    margin-bottom: var(--spacing-xl);
 }
 
 /* Animación escalonada de los elementos del menú */
@@ -553,11 +569,16 @@ nav#nav-mobile .menu-button {
     align-items: center;
     color: var(--primary-color) !important;
     font-weight: var(--font-medium);
-    margin-bottom: var(--spacing-s);
-    padding: var(--spacing-s) 0;
+    padding: 15px 20px;
     border-bottom: 1px solid var(--color-light-gray);
     justify-content: center;
     text-align: center;
+}
+
+/* Separador visual después del CV back link */
+.mobile-menu-content li:has(.cv-back-link) {
+    margin-bottom: var(--spacing-m);
+    padding-bottom: var(--spacing-xs);
 }
 
 .mobile-menu-content .cv-back-link .back-icon {
@@ -571,6 +592,66 @@ nav#nav-mobile .menu-button {
         opacity: 0.8;
     }
 
+/* ·········································
+   LANGUAGE SWITCHER EN MOBILE MENU OVERLAY
+   ········································· */
+
+/* Contenedor del language switcher en overlay */
+.mobile-menu-content .lang-switcher {
+    display: inline-block !important;
+    margin-left: 0 !important;
+    background: var(--bg-secondary) !important;
+    border: 1px solid color-mix(in srgb, var(--primary-color) 15%, transparent) !important;
+}
+
+
+/* Colores en mobile overlay - Estado por defecto */
+.mobile-menu-content .lang-option {
+    color: var(--primary-color) !important;
+}
+
+/* Estado activo en mobile overlay */
+.mobile-menu-content .lang-switcher[data-active="es"] .lang-option[data-lang="es"],
+.mobile-menu-content .lang-switcher[data-active="en"] .lang-option[data-lang="en"] {
+    color: var(--color-white) !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+/* Mantener regla con clase active por si acaso */
+.mobile-menu-content .lang-option.active {
+    color: var(--color-white) !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+/* HOVER STATES en mobile overlay */
+/* Cuando hover en ES: ES se ve blanco activo, EN se ve primary inactivo */
+.mobile-menu-content .lang-option[data-lang="es"]:hover {
+    color: var(--color-white) !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+.mobile-menu-content .lang-option[data-lang="es"]:hover ~ .lang-option[data-lang="en"] {
+    color: var(--primary-color) !important;
+    opacity: 0.7 !important;
+    font-weight: var(--font-medium) !important;
+}
+
+/* Cuando hover en EN: EN se ve blanco activo, ES se ve primary inactivo */
+.mobile-menu-content .lang-option[data-lang="en"]:hover {
+    color: var(--color-white) !important;
+    opacity: 1 !important;
+    font-weight: var(--font-semibold) !important;
+}
+
+.mobile-menu-content .lang-switcher:hover .lang-option[data-lang="es"]:not(:hover) {
+    color: var(--primary-color) !important;
+    opacity: 0.7 !important;
+    font-weight: var(--font-medium) !important;
+}
+
 /* ═══════════════════════════════════════════════════════════
    LANGUAGE SWITCHER - Implementación absoluta posicionada
    ═══════════════════════════════════════════════════════════ */
@@ -582,11 +663,11 @@ nav#nav-mobile .menu-button {
     margin-left: var(--spacing-m);
     background: rgba(255, 255, 255, 0.15);
     border-radius: var(--border-radius); 
-    padding: 0; /* Sin padding para que el slider ocupe todo */
+    padding: 0;
     border: 1px solid rgba(255, 255, 255, 0.05);
     overflow: hidden;
-    width: 64px; /* Ancho fijo: 2 * 32px */
-    height: 32px; /* Altura fija */
+    width: 64px;
+    height: 32px;
     backdrop-filter: blur(10px);
 }
 
@@ -800,10 +881,3 @@ nav#nav-mobile .menu-button {
 }
 
 /* Regla de hover básica removida - ahora manejada por estados específicos arriba */
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .lang-switcher {
-        margin: 0 var(--spacing-xs);
-    }
-}
