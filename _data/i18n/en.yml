@@ -4,8 +4,22 @@ cv_button: "Full CV"
 project_button: "View project"
 show_more_projects: "Show more projects"
 show_less_projects: "Show less projects"
+show_more_publications: "Show more publications"
+show_less_publications: "Show less publications"
+show_more_talks: "Show more talks"
+show_less_talks: "Show less talks"
+
+# Talk types
+talk_types:
+  invited_talk: "Invited talk"
+  conference_paper: "Conference paper"
+  panel: "Panel"
+  poster: "Poster"
+  workshop: "Workshop"
+  keynote: "Keynote"
 access_text: "Access →"
 citations: "citations"
+cited_by_title: "Cited by"
 
 # Publication types
 publication_types:
@@ -50,20 +64,3 @@ months:
   october: "October"
   november: "November"
   december: "December"
-
-# More CV buttons
-more_cv:
-  publications: "View all publications →"
-  talks: "View all talks →"
-
-# CV texts
-cv:
-  education:
-    supervised_by: "Supervised by"
-    
-  software:
-    technologies: "Technologies:"
-    
-  advanced_training: "Advanced Training"
-  course_results: "Course results"
-  course_results: "Course results"

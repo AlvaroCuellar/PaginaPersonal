@@ -15,6 +15,24 @@
           {% assign pub = site.data.home.publications.publications | where: "id", pub_id | first %}
           {% if pub %}
             <div class="featured-publication-card">
+              {% if pub.cited_by and pub.cited_by.size > 0 %}
+                <div class="citation-badge featured-citation-badge" onclick="toggleCitationOverlay('{{ pub.id }}-featured')">
+                  {{ pub.cited_by.size }} {{ site.data.i18n[lang].citations | default: "citas" }}
+                </div>
+                <div id="{{ pub.id }}-featured-overlay" class="citation-overlay hidden">
+                  <div class="citation-overlay-content">
+                    <div class="citation-overlay-header">
+                      <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }}</h4>
+                      <button class="citation-close" onclick="toggleCitationOverlay('{{ pub.id }}-featured')">&times;</button>
+                    </div>
+                    <div class="citation-list">
+                      {% for citation in pub.cited_by %}
+                        <div class="citation-item">{{ citation }}</div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
               {% if pub.thumbnail %}
                 <div class="publication-thumbnail">
                   <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-thumb">
@@ -30,18 +48,39 @@
                     {% if pub.publication and pub.publication != "" %}
                       {% assign source_text = "<em>" | append: pub.publication | append: "</em>" %}
                     {% endif %}
+                    {% if pub.volume %}
+                      {% assign source_text = source_text | append: " Vol. " | append: pub.volume %}
+                    {% endif %}
+                    {% if pub.number %}
+                      {% assign source_text = source_text | append: " Nº " | append: pub.number %}
+                    {% endif %}
+                    {% if pub.pages %}
+                      {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
+                    {% endif %}
                     {% if pub.year and pub.year != "" %}
                       {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
                       {% assign source_text = source_text | append: pub.year %}
                     {% endif %}
+                    {% if pub.place %}
+                      {% assign source_text = source_text | append: ", " | append: pub.place %}
+                    {% endif %}
+                    {% if pub.publisher %}
+                      {% assign source_text = source_text | append: ", " | append: pub.publisher %}
+                    {% endif %}
+                    {% if pub.isbn %}
+                      {% assign source_text = source_text | append: ", ISBN: " | append: pub.isbn %}
+                    {% endif %}
                     {{ source_text }}
                   </div>
-                  {% if pub.cited_by and pub.cited_by.size > 0 %}
-                    <div class="citation-count">{{ pub.cited_by.size }} {{ site.data.i18n[lang].citations | default: "citas" }}</div>
-                  {% endif %}
+                  <div class="publication-links">
+                    {% if pub.url %}
+                      <div><a href="{{ pub.url }}" target="_blank">{{ pub.url }}</a></div>
+                    {% endif %}
+                    {% if pub.doi %}
+                      <div><a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI: {{ pub.doi }}</a></div>
+                    {% endif %}
+                  </div>
                   <div class="publication-buttons">
-                    {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
-                    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
                     {% if pub.assets.pdf %}<a href="{{ pub.assets.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
                     {% if pub.assets.code %}<a href="{{ pub.assets.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
                     {% if pub.assets.slides %}<a href="{{ pub.assets.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
@@ -56,44 +95,106 @@
 
       <!-- All Publications Grid -->
       <div class="publication-grid">
+        {% assign pub_count = 0 %}
         {% for pub in site.data.home.publications.publications %}
+          {% assign pub_count = pub_count | plus: 1 %}
+          <div class="publication-item{% if pub_count > 5 %} hidden{% endif %}">
           <div class="publication-card">
-            <h5 class="category-label">{{ site.data.i18n[lang].publication_types[pub.type] | default: pub.type | capitalize }}</h5>
-            <div class="publication-title">{{ pub.title }}</div>
-            <div class="publication-authors">{{ pub.authors | join: ", " }}</div>
-            <div class="publication-metadata">
-              <div class="publication-source">
-                {% assign source_text = "" %}
-                {% if pub.publication and pub.publication != "" %}
-                  {% assign source_text = "<em>" | append: pub.publication | append: "</em>" %}
-                {% endif %}
-                {% if pub.year and pub.year != "" %}
-                  {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
-                  {% assign source_text = source_text | append: pub.year %}
-                {% endif %}
-                {{ source_text }}
+            <!-- Citation badge -->
+            {% if pub.cited_by and pub.cited_by.size > 0 %}
+              <div class="citation-badge" onclick="toggleCitationOverlay('{{ pub.id }}-normal')">
+                {{ pub.cited_by.size }} {{ site.data.i18n[lang].citations | default: "citas" }}
               </div>
-              {% if pub.cited_by and pub.cited_by.size > 0 %}
-                <div class="citation-count">{{ pub.cited_by.size }} {{ site.data.i18n[lang].citations | default: "citas" }}</div>
-              {% endif %}
-              <div class="publication-buttons">
-                {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].access_text }}</a>{% endif %}
-                {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" class="button no-icon">DOI</a>{% endif %}
-                {% if pub.assets.pdf %}<a href="{{ pub.assets.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
-                {% if pub.assets.code %}<a href="{{ pub.assets.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
-                {% if pub.assets.slides %}<a href="{{ pub.assets.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
-                {% if pub.assets.data %}<a href="{{ pub.assets.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+              <div id="{{ pub.id }}-normal-overlay" class="citation-overlay hidden">
+                <div class="citation-overlay-content">
+                  <div class="citation-overlay-header">
+                    <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }}</h4>
+                    <button class="citation-close" onclick="toggleCitationOverlay('{{ pub.id }}-normal')">&times;</button>
+                  </div>
+                  <div class="citation-list">
+                    {% for citation in pub.cited_by %}
+                      <div class="citation-item">{{ citation }}</div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            
+            <!-- Thumbnail -->
+            {% if pub.thumbnail %}
+              <div class="publication-thumbnail-grid">
+                <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-thumb-grid">
+              </div>
+            {% endif %}
+            
+            <!-- Content -->
+            <div class="publication-content-grid">
+              <h5 class="category-label">{{ site.data.i18n[lang].publication_types[pub.type] | default: pub.type | capitalize }}</h5>
+              <div class="publication-title">{{ pub.title }}</div>
+              <div class="publication-authors">{{ pub.authors | join: ", " }}</div>
+              <div class="publication-metadata">
+                <div class="publication-source">
+                  {% assign source_text = "" %}
+                  {% if pub.publication and pub.publication != "" %}
+                    {% assign source_text = "<em>" | append: pub.publication | append: "</em>" %}
+                  {% endif %}
+                  {% if pub.volume %}
+                    {% assign source_text = source_text | append: " Vol. " | append: pub.volume %}
+                  {% endif %}
+                  {% if pub.number %}
+                    {% assign source_text = source_text | append: " Nº " | append: pub.number %}
+                  {% endif %}
+                  {% if pub.pages %}
+                    {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
+                  {% endif %}
+                  {% if pub.year and pub.year != "" %}
+                    {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
+                    {% assign source_text = source_text | append: pub.year %}
+                  {% endif %}
+                  {% if pub.place %}
+                    {% assign source_text = source_text | append: ", " | append: pub.place %}
+                  {% endif %}
+                  {% if pub.publisher %}
+                    {% assign source_text = source_text | append: ", " | append: pub.publisher %}
+                  {% endif %}
+                  {% if pub.isbn %}
+                    {% assign source_text = source_text | append: ", ISBN: " | append: pub.isbn %}
+                  {% endif %}
+                  {{ source_text }}
+                </div>
+                
+                <!-- Links (DOI/URL as simple links) -->
+                <div class="publication-links">
+                  {% if pub.url %}
+                    <div><a href="{{ pub.url }}" target="_blank">{{ pub.url }}</a></div>
+                  {% endif %}
+                  {% if pub.doi %}
+                    <div><a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI: {{ pub.doi }}</a></div>
+                  {% endif %}
+                </div>
+                
+                <!-- Asset buttons -->
+                <div class="publication-buttons">
+                  {% if pub.assets.pdf %}<a href="{{ pub.assets.pdf }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
+                  {% if pub.assets.code %}<a href="{{ pub.assets.code }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
+                  {% if pub.assets.slides %}<a href="{{ pub.assets.slides }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
+                  {% if pub.assets.data %}<a href="{{ pub.assets.data }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+                  {% if pub.assets.dataset %}<a href="{{ pub.assets.dataset }}" target="_blank" class="button no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
+                </div>
               </div>
             </div>
+          </div>
           </div>
         {% endfor %}
       </div>
 
-      <div class="more-cv">
-        <a href="{% if lang == 'en' %}/en{% else %}/es{% endif %}/cv/#publications" class="link-button">
-          {{ site.data.i18n[lang].more_cv.publications }}
-        </a>
-      </div>
+      {% if site.data.home.publications.publications.size > 5 %}
+        <div class="show-more-publications-container">
+          <button id="show-more-publications" class="button">
+            {{ site.data.i18n[lang].show_more_publications | default: "Ver más publicaciones" }}
+          </button>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>

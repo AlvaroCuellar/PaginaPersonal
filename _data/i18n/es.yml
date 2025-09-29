@@ -4,8 +4,22 @@ cv_button: "CV completo"
 project_button: "Ver proyecto"
 show_more_projects: "Ver más proyectos"
 show_less_projects: "Ver menos proyectos"
+show_more_publications: "Ver más publicaciones"
+show_less_publications: "Ver menos publicaciones"
+show_more_talks: "Ver más conferencias"
+show_less_talks: "Ver menos conferencias"
+
+# Talk types
+talk_types:
+  invited_talk: "Charla invitada"
+  conference_paper: "Ponencia"
+  panel: "Mesa redonda"
+  poster: "Póster"
+  workshop: "Taller"
+  keynote: "Conferencia magistral"
 access_text: "Acceder →"
 citations: "citas"
+cited_by_title: "Citado por"
 
 # Publication types
 publication_types:
@@ -50,19 +64,3 @@ months:
   october: "Octubre"
   november: "Noviembre"
   december: "Diciembre"
-
-# More CV buttons
-more_cv:
-  publications: "Ver todas las publicaciones →"
-  talks: "Ver todas las ponencias →"
-
-# CV texts
-cv:
-  education:
-    supervised_by: "Dirigida por"
-    
-  software:
-    technologies: "Tecnologías:"
-    
-  advanced_training: "Formación Avanzada"
-  course_results: "Resultados del curso"

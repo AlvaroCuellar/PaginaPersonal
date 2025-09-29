@@ -42,43 +42,4 @@
 
     </div>
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const showMoreBtn = document.getElementById('show-more-projects');
-      const projects = document.querySelectorAll('.project-item');
-      let currentlyShown = 5;
-      let isExpanded = false;
-      
-      // Textos del botón según idioma
-      const showMoreText = '{{ site.data.i18n[lang].show_more_projects | default: "Ver más proyectos" }}';
-      const showLessText = '{{ site.data.i18n[lang].show_less_projects | default: "Ver menos proyectos" }}';
-      
-      if (showMoreBtn) {
-        showMoreBtn.addEventListener('click', function() {
-          if (!isExpanded) {
-            // Mostrar todos los proyectos
-            for (let i = 5; i < projects.length; i++) {
-              projects[i].classList.remove('hidden');
-            }
-            showMoreBtn.textContent = showLessText;
-            isExpanded = true;
-          } else {
-            // Ocultar proyectos extras (mostrar solo los primeros 5)
-            for (let i = 5; i < projects.length; i++) {
-              projects[i].classList.add('hidden');
-            }
-            showMoreBtn.textContent = showMoreText;
-            isExpanded = false;
-            
-            // Scroll suave a la sección de proyectos
-            document.getElementById('projects').scrollIntoView({ 
-              behavior: 'smooth', 
-              block: 'start' 
-            });
-          }
-        });
-      }
-    });
-  </script>
 </section>

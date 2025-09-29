@@ -37,8 +37,8 @@ publications:
     number: "174"
     pages: "455-478"
     year: 2025
-    doi: "doi"
-    url: "enlace"
+    doi: "10.5281/zenodo.8999999"
+    url: "https://ejemplo.es/"
     thumbnail: "/assets/images/pubs/article01.jpg"
     assets:
       pdf: "/assets/papers/article01.pdf"
@@ -59,7 +59,7 @@ publications:
     publisher: "Universidad de Ciudad"
     year: 2024
     url: "https://ejemplo.org/"
-    thumbnail: "/assets/images/pubs/inproceedings01.jpg"
+    thumbnail: "/assets/images/pubs/article01.jpg"
     assets:
       pdf: "/assets/papers/inproceedings01.pdf"
       slides: "/assets/slides/inproceedings01-slides.pdf"
@@ -75,7 +75,54 @@ publications:
     year: 2023
     isbn: "xxx-xx-xxxx-xxx-x"
     url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/book01.jpg"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    assets:
+      pdf: "/assets/papers/book01.pdf"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+  - id: "book01"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    assets:
+      pdf: "/assets/papers/book01.pdf"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+
+  - id: "book01"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    assets:
+      pdf: "/assets/papers/book01.pdf"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+
+  - id: "book01"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/article01.jpg"
     assets:
       pdf: "/assets/papers/book01.pdf"
     cited_by:
