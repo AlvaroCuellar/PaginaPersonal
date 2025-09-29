@@ -2,6 +2,8 @@
 # General reusable texts - DO NOT modify
 cv_button: "Full CV"
 project_button: "View project"
+show_more_projects: "Show more projects"
+show_less_projects: "Show less projects"
 access_text: "Access →"
 
 # Publication types

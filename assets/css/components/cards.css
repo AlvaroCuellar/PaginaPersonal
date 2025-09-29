@@ -18,6 +18,41 @@
     background: var(--bg-secondary);
 }
 
+.hero-project.reverse {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.hero-project.reverse .hero-project__image {
+    order: 2;
+}
+
+.hero-project.reverse .hero-project__content {
+    order: 1;
+}
+
+/* ·········································
+   Projects pagination
+   ········································· */
+
+.project-item.hidden {
+    display: none;
+}
+
+.show-more-container {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.show-more-container .button {
+    font-weight: var(--font-medium);
+    margin: 0;
+    white-space: nowrap;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .hero-project__image {
     position: relative;
     overflow: hidden;

@@ -176,6 +176,12 @@ a:not(.no-icon):hover::before {
     gap: var(--spacing-m);
 }
 
+.hero-project__links .button {
+    font-weight: var(--font-medium);
+    margin: 0;
+    white-space: nowrap;
+}
+
 .project-overlay .access-link {
     font-size: var(--text-sm);
     color: var(--accent-color);
