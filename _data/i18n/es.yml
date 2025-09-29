@@ -11,12 +11,21 @@ show_less_talks: "Ver menos conferencias"
 
 # Talk types
 talk_types:
-  invited_talk: "Charla invitada"
-  conference_paper: "Ponencia"
+  invited: "Charla invitada"
+  conference: "Ponencia"
   panel: "Mesa redonda"
   poster: "Póster"
   workshop: "Taller"
   keynote: "Conferencia magistral"
+
+# Press types
+press_types:
+  interview: "Entrevista"
+  news: "Noticia"
+  tv: "Televisión"
+  critic: "Crítica"
+  award: "Premio"
+  
 access_text: "Acceder →"
 citations: "citas"
 cited_by_title: "Citado por"

@@ -4,13 +4,3 @@ section_title:
 subtitle:
   es: "Comunicación científica"
   en: "Science communication"
-content:
-  es: |
-    Contenido de la sección de divulgación en español.
-    
-    Se puede escribir en múltiples párrafos y usar **Markdown** para formatear el texto.
-    
-  en: |
-    Content for the dissemination section in English.
-    
-    Multiple paragraphs can be written and **Markdown** can be used to format the text.

@@ -330,7 +330,7 @@
     clear: both;
 }
 
-.publication-metadata button {
+.publication-metadata button-inverse {
     margin: 0 !important;
 }
 
@@ -567,7 +567,7 @@
     margin-top: var(--spacing-s); /* Separación del contenido superior */
 }
 
-.publication-buttons .button {
+.publication-buttons .button-inverse {
     font-size: var(--text-xs);
     padding: 0.4rem 0.8rem;
     margin: 0; /* Quitar cualquier margin automático */
@@ -770,7 +770,7 @@
     margin-top: var(--spacing-m);
 }
 
-.publication-content-grid .publication-buttons .button {
+.publication-content-grid .publication-buttons .button-inverse {
     font-size: var(--text-xs);
     padding: 0.3rem 0.6rem;
     margin: 0; /* Quitar margin automático */
@@ -841,6 +841,11 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%; /* Usar toda la altura disponible del grid */
+    border: 1px solid transparent; /* Borde transparente por defecto */
+}
+
+.event-card.featured {
+    border: 2px solid var(--accent-color); /* Borde destacado para featured */
 }
 
 .event-card .category-label {

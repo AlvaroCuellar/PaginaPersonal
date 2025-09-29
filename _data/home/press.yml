@@ -1,16 +1,97 @@
+# Este archivo contiene la lista de apariciones en medios de comunicación.
+# Instrucciones para completar los datos:
+# 1. Campos obligatorios:
+#    - id: Identificador único para cada artículo (por ejemplo, "press01").
+#    - title: Título del artículo o mención, con claves "es" y "en" para idiomas.
+#    - outlet: Nombre del medio de comunicación.
+#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD).
+#    - url: Enlace al artículo original.
+# 2. Campos opcionales:
+#    - thumbnail: Ruta a la imagen de captura del artículo.
+#    - summary: Breve resumen del contenido, con claves "es" y "en".
+#    - type: Tipo de aparición (ver categorías sugeridas abajo).
+# 3. Categorías sugeridas para 'type':
+#    - news      → fa-solid fa-newspaper (Noticia general)
+#    - interview → fa-solid fa-microphone (Entrevista)
+#    - tv        → fa-solid fa-tv (Cobertura televisiva)
+#    - critic    → fa-solid fa-star-half-stroke (Crítica especializada)
+#    - award     → fa-solid fa-trophy (Premio o reconocimiento)
+# 4. Notas adicionales:
+#    - Mantén el formato YAML y respeta la indentación.
+#    - Los artículos se mostrarán en orden cronológico inverso.
+
 section_title:
   es: "Prensa"
   en: "Press"
 subtitle:
   es: "Apariciones en medios"
   en: "Media appearances"
-content:
-  es: |
-    Contenido de la sección de prensa en español.
-    
-    Se puede escribir en múltiples párrafos y usar **Markdown** para formatear el texto.
-    
-  en: |
-    Content for the press section in English.
-    
-    Multiple paragraphs can be written and **Markdown** can be used to format the text.
+
+articles:
+  - id: "press01"
+    title:
+      es: "Título del artículo de prensa 1"
+      en: "Press article title 1"
+    outlet: "El País"
+    date: "2025-09-15"
+    url: "https://ejemplo.com/noticia1"
+    thumbnail: "/assets/images/press/img01.jpg"
+    type: "interview"
+    summary:
+      es: "Breve resumen sobre la investigación mencionada en esta entrevista"
+      en: "Brief summary about the research mentioned in this interview"
+  
+  - id: "press02"
+    title:
+      es: "Título del artículo de prensa 2"
+      en: "Press article title 2"
+    outlet: "La Vanguardia"
+    date: "2025-08-22"
+    url: "https://ejemplo.com/noticia2"
+    thumbnail: "/assets/images/press/img01.jpg"
+    type: "news"
+    summary:
+      es: "Descripción del contenido del artículo sobre el trabajo académico"
+      en: "Description of the article content about the academic work"
+
+  - id: "press05"
+    title:
+      es: "Ejemplo de artículo de TV"
+      en: "TV article example"
+    outlet: "Antena 3"
+    date: "2025-05-10"
+    url: "https://ejemplo.com/tv"
+    thumbnail: "/assets/images/press/img01.jpg"
+    type: "tv"
+    summary:
+      es: "Cobertura televisiva sobre el proyecto."
+      en: "TV coverage about the project."
+
+  - id: "press06"
+    title:
+      es: "Crítica en prensa especializada"
+      en: "Specialized press review"
+    outlet: "El Cultural"
+    date: "2025-04-18"
+    url: "https://ejemplo.com/critic"
+    thumbnail: "/assets/images/press/img01.jpg"
+    type: "critic"
+    summary:
+      es: "Crítica sobre el impacto académico."
+      en: "Review about academic impact."
+
+  - id: "press07"
+    title:
+      es: "Premio a la divulgación"
+      en: "Science outreach award"
+    outlet: "Premios Ciencia"
+    date: "2025-03-02"
+    url: "https://ejemplo.com/award"
+    thumbnail: "/assets/images/press/img01.jpg"
+    type: "award"
+    summary:
+      es: "Reconocimiento por la labor divulgativa."
+      en: "Recognition for outreach work."
+
+
+

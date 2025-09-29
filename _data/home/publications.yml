@@ -1,3 +1,43 @@
+# Este archivo contiene la lista de publicaciones académicas.
+# Instrucciones para completar los datos:
+# 1. Campos obligatorios:
+#    - id: Identificador único para cada entrada (por ejemplo, "article01").
+#    - type: Tipo de publicación. Categorías posibles:
+#      - article: Artículo
+#      - incollection: Capítulo de libro
+#      - inproceedings: Actas
+#      - inbook: Capítulo
+#      - book: Libro
+#      - phdthesis: Tesis doctoral
+#      - mastersthesis: Tesis de máster
+#      - unpublished: No publicado
+#      - techreport: Informe técnico
+#      - misc: Otros
+#      - proceedings: Actas
+#      - manual: Manual
+#      - booklet: Folleto
+#    - title: Título de la publicación.
+#    - authors: Lista de autores (por ejemplo, ["Nombre Apellido", "Nombre Apellido"]).
+#    - year: Año de publicación.
+# 2. Campos opcionales:
+#    - publication: Nombre de la revista, libro o actas.
+#    - volume: Volumen de la publicación.
+#    - number: Número de la publicación.
+#    - pages: Páginas (por ejemplo, "455-478").
+#    - place: Lugar de publicación.
+#    - publisher: Editorial o institución publicadora.
+#    - doi: Identificador DOI.
+#    - url: Enlace a la publicación.
+#    - thumbnail: Ruta a la imagen de vista previa.
+#    - assets: Archivos relacionados (por ejemplo, pdf, dataset, code, slides, data, video, poster).
+#    - cited_by: Referencias completas de publicaciones que citan esta entrada.
+# 3. Publicaciones destacadas:
+#    - featured_ids: Lista de IDs de publicaciones destacadas que aparecerán al inicio de la sección.
+# 4. Notas adicionales:
+#    - Asegúrate de que los IDs sean únicos y descriptivos.
+#    - Mantén el formato YAML y respeta la indentación.
+#    - Puedes agregar tantas entradas como sea necesario siguiendo el formato proporcionado.
+
 subtitle:
   es: "Selección de"
   en: "Featured"
@@ -9,23 +49,6 @@ section_title:
 featured_ids:
   - "article01"
   - "book01"
-
-###############################################################
-# Campos posibles por tipo de publicación (las tipologías se traducen solas):
-#
-# article:
-#   id, type, title, authors, publication, volume, number, pages, year, doi, url, thumbnail, assets, cited_by
-#
-# inproceedings:
-#   id, type, title, authors, publication, pages, place, publisher, year, url, thumbnail, assets, cited_by
-#
-# book:
-#   id, type, title, authors, publisher, place, year, isbn, url, thumbnail, assets, cited_by
-#
-# Otros tipos pueden usar los campos que correspondan según el caso.
-# Los campos 'volume', 'number', 'pages', 'doi' son opcionales y solo se usan si aplican.
-# 'assets' puede incluir: pdf, dataset, code, slides, data, video, poster
-###############################################################
 
 publications:
   - id: "article01"

@@ -11,12 +11,21 @@ show_less_talks: "Show less talks"
 
 # Talk types
 talk_types:
-  invited_talk: "Invited talk"
-  conference_paper: "Conference paper"
+  invited: "Invited talk"
+  conference: "Conference paper"
   panel: "Panel"
   poster: "Poster"
   workshop: "Workshop"
   keynote: "Keynote"
+
+# Press types
+press_types:
+  interview: "Interview"
+  news: "News"
+  tv: "TV"
+  critic: "Review"
+  award: "Award"
+  
 access_text: "Access →"
 citations: "citations"
 cited_by_title: "Cited by"

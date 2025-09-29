@@ -1,6 +1,3 @@
-
-
-
 <!-- ·········································
       TALKS SECTION
       ········································· -->
@@ -19,8 +16,66 @@
                 <!-- All talks grid with pagination -->
                 <div class="talks-grid">
                     {% assign talk_count = 0 %}
-                    {% for category in site.data.home.talks.categories %}
-                      {% for talk in category.items %}
+
+                    <!-- First show featured talks (pinned) -->
+                    {% assign featured_talks = site.data.home.talks.featured_ids %}
+                    {% for talk_id in featured_talks %}
+                        {% assign talk = site.data.home.talks.talks | where: "id", talk_id | first %}
+                        {% if talk %}
+                            {% assign talk_count = talk_count | plus: 1 %}
+                            <div class="talk-item{% if talk_count > 4 %} hidden{% endif %}">
+                                <div class="event-card featured">
+                                    <!-- Type badge instead of date -->
+                                    <div class="category-label">
+                                        {{ site.data.i18n[lang].talk_types[talk.type] | default: talk.type | capitalize }}
+                                    </div>
+                                    <h4>{{ talk.title }}</h4>
+                                    <div class="event-card-content">
+                                        <div class="event-name">{{ talk.event }}</div>
+                                        {% if talk.institution %}<div class="event-institution">{{ talk.institution }}</div>{% endif %}
+
+                                        <!-- Date and location integrated in content -->
+                                        <div class="event-metadata">
+                                            <div class="event-date-location">
+                                                {% assign month = talk.date | date: "%B" | downcase %}
+                                                {% assign year = talk.date | date: "%Y" %}
+                                                {% assign day = talk.date | date: "%-d" %}
+                                                {% assign translated_month = site.data.i18n[lang].months[month] %}
+                                                {% if talk.date_end %}
+                                                    {% assign end_day = talk.date_end | date: "%-d" %}
+                                                    {% assign end_month = talk.date_end | date: "%B" | downcase %}
+                                                    {% assign end_year = talk.date_end | date: "%Y" %}
+                                                    {% assign end_translated_month = site.data.i18n[lang].months[end_month] %}
+                                                    {% if year == end_year and month == end_month %}
+                                                        {{ day }}-{{ end_day }} {{ translated_month | default: month | capitalize }} {{ year }}
+                                                    {% else %}
+                                                        {{ day }} {{ translated_month | default: month | capitalize }} - {{ end_day }} {{ end_translated_month | default: end_month | capitalize }} {{ end_year }}
+                                                    {% endif %}
+                                                {% else %}
+                                                    {{ day }} {{ translated_month | default: month | capitalize }} {{ year }}
+                                                {% endif %}
+                                                {% if talk.location %}
+                                                    • {{ talk.location }}
+                                                {% endif %}
+                                            </div>
+                                            {% if talk.award %}
+                                                <div class="event-award">
+                                                    <i class="fa fa-trophy"></i> {{ talk.award[lang] }}
+                                                </div>
+                                            {% endif %}
+                                            {% if talk.role %}
+                                                <div class="event-role">{{ talk.role[lang] }}</div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+
+                    <!-- Then show non-featured talks ordered by date -->
+                    {% assign regular_talks = site.data.home.talks.talks | reject: "id", featured_talks | sort: "date" | reverse %}
+                    {% for talk in regular_talks %}
                         {% assign talk_count = talk_count | plus: 1 %}
                         <div class="talk-item{% if talk_count > 4 %} hidden{% endif %}">
                             <div class="event-card">
@@ -32,7 +87,7 @@
                                 <div class="event-card-content">
                                     <div class="event-name">{{ talk.event }}</div>
                                     {% if talk.institution %}<div class="event-institution">{{ talk.institution }}</div>{% endif %}
-                                    
+
                                     <!-- Date and location integrated in content -->
                                     <div class="event-metadata">
                                         <div class="event-date-location">
@@ -69,16 +124,12 @@
                                 </div>
                             </div>
                         </div>
-                      {% endfor %}
                     {% endfor %}
                 </div>
 
                 <!-- Show more button -->
-                {% assign total_talks = 0 %}
-                {% for category in site.data.home.talks.categories %}
-                    {% assign total_talks = total_talks | plus: category.items.size %}
-                {% endfor %}
-                
+                {% assign total_talks = site.data.home.talks.talks.size %}
+
                 {% if total_talks > 4 %}
                     <div class="show-more-talks-container" style="text-align: center; margin-top: var(--spacing-xl);">
                         <button id="show-more-talks" class="button">

@@ -1,0 +1,291 @@
+/* ═══════════════════════════════════════════════════════════
+   PRESS CAROUSEL
+   ═══════════════════════════════════════════════════════════ */
+
+/* ·········································
+   Carousel Container
+   ········································· */
+.press-carousel-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+}
+
+.press-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  background: var(--color-white);
+}
+
+/* ·········································
+   Carousel Track
+   ········································· */
+.press-carousel {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  width: 100%;
+}
+
+/* ·········································
+   Individual Slides
+   ········································· */
+.press-slide {
+  min-width: 100%;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: column;
+}
+
+.press-slide.active {
+  display: flex;
+}
+
+/* ·········································
+   Press Image
+   ········································· */
+.press-image {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background: var(--bg-secondary);
+}
+
+.press-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.press-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--accent-color));
+  color: var(--text-secondary);
+  font-size: var(--text-4xl);
+}
+
+/* ·········································
+   Type Badge
+   ········································· */
+.press-type-badge {
+  position: absolute;
+  top: var(--spacing-l);
+  left: var(--spacing-l);
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: var(--text-xl);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+/* ·········································
+   Press Content
+   ········································· */
+.press-content {
+  padding: var(--spacing-xl);
+  text-align: center;
+}
+
+.press-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-m);
+  font-size: var(--text-sm);
+}
+
+.press-outlet {
+  color: var(--primary-color);
+  font-weight: var(--font-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-sm);
+}
+
+.press-header .press-date {
+  color: var(--text-secondary);
+  font-weight: var(--font-medium);
+  position: static;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: inherit;
+  backdrop-filter: none;
+}
+
+.press-title {
+  font-size: var(--text-2xl);
+  font-weight: var(--font-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--text-primary);
+  margin: 0 0 var(--spacing-l);
+  text-align: center;
+}
+
+.press-summary {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  line-height: var(--line-height-normal);
+  margin: 0 0 var(--spacing-xl);
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.press-cta {
+  text-align: center;
+}
+
+/* ·········································
+   Navigation Arrows
+   ········································· */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto; /* Ajustar el ancho */
+  height: auto; /* Ajustar la altura */
+  border: none; /* Eliminar el borde */
+  background: none; /* Eliminar el fondo */
+  color: var(--primary-color);
+  font-size: var(--text-lg);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.carousel-arrow:hover {
+  color: var(--dark-primary);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-prev {
+  left: -25px;
+}
+
+.carousel-next {
+  right: -25px;
+}
+
+.carousel-arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: translateY(-50%);
+}
+
+.carousel-arrow:disabled:hover {
+  transform: translateY(-50%);
+}
+
+/* ·········································
+   Indicators
+   ········································· */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-s);
+  margin-top: var(--spacing-xl);
+  padding: 0 var(--spacing-xl);
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-secondary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active,
+.indicator:hover {
+  background: var(--primary-color);
+  transform: scale(1.3);
+}
+
+/* ·········································
+   Responsive Design
+   ········································· */
+@media (max-width: 768px) {
+  .press-carousel-container {
+    padding: 0 var(--spacing-l);
+  }
+  
+  .press-image {
+    height: 240px;
+  }
+  
+  .press-content {
+    padding: var(--spacing-l);
+  }
+  
+  .press-title {
+    font-size: var(--text-xl);
+  }
+  
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: var(--text-base);
+  }
+  
+  .carousel-prev {
+    left: -20px;
+  }
+  
+  .carousel-next {
+    right: -20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .press-carousel-container {
+    padding: 0 var(--spacing-m);
+  }
+  
+  .press-image {
+    height: 200px;
+  }
+  
+  .press-type-badge {
+    width: 40px;
+    height: 40px;
+    font-size: var(--text-lg);
+  }
+  
+  .carousel-arrow {
+    display: none;
+  }
+  
+  .press-title {
+    font-size: var(--text-lg);
+  }
+  
+  .press-summary {
+    font-size: var(--text-sm);
+  }
+}
+
+/* ·········································
+   Estilos adicionales para botón
+   ········································· */
+.press-button {
+  text-align: center;
+}
+
+.press-button .button {
+  padding: var(--spacing-s) var(--spacing-l);
+}
