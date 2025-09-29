@@ -5,21 +5,79 @@ section_title:
   es: "Publicaciones"
   en: "Publications"
 
+# Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
+featured_ids:
+  - "article01"
+  - "book01"
 
+###############################################################
+# Campos posibles por tipo de publicación (las tipologías se traducen solas):
+#
+# article:
+#   id, type, title, authors, publication, volume, number, pages, year, doi, url, thumbnail, assets, cited_by
+#
+# inproceedings:
+#   id, type, title, authors, publication, pages, place, publisher, year, url, thumbnail, assets, cited_by
+#
+# book:
+#   id, type, title, authors, publisher, place, year, isbn, url, thumbnail, assets, cited_by
+#
+# Otros tipos pueden usar los campos que correspondan según el caso.
+# Los campos 'volume', 'number', 'pages', 'doi' son opcionales y solo se usan si aplican.
+# 'assets' puede incluir: pdf, dataset, code, slides, data, video, poster
+###############################################################
 
-# Metadatos adicionales para publicaciones
-# Las claves deben coincidir con las del publications.bib
-
-featured_keys:
-  - "merino2025teatro"
-  - "merino2024fuenteovejuna"
-  - "gonzalez2023citcem"
-
-# Links adicionales a DOI o URL por publicación (opcional)
-links:
-  merino2024fuenteovejuna:
-    pdf: "/assets/papers/merino2024.pdf"
-    slides: "/assets/slides/merino2024.pdf"
-  merino2025teatro:
-    pdf: "/assets/papers/merino2023.pdf"
-    code: "https://github.com/dxvidmr/network-analysis"
+publications:
+  - id: "article01"
+    type: "article"
+    title: "Título del artículo"
+    authors: ["Nombre Apellido Apellido"]
+    publication: "Nombre de la Revista"
+    volume: "87"
+    number: "174"
+    pages: "455-478"
+    year: 2025
+    doi: "doi"
+    url: "enlace"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    assets:
+      pdf: "/assets/papers/article01.pdf"
+      dataset: "https://doi.org/10.5281/zenodo.8999999"
+      code: "https://github.com/usuario/repositorio"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      
+  - id: "inproceedings01"
+    type: "inproceedings"
+    title: "Título de la ponencia publicada"
+    authors: ["Nombre Apellido", "Nombre Apellido"]
+    publication: "Título de las actas"
+    pages: "234-251"
+    place: "Ciudad"
+    publisher: "Universidad de Ciudad"
+    year: 2024
+    url: "https://ejemplo.org/"
+    thumbnail: "/assets/images/pubs/inproceedings01.jpg"
+    assets:
+      pdf: "/assets/papers/inproceedings01.pdf"
+      slides: "/assets/slides/inproceedings01-slides.pdf"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      
+  - id: "book01"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/book01.jpg"
+    assets:
+      pdf: "/assets/papers/book01.pdf"
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."

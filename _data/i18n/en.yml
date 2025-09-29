@@ -5,6 +5,7 @@ project_button: "View project"
 show_more_projects: "Show more projects"
 show_less_projects: "Show less projects"
 access_text: "Access →"
+citations: "citations"
 
 # Publication types
 publication_types:
