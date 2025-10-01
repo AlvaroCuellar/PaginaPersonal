@@ -1,0 +1,37 @@
+/* ═══════════════════════════════════════════════════════════
+   SECTION URLS STYLES
+   ═══════════════════════════════════════════════════════════ */
+
+/* Smooth scroll para mejor experiencia */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mejorar indicadores de sección activa en navegación */
+#nav-main a.active {
+  position: relative;
+}
+
+#nav-main a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 2px;
+  background: var(--primary-color);
+  border-radius: 1px;
+}
+
+/* Transición suave para cambios de sección */
+.scrollto {
+  scroll-margin-top: 80px; /* Compensar altura del header */
+}
+
+/* Mejorar legibilidad de URLs compartidas */
+@media (max-width: 768px) {
+  .scrollto {
+    scroll-margin-top: 60px; /* Menos margen en móvil */
+  }
+}

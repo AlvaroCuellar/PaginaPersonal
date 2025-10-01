@@ -19,6 +19,7 @@
 #    - title: Título de la publicación.
 #    - authors: Lista de autores (por ejemplo, ["Nombre Apellido", "Nombre Apellido"]).
 #    - year: Año de publicación.
+#    - url: Enlace único a la publicación (para el botón "Acceder").
 # 2. Campos opcionales:
 #    - publication: Nombre de la revista, libro o actas.
 #    - volume: Volumen de la publicación.
@@ -26,10 +27,7 @@
 #    - pages: Páginas (por ejemplo, "455-478").
 #    - place: Lugar de publicación.
 #    - publisher: Editorial o institución publicadora.
-#    - doi: Identificador DOI.
-#    - url: Enlace a la publicación.
 #    - thumbnail: Ruta a la imagen de vista previa.
-#    - assets: Archivos relacionados (por ejemplo, pdf, dataset, code, slides, data, video, poster).
 #    - cited_by: Referencias completas de publicaciones que citan esta entrada.
 # 3. Publicaciones destacadas:
 #    - featured_ids: Lista de IDs de publicaciones destacadas que aparecerán al inicio de la sección.
@@ -44,11 +42,17 @@ subtitle:
 section_title:
   es: "Publicaciones"
   en: "Publications"
+url_slug:
+  es: "publicaciones"
+  en: "publications"
 
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
   - "article01"
   - "book01"
+  - "inproceedings01"
+  - "book02"
+  - "book03"
 
 publications:
   - id: "article01"
@@ -60,13 +64,8 @@ publications:
     number: "174"
     pages: "455-478"
     year: 2025
-    doi: "10.5281/zenodo.8999999"
     url: "https://ejemplo.es/"
     thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/article01.pdf"
-      dataset: "https://doi.org/10.5281/zenodo.8999999"
-      code: "https://github.com/usuario/repositorio"
     cited_by:
       - "77. Referencia completa de una publicación que ha citado este artículo."
       - "76. Referencia completa de una publicación que ha citado este artículo."
@@ -84,9 +83,6 @@ publications:
     year: 2024
     url: "https://ejemplo.org/"
     thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/inproceedings01.pdf"
-      slides: "/assets/slides/inproceedings01-slides.pdf"
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       

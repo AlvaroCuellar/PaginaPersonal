@@ -1,6 +1,9 @@
 section_title:
   es: "Galería"
   en: "Gallery"
+url_slug:
+  es: "galeria"
+  en: "gallery"
 subtitle:
   es: "Subtítulo"
   en: "Subtitle"

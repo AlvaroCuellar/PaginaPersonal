@@ -2,6 +2,9 @@
 section_title:
   es: "Trayectoria"
   en: "Career"
+url_slug:
+  es: "trayectoria"
+  en: "career"
 subtitle:
   # es: ""
   # en: ""

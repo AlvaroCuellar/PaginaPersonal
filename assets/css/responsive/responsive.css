@@ -108,6 +108,22 @@
     }
     
     /* ·········································
+       FEATURED CAROUSEL - Mobile (Talks & Publications)
+       ········································· */
+    
+    .carousel-slide {
+        min-width: 85%;
+    }
+    
+    .featured-carousel::-webkit-scrollbar {
+        height: 6px;
+    }
+    
+    .scroll-hint-text {
+        display: none; /* Ocultar texto en móvil, solo mostrar flecha */
+    }
+    
+    /* ·········································
        GRID SYSTEM
        ········································· */
     
@@ -272,6 +288,11 @@
         grid-template-columns: 1fr;
     }
     
+    /* Talks grid responsive */
+    .talks-grid {
+        grid-template-columns: 1fr;
+    }
+    
     /* ·········································
        TIMELINE COMPONENT
        ········································· */
@@ -347,10 +368,20 @@
         grid-template-columns: 1fr 1fr;
     }
 
-
     .event-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+    
+    /* Featured carousel: 2 slides visible (Talks & Publications) */
+    .carousel-slide {
+        min-width: calc(48% - var(--spacing-l) / 2);
+    }
+    
+    /* Talks grid en tablet - 2 columnas */
+    .talks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* =================================================================

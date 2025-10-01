@@ -1,6 +1,9 @@
 section_title:
   es: "Proyectos"
   en: "Projects"
+url_slug:
+  es: "proyectos"
+  en: "projects"
 subtitle:
   es: "Investigación aplicada"
   en: "Applied research"

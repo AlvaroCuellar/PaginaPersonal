@@ -9,6 +9,16 @@ show_less_publications: "Ver menos publicaciones"
 show_more_talks: "Ver más conferencias"
 show_less_talks: "Ver menos conferencias"
 
+# Talks section titles
+featured_talks_title: "Selección de ponencias"
+all_talks_title: "Todas las ponencias"
+carousel_scroll_hint: "Ver más"
+
+# Publications section titles
+featured_publications_title: "Publicaciones destacadas"
+all_publications_title: "Todas las publicaciones"
+featured_label: "Destacada"
+
 # Talk types
 talk_types:
   invited: "Charla invitada"
@@ -26,7 +36,7 @@ press_types:
   critic: "Crítica"
   award: "Premio"
   
-access_text: "Acceder →"
+access_text: "Acceder"
 citations: "citas <br>VER"
 cited_by_title: "Citado por"
 

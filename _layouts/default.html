@@ -2,6 +2,12 @@
 <html lang="{{ page.lang | default: 'es' }}">
   <head>
     {% include head/head.html %}
+    <!-- Prevenir scroll automático del navegador -->
+    <script>
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    </script>
   </head>
   <body class="page-with-banner">
     <div id="wrapper">
@@ -15,13 +21,23 @@
     <script src="{{ '/assets/js/jquery.1.8.3.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/jquery.scrollUp.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/navigation-home.js' | relative_url }}"></script>
+    
+    <!-- Section translations - DEBE cargarse PRIMERO -->
+    <script src="{{ '/assets/js/section-translations.js' | relative_url }}"></script>
+    
+    <!-- Sistema de navegación UNIFICADO -->
+    <script src="{{ '/assets/js/unified-navigation.js' | relative_url }}"></script>
+    
+    <!-- Animación visual del slider de idioma -->
+    <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+    
+    <!-- Resto de funcionalidades -->
     <script src="{{ '/assets/js/mobile-overlay.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/timeline.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/citations.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/show-more.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/featured-carousel.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/press-carousel.js' | relative_url }}"></script>
   </body>
 </html>

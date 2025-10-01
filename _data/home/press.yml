@@ -23,6 +23,9 @@
 section_title:
   es: "Prensa"
   en: "Press"
+url_slug:
+  es: "prensa"
+  en: "press"
 subtitle:
   es: "Apariciones en medios"
   en: "Media appearances"

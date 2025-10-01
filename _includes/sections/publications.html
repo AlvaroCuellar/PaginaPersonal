@@ -9,13 +9,20 @@
         <h2 class="section-title">{{ site.data.home.publications.section_title[lang] }}</h2>
       </div>
 
-      <!-- Featured Publications (2 columns) -->
-      <div class="featured-publications">
-        {% for pub_id in site.data.home.publications.featured_ids limit:2 %}
-          {% assign pub = site.data.home.publications.publications | where: "id", pub_id | first %}
-          {% if pub %}
-            <div class="featured-publication-card">
-              {% if pub.cited_by and pub.cited_by.size > 0 %}
+      <!-- Featured Publications Carousel -->
+      <div class="featured-carousel-container">
+        <h3 class="subsection-title">{{ site.data.i18n[lang].featured_publications_title | default: "Publicaciones destacadas" }}</h3>
+        <div class="featured-carousel">
+          {% for pub_id in site.data.home.publications.featured_ids %}
+            {% assign pub = site.data.home.publications.publications | where: "id", pub_id | first %}
+            {% if pub %}
+              <div class="carousel-slide">
+                <div class="featured-publication-card">
+                  <!-- Featured Badge -->
+                  <div class="featured-badge">{{ site.data.i18n[lang].featured_label | default: "Featured" }}</div>
+                  
+                  <!-- Citation Badge -->
+                  {% if pub.cited_by and pub.cited_by.size > 0 %}
                 <div class="citation-badge featured-citation-badge" onclick="toggleCitationOverlay('{{ pub.id }}-featured')">
                   {{ pub.cited_by.size }} {{ site.data.i18n[lang].citations | default: "citas" }}
                 </div>
@@ -72,26 +79,30 @@
                     {% endif %}
                     {{ source_text }}
                   </div>
-                  <div class="publication-links">
-                    {% if pub.url %}
-                      <div><a href="{{ pub.url }}" target="_blank">{{ pub.url }}</a></div>
-                    {% endif %}
-                    {% if pub.doi %}
-                      <div><a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI: {{ pub.doi }}</a></div>
-                    {% endif %}
-                  </div>
-                  <div class="publication-buttons">
-                    {% if pub.assets.pdf %}<a href="{{ pub.assets.pdf }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
-                    {% if pub.assets.code %}<a href="{{ pub.assets.code }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
-                    {% if pub.assets.slides %}<a href="{{ pub.assets.slides }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
-                    {% if pub.assets.data %}<a href="{{ pub.assets.data }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
-                  </div>
+                  {% if pub.url %}
+                    <div class="publication-access">
+                      <a href="{{ pub.url }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].access_text | default: "Acceder" }}</a>
+                    </div>
+                  {% endif %}
                 </div>
               </div>
-            </div>
-          {% endif %}
-        {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="carousel-scroll-indicator">
+          <button class="scroll-hint-button" aria-label="{{ site.data.i18n[lang].carousel_scroll_hint | default: 'Desliza para ver más' }}">
+            <span class="scroll-hint-text">{{ site.data.i18n[lang].carousel_scroll_hint | default: "Desliza para ver más" }}</span>
+            <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
       </div>
+
+      <!-- All Publications -->
+      <h3 class="subsection-title">{{ site.data.i18n[lang].all_publications_title | default: "Todas las publicaciones" }}</h3>
 
       <!-- All Publications Grid -->
       <div class="publication-grid">
@@ -163,24 +174,12 @@
                   {{ source_text }}
                 </div>
                 
-                <!-- Links (DOI/URL as simple links) -->
-                <div class="publication-links">
-                  {% if pub.url %}
-                    <div><a href="{{ pub.url }}" target="_blank">{{ pub.url }}</a></div>
-                  {% endif %}
-                  {% if pub.doi %}
-                    <div><a href="https://doi.org/{{ pub.doi }}" target="_blank">DOI: {{ pub.doi }}</a></div>
-                  {% endif %}
-                </div>
-                
-                <!-- Asset buttons -->
-                <div class="publication-buttons">
-                  {% if pub.assets.pdf %}<a href="{{ pub.assets.pdf }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.pdf }}</a>{% endif %}
-                  {% if pub.assets.code %}<a href="{{ pub.assets.code }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.code }}</a>{% endif %}
-                  {% if pub.assets.slides %}<a href="{{ pub.assets.slides }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.slides }}</a>{% endif %}
-                  {% if pub.assets.data %}<a href="{{ pub.assets.data }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
-                  {% if pub.assets.dataset %}<a href="{{ pub.assets.dataset }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].publication_buttons.data }}</a>{% endif %}
-                </div>
+                <!-- Access button -->
+                {% if pub.url %}
+                  <div class="publication-access">
+                    <a href="{{ pub.url }}" target="_blank" class="button-inverse no-icon">{{ site.data.i18n[lang].access_text | default: "Acceder" }}</a>
+                  </div>
+                {% endif %}
               </div>
             </div>
           </div>

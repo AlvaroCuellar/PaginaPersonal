@@ -9,6 +9,16 @@ show_less_publications: "Show less publications"
 show_more_talks: "Show more talks"
 show_less_talks: "Show less talks"
 
+# Talks section titles
+featured_talks_title: "Featured Talks"
+all_talks_title: "All Talks"
+carousel_scroll_hint: "Scroll to see more"
+
+# Publications section titles
+featured_publications_title: "Featured Publications"
+all_publications_title: "All Publications"
+featured_label: "Featured"
+
 # Talk types
 talk_types:
   invited: "Invited talk"
@@ -26,7 +36,7 @@ press_types:
   critic: "Review"
   award: "Award"
   
-access_text: "Access →"
+access_text: "Access"
 citations: "citations"
 cited_by_title: "Cited by"
 

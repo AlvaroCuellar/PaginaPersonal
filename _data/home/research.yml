@@ -3,6 +3,9 @@
 section_title:
   es: "Investigación"
   en: "Research"
+url_slug:
+  es: "investigacion"
+  en: "research"
 subtitle:
   es: "Líneas de investigación"
   en: "Research Lines"

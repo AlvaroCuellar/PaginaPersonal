@@ -1,7 +1,12 @@
 /**
- * Language Toggle Enhancement
- * Mejora la experiencia visual del cambio de idioma
+ * ===================================
+ * LANGUAGE TOGGLE - Visual Animation
+ * ===================================
+ * Maneja SOLO la animación del slider de idioma
+ * La navegación y preservación de scroll se manejan en navigation.js
  */
+
+"use strict";
 
 document.addEventListener('DOMContentLoaded', function() {
     const langSwitcher = document.querySelector('.lang-switcher');
@@ -9,19 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (!langSwitcher || langOptions.length === 0) return;
     
-    // Asegurar que el slider esté en la posición correcta al cargar
-    const activeOption = document.querySelector('.lang-option.active');
-    if (activeOption) {
-        const lang = activeOption.getAttribute('data-lang');
-        langSwitcher.setAttribute('data-active', lang);
-    }
+    // Configurar posición inicial del slider
+    const currentLang = document.documentElement.lang || 'es';
+    langSwitcher.setAttribute('data-active', currentLang);
     
-    // Sistema simplificado - solo posicionamiento del slider
+    // Solo animación visual del slider
     langOptions.forEach(option => {
         option.addEventListener('click', function(e) {
-            // Actualizar data-active al hacer clic
             const lang = this.getAttribute('data-lang');
             langSwitcher.setAttribute('data-active', lang);
+            // La navegación y scroll se manejan en navigation.js
         });
     });
 });

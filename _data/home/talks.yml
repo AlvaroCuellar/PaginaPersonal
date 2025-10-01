@@ -15,9 +15,12 @@
 # 2. Campos opcionales:
 #    - date_end: Fecha de finalización en formato ISO (YYYY-MM-DD).
 #    - institution: Institución organizadora o anfitriona.
-#    - location: Ubicación del evento (ciudad, país).
-#    - role: Rol en el evento (por ejemplo, "Participante").
-#    - award: Premios recibidos, con claves "es" y "en" para idiomas.
+#    - location: Ubicación del evento (ciudad, país). Puede ser:
+#      * String simple: "Madrid, España"
+#      * Objeto con idiomas:
+#          location:
+#            es: "Madrid, España"
+#            en: "Madrid, Spain"
 # 3. Ponencias destacadas:
 #    - featured_ids: Lista de IDs de ponencias destacadas que aparecerán al inicio de la sección.
 # 4. Idiomas:
@@ -33,10 +36,16 @@ subtitle:
 section_title:
   es: "Ponencias"
   en: "Talks"
+url_slug:
+  es: "conferencias"
+  en: "talks"
 
 featured_ids:
   - "id01"
   - "id02"
+  - "id04"
+  - "id05"
+  - "id06"
 
 talks:
   - id: "id01"
@@ -46,59 +55,74 @@ talks:
     title: "Título de la comunicación destacada"
     event: "Nombre del evento académico destacado"
     institution: "Universidad de algún sitio"
-    location: "Ciudad, País"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id02"
     type: "invited"
     date: "2025-02-26"
     title: "Título de la segunda comunicación destacada"
     event: "Nombre de otro evento académico destacado"
     institution: "Universidad de algún sitio"
-    location: "Ciudad, País"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id03"
     type: "conference"
     date: "2025-10-22"
     date_end: "2025-10-24"
     title: "Título de comunicación regular"
     event: "Nombre de evento académico regular"
-    location: "Ciudad, País"
+    institution: "Universidad de algún sitio"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id04"
     type: "conference"
     date: "2024-09-04"
     date_end: "2024-09-07"
     title: "Título de comunicación regular 2"
     event: "Nombre de evento académico regular 2"
-    location: "Ciudad, País"
+    institution: "Universidad de algún sitio"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id05"
     type: "invited"
     date: "2024-10-31"
     title: "Título de comunicación invitada"
     event: "Nombre de evento académico invitado"
     institution: "Universidad de algún sitio"
-    location: "Ciudad, País"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id06"
     type: "panel"
     date: "2024-07-22"
     date_end: "2024-07-24"
     title: "Mesa redonda: Título genérico"
     event: "Nombre de mesa redonda académica"
-    location: "Ciudad, País"
-    role:
-      es: "Participante"
-      en: "Participant"
+    institution: "Universidad de algún sitio"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id07"
     type: "conference"
     date: "2023-07-10"
     date_end: "2023-07-14"
     title: "Título de comunicación regular 3"
     event: "Nombre de evento académico regular 3"
-    location: "Ciudad, País"
+    institution: "Universidad de algún sitio"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
   - id: "id08"
     type: "poster"
     date: "2023-10-18"
     date_end: "2023-10-20"
     title: "Título de póster académico"
     event: "Nombre de congreso académico de póster"
-    location: "Universidad de algún sitio, Ciudad, País"
-    award:
-      es: "Premio genérico al Mejor Póster"
-      en: "Generic Best Poster Award"
+    institution: "Universidad de algún sitio"
+    location:
+      es: "Ciudad, País"
+      en: "City, Country"
