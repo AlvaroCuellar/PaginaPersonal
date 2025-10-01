@@ -17,20 +17,44 @@
 // 1. RESTAURACIÓN INMEDIATA DE SCROLL (antes de DOM ready)
 // ═══════════════════════════════════════════════════════════
 
+// Ejecutar INMEDIATAMENTE antes de que el navegador haga cualquier cosa
 (function() {
+    // Prevenir scroll restoration automático del navegador
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    
     const savedScroll = sessionStorage.getItem('langChangeScroll');
     if (savedScroll) {
-        sessionStorage.removeItem('langChangeScroll');
         const scrollValue = parseInt(savedScroll);
+        console.log('🔄 Restoring scroll to:', scrollValue);
         
-        // Aplicar inmediatamente
-        window.scrollTo(0, scrollValue);
+        // DESACTIVAR SCROLL SUAVE temporalmente
+        const originalScrollBehavior = document.documentElement.style.scrollBehavior;
+        document.documentElement.style.scrollBehavior = 'auto';
+        document.body.style.scrollBehavior = 'auto';
         
-        // Repetir para asegurar
-        setTimeout(() => window.scrollTo(0, scrollValue), 0);
-        setTimeout(() => window.scrollTo(0, scrollValue), 10);
+        // Aplicar scroll inmediatamente SIN animación
+        function forceScroll() {
+            window.scrollTo({ top: scrollValue, behavior: 'auto' });
+            document.documentElement.scrollTop = scrollValue;
+            document.body.scrollTop = scrollValue;
+        }
         
-        window.addEventListener('load', () => window.scrollTo(0, scrollValue));
+        // Ejecutar inmediatamente
+        forceScroll();
+        
+        // Reactivar scroll suave después de 1 segundo
+        setTimeout(() => {
+            document.documentElement.style.scrollBehavior = originalScrollBehavior;
+            document.body.style.scrollBehavior = originalScrollBehavior;
+            console.log('✅ Scroll behavior restored');
+        }, 1000);
+        
+        // Limpiar después de aplicar
+        setTimeout(() => {
+            sessionStorage.removeItem('langChangeScroll');
+        }, 500);
     }
 })();
 
@@ -307,21 +331,47 @@ $(document).ready(function () {
     
     $(document).on('click', '.lang-switcher a', function(e) {
         const currentScroll = $(window).scrollTop();
+        console.log('💾 Saving scroll position:', currentScroll);
         
-        // Guardar SOLO el scroll, NO el hash
-        // El hash se actualizará automáticamente al hacer scroll en la nueva página
+        // Guardar en sessionStorage ANTES de que la página se recargue
         sessionStorage.setItem('langChangeScroll', currentScroll.toString());
+        
+        // También intentar con localStorage como backup
+        localStorage.setItem('langChangeScrollBackup', currentScroll.toString());
+        
+        // NO prevenir el evento - dejar que la navegación ocurra normalmente
     });
+    
+    // Backup: Si sessionStorage falla, usar localStorage
+    if (!sessionStorage.getItem('langChangeScroll')) {
+        const backupScroll = localStorage.getItem('langChangeScrollBackup');
+        if (backupScroll) {
+            localStorage.removeItem('langChangeScrollBackup');
+            const scrollValue = parseInt(backupScroll);
+            console.log('🔄 Using backup scroll:', scrollValue);
+            
+            setTimeout(() => {
+                $(window).scrollTop(scrollValue);
+            }, 100);
+        }
+    }
     
     // ───────────────────────────────────────────────────────
     // INITIAL SETUP
     // ───────────────────────────────────────────────────────
+    
+    console.log('🚀 Unified navigation initialized');
+    console.log('📍 Section translations:', window.sectionTranslations);
+    console.log('🌐 Current language:', getCurrentLanguage());
+    console.log('📍 Current scroll position:', $(window).scrollTop());
     
     updateHeaderState();
     markActiveSection();
     
     // Esperar a que todo esté cargado para actualizar el hash inicial
     $(window).on('load', function() {
+        console.log('📦 Page fully loaded');
+        
         setTimeout(() => {
             // Si hay un hash en la URL, navegar a esa sección
             if (window.location.hash) {
@@ -330,16 +380,22 @@ $(document).ready(function () {
                 const sectionId = getSectionIdFromSlug(hash, lang);
                 const target = $('#' + sectionId);
                 
+                console.log('🔗 Found hash:', hash, '→ section:', sectionId);
+                
                 if (target.length) {
                     // Solo si NO venimos de un cambio de idioma
                     if (!sessionStorage.getItem('langChangeScroll')) {
+                        console.log('📍 Navigating to section:', sectionId);
                         $('html, body').animate({
                             scrollTop: target.offset().top - 80
                         }, 800);
+                    } else {
+                        console.log('⏭️ Skipping navigation (came from language change)');
                     }
                 }
             } else {
                 // Actualizar hash basado en la posición actual
+                console.log('🔄 Updating hash based on current position');
                 updateUrlHash();
             }
         }, 100);
