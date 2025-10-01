@@ -68,10 +68,11 @@ publications:
       dataset: "https://doi.org/10.5281/zenodo.8999999"
       code: "https://github.com/usuario/repositorio"
     cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-      
+      - "77. Referencia completa de una publicación que ha citado este artículo."
+      - "76. Referencia completa de una publicación que ha citado este artículo."
+      - "75. Referencia completa de una publicación que ha citado este artículo."
+      - "74. Referencia completa de una publicación que ha citado este artículo."
+
   - id: "inproceedings01"
     type: "inproceedings"
     title: "Título de la ponencia publicada"

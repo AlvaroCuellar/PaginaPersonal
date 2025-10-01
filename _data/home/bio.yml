@@ -3,8 +3,8 @@ section_title:
   es: "Trayectoria"
   en: "Career"
 subtitle:
-  es: "Sobre mí"
-  en: "About me"
+  # es: ""
+  # en: ""
 bio:
   es: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo nec urna dictum cursus. Sed euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, vitae facilisis enim erat nec sem. Proin ac massa ac velit cursus dictum. Nullam euismod, justo at facilisis cursus, enim erat dictum enim, vitae cursus enim erat nec sem.
