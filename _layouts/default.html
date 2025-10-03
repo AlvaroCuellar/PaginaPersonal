@@ -25,11 +25,14 @@
     <!-- Section translations - DEBE cargarse PRIMERO -->
     <script src="{{ '/assets/js/section-translations.js' | relative_url }}"></script>
     
+    <!-- Animación visual del slider de idioma - Cargar ANTES del AJAX -->
+    <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+    
+    <!-- Sistema AJAX de cambio de idioma -->
+    <script src="{{ '/assets/js/ajax-language-switcher.js' | relative_url }}"></script>
+    
     <!-- Sistema de navegación UNIFICADO -->
     <script src="{{ '/assets/js/unified-navigation.js' | relative_url }}"></script>
-    
-    <!-- Animación visual del slider de idioma -->
-    <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
     
     <!-- Resto de funcionalidades -->
     <script src="{{ '/assets/js/mobile-overlay.js' | relative_url }}"></script>
