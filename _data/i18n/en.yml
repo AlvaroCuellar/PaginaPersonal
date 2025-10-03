@@ -17,7 +17,7 @@ carousel_scroll_hint: "Scroll to see more"
 # Publications section titles
 featured_publications_title: "Featured Publications"
 all_publications_title: "All Publications"
-featured_label: "Featured"
+featured_label: "★ Featured"
 
 # Talk types
 talk_types:
@@ -37,6 +37,7 @@ press_types:
   award: "Award"
   
 access_text: "Access"
+view_citations: "View citations"
 citations: "citations"
 cited_by_title: "Cited by"
 

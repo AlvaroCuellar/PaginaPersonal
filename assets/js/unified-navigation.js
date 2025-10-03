@@ -7,54 +7,60 @@
  * - Header state (solid/transparent)
  * - Active section marker
  * - URL hash con slugs traducidos
- * - Preservación de scroll al cambiar idioma
  * - Smooth scroll navigation
+ * - Fallback de scroll para navegación tradicional (cuando AJAX falla)
+ * 
+ * NOTA: El cambio de idioma con AJAX se maneja en ajax-language-switcher.js
  */
 
 "use strict";
 
 // ═══════════════════════════════════════════════════════════
-// 1. RESTAURACIÓN INMEDIATA DE SCROLL (antes de DOM ready)
+// 1. RESTAURACIÓN DE SCROLL - FALLBACK para navegación tradicional
 // ═══════════════════════════════════════════════════════════
+// NOTA: Este código solo se ejecuta cuando el sistema AJAX falla y se usa
+// navegación tradicional con recarga de página. En condiciones normales,
+// el AJAX mantiene el scroll automáticamente sin necesidad de guardarlo.
 
-// Ejecutar INMEDIATAMENTE antes de que el navegador haga cualquier cosa
 (function() {
-    // Prevenir scroll restoration automático del navegador
-    if ('scrollRestoration' in history) {
-        history.scrollRestoration = 'manual';
-    }
-    
+    const isLanguageChange = sessionStorage.getItem('isLanguageChange') === 'true';
     const savedScroll = sessionStorage.getItem('langChangeScroll');
-    if (savedScroll) {
-        const scrollValue = parseInt(savedScroll);
-        console.log('🔄 Restoring scroll to:', scrollValue);
+    
+    // Solo restaurar si fue un cambio de idioma con navegación tradicional (fallback)
+    if (savedScroll && isLanguageChange) {
+        console.log('⚠️ FALLBACK: Restoring scroll after traditional navigation to:', savedScroll);
         
-        // DESACTIVAR SCROLL SUAVE temporalmente
-        const originalScrollBehavior = document.documentElement.style.scrollBehavior;
-        document.documentElement.style.scrollBehavior = 'auto';
-        document.body.style.scrollBehavior = 'auto';
-        
-        // Aplicar scroll inmediatamente SIN animación
-        function forceScroll() {
-            window.scrollTo({ top: scrollValue, behavior: 'auto' });
-            document.documentElement.scrollTop = scrollValue;
-            document.body.scrollTop = scrollValue;
+        // Temporalmente desactivar restauración automática del navegador
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
         }
         
-        // Ejecutar inmediatamente
-        forceScroll();
+        const scrollValue = parseInt(savedScroll);
         
-        // Reactivar scroll suave después de 1 segundo
-        setTimeout(() => {
-            document.documentElement.style.scrollBehavior = originalScrollBehavior;
-            document.body.style.scrollBehavior = originalScrollBehavior;
-            console.log('✅ Scroll behavior restored');
-        }, 1000);
+        // Aplicar scroll inmediatamente
+        document.documentElement.style.scrollBehavior = 'auto';
+        window.scrollTo(0, scrollValue);
         
-        // Limpiar después de aplicar
+        // Reactivar smooth scroll y restauración normal del navegador
         setTimeout(() => {
-            sessionStorage.removeItem('langChangeScroll');
-        }, 500);
+            document.documentElement.style.scrollBehavior = '';
+            if ('scrollRestoration' in history) {
+                history.scrollRestoration = 'auto'; // ¡Restaurar comportamiento normal!
+            }
+        }, 100);
+        
+        // Limpiar
+        sessionStorage.removeItem('langChangeScroll');
+        sessionStorage.removeItem('isLanguageChange');
+    } else {
+        // Si NO es cambio de idioma, asegurar comportamiento normal del navegador
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'auto'; // ¡Comportamiento normal del navegador!
+        }
+        
+        // Limpiar cualquier dato residual
+        sessionStorage.removeItem('langChangeScroll');
+        sessionStorage.removeItem('isLanguageChange');
     }
 })();
 
@@ -329,32 +335,9 @@ $(document).ready(function () {
     // LANGUAGE TOGGLE
     // ───────────────────────────────────────────────────────
     
-    $(document).on('click', '.lang-switcher a', function(e) {
-        const currentScroll = $(window).scrollTop();
-        console.log('💾 Saving scroll position:', currentScroll);
-        
-        // Guardar en sessionStorage ANTES de que la página se recargue
-        sessionStorage.setItem('langChangeScroll', currentScroll.toString());
-        
-        // También intentar con localStorage como backup
-        localStorage.setItem('langChangeScrollBackup', currentScroll.toString());
-        
-        // NO prevenir el evento - dejar que la navegación ocurra normalmente
-    });
-    
-    // Backup: Si sessionStorage falla, usar localStorage
-    if (!sessionStorage.getItem('langChangeScroll')) {
-        const backupScroll = localStorage.getItem('langChangeScrollBackup');
-        if (backupScroll) {
-            localStorage.removeItem('langChangeScrollBackup');
-            const scrollValue = parseInt(backupScroll);
-            console.log('🔄 Using backup scroll:', scrollValue);
-            
-            setTimeout(() => {
-                $(window).scrollTop(scrollValue);
-            }, 100);
-        }
-    }
+    // NOTA: El manejo de cambio de idioma ahora se hace completamente en
+    // ajax-language-switcher.js. Este archivo solo mantiene el código de
+    // restauración de scroll como fallback para navegación tradicional.
     
     // ───────────────────────────────────────────────────────
     // INITIAL SETUP

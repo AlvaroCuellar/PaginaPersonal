@@ -37,6 +37,7 @@ press_types:
   award: "Premio"
   
 access_text: "Acceder"
+view_citations: "Ver citas"
 citations: "citas <br>VER"
 cited_by_title: "Citado por"
 

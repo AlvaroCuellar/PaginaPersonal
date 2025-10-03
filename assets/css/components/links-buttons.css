@@ -63,7 +63,6 @@ a:not(.no-icon):hover::before {
     color: var(--primary-color);
     border-color: var(--primary-color);
     font-size: var(--text-base);
-    margin: var(--spacing-m) 0;
     padding: 11px 16px;
     display: inline-block;
     border-width: 2px;
@@ -88,7 +87,6 @@ a:not(.no-icon):hover::before {
     border-color: var(--primary-color);
     background-color: var(--primary-color);
     font-size: var(--text-base);
-    margin: var(--spacing-m) 0;
     padding: 11px 16px;
     display: inline-block;
     border-width: 2px;
@@ -130,69 +128,6 @@ a:not(.no-icon):hover::before {
     cursor: pointer;
 }
 
-/* Menu Button Style */
-.menu-button {
-    font-weight: var(--font-bold);
-}
-
-.menu-button span {
-    border: 2px solid var(--accent-color);
-    color: var(--accent-color);
-    background-color: transparent;
-    border-radius: var(--border-radius);
-    padding: var(--spacing-s) var(--spacing-m);
-    transition: all 0.3s ease;
-}
-
-.menu-button:hover span {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
-}
-
-.mobile-menu-content .menu-button:hover span {
-    background-color: var(--accent-color);
-    color: var(--bg-primary);
-}
-
-.mobile-menu-content .menu-button {
-    margin-top: var(--spacing-m);
-}
-
-/* Menu Button in nav-solid state */
-#header.nav-solid .menu-button span {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    background-color: transparent;
-}
-
-#header.nav-solid .menu-button:hover span {
-    background-color: var(--primary-color);
-    color: var(--color-white);
-}
-
-/* ·········································
-   Botones de banner
-   ········································· */
-
-#banner .button {
-    font-family: var(--font-family-body);
-    font-size: var(--text-base);
-    color: var(--color-black);
-    border-color: var(--color-black);
-}
-
-#banner .button:hover {
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-/* ·········································
-   Botones de CV
-   ········································· */
-
-/* ·········································
-   Enlaces en componentes
-   ········································· */
 
 /* Enlaces en proyectos */
 .hero-project__links {
@@ -211,26 +146,5 @@ a:not(.no-icon):hover::before {
     color: var(--accent-color);
     font-weight: var(--font-bold);
     text-decoration: none;
-}
-
-/* Botones en publicaciones */
-.publication-metadata .button {
-    margin-top: var(--spacing-m);
-    float: right;
-    margin-left: var(--spacing-s);
-    margin-bottom: 0;
-}
-
-/* Enlaces en menú lateral del CV */
-.side-menu a {
-    font-size: var(--text-s);
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: var(--font-semibold);
-    transition: font-size 0.5s ease;
-}
-
-.side-menu a:hover {
-    font-size: var(--text-m);
 }
 

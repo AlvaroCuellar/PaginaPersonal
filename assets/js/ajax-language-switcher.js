@@ -564,6 +564,7 @@ class AjaxLanguageSwitcher {
         // Guardar scroll para el sistema tradicional (como backup)
         const currentScroll = window.pageYOffset;
         sessionStorage.setItem('langChangeScroll', currentScroll.toString());
+        sessionStorage.setItem('isLanguageChange', 'true'); // Bandera para distinguir de recarga normal
         
         // Navegar
         window.location.href = newUrl;
