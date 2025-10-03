@@ -28,6 +28,7 @@
 #    - place: Lugar de publicación.
 #    - publisher: Editorial o institución publicadora.
 #    - thumbnail: Ruta a la imagen de vista previa.
+#    - abstract: Resumen de la publicación.
 #    - cited_by: Referencias completas de publicaciones que citan esta entrada.
 # 3. Publicaciones destacadas:
 #    - featured_ids: Lista de IDs de publicaciones destacadas que aparecerán al inicio de la sección.
@@ -66,6 +67,7 @@ publications:
     year: 2025
     url: "https://ejemplo.es/"
     thumbnail: "/assets/images/pubs/article01.jpg"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
       - "77. Referencia completa de una publicación que ha citado este artículo."
       - "76. Referencia completa de una publicación que ha citado este artículo."
@@ -83,6 +85,7 @@ publications:
     year: 2024
     url: "https://ejemplo.org/"
     thumbnail: "/assets/images/pubs/article01.jpg"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       
@@ -96,8 +99,7 @@ publications:
     isbn: "xxx-xx-xxxx-xxx-x"
     url: "https://www.editorial.es/fichalibro.php?P1=234567"
     thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/book01.pdf"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."
@@ -111,24 +113,7 @@ publications:
     isbn: "xxx-xx-xxxx-xxx-x"
     url: "https://www.editorial.es/fichalibro.php?P1=234567"
     thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/book01.pdf"
-    cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-
-  - id: "book01"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
-    year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/book01.pdf"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."
@@ -143,8 +128,22 @@ publications:
     isbn: "xxx-xx-xxxx-xxx-x"
     url: "https://www.editorial.es/fichalibro.php?P1=234567"
     thumbnail: "/assets/images/pubs/article01.jpg"
-    assets:
-      pdf: "/assets/papers/book01.pdf"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+
+  - id: "book01"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."

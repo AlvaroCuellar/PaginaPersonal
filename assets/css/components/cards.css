@@ -667,7 +667,9 @@
     background: var(--bg-secondary);
     border-radius: var(--border-radius);
     overflow: hidden;
-    display: flex;
+    display: grid;
+    grid-template-columns: 160px 1fr 35%;
+    gap: var(--spacing-l);
     height: auto; /* Altura automática según contenido */
     min-height: 160px; /* Altura mínima */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -761,23 +763,27 @@
     margin-bottom: 0;
 }
 
-/* Thumbnail para grid normal */
+/* Thumbnail para grid normal - columna 1 */
 .publication-thumbnail-grid {
-    flex: 0 0 180px;
+    width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
 }
 
 .pub-thumb-grid {
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: auto;
     object-fit: cover;
-    object-position: top; 
+    object-position: center; /* Centrado en la imagen */
+    border-radius: var(--border-radius);
 }
 
-/* Content area para grid normal */
+/* Content area para grid normal - columna 2 (metadatos) */
 .publication-content-grid {
-    flex: 1;
-    padding: var(--spacing-l);
+    padding: var(--spacing-l) 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -810,6 +816,23 @@
     font-size: var(--text-sm);
     color: var(--text-secondary);
     margin-bottom: var(--spacing-s);
+}
+
+/* Abstract area - columna 3 */
+.publication-abstract {
+    padding: var(--spacing-l);
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--color-light-grey);
+    padding-left: var(--spacing-l);
+}
+
+.publication-abstract .abstract-text {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+    text-align: justify;
 }
 
 /* Botones inline para publicaciones normales */
@@ -872,16 +895,28 @@
     
     .publication-grid .publication-card {
         height: auto;
-        flex-direction: column;
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+        gap: var(--spacing-m);
     }
     
     .publication-thumbnail-grid {
-        flex: none;
-        height: 120px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .pub-thumb-grid {
+        max-height: 200px;
+        width: 100%;
     }
     
     .publication-content-grid {
-        padding: var(--spacing-m);
+        padding: 0;
+    }
+    
+    .publication-abstract {
+        border-left: none;
+        border-top: 2px solid var(--color-light-grey);
+        padding: var(--spacing-m) 0 0 0;
     }
     
     /* Botones inline en móvil - usar estilos base */

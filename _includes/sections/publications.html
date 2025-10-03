@@ -119,7 +119,7 @@
               </div>
             {% endif %}
             
-            <!-- Content -->
+            <!-- Content - Metadatos (columna 2) -->
             <div class="publication-content-grid">
               <h5 class="category-label">{{ site.data.i18n[lang].publication_types[pub.type] | default: pub.type | capitalize }}</h5>
               <div class="publication-title">{{ pub.title }}</div>
@@ -168,6 +168,13 @@
                 </div>
               </div>
             </div>
+            
+            <!-- Abstract (columna 3) -->
+            {% if pub.abstract %}
+            <div class="publication-abstract">
+              <div class="abstract-text">{{ pub.abstract }}</div>
+            </div>
+            {% endif %}
           </div>
           <!-- Citation Overlay -->
           {% if pub.cited_by and pub.cited_by.size > 0 %}
