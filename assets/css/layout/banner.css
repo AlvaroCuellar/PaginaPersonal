@@ -10,12 +10,19 @@
     background-color: var(--dark-primary);
     background-image: linear-gradient(121deg, var(--dark-primary) 0%, var(--primary-color) 66%, var(--accent-color) 100%);
     background-size: cover;
+    min-height: 100vh;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 #banner-content.row {
+    flex: 1;
+    display: flex;
+    align-items: center;
     padding-top: 170px;
-    padding-bottom: 120px;
+    padding-bottom: 140px; /* Espacio para los hitos */
 }
 
 /* ·········································
@@ -75,56 +82,99 @@
     object-fit: cover;
     border: 0px solid;
     box-shadow: var(--shadow-sm);
+    aspect-ratio: 1 / 1; /* Mantener siempre cuadrado/circular */
 }
 
 /* ·········································
-   Carrusel de hitos
+   Bloque de hitos
    ········································· */
 
 .banner-achievements-wrapper {
     position: absolute;
-    bottom: 90px;
+    bottom: 0;
     left: 0;
     right: 0;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    width: 100%;
+    padding: var(--spacing-l) 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
 }
 
 .banner-achievements {
     width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.achievements-carousel {
-    width: 100%;
-    overflow: hidden;
-    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
-}
-
-.achievements-track {
+    padding: 0 var(--spacing-xl);
     display: flex;
-    white-space: nowrap;
-    animation: scroll-left 40s linear infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements-block {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    line-height: var(--line-height-relaxed);
+    padding: var(--spacing-m) var(--spacing-l);
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .achievement-item {
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+    color: rgba(255, 255, 255, 0.75);
     font-size: var(--text-sm);
-    font-weight: var(--font-light);
-    margin-right: 3em;
-    flex-shrink: 0;
+    font-weight: var(--font-normal);
+    letter-spacing: 0.3px;
+    transition: color 0.3s ease;
 }
 
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+.achievement-item:hover {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.achievement-separator {
+    display: inline;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 0 var(--spacing-s);
+    font-weight: var(--font-light);
+}
+
+/* Botón toggle para hitos en móvil/tablet */
+.achievements-toggle {
+    display: none; /* Oculto en desktop */
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.85);
+    padding: var(--spacing-s) var(--spacing-l);
+    border-radius: var(--border-radius);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 100%;
+    max-width: 300px;
+}
+
+.achievements-toggle:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.achievements-toggle i {
+    margin-left: var(--spacing-xs);
+    transition: transform 0.3s ease;
+}
+
+.achievements-toggle.active i {
+    transform: rotate(180deg);
+}
+
+/* Bloque colapsable */
+.achievements-block.collapsed {
+    display: none;
 }
 
 /* ·········································
@@ -132,6 +182,11 @@
    ········································· */
 
 @media (max-width: 768px) {
+    #banner {
+        min-height: 100vh;
+        height: auto; /* Permitir crecimiento cuando hitos están abiertos */
+    }
+    
     #banner h1 {
         font-size: var(--text-5xl);
         line-height: var(--line-height-tight);
@@ -142,8 +197,68 @@
     }
 
     #banner-content.row {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+    
+    /* Reordenar elementos en móvil */
+    .col-2-3 {
+        order: 2;
+    }
+    
+    .col-3 {
+        order: 1;
+        margin-bottom: var(--spacing-l);
+    }
+    
+    /* Foto más pequeña en móvil */
+    .banner-profile-photo {
+        padding-top: 0;
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    /* Hitos colapsables en móvil */
+    .achievements-toggle {
+        display: block;
+        margin: 0 auto;
+        font-size: var(--text-xs);
+    }
+    
+    .achievements-block {
+        padding: var(--spacing-s) var(--spacing-m);
+        margin-top: var(--spacing-m);
+    }
+    
+    .achievement-item {
+        font-size: var(--text-xs);
+    }
+    
+    .achievement-separator {
+        margin: 0 var(--spacing-xs);
+    }
+    
+    .banner-achievements-wrapper {
+        position: relative;
+        padding: var(--spacing-m);
+        background: none;
+    }
+    
+    .banner-achievements {
+        padding: 0 var(--spacing-m);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-m);
+    }
+    
+    /* Iconos sociales centrados */
+    .banner-social-icons {
+        justify-content: center;
     }
 }
 
@@ -155,5 +270,38 @@
 
     #banner h2 {
         font-size: var(--text-base);
+    }
+    
+    #banner-content.row {
+        padding-bottom: 100px;
+    }
+    
+    /* Foto más pequeña en tablet */
+    .banner-profile-photo .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    /* Hitos colapsables en tablet */
+    .achievements-toggle {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .achievements-block {
+        margin-top: var(--spacing-m);
+    }
+    
+    .banner-achievements-wrapper {
+        position: relative;
+        padding: var(--spacing-m);
+        background: none;
+    }
+    
+    .banner-achievements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-m);
     }
 }

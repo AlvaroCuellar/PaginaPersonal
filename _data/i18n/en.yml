@@ -40,6 +40,10 @@ access_text: "Access"
 view_citations: "View citations"
 citations: "citations"
 cited_by_title: "Cited by"
+abstract_label: "Abstract"
+view_achievements: "View achievements"
+hide_achievements: "Hide achievements"
+toggle_achievements: "Toggle achievements"
 
 # Publication types
 publication_types:

@@ -87,27 +87,27 @@
         <img src="{{ site.data.personal.photo }}" alt="profile" class="profile-img">
       </div>
     </div>
-      <!-- Hitos Carousel - Full Width -->
+  </div>
+  <!-- End Banner Content -->
+
+  <!-- Hitos Block - Siempre pegado al fondo -->
   <div class="banner-achievements-wrapper">
     <div class="banner-achievements">
-      <div class="achievements-carousel">
-        <div class="achievements-track">
-          {% if site.data.personal.hitos[lang] %}
-            {% for hito in site.data.personal.hitos[lang] %}
-              <span class="achievement-item">{{ hito }}</span>
-            {% endfor %}
-            <!-- Duplicar para efecto continuo -->
-            {% for hito in site.data.personal.hitos[lang] %}
-              <span class="achievement-item">{{ hito }}</span>
-            {% endfor %}
-          {% endif %}
+      {% if site.data.personal.hitos[lang] %}
+        <!-- Botón toggle (solo visible en tablet/móvil) -->
+        <button class="achievements-toggle" onclick="toggleAchievements()" aria-label="{{ site.data.i18n[lang].toggle_achievements | default: 'Ver logros' }}">
+          <span class="toggle-text">{{ site.data.i18n[lang].view_achievements | default: "Ver logros" }}</span>
+          <i class="fa fa-chevron-down"></i>
+        </button>
+        
+        <!-- Bloque de hitos (colapsado por defecto en móvil/tablet) -->
+        <div class="achievements-block collapsed">
+          {% for hito in site.data.personal.hitos[lang] %}
+            <span class="achievement-item">{{ hito }}</span>{% unless forloop.last %}<span class="achievement-separator">·</span>{% endunless %}
+          {% endfor %}
         </div>
-      </div>
+      {% endif %}
     </div>
   </div>
-  <!-- End Hitos Carousel -->
-  </div>
-  
-
-  <!-- End Banner Content -->
+  <!-- End Hitos Block -->
 </header>
