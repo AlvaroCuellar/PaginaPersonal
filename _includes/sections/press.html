@@ -9,7 +9,10 @@
         {% if site.data.home.press.subtitle[lang] %}
           <h3>{{ site.data.home.press.subtitle[lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.home.press.section_title[lang] }}</h2>
+        <h2 class="section-title">
+          {{ site.data.home.press.section_title[lang] }}
+          <span class="section-count">{{ site.data.home.press.articles.size }}</span>
+        </h2>
       </div>
       
       <!-- Press Carousel Container -->

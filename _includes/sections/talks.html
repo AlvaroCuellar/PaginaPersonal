@@ -9,7 +9,10 @@
                 {% if site.data.home.talks.subtitle[lang] %}
                   <h3>{{ site.data.home.talks.subtitle[lang] }}</h3>
                 {% endif %}
-                <h2 class="section-title">{{ site.data.home.talks.section_title[lang] }}</h2>
+                <h2 class="section-title">
+                  {{ site.data.home.talks.section_title[lang] }}
+                  <span class="section-count">{{ site.data.home.talks.talks.size }}</span>
+                </h2>
             </div>
             <div class="talks-content">
                 {{ site.data.home.talks.content[lang] | markdownify }}

@@ -74,7 +74,7 @@ h3 {
     font-weight: var(--font-bold);
     color: var(--primary-color);
     line-height: var(--line-height-normal);
-    padding: 10px 0;
+    margin-bottom: var(--spacing-s);
 }
 
 h4 {
@@ -139,6 +139,16 @@ p {
 
 .section-heading {
     padding: 0 0 15px 0;
+    position: relative;
+}
+
+.section-heading::after {
+    background: var(--accent-color);
+    content: "";
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-bottom: var(--spacing-m);
 }
 
 .section-title {
@@ -146,6 +156,30 @@ p {
     font-size: var(--text-3xl);
     font-weight: var(--font-bold);
     color: var(--primary-color);
+}
+
+/* Wrapper para título con contador */
+.section-heading h2 {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-m);
+}
+
+/* Contador de items en secciones */
+.section-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 12px;
+    background: var(--primary-color);
+    color: var(--color-white);
+    border-radius: 50%;
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+    line-height: 1;
+    font-family: var(--font-family-body);
 }
 
 .section-subtitle {
@@ -163,18 +197,10 @@ p {
     color: var(--primary-color);
     letter-spacing: 2px;
     padding-bottom: 0;
+    margin: 0;
 }
 
-.section-heading h2:after {
-    background: var(--accent-color);
-    content: "";
-    display: block;
-    width: 30px;
-    height: 5px;
-    margin-top: 30px;
-}
-
-#banner-content .section-heading h2:after {
+#banner-content .section-heading::after {
     display: none;
 }
 
@@ -209,4 +235,22 @@ ul.puntos {
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
+}
+
+/* ·········································
+   Responsive - Section Count
+   ········································· */
+
+@media (max-width: 768px) {
+    .section-title {
+        flex-wrap: wrap;
+        gap: var(--spacing-s);
+    }
+    
+    .section-count {
+        min-width: 32px;
+        height: 32px;
+        padding: 0 10px;
+        font-size: var(--text-sm);
+    }
 }

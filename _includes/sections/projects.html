@@ -6,7 +6,10 @@
         {% if site.data.home.projects.subtitle[lang] %}
           <h3>{{ site.data.home.projects.subtitle[lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.home.projects.section_title[lang] }}</h2>
+        <h2 class="section-title">
+          {{ site.data.home.projects.section_title[lang] }}
+          <span class="section-count">{{ site.data.home.projects.projects.size }}</span>
+        </h2>
       </div>
 
       <!-- Projects Container -->

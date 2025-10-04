@@ -4,30 +4,30 @@
     <div class="col-1">
       <div class="section-heading">
         {% if site.data.home.research.subtitle[lang] %}
-          <h3>{{ site.data.home.research.subtitle[lang] }}</h3>
+        <h3>{{ site.data.home.research.subtitle[lang] }}</h3>
         {% endif %}
         <h2 class="section-title">{{ site.data.home.research.section_title[lang] }}</h2>
       </div>
-    </div>
-  </div>
-  
-  <!-- Research Lines -->
-  <div class="research-lines-container">
-    {% for line in site.data.home.research.research_lines %}
-      {% assign is_even = forloop.index | modulo: 2 %}
-      <div class="research-line{% if is_even == 0 %} reverse{% endif %}">
-        <div class="research-content">
-          <h3 class="research-title">{{ line.title[lang] }}</h3>
-        </div>
-        <div class="research-image">
-          <div class="research-image-container">
-            <img src="{{ line.image }}" alt="{{ line.title[lang] }}" class="research-img">
-            <div class="research-overlay">
-              <p class="research-overlay-description">{{ line.description[lang] }}</p>
+
+      <!-- Research Lines -->
+      <div class="research-lines-container">
+        {% for line in site.data.home.research.research_lines %}
+        {% assign is_even = forloop.index | modulo: 2 %}
+        <div class="research-line{% if is_even == 0 %} reverse{% endif %}">
+          <div class="research-content">
+            <h3 class="research-title">{{ line.title[lang] }}</h3>
+          </div>
+          <div class="research-image">
+            <div class="research-image-container">
+              <img src="{{ line.image }}" alt="{{ line.title[lang] }}" class="research-img">
+              <div class="research-overlay">
+                <p class="research-overlay-description">{{ line.description[lang] }}</p>
+              </div>
             </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
 </section>

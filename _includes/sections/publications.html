@@ -6,7 +6,10 @@
         {% if site.data.home.publications.subtitle[lang] %}
           <h3>{{ site.data.home.publications.subtitle[lang] }}</h3>
         {% endif %}
-        <h2 class="section-title">{{ site.data.home.publications.section_title[lang] }}</h2>
+        <h2 class="section-title">
+          {{ site.data.home.publications.section_title[lang] }}
+          <span class="section-count">{{ site.data.home.publications.publications.size }}</span>
+        </h2>
       </div>
 
       <!-- Featured Publications Carousel -->
@@ -75,10 +78,10 @@
                 <div id="{{ pub.id }}-featured-overlay" class="citation-overlay hidden">
                   <div class="citation-overlay-content">
                     <div class="citation-overlay-header">
-                      <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }}</h4>
+                      <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }} ({{ pub.cited_by.size }})</h4>
                       <button class="citation-close" onclick="toggleCitationOverlay('{{ pub.id }}-featured')">&times;</button>
                     </div>
-                    <div class="citation-list">
+                    <div class="citation-list" style="counter-reset: citation-counter {{ pub.cited_by.size | plus: 1 }};">
                       {% for citation in pub.cited_by %}
                         <div class="citation-item">{{ citation }}</div>
                       {% endfor %}
@@ -181,10 +184,10 @@
           <div id="{{ pub.id }}-normal-overlay" class="citation-overlay hidden">
             <div class="citation-overlay-content">
               <div class="citation-overlay-header">
-                <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }}</h4>
+                <h4>{{ site.data.i18n[lang].cited_by_title | default: "Citado por" }} ({{ pub.cited_by.size }})</h4>
                 <button class="citation-close" onclick="toggleCitationOverlay('{{ pub.id }}-normal')">&times;</button>
               </div>
-              <div class="citation-list">
+              <div class="citation-list" style="counter-reset: citation-counter {{ pub.cited_by.size | plus: 1 }};">
                 {% for citation in pub.cited_by %}
                   <div class="citation-item">{{ citation }}</div>
                 {% endfor %}

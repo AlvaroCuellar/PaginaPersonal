@@ -11,8 +11,10 @@ function toggleCitationOverlay(overlayId) {
         // Prevenir scroll del body cuando el overlay está abierto
         if (!overlay.classList.contains('hidden')) {
             document.body.style.overflow = 'hidden';
+            document.body.classList.add('modal-open');
         } else {
             document.body.style.overflow = '';
+            document.body.classList.remove('modal-open');
         }
     }
 }
@@ -22,6 +24,7 @@ document.addEventListener('click', function(event) {
     if (event.target.classList.contains('citation-overlay')) {
         event.target.classList.add('hidden');
         document.body.style.overflow = '';
+        document.body.classList.remove('modal-open');
     }
 });
 
@@ -32,6 +35,7 @@ document.addEventListener('keydown', function(event) {
         if (openOverlay) {
             openOverlay.classList.add('hidden');
             document.body.style.overflow = '';
+            document.body.classList.remove('modal-open');
         }
     }
 });

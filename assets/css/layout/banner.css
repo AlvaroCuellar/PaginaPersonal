@@ -11,7 +11,7 @@
     background-image: linear-gradient(121deg, var(--dark-primary) 0%, var(--primary-color) 66%, var(--accent-color) 100%);
     background-size: cover;
     min-height: 100vh;
-    height: 100vh;
+    height: auto; /* Permitir crecimiento automático */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -44,6 +44,7 @@
     font-size: var(--text-lg);
     font-weight: var(--font-light);
     color: var(--color-white);
+    display: block;
 }
 
 #banner h2 b {
@@ -97,6 +98,7 @@
     width: 100%;
     padding: var(--spacing-l) 0;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, transparent 100%);
+    transition: all 0.3s ease;
 }
 
 .banner-achievements {
@@ -190,6 +192,7 @@
     #banner h1 {
         font-size: var(--text-5xl);
         line-height: var(--line-height-tight);
+        padding-top: 1%;
     }
 
     #banner h2 {
@@ -198,7 +201,7 @@
 
     #banner-content.row {
         padding-top: 120px;
-        padding-bottom: 80px;
+        padding-bottom: 60px; /* Reducir padding cuando es colapsable */
         flex-direction: column;
     }
     
@@ -243,9 +246,10 @@
     }
     
     .banner-achievements-wrapper {
-        position: relative;
+        position: relative; /* Mantener en flujo normal */
         padding: var(--spacing-m);
-        background: none;
+        padding-bottom: var(--spacing-l); /* Espacio extra al fondo */
+        background: none; /* Sin fondo para que se vea el degradado del banner */
     }
     
     .banner-achievements {
@@ -262,10 +266,34 @@
     }
 }
 
+/* Pantallas de 13" y tablets medianas (1280-1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    #banner-content.row {
+        padding-top: 140px; /* Reducir padding superior */
+        padding-bottom: 120px; /* Espacio para los hitos */
+    }
+    
+    #banner h1 {
+        font-size: var(--text-5xl); /* Ligeramente más pequeño */
+        padding-top: 2%; /* Reducir padding superior */
+    }
+    
+    #banner h2 {
+        font-size: var(--text-base);
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+/* Tablets (768-1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
     #banner h1 {
-        font-size: var(--text-6xl);
+        font-size: var(--text-5xl);
         line-height: var(--line-height-tight);
+        padding-top: 2%;
     }
 
     #banner h2 {
@@ -273,7 +301,8 @@
     }
     
     #banner-content.row {
-        padding-bottom: 100px;
+        padding-top: 130px;
+        padding-bottom: 60px; /* Reducir padding cuando es colapsable */
     }
     
     /* Foto más pequeña en tablet */
@@ -293,9 +322,9 @@
     }
     
     .banner-achievements-wrapper {
-        position: relative;
+        position: relative; /* Cambiar a relative para flujo normal */
         padding: var(--spacing-m);
-        background: none;
+        background: none; /* Mantener fondo del banner debajo */
     }
     
     .banner-achievements {

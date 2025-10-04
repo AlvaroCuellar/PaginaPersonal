@@ -16,6 +16,7 @@
 #      - proceedings: Actas
 #      - manual: Manual
 #      - booklet: Folleto
+#      - model: Modelo
 #    - title: Título de la publicación.
 #    - authors: Lista de autores (por ejemplo, ["Nombre Apellido", "Nombre Apellido"]).
 #    - year: Año de publicación.
@@ -69,10 +70,18 @@ publications:
     thumbnail: "/assets/images/pubs/article01.jpg"
     abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
     cited_by:
-      - "77. Referencia completa de una publicación que ha citado este artículo."
-      - "76. Referencia completa de una publicación que ha citado este artículo."
-      - "75. Referencia completa de una publicación que ha citado este artículo."
-      - "74. Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
 
   - id: "inproceedings01"
     type: "inproceedings"

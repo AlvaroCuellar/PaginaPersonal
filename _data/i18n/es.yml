@@ -60,15 +60,7 @@ publication_types:
   proceedings: "Actas"
   manual: "Manual"
   booklet: "Folleto"
-
-# Publication buttons
-publication_buttons:
-  pdf: "PDF"
-  code: "Código"
-  slides: "Diapositivas"
-  data: "Datos"
-  video: "Video"
-  poster: "Póster"
+  model: "Modelo"
 
 # Publication text
 publication_text:

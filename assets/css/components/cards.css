@@ -357,8 +357,7 @@
    ········································· */
 
 .research-lines-container {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
 }
 
 .research-line {
@@ -483,15 +482,7 @@
 
 .featured-carousel-container {
     position: relative;
-    margin: var(--spacing-xl) 0;
     width: 100%;
-}
-
-.featured-carousel-container .subsection-title {
-    font-size: var(--text-xl);
-    font-weight: var(--font-bold);
-    color: var(--text-primary);
-    margin-bottom: var(--spacing-m);
 }
 
 .featured-carousel {
@@ -500,12 +491,16 @@
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    padding: var(--spacing-s) 0 var(--spacing-m) 0;
     cursor: grab;
     user-select: none;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
     scrollbar-color: var(--accent-color) var(--bg-secondary);
+}
+
+/* Prevenir scroll horizontal cuando el modal está abierto */
+body.modal-open .featured-carousel {
+    overflow-x: hidden;
 }
 
 .featured-carousel:active {
@@ -683,13 +678,14 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
+    z-index: 10500; /* Por encima del scroll-to-top (9000) y navegación (10000) */
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 1;
     visibility: visible;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+    overflow-y: auto; /* Permitir scroll vertical si es necesario */
 }
 
 .citation-overlay.hidden {
@@ -700,11 +696,13 @@
 .citation-overlay-content {
     background: var(--color-white);
     border-radius: var(--border-radius);
-    max-width: 600px;
-    max-height: 70vh;
+    max-width: 500px;
+    max-height: 60vh;
     width: 90%;
     overflow: hidden;
     box-shadow: var(--shadow-medium);
+    display: flex;
+    flex-direction: column;
 }
 
 .citation-overlay-header {
@@ -744,19 +742,35 @@
 
 .citation-list {
     padding: var(--spacing-l);
-    max-height: 50vh;
+    max-height: calc(60vh - 80px); /* Restar altura del header */
     overflow-y: auto;
+    flex: 1;
+    counter-reset: citation-counter; /* Inicializar contador */
 }
 
 .citation-item {
     margin-bottom: var(--spacing-m);
-    padding: var(--spacing-m);
+    padding: var(--spacing-m) var(--spacing-m) var(--spacing-m) 3rem;
     background: var(--bg-secondary);
     border-radius: var(--border-radius);
     border-left: 3px solid var(--accent-color);
     font-size: var(--text-sm);
     line-height: var(--line-height-relaxed);
     color: var(--text-primary);
+    position: relative;
+    counter-increment: citation-counter -1; /* Decrementar contador (numeración descendente) */
+}
+
+.citation-item::before {
+    content: counter(citation-counter) ". ";
+    position: absolute;
+    left: var(--spacing-s);
+    top: var(--spacing-m);
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+    font-size: var(--text-sm);
+    min-width: 2rem; /* Ancho fijo para números de 1-2 cifras */
+    text-align: right; /* Alinear números a la derecha */
 }
 
 .citation-item:last-child {
@@ -997,9 +1011,8 @@
 .talks-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 1fr; /* Todas las filas tendrán la misma altura */
+    grid-auto-rows: 1fr; 
     gap: var(--spacing-l);
-    margin: var(--spacing-xl) 0;
 }
 
 .talk-item {

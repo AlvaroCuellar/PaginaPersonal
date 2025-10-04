@@ -60,15 +60,7 @@ publication_types:
   proceedings: "Proceedings"
   manual: "Manual"
   booklet: "Booklet"
-
-# Publication buttons
-publication_buttons:
-  pdf: "PDF"
-  code: "Code"
-  slides: "Slides"
-  data: "Data"
-  video: "Video"
-  poster: "Poster"
+  model: "Model"
 
 # Publication text
 publication_text:
