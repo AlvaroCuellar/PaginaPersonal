@@ -364,7 +364,7 @@
     display: flex;
     align-items: stretch;
     margin-bottom: var(--spacing-xl);
-    max-height: 120px;
+    max-height: 150px;
     border-radius: var(--border-radius);
     overflow: hidden;
     background: var(--bg-secondary);
@@ -392,7 +392,7 @@
 }
 
 .research-description {
-    display: none; /* Ocultar por defecto, se mostrará en el overlay */
+    display: none; /* Ocultar descripción en la columna de texto */
 }
 
 .research-image {
@@ -400,6 +400,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .research-image-container {
@@ -413,7 +414,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    /* filter: brightness(0.9); /* Oscurecer la imagen para mejor legibilidad */
 }
 
 .research-overlay {
@@ -422,29 +423,28 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 100%);
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding: var(--spacing-l);
-    color: white;
-}
-
-.research-image-container:hover .research-overlay {
-    opacity: 1;
-}
-
-.research-image-container:hover .research-img {
-    transform: scale(1.05);
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-xl);
+    color: var(--color-white);
 }
 
 .research-overlay-description {
-    color: rgba(255, 255, 255, 0.95);
-    font-size: var(--text-sm);
+    color: var(--color-white);
+    font-size: var(--text-base);
     line-height: var(--line-height-relaxed);
     margin: 0;
+    text-align: left;
+    max-width: 90%;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Alineación a la derecha para líneas reverse */
+.research-line.reverse .research-overlay-description {
+    text-align: right;
 }
 
 /* Responsive para líneas de investigación */
@@ -491,11 +491,13 @@
     overflow-x: auto;
     overflow-y: hidden;
     scroll-behavior: smooth;
+    padding-bottom: var(--spacing-l); /* Espacio para la scrollbar */
+    margin-bottom: calc(-1 * var(--spacing-s)); /* Compensar el padding para mantener el espaciado */
     cursor: grab;
     user-select: none;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
-    scrollbar-color: var(--accent-color) var(--bg-secondary);
+    scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Más sutil */
 }
 
 /* Prevenir scroll horizontal cuando el modal está abierto */
@@ -509,23 +511,23 @@ body.modal-open .featured-carousel {
 
 /* Custom scrollbar for webkit browsers */
 .featured-carousel::-webkit-scrollbar {
-    height: 8px;
+    height: 8px; 
 }
 
 .featured-carousel::-webkit-scrollbar-track {
-    background: var(--bg-secondary);
+    background: transparent; 
     border-radius: 10px;
     margin: 0 var(--spacing-m);
 }
 
 .featured-carousel::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
+    background: rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
     transition: background 0.3s ease;
 }
 
 .featured-carousel::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-color);
+    background: rgba(0, 0, 0, 0.35); 
 }
 
 /* Carousel slide */
@@ -712,6 +714,7 @@ body.modal-open .featured-carousel {
     padding: var(--spacing-l);
     border-bottom: 1px solid var(--color-light-grey);
     background: var(--bg-secondary);
+    border-bottom: 2px solid var(--accent-color);
 }
 
 .citation-overlay-header h4 {
@@ -1038,6 +1041,7 @@ body.modal-open .featured-carousel {
 .event-card.featured {
     border: 2px solid var(--accent-color); /* Borde destacado para featured */
     height: 250px;
+    background: var(--bg-primary);
 }
 
 .event-card .category-label {

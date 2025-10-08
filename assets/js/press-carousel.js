@@ -1,6 +1,6 @@
 /**
- * Press Carousel - Una noticia a la vez
- * Carrusel simple con navegación por flechas e indicadores
+ * Press Carousel - Tres noticias a la vez con avance de 1 en 1
+ * Carrusel con navegación por flechas e indicadores
  */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -15,15 +15,23 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentIndex = 0;
   const totalSlides = slides.length;
   
+  // Determinar items visibles según el ancho de pantalla
+  function getVisibleItems() {
+    const width = window.innerWidth;
+    if (width > 1024) return 3; // Desktop: 3 items
+    if (width > 768) return 2;  // Tablet: 2 items
+    return 1;                   // Mobile: 1 item
+  }
+  
   // Función para mostrar slide específico
   function showSlide(index) {
-    // Ocultar todos los slides
-    slides.forEach(slide => {
-      slide.classList.remove('active');
-    });
+    const visibleItems = getVisibleItems();
+    const slideWidth = slides[0].offsetWidth;
+    const gap = parseFloat(getComputedStyle(carousel).gap) || 0;
     
-    // Mostrar slide actual
-    slides[index].classList.add('active');
+    // Calcular el desplazamiento (avance de 1 en 1)
+    const offset = -(slideWidth + gap) * index;
+    carousel.style.transform = `translateX(${offset}px)`;
     
     // Actualizar indicadores
     indicators.forEach((indicator, i) => {
@@ -36,29 +44,50 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Función para actualizar botones
   function updateNavigationButtons() {
+    const visibleItems = getVisibleItems();
+    const maxIndex = totalSlides - visibleItems;
+    
     if (prevArrow) {
       prevArrow.disabled = currentIndex === 0;
     }
     if (nextArrow) {
-      nextArrow.disabled = currentIndex === totalSlides - 1;
+      nextArrow.disabled = currentIndex >= maxIndex;
     }
   }
   
-  // Navegar al siguiente slide
+  // Navegar al siguiente slide (avanzar 1 posición)
   function nextSlide() {
-    if (currentIndex < totalSlides - 1) {
+    const visibleItems = getVisibleItems();
+    const maxIndex = totalSlides - visibleItems;
+    
+    if (currentIndex < maxIndex) {
       currentIndex++;
       showSlide(currentIndex);
     }
   }
   
-  // Navegar al slide anterior
+  // Navegar al slide anterior (retroceder 1 posición)
   function prevSlide() {
     if (currentIndex > 0) {
       currentIndex--;
       showSlide(currentIndex);
     }
   }
+  
+  // Ajustar en resize
+  let resizeTimeout;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      // Ajustar índice si es necesario
+      const visibleItems = getVisibleItems();
+      const maxIndex = totalSlides - visibleItems;
+      if (currentIndex > maxIndex) {
+        currentIndex = Math.max(0, maxIndex);
+      }
+      showSlide(currentIndex);
+    }, 250);
+  });
   
   // Event listeners para botones de navegación
   if (nextArrow) {
@@ -150,5 +179,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Inicializar
   showSlide(currentIndex);
+  
+  // Forzar recalcular después de que las imágenes carguen
+  window.addEventListener('load', () => {
+    showSlide(currentIndex);
+  });
+  
   // startAutoPlay(); // Descomentar para activar auto-play
 });

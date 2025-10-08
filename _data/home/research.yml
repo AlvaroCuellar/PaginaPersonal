@@ -17,7 +17,7 @@ research_lines:
     description:
       es: "Análisis computacional del estilo literario para la atribución de autoría y caracterización de textos del Siglo de Oro español."
       en: "Computational analysis of literary style for authorship attribution and characterization of Spanish Golden Age texts."
-    image: "/assets/images/research/linea1.jpg"
+    image: "estilometria.png"
     
   - title:
       es: "Construcción de corpus"
@@ -25,7 +25,7 @@ research_lines:
     description:
       es: "Desarrollo de grandes corpus digitales de teatro áureo con metadatos enriquecidos y anotación lingüística avanzada."
       en: "Development of large digital corpora of Golden Age theater with enriched metadata and advanced linguistic annotation."
-    image: "/assets/images/research/linea1.jpg"
+    image: "corpus.png"
     
   - title:
       es: "Inteligencia Artificial"
@@ -33,15 +33,15 @@ research_lines:
     description:
       es: "Aplicación de técnicas de machine learning y deep learning para el análisis automatizado de patrimonio literario histórico."
       en: "Application of machine learning and deep learning techniques for automated analysis of historical literary heritage."
-    image: "/assets/images/research/linea1.jpg"
-    
+    image: "linea1.jpg"
+
   - title:
       es: "Transcripción automática"
       en: "Automatic Transcription"
     description:
       es: "Desarrollo de sistemas de reconocimiento óptico de caracteres especializados en manuscritos y textos impresos antiguos."
       en: "Development of optical character recognition systems specialized in manuscripts and old printed texts."
-    image: "/assets/images/research/linea1.jpg"
+    image: "linea1.jpg"
     
   - title:
       es: "Detección automática de copistas"
@@ -49,7 +49,7 @@ research_lines:
     description:
       es: "Identificación computacional de manos escribanas en manuscritos mediante análisis paleográfico automatizado."
       en: "Computational identification of scribal hands in manuscripts through automated paleographic analysis."
-    image: "/assets/images/research/linea1.jpg"
+    image: "copistas.png"
     
   - title:
       es: "Datación automática"
@@ -57,4 +57,4 @@ research_lines:
     description:
       es: "Estimación cronológica de textos literarios mediante análisis lingüístico y estilístico computacional."
       en: "Chronological estimation of literary texts through computational linguistic and stylistic analysis."
-    image: "/assets/images/research/linea1.jpg"
+    image: "linea1.jpg"

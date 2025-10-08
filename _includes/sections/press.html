@@ -17,86 +17,74 @@
       
       <!-- Press Carousel Container -->
       <div class="press-carousel-container">
-        <div class="press-carousel-wrapper">
-          <div class="press-carousel" id="pressCarousel">
-            {% assign sorted_articles = site.data.home.press.articles | sort: "date" | reverse %}
-            {% for article in sorted_articles %}
-              <div class="press-slide{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">
-                <!-- Article Image -->
-                <div class="press-image">
-                  {% if article.thumbnail %}
-                    <img src="{{ article.thumbnail }}" alt="{{ article.title[lang] }}" loading="lazy">
-                  {% else %}
-                    <div class="press-image-placeholder">
-                      <i class="fa fa-newspaper-o"></i>
-                    </div>
-                  {% endif %}
-                  
-                  <!-- Type Badge -->
-                  <div class="press-type-badge">
-                    {% case article.type %}
-                      {% when 'interview' %}
-                        <i class="fa-solid fa-microphone"></i>
-                      {% when 'news' %}
-                        <i class="fa-solid fa-newspaper"></i>
-                      {% when 'tv' %}
-                        <i class="fa-solid fa-tv"></i>
-                      {% when 'critic' %}
-                        <i class="fa-solid fa-star-half-stroke"></i>
-                      {% when 'award' %}
-                        <i class="fa-solid fa-trophy"></i>
-                      {% else %}
-                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                    {% endcase %}
+        <div class="press-carousel">
+          {% assign sorted_articles = site.data.home.press.articles | sort: "date" | reverse %}
+          {% for article in sorted_articles %}
+            <div class="press-card">
+              <!-- Article Image -->
+              <div class="press-image">
+                {% if article.thumbnail %}
+                  <img src="{{ article.thumbnail }}" alt="{{ article.title[lang] }}" loading="lazy">
+                {% else %}
+                  <div class="press-image-placeholder">
+                    <i class="fa fa-newspaper-o"></i>
+                  </div>
+                {% endif %}
+                
+                <!-- Type Badge -->
+                <div class="press-type-badge">
+                  {% case article.type %}
+                    {% when 'interview' %}
+                      <i class="fa-solid fa-microphone"></i>
+                    {% when 'news' %}
+                      <i class="fa-solid fa-newspaper"></i>
+                    {% when 'tv' %}
+                      <i class="fa-solid fa-tv"></i>
+                    {% when 'critic' %}
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    {% when 'award' %}
+                      <i class="fa-solid fa-trophy"></i>
+                    {% else %}
+                      <i class="fa fa-file-text" aria-hidden="true"></i>
+                  {% endcase %}
+                </div>
+              </div>
+              
+              <!-- Article Content -->
+              <div class="press-content">
+                <div class="press-header">
+                  <div class="press-outlet">{{ article.outlet }}</div>
+                  <div class="press-date">
+                    {% assign date = article.date | date: "%-d" %}
+                    {% assign month = article.date | date: "%B" | downcase %}
+                    {% assign year = article.date | date: "%Y" %}
+                    {% assign translated_month = site.data.i18n[lang].months[month] %}
+                    {{ date }} {{ translated_month | default: month | capitalize }} {{ year }}
                   </div>
                 </div>
                 
-                <!-- Article Content -->
-                <div class="press-content">
-                  <div class="press-header">
-                    <div class="press-outlet">{{ article.outlet }}</div>
-                    <div class="press-date">
-                      {% assign date = article.date | date: "%-d" %}
-                      {% assign month = article.date | date: "%B" | downcase %}
-                      {% assign year = article.date | date: "%Y" %}
-                      {% assign translated_month = site.data.i18n[lang].months[month] %}
-                      {{ date }} {{ translated_month | default: month | capitalize }} {{ year }}
-                    </div>
-                  </div>
-                  
-                  <h3 class="press-title">{{ article.title[lang] }}</h3>
-                  
-                  {% if article.summary[lang] %}
-                    <p class="press-summary">{{ article.summary[lang] }}</p>
-                  {% endif %}
-                  
-                  <div class="press-button">
-                    <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
-                      {% if lang == 'es' %}Leer artículo{% else %}Read article{% endif %}
-                    </a>
-                  </div>
+                <h3 class="press-title">{{ article.title[lang] }}</h3>
+                
+                {% if article.summary[lang] %}
+                  <p class="press-summary">{{ article.summary[lang] }}</p>
+                {% endif %}
+                
+                <div class="press-button">
+                  <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
+                    {% if lang == 'es' %}Leer artículo{% else %}Read article{% endif %}
+                  </a>
                 </div>
               </div>
-            {% endfor %}
-          </div>
+            </div>
+          {% endfor %}
         </div>
         
-        <!-- Navigation Arrows -->
-        <button class="carousel-arrow carousel-prev" id="prevArrow" aria-label="Artículo anterior">
-          <i class="fa fa-chevron-left"></i>
-        </button>
-        <button class="carousel-arrow carousel-next" id="nextArrow" aria-label="Siguiente artículo">
-          <i class="fa fa-chevron-right"></i>
-        </button>
-        
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-          {% for article in sorted_articles %}
-            <button class="indicator{% if forloop.first %} active{% endif %}" 
-                    data-slide="{{ forloop.index0 }}"
-                    aria-label="Artículo {{ forloop.index }}">
-            </button>
-          {% endfor %}
+        <!-- Scroll Indicator -->
+        <div class="carousel-scroll-indicator">
+          <button class="scroll-hint-button" onclick="document.querySelector('.press-carousel').scrollBy({left: 400, behavior: 'smooth'})">
+            <span class="scroll-hint-text">{% if lang == 'es' %}Desliza para ver más{% else %}Scroll to see more{% endif %}</span>
+            <i class="fa fa-chevron-right"></i>
+          </button>
         </div>
       </div>
     </div>
