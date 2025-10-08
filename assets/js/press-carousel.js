@@ -1,19 +1,23 @@
 /**
- * Press Carousel - Tres noticias a la vez con avance de 1 en 1
- * Carrusel con navegación por flechas e indicadores
+ * Press Carousel - Carrusel verdadero con múltiples items visibles
+ * Desktop: 3 items | Tablet: 2 items | Mobile: 1 item
+ * Avanza de 1 en 1 con cada clic
  */
 
 document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('pressCarousel');
-  const slides = document.querySelectorAll('.press-slide');
-  const indicators = document.querySelectorAll('.indicator');
-  const prevArrow = document.getElementById('prevArrow');
-  const nextArrow = document.getElementById('nextArrow');
+  const carouselContainer = document.querySelector('.press-carousel-container');
+  if (!carouselContainer) return;
   
-  if (!carousel || !slides.length) return;
+  const carousel = carouselContainer.querySelector('.press-carousel');
+  const cards = carousel.querySelectorAll('.press-card');
+  const prevArrow = carouselContainer.querySelector('.carousel-prev');
+  const nextArrow = carouselContainer.querySelector('.carousel-next');
+  const indicatorsContainer = carouselContainer.querySelector('.carousel-indicators');
+  
+  if (!carousel || !cards.length) return;
   
   let currentIndex = 0;
-  const totalSlides = slides.length;
+  const totalCards = cards.length;
   
   // Determinar items visibles según el ancho de pantalla
   function getVisibleItems() {
@@ -23,29 +27,52 @@ document.addEventListener('DOMContentLoaded', function() {
     return 1;                   // Mobile: 1 item
   }
   
-  // Función para mostrar slide específico
-  function showSlide(index) {
+  // Crear indicadores dinámicamente
+  function createIndicators() {
     const visibleItems = getVisibleItems();
-    const slideWidth = slides[0].offsetWidth;
+    const maxIndex = totalCards - visibleItems;
+    const numIndicators = maxIndex + 1; // Total de posiciones posibles
+    
+    indicatorsContainer.innerHTML = '';
+    
+    for (let i = 0; i <= maxIndex; i++) {
+      const indicator = document.createElement('button');
+      indicator.classList.add('carousel-indicator');
+      indicator.setAttribute('aria-label', `Go to position ${i + 1}`);
+      
+      indicator.addEventListener('click', () => {
+        currentIndex = i;
+        updateCarousel();
+      });
+      
+      indicatorsContainer.appendChild(indicator);
+    }
+  }
+  
+  // Función principal para actualizar el carrusel
+  function updateCarousel() {
+    const visibleItems = getVisibleItems();
+    const cardWidth = cards[0].offsetWidth;
     const gap = parseFloat(getComputedStyle(carousel).gap) || 0;
     
     // Calcular el desplazamiento (avance de 1 en 1)
-    const offset = -(slideWidth + gap) * index;
+    const offset = -(cardWidth + gap) * currentIndex;
     carousel.style.transform = `translateX(${offset}px)`;
     
     // Actualizar indicadores
+    const indicators = indicatorsContainer.querySelectorAll('.carousel-indicator');
     indicators.forEach((indicator, i) => {
-      indicator.classList.toggle('active', i === index);
+      indicator.classList.toggle('active', i === currentIndex);
     });
     
-    // Actualizar botones de navegación
+    // Actualizar estado de flechas
     updateNavigationButtons();
   }
   
-  // Función para actualizar botones
+  // Función para actualizar estado de botones de navegación
   function updateNavigationButtons() {
     const visibleItems = getVisibleItems();
-    const maxIndex = totalSlides - visibleItems;
+    const maxIndex = totalCards - visibleItems;
     
     if (prevArrow) {
       prevArrow.disabled = currentIndex === 0;
@@ -55,22 +82,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  // Navegar al siguiente slide (avanzar 1 posición)
+  // Navegar al siguiente (avanzar 1 posición)
   function nextSlide() {
     const visibleItems = getVisibleItems();
-    const maxIndex = totalSlides - visibleItems;
+    const maxIndex = totalCards - visibleItems;
     
     if (currentIndex < maxIndex) {
       currentIndex++;
-      showSlide(currentIndex);
+      updateCarousel();
     }
   }
   
-  // Navegar al slide anterior (retroceder 1 posición)
+  // Navegar al anterior (retroceder 1 posición)
   function prevSlide() {
     if (currentIndex > 0) {
       currentIndex--;
-      showSlide(currentIndex);
+      updateCarousel();
     }
   }
   
@@ -81,11 +108,14 @@ document.addEventListener('DOMContentLoaded', function() {
     resizeTimeout = setTimeout(() => {
       // Ajustar índice si es necesario
       const visibleItems = getVisibleItems();
-      const maxIndex = totalSlides - visibleItems;
+      const maxIndex = totalCards - visibleItems;
       if (currentIndex > maxIndex) {
         currentIndex = Math.max(0, maxIndex);
       }
-      showSlide(currentIndex);
+      
+      // Recrear indicadores y actualizar
+      createIndicators();
+      updateCarousel();
     }, 250);
   });
   
@@ -97,14 +127,6 @@ document.addEventListener('DOMContentLoaded', function() {
   if (prevArrow) {
     prevArrow.addEventListener('click', prevSlide);
   }
-  
-  // Event listeners para indicadores
-  indicators.forEach((indicator, index) => {
-    indicator.addEventListener('click', () => {
-      currentIndex = index;
-      showSlide(currentIndex);
-    });
-  });
   
   // Navegación con teclado
   document.addEventListener('keydown', (e) => {
@@ -160,11 +182,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // function startAutoPlay() {
   //   autoPlayInterval = setInterval(() => {
-  //     if (currentIndex < totalSlides - 1) {
+  //     const visibleItems = getVisibleItems();
+  //     const maxIndex = totalCards - visibleItems;
+  //     
+  //     if (currentIndex < maxIndex) {
   //       nextSlide();
   //     } else {
   //       currentIndex = 0;
-  //       showSlide(currentIndex);
+  //       updateCarousel();
   //     }
   //   }, autoPlayDelay);
   // }
@@ -178,11 +203,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // carousel.addEventListener('mouseleave', startAutoPlay);
   
   // Inicializar
-  showSlide(currentIndex);
+  createIndicators();
+  updateCarousel();
   
   // Forzar recalcular después de que las imágenes carguen
   window.addEventListener('load', () => {
-    showSlide(currentIndex);
+    createIndicators();
+    updateCarousel();
   });
   
   // startAutoPlay(); // Descomentar para activar auto-play

@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   PRESS CAROUSEL - SCROLL HORIZONTAL
+   PRESS CAROUSEL - SISTEMA DE CARRUSEL VERDADERO
    ═══════════════════════════════════════════════════════════ */
 
 /* ·········································
@@ -8,65 +8,46 @@
 .press-carousel-container {
   position: relative;
   margin: var(--spacing-xl) 0;
-  width: 100%;
+  max-width: 1240px; /* 3 cards × 380px + 2 gaps × 30px + padding */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 60px; /* Espacio para las flechas */
 }
 
 /* ·········································
-   Carousel Track con Scroll
+   Carousel Wrapper (overflow hidden)
+   ········································· */
+.press-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  padding: var(--spacing-m) var(--spacing-m); /* Espacio para sombras de las tarjetas */
+}
+
+/* ·········································
+   Carousel Track con Transform
    ········································· */
 .press-carousel {
   display: flex;
   gap: var(--spacing-l);
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
-  padding: var(--spacing-s) 0 var(--spacing-l) 0;
-  margin-bottom: calc(-1 * var(--spacing-s));
-  cursor: grab;
-  user-select: none;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
-}
-
-.press-carousel:active {
-  cursor: grabbing;
-}
-
-/* Custom scrollbar for webkit browsers */
-.press-carousel::-webkit-scrollbar {
-  height: 6px;
-}
-
-.press-carousel::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 10px;
-  margin: 0 var(--spacing-m);
-}
-
-.press-carousel::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  transition: background 0.3s ease;
-}
-
-.press-carousel::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.35);
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform;
 }
 
 /* ·········································
    Press Cards - Tamaño fijo
    ········································· */
 .press-card {
-  min-width: 380px;
-  max-width: 380px;
+  /* Desktop: 3 items visibles */
+  min-width: calc((100% - (2 * var(--spacing-l))) / 3);
+  max-width: calc((100% - (2 * var(--spacing-l))) / 3);
   height: 550px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   background: var(--color-white);
   border-radius: var(--border-radius);
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -177,66 +158,114 @@
 }
 
 /* ·········································
-   Scroll Indicator (similar a talks/publications)
+   Navigation Arrows
    ········································· */
-.carousel-scroll-indicator {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: var(--spacing-m);
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.carousel-scroll-indicator:hover {
-  opacity: 1;
-}
-
-.scroll-hint-button {
-  background: transparent;
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
   border: none;
+  background-color: transparent;
   color: var(--primary-color);
-  font-size: var(--text-sm);
+  font-size: var(--text-xl);
   cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: var(--spacing-xs);
-  padding: var(--spacing-xs) var(--spacing-s);
-  border-radius: var(--border-radius);
-  transition: all 0.3s ease;
-  font-weight: var(--font-medium);
+  justify-content: center;
 }
 
-.scroll-hint-button:hover {
+.carousel-arrow:hover:not(:disabled) {
+  transform: translateY(-50%) scale(1.5);
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+}
+
+.carousel-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ·········································
+   Carousel Indicators (dots)
+   ········································· */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-s);
+  margin-top: var(--spacing-xl);
+  padding: 0;
+}
+
+.carousel-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
   background: var(--bg-secondary);
-  transform: translateX(5px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
 }
 
-.scroll-hint-button i {
-  font-size: var(--text-base);
-  transition: transform 0.3s ease;
+.carousel-indicator.active {
+  background: var(--primary-color);
+  transform: scale(1.3);
 }
 
-.scroll-hint-button:hover i {
-  transform: translateX(3px);
-}
-
-.scroll-hint-text {
-  font-style: italic;
+.carousel-indicator:hover:not(.active) {
+  background: var(--accent-color);
+  transform: scale(1.15);
 }
 
 /* ·········································
    Responsive Design
    ········································· */
 
-@media (max-width: 768px) {
+/* Tablet: 2 items visibles */
+@media (max-width: 1024px) {
+  .press-carousel-container {
+    max-width: 840px; /* 2 cards × 380px + 1 gap × 30px + padding */
+    padding: 0 50px;
+  }
+  
   .press-card {
-    min-width: 320px;
-    max-width: 320px;
-    height: 500px;
+    min-width: calc((100% - var(--spacing-l)) / 2);
+    max-width: calc((100% - var(--spacing-l)) / 2);
+  }
+  
+  .carousel-arrow {
+    width: 44px;
+    height: 44px;
+    font-size: var(--text-lg);
+  }
+}
+
+/* Mobile: 1 item visible */
+@media (max-width: 768px) {
+  .press-carousel-container {
+    max-width: 100%;
+    padding: 0 50px;
+  }
+  
+  .press-card {
+    min-width: 100%;
+    max-width: 100%;
+    height: 520px;
   }
   
   .press-image {
-    height: 200px;
+    height: 220px;
   }
   
   .press-content {
@@ -249,25 +278,30 @@
   }
   
   .press-type-badge {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     font-size: var(--text-base);
   }
   
-  .scroll-hint-text {
-    display: none;
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: var(--text-base);
   }
 }
 
+/* Mobile pequeño */
 @media (max-width: 480px) {
+  .press-carousel-container {
+    padding: 0 var(--spacing-xl);
+  }
+  
   .press-card {
-    min-width: 280px;
-    max-width: 280px;
-    height: 480px;
+    height: 500px;
   }
   
   .press-image {
-    height: 180px;
+    height: 200px;
   }
   
   .press-title {
@@ -276,6 +310,20 @@
   
   .press-summary {
     font-size: var(--text-xs);
+  }
+  
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: var(--text-sm);
+  }
+  
+  .carousel-prev {
+    left: -5px;
+  }
+  
+  .carousel-next {
+    right: -5px;
   }
 }
 
