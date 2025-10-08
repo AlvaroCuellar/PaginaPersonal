@@ -80,3 +80,39 @@ months:
   october: "October"
   november: "November"
   december: "December"
+
+# Dissemination section
+dissemination:
+  featured_label:
+    es: "DESTACADO"
+    en: "FEATURED"
+  listen_now:
+    es: "Escuchar ahora"
+    en: "Listen now"
+  watch_video:
+    es: "Ver video"
+    en: "Watch video"
+  read_article:
+    es: "Leer artículo"
+    en: "Read article"
+  more_title:
+    es: "Más artículos y contenido"
+    en: "More articles & media"
+  listen:
+    es: "Escuchar"
+    en: "Listen now"
+  read_more:
+    es: "Leer más"
+    en: "Read article"
+  type_badge_blog:
+    es: "BLOG"
+    en: "BLOG POST"
+  type_badge_podcast:
+    es: "PODCAST"
+    en: "PODCAST"
+  type_badge_interview:
+    es: "ENTREVISTA"
+    en: "INTERVIEW"
+  type_badge_video:
+    es: "VIDEO"
+    en: "VIDEO"

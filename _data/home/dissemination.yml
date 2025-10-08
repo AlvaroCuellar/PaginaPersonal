@@ -1,9 +1,83 @@
 section_title:
   es: "Divulgación"
-  en: "Dissemination"
+  en: "Outreach"
 url_slug:
   es: "divulgacion"
-  en: "dissemination"
+  en: "outreach"
 subtitle:
   es: "Comunicación científica"
-  en: "Science communication"
+  en: "Scientific Communication"
+
+# Featured Article (destacado principal)
+featured: 1
+
+# Artículos y contenido de divulgación
+items:
+  - id: 1
+    title:
+      es: "Título del artículo destacado"
+      en: "Featured Article Title"
+    type: "blog"
+    medium: "Blog de ejemplo"
+    date: "2024-03-15"
+    description:
+      es: "Descripción del artículo destacado en español."
+      en: "Description of the featured article in English."
+    url: "https://example.com/featured-article"
+  
+  - id: 2
+    title:
+      es: "Título del segundo artículo"
+      en: "Second Article Title"
+    type: "podcast"
+    medium: "Podcast de ejemplo"
+    date: "2024-02-20"
+    description:
+      es: "Descripción del segundo artículo en español."
+      en: "Description of the second article in English."
+    url: "https://example.com/second-article"
+  
+  - id: 3
+    title:
+      es: "Título del tercer artículo"
+      en: "Third Article Title"
+    type: "interview"
+    medium: "Entrevista de ejemplo"
+    date: "2024-01-10"
+    description:
+      es: "Descripción del tercer artículo en español."
+      en: "Description of the third article in English."
+    url: "https://example.com/third-article"
+  
+  - id: 4
+    title:
+      es: "Título del cuarto artículo"
+      en: "Fourth Article Title"
+    type: "video"
+    medium: "Video de ejemplo"
+    date: "2023-12-05"
+    description:
+      es: "Descripción del cuarto artículo en español."
+      en: "Description of the fourth article in English."
+    url: "https://example.com/fourth-article"
+  
+  - id: 5
+    title:
+      es: "Título del quinto artículo"
+      en: "Fifth Article Title"
+    type: "blog"
+    medium: "Blog de ejemplo"
+    date: "2023-11-18"
+    url: "https://example.com/fifth-article"
+  
+  - id: 6
+    title:
+      es: "Título del sexto artículo"
+      en: "Sixth Article Title"
+    type: "podcast"
+    medium: "Podcast de ejemplo"
+    date: "2023-10-22"
+    description:
+      es: "Descripción del sexto artículo en español."
+      en: "Description of the sixth article in English."
+    url: "https://example.com/sixth-article"
