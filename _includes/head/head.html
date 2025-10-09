@@ -11,5 +11,13 @@
 <!-- ═══════════════════════════════════════
      FAVICON & STYLES
      ═══════════════════════════════════════ -->
-<link type="image/png" rel="icon" sizes="96x96" href="{{ 'images/favicon.png' | relative_url }}" title="Favicon"/>
+<!-- SVG favicon for modern browsers (scalable, perfect quality) -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+<!-- PNG fallback for older browsers -->
+<link rel="icon" type="image/png" sizes="96x96" href="{{ '/assets/images/favicon.png' | relative_url }}">
+<!-- ICO fallback for legacy browsers -->
+<link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+<!-- Apple Touch Icon for iOS devices -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon.png' | relative_url }}">
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

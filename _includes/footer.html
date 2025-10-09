@@ -11,9 +11,10 @@
 
       <!-- Copyright -->
       <div class="footer-copyright">
+        {% assign lang = page.lang | default: 'es' %}
         <p class="copyright">
           © {{ 'now' | date: '%Y' }} {{ site.data.personal.name }}.
-          {{ site.data.personal.license }}
+          {{ site.data.personal.license[lang] }}
         </p>
       </div>
     </div>

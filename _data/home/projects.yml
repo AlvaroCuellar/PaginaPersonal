@@ -18,7 +18,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
     
   - badge: 
@@ -30,7 +30,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
   
   - badge: 
@@ -42,7 +42,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
   
   - badge: 
@@ -54,7 +54,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
 
   - badge: 
@@ -66,7 +66,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
 
   - badge: 
@@ -78,7 +78,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
 
   - badge: 
@@ -90,7 +90,7 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"
 
   - badge: 
@@ -102,5 +102,5 @@ projects:
     description: 
       es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "proyecto.jpg"
+    image: "ejemplo.png"
     url: "#"

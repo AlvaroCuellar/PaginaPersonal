@@ -110,15 +110,6 @@
   margin-top: var(--spacing-3xl);
 }
 
-.more-title {
-  font-family: var(--font-family-headings);
-  font-size: var(--text-2xl);
-  font-weight: var(--font-bold);
-  color: var(--primary-color);
-  margin-bottom: var(--spacing-xl);
-  text-align: left;
-}
-
 /* ·········································
    Grid Masonry Layout
    ········································· */

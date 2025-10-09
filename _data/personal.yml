@@ -65,4 +65,6 @@ hitos:
     - "AISO Coordinator"
 
 
-license: "Esta plantilla es libre de usar bajo los términos de <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' class='no-icon'>CC BY 4.0</a>."
+license: 
+  es: "Diseñado y desarrollado por <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>."
+  en: "Designed and developed by <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>."
