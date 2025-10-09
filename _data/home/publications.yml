@@ -10,7 +10,7 @@
 #      - book: Libro
 #      - phdthesis: Tesis doctoral
 #      - mastersthesis: Tesis de máster
-#      - unpublished: No publicado
+#      - inpress: En prensa
 #      - techreport: Informe técnico
 #      - misc: Otros
 #      - proceedings: Actas
@@ -58,7 +58,7 @@ featured_ids:
 
 publications:
   - id: "article01"
-    type: "article"
+    type: "inpress"
     title: "Título del artículo"
     authors: ["Nombre Apellido Apellido"]
     publication: "Nombre de la Revista"

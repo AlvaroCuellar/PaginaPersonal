@@ -54,7 +54,7 @@ publication_types:
   book: "Libro"
   phdthesis: "Tesis doctoral"
   mastersthesis: "Tesis de máster"
-  unpublished: "No publicado"
+  inpress: "En prensa"
   techreport: "Informe técnico"
   misc: "Otros"
   proceedings: "Actas"
