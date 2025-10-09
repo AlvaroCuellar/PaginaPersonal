@@ -39,6 +39,7 @@ press_types:
 access_text: "Acceder"
 view_citations: "Ver citas"
 citations: "citas <br>VER"
+total_citations: "citas totales"
 cited_by_title: "Citado por"
 abstract_label: "Resumen"
 view_achievements: "Ver logros"

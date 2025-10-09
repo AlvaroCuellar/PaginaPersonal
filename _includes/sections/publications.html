@@ -10,6 +10,19 @@
           {{ site.data.home.publications.section_title[lang] }}
           <span class="section-count">{{ site.data.home.publications.publications.size }}</span>
         </h2>
+        {% assign total_citations = 0 %}
+        {% for pub in site.data.home.publications.publications %}
+          {% if pub.cited_by and pub.cited_by.size > 0 %}
+            {% assign total_citations = total_citations | plus: pub.cited_by.size %}
+          {% endif %}
+        {% endfor %}
+        {% if total_citations > 0 %}
+        <div class="total-citations">
+          <i class="fa fa-quote-left"></i>
+          <span class="total-citations-number ">{{ total_citations }}</span>
+          <span class="total-citations-label">{{ site.data.i18n[lang].total_citations | default: "citas totales" }}</span>
+        </div>
+        {% endif %}
       </div>
 
       <!-- Featured Publications Carousel -->

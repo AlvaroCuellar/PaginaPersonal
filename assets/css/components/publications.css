@@ -1,0 +1,28 @@
+
+/* Badge de citas totales */
+.total-citations {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-m);
+    color: var(--primary-color);
+    font-family: var(--font-family-body);
+}
+
+.total-citations i {
+    font-size: var(--text-sm);
+    opacity: 0.9;
+}
+
+.total-citations .total-citations-number {
+    font-size: var(--text-l);
+    font-weight: var(--font-bold);
+    line-height: 1;
+}
+
+.total-citations .total-citations-label {
+    font-size: var(--text-sm);
+    font-weight: var(--font-regular);
+    opacity: 0.95;
+    text-transform: lowercase;
+}
