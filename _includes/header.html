@@ -24,12 +24,8 @@
                     {% assign link_url = item.url %}
                   {% endif %}
                   
-                  {% if item.button or item.key == 'cv' %}
-                    <a href="{{ link_url }}" class="menu-button"><span>{% if item.key == 'cv' %}CV{% else %}{% assign section_data = site.data.home[item.key] %}{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}{% endif %}</span></a>
-                  {% else %}
-                    {% assign section_data = site.data.home[item.key] %}
-                    <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
-                  {% endif %}
+                  {% assign section_data = site.data.home[item.key] %}
+                  <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -90,24 +86,15 @@
   </div>
   <!-- End Banner Content -->
 
-  <!-- Hitos Block - Siempre pegado al fondo -->
+  <!-- Hitos Block - Siempre visible -->
+  {% if site.data.personal.hitos[lang] %}
   <div class="banner-achievements-wrapper">
     <div class="banner-achievements">
-      {% if site.data.personal.hitos[lang] %}
-        <!-- Botón toggle (solo visible en tablet/móvil) -->
-        <button class="achievements-toggle" onclick="toggleAchievements()" aria-label="{{ site.data.i18n[lang].toggle_achievements | default: 'Ver logros' }}">
-          <span class="toggle-text">{{ site.data.i18n[lang].view_achievements | default: "Ver logros" }}</span>
-          <i class="fa fa-chevron-down"></i>
-        </button>
-        
-        <!-- Bloque de hitos (colapsado por defecto en móvil/tablet) -->
-        <div class="achievements-block collapsed">
-          {% for hito in site.data.personal.hitos[lang] %}
-            <span class="achievement-item">{{ hito }}</span>{% unless forloop.last %}<span class="achievement-separator">·</span>{% endunless %}
-          {% endfor %}
-        </div>
-      {% endif %}
+      {% for hito in site.data.personal.hitos[lang] %}
+        <span class="achievement-item">{{ hito }}</span>{% unless forloop.last %}<span class="achievement-separator">·</span>{% endunless %}
+      {% endfor %}
     </div>
   </div>
+  {% endif %}
   <!-- End Hitos Block -->
 </header>

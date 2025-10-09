@@ -294,6 +294,54 @@
     }
     
     /* ·········································
+       RESEARCH LINES
+       ········································· */
+    
+    .research-lines-container {
+        max-width: 100%;
+        padding: 0 var(--spacing-s);
+    }
+    
+    .research-line,
+    .research-line.reverse {
+        flex-direction: column;
+        max-width: 360px;
+        max-height: none;
+        margin: 0 auto var(--spacing-l) auto;
+    }
+    
+    .research-content {
+        flex: none;
+        padding: var(--spacing-m) var(--spacing-s);
+        min-height: auto;
+    }
+    
+    .research-title {
+        font-size: var(--text-base);
+        line-height: var(--line-height-tight);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    .research-image {
+        flex: none;
+        height: 140px;
+        min-height: 140px;
+    }
+    
+    .research-overlay-description {
+        font-size: var(--text-sm);
+        line-height: var(--line-height-normal);
+        padding: var(--spacing-s);
+        max-width: 95%;
+    }
+    
+    .research-line.reverse .research-overlay-description {
+        text-align: left;
+    }
+    
+    /* ·········································
        TIMELINE COMPONENT
        ········································· */
     
@@ -401,7 +449,7 @@
     }
     
     [class*='col-'] {
-        padding: 8px;
+        padding: var(--spacing-m);
     }
 
     .bio-content {
