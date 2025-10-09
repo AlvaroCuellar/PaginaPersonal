@@ -33,7 +33,7 @@ research_lines:
     description:
       es: "Aplicación de técnicas de machine learning y deep learning para el análisis automatizado de patrimonio literario histórico."
       en: "Application of machine learning and deep learning techniques for automated analysis of historical literary heritage."
-    image: "linea1.jpg"
+    image: "ai.png"
 
   - title:
       es: "Transcripción automática"
@@ -41,7 +41,7 @@ research_lines:
     description:
       es: "Desarrollo de sistemas de reconocimiento óptico de caracteres especializados en manuscritos y textos impresos antiguos."
       en: "Development of optical character recognition systems specialized in manuscripts and old printed texts."
-    image: "linea1.jpg"
+    image: "transcripcion.png"
     
   - title:
       es: "Detección automática de copistas"
@@ -57,4 +57,4 @@ research_lines:
     description:
       es: "Estimación cronológica de textos literarios mediante análisis lingüístico y estilístico computacional."
       en: "Chronological estimation of literary texts through computational linguistic and stylistic analysis."
-    image: "linea1.jpg"
+    image: "datacion.png"
