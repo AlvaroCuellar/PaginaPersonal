@@ -77,8 +77,8 @@
           <div class="dissemination-grid">
             {% for item in non_featured %}
               <article class="dissemination-card" data-type="{{ item.type }}">
-                <!-- Type Badge -->
-                <div class="dissemination-type-badge badge-{{ item.type }}">
+                <!-- Type Badge (using shared class from cards.css) -->
+                <div class="category-badge badge-{{ item.type }}">
                   {% case item.type %}
                     {% when 'blog' %}
                       <i class="fa fa-file-text"></i>
@@ -95,12 +95,12 @@
                   {% endcase %}
                 </div>
                 
-                <!-- Card Content -->
-                <h4 class="dissemination-card-title">{{ item.title[lang] }}</h4>
+                <!-- Card Content (using shared classes from cards.css) -->
+                <h4 class="card-title card-title-clamp">{{ item.title[lang] }}</h4>
                 
-                <div class="dissemination-card-meta">
-                  <span class="card-medium">{{ item.medium }}</span>
-                  <span class="card-separator">•</span>
+                <div class="card-metadata">
+                  <span class="card-metadata-highlight">{{ item.medium }}</span>
+                  <span class="card-metadata-separator">•</span>
                   <span class="card-date">
                     {% assign date = item.date | date: "%-d" %}
                     {% assign month = item.date | date: "%B" | downcase %}
@@ -111,10 +111,10 @@
                 </div>
                 
                 {% if item.description[lang] %}
-                  <p class="dissemination-card-description">{{ item.description[lang] }}</p>
+                  <p class="card-description card-description-clamp">{{ item.description[lang] }}</p>
                 {% endif %}
                 
-                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="dissemination-card-link no-icon">
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="card-link no-icon">
                   {% case item.type %}
                     {% when 'podcast' %}
                       {{ site.data.i18n[lang].dissemination.listen[lang] }}

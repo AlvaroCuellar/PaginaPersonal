@@ -20,9 +20,36 @@
         <!-- Carousel Wrapper (para overflow hidden) -->
         <div class="press-carousel-wrapper">
           <div class="press-carousel">
-            {% assign sorted_articles = site.data.home.press.articles | sort: "date" | reverse %}
+            {% comment %} Construir arrays de featured y regular articles {% endcomment %}
+            {% assign featured_ids = site.data.home.press.featured | default: empty %}
+            {% assign featured_articles = "" | split: "" %}
+            {% assign regular_articles = "" | split: "" %}
+            
+            {% comment %} Primero, agregar featured articles en el orden especificado {% endcomment %}
+            {% for featured_id in featured_ids %}
+              {% assign article = site.data.home.press.articles | where: "id", featured_id | first %}
+              {% if article %}
+                {% assign featured_articles = featured_articles | push: article %}
+              {% endif %}
+            {% endfor %}
+            
+            {% comment %} Luego, agregar artículos regulares ordenados por fecha {% endcomment %}
+            {% for article in site.data.home.press.articles %}
+              {% unless featured_ids contains article.id %}
+                {% assign regular_articles = regular_articles | push: article %}
+              {% endunless %}
+            {% endfor %}
+            {% assign regular_articles = regular_articles | sort: "date" | reverse %}
+            
+            {% comment %} Concatenar featured + regular {% endcomment %}
+            {% assign sorted_articles = featured_articles | concat: regular_articles %}
+            
             {% for article in sorted_articles %}
-              <div class="press-card" data-index="{{ forloop.index0 }}">
+              {% assign is_featured = false %}
+              {% if featured_ids contains article.id %}
+                {% assign is_featured = true %}
+              {% endif %}
+              <div class="press-card{% if is_featured %} press-card-featured{% endif %}" data-index="{{ forloop.index0 }}">
                 <!-- Article Image -->
                 <div class="press-image">
                   {% if article.thumbnail %}
@@ -33,7 +60,15 @@
                     </div>
                   {% endif %}
                   
-                  <!-- Type Badge -->
+                  <!-- Featured Badge (top right) -->
+                  {% if is_featured %}
+                    <div class="featured-badge press-featured-badge">
+                      <i class="fa fa-star"></i>
+                      <span>{{ site.data.i18n[lang].dissemination.featured_label[lang] }}</span>
+                    </div>
+                  {% endif %}
+                  
+                  <!-- Type Badge (top left) -->
                   <div class="press-type-badge">
                     {% case article.type %}
                       {% when 'interview' %}

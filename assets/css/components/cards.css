@@ -16,6 +16,7 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     background: var(--bg-secondary);
+    box-shadow: var(--shadow-sm);
 }
 
 .hero-project.reverse {
@@ -257,6 +258,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 120px;
+    box-shadow: var(--shadow-sm);
 }
 
 .event-card-content {
@@ -270,12 +272,53 @@
     flex-grow: 1;
 }
 
-.event-name {
+.event-name,
+.card-description {
     font-style: italic;
     color: var(--text-secondary);
     font-size: var(--text-sm);
     line-height: var(--line-height-normal);
     margin-bottom: var(--spacing-s);
+}
+
+/* Card description variant - not italic, with clamp */
+.card-description {
+    font-style: normal;
+    margin: 0 0 var(--spacing-s);
+}
+
+.card-description-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Card action link - reusable */
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--primary-color);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    margin-top: auto;
+    transition: all 0.3s ease;
+}
+
+.card-link:hover {
+    color: var(--primary-color);
+    gap: var(--spacing-s);
+}
+
+.card-link i {
+    font-size: var(--text-xs);
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover i {
+    transform: translateX(3px);
 }
 
 .event-institution {
@@ -299,6 +342,7 @@
     background: var(--bg-secondary);
     padding: var(--spacing-l);
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
 }
 
 .publication-title {
@@ -352,6 +396,27 @@
     color: var(--primary-color);
 }
 
+/* Badge variant - for type labels (blog, podcast, video, etc) */
+.category-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: 4px 12px;
+    border-radius: var(--border-radius);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    letter-spacing: var(--letter-spacing-sm);
+    margin-bottom: var(--spacing-m);
+    width: fit-content;
+    text-transform: uppercase;
+    background: var(--accent-color);
+    color: var(--color-white);
+}
+
+.category-badge i {
+    opacity: 0.9;
+}
+
 /* ·········································
    Research lines - Líneas de investigación
    ········································· */
@@ -368,6 +433,7 @@
     border-radius: var(--border-radius);
     overflow: hidden;
     background: var(--bg-secondary);
+    box-shadow: var(--shadow-sm);
 }
 
 .research-line.reverse {
@@ -391,10 +457,6 @@
     line-height: var(--line-height-tight);
 }
 
-.research-description {
-    display: none; /* Ocultar descripción en la columna de texto */
-}
-
 .research-image {
     flex: 2;
     display: flex;
@@ -414,7 +476,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* filter: brightness(0.9); /* Oscurecer la imagen para mejor legibilidad */
+     filter: brightness(0.9); /* Oscurecer la imagen para mejor legibilidad */
 }
 
 .research-overlay {
@@ -423,7 +485,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.2) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -434,46 +496,19 @@
 
 .research-overlay-description {
     color: var(--color-white);
-    font-size: var(--text-base);
+    font-size: var(--text-lg);
+    font-weight: var(--font-normal);
     line-height: var(--line-height-relaxed);
+    letter-spacing: var(--letter-spacing-xs);
     margin: 0;
     text-align: left;
     max-width: 90%;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 /* Alineación a la derecha para líneas reverse */
 .research-line.reverse .research-overlay-description {
     text-align: right;
-}
-
-/* Responsive para líneas de investigación */
-@media (max-width: 768px) {
-    .research-lines-container {
-        max-width: 100%;
-        padding: 0 var(--spacing-m);
-    }
-    
-    .research-line,
-    .research-line.reverse {
-        flex-direction: column;
-        max-width: 400px;
-        margin: 0 auto var(--spacing-xl) auto;
-    }
-    
-    .research-content {
-        flex: none;
-        padding: var(--spacing-m);
-    }
-    
-    .research-image {
-        flex: none;
-        height: 200px;
-    }
-    
-    .research-title {
-        font-size: var(--text-lg);
-    }
 }
 
 /* ·········································
@@ -669,7 +704,7 @@ body.modal-open .featured-carousel {
     gap: var(--spacing-l);
     height: auto; /* Altura automática según contenido */
     min-height: 160px; /* Altura mínima */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: var(--shadow-sm);
 }
 
 /* Citation overlay */
@@ -1005,6 +1040,7 @@ body.modal-open .featured-carousel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: var(--shadow-sm);
 }
 .featured-publication-card {
         height: 550px;
@@ -1036,6 +1072,7 @@ body.modal-open .featured-carousel {
     justify-content: space-between;
     height: 100%; /* Usar toda la altura disponible del grid */
     border: 1px solid transparent; /* Borde transparente por defecto */
+    box-shadow: var(--shadow-sm);
 }
 
 .event-card.featured {
@@ -1053,13 +1090,22 @@ body.modal-open .featured-carousel {
     color: var(--primary-color);
 }
 
-.event-card h4 {
+.event-card h4,
+.card-title {
     margin: 0 0 var(--spacing-s) 0;
     color: var(--text-primary);
     font-size: var(--text-base);
     font-weight: var(--font-normal);
     line-height: var(--line-height-normal);
     flex-grow: 1;
+}
+
+/* Card title with clamp for overflow */
+.card-title-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .event-card-content {
@@ -1088,11 +1134,31 @@ body.modal-open .featured-carousel {
     gap: var(--spacing-xs);
 }
 
-.event-date-location {
+.event-date-location,
+.card-metadata {
     font-weight: var(--font-medium);
     color: var(--primary-color);
     font-size: var(--text-sm);
     line-height: var(--line-height-normal);
+}
+
+/* Variant for metadata with multiple items */
+.card-metadata {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-s);
+    flex-wrap: wrap;
+}
+
+.card-metadata-highlight {
+    font-weight: var(--font-medium);
+    color: var(--text-secondary);
+}
+
+.card-metadata-separator {
+    opacity: 0.5;
 }
 
 .show-more-talks-container {

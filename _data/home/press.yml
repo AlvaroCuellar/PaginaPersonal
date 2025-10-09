@@ -10,13 +10,14 @@
 #    - thumbnail: Ruta a la imagen de captura del artículo.
 #    - summary: Breve resumen del contenido, con claves "es" y "en".
 #    - type: Tipo de aparición (ver categorías sugeridas abajo).
-# 3. Categorías sugeridas para 'type':
+# 3. Para destacar artículos, agregar sus IDs en el campo 'featured' al inicio del archivo.
+# 4. Categorías sugeridas para 'type':
 #    - news      → fa-solid fa-newspaper (Noticia general)
 #    - interview → fa-solid fa-microphone (Entrevista)
 #    - tv        → fa-solid fa-tv (Cobertura televisiva)
 #    - critic    → fa-solid fa-star-half-stroke (Crítica especializada)
 #    - award     → fa-solid fa-trophy (Premio o reconocimiento)
-# 4. Notas adicionales:
+# 5. Notas adicionales:
 #    - Mantén el formato YAML y respeta la indentación.
 #    - Los artículos se mostrarán en orden cronológico inverso.
 
@@ -29,6 +30,11 @@ url_slug:
 subtitle:
   es: "Apariciones en medios"
   en: "Media appearances"
+
+# IDs de artículos destacados (se mostrarán primero con badge especial)
+featured:
+  - "press01"
+  - "press05"
 
 articles:
   - id: "press01"
