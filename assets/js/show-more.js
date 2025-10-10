@@ -237,3 +237,38 @@ window.toggleTalks = function() {
     const button = document.getElementById('show-more-talks');
     if (button) button.click();
 };
+
+// ═══════════════════════════════════════════════════════════
+// RE-INICIALIZACIÓN DESPUÉS DE CAMBIO DE IDIOMA AJAX
+// ═══════════════════════════════════════════════════════════
+
+document.addEventListener('languageContentReplaced', function(e) {
+    console.log('🔄 Show More: Reinitializing after language change to', e.detail.lang);
+    
+    setTimeout(() => {
+        // Simular DOMContentLoaded para reinicializar
+        const buttons = [
+            'show-more-projects',
+            'show-more-publications',
+            'show-more-talks'
+        ];
+        
+        buttons.forEach(buttonId => {
+            const button = document.getElementById(buttonId);
+            if (button) {
+                // Remover listeners anteriores clonando el botón
+                const newButton = button.cloneNode(true);
+                button.parentNode.replaceChild(newButton, button);
+            }
+        });
+        
+        // Disparar DOMContentLoaded para que se reinicialice todo
+        const event = new Event('DOMContentLoaded', {
+            bubbles: true,
+            cancelable: true
+        });
+        document.dispatchEvent(event);
+        
+        console.log('✅ Show More reinitial completed');
+    }, 150);
+});

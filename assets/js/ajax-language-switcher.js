@@ -517,27 +517,47 @@ class AjaxLanguageSwitcher {
         // Agregar clase de loading al body
         document.body.classList.add('language-switching');
         
-        // Opcionalmente agregar un spinner visible
-        const spinner = document.createElement('div');
-        spinner.id = 'language-loading-spinner';
-        spinner.innerHTML = `
+        // Barra de progreso discreta en la parte superior
+        const progressBar = document.createElement('div');
+        progressBar.id = 'language-loading-indicator';
+        progressBar.innerHTML = `
             <div style="
                 position: fixed;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 3px;
                 z-index: 9999;
-                background: rgba(255,255,255,0.9);
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-                font-family: Arial, sans-serif;
-                color: #333;
+                background: rgba(0,0,0,0.05);
+                overflow: hidden;
             ">
-                🔄 Cambiando idioma...
+                <div style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, 
+                        var(--accent-color, #2C5F7C) 0%, 
+                        var(--accent-color-light, #4A8FB0) 50%, 
+                        var(--accent-color, #2C5F7C) 100%);
+                    animation: loading-slide 1.5s ease-in-out infinite;
+                    transform: translateX(-100%);
+                ">
+                </div>
             </div>
         `;
-        document.body.appendChild(spinner);
+        document.body.appendChild(progressBar);
+        
+        // Agregar animación si no existe
+        if (!document.getElementById('loading-animation-styles')) {
+            const style = document.createElement('style');
+            style.id = 'loading-animation-styles';
+            style.textContent = `
+                @keyframes loading-slide {
+                    0% { transform: translateX(-100%); }
+                    100% { transform: translateX(100%); }
+                }
+            `;
+            document.head.appendChild(style);
+        }
     }
     
     hideLoadingIndicator() {
@@ -545,9 +565,9 @@ class AjaxLanguageSwitcher {
         
         document.body.classList.remove('language-switching');
         
-        const spinner = document.getElementById('language-loading-spinner');
-        if (spinner) {
-            spinner.remove();
+        const indicator = document.getElementById('language-loading-indicator');
+        if (indicator) {
+            indicator.remove();
         }
     }
 
