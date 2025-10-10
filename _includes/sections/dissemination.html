@@ -24,7 +24,7 @@
           <div class="dissemination-featured">
             <div class="featured-badge">
               <i class="fa fa-star"></i>
-              <span>{{ site.data.i18n[lang].dissemination.featured_label[lang] }}</span>
+              <span>{{ site.data.i18n[lang].featured_label }}</span>
             </div>
             
             <div class="featured-content">
@@ -36,7 +36,14 @@
               
               <div class="featured-meta">
                 <span class="featured-medium">
-                  <i class="fa fa-{{ featured.type == 'blog' ? 'file-text' : featured.type == 'podcast' ? 'microphone' : featured.type == 'video' ? 'play-circle' : 'comment' }}"></i>
+                  {% case featured.type %}
+                    {% when 'article' %}
+                      <i class="fa fa-file-text"></i>
+                    {% when 'tv' %}
+                      <i class="fa fa-tv"></i>
+                    {% when 'interview' %}
+                      <i class="fa fa-comment"></i>
+                  {% endcase %}
                   {{ featured.medium }}
                 </span>
                 <span class="featured-date">
@@ -49,14 +56,11 @@
               </div>
             
               <a href="{{ featured.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
-                {% case featured.type %}
-                  {% when 'podcast' %}
-                    {{ site.data.i18n[lang].dissemination.listen_now[lang] }}
-                  {% when 'video' %}
-                    {{ site.data.i18n[lang].dissemination.watch_video[lang] }}
-                  {% else %}
-                    {{ site.data.i18n[lang].dissemination.read_article[lang] }}
-                {% endcase %}
+                {% if featured.type == 'tv' %}
+                  {{ site.data.i18n[lang].dissemination.watch }}
+                {% else %}
+                  {{ site.data.i18n[lang].dissemination.read }}
+                {% endif %}
               </a>
             </div>
             
@@ -71,7 +75,7 @@
       {% if non_featured.size > 0 %}
         <div class="dissemination-more">
           <h3 class="more-title">
-            {{ site.data.i18n[lang].dissemination.more_title[lang] }}
+            {{ site.data.i18n[lang].dissemination.more_title }}
           </h3>
           
           <div class="dissemination-grid">
@@ -80,19 +84,14 @@
                 <!-- Type Badge (using shared class from cards.css) -->
                 <div class="category-badge badge-{{ item.type }}">
                   {% case item.type %}
-                    {% when 'blog' %}
+                    {% when 'article' %}
                       <i class="fa fa-file-text"></i>
-                      <span>{{ site.data.i18n[lang].dissemination.type_badge_blog[lang] }}</span>
-                    {% when 'podcast' %}
-                      <i class="fa fa-microphone"></i>
-                      <span>{{ site.data.i18n[lang].dissemination.type_badge_podcast[lang] }}</span>
+                    {% when 'tv' %}
+                      <i class="fa fa-tv"></i>
                     {% when 'interview' %}
                       <i class="fa fa-comment"></i>
-                      <span>{{ site.data.i18n[lang].dissemination.type_badge_interview[lang] }}</span>
-                    {% when 'video' %}
-                      <i class="fa fa-play-circle"></i>
-                      <span>{{ site.data.i18n[lang].dissemination.type_badge_video[lang] }}</span>
                   {% endcase %}
+                  <span>{{ site.data.i18n[lang].dissemination_types[item.type] }}</span>
                 </div>
                 
                 <!-- Card Content (using shared classes from cards.css) -->
@@ -115,14 +114,11 @@
                 {% endif %}
                 
                 <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="card-link no-icon">
-                  {% case item.type %}
-                    {% when 'podcast' %}
-                      {{ site.data.i18n[lang].dissemination.listen[lang] }}
-                    {% when 'video' %}
-                      {{ site.data.i18n[lang].dissemination.watch_video[lang] }}
-                    {% else %}
-                      {{ site.data.i18n[lang].dissemination.read_more[lang] }}
-                  {% endcase %}
+                  {% if item.type == 'tv' %}
+                    {{ site.data.i18n[lang].dissemination.watch }}
+                  {% else %}
+                    {{ site.data.i18n[lang].dissemination.read }}
+                  {% endif %}
                   <i class="fa fa-arrow-right"></i>
                 </a>
               </article>

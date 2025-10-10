@@ -8,6 +8,8 @@ show_more_publications: "Show more publications"
 show_less_publications: "Show less publications"
 show_more_talks: "Show more talks"
 show_less_talks: "Show less talks"
+featured_label: "Featured"
+
 
 # Talks section titles
 featured_talks_title: "Featured Talks"
@@ -17,8 +19,8 @@ carousel_scroll_hint: "See more"
 # Publications section titles
 featured_publications_title: "Featured Publications"
 all_publications_title: "All Publications"
-featured_label: "★ Featured"
 
+# Types
 # Talk types
 talk_types:
   invited: "Invited talk"
@@ -30,11 +32,13 @@ talk_types:
 
 # Press types
 press_types:
-  interview: "Interview"
   news: "News"
+
+# Dissemination types
+dissemination_types:
+  article: "Article"
   tv: "TV"
-  critic: "Review"
-  award: "Award"
+  interview: "Interview"
   
 access_text: "Access"
 view_citations: "View citations"
@@ -84,36 +88,6 @@ months:
 
 # Dissemination section
 dissemination:
-  featured_label:
-    es: "DESTACADO"
-    en: "FEATURED"
-  listen_now:
-    es: "Escuchar ahora"
-    en: "Listen now"
-  watch_video:
-    es: "Ver video"
-    en: "Watch video"
-  read_article:
-    es: "Leer artículo"
-    en: "Read article"
-  more_title:
-    es: "Más artículos y contenido"
-    en: "More articles & media"
-  listen:
-    es: "Escuchar"
-    en: "Listen now"
-  read_more:
-    es: "Leer más"
-    en: "Read article"
-  type_badge_blog:
-    es: "BLOG"
-    en: "BLOG POST"
-  type_badge_podcast:
-    es: "PODCAST"
-    en: "PODCAST"
-  type_badge_interview:
-    es: "ENTREVISTA"
-    en: "INTERVIEW"
-  type_badge_video:
-    es: "VIDEO"
-    en: "VIDEO"
+  more_title: "More articles & media"
+  read: "Read"
+  watch: "Watch"

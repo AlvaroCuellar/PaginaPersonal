@@ -4,9 +4,12 @@
  * Avanza de 1 en 1 con cada clic
  */
 
-document.addEventListener('DOMContentLoaded', function() {
+function initPressCarousel() {
   const carouselContainer = document.querySelector('.press-carousel-container');
-  if (!carouselContainer) return;
+  if (!carouselContainer) {
+    console.log('Press Carousel: Container not found, skipping initialization');
+    return;
+  }
   
   const carousel = carouselContainer.querySelector('.press-carousel');
   const cards = carousel.querySelectorAll('.press-card');
@@ -206,11 +209,32 @@ document.addEventListener('DOMContentLoaded', function() {
   createIndicators();
   updateCarousel();
   
-  // Forzar recalcular después de que las imágenes carguen
-  window.addEventListener('load', () => {
-    createIndicators();
-    updateCarousel();
-  });
-  
   // startAutoPlay(); // Descomentar para activar auto-play
+  
+  console.log('✅ Press Carousel initialized successfully');
+}
+
+// ═══════════════════════════════════════════════════════════
+// INICIALIZACIÓN Y RE-INICIALIZACIÓN
+// ═══════════════════════════════════════════════════════════
+
+// Inicializar cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', initPressCarousel);
+
+// Forzar recalcular después de que las imágenes carguen
+window.addEventListener('load', () => {
+  const carouselContainer = document.querySelector('.press-carousel-container');
+  if (carouselContainer) {
+    initPressCarousel();
+  }
+});
+
+// RE-INICIALIZAR después de cambio de idioma AJAX
+document.addEventListener('languageContentReplaced', function(e) {
+  console.log('🔄 Press Carousel: Reinitializing after language change to', e.detail.lang);
+  
+  // Esperar un momento para que el DOM se actualice completamente
+  setTimeout(() => {
+    initPressCarousel();
+  }, 150); // Delay para asegurar que el DOM esté completamente actualizado
 });

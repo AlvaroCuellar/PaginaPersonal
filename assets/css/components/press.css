@@ -100,40 +100,8 @@
   z-index: 2;
 }
 
-/* ·········································
-   Featured Badge (top right)
-   ········································· */
-.press-featured-badge {
-  position: absolute;
-  top: var(--spacing-m);
-  right: var(--spacing-m);
-  left: auto;
-  bottom: auto;
-  display: inline-flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-  padding: 6px 12px;
-  border-radius: var(--border-radius);
-  width: auto;
-  height: auto;
-  background: var(--accent-color);
-  color: var(--color-white);
-  font-size: var(--text-xs);
-  font-weight: var(--font-bold);
-  letter-spacing: var(--letter-spacing-sm);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-  z-index: 3;
-}
-
-.press-featured-badge i {
-  font-size: var(--text-xs);
-  margin: 0;
-}
-
-.press-featured-badge span {
-  text-transform: uppercase;
-}
+/* Featured badge uses shared class from cards.css */
+/* No additional styles needed - uses .featured-badge base */
 
 /* Highlight visual para cards featured */
 .press-card-featured {
@@ -321,11 +289,6 @@
     width: 40px;
     height: 40px;
     font-size: var(--text-base);
-  }
-  
-  .press-featured-badge {
-    padding: 5px 10px;
-    font-size: 10px;
   }
   
   .carousel-arrow {

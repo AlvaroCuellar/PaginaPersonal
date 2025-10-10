@@ -17,7 +17,7 @@ items:
     title:
       es: "Título del artículo destacado"
       en: "Featured Article Title"
-    type: "blog"
+    type: "article"
     medium: "Blog de ejemplo"
     date: "2024-03-15"
     description:
@@ -29,8 +29,8 @@ items:
     title:
       es: "Título del segundo artículo"
       en: "Second Article Title"
-    type: "podcast"
-    medium: "Podcast de ejemplo"
+    type: "tv"
+    medium: "Programa de televisión de ejemplo"
     date: "2024-02-20"
     description:
       es: "Descripción del segundo artículo en español."
@@ -53,31 +53,10 @@ items:
     title:
       es: "Título del cuarto artículo"
       en: "Fourth Article Title"
-    type: "video"
+    type: "article"
     medium: "Video de ejemplo"
     date: "2023-12-05"
     description:
       es: "Descripción del cuarto artículo en español."
       en: "Description of the fourth article in English."
     url: "https://example.com/fourth-article"
-  
-  - id: 5
-    title:
-      es: "Título del quinto artículo"
-      en: "Fifth Article Title"
-    type: "blog"
-    medium: "Blog de ejemplo"
-    date: "2023-11-18"
-    url: "https://example.com/fifth-article"
-  
-  - id: 6
-    title:
-      es: "Título del sexto artículo"
-      en: "Sixth Article Title"
-    type: "podcast"
-    medium: "Podcast de ejemplo"
-    date: "2023-10-22"
-    description:
-      es: "Descripción del sexto artículo en español."
-      en: "Description of the sixth article in English."
-    url: "https://example.com/sixth-article"

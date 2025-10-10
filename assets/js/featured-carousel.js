@@ -4,9 +4,16 @@
  * Funciona con cualquier elemento con clase .featured-carousel
  */
 
-document.addEventListener('DOMContentLoaded', function() {
+function initFeaturedCarousels() {
     // Buscar todos los carruseles en la página
     const carousels = document.querySelectorAll('.featured-carousel');
+    
+    if (carousels.length === 0) {
+        console.log('Featured Carousel: No carousels found, skipping initialization');
+        return;
+    }
+    
+    console.log(`Featured Carousel: Initializing ${carousels.length} carousel(s)`);
     
     carousels.forEach(carousel => {
         if (!carousel) return;
@@ -136,4 +143,22 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
+    
+    console.log('✅ Featured Carousel(s) initialized successfully');
+}
+
+// ═══════════════════════════════════════════════════════════
+// INICIALIZACIÓN Y RE-INICIALIZACIÓN
+// ═══════════════════════════════════════════════════════════
+
+// Inicializar cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', initFeaturedCarousels);
+
+// RE-INICIALIZAR después de cambio de idioma AJAX
+document.addEventListener('languageContentReplaced', function(e) {
+    console.log('🔄 Featured Carousel: Reinitializing after language change to', e.detail.lang);
+    
+    setTimeout(() => {
+        initFeaturedCarousels();
+    }, 150);
 });

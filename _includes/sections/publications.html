@@ -35,7 +35,10 @@
               <div class="carousel-slide">
                 <div class="featured-publication-card">
                   <!-- Featured Badge -->
-                  <div class="featured-badge">{{ site.data.i18n[lang].featured_label | default: "Featured" }}</div>
+                  <div class="featured-badge featured-badge-absolute featured-badge-top-left">
+                    <i class="fa fa-star"></i>
+                    <span>{{ site.data.i18n[lang].featured_label }}</span>
+                  </div>
               {% if pub.thumbnail %}
                 <div class="publication-thumbnail">
                   <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" class="pub-thumb">
