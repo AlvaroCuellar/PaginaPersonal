@@ -262,7 +262,7 @@ nav#nav-mobile .menu-button {
     color: var(--accent-color);
     margin: 0 var(--spacing-s);
     transition: all 0.3s ease;
-}
+    }
 
 .banner-social-icons a:hover {
     opacity: 0.8;
