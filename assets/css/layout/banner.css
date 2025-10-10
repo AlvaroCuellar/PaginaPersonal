@@ -8,7 +8,7 @@
 
 #banner {
     background-color: var(--primary-color);
-    background-image: 
+    background-image: linear-gradient(121deg, var(--dark-primary) 0%, var(--primary-color) 66%, var(--accent-color) 100%), 
         url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
     /* Textura de grano sutil */
     background-size: cover;
@@ -24,7 +24,7 @@
     display: flex;
     align-items: flex-start;
     padding-top: 170px;
-    padding-bottom: 140px; /* Espacio para los hitos */
+    padding-bottom: 100px;
 }
 
 /* ·········································
@@ -63,7 +63,7 @@
 
 #banner-email {
     color: var(--accent-color);
-    background: var(--bg-secondary);
+    background: var(--primary-color);
     padding: 6px 16px;
     border-radius: var(--border-radius);
     text-decoration: none;
@@ -105,7 +105,7 @@
 
 .banner-achievements-wrapper {
     position: absolute;
-    bottom: 0;
+    bottom: var(--spacing-l);
     left: 0;
     right: 0;
     width: 100%;
@@ -114,7 +114,8 @@
 
 .banner-achievements {
     width: 100%;
-    padding: 0 var(--spacing-xl);
+    max-width: var(--width-container);
+    margin: 0 auto;
     text-align: justify;
     text-align-last: left;
     line-height: var(--line-height-relaxed);
@@ -225,7 +226,7 @@
 @media (min-width: 1025px) and (max-width: 1366px) {
     #banner-content.row {
         padding-top: 140px;
-        padding-bottom: 140px;
+        padding-bottom: 90px;
         align-items: flex-start;
     }
     
@@ -252,6 +253,7 @@
     }
     
     .banner-achievements-wrapper {
+        bottom: var(--spacing-m);
         padding: var(--spacing-l) 0;
     }
 }
@@ -270,7 +272,7 @@
     
     #banner-content.row {
         padding-top: 130px;
-        padding-bottom: 140px;
+        padding-bottom: 100px;
         align-items: flex-start;
     }
     
@@ -290,7 +292,7 @@
     
     .banner-achievements-wrapper {
         position: absolute;
-        bottom: 0;
+        bottom: var(--spacing-m);
         padding: var(--spacing-l) 0;
     }
     
