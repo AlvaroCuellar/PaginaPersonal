@@ -15,12 +15,15 @@
   overflow: hidden;
   border-radius: var(--border-radius);
   min-height: 400px;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
 }
 
 .outreach-carousel-track {
   display: flex;
   transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
+  touch-action: pan-x;
 }
 
 .outreach-featured-slide {
@@ -291,21 +294,15 @@
     padding: var(--spacing-l);
   }
   
-  /* Carousel navigation en móvil */
+  /* Carousel navigation en móvil - ocultar flechas */
+  .outreach-carousel-prev,
+  .outreach-carousel-next {
+    display: none;
+  }
+  
   .outreach-carousel-indicators {
     bottom: var(--spacing-s);
     gap: var(--spacing-s);
-  }
-  
-  .outreach-carousel-prev,
-  .outreach-carousel-next {
-    width: 28px;
-    height: 28px;
-  }
-  
-  .outreach-carousel-prev i,
-  .outreach-carousel-next i {
-    font-size: var(--text-sm);
   }
 }
 

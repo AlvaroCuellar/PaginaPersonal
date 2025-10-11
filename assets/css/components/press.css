@@ -291,17 +291,20 @@
     font-size: var(--text-base);
   }
   
+  /* Ocultar flechas en móvil - navegación táctil */
   .carousel-arrow {
-    width: 40px;
-    height: 40px;
-    font-size: var(--text-base);
+    display: none;
+  }
+  
+  .press-carousel-container {
+    padding: 0; /* Sin padding para que las tarjetas ocupen todo el ancho */
   }
 }
 
 /* Mobile pequeño */
 @media (max-width: 480px) {
   .press-carousel-container {
-    padding: 0 var(--spacing-xl);
+    padding: 0;
   }
   
   .press-card {
@@ -318,20 +321,6 @@
   
   .press-summary {
     font-size: var(--text-xs);
-  }
-  
-  .carousel-arrow {
-    width: 36px;
-    height: 36px;
-    font-size: var(--text-sm);
-  }
-  
-  .carousel-prev {
-    left: -5px;
-  }
-  
-  .carousel-next {
-    right: -5px;
   }
 }
 

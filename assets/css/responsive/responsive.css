@@ -215,14 +215,22 @@
        PROJECT COMPONENTS
        ········································· */
     
-    .hero-project {
+    .hero-project,
+    .hero-project.reverse {
         grid-template-columns: 1fr;
         margin-bottom: var(--spacing-m);
         margin-top: var(--spacing-none);
     }
     
-    .hero-project__image {
+    .hero-project__image,
+    .hero-project.reverse .hero-project__image {
         min-height: 250px;
+        order: 1;
+    }
+    
+    .hero-project__content,
+    .hero-project.reverse .hero-project__content {
+        order: 2;
     }
     
     .projects-row,

@@ -958,8 +958,12 @@ body.modal-open .featured-carousel {
     
     .featured-publication-card {
         height: auto;
-        min-height: 450px;
+        min-height: 550px;
         padding: 1.2rem;
+    }
+    
+    .event-card.featured {
+        min-height: 350px;
     }
     
     .pub-thumb {
@@ -973,11 +977,24 @@ body.modal-open .featured-carousel {
         font-size: 11px;
     }
     
-    /* En móvil muy pequeño, apilar botones */
-    @media (max-width: 480px) {
-        .publication-buttons {
-            flex-direction: column;
-        }
+    /* Botones apilados verticalmente en móvil - ocupan todo el ancho */
+    .publication-buttons,
+    .publication-buttons-inline {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-s);
+    }
+    
+    .publication-buttons .button-inverse,
+    .publication-buttons .button,
+    .publication-buttons-inline .button-inverse,
+    .publication-buttons-inline .button {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     /* Responsive para grid normal */
@@ -1081,9 +1098,11 @@ body.modal-open .featured-carousel {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: var(--shadow-sm);
+    min-height: 600px;
 }
 .featured-publication-card {
-        height: 550px;
+        height: auto;
+        min-height: 600px;
 }
 
 /* Regular Talks Grid */
@@ -1118,7 +1137,8 @@ body.modal-open .featured-carousel {
 
 .event-card.featured {
     border: 2px solid var(--accent-color); /* Borde destacado para featured */
-    height: 250px;
+    min-height: 300px;
+    height: auto;
     background: var(--bg-primary);
 }
 

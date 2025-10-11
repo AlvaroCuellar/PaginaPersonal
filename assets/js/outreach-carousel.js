@@ -10,7 +10,7 @@
     let slides = [];
     let indicators = [];
     let autoplayInterval = null;
-    const AUTOPLAY_DELAY = 3000; // 3 segundos
+    const AUTOPLAY_DELAY = 5000; // 5 segundos
     
     function initOutreachCarousel() {
         const carousel = document.querySelector('.outreach-featured-carousel');
@@ -52,6 +52,36 @@
                 startAutoplay();
             });
         });
+        
+        // Soporte para gestos táctiles (swipe)
+        let touchStartX = 0;
+        let touchEndX = 0;
+        const swipeThreshold = 50; // Píxeles mínimos para considerar un swipe
+        
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            stopAutoplay();
+        }, { passive: true });
+        
+        carousel.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+            startAutoplay();
+        }, { passive: true });
+        
+        function handleSwipe() {
+            const swipeDistance = touchEndX - touchStartX;
+            
+            if (Math.abs(swipeDistance) > swipeThreshold) {
+                if (swipeDistance > 0) {
+                    // Swipe right - ir al slide anterior
+                    previousSlide();
+                } else {
+                    // Swipe left - ir al siguiente slide
+                    nextSlide();
+                }
+            }
+        }
         
         // Iniciar autoplay
         startAutoplay();
