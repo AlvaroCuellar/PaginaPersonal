@@ -9,11 +9,11 @@ subtitle:
   en: "Scientific Communication"
 
 # Featured Article (destacado principal)
-featured: 2
+featured: "outreach-2"
 
 # Artículos y contenido de divulgación
 items:
-  - id: 1
+  - id: "outreach-1"
     title:
       es: "Título del artículo destacado"
       en: "Featured Article Title"
@@ -25,7 +25,7 @@ items:
       en: "Description of the featured article in English."
     url: "https://example.com/featured-article"
   
-  - id: 2
+  - id: "outreach-2"
     title:
       es: "Título del segundo artículo"
       en: "Second Article Title"
@@ -37,11 +37,11 @@ items:
       en: "Description of the second article in English."
     url: "https://example.com/second-article"
   
-  - id: 3
+  - id: "outreach-3"
     title:
       es: "Título del tercer artículo"
       en: "Third Article Title"
-    type: "interview"
+    type: "article"
     medium: "Entrevista de ejemplo"
     date: "2024-01-10"
     description:
@@ -49,14 +49,62 @@ items:
       en: "Description of the third article in English."
     url: "https://example.com/third-article"
   
-  - id: 4
+  - id: "outreach-4"
     title:
       es: "Título del cuarto artículo"
       en: "Fourth Article Title"
-    type: "article"
+    type: "tv"
     medium: "Video de ejemplo"
     date: "2023-12-05"
     description:
       es: "Descripción del cuarto artículo en español."
       en: "Description of the fourth article in English."
     url: "https://example.com/fourth-article"
+  
+  - id: "outreach-5"
+    title:
+      es: "Título del quinto artículo"
+      en: "Fifth Article Title"
+    type: "interview"
+    medium: "Podcast de ejemplo"
+    date: "2023-11-15"
+    description:
+      es: "Descripción del quinto artículo en español."
+      en: "Description of the fifth article in English."
+    url: "https://example.com/fifth-article"
+  
+  - id: "outreach-6"
+    title:
+      es: "Título del sexto artículo"
+      en: "Sixth Article Title"
+    type: "tv"
+    medium: "Taller de ejemplo"
+    date: "2023-10-25"
+    description:
+      es: "Descripción del sexto artículo en español."
+      en: "Description of the sixth article in English."
+    url: "https://example.com/sixth-article"
+  
+  - id: "outreach-7"
+    title:
+      es: "Título del séptimo artículo"
+      en: "Seventh Article Title"
+    type: "article"
+    medium: "Conferencia de ejemplo"
+    date: "2023-09-30"
+    description:
+      es: "Descripción del séptimo artículo en español."
+      en: "Description of the seventh article in English."
+    url: "https://example.com/seventh-article"
+  
+  - id: "outreach-8"
+    title:
+      es: "Título del octavo artículo"
+      en: "Eighth Article Title"
+    type: "tv"
+    medium: "Webinar de ejemplo"
+    date: "2023-08-20"
+    description:
+      es: "Descripción del octavo artículo en español."
+      en: "Description of the eighth article in English."
+    url: "https://example.com/eighth-article"
