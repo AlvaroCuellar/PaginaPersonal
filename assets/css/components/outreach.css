@@ -3,17 +3,45 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* ·········································
-   Featured Article Hero
+   Featured Articles Carousel
    ········································· */
+.outreach-featured-carousel-container {
+  position: relative;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.outreach-featured-carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  min-height: 400px;
+}
+
+.outreach-carousel-track {
+  display: flex;
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+
+.outreach-featured-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  min-width: 100%;
+}
+
 .outreach-featured {
   position: relative;
   background: var(--primary-color);
   border-radius: var(--border-radius);
   padding: var(--spacing-3xl);
-  margin-bottom: var(--spacing-3xl);
   overflow: hidden;
   color: var(--color-white);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 calc(var(--spacing-xl) / 2);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /* Featured badge uses shared class from cards.css */
@@ -87,6 +115,81 @@
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
+}
+
+/* ·········································
+   Carousel Navigation & Indicators
+   ········································· */
+.outreach-carousel-indicators {
+  position: absolute;
+  bottom: var(--spacing-l);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-m);
+  z-index: 100;
+}
+
+.outreach-carousel-prev,
+.outreach-carousel-next {
+  background: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.outreach-carousel-prev:hover,
+.outreach-carousel-next:hover {
+  transform: scale(1.2);
+}
+
+.outreach-carousel-prev i,
+.outreach-carousel-next i {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--text-base);
+  transition: color 0.3s ease;
+}
+
+.outreach-carousel-prev:hover i,
+.outreach-carousel-next:hover i {
+  color: var(--color-white);
+}
+
+/* Separador entre flechas e indicadores */
+.outreach-carousel-indicators > .outreach-indicator:first-of-type {
+  margin-left: var(--spacing-xs);
+}
+
+.outreach-carousel-indicators > .outreach-indicator:last-of-type {
+  margin-right: var(--spacing-xs);
+}
+
+.outreach-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.outreach-indicator:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-color: var(--color-white);
+}
+
+.outreach-indicator.active {
+  background: var(--color-white);
+  border-color: var(--color-white);
 }
 
 /* ·········································
@@ -187,11 +290,33 @@
   .outreach-card {
     padding: var(--spacing-l);
   }
+  
+  /* Carousel navigation en móvil */
+  .outreach-carousel-indicators {
+    bottom: var(--spacing-s);
+    gap: var(--spacing-s);
+  }
+  
+  .outreach-carousel-prev,
+  .outreach-carousel-next {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .outreach-carousel-prev i,
+  .outreach-carousel-next i {
+    font-size: var(--text-sm);
+  }
 }
 
 @media (max-width: 480px) {
+  .outreach-featured-carousel {
+    min-height: 500px;
+  }
+  
   .outreach-featured {
     padding: var(--spacing-xl) var(--spacing-l);
+    min-height: 500px;
   }
   
   .featured-title {

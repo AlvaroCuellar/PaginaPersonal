@@ -15,59 +15,85 @@
         </h2>
       </div>
       
-      <!-- Featured Article Hero -->
-      {% assign featured_id = site.data.home.outreach.featured %}
-      {% if featured_id %}
-        {% assign featured = site.data.home.outreach.items | where: "id", featured_id | first %}
-        
-        {% if featured %}
-          <div class="outreach-featured">
-            <div class="featured-badge">
-              <i class="fa fa-star"></i>
-              <span>{{ site.data.i18n[lang].featured_label }}</span>
-            </div>
-            
-            <div class="featured-content">
-              <h3 class="featured-title">{{ featured.title[lang] }}</h3>
-              
-              {% if featured.description[lang] %}
-                <p class="featured-description">{{ featured.description[lang] }}</p>
+      <!-- Featured Articles Carousel -->
+      {% assign featured_ids = site.data.home.outreach.featured_ids %}
+      {% if featured_ids.size > 0 %}
+        <div class="outreach-featured-carousel-container">
+          <div class="outreach-featured-carousel">
+            <div class="outreach-carousel-track">
+            {% for featured_id in featured_ids %}
+              {% assign featured = site.data.home.outreach.items | where: "id", featured_id | first %}
+              {% if featured %}
+                <div class="outreach-featured-slide">
+                  <div class="outreach-featured">
+                    <div class="featured-badge">
+                      <i class="fa fa-star"></i>
+                      <span>{{ site.data.i18n[lang].featured_label }}</span>
+                    </div>
+                    
+                    <div class="featured-content">
+                      <h3 class="featured-title">{{ featured.title[lang] }}</h3>
+                      
+                      {% if featured.description[lang] %}
+                        <p class="featured-description">{{ featured.description[lang] }}</p>
+                      {% endif %}
+                      
+                      <div class="featured-meta">
+                        <span class="featured-medium">
+                          {% case featured.type %}
+                            {% when 'article' %}
+                              <i class="fa fa-file-text"></i>
+                            {% when 'tv' %}
+                              <i class="fa fa-tv"></i>
+                            {% when 'interview' %}
+                              <i class="fa fa-comment"></i>
+                          {% endcase %}
+                          {{ featured.medium }}
+                        </span>
+                        <span class="featured-date">
+                          {% assign date = featured.date | date: "%-d" %}
+                          {% assign month = featured.date | date: "%B" | downcase %}
+                          {% assign year = featured.date | date: "%Y" %}
+                          {% assign translated_month = site.data.i18n[lang].months[month] %}
+                          {{ date }} {{ translated_month | default: month | capitalize }} {{ year }}
+                        </span>
+                      </div>
+                    
+                      <a href="{{ featured.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
+                        {% if featured.type == 'tv' %}
+                          {{ site.data.i18n[lang].outreach.watch }}
+                        {% else %}
+                          {{ site.data.i18n[lang].outreach.read }}
+                        {% endif %}
+                      </a>
+                    </div>
+                    
+                    <!-- Decorative circle -->
+                    <div class="featured-decoration"></div>
+                  </div>
+                </div>
               {% endif %}
-              
-              <div class="featured-meta">
-                <span class="featured-medium">
-                  {% case featured.type %}
-                    {% when 'article' %}
-                      <i class="fa fa-file-text"></i>
-                    {% when 'tv' %}
-                      <i class="fa fa-tv"></i>
-                    {% when 'interview' %}
-                      <i class="fa fa-comment"></i>
-                  {% endcase %}
-                  {{ featured.medium }}
-                </span>
-                <span class="featured-date">
-                  {% assign date = featured.date | date: "%-d" %}
-                  {% assign month = featured.date | date: "%B" | downcase %}
-                  {% assign year = featured.date | date: "%Y" %}
-                  {% assign translated_month = site.data.i18n[lang].months[month] %}
-                  {{ date }} {{ translated_month | default: month | capitalize }} {{ year }}
-                </span>
-              </div>
-            
-              <a href="{{ featured.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
-                {% if featured.type == 'tv' %}
-                  {{ site.data.i18n[lang].outreach.watch }}
-                {% else %}
-                  {{ site.data.i18n[lang].outreach.read }}
-                {% endif %}
-              </a>
+            {% endfor %}
             </div>
-            
-            <!-- Decorative circle -->
-            <div class="featured-decoration"></div>
           </div>
-        {% endif %}
+          
+          <!-- Navigation controls -->
+          {% if featured_ids.size > 1 %}
+            <div class="outreach-carousel-indicators">
+              <button class="outreach-carousel-prev" aria-label="Anterior">
+                <i class="fa fa-chevron-left"></i>
+              </button>
+              
+              {% for featured_id in featured_ids %}
+                <button class="outreach-indicator{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" aria-label="Ir a slide {{ forloop.index }}"></button>
+              {% endfor %}
+              
+              <button class="outreach-carousel-next" aria-label="Siguiente">
+                <i class="fa fa-chevron-right"></i>
+              </button>
+            </div>
+          {% endif %}
+        </div>
       {% endif %}
       
       <!-- More Articles Grid -->
@@ -81,10 +107,9 @@
           {% assign item_count = 0 %}
           {% assign sorted_items = site.data.home.outreach.items | sort: "date" | reverse %}
           {% for item in sorted_items %}
-            {% unless item.id == featured_id %}
+            {% unless featured_ids contains item.id %}
               {% assign item_count = item_count | plus: 1 %}
               <article class="outreach-card{% if item_count > initial_visible %} hidden{% endif %}" data-type="{{ item.type }}">
-                <!-- Type Badge (using shared class from cards.css) -->
                 <div class="category-badge badge-{{ item.type }}">
                   {% case item.type %}
                     {% when 'article' %}
@@ -130,7 +155,7 @@
         </div>
         
         <!-- Show more button -->
-        {% assign total_non_featured = site.data.home.outreach.items.size | minus: 1 %}
+        {% assign total_non_featured = site.data.home.outreach.items.size | minus: featured_ids.size %}
         {% if total_non_featured > initial_visible %}
             <div class="show-more-outreach-container" style="text-align: center; margin-top: var(--spacing-xl);">
               <button id="show-more-outreach" class="button">

@@ -8,8 +8,11 @@ subtitle:
   es: "Comunicación científica"
   en: "Scientific Communication"
 
-# Featured Article (destacado principal)
-featured: "outreach-2"
+# Featured Articles (destacados principales) - múltiples featured en carrusel
+featured_ids:
+  - "outreach-2"
+  - "outreach-1"
+  - "outreach-5"
 
 # Artículos y contenido de divulgación
 items:
