@@ -169,8 +169,9 @@ $(document).ready(function () {
     function updateHeaderState() {
         const scroll = $(window).scrollTop();
         const bannerHeight = $('#banner').height() || 0;
+        const offset = 140;
         
-        if (scroll >= bannerHeight) {
+        if (scroll >= (bannerHeight - offset)) {
             $('#header').addClass('nav-solid');
         } else {
             $('#header').removeClass('nav-solid');
@@ -305,7 +306,7 @@ $(document).ready(function () {
             isScrolling = false;
             
             $('html, body').animate({
-                scrollTop: target.offset().top - 80
+                scrollTop: target.offset().top - 70
             }, 800);
         }
     });
@@ -324,7 +325,7 @@ $(document).ready(function () {
                 
                 if (target.length) {
                     $('html, body').animate({
-                        scrollTop: target.offset().top - 80
+                        scrollTop: target.offset().top - 70
                     }, 800);
                 }
             }
@@ -370,7 +371,7 @@ $(document).ready(function () {
                     if (!sessionStorage.getItem('langChangeScroll')) {
                         console.log('📍 Navigating to section:', sectionId);
                         $('html, body').animate({
-                            scrollTop: target.offset().top - 80
+                            scrollTop: target.offset().top - 70
                         }, 800);
                     } else {
                         console.log('⏭️ Skipping navigation (came from language change)');
