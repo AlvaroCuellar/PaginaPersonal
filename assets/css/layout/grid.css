@@ -9,7 +9,8 @@
 .row {
     max-width: 1245px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-3xl);
     position: relative;
 }
 
