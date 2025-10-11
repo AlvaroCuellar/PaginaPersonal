@@ -1,27 +1,27 @@
 <!-- ·········································
-      DISSEMINATION SECTION
+      OUTREACH SECTION
       ········································· -->
-<section id="dissemination" class="dissemination scrollto">
+<section id="outreach" class="outreach scrollto">
   <div class="row clearfix">
     {% assign lang = page.lang | default: 'es' %}
     <div class="col-1">
       <div class="section-heading">
-        {% if site.data.home.dissemination.subtitle[lang] %}
-          <h3>{{ site.data.home.dissemination.subtitle[lang] }}</h3>
+        {% if site.data.home.outreach.subtitle[lang] %}
+          <h3>{{ site.data.home.outreach.subtitle[lang] }}</h3>
         {% endif %}
         <h2 class="section-title">
-          {{ site.data.home.dissemination.section_title[lang] }}
-          <span class="section-count">{{ site.data.home.dissemination.items.size }}</span>
+          {{ site.data.home.outreach.section_title[lang] }}
+          <span class="section-count">{{ site.data.home.outreach.items.size }}</span>
         </h2>
       </div>
       
       <!-- Featured Article Hero -->
-      {% if site.data.home.dissemination.featured %}
-        {% assign featured_id = site.data.home.dissemination.featured %}
-        {% assign featured = site.data.home.dissemination.items | where: "id", featured_id | first %}
+      {% if site.data.home.outreach.featured %}
+        {% assign featured_id = site.data.home.outreach.featured %}
+        {% assign featured = site.data.home.outreach.items | where: "id", featured_id | first %}
         
         {% if featured %}
-          <div class="dissemination-featured">
+          <div class="outreach-featured">
             <div class="featured-badge">
               <i class="fa fa-star"></i>
               <span>{{ site.data.i18n[lang].featured_label }}</span>
@@ -57,9 +57,9 @@
             
               <a href="{{ featured.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
                 {% if featured.type == 'tv' %}
-                  {{ site.data.i18n[lang].dissemination.watch }}
+                  {{ site.data.i18n[lang].outreach.watch }}
                 {% else %}
-                  {{ site.data.i18n[lang].dissemination.read }}
+                  {{ site.data.i18n[lang].outreach.read }}
                 {% endif %}
               </a>
             </div>
@@ -71,16 +71,16 @@
       {% endif %}
       
       <!-- More Articles Grid -->
-      {% assign non_featured = site.data.home.dissemination.items | where_exp: "item", "item.id != featured_id" %}
+      {% assign non_featured = site.data.home.outreach.items | where_exp: "item", "item.id != featured_id" %}
       {% if non_featured.size > 0 %}
-        <div class="dissemination-more">
+        <div class="outreach-more">
           <h3 class="more-title">
-            {{ site.data.i18n[lang].dissemination.more_title }}
+            {{ site.data.i18n[lang].outreach.more_title }}
           </h3>
           
-          <div class="dissemination-grid">
+          <div class="outreach-grid">
             {% for item in non_featured %}
-              <article class="dissemination-card" data-type="{{ item.type }}">
+              <article class="outreach-card" data-type="{{ item.type }}">
                 <!-- Type Badge (using shared class from cards.css) -->
                 <div class="category-badge badge-{{ item.type }}">
                   {% case item.type %}
@@ -91,7 +91,7 @@
                     {% when 'interview' %}
                       <i class="fa fa-comment"></i>
                   {% endcase %}
-                  <span>{{ site.data.i18n[lang].dissemination_types[item.type] }}</span>
+                  <span>{{ site.data.i18n[lang].outreach_types[item.type] }}</span>
                 </div>
                 
                 <!-- Card Content (using shared classes from cards.css) -->
@@ -115,9 +115,9 @@
                 
                 <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="card-link no-icon">
                   {% if item.type == 'tv' %}
-                    {{ site.data.i18n[lang].dissemination.watch }}
+                    {{ site.data.i18n[lang].outreach.watch }}
                   {% else %}
-                    {{ site.data.i18n[lang].dissemination.read }}
+                    {{ site.data.i18n[lang].outreach.read }}
                   {% endif %}
                   <i class="fa fa-arrow-right"></i>
                 </a>
@@ -129,4 +129,4 @@
     </div>
   </div>
 </section>
-<!--End of Dissemination-->
+<!--End of Outreach-->

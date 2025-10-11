@@ -34,8 +34,8 @@ talk_types:
 press_types:
   news: "News"
 
-# Dissemination types
-dissemination_types:
+# Outreach types
+outreach_types:
   article: "Article"
   tv: "TV"
   interview: "Interview"
@@ -86,8 +86,8 @@ months:
   november: "November"
   december: "December"
 
-# Dissemination section
-dissemination:
+# Outreach section
+outreach:
   more_title: "More articles & media"
   read: "Read"
   watch: "Watch"

@@ -16,7 +16,7 @@
 - key: "press"
   show: true
   section_id: "press"
-- key: "dissemination"
+- key: "outreach"
   show: true
-  section_id: "dissemination"
+  section_id: "outreach"
 

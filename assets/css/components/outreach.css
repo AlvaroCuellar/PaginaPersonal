@@ -1,11 +1,11 @@
 /* ═══════════════════════════════════════════════════════════
-   DISSEMINATION SECTION
+   OUTREACH SECTION
    ═══════════════════════════════════════════════════════════ */
 
 /* ·········································
    Featured Article Hero
    ········································· */
-.dissemination-featured {
+.outreach-featured {
   position: relative;
   background: var(--primary-color);
   border-radius: var(--border-radius);
@@ -17,7 +17,7 @@
 }
 
 /* Featured badge uses shared class from cards.css */
-.dissemination-featured .featured-badge {
+.outreach-featured .featured-badge {
   margin-bottom: var(--spacing-l);
 }
 
@@ -64,12 +64,12 @@
   opacity: 0.8;
 }
 
-.dissemination-featured .button-inverse {
+.outreach-featured .button-inverse {
     color: var(--color-white);
     background-color: var(--accent-color);
     border: 2px solid var(--accent-color);
 }
-.dissemination-featured .button-inverse:hover {
+.outreach-featured .button-inverse:hover {
     background-color: transparent;
     color: var(--color-white);
     border: 2px solid var(--accent-color);
@@ -92,14 +92,14 @@
 /* ·········································
    More Articles Section
    ········································· */
-.dissemination-more {
+.outreach-more {
   margin-top: var(--spacing-3xl);
 }
 
 /* ·········································
    Grid Masonry Layout
    ········································· */
-.dissemination-grid {
+.outreach-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--spacing-xl);
@@ -107,9 +107,9 @@
 }
 
 /* ·········································
-   Dissemination Cards
+   Outreach Cards
    ········································· */
-.dissemination-card {
+.outreach-card {
   background: var(--bg-secondary);
   border-radius: var(--border-radius);
   padding: var(--spacing-l);
@@ -127,12 +127,12 @@
 
 /* Tablet: 2 columns */
 @media (max-width: 1024px) {
-  .dissemination-grid {
+  .outreach-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-l);
   }
   
-  .dissemination-featured {
+  .outreach-featured {
     padding: var(--spacing-2xl) var(--spacing-xl);
   }
   
@@ -150,12 +150,12 @@
 
 /* Mobile: 1 column */
 @media (max-width: 768px) {
-  .dissemination-grid {
+  .outreach-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-l);
   }
   
-  .dissemination-featured {
+  .outreach-featured {
     padding: var(--spacing-xl);
   }
   
@@ -184,13 +184,13 @@
     font-size: var(--text-xl);
   }
   
-  .dissemination-card {
+  .outreach-card {
     padding: var(--spacing-l);
   }
 }
 
 @media (max-width: 480px) {
-  .dissemination-featured {
+  .outreach-featured {
     padding: var(--spacing-xl) var(--spacing-l);
   }
   
@@ -207,7 +207,7 @@
     font-size: var(--text-sm);
   }
   
-  .dissemination-card {
+  .outreach-card {
     padding: var(--spacing-m);
   }
 }
