@@ -12,7 +12,9 @@ $(document).ready(function () {
 	
 	/* ScrollUp Button - Botón para volver arriba */
 	if (!!$.prototype.scrollUp) {
-		$.scrollUp();
+		$.scrollUp({
+			zIndex: 9000  // Por debajo del overlay de citas (2147483646)
+		});
 	}
 	
 	/* Inicializar estado de logros según tamaño de pantalla */

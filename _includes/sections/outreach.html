@@ -79,7 +79,8 @@
         <div class="outreach-grid">
           {% assign initial_visible = 6 %}
           {% assign item_count = 0 %}
-          {% for item in site.data.home.outreach.items sorted by date reversed %}
+          {% assign sorted_items = site.data.home.outreach.items | sort: "date" | reverse %}
+          {% for item in sorted_items %}
             {% unless item.id == featured_id %}
               {% assign item_count = item_count | plus: 1 %}
               <article class="outreach-card{% if item_count > initial_visible %} hidden{% endif %}" data-type="{{ item.type }}">
