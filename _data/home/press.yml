@@ -9,14 +9,14 @@
 # 2. Campos opcionales:
 #    - thumbnail: Ruta a la imagen de captura del artículo.
 #    - summary: Breve resumen del contenido, con claves "es" y "en".
-#    - type: Tipo de aparición (ver categorías sugeridas abajo).
+#    - type: Tipo de aparición (ver tipos disponibles abajo).
 # 3. Para destacar artículos, agregar sus IDs en el campo 'featured' al inicio del archivo.
-# 4. Categorías sugeridas para 'type':
+# 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
 #    - news      → fa-solid fa-newspaper (Noticia general)
-#    - interview → fa-solid fa-microphone (Entrevista)
-#    - tv        → fa-solid fa-tv (Cobertura televisiva)
-#    - critic    → fa-solid fa-star-half-stroke (Crítica especializada)
-#    - award     → fa-solid fa-trophy (Premio o reconocimiento)
+#    
+#    Para añadir nuevos tipos:
+#    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'press_types'
+#    b) Agregar el ícono correspondiente en el código HTML/CSS
 # 5. Notas adicionales:
 #    - Mantén el formato YAML y respeta la indentación.
 #    - Los artículos se mostrarán en orden cronológico inverso.
@@ -45,10 +45,10 @@ articles:
     date: "2025-09-15"
     url: "https://ejemplo.com/noticia1"
     thumbnail: "/assets/images/press/img01.jpg"
-    type: "interview"
+    type: "news"
     summary:
-      es: "Breve resumen sobre la investigación mencionada en esta entrevista"
-      en: "Brief summary about the research mentioned in this interview"
+      es: "Breve resumen sobre la investigación mencionada en este artículo"
+      en: "Brief summary about the research mentioned in this article"
   
   - id: "press02"
     title:
@@ -65,39 +65,39 @@ articles:
 
   - id: "press05"
     title:
-      es: "Ejemplo de artículo de TV"
-      en: "TV article example"
-    outlet: "Antena 3"
+      es: "Título del artículo de prensa 3"
+      en: "Press article title 3"
+    outlet: "ABC"
     date: "2025-05-10"
-    url: "https://ejemplo.com/tv"
+    url: "https://ejemplo.com/noticia3"
     thumbnail: "/assets/images/press/img01.jpg"
-    type: "tv"
+    type: "news"
     summary:
-      es: "Cobertura televisiva sobre el proyecto."
-      en: "TV coverage about the project."
+      es: "Otro ejemplo de noticia sobre el proyecto."
+      en: "Another news example about the project."
 
   - id: "press06"
     title:
-      es: "Crítica en prensa especializada"
-      en: "Specialized press review"
-    outlet: "El Cultural"
+      es: "Título del artículo de prensa 4"
+      en: "Press article title 4"
+    outlet: "El Mundo"
     date: "2025-04-18"
-    url: "https://ejemplo.com/critic"
+    url: "https://ejemplo.com/noticia4"
     thumbnail: "/assets/images/press/img01.jpg"
-    type: "critic"
+    type: "news"
     summary:
-      es: "Crítica sobre el impacto académico."
-      en: "Review about academic impact."
+      es: "Noticia sobre el impacto académico."
+      en: "News about academic impact."
 
   - id: "press07"
     title:
-      es: "Premio a la divulgación"
-      en: "Science outreach award"
-    outlet: "Premios Ciencia"
+      es: "Título del artículo de prensa 5"
+      en: "Press article title 5"
+    outlet: "La Razón"
     date: "2025-03-02"
-    url: "https://ejemplo.com/award"
+    url: "https://ejemplo.com/noticia5"
     thumbnail: "/assets/images/press/img01.jpg"
-    type: "award"
+    type: "news"
     summary:
       es: "Reconocimiento por la labor divulgativa."
       en: "Recognition for outreach work."

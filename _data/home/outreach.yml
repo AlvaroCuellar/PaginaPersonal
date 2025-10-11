@@ -1,3 +1,29 @@
+# Este archivo contiene la lista de artículos y contenido de divulgación científica.
+# Instrucciones para completar los datos:
+# 1. Campos obligatorios:
+#    - id: Identificador único para cada artículo (por ejemplo, "outreach-1").
+#    - title: Título del artículo o contenido, con claves "es" y "en" para idiomas.
+#    - type: Tipo de contenido (ver tipos disponibles abajo).
+#    - medium: Nombre del medio o plataforma donde se publicó.
+#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD).
+#    - url: Enlace al contenido original.
+# 2. Campos opcionales:
+#    - description: Breve descripción del contenido, con claves "es" y "en".
+#    - image: Ruta a la imagen asociada al contenido.
+# 3. Para destacar artículos, agregar sus IDs en el campo 'featured_ids' al inicio del archivo.
+#    Los artículos destacados se mostrarán en un carrusel principal con transiciones suaves.
+# 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
+#    - article   → fa-file-text (Artículo escrito)
+#    - tv        → fa-tv (Aparición en TV o video)
+#    - interview → fa-comment (Entrevista o podcast)
+#    
+#    Para añadir nuevos tipos:
+#    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'outreach_types'
+#    b) Agregar el ícono correspondiente en _includes/sections/outreach.html
+# 5. Notas adicionales:
+#    - Los artículos se mostrarán en orden cronológico inverso.
+#    - Los artículos destacados (featured_ids) se excluyen automáticamente del grid principal.
+
 section_title:
   es: "Divulgación"
   en: "Outreach"
@@ -8,7 +34,7 @@ subtitle:
   es: "Comunicación científica"
   en: "Scientific Communication"
 
-# Featured Articles (destacados principales) - múltiples featured en carrusel
+# Elementos destacados (se mostrarán en el carrusel principal)
 featured_ids:
   - "outreach-2"
   - "outreach-1"
