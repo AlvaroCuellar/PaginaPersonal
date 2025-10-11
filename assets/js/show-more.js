@@ -48,6 +48,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 tablet: 2,   // Load 2 at a time (1 row) on tablet
                 mobile: 2    // Load 2 at a time (2 rows) on mobile
             }
+        },
+        'outreach': {
+            containerSelector: '.outreach-grid',
+            itemSelector: '.outreach-card',
+            buttonId: 'show-more-outreach',
+            showMoreKey: 'show_more_outreach',
+            showLessKey: 'show_less_outreach',
+            defaultShowMore: 'Ver más artículos',
+            defaultShowLess: 'Ver menos artículos',
+            scrollToSection: 'outreach',
+            responsive: true,
+            itemsToShow: {
+                desktop: 6,
+                tablet: 4,
+                mobile: 2
+            },
+            itemsPerLoad: {
+                desktop: 3,
+                tablet: 2,
+                mobile: 2
+            }
         }
     };
 
@@ -250,7 +271,8 @@ document.addEventListener('languageContentReplaced', function(e) {
         const buttons = [
             'show-more-projects',
             'show-more-publications',
-            'show-more-talks'
+            'show-more-talks',
+            'show-more-outreach'
         ];
         
         buttons.forEach(buttonId => {

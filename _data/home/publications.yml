@@ -53,8 +53,6 @@ featured_ids:
   - "article01"
   - "book01"
   - "inproceedings01"
-  - "book02"
-  - "book03"
 
 publications:
   - id: "article01"
@@ -127,7 +125,7 @@ publications:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."
 
-  - id: "book01"
+  - id: "book02"
     type: "book"
     title: "Título del capítulo de un libro"
     authors: ["Nombre Apellido"]
@@ -142,7 +140,7 @@ publications:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."
 
-  - id: "book01"
+  - id: "book03"
     type: "book"
     title: "Título del capítulo de un libro"
     authors: ["Nombre Apellido"]

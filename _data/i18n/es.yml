@@ -8,6 +8,8 @@ show_more_publications: "Ver más publicaciones"
 show_less_publications: "Ver menos publicaciones"
 show_more_talks: "Ver más conferencias"
 show_less_talks: "Ver menos conferencias"
+show_more_outreach: "Ver más artículos"
+show_less_outreach: "Ver menos artículos"
 featured_label: "Destacada"
 
 # Talks section titles

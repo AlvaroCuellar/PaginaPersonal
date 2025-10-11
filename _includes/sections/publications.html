@@ -126,10 +126,13 @@
 
       <!-- All Publications Grid -->
       <div class="publication-grid">
+        {% assign initial_visible = 5 %}
         {% assign pub_count = 0 %}
+        {% assign featured_ids = site.data.home.publications.featured_ids %}
         {% for pub in site.data.home.publications.publications %}
-          {% assign pub_count = pub_count | plus: 1 %}
-          <div class="publication-item{% if pub_count > 5 %} hidden{% endif %}">
+          {% unless featured_ids contains pub.id %}
+            {% assign pub_count = pub_count | plus: 1 %}
+            <div class="publication-item{% if pub_count > initial_visible %} hidden{% endif %}">
           <div class="publication-card">
             <!-- Thumbnail -->
             {% if pub.thumbnail %}
@@ -212,10 +215,12 @@
           </div>
           {% endif %}
           </div>
+          {% endunless %}
         {% endfor %}
       </div>
 
-      {% if site.data.home.publications.publications.size > 5 %}
+      {% assign total_non_featured = site.data.home.publications.publications.size | minus: featured_ids.size %}
+      {% if total_non_featured > initial_visible %}
         <div class="show-more-publications-container">
           <button id="show-more-publications" class="button">
             {{ site.data.i18n[lang].show_more_publications | default: "Ver más publicaciones" }}
