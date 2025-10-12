@@ -151,6 +151,25 @@ publications:
       - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
       - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
 
+  - id: "modernisa"
+    type: "article"
+    title: "The Moderniſa Project: orthographic modernization of Spanish golden age dramas with language models"
+    authors: ["Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"]
+    publisher: "Anuario Lope de Vega Texto literatura cultura"
+    place:
+    year: 2024
+    volume: "XXX"
+    number:
+    pages: "410-425"
+    isbn:
+    url: "https://doi.org/10.5565/rev/anuariolopedevega.530"
+    thumbnail: "/assets/images/pubs/modernisa.jpg"
+    abstract: "La aplicación de métodos computacionales al estudio del Siglo de Oro ha puesto de relieve la necesidad de automatizar la modernización textual para facilitar la comparación y el análisis. Este trabajo presenta el primer uso de técnicas de Procesamiento del Lenguaje Natural (PLN) para adaptar textos auriseculares (ca. 1590–1680) a un español moderno normalizado (RAE 2010). Mediante modelos basados en transformadores entrenados sobre un corpus de comedias, se logra un desempeño prometedor en la resolución de marcas tipográficas y dependencias contextuales, aunque con dificultades en nombres propios y variantes ortográficas. Evaluada con métricas estándar, la herramienta muestra gran potencial como recurso para filólogos e investigadores en humanidades digitales, pese a limitaciones derivadas del corpus y de ciertas inconsistencias ortográficas. Este estudio ofrece una vía automatizada y escalable para la modernización de textos del Siglo de Oro."
+    cited_by:
+    
+      - "Bengoetxea, Jaione, Itziar Gonzalez-Dios, and Rodrigo Agerri. “Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants.” arXiv preprint arXiv:2506.15239, 2025."
+      - "Ehrmanntraut, Anton. “Historical German Text Normalization Using Type- and Token-Based Language Modeling.” arXiv preprint arXiv:2409.02841, 2024."
+      - "Hatzel, Hans Ole, Haimo Stiemer, Chris Biemann, and Evelyn Gius. “Machine Learning in Computational Literary Studies.” it-Information Technology, vol. 65, no. 4-5, 2023, pp. 200-217."
 
 
     
@@ -242,33 +261,38 @@ publications:
       - "Díaz-Sánchez, Carlos, and Diego Chapinal-Heras. “Use of Open Access AI in Teaching Classical Antiquity: A Methodological Proposal.” Journal of Classics Teaching, vol. 25, no. 49, 2024, pp. 17–21."
       - "Presotto, Marco. “Ecdótica y Humanidades Digitales en el estudio del Teatro clásico español: una experiencia.” Revista de Humanidades Digitales, vol. 8, 2023, pp. 1–13."
       - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
+      
+      
+      
+  - id: "claramonte"
+    type: "article"
+    title: "Un nuevo repertorio dramático para Andrés de Claramonte"
+    authors: ["Álvaro Cuéllar, Germán Vega García-Luengos"]
+    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
+    place:
+    year: 2023
+    volume: "XI"
+    number: "1"
+    pages: "117-172"
+    isbn:
+    url: "https://doi.org/10.13035/H.2023.11.01.09"
+    thumbnail: "/assets/images/pubs/claramonte.png"
+    abstract: "Claramonte es uno de los dramaturgos que ha experimentado una evolución más singular en la valoración crítica del teatro del Siglo de Oro. Considerado durante siglos un autor secundario, acusado de plagiar y refundir obras ajenas, en las últimas décadas ha resurgido como posible responsable de piezas fundamentales del canon aurisecular. Mediante técnicas estilométricas de eficacia comprobada, se ha analizado un corpus de 2.800 comedias con el fin de aislar su huella autoral y establecer un repertorio fiable. Los resultados permiten vincular a Claramonte con 39 comedias y 7 autos, confirmar autorías indiscutidas (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea...) y reforzar atribuciones recientes como La estrella de Sevilla o Tan largo me lo fiáis."
+    
+    cited_by:
+    
+      - "Martínez Carro, Elena. “Antonio Martínez de Meneses y Agustín Moreto: su colaboración en tres comedias. Una aproximación estilométrica.” eHumanista, vol. 61, 2025, pp. 387–398."
+      - "Sosa, Marcela Beatriz. “Umbrales y borrascas: El mar en las comedias de cautivos del siglo XVII.” Artifara, vol. 25, no. 1, 2025, pp. 483–494."
+      - "Barrocal, Jorge Ferreira. “El auto sacramental de Escarramán: Respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
+      - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Vuelta García, Salomé. “Cuentos y leyendas áureas en la configuración teatral de Pedro I de Castilla.” Figure e racconti leggendari nel teatro italo-iberico di epoca moderna (Biblioteca dell’ “Archivum Romanicum”, Serie I, Storia, letteratura, paleografia 545), 2024, pp. 103–124."
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "García-Reidy, Alejandro. “La muerte del autor atribuido en el teatro áureo.” Ínsula: Revista de Letras y Ciencias Humanas, no. 930, 2024, pp. 9–12."
+      - "Barrocal, Jorge Ferreira. “El árbol de la gracia: validación filológica de una reciente hipótesis de atribución a Claramonte y nuevos escolios.” Bulletin of Spanish Studies, vol. 101, no. 7, 2024, pp. 945–987. "
+      - "Carmona, Alba. “Los exiliados republicanos en Nueva York y la difusión del Siglo de Oro: El teatro universitario de Barnard College y de Columbia University.” Hispanic Research Journal: Iberian and Latin American Studies, vol. 24, no. 4, 2024, pp. 229–247."
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta como colaborador dramático.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 265–281."
+      - "Sosa, Marcela Beatriz, and Alejandra Herrera. Seminario: “El mito de Don Juan y sus dramaturgias desde los Siglos de Oro a nuestros días.” Programa de la carrera de Letras, Plan de estudios 2000, Universidad Nacional de Cuyo, 2023. Optativa, cuatrimestral."
+      - "Rodríguez López-Vázquez, Alfredo. “El condenado por desconfiado, atribuido a Tirso, es de Valdivielso.” Lemir: Revista de Literatura Española Medieval y del Renacimiento, vol. 27, 2023, pp. 277–292."
+      - "Valls, Teresa Ferrer, and Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
+      - "Barrocal, Jorge Ferreira. “Edición crítica de la Relación del nacimiento del nuevo infante y de la muerte de la reina nuestra señora, de Claramonte.” Dicenda: Estudios de lengua y literatura españolas, no. 41, 2023, pp. 75–97."
   
-  - id: "book03"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
-    year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
-    cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-
-  - id: "book04"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
-    year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
-    cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
