@@ -65,22 +65,22 @@ publications:
     pages:
     year: 2026
     url:
-    thumbnail: "/assets/images/pubs/blur.png"
+    thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
     
     
   - id: "Bandolero"
     type: "inpress"
-    title: "Propuestas novedosas para incrementar y depurar el repertorio dramático de Luis Vélez de Guevara"
-    authors: ["Álvaro Cuéllar", "Javier J. González Martínez", "Germán Vega García-Luengos"]
-    publication: "Revista de Literatura"
+    title: "Crece el repertorio de Calderón con El bandolero Solposto, una nueva comedia en colaboración"
+    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
+    publication: "Anuario Calderoniano"
     volume:
     number:
     pages:
-    year: 2026
+    year: 2025
     url:
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
+    thumbnail: "/assets/images/pubs/prensa.jpg"
+    abstract: "Las herramientas digitales han proporcionado los primeros indicios de que al repertorio calderoniano habría que sumarle una comedia colaborada más. Según ellos, Calderón sería el verdadero responsable de la primera jornada de El bandolero Solposto, atribuida a Cáncer, Rosete y Rojas Zorrilla en el testimonio más antiguo y de mayor relevancia textual: la edición de la Parte XXXII de Nuevas escogidas, publicada en 1669, aún en vida del dramaturgo. Tras los resultados de estilometría léxica, se ha confirmado la afinidad con sus pautas de escritura en colaboración, con sus usos métricos y, en especial —por su enorme fuerza probatoria—, con su sistema expresivo: el gran número de estilemas calderonianos detectados ponen en evidencia la autoría de ese acto inicial."
 
   - id: "FrancesaLaura"
     type: "article"
