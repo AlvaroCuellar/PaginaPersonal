@@ -70,7 +70,8 @@ publications:
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
     
-      - id: "FrancesaLaura"
+    
+  - id: "FrancesaLaura"
     type: "article"
     title: "«La francesa Laura». El hallazgo de una nueva comedia del Lope de Vega último"
     authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
