@@ -68,6 +68,7 @@ publications:
     thumbnail: "/assets/images/pubs/article01.jpg"
     abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
     cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
     
       - id: "FrancesaLaura"
     type: "article"
@@ -76,7 +77,7 @@ publications:
     publication: "Anuario Lope de Vega"
     volume:29
     number:
-    pages:131,198
+    pages:"131-198"
     year: 2026
     url:"https://revistes.uab.cat/anuariolopedevega/article/view/v29-cuellar-vega-garcia-luengos"
     thumbnail: "/assets/images/pubs/article01.jpg"
@@ -111,21 +112,6 @@ publications:
     cited_by:
       - "Referencia completa de una publicación que ha citado este artículo."
       - "Referencia completa de una publicación que ha citado este artículo."
-  - id: "book01"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
-    year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
-    cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-
   - id: "book02"
     type: "book"
     title: "Título del capítulo de un libro"
@@ -142,6 +128,21 @@ publications:
       - "Referencia completa de una publicación que ha citado este artículo."
 
   - id: "book03"
+    type: "book"
+    title: "Título del capítulo de un libro"
+    authors: ["Nombre Apellido"]
+    publisher: "Editorial"
+    place: "Ciudad"
+    year: 2023
+    isbn: "xxx-xx-xxxx-xxx-x"
+    url: "https://www.editorial.es/fichalibro.php?P1=234567"
+    thumbnail: "/assets/images/pubs/article01.jpg"
+    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
+    cited_by:
+      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Referencia completa de una publicación que ha citado este artículo."
+
+  - id: "book04"
     type: "book"
     title: "Título del capítulo de un libro"
     authors: ["Nombre Apellido"]
