@@ -129,20 +129,19 @@ publications:
       - "Ferreira Barrocal, Jorge. “Estudio de una comedia anónima del Siglo de Oro sepultada en el olvido: La luna de Florencia.” Bulletin Hispanique, vol. 126, no. 2, 2023, pp. 321–352."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
 
-  - id: "book01"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
-    year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
+  - id: "writersonia"
+    type: "article"
+    title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
+    authors: ["Álvaro Cuéllar, Sònia Boadas"]
+    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
+    place:
+    year: 2025
+    isbn:
+    url: "https://doi.org/10.13035/H.2025.13.01.36"
+    thumbnail: "/assets/images/pubs/writersonia.png"
+    abstract: "Este trabajo propone una vía computacional para detectar la huella caligráfica de un escriba en amplios conjuntos documentales. El sistema aprovecha técnicas de HTR (Handwritten Text Recognition), habitualmente empleadas para la transcripción automática, aplicadas aquí a la identificación de manos autorales. En un experimento de control con la escritura autógrafa de Lope de Vega y la plataforma Transkribus, el modelo —entrenado con más de doscientas manos distintas— logró reconocer la de Lope en documentos externos con tasas de exactitud, precisión, recall y F1 cercanas a 0.95–1.00. Estos resultados abren nuevas vías para entrenar modelos dedicados a autores, copistas o censores y explorar los fondos documentales en busca de testimonios inéditos de gran valor histórico y literario."
     cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
+
   - id: "book02"
     type: "book"
     title: "Título del capítulo de un libro"
