@@ -54,7 +54,25 @@ featured_ids:
   - "book01"
   - "book01"
 
+
+
 publications:
+
+
+  - id: "redesneuronales"
+    type: "inpress"
+    title: "Redes neuronales convolucionales al servicio del teatro áureo"
+    authors: ["Álvaro Cuéllar"]
+    publication: "XXXIV SELITEN@T: Literatura, Teatro e Inteligencia Artificial"
+    volume:
+    number:
+    pages:
+    year: 2025
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El vasto corpus manuscrito e impreso del teatro del Siglo de Oro plantea retos filológicos difíciles de abordar desde métodos tradicionales. Las redes neuronales convolucionales (CNN) ofrecen soluciones eficaces al permitir la transcripción automática de imágenes en texto y la identificación de manos autorales mediante patrones caligráficos. Además, la generación de escritura sintética amplía los datos disponibles y refuerza el entrenamiento de los modelos, consolidando el papel de la inteligencia artificial en la investigación filológica."
+    
+    
   - id: "PropuestasVelez"
     type: "inpress"
     title: "Propuestas novedosas para incrementar y depurar el repertorio dramático de Luis Vélez de Guevara"
