@@ -51,7 +51,7 @@ url_slug:
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
   - "FrancesaLaura"
-  - "PropuestasVelez"
+  - "book01"
   - "book01"
 
 publications:
