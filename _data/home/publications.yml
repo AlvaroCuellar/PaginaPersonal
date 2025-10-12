@@ -50,7 +50,7 @@ url_slug:
 
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
-  - "FrancesaLaura"
+  - "book"
   - "book01"
   - "book01"
 
@@ -100,6 +100,93 @@ publications:
     thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "Las herramientas digitales apuntan a que el repertorio calderoniano debe ampliarse con una nueva comedia en colaboración. Los análisis atribuyen a Calderón la primera jornada de El bandolero Solposto, incluida bajo los nombres de Cáncer, Rosete y Rojas Zorrilla en la Parte XXXII de Nuevas escogidas (1669), publicada aún en vida del dramaturgo. Los resultados de estilometría léxica y métrica confirman la afinidad con sus pautas de escritura en colaboración y, sobre todo, con su sistema expresivo: el elevado número de estilemas calderonianos detectados evidencia su autoría en ese acto inicial."
 
+  - id: "writersonia"
+    type: "article"
+    title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
+    authors: ["Álvaro Cuéllar, Sònia Boadas"]
+    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
+    place:
+    year: 2025
+    volume: "XIII"
+    number: "1"
+    pages: "517-532"
+    isbn:
+    url: "https://doi.org/10.13035/H.2025.13.01.36"
+    thumbnail: "/assets/images/pubs/writersonia.png"
+    abstract: "Este trabajo propone una vía computacional para detectar la huella caligráfica de un escriba en amplios conjuntos documentales. El sistema aprovecha técnicas de HTR (Handwritten Text Recognition), habitualmente empleadas para la transcripción automática, aplicadas aquí a la identificación de manos autorales. En un experimento de control con la escritura autógrafa de Lope de Vega y la plataforma Transkribus, el modelo —entrenado con más de doscientas manos distintas— logró reconocer la de Lope en documentos externos con tasas de exactitud, precisión, recall y F1 cercanas a 0.95–1.00. Estos resultados abren nuevas vías para entrenar modelos dedicados a autores, copistas o censores y explorar los fondos documentales en busca de testimonios inéditos de gran valor histórico y literario."
+    cited_by:
+
+
+  - id: "stylo100"
+    type: "incollection"
+    title: "Stylometry and Spanish Golden Age Theatre: An Evaluation of Authorship Attribution in a Control Group of Undisputed Plays"
+    authors: ["Álvaro Cuéllar"]
+    publisher: "Heidelberg University Publishing"
+    place: "Heidelberg"
+    volume: "Digital Stylistics in Romance Studies and Beyond"
+    year: 2024
+    isbn:
+    url: "https://doi.org/10.17885/heiup.1157.c19368"
+    pages: "101-117"
+    thumbnail: "/assets/images/pubs/stylo100.png"
+    abstract: "El objetivo de este estudio es evaluar un conjunto de cien comedias del Siglo de Oro español de autoría indiscutida mediante el paquete stylo de R, herramienta de análisis estilométrico desarrollada por Eder, Rybicki y Kestemont (2016). El trabajo analiza qué configuraciones —algoritmos, número de palabras más frecuentes (MFW), porcentaje de culling y uso de n-gramas léxicos— ofrecen mejores resultados en la clasificación autoral. Asimismo, se examina la extensión mínima del texto a partir de la cual la estilometría se convierte en una herramienta diagnóstica eficaz para la atribución de autoría en este corpus. Esta evaluación mediante validación cruzada ofrece un marco de referencia para futuros estudios y demuestra el potencial de la estilometría aplicada al teatro del Siglo de Oro, ámbito en el que abundan los casos de autoría dudosa."
+    cited_by:
+      - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
+      - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
+      - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "Giovannini, Luca, and Daniil Skorinkin. “Computational Approaches to Opera Libretti.” Journal of Computational Literary Studies, vol. 3, no. 1, 2024, pp. 1–23."
+      - "Vega García-Luengos, Germán. “Lope de Vega y la comedia en colaboración. Un replanteamiento novedoso.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 105–142."
+      - "Veloso, María José Alonso. “La zurriaga: unas «octavas seriojocosas» atribuidas a Quevedo.” Mélanges de la Casa de Velázquez, no. 54-1, 2024, pp. 233–274."
+      - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega, vol. 29, 2023, pp. 469–544."
+      - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” A la sombra de las luces: Homenaje a Fernando Doménech, 2022, pp. 65–79."
+      - "Vega García-Luengos, Germán. “La subida al trono de Felipe IV en una comedia de 1621: viejos métodos y recursos últimos para esclarecer atribuciones en el teatro aurisecular.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 39–58."
+      - "Martínez Carro, Elena. “«David perseguido y montes de Gelboé»: novedades estilométricas ante una atribución dudosa.” Anuario Lope de Vega: Texto, literatura, cultura, vol. 28, 2022, pp. 401–422."
+      - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
+      - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
+      - "Vega García-Luengos, Germán. “Las comedias de Lope de Vega: confirmaciones de autoría y nuevas atribuciones desde la estilometría (I).” Talía. Revista de Estudios Teatrales, vol. 3, 2021, pp. 91–108."
+      - "Demattè, Claudia. “El segundo tomo de comedias de Juan Pérez de Montalbán: hacia un mapa estilométrico de las comedias auténticas, dudosas y ajenas.” Talía, vol. 3, 2021, pp. 71–78."
+      - "Martínez Carro, Elena. “Límites estilométricos en una miscelánea áurea: «Favores de las musas» de Sebastián Francisco de Medrano.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 9, no. 1, 2021, pp. 159–174."
+      - "Martínez Carro, Elena. “Hacia un corpus lingüístico del gracioso moretiano en las comedias palatinas.” Anuario Calderoniano, vol. 14, 2021, pp. 245–270."
+      - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
+      - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
+
+
+
+    
+  - id: "transcri"
+    type: "article"
+    title: "La Inteligencia Artificial al rescate del Siglo de Oro: transcripción y modernización automática de mil trescientos impresos y manuscritos teatrales"
+    authors: ["Álvaro Cuéllar"]
+    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
+    place:
+    year: 2023
+    volume: "XI"
+    number: "1"
+    pages: "101-115"
+    isbn:
+    url: "https://doi.org/10.13035/H.2023.11.01.08"
+    thumbnail: "/assets/images/pubs/transcri.png"
+    abstract: "Una gran parte de los impresos y manuscritos teatrales del Siglo de Oro sigue sin transcribirse en formato digital, lo que impide su uso en búsquedas o análisis computacionales como la estilometría o el topic modelling. Mediante inteligencia artificial (Transkribus) y técnicas de HTR he entrenado tres modelos —ya públicos— capaces de transcribir y modernizar estos textos con alta precisión (≈97 % en impresos y 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras procedentes de diversas bibliotecas y archivos. Las transcripciones, integradas en el proyecto ETSO y el buscador TEXORO, ofrecen una base sólida tanto para la edición filológica como para nuevos estudios estilométricos de atribución."
+    cited_by:
+    
+      - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Murrieta-Flores, Patricia, et al. “Unlocking Colonial Records with Artificial Intelligence: Achieving the Automated Transcription of Large-Scale 16th and 17th-Century Latin American Historical Collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828. "
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "Boadas, Sònia. “Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023).” Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024."
+      - "Spennemann, Dirk H. R. “Will Artificial Intelligence Affect How Cultural Heritage Will Be Managed in the Future? Responses Generated by Four genAI Models.” Heritage, vol. 7, no. 3, 2024, pp. 1453-1471."
+      - "Castro, Antonio Rojas, and Grisel Terrón Quintero. “Nuevos retos en torno a la edición digital en la Oficina del Historiador.” Archivos Abiertos, 2024, pp. 101–120."
+      - "Vega García-Luengos, Germán. “Lope de Vega y la comedia en colaboración. Un replanteamiento novedoso.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 105–142."
+      - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
+      - "Morata, Isabel Hernando. “Notas sobre la primera jornada del manuscrito de Troya abrasada de Calderón (¿y Rojas Zorrilla?) Res. 78 de la BNE.” Bulletin Hispanique, vol. 126, no. 1, 2024, pp. 107-128. "
+      - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
+      - "Khan, Arsh, et al. “OCR Approaches for Humanities: Applications of Artificial Intelligence/Machine Learning on Transcription and Transliteration of Historical Documents.” Digital Studies in Language and Literature, vol. 1, no. 1-2, 2024, pp. 85-112."
+      - "Brioso Santos, Héctor. “«El caballero», comedia famosa… ¿de don Agustín Moreto?” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 2, 2023, pp. 469–485."
+      - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
+
+
+
+
   - id: "FrancesaLaura"
     type: "article"
     title: "«La francesa Laura». El hallazgo de una nueva comedia del Lope de Vega último"
@@ -128,35 +215,34 @@ publications:
       - "Ruiz Urbón, Cristina. “Nuevas pruebas estilométricas para negar la autoría cervantina del Entremés de los romances.” Studia Aurea, vol. 17, 2023, pp. 545–583."
       - "Ferreira Barrocal, Jorge. “Estudio de una comedia anónima del Siglo de Oro sepultada en el olvido: La luna de Florencia.” Bulletin Hispanique, vol. 126, no. 2, 2023, pp. 321–352."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
-
-  - id: "writersonia"
+      
+      
+  - id: "crono"
     type: "article"
-    title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
-    authors: ["Álvaro Cuéllar, Sònia Boadas"]
-    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
-    place:
-    year: 2025
-    isbn:
-    url: "https://doi.org/10.13035/H.2025.13.01.36"
-    thumbnail: "/assets/images/pubs/writersonia.png"
-    abstract: "Este trabajo propone una vía computacional para detectar la huella caligráfica de un escriba en amplios conjuntos documentales. El sistema aprovecha técnicas de HTR (Handwritten Text Recognition), habitualmente empleadas para la transcripción automática, aplicadas aquí a la identificación de manos autorales. En un experimento de control con la escritura autógrafa de Lope de Vega y la plataforma Transkribus, el modelo —entrenado con más de doscientas manos distintas— logró reconocer la de Lope en documentos externos con tasas de exactitud, precisión, recall y F1 cercanas a 0.95–1.00. Estos resultados abren nuevas vías para entrenar modelos dedicados a autores, copistas o censores y explorar los fondos documentales en busca de testimonios inéditos de gran valor histórico y literario."
-    cited_by:
-
-  - id: "book02"
-    type: "book"
-    title: "Título del capítulo de un libro"
-    authors: ["Nombre Apellido"]
-    publisher: "Editorial"
-    place: "Ciudad"
+    title: "«Cronología y estilometría: datación automática de comedias de Lope de Vega"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Anuario Lope de Vega"
+    volume: "XXIX"
+    number:
+    pages: "97-130"
     year: 2023
-    isbn: "xxx-xx-xxxx-xxx-x"
-    url: "https://www.editorial.es/fichalibro.php?P1=234567"
-    thumbnail: "/assets/images/pubs/article01.jpg"
-    abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis magna nec lorem interdum molestie. Etiam feugiat velit euismod, elementum dolor ut, pulvinar eros. Proin in magna nunc. Curabitur convallis, odio nec vestibulum vulputate, diam neque cursus arcu, ut consequat libero purus non sem."
+    url: "https://doi.org/10.5565/rev/anuariolopedevega.483"
+    thumbnail: "/assets/images/pubs/crono.png"
+    abstract: "La datación de las comedias del Siglo de Oro plantea numerosos interrogantes aún sin resolver. La estilometría —técnica computacional que compara textos según sus rasgos de escritura—, aplicada con éxito a problemas de autoría, puede emplearse también para estimar la fecha de composición. Este trabajo ofrece un primer acercamiento mediante el análisis estilométrico de autógrafos de Lope de Vega con datación segura, utilizando palabras, lemas y categorías gramaticales. Los resultados revelan una correlación entre estilo y cronología, con un error absoluto medio de ±5 años. La aplicación posterior a un corpus más amplio de comedias de datación aproximada mantiene resultados positivos, con un margen medio de error de ±4 años."
     cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
-      - "Referencia completa de una publicación que ha citado este artículo."
-
+      - "Ruiz Urbon, Cristina. “Aplicación de la lingüística forense a los estudios de atribución de autoría literaria: principios teóricos, metodológicos y conclusivos.” Signa: Revista de la Asociación Española de Semiótica, no. 34, 2025, pp. 543–568."
+      - "Azofra Sierra, María Elena. “Cartas y 'pensamientos' en la prensa del siglo XVIII: La pensadora gaditana.” Anuari de Filologia. Estudis de Lingüística, vol. 15, 2025, pp. 1–24."
+      - "Belmonte Bermúdez, Luis. El ollero de Ocaña. Ed. C. George Peale. Comedias del Siglo de Oro, Textos y Estudios, no. 76, Universidad de California, Santa Bárbara / eHumanista, 2024."
+      - "Calderón de la Barca, Pedro, y Paula Casariego Castiñeira, eds. Las armas de la hermosura. Iberoamericana / Vervuert, 2024, 252 pp. "
+      - "Vaiopoulos, Katerina. “De Las Batuecas del duque de Alba, de Lope de Vega, al Nuevo mundo en Castilla, de Juan de Matos Fragoso: tras los pasos de un proceso de refundición.” Es la amistad el bien mayor humano: homenaje a Luciana Gentilli (Biblioteca Filológica Hispana; 296), 2024, pp. 97–114."
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "Resta, Ilaria. “Sobre la composición de «La manganilla de Melilla»: una propuesta de datación.” Edad de Oro, vol. 43, 2024, pp. 113–126."
+      - "González Pascual, Guillermo. Estudio de los apócrifos de Antonio Machado con herramientas de la estilística de corpus y la estilometría. Tesis doctoral, Universidad de Valladolid, 2024."
+      - "Sánchez-Ferrer, Guillermo Gómez. “La construcción de la comedia de enredo de Juan Ruiz de Alarcón: a propósito de El desdichado en fingir.” Atalanta. Revista de las Letras Barrocas, vol. 12, no. 2, 2024, pp. 66–93."
+      - "Díaz-Sánchez, Carlos, and Diego Chapinal-Heras. “Use of Open Access AI in Teaching Classical Antiquity: A Methodological Proposal.” Journal of Classics Teaching, vol. 25, no. 49, 2024, pp. 17–21."
+      - "Presotto, Marco. “Ecdótica y Humanidades Digitales en el estudio del Teatro clásico español: una experiencia.” Revista de Humanidades Digitales, vol. 8, 2023, pp. 1–13."
+      - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
+  
   - id: "book03"
     type: "book"
     title: "Título del capítulo de un libro"
