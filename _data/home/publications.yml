@@ -65,10 +65,22 @@ publications:
     pages:
     year: 2026
     url:
+    thumbnail: "/assets/images/pubs/blur.png"
+    abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
+    
+    
+  - id: "Bandolero"
+    type: "inpress"
+    title: "Propuestas novedosas para incrementar y depurar el repertorio dramático de Luis Vélez de Guevara"
+    authors: ["Álvaro Cuéllar", "Javier J. González Martínez", "Germán Vega García-Luengos"]
+    publication: "Revista de Literatura"
+    volume:
+    number:
+    pages:
+    year: 2026
+    url:
     thumbnail: "/assets/images/pubs/article01.jpg"
     abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
-    cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
 
   - id: "FrancesaLaura"
     type: "article"
