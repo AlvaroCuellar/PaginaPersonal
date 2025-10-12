@@ -78,12 +78,25 @@ publications:
     volume: "XXIX"
     number:
     pages: "131-198"
-    year: 2026
+    year: 2023
     url: "https://revistes.uab.cat/anuariolopedevega/article/view/v29-cuellar-vega-garcia-luengos"
     thumbnail: "/assets/images/pubs/article01.jpg"
     abstract: "El trabajo propone que se considere la inclusión en el repertorio de Lope de La francesa Laura, una comedia conservada en un manuscrito anónimo de la BNE, nunca antes relacionada con el dramaturgo. La investigación se inició a la vista de los resultados de su procesamiento en las plataformas Transkribus y ETSO, que señalaban la estrecha relación de sus usos léxicos con los de las obras auténticas del Fénix. A estos datos iniciales, significativos también para situarla en la última fase de su larga trayectoria, se han añadido los resultantes de los distintos análisis que la filología ha propuesto a lo largo del tiempo para la averiguación de autorías en el teatro del Siglo de Oro, tan necesitado de estas aclaraciones: bibliografía material, contexto histórico,  onomatología, versificación, ortología, intertextualidad. De ninguno de los aspectos examinados se deriva inconveniente serio alguno para no dar por buena la hipótesis de salida y sí fuertes apoyos para elevarla a tesis. Estaríamos, pues, ante una demostración más del importante apoyo que los recursos informáticos pueden prestar a los estudios del teatro aurisecular."
     cited_by:
-      - "Referencia completa de una publicación que ha citado este artículo."
+      - "Martínez Carro, Elena. “Antonio Martínez de Meneses y Agustín Moreto: su colaboración en tres comedias. Una aproximación estilométrica.” eHumanista, vol. 61, 2025, pp. 387–398."
+      - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Hernández-Lorenzo, Laura. “Los sonetos de autoría femenina en el Siglo de Oro: aproximación estilométrica.” Castilla. Estudios de Literatura, vol. 16, 2025, pp. 175–198."
+      - "Ruiz Urbón, Cristina. “Hipótesis de autoría basadas en la distancia delta: los entremeses atribuidos a Cervantes.” Ínsula: Revista de Letras y Ciencias Humanas, no. 930, 2024, pp. 26–32."
+      - "Martínez Cantón, Clara Isabel, y Rocío Ortuño Casanova. “¿Qué son las humanidades digitales y qué pintan en el aula de literatura en español?” Las humanidades digitales en la enseñanza de las literaturas hispánicas: aplicaciones prácticas, editado por Clara I. Martínez Cantón, Rocío Ortuño Casanova y Antonio Huertas Morales, Peter Lang, 2024, pp. 9-22."
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” Digital Humanities Quarterly, vol. 3, 2024."
+      - "Marco Remón, Guillermo, and Pablo Núñez Díaz. “Atribución de autoría de traducciones mediante análisis estilométricos: Los Cantos de Leopardi por Antonio Colinas y Eloy Sánchez Rosillo.” Symposium: A Quarterly Journal in Modern Literatures, vol. 78, no. 2, Routledge, 2024."
+      - "Romero López, María Dolores, María Jesús Fraga Fernández-Cuevas, and José Calvo Tello. “Autoría e identidad de género: Perspectivas cruzadas a propósito de «El pensionado de Santa Casilda».” 2024."
+      - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
+      - "Díaz-Sánchez, Carlos, and Diego Chapinal-Heras. “Use of Open Access AI in Teaching Classical Antiquity: A Methodological Proposal.” Journal of Classics Teaching, vol. 25, no. 49, 2024, pp. 17–21."
+      - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
+      - "Ruiz Urbón, Cristina. “Nuevas pruebas estilométricas para negar la autoría cervantina del Entremés de los romances.” Studia Aurea, vol. 17, 2023, pp. 545–583."
+      - "Ferreira Barrocal, Jorge. “Estudio de una comedia anónima del Siglo de Oro sepultada en el olvido: La luna de Florencia.” Bulletin Hispanique, vol. 126, no. 2, 2023, pp. 321–352."
+      - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
 
   - id: "book01"
     type: "book"
