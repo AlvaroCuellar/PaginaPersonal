@@ -44,7 +44,7 @@ featured_ids:
 items:
   - id: "outreach-1"
     title:
-      es: "Título del artículo destacado"
+      es: "Informe Semanal: Lo que esconde Lope"
       en: "Featured Article Title"
     type: "article"
     medium: "Blog de ejemplo"
@@ -56,7 +56,7 @@ items:
   
   - id: "outreach-2"
     title:
-      es: "Título del segundo artículo"
+      es: "Entrevista en la BBC"
       en: "Second Article Title"
     type: "tv"
     medium: "Programa de televisión de ejemplo"
@@ -68,7 +68,7 @@ items:
   
   - id: "outreach-3"
     title:
-      es: "Título del tercer artículo"
+      es: "La sexta Columna"
       en: "Third Article Title"
     type: "article"
     medium: "Entrevista de ejemplo"
@@ -78,7 +78,7 @@ items:
       en: "Description of the third article in English."
     url: "https://example.com/third-article"
   
-  - id: "outreach-4"
+  - id: "La pluma"
     title:
       es: "Título del cuarto artículo"
       en: "Fourth Article Title"
