@@ -41,23 +41,23 @@ url_slug:
   en: "talks"
 
 featured_ids:
-  - "id01"
+  - "juancarloss"
   - "id02"
   - "id04"
   - "id05"
   - "id06"
 
 talks:
-  - id: "id01"
-    type: "invited"
-    date: "2025-05-29"
-    date_end: "2025-05-30"
-    title: "Título de la comunicación destacada Título de la comunicación destacada destacada"
-    event: "Nombre del evento académico lorem ipsum dolor sit amet"
-    institution: "Universidad de algún sitio"
+  - id: "juancarlos"
+    type: "Conferencia plenaria"
+    date: "2026-02-04"
+    date_end:
+    title: "Lope sintético: generación artificial de letra manuscrita para la investigación filológica."
+    event: "MOTIV-ARTE VII. Humanidades e Inteligencia Artificial. De la investigación a la enseñanza y la divulgación"
+    institution: "Universidad Rey Juan Carlos"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
+      es: "Madrid, España"
+      en: "Madrid, Spain"
   - id: "id02"
     type: "invited"
     date: "2025-02-26"

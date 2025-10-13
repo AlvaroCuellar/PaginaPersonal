@@ -70,7 +70,7 @@ publications:
     year: 2025
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El vasto corpus manuscrito e impreso del teatro del Siglo de Oro plantea retos filológicos difíciles de abordar desde métodos tradicionales. Las redes neuronales convolucionales (CNN) ofrecen soluciones eficaces al permitir la transcripción automática de imágenes en texto y la identificación de manos autorales mediante patrones caligráficos. Además, la generación de escritura sintética amplía los datos disponibles y refuerza el entrenamiento de los modelos, consolidando el papel de la inteligencia artificial en la investigación filológica."
+    abstract: "Las redes neuronales convolucionales permiten transcribir automáticamente manuscritos del Siglo de Oro y reconocer manos autorales por sus rasgos caligráficos. La escritura sintética amplía los datos y mejora el entrenamiento, consolidando el papel de la inteligencia artificial en la investigación filológica."
     
     
   - id: "PropuestasVelez"
@@ -98,7 +98,7 @@ publications:
     year: 2025
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "Las herramientas digitales apuntan a que el repertorio calderoniano debe ampliarse con una nueva comedia en colaboración. Los análisis atribuyen a Calderón la primera jornada de El bandolero Solposto, incluida bajo los nombres de Cáncer, Rosete y Rojas Zorrilla en la Parte XXXII de Nuevas escogidas (1669), publicada aún en vida del dramaturgo. Los resultados de estilometría léxica y métrica confirman la afinidad con sus pautas de escritura en colaboración y, sobre todo, con su sistema expresivo: el elevado número de estilemas calderonianos detectados evidencia su autoría en ese acto inicial."
+    abstract: "Las herramientas digitales revelan una nueva comedia colaborada que amplía el repertorio de Calderón. La primera jornada de El bandolero Solposto, atribuida a Cáncer, Rosete y Rojas Zorrilla en 1669, muestra una marcada huella calderoniana. La estilometría léxica confirma su autoría, además de la alta concentración de estilemas característicos del dramaturgo"
 
   - id: "writersonia"
     type: "article"
@@ -113,9 +113,25 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2025.13.01.36"
     thumbnail: "/assets/images/pubs/writersonia.png"
-    abstract: "Este trabajo propone una vía computacional para detectar la huella caligráfica de un escriba en amplios conjuntos documentales. El sistema aprovecha técnicas de HTR (Handwritten Text Recognition), habitualmente empleadas para la transcripción automática, aplicadas aquí a la identificación de manos autorales. En un experimento de control con la escritura autógrafa de Lope de Vega y la plataforma Transkribus, el modelo —entrenado con más de doscientas manos distintas— logró reconocer la de Lope en documentos externos con tasas de exactitud, precisión, recall y F1 cercanas a 0.95–1.00. Estos resultados abren nuevas vías para entrenar modelos dedicados a autores, copistas o censores y explorar los fondos documentales en busca de testimonios inéditos de gran valor histórico y literario."
+    abstract: "Se presenta una vía computacional para detectar la huella caligráfica de un escriba en grandes conjuntos documentales mediante técnicas de HTR aplicadas a la identificación de manos autorales. En un experimento con la escritura autógrafa de Lope de Vega, el modelo alcanzó métricas cercanas a 0.95–1.00, demostrando su potencial para reconocer autores, copistas o censores y descubrir testimonios inéditos de alto valor histórico y literario."
     cited_by:
 
+
+  - id: "writervalencia"
+    type: "incollection"
+    title: "Writer Identification Using Simplified Handwritten Text Recognition Models"
+    authors: ["Alejandro H.Toselli", "Álvaro Cuéllar", "Sònia Boadas", "Enrique Vidal", "Joan Andreu Sánchez"]
+    publisher: "Pattern Recognition and Image Analysis. IbPRIA"
+    place:
+    year: 2025
+    volume: "15937"
+    number:
+    pages: "254-267"
+    isbn:
+    url: "https://doi.org/10.1007/978-3-031-99565-1_20"
+    thumbnail: "/assets/images/pubs/writervalencia.png"
+    abstract: "En este artículo se presenta un enfoque automático de identificación de escribas que combina redes neuronales profundas convolucionales y recurrentes con modelos de lenguaje n-grama en un marco probabilístico de clasificación. Los experimentos preliminares muestran la eficacia del método para distinguir entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+    cited_by:
 
   - id: "stylo100"
     type: "incollection"
@@ -129,7 +145,7 @@ publications:
     url: "https://doi.org/10.17885/heiup.1157.c19368"
     pages: "101-117"
     thumbnail: "/assets/images/pubs/stylo100.png"
-    abstract: "El objetivo de este estudio es evaluar un conjunto de cien comedias del Siglo de Oro español de autoría indiscutida mediante el paquete stylo de R, herramienta de análisis estilométrico desarrollada por Eder, Rybicki y Kestemont (2016). El trabajo analiza qué configuraciones —algoritmos, número de palabras más frecuentes (MFW), porcentaje de culling y uso de n-gramas léxicos— ofrecen mejores resultados en la clasificación autoral. Asimismo, se examina la extensión mínima del texto a partir de la cual la estilometría se convierte en una herramienta diagnóstica eficaz para la atribución de autoría en este corpus. Esta evaluación mediante validación cruzada ofrece un marco de referencia para futuros estudios y demuestra el potencial de la estilometría aplicada al teatro del Siglo de Oro, ámbito en el que abundan los casos de autoría dudosa."
+    abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
     cited_by:
       - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
       - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
@@ -164,7 +180,7 @@ publications:
     isbn:
     url: "https://doi.org/10.5565/rev/anuariolopedevega.530"
     thumbnail: "/assets/images/pubs/modernisa.jpg"
-    abstract: "La aplicación de métodos computacionales al estudio del Siglo de Oro ha puesto de relieve la necesidad de automatizar la modernización textual para facilitar la comparación y el análisis. Este trabajo presenta el primer uso de técnicas de Procesamiento del Lenguaje Natural (PLN) para adaptar textos auriseculares (ca. 1590–1680) a un español moderno normalizado (RAE 2010). Mediante modelos basados en transformadores entrenados sobre un corpus de comedias, se logra un desempeño prometedor en la resolución de marcas tipográficas y dependencias contextuales, aunque con dificultades en nombres propios y variantes ortográficas. Evaluada con métricas estándar, la herramienta muestra gran potencial como recurso para filólogos e investigadores en humanidades digitales, pese a limitaciones derivadas del corpus y de ciertas inconsistencias ortográficas. Este estudio ofrece una vía automatizada y escalable para la modernización de textos del Siglo de Oro."
+    abstract: "Se presenta el primer uso de técnicas de PLN para modernizar automáticamente textos del Siglo de Oro (ca. 1590–1680) hacia un español normalizado (RAE 2010). Mediante modelos transformadores entrenados con comedias, se obtiene un buen desempeño en dependencias contextuales y signos tipográficos, con limitaciones en nombres propios y variantes ortográficas. La herramienta demuestra un alto potencial para la filología y las humanidades digitales."
     cited_by:
     
       - "Bengoetxea, Jaione, Itziar Gonzalez-Dios, and Rodrigo Agerri. “Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants.” arXiv preprint arXiv:2506.15239, 2025."
@@ -186,7 +202,7 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2023.11.01.08"
     thumbnail: "/assets/images/pubs/transcri.png"
-    abstract: "Una gran parte de los impresos y manuscritos teatrales del Siglo de Oro sigue sin transcribirse en formato digital, lo que impide su uso en búsquedas o análisis computacionales como la estilometría o el topic modelling. Mediante inteligencia artificial (Transkribus) y técnicas de HTR he entrenado tres modelos —ya públicos— capaces de transcribir y modernizar estos textos con alta precisión (≈97 % en impresos y 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras procedentes de diversas bibliotecas y archivos. Las transcripciones, integradas en el proyecto ETSO y el buscador TEXORO, ofrecen una base sólida tanto para la edición filológica como para nuevos estudios estilométricos de atribución."
+    abstract: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
     cited_by:
     
       - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
@@ -217,7 +233,7 @@ publications:
     year: 2023
     url: "https://revistes.uab.cat/anuariolopedevega/article/view/v29-cuellar-vega-garcia-luengos"
     thumbnail: "/assets/images/pubs/francesalaura.png"
-    abstract: "El trabajo propone incorporar La francesa Laura al repertorio de Lope de Vega. Conservada en un manuscrito anónimo de la BNE, la comedia nunca había sido relacionada con el dramaturgo. Los análisis realizados con Transkribus y ETSO revelan una marcada afinidad léxica con las obras auténticas del Fénix, especialmente de su última etapa. A estos resultados se suman los obtenidos mediante métodos filológicos tradicionales —bibliografía material, contexto histórico, onomatología, versificación y ortología—, todos ellos coherentes con la autoría propuesta. La investigación constituye una nueva demostración del valor de las herramientas digitales para los estudios del teatro aurisecular."
+    abstract: "Se propone incorporar La francesa Laura al repertorio de Lope de Vega a partir de un manuscrito anónimo de la BNE. Los análisis con Transkribus y ETSO muestran una clara afinidad léxica con las obras del Fénix, reforzada por evidencias filológicas, métricas e históricas. El estudio confirma el potencial de las herramientas digitales para la investigación del teatro aurisecular."
     cited_by:
       - "Ferreira Barrocal, Jorge. “El auto sacramental de Escarramán: respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
       - "Martínez Carro, Elena. “Antonio Martínez de Meneses y Agustín Moreto: su colaboración en tres comedias. Una aproximación estilométrica.” eHumanista, vol. 61, 2025, pp. 387–398."
@@ -247,7 +263,7 @@ publications:
     year: 2023
     url: "https://doi.org/10.5565/rev/anuariolopedevega.483"
     thumbnail: "/assets/images/pubs/crono.png"
-    abstract: "La datación de las comedias del Siglo de Oro plantea numerosos interrogantes aún sin resolver. La estilometría —técnica computacional que compara textos según sus rasgos de escritura—, aplicada con éxito a problemas de autoría, puede emplearse también para estimar la fecha de composición. Este trabajo ofrece un primer acercamiento mediante el análisis estilométrico de autógrafos de Lope de Vega con datación segura, utilizando palabras, lemas y categorías gramaticales. Los resultados revelan una correlación entre estilo y cronología, con un error absoluto medio de ±5 años. La aplicación posterior a un corpus más amplio de comedias de datación aproximada mantiene resultados positivos, con un margen medio de error de ±4 años."
+    abstract: "Se aplica la estilometría a la datación de comedias del Siglo de Oro, empleando autógrafos de Lope de Vega con fecha conocida. El análisis de palabras, lemas y categorías gramaticales muestra una correlación entre estilo y cronología, con un error medio de ±5 años, reducido a ±4 en un corpus más amplio, lo que confirma el potencial de esta técnica para estimar fechas de composición."
     cited_by:
       - "Ruiz Urbon, Cristina. “Aplicación de la lingüística forense a los estudios de atribución de autoría literaria: principios teóricos, metodológicos y conclusivos.” Signa: Revista de la Asociación Española de Semiótica, no. 34, 2025, pp. 543–568."
       - "Azofra Sierra, María Elena. “Cartas y 'pensamientos' en la prensa del siglo XVIII: La pensadora gaditana.” Anuari de Filologia. Estudis de Lingüística, vol. 15, 2025, pp. 1–24."
@@ -277,7 +293,7 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2023.11.01.09"
     thumbnail: "/assets/images/pubs/claramonte.png"
-    abstract: "Claramonte es uno de los dramaturgos que ha experimentado una evolución más singular en la valoración crítica del teatro del Siglo de Oro. Considerado durante siglos un autor secundario, acusado de plagiar y refundir obras ajenas, en las últimas décadas ha resurgido como posible responsable de piezas fundamentales del canon aurisecular. Mediante técnicas estilométricas de eficacia comprobada, se ha analizado un corpus de 2.800 comedias con el fin de aislar su huella autoral y establecer un repertorio fiable. Los resultados permiten vincular a Claramonte con 39 comedias y 7 autos, confirmar autorías indiscutidas (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea...) y reforzar atribuciones recientes como La estrella de Sevilla o Tan largo me lo fiáis."
+    abstract: "Se analizan 2.800 comedias del Siglo de Oro mediante técnicas estilométricas para aislar la huella autoral de Claramonte y definir un repertorio fiable. Los resultados vinculan al dramaturgo con 39 comedias y 7 autos, confirman autorías seguras (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea…) y respaldan atribuciones recientes como La estrella de Sevilla o Tan largo me lo fiáis."
     
     cited_by:
     
@@ -296,3 +312,32 @@ publications:
       - "Valls, Teresa Ferrer, and Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
       - "Barrocal, Jorge Ferreira. “Edición crítica de la Relación del nacimiento del nuevo infante y de la muerte de la reina nuestra señora, de Claramonte.” Dicenda: Estudios de lengua y literatura españolas, no. 41, 2023, pp. 75–97."
   
+
+
+  - id: "discernir"
+    type: "article"
+    title: "Discernir entre original y refundición en el teatro del Siglo de Oro a través de la estilometría: el caso de El mejor amigo, el muerto"
+    authors: ["Miguel Campión Larumbe", "Álvaro Cuéllar"]
+    publisher: "Talía. Revista de estudios teatrales"
+    place:
+    year: 2021
+    volume: "3"
+    number:
+    pages: "56-69"
+    isbn:
+    url: "https://doi.org/10.5209/tret.74021"
+    thumbnail: "/assets/images/pubs/discernir.png"
+    abstract: "Se aplica un protocolo estilométrico para distinguir entre original y refundición en El mejor amigo, el muerto, obra transmitida en dos versiones. El análisis sugiere que la versión manuscrita atribuida a Belmonte, Rojas y Calderón corresponde al texto original y que la segunda jornada fue escrita por Francisco de Rojas Zorrilla."
+    
+    cited_by:
+
+      - "Rojas Zorrilla, Francisco, et al. Comedias áureas de varios ingenios. Tomo II. Edición crítica y anotada bajo la dirección de Rafael González Cañal y Almudena García González, Universidad de Castilla-La Mancha, 2025."
+      - "Gutiérrez Gil, Alberto. “Las reinas de Rojas Zorrilla: nuevas maneras de entender el ejercicio del poder.” Castilla: Estudios de Literatura, vol. 14, 2023, pp. 356–378. "
+      - "González Escudero, Irene. “Hacia un repertorio de las comedias colaboradas de Rojas Zorrilla: los casos de El pleito del demonio con la Virgen y La trompeta del juicio, a través de la estilometría.” Cuadernos de investigación filológica, vol. 53, 2023, pp. 21-38."
+      - "Ruiz Urbón, Cristina. “Sobre la validez de los análisis cuantitativos en los estudios de autoría de textos breves: el caso particular de los entremeses del Siglo de Oro.” Ogigia: Revista electrónica de estudios hispánicos, no. 33, 2023, pp. 69-96."
+      - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
+      - "Gutiérrez Gil, Alberto. “Espacios de cautiverio de la dama en El Mejor amigo, el muerto, de Belmonte, Rojas y Calderón.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 238–246."
+      - "Ruiz Urbón, Cristina. Aplicación de la lingüística forense a los estudios de atribución de autoría literaria. Principios teóricos, metodológicos y conclusivos. Signa: Revista de la Asociación Española de Semiótica, nº 34, 2025, pp. 543-568."
+      - "Gómez Caballero, Iván. “Puestas en escena de la obra teatral de Luis de Belmonte Bermúdez en el siglo XVII.” Epos: Revista de filología, vol. 38, 2022, pp. 127–147."
+      - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
+      - "García Pérez, Marcos, and Víctor Sierra Matute. “Formas de sociabilidad literaria: siglos XVI y XVII.” Philobiblion: Revista de literaturas hispánicas, vol. 14, 2021, pp. 7–20."
