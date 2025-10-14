@@ -15,7 +15,7 @@ research_lines:
       es: "Estilometría"
       en: "Stylometry"
     description:
-      es: "Análisis computacional del estilo literario para la atribución de autoría y caracterización de textos del Siglo de Oro español."
+      es: "Análisis computacional del estilo literario para la atribución de autoría de textos del Siglo de Oro español."
       en: "Computational analysis of literary style for authorship attribution and characterization of Spanish Golden Age texts."
     image: "estilometria.png"
     

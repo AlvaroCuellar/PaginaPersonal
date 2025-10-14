@@ -68,6 +68,7 @@ publication_types:
   manual: "Manual"
   booklet: "Booklet"
   model: "Model"
+  project: "Project"
 
 # Publication text
 publication_text:
