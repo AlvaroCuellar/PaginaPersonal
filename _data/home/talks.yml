@@ -96,33 +96,47 @@ talks:
     location:
       es: "Ciudad, País"
       en: "City, Country"
-  - id: "id06"
-    type: "panel"
-    date: "2024-07-22"
-    date_end: "2024-07-24"
-    title: "Mesa redonda: Título genérico"
-    event: "Nombre de mesa redonda académica"
-    institution: "Universidad de algún sitio"
+      
+      
+      
+      
+      
+      
+      
+      
+  - id: "sorjuana"
+    type: "invited"
+    date: "2019-07-09"
+    date_end: "2019-07-11"
+    title: "El teatro de Alarcón y Sor Juana Inés de la Cruz ante las humanidades digitales"
+    event: "Sor Juana Inés de la Cruz y el teatro novohispano XLII Jornadas de teatro clásico de Almagro"
+    institution: "Festival de Teatro Clásico de Almagro"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
-  - id: "id07"
+      es: "Almagro, España"
+      en: "Almagro, Spain"
+      
+      
+      
+  - id: "presen"
     type: "conference"
-    date: "2023-07-10"
-    date_end: "2023-07-14"
-    title: "Título de comunicación regular 3"
-    event: "Nombre de evento académico regular 3"
-    institution: "Universidad de algún sitio"
+    date: "2019-02-25"
+    date_end: "2019-03-02"
+    title: "Presentation of the EstilometríaTSO Project: Stylometry Applied to Spanish Golden Age Theatre"
+    event: "Digital Stylistics in Romance Studies and Beyond"
+    institution: "University of Würzburg"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
-  - id: "id08"
-    type: "poster"
-    date: "2023-10-18"
-    date_end: "2023-10-20"
-    title: "Título de póster académico"
-    event: "Nombre de congreso académico de póster"
-    institution: "Universidad de algún sitio"
+      es: "Würzburg, Alemania"
+      en: "Würzburg, Germany"
+      
+      
+      
+  - id: "necesidad"
+    type: "conference"
+    date: "2018-04-17"
+    date_end: "2018-04-19"
+    title: "La necesidad de la validación cruzada y cómo programarla en R"
+    event: "I Congreso Internacional Humanidades Digitales, Retos, Recursos y Nuevas Propuestas"
+    institution: "Universidad de Valladolid"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
+      es: "Valladolid, España"
+      en: "Valladolid, Spain"
