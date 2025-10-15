@@ -41,7 +41,7 @@ url_slug:
   en: "talks"
 
 featured_ids:
-  - "juancarloss"
+  - "juancarlos"
   - "id02"
   - "id04"
   - "id05"
@@ -49,7 +49,7 @@ featured_ids:
 
 talks:
   - id: "juancarlos"
-    type: "Conferencia plenaria"
+    type: "keynote"
     date: "2026-02-04"
     date_end:
     title: "Lope sintético: generación artificial de letra manuscrita para la investigación filológica."
@@ -58,51 +58,417 @@ talks:
     location:
       es: "Madrid, España"
       en: "Madrid, Spain"
-  - id: "id02"
-    type: "invited"
-    date: "2025-02-26"
-    title: "Título de la segunda comunicación destacada"
-    event: "Nombre de otro evento académico destacado"
-    institution: "Universidad de algún sitio"
-    location:
-      es: "Ciudad, País"
-      en: "City, Country"
-  - id: "id03"
+ 
+ 
+  - id: "aispi2024"
+    autor: "Álvaro Cuéllar"
     type: "conference"
-    date: "2025-10-22"
-    date_end: "2025-10-24"
-    title: "Título de comunicación regular"
-    event: "Nombre de evento académico regular"
-    institution: "Universidad de algún sitio"
+    date: "2024-06-19"
+    date_end: "2024-06-22"
+    title: "La voz femenina en el teatro de Lope de Vega bajo la mirada de la estilística computacional"
+    event: "XXXII Congreso AISPI - Associazione Ispanisti Italiani"
+    institution: "Università di Roma Sapienza"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
-  - id: "id04"
-    type: "conference"
-    date: "2024-09-04"
-    date_end: "2024-09-07"
-    title: "Título de comunicación regular 2"
-    event: "Nombre de evento académico regular 2"
-    institution: "Universidad de algún sitio"
-    location:
-      es: "Ciudad, País"
-      en: "City, Country"
-  - id: "id05"
+      es: "Roma, Italia"
+      en: "Rome, Italy"
+
+ 
+  - id: "ile2024"
+    autor: "Álvaro Cuéllar"
     type: "invited"
-    date: "2024-10-31"
-    title: "Título de comunicación invitada"
-    event: "Nombre de evento académico invitado"
-    institution: "Universidad de algún sitio"
+    date: "2024-05-07"
+    title: "Cómo descubrimos un Lope escondido"
+    event: "La inteligencia artificial y la industria cultural"
+    institution: "Institución Libre de Enseñanza"
     location:
-      es: "Ciudad, País"
-      en: "City, Country"
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+ 
+  - id: "leon2024"
+    autor: "Álvaro Cuéllar, Sònia Boadas"
+    type: "conference"
+    date: "2024-05-27"
+    date_end: "2024-05-29"
+    title: "Inteligencia Artificial para la detección de manos en los manuscritos teatrales del Siglo de Oro"
+    event: "Congreso Internacional: El teatro áureo en colaboración"
+    institution: "Universidad de León"
+    location:
+      es: "León, España"
+      en: "León, Spain"
+
+ 
+ 
+ 
+  - id: "thal2024"
+    autor: "Álvaro Cuéllar, Sònia Boadas"
+    type: "invited"
+    date: "2024-04-18"
+    date_end: "2024-04-19"
+    title: "Thal-IA: Inteligencia Artificial aplicada al patrimonio teatral áureo"
+    event: "Inteligencia Artificial y patrimonio cultural"
+    institution: "Universitat Autònoma de Barcelona"
+    location:
+      es: "Barcelona, España"
+      en: "Barcelona, Spain"
+
+ 
+  - id: "stylometrie2024conf"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2024-05-13"
+    title: "Stylométrie et datation"
+    event: "Conferencia invitada en la Universidad de Ginebra"
+    institution: "Université de Genève"
+    location:
+      es: "Ginebra, Suiza"
+      en: "Geneva, Switzerland"
+
+  - id: "stylometrie2024"
+    autor: "Álvaro Cuéllar"
+    type: "workshop"
+    date: "2024-05-13"
+    title: "Exercices pratiques de Stylométrie"
+    event: "Taller por invitación en la Universidad de Ginebra"
+    institution: "Université de Genève"
+    location:
+      es: "Ginebra, Suiza"
+      en: "Geneva, Switzerland"
+
+  - id: "ginebra2024"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    date: "2024-05-13"
+    title: "Datation du corpus dramatique de Lope de Vega"
+    event: "Conferencia plenaria por invitación ante la comunidad universitaria de la Universidad de Ginebra"
+    institution: "Université de Genève"
+    location:
+      es: "Ginebra, Suiza"
+      en: "Geneva, Switzerland"
+
+
+  - id: "bruselas2023"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    date: "2023-12-08"
+    date_end: "2023-12-09"
+    title: "Artificial Philology"
+    event: "The Future of Living Human All Too Human"
+    institution: "EUNIC Bruselas"
+    location:
+      es: "Bruselas, Bélgica"
+      en: "Brussels, Belgium"
+
+  - id: "lopeuab2023"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2023-12-05"
+    title: "Hacia la datación automática del teatro del Siglo de Oro"
+    event: "Seminario internacional: estudios clásicos y modernos en torno a Lope de Vega: tres propuestas"
+    institution: "Universitat Autònoma de Barcelona"
+    location:
+      es: "Barcelona, España"
+      en: "Barcelona, Spain"
+
+ 
+ 
+  - id: "bne2023ia"
+    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: "invited"
+    date: "2023-11-07"
+    date_end: "2023-11-08"
+    title: "Herramienta TRANSKRIBUS y la Estilometría aplicada al Teatro del Siglo de Oro (ETSO) y la asignación de autoría a Lope de La francesa Laura"
+    event: "Bibliotecas, Datos, Inteligencia Artificial: las nuevas rutas del conocimiento"
+    institution: "Biblioteca Nacional de España"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+ 
+ 
+  - id: "dariah2023"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2023-11-07"
+    title: "Datación de textos literarios con estilometría"
+    event: "DARIAH-DAY ES"
+    institution: "Biblioteca Nacional de España"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+ 
+ 
+ 
+  - id: "aitenso2023"
+    autor: "Álvaro Cuéllar, Javier J. González Martínez, Germán Vega García-Luengos"
+    type: "conference"
+    date: "2023-10-30"
+    date_end: "2023-11-01"
+    title: "Propuestas de incorporación de nuevas obras al repertorio dramático de Luis Vélez de Guevara"
+    event: "XXI Congreso de la AITENSO: Variaciones sobre la muerte en el teatro del Siglo de Oro: discurso, sociedad y trascendencia"
+    institution: "Universidad Popular Autónoma del Estado de Puebla"
+    location:
+      es: "Puebla, México"
+      en: "Puebla, Mexico"
+
+
+
+  - id: "valladolid2023"
+    autor: "Álvaro Cuéllar, Irene G. Escudero"
+    type: "conference"
+    date: "2023-09-27"
+    date_end: "2023-09-29"
+    title: "Neutralización de la señal temática en los análisis estilométricos de autoría"
+    event: "La autoría en las literaturas hispánicas"
+    institution: "Universidad de Valladolid"
+    location:
+      es: "Valladolid, España"
+      en: "Valladolid, Spain"
+
+ 
+  - id: "olmedo2023"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2023-07-24"
+    date_end: "2023-07-26"
+    title: "La francesa Laura: el vuelo del Fénix del ordenador a la escena"
+    event: "17 Jornadas sobre teatro clásico. Lope sin fin"
+    institution: "Festival de Teatro Clásico de Olmedo"
+    location:
+      es: "Olmedo, España"
+      en: "Olmedo, Spain"
+
+ 
+  - id: "hispanistas2023"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2023-02-22"
+    date_end: "2023-02-25"
+    title: "Luis Belmonte Bermúdez y Gaspar de Ávila, dos grandes tapados del teatro del Siglo de Oro español"
+    event: "XXIII Congreso Internacional de la Asociación Alemana de Hispanistas"
+    institution: "Universidad de Graz"
+    location:
+      es: "Graz, Austria"
+      en: "Graz, Austria"
+
+ 
+ 
+  - id: "bne2023"
+    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: "conference"
+    date: "2023-02-08"
+    date_end: "2023-02-10"
+    title: "Un nuevo repertorio para Andrés de Claramonte"
+    event: "Métodos para la investigación del patrimonio teatral del Siglo de Oro: tradición e innovación"
+    institution: "Biblioteca Nacional de España"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+ 
+ 
+  - id: "transkribus2023"
+    autor: "Álvaro Cuéllar"
+    type: "workshop"
+    date: "2023-02-03"
+    title: "Introducción a Transkribus"
+    event: "Taller por invitación en la Universidad Autónoma de Barcelona"
+    institution: "Universitat Autònoma de Barcelona"
+    location:
+      es: "Barcelona, España"
+      en: "Barcelona, Spain"
+
+ 
+  - id: "uab2023"
+    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: "invited"
+    date: "2023-02-03"
+    title: "La francesa Laura: comedia inédita de Lope de Vega"
+    event: "Conferencia en la Universidad Autónoma de Barcelona"
+    institution: "Universitat Autònoma de Barcelona"
+    location:
+      es: "Barcelona, España"
+      en: "Barcelona, Spain"
+
+ 
+ 
+  - id: "aitenso2022"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2022-09-14"
+    date_end: "2022-09-17"
+    title: "Datación automática de comedias lopescas a través de la Inteligencia Artificial"
+    event: "XX Congreso de la Asociación Internacional de Teatro Español y Novohispano de los Siglos de Oro (AITENSO): Risa, expresividad, discurso y sociedad en el teatro del Siglo de Oro"
+    institution: "Université Toulouse Jean-Jaurès"
+    location:
+      es: "Toulouse, Francia"
+      en: "Toulouse, France"
+
+
+ 
+  - id: "istae2022"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2022-09-08"
+    title: "Nuevas líneas de trabajo desde la bibliografía computacional"
+    event: "I Seminario de trabajo del proyecto ISTAE (Impresos sueltos del teatro antiguo español): La(s) cultura(s) impresa(s) del teatro del Siglo de Oro: el problema de las comedias sueltas"
+    institution: "Universidad de Santiago de Compostela"
+    location:
+      es: "Santiago de Compostela, España"
+      en: "Santiago de Compostela, Spain"
+
+ 
+ 
+  - id: "dh2022tokyo"
+    autor: "Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"
+    type: "conference"
+    date: "2022-07-25"
+    date_end: "2022-07-29"
+    title: "The Moderniſa Project: Orthographic Modernization of Spanish Golden Age Dramas with Language Models"
+    event: "DH2022 - Tokyo"
+    institution: "Alliance of Digital Humanities Organizations / University of Tokyo"
+    location:
+      es: "Tokio, Japón"
+      en: "Tokyo, Japan"
+
+
+ 
+ 
+  - id: "olmedo2022"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2022-07-25"
+    date_end: "2022-07-27"
+    title: "La investigación sobre el teatro del Siglo de Oro: últimas propuestas desde las Humanidades Digitales"
+    event: "15 Jornadas sobre teatro clásico. La salud de los clásicos"
+    institution: "Festival de Teatro Clásico de Olmedo"
+    location:
+      es: "Olmedo, España"
+      en: "Olmedo, Spain"
+
+ 
+  - id: "paris2022"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2022-06-23"
+    date_end: "2022-06-24"
+    title: "Un modèle ouvert pour la reconnaissance automatique des manuscrits du théâtre espagnol du Siècle d’Or"
+    event: "Documents anciens et reconnaissance automatique des écritures manuscrites"
+    institution: "École nationale des chartes"
+    location:
+      es: "París, Francia"
+      en: "Paris, France"
+
+ 
+ 
+  - id: "viena2022"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2022-06-02"
+    date_end: "2022-06-03"
+    title: "La francesa Laura: The Discovery of an Unknown Play by Lope de Vega Thanks to Artificial Intelligence"
+    event: "Calderón, R and Python. New Methods and Digital Tools for Quantitative Analysis of Theatre, Verse Drama and Poetry"
+    institution: "Universidad de Viena"
+    location:
+      es: "Viena, Austria"
+      en: "Vienna, Austria"
+
+     
+     
+  - id: "doctorandos2021"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2021-11-12"
+    title: "Humanidades Digitales y Siglo de Oro"
+    event: "I Encuentro de Doctorandos Áureos de Castilla y León"
+    institution: "Universidad de Salamanca"
+    location:
+      es: "Salamanca, España"
+      en: "Salamanca, Spain"
+
+     
+     
+  - id: "hdh2021"
+    autor: "Javier J. González Martínez, Olaia Andaluz-Pinedo, Hugo Sanjurjo-González, Álvaro Cuéllar, Claudia Demattè, Emma Mª Marcos Rodríguez"
+    type: "panel"
+    date: "2021-10-04"
+    date_end: "2021-10-08"
+    title: "Humanidades digitales y teatro"
+    event: "V Congreso de la Sociedad Internacional de Humanidades Digitales Hispánicas"
+    institution: "Universidad de Santiago de Compostela"
+    location:
+      es: "Santiago de Compostela, España"
+      en: "Santiago de Compostela, Spain"
+
+
+  - id: "olmedo2021"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2021-07-26"
+    date_end: "2021-07-28"
+    title: "Los avances previsibles y deseables en la investigación del teatro del Siglo de Oro"
+    event: "15 Jornadas sobre teatro clásico. La vida tras el sueño. El retorno de los clásicos"
+    institution: "Festival de Teatro Clásico de Olmedo"
+    location:
+      es: "Olmedo, España"
+      en: "Olmedo, Spain"
+
+      
+  - id: "almagro2021"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2021-07-13"
+    date_end: "2021-07-15"
+    title: "Hacia la transcripción y modernización automática de manuscritos e impresos teatrales del Siglo de Oro"
+    event: "XLIV Jornadas de Teatro Clásico de Almagro"
+    institution: "Festival de Teatro Clásico de Almagro"
+    location:
+      es: "Almagro, España"
+      en: "Almagro, Spain"
+
+      
+      
+  - id: "autorias2019"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2019-10-23"
+    date_end: "2019-10-25"
+    title: "Autorías cuestionadas en el teatro del Siglo de Oro. Primeros resultados del proyecto EstilometríaTSO"
+    event: "IV Congreso Internacional de la Asociación de Humanidades Digitales Hispánicas: Humanidades Digitales y Patrimonio Cultural"
+    institution: "Universidad de Castilla-La Mancha"
+    location:
+      es: "Toledo, España"
+      en: "Toledo, Spain"
+
       
       
       
-      
-      
-      
-      
+  - id: "hdh2019"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2019-10-23"
+    date_end: "2019-10-25"
+    title: "Estilística computacional y literatura hispánica: retos y perspectivas"
+    event: "IV Congreso Internacional de la Asociación de Humanidades Digitales Hispánicas: Humanidades Digitales y Patrimonio Cultural"
+    institution: "Universidad de Castilla-La Mancha"
+    location:
+      es: "Toledo, España"
+      en: "Toledo, Spain"
+
+
+  - id: "tinglado"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2019-10-14"
+    date_end: "2019-10-17"
+    title: "Las comedias en colaboración en el teatro del Siglo de Oro bajo la lupa de la estilometría"
+    event: "XIX Congreso de la Asociación Internacional de Teatro Español y Novohispano de los Siglos de Oro. El tinglado de la antigua farsa: textualidades, escenificaciones y relecturas del teatro clásico hispánico"
+    institution: "Instituto del Teatro de Madrid - UCM"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
       
   - id: "sorjuana"
     type: "invited"
@@ -131,6 +497,7 @@ talks:
       
       
   - id: "necesidad"
+    autor: "Álvaro Cuéllar"
     type: "conference"
     date: "2018-04-17"
     date_end: "2018-04-19"
