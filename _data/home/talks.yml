@@ -41,23 +41,266 @@ url_slug:
   en: "talks"
 
 featured_ids:
-  - "juancarlos"
+  - "no"
   - "id02"
   - "id04"
   - "id05"
   - "id06"
 
 talks:
-  - id: "juancarlos"
+
+
+  - id: "aiso2026"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2026-07-20"
+    date_end: "2026-07-24"
+    title: "Encuentro de Investigadores en Humanidades Digitales"
+    event: "XIV Congreso de la Asociación Internacional Siglo de Oro (AISO)"
+    institution: "Facultad de Filosofía y Letras, Universidad de Buenos Aires"
+    location:
+      es: "Buenos Aires, Argentina"
+      en: "Buenos Aires, Argentina"
+
+
+  - id: "asodat2026"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2026-05-27"
+    date_end: "2026-05-29"
+    title: "TEXORO 2.0: un gran buscador para la literatura aurisecular"
+    event: "ASODAT"
+    institution: "Universidad de Salamanca"
+    location:
+      es: "Salamanca, España"
+      en: "Salamanca, Spain"
+
+
+  - id: "motivarte2026"
+    autor: "Álvaro Cuéllar"
     type: "keynote"
     date: "2026-02-04"
-    date_end:
-    title: "Lope sintético: generación artificial de letra manuscrita para la investigación filológica."
-    event: "MOTIV-ARTE VII. Humanidades e Inteligencia Artificial. De la investigación a la enseñanza y la divulgación"
+    title: "Lope sintético: generación artificial de letra manuscrita para la investigación filológica"
+    event: "MOTIV-ARTE VII. Humanidades e Inteligencia Artificial: De la investigación a la enseñanza y la divulgación"
     institution: "Universidad Rey Juan Carlos"
     location:
       es: "Madrid, España"
       en: "Madrid, Spain"
+
+  
+  - id: "hdh2025"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2025-10-22"
+    date_end: "2025-10-24"
+    title: "De los átomos a las ondas: estilometría rítmica para el estudio de la autoría en el teatro del Siglo de Oro"
+    event: "HDH 2025: Ad cognoscendum, agendum vel operandum. Compromiso cívico y social de las Humanidades Digitales"
+    institution: "Universitat de València"
+    location:
+      es: "Valencia, España"
+      en: "Valencia, Spain"
+
+      
+  - id: "aitenso2025"
+    autor: "Joel Reverter, Álvaro Cuéllar"
+    type: "conference"
+    date: "2025-09-23"
+    date_end: "2025-09-26"
+    title: "La generación sintética de letra manuscrita: ¿una herramienta para el entrenamiento de modelos de reconocimiento de caligrafías?"
+    event: "XXII Congreso de la Asociación Internacional de Teatro Español y Novohispano de los Siglos de Oro (AITENSO): El teatro del Siglo de Oro en el horizonte de las Humanidades Digitales"
+    institution: "Universidad de León"
+    location:
+      es: "León, España"
+      en: "León, Spain"
+
+
+  - id: "uned2025"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    title: "Redes neuronales convolucionales al servicio del teatro áureo"
+    event: "XXXIV Seminario Internacional: Literatura, Teatro e Inteligencia Artificial"
+    institution: "Centro de Investigación de Semiótica Literaria, Teatral y Nuevas Tecnologías, Facultad de Filología, UNED"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+
+  - id: "leon2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-05-29"
+    date_end: "2025-05-30"
+    title: "Hacia la construcción de un gran modelo de transcripción para el Siglo de Oro"
+    event: "Seminario Internacional Humanidades Digitales y Literatura del Siglo de Oro"
+    institution: "Universidad de León"
+    location:
+      es: "León, España"
+      en: "León, Spain"
+
+  - id: "thal_autografos2025"
+    autor: "Álvaro Cuéllar, Arantxa Llàcer"
+    type: "invited"
+    date: "2025-05-08"
+    title: "Primeros resultados del proyecto THAL-IA: corpus, entrenamiento y detección"
+    event: "Seminario internacional: El proceso de composición de los autógrafos teatrales del Siglo de Oro"
+    institution: "Universitat Autònoma de Barcelona"
+    location:
+      es: "Barcelona, España"
+      en: "Barcelona, Spain"
+
+
+  - id: "tubinga2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-05-20"
+    title: "Una lectura distante del Siglo de Oro"
+    event: "Conferencia invitada por la estancia como Mercator Fellow"
+    institution: "Universität Tübingen"
+    location:
+      es: "Tubinga, Alemania"
+      en: "Tübingen, Germany"
+
+
+  - id: "acatlan2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-04-09"
+    title: "Análisis computacionales de la literatura áurea"
+    event: "Conferencia invitada en la Facultad de Estudios Superiores Acatlán"
+    institution: "Universidad Nacional Autónoma de México (UNAM) - Facultad de Estudios Superiores Acatlán"
+    location:
+      es: "Naucalpan, México"
+      en: "Naucalpan, Mexico"
+
+
+
+  - id: "uam2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-03-26"
+    title: "Inteligencia Artificial al encuentro del Siglo de Oro: retos y perspectivas"
+    event: "Jornadas Humanidades y Competencias en Inteligencia Artificial"
+    institution: "Universidad Autónoma de Madrid"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+
+  - id: "perugia2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-03-03"
+    date_end: "2025-03-04"
+    title: "¿Testimonio único, variante o refundición? Rastreos masivos computarizados para el estudio del teatro áureo"
+    event: "XVIII Taller Internacional de Estudios Textuales"
+    institution: "Università degli Studi di Perugia"
+    location:
+      es: "Perugia, Italia"
+      en: "Perugia, Italy"
+
+
+  - id: "usc2025"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    date: "2025-03-19"
+    date_end: "2025-03-21"
+    title: "Problemas tradicionales, soluciones digitales"
+    event: "IV Xornadas Internacionais de Iniciación á Investigación en Estudos da Literatura e a Cultura (IV XIIIELC)"
+    institution: "Universidade de Santiago de Compostela"
+    location:
+      es: "Santiago de Compostela, España"
+      en: "Santiago de Compostela, Spain"
+
+  - id: "istae2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-02-20"
+    date_end: "2025-02-21"
+    title: "Thal-IA e ISTAE: sinergias entre dos proyectos paralelos"
+    event: "Las cultura(s) impresa(s) del teatro del Siglo de Oro"
+    institution: "Universidad de Santiago de Compostela"
+    location:
+      es: "Santiago de Compostela, España"
+      en: "Santiago de Compostela, Spain"
+
+ 
+  - id: "hkadh2025"
+    autor: "Álvaro Cuéllar"
+    type: "conference"
+    date: "2025-01-16"
+    date_end: "2025-01-19"
+    title: "HTR for Hands Identification in Early Modern Spanish Literature"
+    event: "Hong Kong Association for Digital Humanities International Conference (HKADH 2025)"
+    institution: "Hong Kong Association for Digital Humanities"
+    location:
+      es: "Hong Kong, China"
+      en: "Hong Kong, China"
+
+
+  - id: "cadiz2024"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    date: "2024-11-20"
+    date_end: "2024-11-22"
+    title: "La vida es software"
+    event: "III Congreso Internacional Tránsitos: Identidades y culturas en movimiento. Humanidades y progreso desde la era analógica a la digital"
+    institution: "Universidad de Cádiz"
+    location:
+      es: "Cádiz, España"
+      en: "Cádiz, Spain"
+
+ 
+  - id: "uam2024"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2024-11-14"
+    title: "Inteligencia Artificial para el estudio del patrimonio literario del Siglo de Oro"
+    event: "II Seminario Nuevas Tecnologías e Innovación Docente en Literatura Hispánica"
+    institution: "Universidad Autónoma de Madrid"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+ 
+ 
+  - id: "usc2024"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2024-11-07"
+    date_end: "2024-11-08"
+    title: "Filología digital para el estudio de la lírica áurea"
+    event: "Curso Internacional: Filología y patrimonio literario: la edición de la poesía del Siglo de Oro"
+    institution: "Universidad de Santiago de Compostela"
+    location:
+      es: "Santiago de Compostela, España"
+      en: "Santiago de Compostela, Spain"
+
+ 
+  - id: "olmedo2024"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2024-07-24"
+    title: "Nuevos horizontes para la investigación sobre el teatro del Siglo de Oro"
+    event: "18 Jornadas sobre teatro clásico del Festival Olmedo Clásico"
+    institution: "Festival de Teatro Clásico de Olmedo"
+    location:
+      es: "Olmedo, España"
+      en: "Olmedo, Spain"
+
+ 
+ 
+  - id: "chle2024"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2024-07-01"
+    date_end: "2024-07-04"
+    title: "Hacia el futuro de la Historia de la lengua española: nuevos métodos, nuevos retos en la época de la IA"
+    event: "XIII Congreso Internacional de Historia de la Lengua Española"
+    institution: "Universidad de Zúrich"
+    location:
+      es: "Zúrich, Suiza"
+      en: "Zurich, Switzerland"
+
  
  
   - id: "aispi2024"
