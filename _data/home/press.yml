@@ -33,74 +33,61 @@ subtitle:
 
 # IDs de artículos destacados (se mostrarán primero con badge especial)
 featured:
-  - "press01"
-  - "press05"
+  - "press"
+  - "press"
 
 articles:
+
+
+
+
+
+
+
+
+
+
   - id: "press01"
     title:
-      es: "Título del artículo de prensa 1"
-      en: "Press article title 1"
-    outlet: "El País"
-    date: "2025-09-15"
-    url: "https://ejemplo.com/noticia1"
-    thumbnail: "/assets/images/press/img01.jpg"
+      es: "Descubren una comedia desconocida de Lope de Vega"
+      en: "They discover an unknown comedy by Lope de Vega"
+    outlet: "Madrid Press"
+    date: "2021-05-28"
+    url: "https://madridpress.com/archive/288885/descubren-una-comedia-desconocida-de-lope-de-vega"
+    thumbnail: "/assets/images/press/uno.png"
     type: "news"
     summary:
-      es: "Breve resumen sobre la investigación mencionada en este artículo"
-      en: "Brief summary about the research mentioned in this article"
-  
+      es: "Se ha identificado en los fondos de la Biblioteca Nacional de España una comedia titulada «Yo he hecho lo que he podido, Fortuna lo que ha querido», atribuida hasta hoy a otro autor, pero que un estudio estilométrico demuestra pertenece al dramaturgo Lope de Vega. La obra podría datar de 1632-34 y aludir de forma velada a la vida política del momento."
+      en: "A previously unknown comedy titled “Yo he hecho lo que he podido, Fortuna lo que ha querido” has been identified in the holdings of the National Library of Spain. While attributed to another author, a stylometric study shows it belongs to playwright Lope de Vega and likely dates from 1632–34, possibly encoding political references of its time."
+
+
   - id: "press02"
     title:
-      es: "Título del artículo de prensa 2"
-      en: "Press article title 2"
-    outlet: "La Vanguardia"
-    date: "2025-08-22"
-    url: "https://ejemplo.com/noticia2"
-    thumbnail: "/assets/images/press/img01.jpg"
+      es: "'La monja alférez', Siglo de Oro travestido"
+      en: "'The Lieutenant Nun', a Cross-Dressed Golden Age Play"
+    outlet: "El Cultural (El Español)"
+    date: "2022-07-01"
+    url: "https://www.elespanol.com/el-cultural/escenarios/teatro/20220701/monja-alferez-siglo-oro-travestido/684182101_0.html"
+    thumbnail: "/assets/images/press/dos.png"
     type: "news"
     summary:
-      es: "Descripción del contenido del artículo sobre el trabajo académico"
-      en: "Description of the article content about the academic work"
+      es: "El artículo de Alberto Ojeda en El Cultural analiza la atribución de *La monja alférez* al dramaturgo novohispano Juan Ruiz de Alarcón, tras los estudios estilométricos de Germán Vega y Álvaro Cuéllar. La investigación, apoyada en la herramienta ETso, demuestra que la obra tradicionalmente atribuida a Pérez de Montalbán pertenece en realidad a Ruiz de Alarcón."
+      en: "An article by Alberto Ojeda in *El Cultural* discusses the attribution of *La monja alférez* to the New Spanish playwright Juan Ruiz de Alarcón, following stylometric research by Germán Vega and Álvaro Cuéllar. Using the ETso tool, their study shows that the play, long attributed to Pérez de Montalbán, actually belongs to Ruiz de Alarcón."
 
-  - id: "press05"
+
+  - id: "press03"
     title:
-      es: "Título del artículo de prensa 3"
-      en: "Press article title 3"
-    outlet: "ABC"
-    date: "2025-05-10"
-    url: "https://ejemplo.com/noticia3"
-    thumbnail: "/assets/images/press/img01.jpg"
+      es: "'La monja alférez', de la academia al escenario, con la firma de Ruiz de Alarcón"
+      en: "'The Lieutenant Nun': From Academia to the Stage, Signed by Ruiz de Alarcón"
+    outlet: "El Norte de Castilla"
+    date: "2022-06-30"
+    url: "https://www.elnortedecastilla.es/culturas/teatro/monja-alferez-salta-20220630001135-nt.html"
+    thumbnail: "/assets/images/press/tres.png"
     type: "news"
     summary:
-      es: "Otro ejemplo de noticia sobre el proyecto."
-      en: "Another news example about the project."
-
-  - id: "press06"
-    title:
-      es: "Título del artículo de prensa 4"
-      en: "Press article title 4"
-    outlet: "El Mundo"
-    date: "2025-04-18"
-    url: "https://ejemplo.com/noticia4"
-    thumbnail: "/assets/images/press/img01.jpg"
-    type: "news"
-    summary:
-      es: "Noticia sobre el impacto académico."
-      en: "News about academic impact."
-
-  - id: "press07"
-    title:
-      es: "Título del artículo de prensa 5"
-      en: "Press article title 5"
-    outlet: "La Razón"
-    date: "2025-03-02"
-    url: "https://ejemplo.com/noticia5"
-    thumbnail: "/assets/images/press/img01.jpg"
-    type: "news"
-    summary:
-      es: "Reconocimiento por la labor divulgativa."
-      en: "Recognition for outreach work."
+      es: "Victoria M. Niño informa sobre la investigación de Germán Vega y Álvaro Cuéllar, que reatribuye *La monja alférez* a Juan Ruiz de Alarcón mediante análisis estilométricos y documentación histórica. La Compañía Nacional de Teatro de México estrena la obra en el Festival de Alcalá de Henares bajo la dirección de Zaide Silvia Gutiérrez."
+      en: "Victoria M. Niño reports on the research by Germán Vega and Álvaro Cuéllar, which reattributes *La monja alférez* to Juan Ruiz de Alarcón through stylometric and historical analysis. Mexico’s National Theatre Company premiered the play at the Alcalá de Henares Festival under the direction of Zaide Silvia Gutiérrez."
 
 
 
+  

@@ -10,97 +10,116 @@ subtitle:
 
 projects:
   - badge: 
-      es: "Colaborador"
+      es: "Codirector"
       en: "Collaborator"
     title: 
-      es: "Proyecto destacado"
+      es: "Estilometría aplicada al Teatro del Siglo de Oro"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "Estilometría aplicada al Teatro del Siglo de Oro (ETSO) es un proyecto dirigido por Álvaro Cuéllar (UAB) y Germán Vega García-Luengos (Universidad de Valladolid) que aplica métodos de inteligencia artificial y análisis estilométrico al estudio de miles de comedias del Siglo de Oro. A partir de un corpus de más de 2.800 textos, el proyecto investiga la autoría, la cronología y las relaciones textuales entre obras, combinando filología tradicional y humanidades digitales para descubrir nuevas atribuciones y comprender mejor los procesos creativos de los dramaturgos auriseculares."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "etso.png"
+    url: "https://etso.es/"
     
   - badge: 
-      es: "Tipología o fecha"
+      es: "Codirector"
       en: "Typology or date"
     title: 
-      es: "Proyecto destacado"
+      es: "TEXORO: búsquedas en 3000 obras literarias auriseculares"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "TEXORO es una plataforma digital que permite realizar búsquedas textuales en casi 3.000 obras teatrales de más de 350 autores. Desarrollada por Álvaro Cuéllar y Germán Vega García-Luengos, ofrece un acceso unificado al mayor corpus digital del teatro aurisecular, facilitando la consulta y el estudio directo de los textos. Actualmente permite búsquedas simples por palabras o frases exactas, con futuras mejoras previstas para ampliar sus capacidades de análisis y exploración."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "texoro.png"
+    url: "https://etso.es/texoro"
   
   - badge: 
-      es: "Tipología o fecha"
+      es: "Coordinador técnico"
       en: "Typology or date"
     title: 
-      es: "Proyecto destacado"
+      es: "THAL-IA: Patrimonio teatral áureo: inteligencia artificial y fotografía espectral"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "Thal-IA (Patrimonio teatral áureo: inteligencia artificial y fotografía espectral) es un proyecto dirigido por Sònia Boadas (Universitat Autònoma de Barcelona) que investiga las relaciones entre los manuscritos teatrales del Siglo de Oro y los distintos agentes implicados en su transmisión —autores, copistas, censores y libreros—. Mediante técnicas de inteligencia artificial y análisis multiespectral, el proyecto busca identificar manos autógrafas y de copistas, reconstruir redes de producción y circulación de textos, y aportar nuevas perspectivas sobre la materialidad y autoría en el teatro aurisecular."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "thalia.jpg"
+    url: "https://webs.uab.cat/thal-ia/"
+
+  - badge:
+      es: "Colaborador"
+      en: "Typology or date"
+    title:
+      es: "PROLOPE"
+      en: "Featured project"
+    description:
+      es: "PROLOPE es un grupo de investigación de la Universitat Autònoma de Barcelona, fundado en 1989 por Alberto Blecua y dirigido actualmente por Gonzalo Pontón Gijón y Sònia Boadas. Su misión es la edición crítica y el estudio filológico integral del teatro de Lope de Vega, atendiendo a la transmisión textual, la historia editorial y el contexto literario de sus comedias. Desde su creación, el grupo ha publicado las Partes de comedias en ediciones rigurosas y comentadas, y promueve la difusión internacional del legado lopesco a través de la revista Anuario Lope de Vega y de proyectos de investigación en humanidades digitales."
+      en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+    image: "prolope.png"
+    url: "https://prolope.uab.cat/"
   
-  - badge: 
-      es: "Tipología o fecha"
+  - badge:
+      es: "Colaborador"
+      en: "Typology or date"
+    title:
+      es: "METADRAMA: Aula de teatro e investigación"
+      en: "Featured project"
+    description:
+      es: "METADRAMA es un proyecto de investigación de la Universitat de Barcelona, dirigido por Gastón Gilabert, que estudia el verso y la métrica en el teatro del Siglo de Oro desde una perspectiva filológica y digital. Su objetivo es analizar cómo la forma poética contribuye al sentido dramático y escénico de las obras, explorando también motivos recurrentes —como el de Dido y Eneas— y su proyección en la puesta en escena del teatro aurisecular."
+      en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+    image: "metadrama.png"
+    url: "https://www.ub.edu/metadrama/"
+  
+
+  
+  - badge:
+      es: "Colaborador"
       en: "Typology or date"
     title: 
-      es: "Proyecto destacado"
+      es: "ISTAE: Impresos sueltos del teatro antiguo español"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "ISTAE: Impresos sueltos del teatro antiguo español es un proyecto liderado por Alejandra Ulla Lorenzo (Universidade de Santiago de Compostela) que desarrolla una base de datos especializada en los impresos teatrales sueltos publicados entre 1600 y 1834 que contienen textos dramáticos del Siglo de Oro. Su propósito es identificar, describir y documentar estas ediciones unitarias mediante un sistema de descripción tipográfica, bibliográfico y material, facilitando su reconocimiento incluso cuando carecen de datos de imprenta explícitos. La base de datos se va alimentando progresivamente con nuevos registros, y permite que investigadores consulten detalles estructurales y ortotipográficos de estas obras para estudiar su transmisión editorial."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "istae.png"
+    url: "https://istae.uv.es/"
 
   - badge: 
-      es: "Tipología o fecha"
+      es: "Colaborador"
       en: "Typology or date"
-    title: 
-      es: "Proyecto destacado"
+    title:
+      es: "Sound and Meaning in Spanish Golden Age Literature"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "Sound and Meaning in Spanish Golden Age Literature es un proyecto dirigido por Simon Kroll (Universidad de Viena) que investiga la relación entre sonoridad y significado en la literatura del Siglo de Oro. A través de métodos filológicos y herramientas digitales, analiza cómo los patrones sonoros del verso generan efectos de sentido y emoción en la poesía y el teatro de autores como Lope de Vega o Calderón de la Barca."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "sound.png"
+    url: "https://soundandmeaning.univie.ac.at/"
 
   - badge: 
-      es: "Tipología o fecha"
+      es: "Colaborador"
       en: "Typology or date"
     title: 
-      es: "Proyecto destacado"
+      es: "ASODAT: Bases de Datos Integradas del Teatro Clásico Español"
       en: "Featured project"
     description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+      es: "ASODAT (Bases de Datos Integradas del Teatro Clásico Español) es un proyecto dirigido por Alejandro García Reidy (Universidad de Salamanca) y fundado por Teresa Ferrer Valls (Universitat de València). Nacido con el propósito de unificar y enlazar las principales bases de datos dedicadas al teatro clásico español, ASODAT permite realizar búsquedas transversales sobre obras, autores, manuscritos, ediciones y representaciones, ofreciendo una visión integrada y dinámica del patrimonio dramático del Siglo de Oro."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "asodat.png"
+    url: "https://asodat.uv.es/"
 
-  - badge: 
-      es: "Tipología o fecha"
-      en: "Typology or date"
-    title: 
-      es: "Proyecto destacado"
-      en: "Featured project"
-    description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-      en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
 
-  - badge: 
-      es: "Tipología o fecha"
+
+  - badge:
+      es: "Colaborador"
       en: "Typology or date"
-    title: 
-      es: "Proyecto destacado"
+    title:
+      es: "El teatro áureo en colaboración: textos, autorías, ámbitos literarios de sociabilidad y nuevos instrumentos de investigación"
       en: "Featured project"
-    description: 
-      es: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
+    description:
+      es: "El teatro áureo en colaboración: textos, autorías, ámbitos literarios de sociabilidad y nuevos instrumentos de investigación es un proyecto coordinado por Rafael González Cañal y María Luisa Lobato que estudia las comedias escritas en colaboración durante el Siglo de Oro. A través de la edición crítica, el análisis filológico y las técnicas estilométricas, investiga las dinámicas de autoría compartida y sociabilidad literaria entre dramaturgos como Rojas Zorrilla, Calderón o Moreto, incorporando además nuevas herramientas digitales para el estudio del teatro barroco español."
       en: "Lorem ipsum dolor sit amet consectetur adipiscing elit nunc cubilia, ante orci cras tristique venenatis tempus nostra faucibus purus, lacus fames justo platea lacinia fringilla ad rhoncus. Proin velit nunc quis faucibus interdum turpis ultrices taciti euismod metus est dapibus ligula, ac tempus mi conubia potenti consequat inceptos felis sed at molestie pellentesque."
-    image: "ejemplo.png"
-    url: "#"
+    image: "colaboracion.jpg"
+    url: "https://www.cervantesvirtual.com/portales/francisco_rojas_zorrilla/proyectos_investigacion/#comedias"
+
+
+
