@@ -46,6 +46,21 @@ projects:
     url: "https://webs.uab.cat/thal-ia/"
 
   - badge:
+      es: "Mercator Fellow"
+      en: "Mercator Fellow"
+    title:
+      es: "Tracing Regularities in Pedro Calderón de la Barca's Dramatic Œuvre with a Computational Approach"
+      en: "Tracing Regularities in Pedro Calderón de la Barca's Dramatic Œuvre with a Computational Approach"
+    description:
+      es: "Proyecto financiado por la DFG dentro del programa Computational Literary Studies, desarrollado entre la Universidad de Tübingen y el Instituto de Lingüística Computacional de Stuttgart. Su objetivo es analizar cuantitativamente la obra dramática de Calderón de la Barca a partir de textos codificados en TEI-XML, aplicando métodos de análisis léxico, redes de personajes, estructura métrica y dinámica temporal. El estudio busca establecer regularidades estilísticas, proponer nuevas clasificaciones genéricas y contribuir a la datación de obras de autoría o cronología discutida."
+      en: "DFG-funded project within the Computational Literary Studies program, carried out between the University of Tübingen and the Institute for Computational Linguistics at the University of Stuttgart. It quantitatively analyzes Calderón de la Barca’s dramatic works using TEI-XML encoded texts, applying lexical analysis, character network modeling, metrical and structural study, and temporal dynamics. The project aims to identify stylistic regularities, refine genre classification, and propose new datings for undetermined or disputed plays."
+    image: "tracing.png"
+    url: "https://romanistik.de/aktuelles/6456"
+
+
+
+
+  - badge:
       es: "Colaborador"
       en: "Typology or date"
     title:

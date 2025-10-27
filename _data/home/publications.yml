@@ -59,6 +59,22 @@ featured_ids:
 publications:
 
 
+
+  - id: "atoms2waves"
+    type: "inpress"
+    title: "From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Janus. Estudios sobre el Siglo de Oro"
+    volume:
+    number:
+    pages:
+    year: 2025
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
+
+
+
   - id: "redesneuronales"
     type: "inpress"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
@@ -85,7 +101,20 @@ publications:
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
-    
+ 
+  - id: "writerid2026"
+    type: "inpress"
+    title: "Simple Handwritten Text Recognition Techniques for Highly Accurate Writer Identification"
+    authors: ["Alejandro H. Toselli", "Álvaro Cuéllar", "Sònia Boadas", "Enrique Vidal", "Joan Andreu Sánchez"]
+    publication: "Pattern Analysis and Applications"
+    volume:
+    number:
+    pages:
+    year: 2026
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El artículo propone un sistema de identificación de escribas basado en técnicas simplificadas de reconocimiento automático de texto manuscrito. Los resultados muestran una elevada precisión en la diferenciación entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+
     
   - id: "Bandolero"
     type: "inpress"
@@ -99,6 +128,19 @@ publications:
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "Las herramientas digitales revelan una nueva comedia colaborada que amplía el repertorio de Calderón. La primera jornada de El bandolero Solposto, atribuida a Cáncer, Rosete y Rojas Zorrilla en 1669, muestra una marcada huella calderoniana. La estilometría léxica confirma su autoría, además de la alta concentración de estilemas característicos del dramaturgo"
+
+  - id: "examenautorías"
+    type: "inpress"
+    title: "Examen de autorías en el teatro del Siglo de Oro"
+    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
+    publication: "Edition Reichenberger"
+    volume:
+    number:
+    pages:
+    year: 2026
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "Monografía dedicada al análisis de la autoría en el teatro del Siglo de Oro mediante métodos filológicos y computacionales. Se ofrecen estudios sobre más de 3.000 obras, tanto completas como por jornadas, con atribuciones inéditas y resultados novedosos en la identificación de dramaturgos."
 
   - id: "writersonia"
     type: "article"
@@ -132,6 +174,26 @@ publications:
     thumbnail: "/assets/images/pubs/writervalencia.png"
     abstract: "En este artículo se presenta un enfoque automático de identificación de escribas que combina redes neuronales profundas convolucionales y recurrentes con modelos de lenguaje n-grama en un marco probabilístico de clasificación. Los experimentos preliminares muestran la eficacia del método para distinguir entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
     cited_by:
+    
+    
+  - id: "xviicatalanprints"
+    type: "model"
+    title: "XVII Catalan Prints"
+    authors: ["Anaïs Freixes Castells", "Álvaro Cuéllar"]
+    year: 2025
+    url:
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Modelo de inteligencia artificial entrenado para la transcripción automática de impresos catalanes del siglo XVII en letra redonda. Entrenado con 137.338 palabras (18.519 líneas), alcanza una tasa de error del 1,63 % y permite conservar la ortografía original de los textos, facilitando la digitalización del patrimonio documental catalán."
+
+  - id: "xviicatalanprintsmodern"
+    type: "model"
+    title: "XVII Catalan Prints (Spelling modernization)"
+    authors: ["Anaïs Freixes Castells", "Álvaro Cuéllar"]
+    year: 2025
+    url:
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Modelo de transcripción automática con modernización ortográfica para impresos catalanes del siglo XVII. Entrenado con 165.096 palabras (22.219 líneas), alcanza un error del 3,41 %. Permite obtener versiones normalizadas de los textos antiguos, optimizando su lectura y análisis filológico."
+
 
   - id: "stylo100"
     type: "incollection"
@@ -187,6 +249,20 @@ publications:
       - "Ehrmanntraut, Anton. “Historical German Text Normalization Using Type- and Token-Based Language Modeling.” arXiv preprint arXiv:2409.02841, 2024."
       - "Hatzel, Hans Ole, Haimo Stiemer, Chris Biemann, and Evelyn Gius. “Machine Learning in Computational Literary Studies.” it-Information Technology, vol. 65, no. 4-5, 2023, pp. 200-217."
 
+  - id: "queridogerman2024"
+    type: "incollection"
+    title: "Querido Germán: un experimento estilométrico sobre el tamaño de los textos en un corpus de correspondencia digital"
+    authors:
+      - "Álvaro Cuéllar"
+    year: 2024
+    booktitle: "Un caballero para Olmedo. Homenaje al profesor Germán Vega García-Luengos"
+    editor: "Gema Cienfuegos Antelo, Javier J. González Martínez y otros"
+    publisher: "Ediciones de la Universidad de Valladolid"
+    pages: "277–286"
+    isbn:
+    url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
+    thumbnail: "/assets/images/pubs/german.png"
+    abstract: "El capítulo presenta un experimento estilométrico sobre la correspondencia digital entre Álvaro Cuéllar y Germán Vega, con el objetivo de comprobar si la estilometría puede identificar la autoría de mensajes breves. A pesar de la reducida extensión de los correos, los resultados muestran una notable capacidad clasificatoria de ciertos algoritmos de inteligencia artificial aplicados al estilo individual."
 
     
   - id: "transcri"
@@ -311,7 +387,111 @@ publications:
       - "Rodríguez López-Vázquez, Alfredo. “El condenado por desconfiado, atribuido a Tirso, es de Valdivielso.” Lemir: Revista de Literatura Española Medieval y del Renacimiento, vol. 27, 2023, pp. 277–292."
       - "Valls, Teresa Ferrer, and Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
       - "Barrocal, Jorge Ferreira. “Edición crítica de la Relación del nacimiento del nuevo infante y de la muerte de la reina nuestra señora, de Claramonte.” Dicenda: Estudios de lengua y literatura españolas, no. 41, 2023, pp. 75–97."
+     
+     
+  - id: "moreto2023"
+    type: "incollection"
+    title: "El periodo final de la dramaturgia moretiana (1655–1659): apuntes desde la estilometría"
+    authors:
+      - "Elena Martínez Carro"
+      - "Álvaro Cuéllar"
+    year: 2023
+    booktitle: "Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII"
+    editor: "Juan Manuel Escudero Baztán"
+    publisher: "Iberoamericana Editorial Vervuert"
+    pages: "165–198"
+    isbn: "8491923225"
+    url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
+    thumbnail: "/assets/images/pubs/moreto.png"
+    abstract: "El capítulo examina la etapa final de la producción dramática de Agustín Moreto (1655–1659) mediante análisis estilométricos. A partir del estudio cuantitativo del léxico y los patrones autorales, se exploran rasgos que distinguen este periodo tardío y su relación con la influencia calderoniana. Disponible también en la editorial Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."
+
+    
+     
+      
+  - id: "francesalaura"
+    type: "book"
+    title: "La francesa Laura"
+    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
+    year: 2023
+    publisher: "RBA - Gredos"
+    isbn: "9788424940621"
+    url: "https://www.rbalibros.com/gredos/la-francesa-laura_7132"
+    thumbnail: "/assets/images/pubs/francesalibro.png"
+    abstract: "Edición crítica de la comedia *La francesa Laura*, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
+
+      
+  - id: "tesis2022"
+    type: "phdthesis"
+    title: "Propuestas de autoría y datación en el teatro de Lope de Vega a la luz de la Inteligencia Artificial"
+    authors: ["Álvaro Cuéllar"]
+    year: 2022
+    publisher: "University of Kentucky"
+    place:
+    isbn:
+    url: "https://doi.org/10.13023/etd.2022.428"
+    thumbnail: "/assets/images/pubs/tesis.png"
+    abstract: "La tesis desarrolla métodos de inteligencia artificial y estilometría para analizar la autoría y cronología de las comedias de Lope de Vega. A partir de un corpus de miles de textos, propone nuevas atribuciones y dataciones automáticas, demostrando la eficacia de los modelos computacionales en la investigación filológica."
+
   
+  - id: "coloso"
+    type: "model"
+    title: "Coloso Español"
+    authors: ["Álvaro Cuéllar (coordinador)", "Stefano Bazzaco", "Alba Comino", "Andrés Echavarría Peláez", "José Manuel Fradejas Rueda", "Francisco Gago Jover", "Ana García Serrano", "Raquel Liceras-Garrido", "Patricia Murrieta-Flores", "Humberto Olea Montero", "Rocío Ortuño Casanova", "Fernando J. Pancorbo", "Milena Peralta Friedburg", "Eva Sánchez-Salido", "Rodrigo Vega Sánchez", "Juan Carlos Vallejo Velásquez", "Ezequiel Villani"]
+    year: 2023
+    url: "https://readcoop.eu/model/coloso-espanol/"
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
+
+
+
+
+  - id: "istae"
+    type: "database"
+    title: "ISTAE: Impresos sueltos del teatro antiguo español"
+    authors: ["Alejandra Ulla Lorenzo", "Elena Martínez Carro", "Isabel Hernando Morata", "Concepción María Jiménez Fernández", "Szilvia Szmuk-Tanenbaum", "Paula Casariego Castiñeira", "Guillermo Gómez Sánchez-Ferrer", "María Dolores Sánchez García", "Abraham Madroñal Durán", "Óscar García Fernández", "Álvaro Cuéllar", "Germán Vega García-Luengos", "Débora Vaccari", "Pilar Egoscozábal Carrasco", "Marta Vizcaíno Ruíz", "Juan Udadondo Alegre", "Candela Iglesias Balsa", "Katerina Vaiopoulos", "Fernando Rodríguez-Gallego", "Ane Zapatero Molinuevo", "Elena Muñoz Rodríguez"]
+    year: "2022–actualidad"
+    url: "http://istae.uv.es"
+    thumbnail: "/assets/images/pubs/istae.png"
+    abstract: "Base de datos integrada del teatro clásico español que reúne y describe los impresos sueltos teatrales del Siglo de Oro. ISTAE centraliza información dispersa en diversos catálogos y archivos, facilitando la consulta y el estudio del patrimonio teatral áureo mediante recursos digitales abiertos."
+
+  - id: "texoro"
+    type: "database"
+    title: "TEXORO: Textos del Siglo de Oro"
+    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
+    year: "2022–actualidad"
+    url: "https://etso.es/texoro"
+    thumbnail: "/assets/images/pubs/texoro.png"
+    abstract: "Sistema de búsqueda en abierto del corpus del teatro del Siglo de Oro, compuesto por más de 3.000 obras y 400 dramaturgos, con un total de 37 millones de palabras. Es utilizado diariamente por especialistas para realizar consultas lingüísticas y filológicas."
+    
+    
+    
+  - id: "manuscriptsmodern"
+    type: "model"
+    title: "Spanish Golden Age Manuscripts (Spelling modernization)"
+    authors: ["Álvaro Cuéllar"]
+    year: 2021
+    url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-1-0/"
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Modelo de IA entrenado con 3.250.116 palabras capaz de transcribir y modernizar manuscritos del Siglo de Oro español con un 90,8 % de acierto. Recurso ampliamente utilizado por la comunidad académica y citado en al menos cuatro publicaciones."
+
+  - id: "printsmodern"
+    type: "model"
+    title: "Spanish Golden Age Prints 1.0 (Spelling modernization)"
+    authors: ["Álvaro Cuéllar"]
+    year: 2021
+    url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-spelling-modernization-1-0/"
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Modelo entrenado con 2.757.908 palabras capaz de transcribir y modernizar impresos del Siglo de Oro español con un 96,90 % de acierto. Está disponible para la comunidad investigadora y se utiliza de forma generalizada en proyectos de transcripción de archivos y bibliotecas."
+
+  - id: "prints1"
+    type: "model"
+    title: "Spanish Golden Age Prints 1.0"
+    authors: ["Álvaro Cuéllar"]
+    year: 2021
+    url: "https://readcoop.eu/model/spanish-golden-age-prints-1-0/"
+    thumbnail: "/assets/images/pubs/model.png"
+    abstract: "Modelo de inteligencia artificial entrenado con 74.000 palabras, capaz de transcribir de forma paleográfica impresos del Siglo de Oro español con un 99,09 % de acierto. Disponible públicamente y ampliamente utilizado para la transcripción de archivos y bibliotecas."
+
 
 
   - id: "discernir"
@@ -341,3 +521,32 @@ publications:
       - "Gómez Caballero, Iván. “Puestas en escena de la obra teatral de Luis de Belmonte Bermúdez en el siglo XVII.” Epos: Revista de filología, vol. 38, 2022, pp. 127–147."
       - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
       - "García Pérez, Marcos, and Víctor Sierra Matute. “Formas de sociabilidad literaria: siglos XVI y XVII.” Philobiblion: Revista de literaturas hispánicas, vol. 14, 2021, pp. 7–20."
+
+
+
+  - id: "validacioncruzada"
+    type: "article"
+    title: "La necesidad de la validación cruzada en Stylo y cómo programarla en R"
+    authors: ["Álvaro Cuéllar"]
+    year: 2018
+    publication: "Caracteres. Estudios culturales y críticos de la esfera digital"
+    volume: "7"
+    number: "2"
+    pages: "301–320"
+    url: "https://acortar.link/AjIJVS"
+    thumbnail: "/assets/images/pubs/cruzada.png"
+    abstract: "El artículo analiza los procesos informáticos más adecuados para la atribución de autoría mediante técnicas computacionales, y propone una implementación práctica de la validación cruzada en el entorno de R y el paquete Stylo."
+
+
+  - id: "etso"
+    type: "database"
+    title: "ETSO: Estilometría aplicada al Teatro del Siglo de Oro"
+    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
+    year: "2017–actualidad"
+    url: "https://etso.es/"
+    thumbnail: "/assets/images/pubs/etso.png"
+    abstract: "Portal digital que ofrece en abierto los análisis estilométricos de más de 3.000 obras del teatro del Siglo de Oro. Es el proyecto al que el autor ha dedicado más tiempo en los últimos años y se ha consolidado como uno de los recursos más utilizados por los investigadores del ámbito áureo."
+
+
+
+

@@ -41,12 +41,14 @@ url_slug:
   en: "talks"
 
 featured_ids:
-  - "no"
-  - "id02"
-  - "id04"
-  - "id05"
-  - "id06"
-
+  - "aiso2026"
+  - "motivarte2026"
+  - "unedmaster2025"
+  - "acatlan2025"
+  - "hkadh2025"
+  - "cadiz2024"
+  
+  
 talks:
 
 
@@ -86,6 +88,29 @@ talks:
     location:
       es: "Madrid, España"
       en: "Madrid, Spain"
+      
+  - id: "hddmalaga2025"
+    autor: "Álvaro Cuéllar"
+    type: "invited"
+    date: "2025-12-16"
+    title: "Estilometría léxica, rítmica y estrófica: un tridente computacional para estudiar la autoría en el teatro del Siglo de Oro"
+    event: "I Seminario HHDD - Humanidades Digitales y Datos"
+    institution: "Universidad de Málaga"
+    location:
+      es: "Málaga, España"
+      en: "Málaga, Spain"
+      
+  - id: "unedmaster2025"
+    autor: "Álvaro Cuéllar"
+    type: "keynote"
+    date: "2025-11-04"
+    title: "Tras la huella autorial y caligráfica: Inteligencia Artificial para el estudio del patrimonio textual"
+    event: "Inauguración del Máster en Humanidades Digitales"
+    institution: "Universidad Nacional de Educación a Distancia (UNED)"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
 
   
   - id: "hdh2025"
@@ -117,6 +142,8 @@ talks:
   - id: "uned2025"
     autor: "Álvaro Cuéllar"
     type: "keynote"
+    date: "2025-06-25"
+    date_end: "2025-06-27"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
     event: "XXXIV Seminario Internacional: Literatura, Teatro e Inteligencia Artificial"
     institution: "Centro de Investigación de Semiótica Literaria, Teatral y Nuevas Tecnologías, Facultad de Filología, UNED"
