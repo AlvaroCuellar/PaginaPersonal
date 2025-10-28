@@ -58,3 +58,12 @@ research_lines:
       es: "Estimación cronológica de textos literarios mediante análisis lingüístico y estilístico computacional."
       en: "Chronological estimation of literary texts through computational linguistic and stylistic analysis."
     image: "fondo.png"
+    
+  - title:
+      es: "Generación de manuscritos sintéticos"
+      en: "Synthetic Handwriting Generation"
+    description:
+      es: "Creación de escritura manuscrita artificial mediante modelos generativos y redes neuronales."
+      en: "Creation of artificial handwriting using generative models and neural networks."
+    image: "fondo.png"
+

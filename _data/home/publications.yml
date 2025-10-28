@@ -50,12 +50,16 @@ url_slug:
 
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
-  - "book"
-  - "book01"
-  - "book01"
-
-
-
+  - "atoms2waves"
+  - "writersonia"
+  - "transcri"
+  - "stylo100"
+  - "crono"
+  - "FrancesaLaura"
+  - "coloso"
+  
+  
+  
 publications:
 
 
@@ -141,6 +145,13 @@ publications:
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "Monografía dedicada al análisis de la autoría en el teatro del Siglo de Oro mediante métodos filológicos y computacionales. Se ofrecen estudios sobre más de 3.000 obras, tanto completas como por jornadas, con atribuciones inéditas y resultados novedosos en la identificación de dramaturgos."
+    cited_by:
+    
+      - "Kroll, Simón, y Fernando Sanz-Lázaro. “Ritmo e inteligencia artificial: nuevas perspectivas sobre teatro lopesco desde las Humanidades Digitales.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 351–375."
+      - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
+
+    
+    
 
   - id: "writersonia"
     type: "article"
@@ -418,6 +429,13 @@ publications:
     url: "https://www.rbalibros.com/gredos/la-francesa-laura_7132"
     thumbnail: "/assets/images/pubs/francesalibro.png"
     abstract: "Edición crítica de la comedia *La francesa Laura*, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
+    cited_by:
+
+      - "Sobrón Tauber, Guadalupe. “Un nuevo Lope que nos sigue hablando: sobre la puesta escénica de La francesa Laura.” Reseñas/CeLeHis, año 11, no. 31, agosto 2024, ISSN 2362-5031, pp. 99–105."
+
+      - "Bracciale, Milena. “Reseñas en Proscenio XVII. Teatro del Mundo.” Reseñas/CeLeHis, año 11, no. 31, agosto 2024, ISSN 2362-5031, pp. 60–62."
+
+      - "Ley-Garrido, Álvaro. “Reseña de *La francesa Laura*, edición de Álvaro Cuéllar y Germán Vega García-Luengos.” Cincinnati Romance Review, vol. 54, otoño 2023, pp. 69–71."
 
       
   - id: "tesis2022"
@@ -431,6 +449,12 @@ publications:
     url: "https://doi.org/10.13023/etd.2022.428"
     thumbnail: "/assets/images/pubs/tesis.png"
     abstract: "La tesis desarrolla métodos de inteligencia artificial y estilometría para analizar la autoría y cronología de las comedias de Lope de Vega. A partir de un corpus de miles de textos, propone nuevas atribuciones y dataciones automáticas, demostrando la eficacia de los modelos computacionales en la investigación filológica."
+    cited_by:
+      - "Rodríguez, Daniel Fernández, y Guillermo Gómez Sánchez-Ferrer. “Los romances expósitos: a propósito del estilo en el romancero de Lope de Vega y las atribuciones de María Goyri.” Abenámar. Cuadernos de la Fundación Ramón Menéndez Pidal, vol. 6, 2023, pp. 117–144."
+
+      - "Vega, Lope de. La mocedad de Bernardo del Carpio; El casamiento en la muerte. Edición de Alfredo Rodríguez López-Vázquez. Madrid: Ediciones Cátedra, Letras Hispánicas, 2023. ISBN 978-84-376-4544-5."
+
+      - "López Poza, Sagrario. “Incidencia de las tecnologías digitales en la investigación en Literatura española del Siglo de Oro.” 2024."
 
   
   - id: "coloso"
@@ -441,7 +465,17 @@ publications:
     url: "https://readcoop.eu/model/coloso-espanol/"
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
+    cited_by:
+    
+      - "Torterolo-Orta, Yanco Amor, et al. “Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite.” arXiv preprint arXiv:2507.04878, 2025."
 
+      - "Murrieta-Flores, Patricia, et al. “Unlocking colonial records with Artificial Intelligence. Achieving the automated transcription of large-scale 16th and 17th-century Latin American historical collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828. DOI: 10.1080/20548923.2025.2484828."
+
+      - "Castro, Antonio Rojas, y Grisel Terrón Quintero. “Nuevos retos en torno a la edición digital en la Oficina del Historiador: Hacia una transcripción automatizada de documentos históricos.” En Archivos Abiertos: El patrimonio documental cubano y la transformación digital, Berlin/Boston: De Gruyter, 2024, pp. 101–120. DOI: 10.1515/9783111187846-004."
+
+      - "Pinche, Ariane, et al. “CATMuS-Medieval: Consistent Approaches to Transcribing ManuScripts.” Digital Humanities–DH2024, 2024."
+
+      - "Fradejas Rueda, José Manuel. “El Coloso español.” 7PartidasDigital. Edición crítica digital de las Siete Partidas, 19 de diciembre de 2023. DOI: 10.58079/vemr."
 
 
 
