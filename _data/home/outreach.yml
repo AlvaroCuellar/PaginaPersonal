@@ -36,104 +36,96 @@ subtitle:
 
 # Elementos destacados (se mostrarán en el carrusel principal)
 featured_ids:
-  - "outreach-2"
-  - "outreach-1"
-  - "outreach-5"
+  - "outreach-filologia-artificial"
+  - "outreach-informe-semanal"
+  - "outreach-lasexta-columna"
 
 # Artículos y contenido de divulgación
 items:
-  - id: "outreach-1"
+
+
+  - id: "outreach-filologia-artificial"
     title:
-      es: "Informe Semanal: Lo que esconde Lope"
-      en: "Featured Article Title"
+      es: "Filología artificial"
+      en: "Artificial Philology"
     type: "article"
-    medium: "Blog de ejemplo"
+    medium: "Revista La Pluma"
+    date: "2024-01-01"
+    description:
+      es: "Reflexión sobre el uso de la Inteligencia Artificial en Filología y su potencial para abordar cuestiones de autoría, datación y transcripción en el teatro del Siglo de Oro."
+      en: "A reflection on the use of Artificial Intelligence in Philology and its potential to address authorship, dating, and transcription issues in Spanish Golden Age theatre."
+    url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
+    image: "/assets/images/outreach/filologia-artificial.jpg"
+
+
+  - id: "outreach-informe-semanal"
+    title:
+      es: "Lo que aún esconde Lope de Vega"
+      en: "What Lope de Vega Still Hides"
+    type: "tv"
+    medium: "Informe Semanal — RTVE"
+    date: "2024-04-21"
+    description:
+      es: "Reportaje emitido en Informe Semanal sobre el uso de inteligencia artificial y fotografía espectral para investigar los manuscritos autógrafos de Lope de Vega. Con la participación de Sònia Boadas y Álvaro Cuéllar (UAB)."
+      en: "Feature aired on Informe Semanal about the use of artificial intelligence and spectral imaging to study Lope de Vega’s autograph manuscripts. Featuring Sònia Boadas and Álvaro Cuéllar (UAB)."
+    url: "https://www.rtve.es/play/videos/informe-semanal/aun-esconde-lope/16069618/"
+    image: "/assets/images/outreach/informe-semanal-lope.jpg"
+
+
+  - id: "outreach-transkribus"
+    title:
+      es: "Discovering a lost play by Lope de Vega: Álvaro Cuéllar"
+      en: "Discovering a Lost Play by Lope de Vega: Álvaro Cuéllar"
+    type: "interview"
+    medium: "Transkribus — Success Stories"
+    date: "2023-02-01"
+    description:
+      es: "Entrevista publicada por el equipo de Transkribus sobre el hallazgo de La francesa Laura. Álvaro Cuéllar explica el proceso técnico y filológico que permitió atribuir la obra a Lope de Vega mediante herramientas de inteligencia artificial y estilometría dentro del proyecto ETSO."
+      en: "Interview published by the Transkribus team about the discovery of La Francesa Laura. Álvaro Cuéllar explains the technical and philological process that led to the attribution of the play to Lope de Vega through artificial intelligence and stylometry within the ETSO project."
+    url: "https://www.transkribus.org/en/success-story/discovering-a-lost-play-by-lope-de-vega-alvaro-cuellar"
+    image: "/assets/images/outreach/transkribus-lope.png"
+
+
+  - id: "outreach-laguna-al-dia"
+    title:
+      es: "Álvaro Cuéllar: «Poder recuperar una obra del fénix de los ingenios supone un regalo para el patrimonio hispánico»"
+      en: "Álvaro Cuéllar: “Recovering a Work by the Phoenix of Wits Is a Gift to Hispanic Heritage”"
+    type: "interview"
+    medium: "Laguna al Día"
+    date: "2023-03-20"
+    description:
+      es: "Entrevista con Álvaro Cuéllar tras el hallazgo de una comedia inédita de Lope de Vega mediante inteligencia artificial. Reflexiona sobre su trayectoria internacional, los retos de la investigación filológica y el potencial de la IA para transformar el estudio del Siglo de Oro."
+      en: "Interview with Álvaro Cuéllar following the discovery of a previously unknown Lope de Vega play through artificial intelligence. He reflects on his international career, the challenges of philological research, and the transformative potential of AI in the study of the Spanish Golden Age."
+    url: "https://www.lagunaaldia.com/alvaro-cuellar-poder-recuperar-una-obra-del-fenix-de-los-ingenios-supone-un-regalo-para-el-patrimonio-hispanico/"
+    image: "/assets/images/outreach/laguna-al-dia.png"
+
+  - id: "outreach-lasexta-columna"
+    title:
+      es: "La obra perdida de Lope de Vega que ha 'descubierto' la inteligencia artificial"
+      en: "The Lost Play by Lope de Vega 'Discovered' by Artificial Intelligence"
+    type: "tv"
+    medium: "laSexta Columna — Atresmedia Televisión"
     date: "2024-03-15"
     description:
-      es: "Descripción del artículo destacado en español."
-      en: "Description of the featured article in English."
-    url: "https://example.com/featured-article"
-  
-  - id: "outreach-2"
+      es: "Reportaje de La Sexta Columna que analiza el hallazgo de la comedia inédita 'La francesa Laura', atribuida a Lope de Vega mediante técnicas de inteligencia artificial. Con la participación de Germán Vega y Álvaro Cuéllar."
+      en: "TV feature by La Sexta Columna examining the discovery of the previously unknown play 'La francesa Laura', attributed to Lope de Vega through artificial intelligence. Featuring Germán Vega and Álvaro Cuéllar."
+    url: "https://www.lasexta.com/programas/sexta-columna/obra-perdida-lope-vega-que-descubierto-inteligencia-artificial-como-encontramos-velazquez_2024031565f4b7f4ab79d80001a6ebc1.html"
+    image: "/assets/images/outreach/lasexta-columna-lope.jpg"
+
+
+  - id: "outreach-un-idioma-sin-fronteras"
     title:
-      es: "Entrevista en la BBC"
-      en: "Second Article Title"
-    type: "tv"
-    medium: "Programa de televisión de ejemplo"
-    date: "2024-02-20"
-    description:
-      es: "Descripción del segundo artículo en español."
-      en: "Description of the second article in English."
-    url: "https://example.com/second-article"
-  
-  - id: "outreach-3"
-    title:
-      es: "La sexta Columna"
-      en: "Third Article Title"
-    type: "article"
-    medium: "Entrevista de ejemplo"
-    date: "2024-01-10"
-    description:
-      es: "Descripción del tercer artículo en español."
-      en: "Description of the third article in English."
-    url: "https://example.com/third-article"
-  
-  - id: "La pluma"
-    title:
-      es: "Título del cuarto artículo"
-      en: "Fourth Article Title"
-    type: "tv"
-    medium: "Video de ejemplo"
-    date: "2023-12-05"
-    description:
-      es: "Descripción del cuarto artículo en español."
-      en: "Description of the fourth article in English."
-    url: "https://example.com/fourth-article"
-  
-  - id: "outreach-5"
-    title:
-      es: "Título del quinto artículo"
-      en: "Fifth Article Title"
+      es: "Estilometría: conversación con Álvaro Cuéllar"
+      en: "Stylometry: A Conversation with Álvaro Cuéllar"
     type: "interview"
-    medium: "Podcast de ejemplo"
-    date: "2023-11-15"
+    medium: "RTVE — Un idioma sin fronteras (Radio Exterior de España)"
+    date: "2023-11-11"
     description:
-      es: "Descripción del quinto artículo en español."
-      en: "Description of the fifth article in English."
-    url: "https://example.com/fifth-article"
-  
-  - id: "outreach-6"
-    title:
-      es: "Título del sexto artículo"
-      en: "Sixth Article Title"
-    type: "tv"
-    medium: "Taller de ejemplo"
-    date: "2023-10-25"
-    description:
-      es: "Descripción del sexto artículo en español."
-      en: "Description of the sixth article in English."
-    url: "https://example.com/sixth-article"
-  
-  - id: "outreach-7"
-    title:
-      es: "Título del séptimo artículo"
-      en: "Seventh Article Title"
-    type: "article"
-    medium: "Conferencia de ejemplo"
-    date: "2023-09-30"
-    description:
-      es: "Descripción del séptimo artículo en español."
-      en: "Description of the seventh article in English."
-    url: "https://example.com/seventh-article"
-  
-  - id: "outreach-8"
-    title:
-      es: "Título del octavo artículo"
-      en: "Eighth Article Title"
-    type: "tv"
-    medium: "Webinar de ejemplo"
-    date: "2023-08-20"
-    description:
-      es: "Descripción del octavo artículo en español."
-      en: "Description of the eighth article in English."
-    url: "https://example.com/eighth-article"
+      es: "Entrevista radiofónica en la que Álvaro Cuéllar explica cómo la inteligencia artificial y la estilometría permiten atribuir autorías, leer manuscritos complejos y fechar textos del Siglo de Oro. Entre los hallazgos destaca la identificación de La francesa Laura como obra de Lope de Vega."
+      en: "Radio interview where Álvaro Cuéllar explains how artificial intelligence and stylometry help attribute authorship, read complex manuscripts, and date Spanish Golden Age texts. Among the discoveries is the identification of La francesa Laura as a play by Lope de Vega."
+    url: "https://www.rtve.es/play/audios/un-idioma-sin-fronteras/estilometria-alvaro-cuellar/7006620/"
+    image: "/assets/images/outreach/un-idioma-sin-fronteras.png"
+
+
+
+ 
