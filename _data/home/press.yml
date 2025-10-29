@@ -33,18 +33,1175 @@ subtitle:
 
 # IDs de artículos destacados (se mostrarán primero con badge especial)
 featured:
-  - "press"
-  - "press"
 
+  - "press43"
+  - "press72"
+  - "press63"
+  - "press73"
+  - "press79"
+  - "press80"
+  - "press77"
+  - "press22"
+  - "press48"
+  - "press70"
+  - "press10"
+  - "press45"
+  - "press69"
+  
 articles:
 
 
+  - id: "press80"
+    title:
+      es: "الذكاء الاصطناعي يكشف مسرحية مجهولة لكاتب إسباني شهير"
+      en: "Artificial Intelligence Uncovers an Unknown Play by a Famous Spanish Writer"
+    outlet: "Sky News Arabia (الإمارات العربية المتحدة)"
+    author: "وكالات - أبوظبي"
+    date: "2023-02-01"
+    url: "https://www.skynewsarabia.com/technology/1593052-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D9%85%D8%B3%D8%B1%D8%AD%D9%8A%D8%A9-%D9%85%D8%AC%D9%87%D9%88%D9%84%D8%A9-%D9%84%D9%83%D8%A7%D8%AA%D8%A8-%D8%A7%D9%95%D8%B3%D8%A8%D8%A7%D9%86%D9%8A-%D8%B4%D9%87%D9%8A%D8%B1"
+    thumbnail: "/assets/images/press/80.png"
+    type: "press"
+    summary:
+      es: "El canal internacional Sky News Arabia informó sobre el descubrimiento de La francesa Laura, una obra inédita de Lope de Vega identificada mediante inteligencia artificial. El artículo explica que la Biblioteca Nacional de España y un equipo de las universidades de Viena y Valladolid transcribieron más de 1.300 manuscritos anónimos con IA, confirmando la autoría del dramaturgo barroco. El texto será publicado por la editorial Gredos en los meses siguientes."
+      en: "The international outlet Sky News Arabia reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article explains that Spain’s National Library and a team from the Universities of Vienna and Valladolid used AI to transcribe over 1,300 anonymous manuscripts, confirming the authorship of the Baroque playwright. The play is set to be published by Gredos in the coming months."
+
+
+
+  - id: "press79"
+    title:
+      es: "AI轉錄匿名作 揭藏珍貴劇本"
+      en: "AI Transcribes Anonymous Work and Reveals a Precious Play"
+    outlet: "東方日報 (Oriental Daily News, Hong Kong)"
+    author: "Redacción 東方日報"
+    date: "2023-02-03"
+    url: "https://orientaldaily.on.cc/content/%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B/odn-20230203-0203_00180_082/AI%E8%BD%89%E9%8C%84%E5%8C%BF%E5%90%8D%E4%BD%9C--%E6%8F%AD%E8%97%8F%E7%8F%8D%E8%B2%B4%E5%8A%87%E6%9C%AC"
+    thumbnail: "/assets/images/press/79.png"
+    type: "press"
+    summary:
+      es: "El diario hongkonés Oriental Daily News informó que un equipo internacional utilizó inteligencia artificial para transcribir 1.300 manuscritos anónimos conservados en la Biblioteca Nacional de España, descubriendo entre ellos una obra inédita de Lope de Vega titulada La francesa Laura. El artículo detalla que investigadores de las universidades de Viena y Valladolid confirmaron la autoría del dramaturgo a partir del análisis del vocabulario y el estilo, destacando el valor de la pieza como ejemplo de su producción tardía."
+      en: "The Hong Kong newspaper Oriental Daily News reported that an international team used artificial intelligence to transcribe 1,300 anonymous manuscripts from Spain’s National Library, discovering among them an unpublished play by Lope de Vega titled La Francesa Laura. The article notes that researchers from the Universities of Vienna and Valladolid confirmed the playwright’s authorship through stylistic and lexical analysis, highlighting the play’s importance as a mature work from his later period."
+
+
+
+  - id: "press78"
+    title:
+      pt: "Inteligência artificial revela peça desconhecida de autor espanhol em biblioteca"
+      es: "La inteligencia artificial revela una obra desconocida de un autor español en una biblioteca"
+      en: "Artificial Intelligence Reveals Unknown Play by Spanish Author in Library"
+    outlet: "Época Negócios (Brasil)"
+    author: "Agência Reuters"
+    date: "2023-01-31"
+    url: "https://epocanegocios.globo.com/tecnologia/noticia/2023/01/inteligencia-artificial-revela-peca-desconhecida-de-autor-espanhol-em-biblioteca.ghtml"
+    thumbnail: "/assets/images/press/78.png"
+    type: "press"
+    summary:
+      es: "El medio brasileño Época Negócios, del grupo Globo, informó sobre el hallazgo de La francesa Laura, una comedia anónima de Lope de Vega descubierta mediante inteligencia artificial. El artículo, basado en una nota de Reuters, detalla que investigadores de la Biblioteca Nacional de España emplearon IA para transcribir manuscritos del Siglo de Oro, confirmando la autoría del dramaturgo tras cotejar el estilo y vocabulario con más de 350 autores contemporáneos."
+      en: "The Brazilian outlet Época Negócios, part of the Globo media group, reported on the discovery of La Francesa Laura, an anonymous comedy by Lope de Vega identified through artificial intelligence. The article, based on a Reuters report, explains that researchers from Spain’s National Library used AI to transcribe Golden Age manuscripts, confirming the playwright’s authorship by comparing style and vocabulary with over 350 contemporaneous authors."
+
+  - id: "press77"
+    title:
+      es: "Inteligência Artificial ajuda a descobrir peça de autor clássico espanhol"
+      en: "Artificial Intelligence Helps Uncover a Play by a Classical Spanish Author"
+    outlet: "SÁBADO (Portugal)"
+    author: "Diogo Barreto"
+    date: "2023-01-31"
+    url: "https://www.sabado.pt/gps/livros/detalhe/inteligencia-artificial-ajuda-a-descobrir-peca-de-autor-classico-espanhol"
+    thumbnail: "/assets/images/press/77.png"
+    type: "press"
+    summary:
+      es: "La revista portuguesa SÁBADO informó sobre el hallazgo de La francesa Laura, una comedia anónima de Lope de Vega descubierta mediante inteligencia artificial. El artículo explica que investigadores de Viena y Valladolid utilizaron un programa de IA para transcribir más de mil manuscritos de la Biblioteca Nacional de España, confirmando luego la autoría de Lope a través del análisis estilístico y filológico. La pieza será publicada por la editorial Gredos."
+      en: "The Portuguese magazine SÁBADO reported on the discovery of La Francesa Laura, an anonymous comedy by Lope de Vega uncovered through artificial intelligence. The article explains that researchers from Vienna and Valladolid used an AI program to transcribe over a thousand manuscripts from Spain’s National Library, later confirming Lope’s authorship through stylistic and philological analysis. The play will be published by Gredos."
+
+
+  - id: "press76"
+    title:
+      es: "Spektakulärer Fund mithilfe von künstlicher Intelligenz: 'Als ob plötzlich ein Text von Schiller auftauchen würde'"
+      en: "Spectacular Discovery Using Artificial Intelligence: 'As If a Text by Schiller Had Suddenly Appeared'"
+    outlet: "Salzburger Nachrichten (Austria)"
+    author: "Clemens Panagl"
+    date: "2023-02-20"
+    url: "https://www.sn.at/kultur/allgemein/spektakulaerer-fund-mithilfe-von-kuenstlicher-intelligenz-als-ob-ploetzlich-ein-text-von-schiller-auftauchen-wuerde-134327554"
+    thumbnail: "/assets/images/press/76.png"
+    type: "press"
+    summary:
+      es: "El diario austríaco Salzburger Nachrichten publicó un reportaje firmado por Clemens Panagl sobre el hallazgo de La francesa Laura, una obra anónima identificada como de Lope de Vega mediante inteligencia artificial. El artículo destaca la relevancia del descubrimiento realizado por el equipo de la Universidad de Viena y la Biblioteca Nacional de España, y lo compara con el impacto que tendría encontrar un texto desconocido de Schiller. La investigación fue dirigida por Álvaro Cuéllar y Germán Vega, responsables del proyecto ETSO."
+      en: "The Austrian newspaper Salzburger Nachrichten published a feature by Clemens Panagl about the discovery of La Francesa Laura, an anonymous play identified as a work by Lope de Vega through artificial intelligence. The article highlights the importance of the find made by researchers at the University of Vienna and the Spanish National Library, comparing it to the discovery of an unknown text by Schiller. The research was led by Álvaro Cuéllar and Germán Vega, heads of the ETSO project."
+
+
+
+  - id: "press75"
+    title:
+      es: "Historický objev. Neznámou divadelní hru Lope de Vegy objevila umělá inteligence"
+      en: "Historic Discovery: Unknown Play by Lope de Vega Found by Artificial Intelligence"
+    outlet: "Echo24.cz (República Checa)"
+    author: "Echo24 / ČTK"
+    date: "2023-02-01"
+    url: "https://www.echo24.cz/a/HzvsP/zpravy-domaci-historicky-objev-divadelni-hra-spanelsky-klasik-lope-de-vega-objevila-umela-inteligence"
+    thumbnail: "/assets/images/press/75.png"
+    type: "press"
+    summary:
+      es: "El diario checo Echo24.cz publicó un artículo sobre el hallazgo de La francesa Laura, una comedia perdida de Lope de Vega identificada por inteligencia artificial. El texto explica que investigadores de las universidades de Viena y Valladolid transcribieron más de 1.300 manuscritos anónimos de la Biblioteca Nacional de España con ayuda de Transkribus, y que el programa Stylo atribuyó la obra al dramaturgo, confirmándose después mediante métodos filológicos. La pieza será publicada por Gredos."
+      en: "The Czech newspaper Echo24.cz reported on the discovery of La Francesa Laura, a lost play by Lope de Vega identified through artificial intelligence. The article explains that researchers from the Universities of Vienna and Valladolid transcribed over 1,300 anonymous manuscripts from Spain’s National Library using Transkribus, and that the Stylo program attributed the work to the playwright, later confirmed through philological analysis. The play will be published by Gredos."
+
+
+
+  - id: "press74"
+    title:
+      es: "В Испании найдена неизвестная пьеса Лопе де Вега"
+      en: "Unknown Play by Lope de Vega Found in Spain"
+    outlet: "Аргументы и Факты (Aif.ru)"
+    author: "Redacción AиФ / Reuters"
+    date: "2023-01-31"
+    url: "https://aif.ru/culture/v_ispanii_naydena_neizvestnaya_pesa_lope_de_vega"
+    thumbnail: "/assets/images/press/74.png"
+    type: "press"
+    summary:
+      es: "El periódico ruso Аргументы и Факты (Arguments and Facts) publicó una nota basada en Reuters sobre el hallazgo de La francesa Laura, una obra inédita de Lope de Vega identificada mediante inteligencia artificial. El artículo explica que la Biblioteca Nacional de España conservaba una copia manuscrita del siglo XVII y que el análisis computacional, tras comparar cientos de comedias del Siglo de Oro, confirmó su autoría pocos años antes de la muerte del dramaturgo."
+      en: "The Russian newspaper Arguments and Facts (Aif.ru) published a Reuters-based article reporting the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The piece explains that Spain’s National Library preserved a 17th-century manuscript copy, and that computational analysis comparing hundreds of Golden Age plays confirmed its authorship a few years before the playwright’s death."
+
+
+
+  - id: "press73"
+    title:
+      es: "Искусственный интеллект обнаружил утраченную пьесу Лопе де Вега"
+      en: "Artificial Intelligence Discovers a Lost Play by Lope de Vega"
+    outlet: "Газета.Ru (Gazeta.Ru)"
+    author: "Максим Воронежский (Maksim Voronezhsky)"
+    date: "2023-02-05"
+    url: "https://www.gazeta.ru/culture/news/2023/02/05/19665517.shtml"
+    thumbnail: "/assets/images/press/73.png"
+    type: "press"
+    summary:
+      es: "El periódico ruso Gazeta.Ru publicó un artículo de Maksim Voronezhsky sobre el descubrimiento de La francesa Laura, una obra perdida de Lope de Vega identificada mediante inteligencia artificial. El texto explica que los investigadores analizaron más de 1.300 piezas teatrales anónimas con herramientas de IA que compararon el lenguaje de las obras con el de 350 dramaturgos. Los resultados atribuyeron la comedia a Lope de Vega, hipótesis que fue luego confirmada por análisis filológicos tradicionales."
+      en: "The Russian newspaper Gazeta.Ru published an article by Maksim Voronezhsky on the discovery of La Francesa Laura, a lost play by Lope de Vega identified through artificial intelligence. The article explains that researchers analyzed over 1,300 anonymous plays using AI tools that compared linguistic patterns with those of 350 playwrights. The results attributed the comedy to Lope de Vega, a conclusion later confirmed through traditional philological analysis."
+
+
+
+
+  - id: "press72"
+    title:
+      es: "Une intelligence artificielle découvre une pièce inédite de Lope de Vega"
+      en: "An Artificial Intelligence Discovers an Unpublished Play by Lope de Vega"
+    outlet: "Le Figaro (France)"
+    author: "Mathieu de Taillac"
+    date: "2023-02-07"
+    url: "https://www.lefigaro.fr/livres/une-intelligence-artificielle-decouvre-une-piece-inedite-de-lope-de-vega-20230202"
+    thumbnail: "/assets/images/press/72.png"
+    type: "press"
+    summary:
+      es: "El diario francés Le Figaro publicó un artículo de Mathieu de Taillac sobre el hallazgo de La francesa Laura, una comedia inédita de Lope de Vega identificada gracias a la inteligencia artificial. El texto explica cómo los investigadores Álvaro Cuéllar y Germán Vega aplicaron análisis estilométricos mediante los programas Transkribus y Stylo dentro del proyecto ETSO, en colaboración con la Biblioteca Nacional de España. El reportaje destaca el valor de la IA como herramienta para la investigación filológica y la recuperación de textos perdidos del Siglo de Oro."
+      en: "The French newspaper Le Figaro published an article by Mathieu de Taillac on the discovery of La Francesa Laura, an unpublished comedy by Lope de Vega identified through artificial intelligence. The report explains how researchers Álvaro Cuéllar and Germán Vega used stylometric analysis with the Transkribus and Stylo programs within the ETSO project, in collaboration with Spain’s National Library. The article emphasizes the role of AI as a key tool for philological research and the recovery of lost Golden Age texts."
+
+
+  - id: "press71"
+    title:
+      es: "Une IA redécouvre une œuvre perdue de Lope de Vega"
+      en: "An AI Rediscovers a Lost Work by Lope de Vega"
+    outlet: "ActuaLitté (France)"
+    author: "Barbara Fasseur"
+    date: "2023-02-09"
+    url: "https://actualitte.com/article/110070/archives/une-ia-redecouvre-une-oeuvre-perdue-de-lope-de-vega"
+    thumbnail: "/assets/images/press/71.png"
+    type: "press"
+    summary:
+      es: "El medio francés ActuaLitté publicó un reportaje de Barbara Fasseur sobre el descubrimiento de La francesa Laura, una obra perdida de Lope de Vega identificada mediante inteligencia artificial. El artículo describe cómo los investigadores Álvaro Cuéllar y Germán Vega emplearon las herramientas Transkribus y Stylo dentro del proyecto ETSO para analizar más de 1.300 manuscritos del Siglo de Oro, confirmando la autoría a través de pruebas estilométricas y filológicas. La pieza, escrita hacia 1630, será publicada por la editorial Gredos."
+      en: "The French outlet ActuaLitté published a report by Barbara Fasseur on the discovery of La Francesa Laura, a lost work by Lope de Vega identified through artificial intelligence. The article details how researchers Álvaro Cuéllar and Germán Vega used the Transkribus and Stylo tools within the ETSO project to analyze over 1,300 Golden Age manuscripts, confirming the authorship through stylometric and philological analysis. The play, written around 1630, is set to be published by Gredos."
+
+  - id: "press70"
+    title:
+      es: "AI discovers lost play by Félix Lope de Vega"
+      en: "AI Discovers Lost Play by Félix Lope de Vega"
+    outlet: "The Times (UK)"
+    author: "The Times Technology Desk"
+    date: "2023-01-31"
+    url: "https://www.thetimes.com/business-money/technology/article/ai-discovers-lost-play-by-felix-lope-de-vega-ln7gds08d"
+    thumbnail: "/assets/images/press/70.png"
+    type: "press"
+    summary:
+      es: "El prestigioso diario británico The Times informó sobre el hallazgo de La francesa Laura, una comedia perdida de Lope de Vega identificada mediante inteligencia artificial. El artículo explica cómo los investigadores Álvaro Cuéllar y Germán Vega, a través del proyecto ETSO, emplearon herramientas de aprendizaje automático y análisis estilométrico para atribuir la obra al dramaturgo del Siglo de Oro, destacando el papel de la Biblioteca Nacional de España y la colaboración internacional en este descubrimiento."
+      en: "The prestigious British newspaper The Times reported on the discovery of La Francesa Laura, a lost comedy by Lope de Vega identified through artificial intelligence. The article explains how researchers Álvaro Cuéllar and Germán Vega, through the ETSO project, used machine-learning and stylometric analysis tools to attribute the play to the Golden Age dramatist, highlighting the role of Spain’s National Library and international collaboration in this discovery."
+
+
+
+  - id: "press69"
+    title:
+      es: "Lope de Vega: Lost play by ‘Shakespeare of Spain’ found in library"
+      en: "Lope de Vega: Lost Play by ‘Shakespeare of Spain’ Found in Library"
+    outlet: "The Times (UK)"
+    author: "Isambard Wilkinson"
+    date: "2021-06-01"
+    url: "https://www.thetimes.com/world/europe/article/lope-de-vega-lost-play-shakespeare-spain-found-library-madrid-tph3hpfjs"
+    thumbnail: "/assets/images/press/69.png"
+    type: "press"
+    summary:
+      es: "Un artículo de The Times informa sobre el descubrimiento por Abraham Madroñal de una obra perdida de Lope de Vega, titulada “Yo he hecho lo que he podido y Fortuna lo que ha querido”, que habría sido escrita alrededor de 1634-1635 y atribuida a Lope mediante el análisis filológico y reforzada con las pruebas de Álvaro Cuéllar y Germán Vega."
+      en: "An article in The Times reports on the discovery by Abraham Madroñal of a lost play by Lope de Vega, titled “I Did What I Could, Fortune What She Wanted”, believed to have been written around 1634–1635 and attributed to Lope through philological analysis, later reinforced by the evidence provided by Álvaro Cuéllar and Germán Vega."
+
+
+  - id: "press68"
+    title:
+      es: "Descubren con IA nueva comedia de Lope de Vega en la Biblioteca Nacional"
+      en: "AI Uncovers a New Comedy by Lope de Vega in Spain’s National Library"
+    outlet: "La Jornada"
+    author: "Europa Press"
+    date: "2023-02-05"
+    url: "https://www.jornada.com.mx/2023/02/05/cultura/a03n2cul"
+    thumbnail: "/assets/images/press/68.png"
+    type: "press"
+    summary:
+      es: "El diario mexicano La Jornada publicó un artículo firmado por Europa Press sobre el descubrimiento de La francesa Laura, una comedia anónima atribuida a Lope de Vega mediante inteligencia artificial. El texto detalla el uso de la herramienta Transkribus para transcribir automáticamente 1.300 obras del Siglo de Oro y los análisis del proyecto ETSO, dirigido por Álvaro Cuéllar y Germán Vega, que confirmaron la autoría a través de métodos estilométricos y filológicos."
+      en: "The Mexican newspaper La Jornada published an article by Europa Press on the discovery of La Francesa Laura, an anonymous comedy attributed to Lope de Vega through artificial intelligence. The piece details the use of the Transkribus tool to automatically transcribe 1,300 Golden Age plays and the analyses of the ETSO project, led by Álvaro Cuéllar and Germán Vega, which confirmed the authorship through stylometric and philological methods."
+
+
+
+  - id: "press67"
+    title:
+      es: "Gracias a la inteligencia artificial descubren una obra inédita de Lope de Vega"
+      en: "Artificial Intelligence Leads to the Discovery of an Unpublished Play by Lope de Vega"
+    outlet: "Newsweek Argentina"
+    author: "Rolando Klempert"
+    date: "2023-01-31"
+    url: "https://www.newsweek.com.ar/tecnologia/gracias-a-la-inteligencia-artificial-descubren-una-obra-inedita-de-lope-de-vega/"
+    thumbnail: "/assets/images/press/67.png"
+    type: "press"
+    summary:
+      es: "La revista Newsweek Argentina informó sobre el hallazgo de La francesa Laura, una obra inédita de Lope de Vega descubierta mediante inteligencia artificial. El artículo explica que investigadores de las universidades de Viena y Valladolid utilizaron la herramienta Transkribus para transcribir 1.300 manuscritos anónimos de la Biblioteca Nacional de España y, posteriormente, confirmar la autoría a través de análisis filológicos. También destaca la próxima edición del texto por el sello Gredos."
+      en: "The magazine Newsweek Argentina reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article explains that researchers from the universities of Vienna and Valladolid used the Transkribus tool to transcribe 1,300 anonymous manuscripts from Spain’s National Library and later confirmed the authorship through philological analysis. It also notes that the play will soon be published by Gredos."
+
+
+  - id: "press66"
+    title:
+      es: "La inteligencia artificial le atribuye a Lope de Vega una obra anónima"
+      en: "Artificial Intelligence Attributes an Anonymous Play to Lope de Vega"
+    outlet: "Página/12"
+    author: "Redacción Página/12"
+    date: "2023-01-31"
+    url: "https://www.pagina12.com.ar/520155-la-inteligencia-artificial-le-atribuye-a-lope-de-vega-una-ob"
+    thumbnail: "/assets/images/press/66.png"
+    type: "press"
+    summary:
+      es: "El diario argentino Página/12 publicó una nota sobre el hallazgo de La francesa Laura, una comedia anónima atribuida a Lope de Vega mediante inteligencia artificial. El artículo detalla la colaboración entre las universidades de Valladolid, Viena y la Autónoma de Barcelona, así como el uso de la herramienta Transkribus y los análisis estilométricos del proyecto ETSO, dirigidos por Álvaro Cuéllar y Germán Vega. El texto también resalta la defensa de la mujer presente en la obra y su contexto político en la Francia del siglo XVII."
+      en: "The Argentine newspaper Página/12 published a piece on the discovery of La Francesa Laura, an anonymous comedy attributed to Lope de Vega through artificial intelligence. The article details the collaboration between the universities of Valladolid, Vienna, and the Autonomous University of Barcelona, as well as the use of the Transkribus tool and the stylometric analyses of the ETSO project, led by Álvaro Cuéllar and Germán Vega. It also highlights the play’s defense of women and its political context in seventeenth-century France."
+
+
+  - id: "press65"
+    title:
+      es: "Por medio de Inteligencia Artificial se reveló una pieza inédita del dramaturgo español Lope de Vega"
+      en: "Artificial Intelligence Reveals an Unpublished Play by Spanish Playwright Lope de Vega"
+    outlet: "Infobae (Leamos)"
+    author: "Redacción Infobae Cultura"
+    date: "2023-02-07"
+    url: "https://www.infobae.com/leamos/2023/02/07/por-medio-de-inteligencia-artificial-se-revelo-una-pieza-inedita-del-dramaturgo-espanol-lope-de-vega/"
+    thumbnail: "/assets/images/press/65.png"
+    type: "press"
+    summary:
+      es: "El portal internacional Infobae, en su sección cultural Leamos, informó sobre el descubrimiento de La francesa Laura, una comedia inédita de Lope de Vega identificada mediante inteligencia artificial. El artículo explica cómo los investigadores Álvaro Cuéllar y Germán Vega, en colaboración con la Biblioteca Nacional de España, utilizaron la herramienta Transkribus y técnicas de aprendizaje automático dentro del proyecto ETSO para transcribir y analizar miles de manuscritos del Siglo de Oro, confirmando la autoría del dramaturgo."
+      en: "The international outlet Infobae, through its cultural section Leamos, reported on the discovery of La Francesa Laura, an unpublished comedy by Lope de Vega identified through artificial intelligence. The article explains how researchers Álvaro Cuéllar and Germán Vega, in collaboration with Spain’s National Library, used the Transkribus tool and machine-learning techniques within the ETSO project to transcribe and analyze thousands of Golden Age manuscripts, confirming the playwright’s authorship."
+
+
+  - id: "press64"
+    title:
+      es: "Maschineller Stilvergleich: KI entdeckt Komödie von Lope de Vega"
+      en: "Machine Style Comparison: AI Discovers Comedy by Lope de Vega"
+    outlet: "heise online"
+    author: "Stefan Krempl"
+    date: "2023-02-07"
+    url: "https://www.heise.de/news/Maschineller-Stilvergleich-KI-entdeckt-Komoedie-von-Lope-de-Vega-7486980.html"
+    thumbnail: "/assets/images/press/64.png"
+    type: "press"
+    summary:
+      es: "El portal tecnológico alemán heise online informó sobre el descubrimiento de La francesa Laura, una comedia anónima atribuida a Lope de Vega gracias al uso de inteligencia artificial. El artículo explica cómo los investigadores Álvaro Cuéllar (Universidad de Viena) y Germán Vega García-Luengos (Universidad de Valladolid) emplearon la herramienta Transkribus para transcribir automáticamente más de 1.300 manuscritos del Siglo de Oro, y posteriormente usaron las plataformas ETSO y Stylo para comparar los textos y confirmar la autoría. El hallazgo, respaldado por análisis filológicos tradicionales, representa un importante avance en la aplicación de la IA a la investigación literaria."
+      en: "The German technology magazine heise online reported on the discovery of La Francesa Laura, an anonymous comedy attributed to Lope de Vega through artificial intelligence. The article explains how researchers Álvaro Cuéllar (University of Vienna) and Germán Vega García-Luengos (University of Valladolid) used the Transkribus tool to automatically transcribe over 1,300 Golden Age manuscripts, and later employed the ETSO and Stylo platforms to compare the texts and confirm the authorship. The finding, supported by traditional philological analyses, represents a major advancement in applying AI to literary research."
+
+
+
+  - id: "press63"
+    title:
+      es: "KI entdeckt unbekanntes Stück von Spaniens Nationaldichter Lope de Vega"
+      en: "AI Discovers Unknown Play by Spain’s National Poet Lope de Vega"
+    outlet: "Der Standard"
+    author: "APA / Der Standard"
+    date: "2023-03-24"
+    url: "https://www.derstandard.at/story/2000144876542/ki-entdeckt-unbekanntes-stueck-von-spaniens-nationaldichter-lope-de-vega"
+    thumbnail: "/assets/images/press/63.png"
+    type: "press"
+    summary:
+      es: "El diario austríaco Der Standard informó sobre el descubrimiento de La francesa Laura, una comedia anónima atribuida a Lope de Vega mediante inteligencia artificial. El artículo explica cómo los investigadores Álvaro Cuéllar y Germán Vega, junto con la Universidad de Innsbruck, emplearon los programas Transkribus y Stylo en el marco del proyecto ETSO para comparar miles de textos del Siglo de Oro, destacando la magnitud del hallazgo y su potencial para futuras identificaciones de autoría en la literatura europea."
+      en: "The Austrian newspaper Der Standard reported on the discovery of La Francesa Laura, an anonymous comedy attributed to Lope de Vega through artificial intelligence. The article explains how researchers Álvaro Cuéllar and Germán Vega, together with the University of Innsbruck, used the Transkribus and Stylo programs within the ETSO project to compare thousands of Golden Age texts, emphasizing the significance of the find and its potential for future authorship discoveries across European literature."
+
+
+  - id: "press62"
+    title:
+      es: "Kriminalistik und KI: Was bleibt von Lope de Vega?"
+      en: "Forensics and AI: What Remains of Lope de Vega?"
+    outlet: "Romanistik-Blog (FID Romanistik)"
+    author: "Markus Trapp"
+    date: "2024-04-21"
+    url: "https://blog.fid-romanistik.de/2024/04/21/kriminalistik-und-ki-was-bleibt-von-lope-de-vega/"
+    thumbnail: "/assets/images/press/62.png"
+    type: "press"
+    summary:
+      es: "El Romanistik-Blog del Fachinformationsdienst Romanistik publicó un artículo de Markus Trapp que reflexiona sobre el uso combinado de técnicas forenses y de inteligencia artificial en el estudio de Lope de Vega. A partir de un reportaje de RTVE, el texto destaca las investigaciones de Álvaro Cuéllar y el descubrimiento de La francesa Laura mediante análisis estilométricos y aprendizaje automático, situando el hallazgo en el marco de las nuevas metodologías de las humanidades digitales en España."
+      en: "The Romanistik-Blog of the Fachinformationsdienst Romanistik published an article by Markus Trapp reflecting on the combined use of forensic and AI techniques in the study of Lope de Vega. Drawing from a RTVE report, it highlights Álvaro Cuéllar’s research and the discovery of La Francesa Laura through stylometric and machine-learning analysis, situating the finding within the broader context of digital humanities research in Spain."
+
+
+
+  - id: "press61"
+    title:
+      es: "La inteligencia artificial descubre una nueva obra de Lope de Vega"
+      en: "Artificial Intelligence Discovers a New Play by Lope de Vega"
+    outlet: "Antena 3 Noticias"
+    author: "Eva Navarro"
+    date: "2023-01-31"
+    url: "https://www.antena3.com/noticias/cultura/inteligencia-artificial-descubre-nueva-obra-lope-vega_2023013163d96c43fa7e600001ba8238.html"
+    thumbnail: "/assets/images/press/61.png"
+    type: "press"
+    summary:
+      es: "Antena 3 Noticias informó sobre el descubrimiento de La francesa Laura, una obra inédita de Lope de Vega identificada mediante inteligencia artificial. El artículo detalla cómo la Biblioteca Nacional de España, junto con los investigadores Álvaro Cuéllar y Germán Vega a través del proyecto ETSO, utilizó los programas Transkribus y Stylo para atribuir el texto al dramaturgo, destacando que el hallazgo podría ser el primero de muchos futuros descubrimientos gracias a la IA."
+      en: "Antena 3 News reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article details how Spain’s National Library, together with researchers Álvaro Cuéllar and Germán Vega through the ETSO project, used the Transkribus and Stylo programs to attribute the text to the playwright, highlighting that this finding may be the first of many future discoveries enabled by AI."
+
+
+  - id: "press60"
+    title:
+      es: "La obra de Lope de Vega que ha sido descubierta gracias a la inteligencia artificial"
+      en: "The Lope de Vega Play Discovered Thanks to Artificial Intelligence"
+    outlet: "El Periódico"
+    author: "EFE"
+    date: "2023-02-01"
+    url: "https://www.elperiodico.com/es/ocio-y-cultura/20230201/obra-lope-sido-descubierta-vega-82281472"
+    thumbnail: "/assets/images/press/60.png"
+    type: "press"
+    summary:
+      es: "El Periódico publicó la noticia del hallazgo de La francesa Laura, una comedia inédita de Lope de Vega identificada por medio de inteligencia artificial. El artículo explica que el descubrimiento se realizó en la Biblioteca Nacional de España gracias al proyecto ETSO, dirigido por Álvaro Cuéllar y Germán Vega, en colaboración con el grupo PROLOPE de la Universitat Autònoma de Barcelona, empleando la herramienta Transkribus y análisis filológicos para confirmar la autoría del dramaturgo."
+      en: "El Periódico reported the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article explains that the discovery was made at Spain’s National Library thanks to the ETSO project, directed by Álvaro Cuéllar and Germán Vega, in collaboration with the PROLOPE group at the Autonomous University of Barcelona, using Transkribus and philological analysis to confirm the playwright’s authorship."
+
+
+  - id: "press59"
+    title:
+      es: "Descubren obra de Lope de Vega por inteligencia artificial"
+      en: "Artificial Intelligence Discovers Lost Play by Lope de Vega"
+    outlet: "Deutsche Welle (DW)"
+    author: "EFE / Biblioteca Nacional de España"
+    date: "2023-02-06"
+    url: "https://www.dw.com/es/descubren-desconocida-obra-de-lope-de-vega-gracias-a-la-inteligencia-artificial/a-64621861"
+    thumbnail: "/assets/images/press/59.png"
+    type: "press"
+    summary:
+      es: "La cadena internacional Deutsche Welle (DW) informó sobre el descubrimiento de La francesa Laura, una comedia inédita de Lope de Vega identificada gracias a técnicas de inteligencia artificial. El artículo explica que el hallazgo fue posible gracias al proyecto ETSO, dirigido por Álvaro Cuéllar y Germán Vega, en colaboración con la Biblioteca Nacional de España y la Universidad Autónoma de Barcelona, destacando el uso de Transkribus y el análisis filológico para confirmar la autoría."
+      en: "The international broadcaster Deutsche Welle (DW) reported the discovery of La Francesa Laura, an unpublished comedy by Lope de Vega identified through artificial intelligence techniques. The article explains that the find was made possible by the ETSO project, led by Álvaro Cuéllar and Germán Vega, in collaboration with Spain’s National Library and the Autonomous University of Barcelona, highlighting the use of Transkribus and philological analysis to confirm the authorship."
+
+
+
+  - id: "press58"
+    title:
+      es: "Artificial Intelligence Retrieves Lost Work by Titan of Spain’s ‘Golden Age’"
+      en: "Artificial Intelligence Retrieves Lost Work by Titan of Spain’s ‘Golden Age’"
+    outlet: "Transcontinental Times"
+    author: "Hrishita Chatterjee"
+    date: "2023-02-06"
+    url: "https://www.transcontinentaltimes.com/artificial-intelligence-spain/"
+    thumbnail: "/assets/images/press/58.png"
+    type: "press"
+    summary:
+      es: "El medio internacional Transcontinental Times publicó un reportaje sobre el hallazgo de La francesa Laura, destacando el uso de inteligencia artificial para identificar una obra inédita de Lope de Vega. El artículo explica cómo los investigadores Álvaro Cuéllar y Germán Vega, mediante los programas Transkribus y Stylo dentro del proyecto ETSO, atribuyeron el manuscrito al dramaturgo del Siglo de Oro, subrayando el potencial de la IA para resolver problemas de autoría en la literatura clásica."
+      en: "The international outlet Transcontinental Times published a report on the discovery of La Francesa Laura, highlighting the use of artificial intelligence to identify a previously unknown play by Lope de Vega. The article explains how researchers Álvaro Cuéllar and Germán Vega, using Transkribus and Stylo within the ETSO project, attributed the manuscript to the Golden Age playwright, emphasizing AI’s potential to solve authorship problems in classical literature."
+
+
+  - id: "press57"
+    title:
+      es: "Spanish great’s unknown play uncovered by AI"
+      en: "Spanish great’s unknown play uncovered by AI"
+    outlet: "Warsaw Point"
+    author: "Warsaw Point News Desk"
+    date: "2023-02-01"
+    url: "https://warsawpoint.com/news/44919-spanish-greats-unknown-play-uncovered-by-ai.html"
+    thumbnail: "/assets/images/press/57.png"
+    type: "press"
+    summary:
+      es: "El medio polaco Warsaw Point informó sobre el descubrimiento de La francesa Laura, una obra inédita de Lope de Vega identificada gracias al uso de inteligencia artificial. El artículo explica cómo los investigadores de las universidades de Viena y Valladolid emplearon IA para transcribir más de 1.300 manuscritos anónimos de la Biblioteca Nacional de España, confirmando la autoría del dramaturgo mediante análisis filológicos."
+      en: "The Polish outlet Warsaw Point reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article describes how researchers from the universities of Vienna and Valladolid used AI to transcribe over 1,300 anonymous manuscripts from Spain’s National Library, confirming the playwright’s authorship through philological analysis."
+
+
+
+  - id: "press56"
+    title:
+      es: "Odd News Roundup: A.I. uncovers unknown play by Spanish great in library archive"
+      en: "Odd News Roundup: A.I. uncovers unknown play by Spanish great in library archive"
+    outlet: "Devdiscourse"
+    author: "Devdiscourse News Desk / Reuters"
+    date: "2023-02-01"
+    url: "https://www.devdiscourse.com/article/science-environment/2339214-reuters-odd-news-summary"
+    thumbnail: "/assets/images/press/56.png"
+    type: "press"
+    summary:
+      es: "El portal internacional Devdiscourse, especializado en desarrollo y tecnología, incluyó el hallazgo de La francesa Laura en su resumen mundial de noticias curiosas. Basado en una nota de Reuters, el artículo informa sobre el uso de inteligencia artificial por parte de los investigadores de Viena y Valladolid para atribuir a Lope de Vega una obra anónima conservada en la Biblioteca Nacional de España, subrayando el potencial de la IA en la investigación histórica."
+      en: "The international platform Devdiscourse, focused on development and technology, featured the discovery of La Francesa Laura in its global roundup of odd news. Based on a Reuters report, the article highlights how researchers from Vienna and Valladolid used artificial intelligence to attribute an anonymous manuscript held at Spain’s National Library to Lope de Vega, emphasizing AI’s potential in historical research."
+
+  - id: "press55"
+    title:
+      es: "8 things you need to know about AI this month"
+      en: "8 things you need to know about AI this month"
+    outlet: "World Economic Forum"
+    author: "Kay Firth-Butterfield"
+    date: "2023-02-08"
+    url: "https://www.weforum.org/stories/2023/02/ai-artificial-intelligence-news-february-2023/"
+    thumbnail: "/assets/images/press/55.png"
+    type: "press"
+    summary:
+      es: "El Foro Económico Mundial incluyó el descubrimiento de La francesa Laura entre las principales noticias sobre inteligencia artificial de febrero de 2023. El artículo, firmado por Kay Firth-Butterfield, destaca cómo las herramientas de IA aplicadas en la Biblioteca Nacional de España permitieron atribuir a Lope de Vega una obra desconocida, reconociendo el hallazgo como un ejemplo relevante del uso responsable de la tecnología en el ámbito cultural y académico."
+      en: "The World Economic Forum featured the discovery of La Francesa Laura among the key artificial intelligence stories of February 2023. Written by Kay Firth-Butterfield, the article highlights how AI tools applied at Spain’s National Library enabled the attribution of a previously unknown play to Lope de Vega, recognizing the finding as a significant example of the responsible use of technology in cultural and academic research."
+
+
+  - id: "press54"
+    title:
+      es: "StrangeSights: AI finds play; an axolotl museum; and, celebrating a 200th birthday"
+      en: "StrangeSights: AI finds play; an axolotl museum; and, celebrating a 200th birthday"
+    outlet: "Sight Magazine (Australia)"
+    author: "David Adams / Reuters (Emma Pinedo)"
+    date: "2023-02-01"
+    url: "https://sightmagazine.com.au/strangesights/strangesights-ai-finds-play-an-axolotl-museum-and-celebrating-a-200th/"
+    thumbnail: "/assets/images/press/54.png"
+    type: "press"
+    summary:
+      es: "La revista australiana Sight Magazine incluyó el hallazgo de La francesa Laura dentro de su sección StrangeSights, dedicada a noticias curiosas del mundo. Basado en una nota de Reuters, el artículo informa sobre la atribución de una obra inédita de Lope de Vega mediante inteligencia artificial y explica cómo los investigadores de Viena y Valladolid identificaron el texto entre más de 1.300 manuscritos anónimos conservados en la Biblioteca Nacional de España."
+      en: "The Australian publication Sight Magazine featured the discovery of La Francesa Laura in its StrangeSights section, devoted to unusual stories from around the world. Based on a Reuters report, the article describes how artificial intelligence was used to attribute a previously unknown play by Lope de Vega, detailing how researchers from Vienna and Valladolid identified the work among more than 1,300 anonymous manuscripts preserved at Spain’s National Library."
+
+
+  - id: "press53"
+    title:
+      es: "A.I. uncovers unknown play by Spanish great in library archive"
+      en: "A.I. uncovers unknown play by Spanish great in library archive"
+    outlet: "The Star (Malaysia)"
+    author: "Reuters"
+    date: "2023-02-02"
+    url: "https://www.thestar.com.my/lifestyle/culture/2023/02/02/ai-uncovers-unknown-play-by-spanish-great-in-library-archive"
+    thumbnail: "/assets/images/press/53.png"
+    type: "press"
+    summary:
+      es: "El diario malasio The Star reprodujo la noticia de Reuters sobre el hallazgo de La francesa Laura, una obra desconocida de Lope de Vega descubierta mediante inteligencia artificial en la Biblioteca Nacional de España. El artículo explica cómo los investigadores de las universidades de Viena y Valladolid transcribieron más de 1.300 manuscritos anónimos y confirmaron la autoría del dramaturgo mediante análisis filológicos, destacando la relevancia del hallazgo para los estudios del Siglo de Oro."
+      en: "The Malaysian newspaper The Star reprinted Reuters’ report on the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified through artificial intelligence at Spain’s National Library. The article explains how researchers from the universities of Vienna and Valladolid transcribed over 1,300 anonymous manuscripts and confirmed the playwright’s authorship through philological analysis, emphasizing the importance of the find for Golden Age studies."
+
+
+  - id: "press52"
+    title:
+      es: "A.I. uncovers unknown play by Spanish great in library archive"
+      en: "A.I. uncovers unknown play by Spanish great in library archive"
+    outlet: "Reuters"
+    author: "Emma Pinedo"
+    date: "2023-01-31"
+    url: "https://www.reuters.com/lifestyle/oddly-enough/ai-uncovers-unknown-play-by-spanish-great-library-archive-2023-01-31/"
+    thumbnail: "/assets/images/press/52.png"
+    type: "press"
+    summary:
+      es: "La agencia internacional Reuters publicó la noticia del descubrimiento de La francesa Laura, una obra desconocida de Lope de Vega identificada mediante inteligencia artificial en la Biblioteca Nacional de España. El artículo, firmado por Emma Pinedo, explica cómo los investigadores de las universidades de Viena y Valladolid transcribieron 1.300 manuscritos anónimos y confirmaron la autoría del dramaturgo a través de análisis filológicos posteriores. La noticia fue reproducida por numerosos medios internacionales."
+      en: "The international news agency Reuters reported on the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified through artificial intelligence at Spain’s National Library. Written by Emma Pinedo, the article describes how researchers from the universities of Vienna and Valladolid transcribed 1,300 anonymous manuscripts and confirmed the playwright’s authorship through subsequent philological analysis. The story was widely reproduced by international media outlets."
+
+
+
+  - id: "press51"
+    title:
+      es: "Naskah drama karya Lope de Vega ditemukan di perpustakaan Spanyol"
+      en: "Lope de Vega’s Play Manuscript Discovered in the Spanish National Library"
+    outlet: "ANTARA News"
+    author: "Siti Zulaikha (tr.) / Ida Nurcahyani (ed.)"
+    date: "2023-02-01"
+    url: "https://www.antaranews.com/berita/3374499/naskah-drama-karya-lope-de-vega-ditemukan-di-perpustakaan-spanyol"
+    thumbnail: "/assets/images/press/51.png"
+    type: "press"
+    summary:
+      es: "La agencia oficial de noticias de Indonesia, ANTARA News, publicó un artículo sobre el descubrimiento de La francesa Laura, una obra inédita de Lope de Vega identificada mediante inteligencia artificial en la Biblioteca Nacional de España. Basado en la información de Reuters, el texto explica cómo los investigadores Álvaro Cuéllar y Germán Vega emplearon técnicas de transcripción automática y análisis filológico para confirmar la autoría del dramaturgo del Siglo de Oro."
+      en: "Indonesia’s official news agency ANTARA News reported on the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified through artificial intelligence at Spain’s National Library. Based on Reuters information, the article describes how researchers Álvaro Cuéllar and Germán Vega used automatic transcription and philological analysis techniques to confirm the authorship of the Spanish Golden Age playwright."
+
+
+
+  - id: "press50"
+    title:
+      es: "AI Used to Uncover Author of Lost Centuries-Old Spanish Play"
+      en: "AI Used to Uncover Author of Lost Centuries-Old Spanish Play"
+    outlet: "PCMag"
+    author: "Marco Marcelline"
+    date: "2023-02-12"
+    url: "https://www.pcmag.com/news/ai-used-to-uncover-author-of-lost-centuries-old-spanish-play"
+    thumbnail: "/assets/images/press/50.png"
+    type: "press"
+    summary:
+      es: "La revista tecnológica estadounidense PCMag publicó un artículo firmado por Marco Marcelline sobre el hallazgo de La francesa Laura, una obra inédita de Lope de Vega descubierta gracias al uso de inteligencia artificial. Basándose en la información de The Guardian, el texto explica cómo los investigadores Álvaro Cuéllar y Germán Vega utilizaron las herramientas Transkribus y Stylo dentro del proyecto ETSO para atribuir la comedia al dramaturgo, destacando el potencial de la IA para resolver problemas de autoría en el teatro del Siglo de Oro."
+      en: "The US technology magazine PCMag published an article by Marco Marcelline about the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified through artificial intelligence. Drawing on reporting from The Guardian, the piece explains how researchers Álvaro Cuéllar and Germán Vega used Transkribus and Stylo within the ETSO project to attribute the comedy to the playwright, highlighting AI’s potential to solve authorship problems in Spain’s Golden Age theatre."
+
+
+
+  - id: "press49"
+    title:
+      es: "AI identifies 16th century lost work by Spanish Golden Age author"
+      en: "AI identifies 16th century lost work by Spanish Golden Age author"
+    outlet: "TechCircle"
+    author: "Shraddha Goled"
+    date: "2023-02-06"
+    url: "https://www.techcircle.in/2023/02/06/a-16-century-lost-work-by-spain-s-golden-age-author-identified-by-ai"
+    thumbnail: "/assets/images/press/49.png"
+    type: "press"
+    summary:
+      es: "El medio tecnológico indio TechCircle, perteneciente al grupo HT Media Limited, informó sobre el descubrimiento de La francesa Laura, una obra inédita de Lope de Vega identificada mediante inteligencia artificial. El artículo explica cómo el proyecto ETSO, dirigido por Álvaro Cuéllar y Germán Vega, utilizó la herramienta Transkribus para transcribir 1.300 manuscritos anónimos y compararlos con un corpus de 350 autores del Siglo de Oro, confirmando la autoría de Lope. La nota destaca la relevancia del hallazgo para la aplicación del aprendizaje automático en la investigación literaria histórica."
+      en: "The Indian technology outlet TechCircle, part of the HT Media Limited group, reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified through artificial intelligence. The article describes how the ETSO project, led by Álvaro Cuéllar and Germán Vega, used the Transkribus platform to transcribe 1,300 anonymous manuscripts and compare them with a corpus of 350 Golden Age authors, confirming Lope’s authorship. The piece highlights the significance of the find for the application of machine learning in historical literary research."
+
+
+  - id: "press48"
+    title:
+      es: "AI Unveils Unknown Play by Spanish Great in Library"
+      en: "AI Unveils Unknown Play by Spanish Great in Library"
+    outlet: "The Japan News by The Yomiuri Shimbun"
+    author: "Reuters"
+    date: "2023-02-24"
+    url: "https://japannews.yomiuri.co.jp/science-nature/technology/20230224-93156/"
+    thumbnail: "/assets/images/press/48.png"
+    type: "press"
+    summary:
+      es: "El diario japonés The Japan News, del grupo Yomiuri Shimbun, informó sobre el hallazgo de La francesa Laura en un artículo de Reuters. El texto destaca cómo la inteligencia artificial permitió descubrir una obra desconocida de Lope de Vega en la Biblioteca Nacional de España. Explica el proceso de transcripción y análisis estilométrico realizado por Álvaro Cuéllar y Germán Vega, así como la próxima publicación de la edición crítica a cargo de la editorial Gredos."
+      en: "Japan’s major newspaper The Japan News, part of The Yomiuri Shimbun group, reported on the discovery of La Francesa Laura in a Reuters article. The piece explains how artificial intelligence revealed a previously unknown play by Lope de Vega in Spain’s National Library, outlining the transcription and stylometric analysis carried out by Álvaro Cuéllar and Germán Vega, and noting the forthcoming critical edition published by Gredos."
+
+  - id: "press47"
+    title:
+      es: "Unpacking the State-of-the-Art in Handwritten Text Recognition"
+      en: "Unpacking the State-of-the-Art in Handwritten Text Recognition"
+    outlet: "Slator"
+    author: "Lucy Andresen"
+    date: "2023-08-09"
+    url: "https://slator.com/unpacking-state-of-the-art-handwritten-text-recognition/"
+    thumbnail: "/assets/images/press/47.png"
+    type: "press"
+    summary:
+      es: "El medio especializado Slator, dedicado a la inteligencia en la industria lingüística, destacó el descubrimiento de La francesa Laura dentro de un reportaje sobre los avances más recientes en reconocimiento automático de escritura manuscrita. El artículo menciona el uso de Transkribus por Álvaro Cuéllar y Germán Vega en el proyecto ETSO, subrayando cómo la inteligencia artificial permitió atribuir la obra a Lope de Vega y mostrando el potencial de estas tecnologías para la investigación filológica."
+      en: "The language industry publication Slator featured the discovery of La Francesa Laura in a broader article about state-of-the-art handwritten text recognition. It mentions how Álvaro Cuéllar and Germán Vega used Transkribus within the ETSO project, highlighting how artificial intelligence enabled the attribution of the play to Lope de Vega and illustrating the potential of such technologies for philological research."
+
+
+  - id: "press46"
+    title:
+      es: "Discovering a lost play by Lope de Vega: Álvaro Cuéllar"
+      en: "Discovering a lost play by Lope de Vega: Álvaro Cuéllar"
+    outlet: "Transkribus"
+    author: "Transkribus Team"
+    date: "2023-02-01"
+    url: "https://www.transkribus.org/en/success-story/discovering-a-lost-play-by-lope-de-vega-alvaro-cuellar"
+    thumbnail: "/assets/images/press/46.png"
+    type: "press"
+    summary:
+      es: "El sitio oficial de Transkribus publicó una extensa entrevista con Álvaro Cuéllar sobre el hallazgo de La francesa Laura. El artículo describe el proceso técnico y filológico que permitió atribuir la obra a Lope de Vega mediante herramientas de inteligencia artificial y estilometría dentro del proyecto ETSO. Cuéllar explica cómo entrenaron modelos de transcripción y modernización ortográfica en Transkribus, y cómo la combinación de estos con el análisis estilométrico confirmó la autoría del dramaturgo."
+      en: "The official Transkribus website published an in-depth interview with Álvaro Cuéllar about the discovery of La Francesa Laura. The article details the technical and philological process that led to the attribution of the play to Lope de Vega through artificial intelligence and stylometric methods within the ETSO project. Cuéllar explains how transcription and spelling-modernization models were trained in Transkribus, and how their combination with stylometric analysis confirmed the playwright’s authorship."
+
+  - id: "press45"
+    title:
+      es: "AI reveals unknown play by one of Spain’s greatest writers in library archive"
+      en: "AI reveals unknown play by one of Spain’s greatest writers in library archive"
+    outlet: "CNN"
+    author: "Reuters"
+    date: "2023-02-01"
+    url: "https://edition.cnn.com/style/article/ai-spanish-play-scli-intl"
+    thumbnail: "/assets/images/press/45.png"
+    type: "press"
+    summary:
+      es: "CNN informó, a través de Reuters, sobre el descubrimiento de La francesa Laura, una obra desconocida de Lope de Vega identificada gracias al uso de inteligencia artificial. El artículo explica que investigadores de las universidades de Viena y Valladolid emplearon IA para transcribir más de 1.300 manuscritos anónimos de la Biblioteca Nacional de España, confirmando la autoría del dramaturgo mediante análisis filológicos posteriores."
+      en: "CNN, via Reuters, reported the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified using artificial intelligence. The article explains that researchers from the universities of Vienna and Valladolid used AI to transcribe over 1,300 anonymous manuscripts from Spain’s National Library, later confirming the playwright’s authorship through traditional philological analysis."
+
+
+  - id: "press44"
+    title:
+      es: "Lost work by Spanish playwright Lope de Vega completed by AI"
+      en: "Lost work by Spanish playwright Lope de Vega completed by AI"
+    outlet: "Daily Sabah"
+    author: "Agencies (Edited by Buse Keskin)"
+    date: "2023-02-01"
+    url: "https://www.dailysabah.com/arts/lost-work-by-spanish-playwright-lope-de-vega-completed-by-ai/news"
+    thumbnail: "/assets/images/press/44.png"
+    type: "press"
+    summary:
+      es: "El periódico turco Daily Sabah informó sobre el hallazgo de La francesa Laura, una obra inédita de Lope de Vega atribuida al dramaturgo gracias al uso de inteligencia artificial. El artículo explica cómo investigadores de Viena y Valladolid emplearon herramientas digitales para transcribir y analizar más de 1.300 manuscritos anónimos de la Biblioteca Nacional de España, confirmando la autoría del célebre escritor barroco."
+      en: "The Turkish newspaper Daily Sabah reported on the discovery of La Francesa Laura, an unpublished play by Lope de Vega attributed to the playwright through artificial intelligence. The article describes how researchers from Vienna and Valladolid used digital tools to transcribe and analyze over 1,300 anonymous manuscripts from Spain’s National Library, confirming the authorship of the celebrated Baroque writer."
+
+
+  - id: "press43"
+    title:
+      es: "Artificial intelligence uncovers lost work by titan of Spain’s ‘Golden Age’"
+      en: "Artificial intelligence uncovers lost work by titan of Spain’s ‘Golden Age’"
+    outlet: "The Guardian"
+    author: "Sam Jones"
+    date: "2023-02-05"
+    url: "https://www.theguardian.com/world/2023/feb/05/artificial-intelligence-uncovers-lost-work-by-titan-of-spains-golden-age"
+    thumbnail: "/assets/images/press/43.png"
+    type: "press"
+    summary:
+      es: "El diario británico The Guardian informó sobre el hallazgo de La francesa Laura, una obra desconocida de Lope de Vega identificada gracias a la inteligencia artificial. El artículo explica cómo los investigadores Álvaro Cuéllar y Germán Vega, mediante las herramientas Transkribus y Stylo, atribuyeron la comedia al dramaturgo y destacan el potencial de la IA para descubrir más textos perdidos del Siglo de Oro."
+      en: "The Guardian reported on the discovery of La Francesa Laura, a previously unknown play by Lope de Vega identified through artificial intelligence. The article describes how researchers Álvaro Cuéllar and Germán Vega, using Transkribus and Stylo, attributed the comedy to the playwright and discussed the potential of AI to uncover more lost works from Spain’s Golden Age."
+
+
+  - id: "press42"
+    title:
+      es: "Modern Technology Unearths 400-Year-Old Comedy Penned by One of Spain’s Greatest Playwrights"
+      en: "Modern Technology Unearths 400-Year-Old Comedy Penned by One of Spain’s Greatest Playwrights"
+    outlet: "The Olive Press"
+    author: "Alex Trelinski"
+    date: "2023-01-31"
+    url: "https://www.theolivepress.es/spain-news/2023/01/31/modern-technology-unearths-400-year-old-comedy-penned-by-one-of-spains-greatest-playwrights/"
+    thumbnail: "/assets/images/press/42.png"
+    type: "press"
+    summary:
+      es: "El periódico británico The Olive Press informa sobre el hallazgo de La Francesa Laura, una comedia inédita de Lope de Vega descubierta gracias a la inteligencia artificial en la Biblioteca Nacional de España. El artículo, firmado por Alex Trelinski, explica cómo los investigadores transcribieron y analizaron más de 1.300 manuscritos para identificar esta nueva obra del dramaturgo del Siglo de Oro."
+      en: "The British newspaper The Olive Press reports on the discovery of La Francesa Laura, a previously unknown comedy by Lope de Vega, unearthed through artificial intelligence at Spain’s National Library. Written by Alex Trelinski, the article highlights how researchers transcribed and analyzed over 1,300 manuscripts, revealing a new work by the Golden Age playwright."
+
+
+
+  - id: "press41"
+    title:
+      es: "Lope de Vega, autor de una obra hasta ahora considerada anónima, como determinó una inteligencia artificial"
+      en: "Lope de Vega, Author of a Previously Anonymous Play, as Determined by Artificial Intelligence"
+    outlet: "Letralia, Tierra de Letras"
+    date: "2023-01-31"
+    url: "https://letralia.com/noticias/2023/01/31/lope-de-vega-comedia-la-francesa-laura-inteligencia-artificial/"
+    thumbnail: "/assets/images/press/41.png"
+    type: "press"
+    summary:
+      es: "La revista literaria Letralia explica cómo los investigadores Álvaro Cuéllar y Germán Vega, mediante el proyecto ETSO y el uso de Transkribus y técnicas de estilometría, atribuyeron a Lope de Vega la comedia inédita La francesa Laura. El artículo detalla el proceso de transcripción automática, el análisis filológico posterior y la publicación de los resultados en el Anuario Lope de Vega de la Universitat Autònoma de Barcelona."
+      en: "The literary magazine Letralia describes how researchers Álvaro Cuéllar and Germán Vega, through the ETSO project and the use of Transkribus and stylometric analysis, attributed the previously unknown comedy La Francesa Laura to Lope de Vega. The article details the automatic transcription process, subsequent philological analysis, and the publication of results in the Anuario Lope de Vega of the Universitat Autònoma de Barcelona."
+
+
+  - id: "press40"
+    title:
+      es: "‘La francesa Laura’, con sello vallisoletano, se estrenará en los Teatros del Canal"
+      en: "‘La Francesa Laura’, with Valladolid’s Stamp, to Premiere at Teatros del Canal"
+    outlet: "La Tribuna de Valladolid"
+    date: "2023-11-26"
+    url: "https://www.tribunavalladolid.com/noticias/351105/la-francesa-laura-con-sello-vallisoletano-se-estrenara-en-los-teatros-del-canal"
+    thumbnail: "/assets/images/press/40.png"
+    type: "press"
+    summary:
+      es: "El diario La Tribuna de Valladolid destaca el estreno de La francesa Laura en los Teatros del Canal, obra descubierta por los investigadores vallisoletanos Germán Vega y Álvaro Cuéllar mediante inteligencia artificial. El montaje, dirigido por Marta Poveda y protagonizado por la vallisoletana Sheyla Niño, presenta una lectura contemporánea y feminista sobre los celos y el amor en el Siglo de Oro."
+      en: "La Tribuna de Valladolid reports on the premiere of La Francesa Laura at Teatros del Canal, a play discovered by Valladolid researchers Germán Vega and Álvaro Cuéllar through artificial intelligence. Directed by Marta Poveda and starring Valladolid actress Sheyla Niño, the production offers a contemporary and feminist perspective on jealousy and love in Spain’s Golden Age."
+
+
+
+  - id: "press39"
+    title:
+      es: "La francesa Laura pertenece a Lope de Vega, dice la IA"
+      en: "La Francesa Laura Belongs to Lope de Vega, Says AI"
+    outlet: "CDMX en la Red"
+    date: "2023-01-31"
+    url: "https://cdmxenlared.com/que-hay-en-la-red/2023/1/31/la-francesa-laura-pertenece-lope-de-vega-dice-ai-1917.html"
+    thumbnail: "/assets/images/press/39.png"
+    type: "press"
+    summary:
+      es: "El medio mexicano CDMX en la Red destaca la investigación dirigida por Álvaro Cuéllar y Germán Vega que permitió atribuir a Lope de Vega la comedia inédita La francesa Laura. El artículo explica el uso combinado de Transkribus y Stylo para transcribir manuscritos, analizar su léxico y fechar la obra en 1628, confirmando su autoría con apoyo de especialistas en literatura del Siglo de Oro."
+      en: "The Mexican outlet CDMX en la Red highlights the research led by Álvaro Cuéllar and Germán Vega that attributed the previously anonymous comedy La Francesa Laura to Lope de Vega. The article explains how Transkribus and Stylo were used to transcribe manuscripts, analyze their lexicon, and date the play to 1628, confirming authorship with the support of Spanish Golden Age literature experts."
+
+
+
+  - id: "press38"
+    title:
+      es: "Ensayo en Almagro de La francesa Laura, obra inédita de Lope"
+      en: "Rehearsal in Almagro of La Francesa Laura, an Unpublished Play by Lope de Vega"
+    outlet: "La Tribuna de Ciudad Real"
+    date: "2023-11-06"
+    url: "https://www.latribunadeciudadreal.es/noticia/z7c6c5739-daeb-8ab6-4a7fe524ef89ceb2/202311/ensayo-en-almagro-de-la-francesa-laura-obra-inedita-de-lope"
+    thumbnail: "/assets/images/press/38.png"
+    type: "press"
+    summary:
+      es: "La Tribuna de Ciudad Real informa sobre el ensayo general de La francesa Laura en el Corral de Comedias de Almagro, dirigido por Marta Poveda y con la presencia de Álvaro Cuéllar y Germán Vega, descubridores de la obra mediante inteligencia artificial. El artículo destaca el proceso de estilometría, el uso de Transkribus y la confirmación filológica que atribuye el texto a Lope de Vega."
+      en: "La Tribuna de Ciudad Real reports on the general rehearsal of La Francesa Laura at Almagro’s Corral de Comedias, directed by Marta Poveda and attended by Álvaro Cuéllar and Germán Vega, who discovered the play using artificial intelligence. The article highlights the stylometric process, the use of Transkribus, and the philological validation confirming Lope de Vega’s authorship."
+
+
+  - id: "press37"
+    title:
+      es: "La francesa Laura no tuvo autor durante siglos. Ahora, gracias a una IA, sabemos que fue Lope de Vega"
+      en: "‘La Francesa Laura’ Had No Known Author for Centuries. Now, Thanks to AI, We Know It Was by Lope de Vega"
+    outlet: "Xataka (Webedia)"
+    date: "2023-02-01"
+    url: "https://www.xataka.com/magnet/francesa-laura-no-tuvo-autor-durante-siglos-ahora-gracias-a-ia-sabemos-que-fue-lope-vega"
+    thumbnail: "/assets/images/press/37.png"
+    type: "press"
+    summary:
+      es: "Albert Sanchis explica en Xataka cómo la inteligencia artificial permitió identificar a Lope de Vega como autor de La francesa Laura, obra que permanecía anónima en la Biblioteca Nacional. El estudio, dirigido por Álvaro Cuéllar y Germán Vega, combinó Transkribus, el corpus ETSO y la herramienta Stylo para analizar más de 1.300 comedias del Siglo de Oro y confirmar la autoría del Fénix de los Ingenios."
+      en: "Albert Sanchis reports in Xataka how artificial intelligence made it possible to identify Lope de Vega as the author of La Francesa Laura, a play that had remained anonymous in the Spanish National Library. The study, led by Álvaro Cuéllar and Germán Vega, combined Transkribus, the ETSO corpus, and the Stylo tool to analyze over 1,300 Golden Age comedies and confirm the authorship of the Phoenix of Wits."
+
+
+
+  - id: "press36"
+    title:
+      es: "El descubrimiento de La francesa Laura, una obra inédita de Lope de Vega"
+      en: "The Discovery of La Francesa Laura, an Unpublished Work by Lope de Vega"
+    outlet: "Almagro Noticias"
+    date: "2023-11-09"
+    url: "https://almagronoticias.com/el-descubrimiento-de-la-francesa-laura-una-obra-inedita-de-lope-de-vega/"
+    thumbnail: "/assets/images/press/36.png"
+    type: "press"
+    summary:
+      es: "Almagro Noticias informa sobre el hallazgo de La francesa Laura, una obra inédita de Lope de Vega identificada en la Biblioteca Nacional mediante inteligencia artificial. Dirigido por Álvaro Cuéllar y Germán Vega, el proyecto empleó técnicas estilométricas y el sistema Transkribus para confirmar la autoría. La Fundación Siglo de Oro, bajo la dirección de Marta Poveda, ensayó la pieza en el Corral de Comedias de Almagro antes de su estreno en Madrid."
+      en: "Almagro Noticias reports on the discovery of La Francesa Laura, an unpublished play by Lope de Vega identified in the Spanish National Library through artificial intelligence. Led by Álvaro Cuéllar and Germán Vega, the project used stylometric methods and the Transkribus system to confirm authorship. The Fundación Siglo de Oro, directed by Marta Poveda, rehearsed the play at Almagro’s Corral de Comedias before its premiere in Madrid."
+
+
+  - id: "press35"
+    title:
+      es: "El poder de una actriz para dar vida al Lope descubierto por la Inteligencia Artificial"
+      en: "The Power of an Actress to Bring to Life the Lope Discovered by Artificial Intelligence"
+    outlet: "El Mundo"
+    date: "2023-11-22"
+    url: "https://www.elmundo.es/madrid/2023/11/22/655d0c25e4d4d8d2478b4607.html"
+    thumbnail: "/assets/images/press/35.png"
+    type: "press"
+    summary:
+      es: "Darío Prieto relata en El Mundo cómo Marta Poveda dirige en los Teatros del Canal La francesa Laura, la obra inédita de Lope de Vega descubierta en la Biblioteca Nacional gracias a la inteligencia artificial. La actriz madrileña reflexiona sobre el poder de la palabra, la fragilidad humana y la vigencia de los conflictos emocionales que atraviesan el texto."
+      en: "Darío Prieto writes in El Mundo about Marta Poveda’s direction of La Francesa Laura at the Teatros del Canal, the newly discovered play by Lope de Vega found in the National Library thanks to artificial intelligence. The Madrid-born actress reflects on the power of language, human fragility, and the timeless emotional conflicts at the heart of the work."
+
+
+  - id: "press34"
+    title:
+      es: "La inteligencia artificial descubre una comedia desconocida de Lope de Vega en la Biblioteca Nacional"
+      en: "Artificial Intelligence Discovers an Unknown Comedy by Lope de Vega in the Spanish National Library"
+    outlet: "RTVE.es"
+    date: "2023-01-31"
+    url: "https://www.rtve.es/noticias/20230131/inteligencia-artificial-descubre-obra-desconocida-lope-vega-biblioteca-nacional/2419227.shtml"
+    thumbnail: "/assets/images/press/34.png"
+    type: "news"
+    summary:
+      es: "RTVE.es informa sobre el descubrimiento de La francesa Laura, una comedia desconocida de Lope de Vega identificada en la Biblioteca Nacional de España gracias a herramientas de inteligencia artificial. El hallazgo, liderado por Álvaro Cuéllar y Germán Vega en el marco del proyecto ETSO, se apoya en análisis estilométricos y filológicos que confirman la autoría del Fénix de los Ingenios."
+      en: "RTVE.es reports on the discovery of La Francesa Laura, an unknown comedy by Lope de Vega identified in the Spanish National Library using artificial intelligence tools. The finding, led by Álvaro Cuéllar and Germán Vega within the ETSO project, relies on stylometric and philological analyses confirming the authorship of the Phoenix of Wits."
+
+
+
+  - id: "press33"
+    title:
+      es: "La IA descubre una comedia desconocida de Lope en la BNE"
+      en: "AI Discovers an Unknown Comedy by Lope de Vega in the Spanish National Library"
+    outlet: "RTVE – Telediario 1"
+    date: "2023-01-31"
+    url: "https://www.rtve.es/play/videos/telediario-1/td1hallazolope310123/6792057/"
+    thumbnail: "/assets/images/press/33.png"
+    type: "tv"
+    summary:
+      es: "El Telediario 1 de RTVE informa sobre el hallazgo de 'La francesa Laura', una comedia de Lope de Vega identificada mediante inteligencia artificial en la Biblioteca Nacional de España. El descubrimiento, realizado por investigadores de las universidades de Valladolid y Viena, añade una nueva pieza al extenso repertorio del Fénix de los Ingenios."
+      en: "RTVE’s Telediario 1 reports on the discovery of 'La Francesa Laura', a comedy by Lope de Vega identified through artificial intelligence at the Spanish National Library. The finding, led by researchers from the Universities of Valladolid and Vienna, adds a new piece to the prolific repertoire of the Phoenix of Wits."
 
 
 
 
 
 
+  - id: "press32"
+    title:
+      es: "La novela inédita de Lope de Vega 'La francesa Laura' llega al toledano Teatro de Rojas este fin de semana"
+      en: "Lope de Vega’s Unpublished Play 'La Francesa Laura' Arrives at Toledo’s Teatro de Rojas This Weekend"
+    outlet: "Europa Press Castilla-La Mancha"
+    date: "2024-11-19"
+    url: "https://www.europapress.es/castilla-lamancha/noticia-novela-inedita-lope-vega-francesa-laura-llega-toledano-teatro-rojas-fin-semana-20241119165953.html"
+    thumbnail: "/assets/images/press/31.png"
+    type: "news"
+    summary:
+      es: "Europa Press Castilla-La Mancha informa sobre la representación de 'La francesa Laura' en el Teatro de Rojas de Toledo, con la presencia de la concejal de Cultura Ana Pérez y la directora y actriz Marta Poveda. La obra, atribuida a Lope de Vega mediante inteligencia artificial, se presenta los días 22 y 23 de noviembre."
+      en: "Europa Press Castilla-La Mancha reports on the performance of 'La Francesa Laura' at Toledo’s Teatro de Rojas, with Councillor for Culture Ana Pérez and director-actress Marta Poveda. The play, attributed to Lope de Vega through artificial intelligence, is scheduled for November 22 and 23."
+
+
+  - id: "press31"
+    title:
+      es: "La francesa Laura: Lope de Vega abandona el anonimato"
+      en: "La Francesa Laura: Lope de Vega Leaves Anonymity Behind"
+    outlet: "La Razón"
+    date: "2023-11-30"
+    url: "https://www.larazon.es/cultura/francesa-laura-lope-vega-abandona-anonimato_20231130656817d51b48c3000138f953.html"
+    thumbnail: "/assets/images/press/31.png"
+    type: "press"
+    summary:
+      es: "Raúl Losánez relata en La Razón el estreno mundial de La francesa Laura, una comedia de Lope de Vega identificada mediante inteligencia artificial por Álvaro Cuéllar y Germán Vega. La obra, dirigida por Marta Poveda y puesta en escena por la Fundación Siglo de Oro, revela la vigencia dramática y emocional del Fénix de los Ingenios cuatro siglos después."
+      en: "Raúl Losánez reports in La Razón on the world premiere of La Francesa Laura, a comedy by Lope de Vega identified through artificial intelligence by Álvaro Cuéllar and Germán Vega. Directed by Marta Poveda and staged by Fundación Siglo de Oro, the play demonstrates the dramatic and emotional vitality of the Phoenix of Wits four centuries later."
+
+
+
+
+
+  - id: "press30"
+    title:
+      es: "'La francesa Laura', la última comedia de Lope de Vega, llega a los Teatros del Canal"
+      en: "'La Francesa Laura', Lope de Vega’s Last Comedy, Premieres at Teatros del Canal"
+    outlet: "Telemadrid"
+    date: "2023-12-04"
+    url: "https://www.telemadrid.es/programas/telenoticias-1/La-francesa-Laura-la-ultima-comedia-de-Lope-de-Vega-llega-a-los-Teatros-del-Canal-2-2621157887--20231204051148.html"
+    thumbnail: "/assets/images/press/30.png"
+    type: "tv"
+    summary:
+      es: "Telemadrid informa sobre el estreno absoluto de 'La francesa Laura' en la Sala Verde de los Teatros del Canal, dirigida por Marta Poveda. El reportaje destaca que la comedia inédita de Lope de Vega fue descubierta gracias a la inteligencia artificial y permanecerá en cartel hasta el 17 de diciembre."
+      en: "Telemadrid reports on the world premiere of 'La Francesa Laura' at the Sala Verde of Teatros del Canal, directed by Marta Poveda. The segment highlights that this previously unknown comedy by Lope de Vega was discovered thanks to artificial intelligence and will run until December 17."
+
+
+  - id: "press29"
+    title:
+      es: "'La francesa Laura', la última obra inédita de Lope de Vega, llega al Teatro de Rojas"
+      en: "'La Francesa Laura', the Latest Unpublished Play by Lope de Vega, Arrives at Teatro de Rojas"
+    outlet: "Toledodiario"
+    date: "2024-11-19"
+    url: "https://toledodiario.es/la-francesa-laura-la-ultima-obra-inedita-de-lope-de-vega-llega-al-teatro-de-rojas/"
+    thumbnail: "/assets/images/press/29.png"
+    type: "news"
+    summary:
+      es: "Toledodiario anuncia la llegada al Teatro de Rojas de 'La francesa Laura', la última obra inédita descubierta de Lope de Vega. El artículo destaca la investigación de Álvaro Cuéllar y Germán Vega, el trabajo del grupo PROLOPE y la dirección e interpretación de Marta Poveda, quien se despide del papel de Laura con este montaje."
+      en: "Toledodiario reports on the arrival of 'La Francesa Laura', the latest unpublished play by Lope de Vega, at the Teatro de Rojas. The article highlights the research by Álvaro Cuéllar and Germán Vega, the contribution of the PROLOPE group, and Marta Poveda’s dual role as director and lead actress, marking her farewell performance as Laura."
+
+
+  - id: "press28"
+    title:
+      es: "La obra anónima 'La francesa Laura' que la IA atribuyó a Lope de Vega se representa en el Teatro de Rojas"
+      en: "Anonymous Play 'La Francesa Laura', Attributed to Lope de Vega by AI, Performed at Teatro de Rojas"
+    outlet: "ABC (Toledo)"
+    date: "2024-11-19"
+    url: "https://elpais.com/cultura/2023-11-28/la-obra-de-lope-de-vega-hallada-por-inteligencia-artificial-se-hace-carne.html"
+    thumbnail: "/assets/images/press/28.png"
+    type: "news"
+    summary:
+      es: "ABC Toledo informa sobre la representación de 'La francesa Laura' en el Teatro de Rojas, tras un año de gira con la Fundación Siglo de Oro. Dirigida e interpretada por Marta Poveda, la obra explora los celos y la violencia de género, y se basa en un manuscrito atribuido a Lope de Vega mediante inteligencia artificial por Álvaro Cuéllar y Germán Vega."
+      en: "ABC Toledo reports on the performance of 'La Francesa Laura' at the Teatro de Rojas after a year-long tour with Fundación Siglo de Oro. Directed and performed by Marta Poveda, the play explores jealousy and gender violence, based on a manuscript attributed to Lope de Vega through artificial intelligence by Álvaro Cuéllar and Germán Vega."
+
+
+
+  - id: "press27"
+    title:
+      es: "‘La francesa Laura’, obra de Lope de Vega identificada gracias a investigaciones de Germán Vega y Álvaro Cuéllar, se estrenó en Madrid"
+      en: "'La Francesa Laura', a Play by Lope de Vega Identified Thanks to Research by Germán Vega and Álvaro Cuéllar, Premiered in Madrid"
+    outlet: "Real Sociedad Menéndez Pelayo"
+    date: "2023-11-30"
+    url: "https://www.sociedadmenendezpelayo.es/la-francesa-laura-obra-de-lope-de-vega-identificada-gracias-a-investigaciones-de-german-vega-y-alvaro-cuellar-se-estrenara-el-dia-30-de-noviembre-en-madrid/"
+    thumbnail: "/assets/images/press/27.png"
+    type: "news"
+    summary:
+      es: "La Real Sociedad Menéndez Pelayo informa sobre el estreno en los Teatros del Canal de 'La francesa Laura', comedia de Lope de Vega identificada mediante inteligencia artificial por Álvaro Cuéllar y Germán Vega. El artículo detalla el papel del proyecto ETSO, la colaboración del grupo PROLOPE y la edición publicada por Gredos."
+      en: "The Real Sociedad Menéndez Pelayo reports on the premiere of 'La francesa Laura' at Madrid’s Teatros del Canal, a Lope de Vega comedy identified through artificial intelligence by Álvaro Cuéllar and Germán Vega. The article highlights the ETSO project, the collaboration with the PROLOPE group, and the edition published by Gredos."
+
+
+  - id: "press26"
+    title:
+      es: "«La Francesa Laura», una obra inédita de Lope de Vega que estrenará la compañía teatral Fundación Siglo de Oro"
+      en: "'La Francesa Laura', an Unpublished Play by Lope de Vega to Be Premiered by Fundación Siglo de Oro"
+    outlet: "El Debate"
+    date: "2023-11-12"
+    url: "https://www.eldebate.com/cultura/teatro-y-artes-escenicas/20231112/francesa-laura-obra-inedita-lope-vega-ensaya-corral-comedias-almagro_151942.html"
+    thumbnail: "/assets/images/press/26.png"
+    type: "news"
+    summary:
+      es: "El Debate anuncia el próximo estreno de 'La Francesa Laura', obra inédita de Lope de Vega descubierta en la Biblioteca Nacional de España mediante inteligencia artificial. El artículo describe el hallazgo realizado por Álvaro Cuéllar y Germán Vega, así como el montaje dirigido por Marta Poveda, ensayado en el Corral de Comedias de Almagro antes de su estreno en los Teatros del Canal."
+      en: "El Debate reports on the upcoming premiere of 'La Francesa Laura', an unpublished play by Lope de Vega discovered at the National Library of Spain through artificial intelligence. The article details the research by Álvaro Cuéllar and Germán Vega, and the stage production directed by Marta Poveda, rehearsed at the Corral de Comedias de Almagro before its debut at Teatros del Canal."
+
+
+  - id: "press25"
+    title:
+      es: "Fundación Siglo de Oro estrena la obra inédita de Lope de Vega «La francesa Laura»"
+      en: "Fundación Siglo de Oro Premieres Lope de Vega’s Unpublished Play 'La francesa Laura'"
+    outlet: "Revista TEATROS"
+    date: "2023-11-30"
+    url: "https://www.revistateatros.es/actualidad/fundacion-siglo-de-oro-estrena-la-obra-inedita-de-lope-de-vega-la-francesa-laura/"
+    thumbnail: "/assets/images/press/25.png"
+    type: "news"
+    summary:
+      es: "La revista TEATROS anuncia el estreno de 'La francesa Laura', una comedia inédita de Lope de Vega puesta en escena por la Fundación Siglo de Oro bajo la dirección de Marta Poveda. El artículo destaca la colaboración entre Álvaro Cuéllar y Germán Vega en el descubrimiento de la obra gracias al uso de inteligencia artificial y su edición crítica publicada por Gredos."
+      en: "The magazine TEATROS reports on the premiere of 'La francesa Laura', an unpublished comedy by Lope de Vega staged by Fundación Siglo de Oro under the direction of Marta Poveda. The article highlights the collaboration between Álvaro Cuéllar and Germán Vega in the discovery of the play through artificial intelligence and its scholarly edition published by Gredos."
+
+  - id: "press24"
+    title:
+      es: "'La francesa Laura' y la Biblioteca Nacional de España"
+      en: "'La Francesa Laura' and the National Library of Spain"
+    outlet: "Radio Nacional de España – El ojo crítico"
+    date: "2023-01-31"
+    url: "https://www.rtve.es/play/audios/el-ojo-critico/francesa-laura-biblioteca-nacional-espana/6792244/"
+    thumbnail: "/assets/images/press/24.png"
+    type: "radio"
+    summary:
+      es: "El programa 'El ojo crítico' de Radio Nacional de España dedica un segmento al descubrimiento de 'La francesa Laura' en la Biblioteca Nacional de España. Germán Vega, catedrático de la Universidad de Valladolid, explica cómo la inteligencia artificial permitió atribuir la obra a Lope de Vega."
+      en: "The radio program 'El ojo crítico' on Radio Nacional de España covers the discovery of 'La francesa Laura' at the National Library of Spain. Professor Germán Vega from the University of Valladolid explains how artificial intelligence enabled the attribution of the play to Lope de Vega."
+
+
+  - id: "press23"
+    title:
+      es: "'La francesa Laura' corona las almenas de Olmedo"
+      en: "'La francesa Laura' Crowns the Battlements of Olmedo"
+    outlet: "El Norte de Castilla"
+    date: "2024-07-24"
+    url: "https://www.elnortedecastilla.es/culturas/teatro/adrian-velasco-francesa-laura-corona-almenas-olmedo-20240724191749-nt.html"
+    thumbnail: "/assets/images/press/23.png"
+    type: "review"
+    summary:
+      es: "Adrián Velasco escribe en El Norte de Castilla sobre la representación de 'La francesa Laura' en el Festival de Teatro Clásico de Olmedo. La Fundación Siglo de Oro recupera esta comedia atribuida a Lope de Vega, dirigida y protagonizada por Marta Poveda, en una puesta en escena que combina rigor filológico y vitalidad teatral."
+      en: "Adrián Velasco reports in El Norte de Castilla on the performance of 'La francesa Laura' at the Olmedo Classical Theatre Festival. The Fundación Siglo de Oro revives this play attributed to Lope de Vega, directed and performed by Marta Poveda, in a staging that blends philological rigor with theatrical vitality."
+
+
+  - id: "press22"
+    title:
+      es: "La obra anónima que la IA atribuyó a Lope de Vega se hace carne"
+      en: "The Anonymous Play Attributed to Lope de Vega by AI Comes to Life"
+    outlet: "El País"
+    date: "2023-11-28"
+    url: "https://elpais.com/cultura/2023-11-28/la-obra-anonima-que-la-ia-atribuyo-a-lope-de-vega-se-hace-carne.html"
+    thumbnail: "/assets/images/press/22.png"
+    type: "news"
+    summary:
+      es: "Manuel Morales informa en El País del estreno de 'La francesa Laura', comedia anónima del Siglo de Oro atribuida a Lope de Vega gracias a inteligencia artificial. El artículo describe los ensayos dirigidos por Marta Poveda en Almagro y su próxima puesta en escena en los Teatros del Canal, resaltando la fusión entre tradición teatral y tecnología."
+      en: "Manuel Morales reports in El País on the premiere of 'La francesa Laura', a Golden Age anonymous play attributed to Lope de Vega through artificial intelligence. The article depicts Marta Poveda’s rehearsals in Almagro and the upcoming staging at Teatros del Canal, highlighting the blend of theatrical tradition and technology."
+
+
+  - id: "press21"
+    title:
+      es: "'La francesa Laura', tan clásica como contemporánea"
+      en: "'La francesa Laura': As Classical as Contemporary"
+    outlet: "ABC"
+    date: "2023-12-07"
+    url: "https://www.abc.es/cultura/teatros/francesa-laura-clasica-contemporanea-20231207192431-nt.html"
+    thumbnail: "/assets/images/press/21.png"
+    type: "review"
+    summary:
+      es: "Julio Bravo publica en ABC una crítica sobre el estreno de 'La francesa Laura', comedia inédita de Lope de Vega atribuida mediante inteligencia artificial. Destaca la dirección de Marta Poveda y el equilibrio entre fidelidad al texto áureo y mirada contemporánea, con una puesta en escena inspirada en el Corral de Comedias de Almagro."
+      en: "Julio Bravo reviews in ABC the premiere of 'La francesa Laura', an unpublished play by Lope de Vega attributed through artificial intelligence. He highlights Marta Poveda’s direction and the balance between fidelity to Golden Age theatre and a modern perspective, with staging inspired by Almagro’s Corral de Comedias."
+
+
+
+  - id: "press20"
+    title:
+      es: "'La francesa Laura', un texto inédito de Lope que denuncia el 'la maté porque era mía'"
+      en: "'La francesa Laura': An Unpublished Play by Lope de Vega that Denounces 'I Killed Her Because She Was Mine'"
+    outlet: "Europa Press"
+    date: "2023-11-20"
+    url: "https://www.europapress.es/madrid/noticia-francesa-laura-texto-inedito-lope-denuncia-mate-porque-era-mia-doloroso-sigamos-asi-20231120193815.html"
+    thumbnail: "/assets/images/press/20.png"
+    type: "news"
+    summary:
+      es: "Europa Press informa del estreno absoluto de 'La francesa Laura', comedia inédita de Lope de Vega atribuida mediante inteligencia artificial y dirigida por Marta Poveda en los Teatros del Canal. El artículo subraya la vigencia del mensaje contra la violencia machista y la sensibilidad contemporánea de la puesta en escena."
+      en: "Europa Press reports on the world premiere of 'La francesa Laura', an unpublished comedy by Lope de Vega attributed through artificial intelligence and directed by Marta Poveda at Teatros del Canal. The piece highlights the play’s modern resonance against gender violence and its contemporary staging."
+
+
+
+
+  - id: "press19"
+    title:
+      es: "Crítica de la obra de teatro 'La francesa Laura': todo por amor"
+      en: "Review of the Play 'La francesa Laura': All for Love"
+    outlet: "Diariocrítico"
+    date: "2023-12-10"
+    url: "https://www.diariocritico.com/teatro/la-francesa-laura-critica"
+    thumbnail: "/assets/images/press/19.png"
+    type: "review"
+    summary:
+      es: "El crítico José-Miguel Vila publica en Diariocrítico una reseña sobre 'La francesa Laura', comedia inédita de Lope de Vega atribuida mediante inteligencia artificial y dirigida por Marta Poveda. Destaca la brillante dirección, la calidad poética del texto y el excelente trabajo del reparto encabezado por Sheila Niño y Agus Ruiz."
+      en: "Critic José-Miguel Vila writes in Diariocrítico about 'La francesa Laura', an unpublished comedy by Lope de Vega attributed through artificial intelligence and directed by Marta Poveda. He praises the direction, the poetic structure of the text, and the strong performances by Sheila Niño and Agus Ruiz."
+
+
+  - id: "press18"
+    title:
+      es: "La francesa Laura: Lope de Vega y la inteligencia artificial"
+      en: "La francesa Laura: Lope de Vega and Artificial Intelligence"
+    outlet: "Nuevatribuna"
+    date: "2023-12-03"
+    url: "https://www.nuevatribuna.es/articulo/cultura---ocio/estrenos-teatro-francesa-laura-lope-vega-inteligencia-artificial/20231203122341220319.html"
+    thumbnail: "/assets/images/press/18.png"
+    type: "review"
+    summary:
+      es: "Vicente I. Sánchez analiza en Nuevatribuna el estreno de 'La francesa Laura', comedia inédita de Lope de Vega atribuida mediante inteligencia artificial y dirigida por Marta Poveda. El artículo destaca la belleza del texto, su reflexión sobre el maltrato y la vigencia de su mensaje en torno a la dignidad y la autonomía femenina."
+      en: "Vicente I. Sánchez reviews in Nuevatribuna the premiere of 'La francesa Laura', an unpublished play by Lope de Vega attributed through artificial intelligence and directed by Marta Poveda. The article highlights the text’s poetic beauty, its reflection on gender violence, and the enduring relevance of its message on female dignity and autonomy."
+
+
+  - id: "press17"
+    title:
+      es: "'La francesa Laura' de Marta Poveda: el arte estético de hacer un Lope"
+      en: "'La francesa Laura' by Marta Poveda: The Aesthetic Art of Making a Lope"
+    outlet: "ABC"
+    date: "2024-11-23"
+    url: "https://www.abc.es/espana/castilla-la-mancha/francesa-laura-marta-poveda-20241123111905-nt.html"
+    thumbnail: "/assets/images/press/17.png"
+    type: "review"
+    summary:
+      es: "Antonio Illán reseña en ABC la representación de 'La francesa Laura' en el Teatro de Rojas de Toledo, dirigida por Marta Poveda. El artículo destaca el equilibrio entre fidelidad al texto de Lope y sensibilidad contemporánea, la interpretación coral del elenco y la vigencia de los temas de celos, honor y violencia de género tratados por el dramaturgo."
+      en: "Antonio Illán reviews in ABC the performance of 'La francesa Laura' at Toledo’s Teatro de Rojas, directed by Marta Poveda. The article highlights the balance between fidelity to Lope’s text and modern sensibility, the cast’s ensemble performance, and the continued relevance of jealousy, honor, and gender violence in the play."
+
+
+  - id: "press16"
+    title:
+      es: "Atención obras: La francesa Laura"
+      en: "Atención obras: La francesa Laura"
+    outlet: "RTVE – Atención obras"
+    date: "2024-03-22"
+    url: "https://www.rtve.es/play/videos/atencion-obras/francesa-laura-lope-vega-marta-poveda/16028695/"
+    thumbnail: "/assets/images/press/16.png"
+    type: "tv"
+    summary:
+      es: "El programa 'Atención obras' de RTVE dedica un reportaje a 'La francesa Laura', comedia inédita de Lope de Vega atribuida en 2023 gracias a la inteligencia artificial. Marta Poveda debuta en la dirección con esta producción de la Fundación Siglo de Oro, centrada en la tragedia amorosa y los celos de sus protagonistas."
+      en: "RTVE’s 'Atención obras' features a segment on 'La francesa Laura', an unpublished comedy by Lope de Vega attributed in 2023 through artificial intelligence. Marta Poveda makes her directorial debut with this Fundación Siglo de Oro production, focusing on love, jealousy, and emotional toxicity."
+
+
+  - id: "press15"
+    title:
+      es: "'La francesa Laura': Lope de Vega ya escribió sobre la violencia machista de hoy"
+      en: "'La francesa Laura': Lope de Vega Had Already Written About Today’s Gender Violence"
+    outlet: "El Confidencial"
+    date: "2023-12-08"
+    url: "https://www.elconfidencial.com/cultura/2023-12-08/la-francesa-laura-lope-de-vega-violencia-machista_3788872/"
+    thumbnail: "/assets/images/press/15.png"
+    type: "review"
+    summary:
+      es: "La periodista Marta García Miranda reseña en El Confidencial el estreno de 'La francesa Laura' en los Teatros del Canal, destacando su lectura contemporánea de los celos, la honra y la violencia de género. Dirigida por Marta Poveda y atribuida a Lope de Vega mediante inteligencia artificial, la obra se representa por primera vez cuatro siglos después de su escritura."
+      en: "Journalist Marta García Miranda reviews in El Confidencial the premiere of 'La francesa Laura' at Madrid’s Teatros del Canal, highlighting its contemporary reading of jealousy, honor, and gender violence. Directed by Marta Poveda and attributed to Lope de Vega through artificial intelligence, the play is performed for the first time four centuries after it was written."
+
+
+  - id: "press14"
+    title:
+      es: "La Inteligencia Artificial ayuda a descubrir una obra desconocida de Lope de Vega en los fondos de la BNE"
+      en: "Artificial Intelligence Helps Discover an Unknown Play by Lope de Vega in the Holdings of the BNE"
+    outlet: "Biblioteca Nacional de España (BNE)"
+    date: "2023-01-31"
+    url: "https://www.bne.es/es/noticias/inteligencia-artificial-ayuda-descubrir-obra-desconocida-lope-vega-fondos-bne"
+    thumbnail: "/assets/images/press/14.png"
+    type: "news"
+    summary:
+      es: "La Biblioteca Nacional de España anuncia el descubrimiento de La francesa Laura, una comedia anónima ahora atribuida a Lope de Vega. La investigación, realizada por Álvaro Cuéllar y Germán Vega con la colaboración de la BNE, la UAB y el proyecto ETSO, combina inteligencia artificial, transcripción automática y análisis filológico tradicional."
+      en: "The National Library of Spain announces the discovery of La francesa Laura, an anonymous comedy now attributed to Lope de Vega. The research, carried out by Álvaro Cuéllar and Germán Vega in collaboration with the BNE, UAB, and the ETSO project, combines artificial intelligence, automatic transcription, and traditional philological analysis."
+
+
+
+  - id: "press13"
+    title:
+      es: "‘La francesa Laura’, la obra oculta de Lope de Vega descubierta por la IA que ahora se lleva a escena"
+      en: "‘La francesa Laura’, the Hidden Play by Lope de Vega Uncovered by AI and Now Brought to the Stage"
+    outlet: "Historia y Vida"
+    date: "2023-11-30"
+    url: "https://www.lavanguardia.com/historiayvida/edad-moderna/20231130/9418071/francesa-laura-obra-oculta-lope-vega-descubierta-ia.html"
+    thumbnail: "/assets/images/press/trece.png"
+    type: "news"
+    summary:
+      es: "El periodista Eduardo Mesa Leiva narra en Historia y Vida el estreno en los Teatros del Canal de La francesa Laura, la obra inédita de Lope de Vega identificada mediante inteligencia artificial. Germán Vega y Álvaro Cuéllar explican el proceso de descubrimiento y cómo la Fundación Siglo de Oro y Marta Poveda la han llevado por primera vez a los escenarios contemporáneos."
+      en: "Journalist Eduardo Mesa Leiva reports in Historia y Vida on the premiere of La francesa Laura at Madrid’s Teatros del Canal, the unpublished play by Lope de Vega identified through artificial intelligence. Germán Vega and Álvaro Cuéllar explain the discovery process and how the Fundación Siglo de Oro and Marta Poveda have brought it to the contemporary stage."
+
+
+
+
+  - id: "press12"
+    title:
+      es: "La obra perdida de Lope de Vega que ha descubierto la inteligencia artificial: «Es como si encontramos un Velázquez»"
+      en: "The Lost Play by Lope de Vega Discovered Through Artificial Intelligence: 'It’s Like Finding a Velázquez'"
+    outlet: "laSexta Columna"
+    date: "2024-03-15"
+    url: "https://www.lasexta.com/programas/sexta-columna/obra-perdida-lope-vega-que-descubierto-inteligencia-artificial-como-encontramos-velazquez_2024031565f4b7f4ab79d80001a6ebc1.html"
+    thumbnail: "/assets/images/press/doce.png"
+    type: "news"
+    summary:
+      es: "El programa laSexta Columna dedica un reportaje al hallazgo de La francesa Laura, la obra inédita de Lope de Vega identificada mediante inteligencia artificial. Álvaro Cuéllar y Germán Vega explican cómo la IA permitió comparar miles de manuscritos y confirmar la autoría del dramaturgo, en un proceso que combinó tecnología y filología tradicional."
+      en: "The television program laSexta Columna features a report on the discovery of La francesa Laura, the unpublished play by Lope de Vega identified through artificial intelligence. Álvaro Cuéllar and Germán Vega explain how AI enabled the comparison of thousands of manuscripts and confirmed the playwright’s authorship, merging technology with traditional philology."
+
+
+  - id: "press11"
+    title:
+      es: "Una obra desconocida de Lope de Vega, descubierta en la BNE gracias a la inteligencia artificial"
+      en: "An Unknown Play by Lope de Vega Discovered in the National Library Thanks to Artificial Intelligence"
+    outlet: "El Español"
+    date: "2023-01-31"
+    url: "https://www.elespanol.com/el-cultural/historia/20230131/desconocida-lope-vega-descubierta-bne-inteligencia-artificial/737926314_0.html"
+    thumbnail: "/assets/images/press/once.png"
+    type: "news"
+    summary:
+      es: "El periodista David Barreira informa en El Español del hallazgo de La francesa Laura, una comedia anónima de la Biblioteca Nacional de España que ha sido atribuida a Lope de Vega. El estudio, dirigido por Álvaro Cuéllar y Germán Vega, combina análisis filológicos con herramientas de inteligencia artificial como Transkribus para demostrar su autoría."
+      en: "Journalist David Barreira reports in El Español on the discovery of La francesa Laura, an anonymous comedy held at Spain’s National Library now attributed to Lope de Vega. The study, led by Álvaro Cuéllar and Germán Vega, combines philological analysis with artificial-intelligence tools such as Transkribus to confirm its authorship."
+
+
+  - id: "press10"
+    title:
+      es: "Descubren una obra de Lope de Vega gracias a la inteligencia artificial"
+      en: "A Lope de Vega Play Discovered Thanks to Artificial Intelligence"
+    outlet: "Historia National Geographic"
+    date: "2023-02-01"
+    url: "https://historia.nationalgeographic.com.es/a/la-inteligencia-artificial-logra-identificar-una-obra-de-lope-de-vega_19061"
+    thumbnail: "/assets/images/press/diez.png"
+    type: "news"
+    summary:
+      es: "El periodista J. M. Sadurní relata en Historia National Geographic cómo las universidades de Valladolid y Viena, junto con la BNE y la UAB, han identificado La francesa Laura como una obra de Lope de Vega gracias a técnicas de inteligencia artificial y análisis estilométrico. La investigación, liderada por Álvaro Cuéllar y Germán Vega, fue publicada en el Anuario Lope de Vega."
+      en: "Journalist J. M. Sadurní reports in Historia National Geographic on how researchers from the Universities of Valladolid and Vienna, together with Spain’s National Library and the UAB, identified La francesa Laura as a play by Lope de Vega using artificial intelligence and stylometric analysis. The study, led by Álvaro Cuéllar and Germán Vega, was published in the Anuario Lope de Vega."
+
+
+  - id: "press09"
+    title:
+      es: "Sale a la luz una obra de Lope de Vega gracias a la inteligencia artificial"
+      en: "A Lope de Vega Play Comes to Light Thanks to Artificial Intelligence"
+    outlet: "La Vanguardia"
+    date: "2023-01-31"
+    url: "https://www.lavanguardia.com/cultura/20230131/8722225/inteligencia-artificial-descubre-obra-lope-vega-biblioteca-nacional.html"
+    thumbnail: "/assets/images/press/nueve.png"
+    type: "news"
+    summary:
+      es: "La periodista Begoña Corzo informa en La Vanguardia del descubrimiento de La francesa Laura, una comedia desconocida de Lope de Vega hallada en la Biblioteca Nacional de España. El hallazgo, realizado por Álvaro Cuéllar y Germán Vega mediante técnicas de inteligencia artificial y transcripción automática, ha sido publicado en el Anuario Lope de Vega."
+      en: "Journalist Begoña Corzo reports in La Vanguardia on the discovery of La francesa Laura, an unknown comedy by Lope de Vega found in Spain’s National Library. The finding, achieved by Álvaro Cuéllar and Germán Vega through artificial intelligence and automated transcription, was published in the Anuario Lope de Vega."
+
+
+  - id: "press08"
+    title:
+      es: "La Inteligencia Artificial descubre una obra de Lope de Vega en la Biblioteca Nacional"
+      en: "Artificial Intelligence Discovers a Lope de Vega Play in the National Library"
+    outlet: "El Mundo"
+    date: "2023-01-31"
+    url: "https://www.elmundo.es/cultura/literatura/2023/01/31/63d919b4fc6c83814b8b4585.html"
+    thumbnail: "/assets/images/press/ocho.png"
+    type: "news"
+    summary:
+      es: "El periodista Luis Alemany informa del hallazgo de La francesa Laura, comedia anónima conservada en la Biblioteca Nacional de España, atribuida ahora a Lope de Vega gracias a técnicas de inteligencia artificial. La investigación, dirigida por Álvaro Cuéllar y Germán Vega, combina el uso de Transkribus y Stylo para transcribir manuscritos y analizar su estilo lingüístico."
+      en: "Journalist Luis Alemany reports on the discovery of La francesa Laura, an anonymous comedy held at Spain’s National Library, now attributed to Lope de Vega through artificial-intelligence methods. The research, led by Álvaro Cuéllar and Germán Vega, combines Transkribus and Stylo to transcribe manuscripts and analyze linguistic style."
+
+
+
+  - id: "press07"
+    title:
+      es: "La inteligencia artificial ayuda a descubrir una obra inédita de Lope de Vega"
+      en: "Artificial Intelligence Helps Uncover an Unpublished Play by Lope de Vega"
+    outlet: "Agencia SINC"
+    date: "2023-02-01"
+    url: "https://www.agenciasinc.es/Noticias/La-inteligencia-artificial-ayuda-a-descubrir-una-obra-inedita-de-Lope-de-Vega"
+    thumbnail: "/assets/images/press/siete.png"
+    type: "news"
+    summary:
+      es: "Investigadores de las universidades de Valladolid y Viena, Germán Vega y Álvaro Cuéllar, han identificado en la Biblioteca Nacional de España una comedia inédita de Lope de Vega titulada La francesa Laura. El hallazgo, publicado en el Anuario Lope de Vega, ha sido posible gracias al uso de inteligencia artificial y herramientas de transcripción automática de manuscritos."
+      en: "Researchers from the Universities of Valladolid and Vienna, Germán Vega and Álvaro Cuéllar, have identified an unpublished comedy by Lope de Vega titled La francesa Laura in the holdings of Spain’s National Library. Published in the Anuario Lope de Vega, the discovery was made possible through artificial intelligence and automated manuscript transcription tools."
+
+
+
+  - id: "press06"
+    title:
+      es: "Álvaro Cuéllar: «Poder recuperar una obra del fénix de los ingenios supone un regalo para el patrimonio hispánico»"
+      en: "Álvaro Cuéllar: “Recovering a Work by the Phoenix of Wits Is a Gift to Hispanic Heritage”"
+    outlet: "Laguna al Día"
+    date: "2023-03-20"
+    url: "https://www.lagunaaldia.com/alvaro-cuellar-poder-recuperar-una-obra-del-fenix-de-los-ingenios-supone-un-regalo-para-el-patrimonio-hispanico/"
+    thumbnail: "/assets/images/press/seis.png"
+    type: "news"
+    summary:
+      es: "El investigador lagunero Álvaro Cuéllar, reconocido por descubrir con su equipo una comedia inédita de Lope de Vega mediante inteligencia artificial, reflexiona sobre su trayectoria internacional, los retos de la investigación filológica y el potencial de la IA para transformar el estudio del Siglo de Oro."
+      en: "Researcher Álvaro Cuéllar, known for identifying a lost Lope de Vega play through artificial intelligence, reflects on his international career, the challenges of philological research, and the transformative potential of AI in the study of Spain’s Golden Age."
+
+
+
+  - id: "press05"
+    title:
+      es: "Estilometría: conversación con Álvaro Cuéllar"
+      en: "Stylometry: A Conversation with Álvaro Cuéllar"
+    outlet: "RTVE – Un idioma sin fronteras (Radio Exterior)"
+    date: "2023-11-11"
+    url: "https://www.rtve.es/play/audios/un-idioma-sin-fronteras/estilometria-alvaro-cuellar/7006620/"
+    thumbnail: "/assets/images/press/cinco.png"
+    type: "news"
+    summary:
+      es: "En el programa Un idioma sin fronteras, Álvaro Cuéllar explica cómo la inteligencia artificial y la estilometría permiten atribuir autorías, leer manuscritos difíciles y fechar textos antiguos. Entre sus descubrimientos destaca la identificación de La francesa Laura como obra de Lope de Vega."
+      en: "In the radio program Un idioma sin fronteras, Álvaro Cuéllar discusses how artificial intelligence and stylometry help attribute authorship, read complex manuscripts, and date early texts. Among his findings stands out the identification of La francesa Laura as a play by Lope de Vega."
+
+
+
+
+
+  - id: "press04"
+    title:
+      es: "Descubren una comedia desconocida de Lope de Vega en los fondos de la Biblioteca Nacional"
+      en: "An Unknown Comedy by Lope de Vega Discovered in the Collections of the National Library"
+    outlet: "Europa Press"
+    date: "2021-05-28"
+    url: "https://www.europapress.es/cultura/libros-00132/noticia-descubren-comedia-desconocida-lope-vega-fondos-biblioteca-nacional-20210528143808.html"
+    thumbnail: "/assets/images/press/cuatro.png"
+    type: "news"
+    summary:
+      es: "Una comedia desconocida de Lope de Vega ha sido descubierta en los fondos de la Biblioteca Nacional de España, tras un estudio que revela que podría pertenecer a la etapa de madurez del autor y contener alusiones veladas a la situación política de su tiempo."
+      en: "An unknown comedy by Lope de Vega has been discovered in the collections of the National Library of Spain, following a study suggesting it belongs to the playwright’s mature period and contains veiled references to the political context of its time."
 
 
   - id: "press01"
@@ -71,8 +1228,8 @@ articles:
     thumbnail: "/assets/images/press/dos.png"
     type: "news"
     summary:
-      es: "El artículo de Alberto Ojeda en El Cultural analiza la atribución de *La monja alférez* al dramaturgo novohispano Juan Ruiz de Alarcón, tras los estudios estilométricos de Germán Vega y Álvaro Cuéllar. La investigación, apoyada en la herramienta ETso, demuestra que la obra tradicionalmente atribuida a Pérez de Montalbán pertenece en realidad a Ruiz de Alarcón."
-      en: "An article by Alberto Ojeda in *El Cultural* discusses the attribution of *La monja alférez* to the New Spanish playwright Juan Ruiz de Alarcón, following stylometric research by Germán Vega and Álvaro Cuéllar. Using the ETso tool, their study shows that the play, long attributed to Pérez de Montalbán, actually belongs to Ruiz de Alarcón."
+      es: "El artículo de Alberto Ojeda en El Cultural analiza la atribución de La monja alférez al dramaturgo novohispano Juan Ruiz de Alarcón, tras los estudios estilométricos de Germán Vega y Álvaro Cuéllar. La investigación, apoyada en la herramienta ETso, demuestra que la obra tradicionalmente atribuida a Pérez de Montalbán pertenece en realidad a Ruiz de Alarcón."
+      en: "An article by Alberto Ojeda in El Cultural discusses the attribution of La monja alférez to the New Spanish playwright Juan Ruiz de Alarcón, following stylometric research by Germán Vega and Álvaro Cuéllar. Using the ETso tool, their study shows that the play, long attributed to Pérez de Montalbán, actually belongs to Ruiz de Alarcón."
 
 
   - id: "press03"
@@ -85,8 +1242,8 @@ articles:
     thumbnail: "/assets/images/press/tres.png"
     type: "news"
     summary:
-      es: "Victoria M. Niño informa sobre la investigación de Germán Vega y Álvaro Cuéllar, que reatribuye *La monja alférez* a Juan Ruiz de Alarcón mediante análisis estilométricos y documentación histórica. La Compañía Nacional de Teatro de México estrena la obra en el Festival de Alcalá de Henares bajo la dirección de Zaide Silvia Gutiérrez."
-      en: "Victoria M. Niño reports on the research by Germán Vega and Álvaro Cuéllar, which reattributes *La monja alférez* to Juan Ruiz de Alarcón through stylometric and historical analysis. Mexico’s National Theatre Company premiered the play at the Alcalá de Henares Festival under the direction of Zaide Silvia Gutiérrez."
+      es: "Victoria M. Niño informa sobre la investigación de Germán Vega y Álvaro Cuéllar, que reatribuye La monja alférez a Juan Ruiz de Alarcón mediante análisis estilométricos y documentación histórica. La Compañía Nacional de Teatro de México estrena la obra en el Festival de Alcalá de Henares bajo la dirección de Zaide Silvia Gutiérrez."
+      en: "Victoria M. Niño reports on the research by Germán Vega and Álvaro Cuéllar, which reattributes La monja alférez to Juan Ruiz de Alarcón through stylometric and historical analysis. Mexico’s National Theatre Company premiered the play at the Alcalá de Henares Festival under the direction of Zaide Silvia Gutiérrez."
 
 
 

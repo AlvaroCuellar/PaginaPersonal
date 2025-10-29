@@ -56,7 +56,6 @@ featured_ids:
   - "stylo100"
   - "crono"
   - "FrancesaLaura"
-  - "coloso"
   
   
   
@@ -221,8 +220,9 @@ publications:
     abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
     cited_by:
       - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
-      - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
       - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
+      - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
+
       - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
       - "Giovannini, Luca, and Daniil Skorinkin. “Computational Approaches to Opera Libretti.” Journal of Computational Literary Studies, vol. 3, no. 1, 2024, pp. 1–23."
       - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
@@ -231,6 +231,11 @@ publications:
       - "Veloso, María José Alonso. “La zurriaga: unas «octavas seriojocosas» atribuidas a Quevedo.” Mélanges de la Casa de Velázquez, no. 54-1, 2024, pp. 233–274."
 
       - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega, vol. 29, 2023, pp. 469–544."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
       - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” A la sombra de las luces: Homenaje a Fernando Doménech, 2022, pp. 65–79."
       - "Vega García-Luengos, Germán. “La subida al trono de Felipe IV en una comedia de 1621: viejos métodos y recursos últimos para esclarecer atribuciones en el teatro aurisecular.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 39–58."
       - "Martínez Carro, Elena. “«David perseguido y montes de Gelboé»: novedades estilométricas ante una atribución dudosa.” Anuario Lope de Vega: Texto, literatura, cultura, vol. 28, 2022, pp. 401–422."
@@ -242,6 +247,8 @@ publications:
       - "Martínez Carro, Elena. “Hacia un corpus lingüístico del gracioso moretiano en las comedias palatinas.” Anuario Calderoniano, vol. 14, 2021, pp. 245–270."
       - "Zapatero Molinuevo, Ane. Estudio y edición crítica de un díptico dramático de Lope de Vega: Los Tellos de Meneses y Valor, fortuna y lealtad de los Tellos de Meneses. Tesis doctoral, Universidad del País Vasco (UPV/EHU), 2021."
       - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
+      - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
+
       - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
 
   - id: "modernisa"
@@ -296,6 +303,10 @@ publications:
     abstract: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
     cited_by:
     
+      - "García-Reidy, Alejandro. “Odres nuevos (digitales) para el teatro áureo español.” En: Arteaga, F., Peirats, A., Calvo Gómez, J. A. y Sánchez, D. (coords.), Humanidades Digitales: innovación, memoria y conexiones culturales en la era tecnológica, Valencia, Tirant lo Blanch, 2025, pp. 113–138."
+
+
+
       - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
       - "Murrieta-Flores, Patricia, et al. “Unlocking Colonial Records with Artificial Intelligence: Achieving the Automated Transcription of Large-Scale 16th and 17th-Century Latin American Historical Collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828. "
       - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
@@ -305,9 +316,18 @@ publications:
       - "Vega García-Luengos, Germán. “Lope de Vega y la comedia en colaboración. Un replanteamiento novedoso.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 105–142."
       - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
       - "Morata, Isabel Hernando. “Notas sobre la primera jornada del manuscrito de Troya abrasada de Calderón (¿y Rojas Zorrilla?) Res. 78 de la BNE.” Bulletin Hispanique, vol. 126, no. 1, 2024, pp. 107-128. "
+      - "Marcos Rodríguez, Emma María. Sentido y pervivencia del teatro de Antonio Mira de Amescua. Dir. Germán Vega García-Luengos y Héctor Urzáiz Tortajada. Valladolid: Universidad de Valladolid, 2024. DOI: 10.35376/10324/69443."
+
+
+
+
+
+
+
       - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
       - "Khan, Arsh, et al. “OCR Approaches for Humanities: Applications of Artificial Intelligence/Machine Learning on Transcription and Transliteration of Historical Documents.” Digital Studies in Language and Literature, vol. 1, no. 1-2, 2024, pp. 85-112."
       - "Brioso Santos, Héctor. “«El caballero», comedia famosa… ¿de don Agustín Moreto?” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 2, 2023, pp. 469–485."
+      - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
 
 
@@ -328,12 +348,13 @@ publications:
     
     
     
-      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
       - "Ferreira Barrocal, Jorge. “El auto sacramental de Escarramán: respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
 
       - "Martínez Carro, Elena. “Antonio Martínez de Meneses y Agustín Moreto: su colaboración en tres comedias. Una aproximación estilométrica.” eHumanista, vol. 61, 2025, pp. 387–398."
       - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
       - "Hernández-Lorenzo, Laura. “Los sonetos de autoría femenina en el Siglo de Oro: aproximación estilométrica.” Castilla. Estudios de Literatura, vol. 16, 2025, pp. 175–198."
+      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+
       - "Ruiz Urbón, Cristina. “Hipótesis de autoría basadas en la distancia delta: los entremeses atribuidos a Cervantes.” Ínsula: Revista de Letras y Ciencias Humanas, no. 930, 2024, pp. 26–32."
       - "Martínez Cantón, Clara Isabel, y Rocío Ortuño Casanova. “¿Qué son las humanidades digitales y qué pintan en el aula de literatura en español?” Las humanidades digitales en la enseñanza de las literaturas hispánicas: aplicaciones prácticas, editado por Clara I. Martínez Cantón, Rocío Ortuño Casanova y Antonio Huertas Morales, Peter Lang, 2024, pp. 9-22."
       - "Barrocal, Jorge Ferreira. “El árbol de la gracia: validación filológica de una reciente hipótesis de atribución a Claramonte y nuevos escolios.” Bulletin of Spanish Studies, vol. 101, no. 7, 2024, pp. 945–987. "
@@ -343,9 +364,29 @@ publications:
       - "Romero López, María Dolores, María Jesús Fraga Fernández-Cuevas, and José Calvo Tello. “Autoría e identidad de género: Perspectivas cruzadas a propósito de «El pensionado de Santa Casilda».” 2024."
       - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
       - "Díaz-Sánchez, Carlos, and Diego Chapinal-Heras. “Use of Open Access AI in Teaching Classical Antiquity: A Methodological Proposal.” Journal of Classics Teaching, vol. 25, no. 49, 2024, pp. 17–21."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
+
+
+      - "Castillo Gómez, Antonio. “Paleografía, historia social de la cultura escrita y revolución digital.” Nuovi Annali della Scuola Speciale per Archivisti e Bibliotecari, vol. XXXVII, 2023, pp. 1–28. Roma: Leo S. Olschki Editore."
+      - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
+
+
+
+
+
+
+
+
+
+
       - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
       - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega, vol. 29, 2023, pp. 469–544."
-      - "Resta, Ilaria. “Investigaciones sobre el teatro del Siglo de Oro en el trienio 2020–2023: balance y perspectivas.” *Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO*, 2024, pp. 217–235."
+      - "Resta, Ilaria. “Investigaciones sobre el teatro del Siglo de Oro en el trienio 2020–2023: balance y perspectivas.” Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 217–235."
       - "Ruiz Urbón, Cristina. “Nuevas pruebas estilométricas para negar la autoría cervantina del Entremés de los romances.” Studia Aurea, vol. 17, 2023, pp. 545–583."
       - "Ferreira Barrocal, Jorge. “Estudio de una comedia anónima del Siglo de Oro sepultada en el olvido: La luna de Florencia.” Bulletin Hispanique, vol. 126, no. 2, 2023, pp. 321–352."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
@@ -368,6 +409,8 @@ publications:
       - "Azofra Sierra, María Elena. “Cartas y 'pensamientos' en la prensa del siglo XVIII: La pensadora gaditana.” Anuari de Filologia. Estudis de Lingüística, vol. 15, 2025, pp. 1–24."
       - "Belmonte Bermúdez, Luis. El ollero de Ocaña. Ed. C. George Peale. Comedias del Siglo de Oro, Textos y Estudios, no. 76, Universidad de California, Santa Bárbara / eHumanista, 2024."
       - "Gilabert, Gaston. Usos métricos de Matos, Diamante y Vélez de Guevara en El hidalgo de la Mancha: comedia en colaboración y teatro breve. En Emilio Martínez Mata; María Fernández Ferreiro; y María Álvarez Álvarez (eds.), Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, Oviedo: Universidad de Oviedo, 2024, pp. 285–297."
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
 
 
       - "Calderón de la Barca, Pedro, y Paula Casariego Castiñeira, eds. Las armas de la hermosura. Iberoamericana / Vervuert, 2024, 252 pp. "
@@ -377,12 +420,17 @@ publications:
       - "González Pascual, Guillermo. Estudio de los apócrifos de Antonio Machado con herramientas de la estilística de corpus y la estilometría. Tesis doctoral, Universidad de Valladolid, 2024."
       - "Madrigal, José Luis. El tercer tratado del Lazarillo y el licenciado Otálora: un estudio de atribución. Lemir: Revista de Literatura Española Medieval y del Renacimiento, no. 28, 2024, pp. 515–582."
 
-
-
-
       - "Sánchez-Ferrer, Guillermo Gómez. “La construcción de la comedia de enredo de Juan Ruiz de Alarcón: a propósito de El desdichado en fingir.” Atalanta. Revista de las Letras Barrocas, vol. 12, no. 2, 2024, pp. 66–93."
       - "Díaz-Sánchez, Carlos, and Diego Chapinal-Heras. “Use of Open Access AI in Teaching Classical Antiquity: A Methodological Proposal.” Journal of Classics Teaching, vol. 25, no. 49, 2024, pp. 17–21."
       - "Presotto, Marco. “Ecdótica y Humanidades Digitales en el estudio del Teatro clásico español: una experiencia.” Revista de Humanidades Digitales, vol. 8, 2023, pp. 1–13."
+      - "Lope de Vega. Comedias. Parte XXII (2 vols.). Eds. Fausta Antonucci y Marco Presotto. Madrid: Gredos, 2023. ISBN 978-84-249-4053-9."
+
+
+
+
+
+
+
       - "Rosete Niño, Pedro. La gran Torre del Orbe. Edición crítica de Paula Casariego Castiñeira. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. ISBN 978-84-1143-982-4."
 
 
@@ -408,18 +456,49 @@ publications:
     
     cited_by:
     
+      - "Fiore, Arianna, ed. Tres entremeses famosos, a modo de comedia, de entretenimiento, de Pedro Ordóñez de Ceballos. Florencia: Società Editrice Fiorentina, 2025. DOI: 10.35948/DILEF/978-88-6032-806-9."
     
-      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+    
       - "Martínez Carro, Elena. “Antonio Martínez de Meneses y Agustín Moreto: su colaboración en tres comedias. Una aproximación estilométrica.” eHumanista, vol. 61, 2025, pp. 387–398."
+      - "Ferreira Barrocal, Jorge. “Adenda a Zurdo, gracioso despiadado de la comedia claramontesca Púsoseme el sol, saliome la luna.” Bulletin of the Comediantes, vol. 76, no. 1, 2025, pp. 39–59. DOI: 10.1353/boc.2025.a970250."
+
+
+
       - "Sosa, Marcela Beatriz. “Umbrales y borrascas: El mar en las comedias de cautivos del siglo XVII.” Artifara, vol. 25, no. 1, 2025, pp. 483–494."
       - "Barrocal, Jorge Ferreira. “El auto sacramental de Escarramán: Respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
       - "Romero, Martin Horna, and Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+      - "Marcos Rodríguez, Emma María. Sentido y pervivencia del teatro de Antonio Mira de Amescua. Dir. Germán Vega García-Luengos y Héctor Urzáiz Tortajada. Valladolid: Universidad de Valladolid, 2024. DOI: 10.35376/10324/69443."
+
+
+      - "Gómez Caballero, Iván. El mito de Ulises en el teatro español del siglo XVII. Dir. Rafael González Cañal. Universidad de Castilla-La Mancha, 2024."
+
+
+
+
+
+
+
+
+
+
       - "Claramonte y Corroy, Andrés de. El rey don Pedro en Madrid. Edición, introducción, cotejos y notas de Fernando Cantalapiedra Erostarbe; prólogo de Germán Vega García-Luengos. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. ISBN 978-84-1143-983-1."
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
       - "Vuelta García, Salomé. “Cuentos y leyendas áureas en la configuración teatral de Pedro I de Castilla.” Figure e racconti leggendari nel teatro italo-iberico di epoca moderna (Biblioteca dell’ “Archivum Romanicum”, Serie I, Storia, letteratura, paleografia 545), 2024, pp. 103–124."
       - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
       - "García-Reidy, Alejandro. “La muerte del autor atribuido en el teatro áureo.” Ínsula: Revista de Letras y Ciencias Humanas, no. 930, 2024, pp. 9–12."
       - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
       - "Barrocal, Jorge Ferreira. “El árbol de la gracia: validación filológica de una reciente hipótesis de atribución a Claramonte y nuevos escolios.” Bulletin of Spanish Studies, vol. 101, no. 7, 2024, pp. 945–987. "
+      
+      - "Velasco Sainz, Adrián. “'Tropabariarí': un hápax contra el donjuanismo italiano en la comedia Guzmán de Alfarache.” En Un caballero para Olmedo: homenaje al profesor Germán Vega García-Luengos, coords. Gema Cienfuegos Antelo, Pedro Conde Parrado, Javier J. González Martínez, Raquel Gutiérrez Sebastián, Borja Rodríguez Gutiérrez y Héctor Urzáiz Tortajada, vol. 2, Ediciones Universidad de Valladolid, 2024, pp. 951–960. ISBN: 978-84-1320-290-7."
+
+
+
+
+
+
+
       - "Rodríguez López-Vázquez, Alfredo. El condenado por desconfiado y cuatro atribuciones posibles: Tirso de Molina, Antonio Mira de Amescua, Juan Pérez de Montalbán y José de Valdivielso. Lemir: Revista de Literatura Española Medieval y del Renacimiento, no. 28, 2024, pp. 129–140."
 
 
@@ -433,8 +512,20 @@ publications:
       - "Carmona, Alba. “Los exiliados republicanos en Nueva York y la difusión del Siglo de Oro: El teatro universitario de Barnard College y de Columbia University.” Hispanic Research Journal: Iberian and Latin American Studies, vol. 24, no. 4, 2024, pp. 229–247."
       - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta como colaborador dramático.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 265–281."
       - "Sosa, Marcela Beatriz, and Alejandra Herrera. Seminario: “El mito de Don Juan y sus dramaturgias desde los Siglos de Oro a nuestros días.” Programa de la carrera de Letras, Plan de estudios 2000, Universidad Nacional de Cuyo, 2023. Optativa, cuatrimestral."
+      - "Vega García-Luengos, Germán. “El Rayo de la Guerra Sancho Dávila (1523–1583) en la Comedia Nueva.” En Juan Manuel Escudero y Rebeca Lázaro Niso (eds.), El hacedor de las musas: homenaje al Prof. Francisco Domínguez Matito. San Millán de la Cogolla: Cilengua, Centro Internacional de Investigación de la Lengua Española, 2023, pp. 539–554. ISBN 978-84-18088-30-8."
+
+
+
+
+
+
+
       - "Rodríguez López-Vázquez, Alfredo. “El condenado por desconfiado, atribuido a Tirso, es de Valdivielso.” Lemir: Revista de Literatura Española Medieval y del Renacimiento, vol. 27, 2023, pp. 277–292."
       - "Salucio del Poyo, Damián. El rey muerto. Edición crítica y anotada de C. George Peale; introducción de Christopher B. Weimer. Santa Barbara: eHumanista, 2023."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
 
 
 
@@ -474,14 +565,16 @@ publications:
     isbn: "9788424940621"
     url: "https://www.rbalibros.com/gredos/la-francesa-laura_7132"
     thumbnail: "/assets/images/pubs/francesalibro.png"
-    abstract: "Edición crítica de la comedia *La francesa Laura*, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
+    abstract: "Edición crítica de la comedia La francesa Laura, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
     cited_by:
 
       - "Sobrón Tauber, Guadalupe. “Un nuevo Lope que nos sigue hablando: sobre la puesta escénica de La francesa Laura.” Reseñas/CeLeHis, año 11, no. 31, agosto 2024, ISSN 2362-5031, pp. 99–105."
 
       - "Bracciale, Milena. “Reseñas en Proscenio XVII. Teatro del Mundo.” Reseñas/CeLeHis, año 11, no. 31, agosto 2024, ISSN 2362-5031, pp. 60–62."
+      - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
 
-      - "Ley-Garrido, Álvaro. “Reseña de *La francesa Laura*, edición de Álvaro Cuéllar y Germán Vega García-Luengos.” Cincinnati Romance Review, vol. 54, otoño 2023, pp. 69–71."
+
+      - "Ley-Garrido, Álvaro. “Reseña de La francesa Laura, edición de Álvaro Cuéllar y Germán Vega García-Luengos.” Cincinnati Romance Review, vol. 54, otoño 2023, pp. 69–71."
 
       
   - id: "tesis2022"
@@ -497,15 +590,28 @@ publications:
     abstract: "La tesis desarrolla métodos de inteligencia artificial y estilometría para analizar la autoría y cronología de las comedias de Lope de Vega. A partir de un corpus de miles de textos, propone nuevas atribuciones y dataciones automáticas, demostrando la eficacia de los modelos computacionales en la investigación filológica."
     cited_by:
       
-      
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
       - "López Poza, Sagrario. “Incidencia de las tecnologías digitales en la investigación en Literatura española del Siglo de Oro.” 2024."
 
       - "Rodríguez, Daniel Fernández, y Guillermo Gómez Sánchez-Ferrer. “Los romances expósitos: a propósito del estilo en el romancero de Lope de Vega y las atribuciones de María Goyri.” Abenámar. Cuadernos de la Fundación Ramón Menéndez Pidal, vol. 6, 2023, pp. 117–144."
       - "Vega, Lope de. La mocedad de Bernardo del Carpio; El casamiento en la muerte. Edición de Alfredo Rodríguez López-Vázquez. Madrid: Ediciones Cátedra, Letras Hispánicas, 2023. ISBN 978-84-376-4544-5."
 
       - "Resta, Ilaria. La textura tragicómica en los dramas de Lope inspirados en las novelle de Giraldi Cinzio. Revista de Filología Románica, vol. 40, 2023, pp. 59–69."
+      - "Lope de Vega. Comedias. Parte XXII (2 vols.). Eds. Fausta Antonucci y Marco Presotto. Madrid: Gredos, 2023. ISBN 978-84-249-4053-9."
+
+
+
 
       - "Salucio del Poyo, Damián. El rey muerto. Edición crítica y anotada de C. George Peale; introducción de Christopher B. Weimer. Santa Barbara: eHumanista, 2023."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
+
+
 
 
 
@@ -559,8 +665,6 @@ publications:
       - "Castiñeira, Paula Casariego. “Una imprenta para tres sueltas antiguas sin datos editoriales: La gran Torre del Orbe, Los hermanos más amantes y La dama boba.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 85–100."
       - "Lorenzo, Alejandra Ulla, y Paula Casariego Castiñeira. “Sobre falsas atribuciones y duplicidad de títulos en el teatro calderoniano: Haz bien y guárdate o La confusión de un jardín.” Studia Aurea, vol. 16, 2022, pp. 229–259."
 
-
-
   - id: "texoro"
     type: "database"
     title: "TEXORO: Textos del Siglo de Oro"
@@ -576,12 +680,8 @@ publications:
       - "González Escudero, Irene. “Rojas Zorrilla en colaboración: el caso de También tiene el sol menguante.” eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 260–275."
       - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 549–560."
       - "Zabaleta, Juan de; Martínez de Meneses, Antonio; Rosete Niño, Pedro; Villaviciosa, Sebastián de; Cáncer y Velasco, Jerónimo; y Moreto, Agustín. El rey don Enrique, el Enfermo. Ed. crítica de Sergio Rodríguez Nicolás. Alicante: Biblioteca Virtual Miguel de Cervantes, 2025. (Colección Digital PROTEO, 26). ISBN 978-84-1143-987-9."
-
-
-
-
-
       - "Rodríguez-Gallego, Fernando. “La «Cuarta parte» de Calderón y el texto de «Eco y Narciso».” Castilla. Estudios de Literatura, no. 16, 2025, pp. 543–571."
+      - "Fuente Rams, Martina de la. Hacia una edición crítica de la comedia Vida, muerte y colocación de San Isidro a partir del manuscrito a seis manos. Trabajo Final de Grado, Universitat de Barcelona, 2025. Tutor: Gaston Gilabert Viciana."
       - "Rubiera, Javier. “Las dos comedias escritas en colaboración por Martínez de Meneses, Rosete y Cáncer: un estudio comparativo de El arca de Noé y El mejor representante, San Ginés.” eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 485–495."
       - "Rodríguez Nicolás, Sergio. “Una nueva comedia colaborada para Juan de Zabaleta: la primera jornada de Los triunfos de José.” eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 470–484."
       - "Gómez Caballero, Iván. “El uso del nombre de Homero en el teatro español del siglo XVII: The Use of Homer’s Name in 17th-Century Spanish Theater.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 13, no. 1, 2025, pp. 603–618."
@@ -589,7 +689,32 @@ publications:
       - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
       - "García-Reidy, Alejandro. “Loa «Lámparas de plata fina».” Biblioteca Digital MANOS (Universidad de Salamanca), 2025."
       - "Antonucci, Fausta. “Risa y llanto en la dramaturgia cómica de Calderón: unas calas.” Anuario Calderoniano, no. 17, 2024, pp. 19–42."
+      - "Marcos Rodríguez, Emma María. Sentido y pervivencia del teatro de Antonio Mira de Amescua. Dir. Germán Vega García-Luengos y Héctor Urzáiz Tortajada. Valladolid: Universidad de Valladolid, 2024. DOI: 10.35376/10324/69443."
       - "Boadas, Sònia. Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023). Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 153-172."
+      - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92. DOI: 10.15366/edadoro2024.43.002."
+      - "Gómez Caballero, Iván. El mito de Ulises en el teatro español del siglo XVII. Dir. Rafael González Cañal. Universidad de Castilla-La Mancha, 2024."
+
+
+
+
+
+
+
+
+
+
+
+
+      - "Vega García-Luengos, Germán. Un falso encuentro entre Cervantes y Lope en el Quijote: fórmula y propósito del auto Las cortes de la muerte. En Alba Carmona, Blanca Santos de la Morena y Guillermo Gómez Sánchez-Ferrer (coords.), Lope después de Lope: su difusión y fortuna, de 'La fama póstuma' a nuestros días. Kassel: Edition Reichenberger, 2024, pp. 77–94. ISBN 978-3-96728-065-4."
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
+
+
+
+
+
+
+
       
       - "Claramonte y Corroy, Andrés de. El rey don Pedro en Madrid. Edición, introducción, cotejos y notas de Fernando Cantalapiedra Erostarbe; prólogo de Germán Vega García-Luengos. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. ISBN 978-84-1143-983-1."
       - "Enríquez Gómez, Antonio. El obispo de Crobia, san Estanislao. Edición crítica, prólogo y notas de Sergio Rodríguez Nicolás. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. ISBN 978-84-1143-945-9."
@@ -607,13 +732,20 @@ publications:
 
 
       - "Losada Palenzuela, José Luis. “Análisis cuantitativo de la reutilización textual en el teatro del Siglo de Oro. El caso de las colaboradas de Agustín Moreto.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 143–158."
-      - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
 
       - "Sánchez Ibáñez, Francisco. “Tras las huellas de una colaboración teatral: una hipótesis de autoría triple en Hacer remedio el dolor, de Agustín Moreto y Jerónimo de Cáncer.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 227–246."
       - "Córdoba Perozo, Jesús Ricardo. “Corte, fiesta, música y danza en Adramón (ca. 1530).” Historias Fingidas, vol. 12, 2024, pp. 57–78."
       - "Antonucci, Fausta. “Respeto por el texto y enmienda ope ingenii en la edición de un testimonio único: el caso de Los palacios de Galiana (Parte XXIII) de Lope de Vega.” Creneida. Anuario de Literaturas Hispánicas, vol. 12, 2024, pp. 206–230."
       - "Boadas Cabarrocas, Sònia. “Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020–2023).” Aureae Litterae Ovetenses. Actas del XIII Congreso de la AISO, 2024, pp. 153–172."
       - "Amelang, David J. “Measuring Protagonism in Early Modern European Theatre: A Distant Reading of the Character of Sophonisba.” Comparative Drama, vol. 58, no. 3, 2024, pp. 367–390."
+      - "Vega García-Luengos, Germán. Un falso encuentro entre Cervantes y Lope en el Quijote: fórmula y propósito del auto Las cortes de la muerte. En Alba Carmona, Blanca Santos de la Morena y Guillermo Gómez Sánchez-Ferrer (coords.), Lope después de Lope: su difusión y fortuna, de 'La fama póstuma' a nuestros días. Kassel: Edition Reichenberger, 2024, pp. 77–94. ISBN 978-3-96728-065-4."
+
+
+
+
+
+
+
       
       - "Pérez de Montalbán, Juan. Santo Domingo en Soriano. Edición crítica de Rocío Alonso Medel. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. (Colección Montalbán Digital, 1). ISBN 978-84-1143-942-8."
 
@@ -626,10 +758,25 @@ publications:
       - "Demattè, Claudia. “«Esos estilos tan altos / son del tiempo de Amadís»: análisis de las referencias al mundo de los libros de caballerías en el teatro del Siglo de Oro.” Historias Fingidas, no. 11, 2023, pp. 53–78."
       - "Vega García-Luengos, Germán. “Una nueva comedia en colaboración de Calderón de la Barca: «Las lágrimas de David», atribuida a Felipe Godínez.” En: Aun a pesar de las tinieblas bella, aun a pesar de las estrellas clara: scritti in ricordo di Ines Ravasini (Due punti, 85), Bari: Edizioni di Pagina, 2023, pp. 637–658."
       - "Rosete Niño, Pedro. La gran Torre del Orbe. Edición crítica de Paula Casariego Castiñeira. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. ISBN 978-84-1143-982-4."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
+
+
       - "Matos Fragoso, Juan de, Jerónimo de Cáncer y Velasco y Agustín Moreto. Dejar un reino por otro y Mártires de Madrid. Estudio preliminar de Roberta Alviti; edición crítica de Carmen Pinillos. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. (Colección Digital PROTEO, 24). ISBN 978-84-1143-969-5."
 
       
       - "Moreto, Agustín (atribuida). La confusión de un jardín. Edición crítica de Ane Zapatero Molinuevo. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. (Colección Digital PROTEO, 23). ISBN 978-84-17422-91-2."
+
+
+      - "Vega García-Luengos, Germán. “El Rayo de la Guerra Sancho Dávila (1523–1583) en la Comedia Nueva.” En Juan Manuel Escudero y Rebeca Lázaro Niso (eds.), El hacedor de las musas: homenaje al Prof. Francisco Domínguez Matito. San Millán de la Cogolla: Cilengua, Centro Internacional de Investigación de la Lengua Española, 2023, pp. 539–554. ISBN 978-84-18088-30-8."
+
+
+
+
 
 
 
@@ -659,11 +806,19 @@ publications:
     cited_by:
     
     
-      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
       - "Romero, Martin Horna; y Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+
       - "Moreno-Sandoval, Antonio; Leonardo Campillos-Llanos; y Ana García-Serrano. “Language Resources in Spanish for Automatic Text Simplification across Domains.” arXiv preprint arXiv:2409.20466, 2024."
       - "Boadas, Sònia. Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023). Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 153-172."
       - "Guillén Arnáiz, Cristina; y Emilio Vivó Capdevila. ¿Cómo crear documentos digitales a partir de libros que no están digitalizados? La digitalización y algunas de sus herramientas: CamScanner, Scan Tailor y Transkribus. En Clara Isabel Martínez Cantón, Rocío Ortuño Casanova y Antonio Huertas Morales (coords.), Las humanidades digitales en la enseñanza de las literaturas hispánicas: aplicaciones prácticas. Berlín: Peter Lang, 2023, pp. 43–84. ISBN 978-3-631-90806-8."
+
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
 
 
 
@@ -688,13 +843,17 @@ publications:
     cited_by:
     
     
-      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
       - "Menta, Antonio; y Ana Mª García Serrano. “Guía de estilo para la simplificación de oraciones del Diario de Madrid: creación de un corpus para el desarrollo de un modelo del lenguaje.” 2025."
       - "Romero, Martin Horna; y Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
+      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
       - "Khan, Arsh; y otros. “OCR approaches for humanities: Applications of artificial intelligence/machine learning on transcription and transliteration of historical documents.” Digital Studies in Language and Literature, vol. 1, nos. 1–2, 2024, pp. 85–112."
       - "Boadas, Sònia. Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023). Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 153-172."
       - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
       - "Guillén Arnáiz, Cristina; y Emilio Vivó Capdevila. ¿Cómo crear documentos digitales a partir de libros que no están digitalizados? La digitalización y algunas de sus herramientas: CamScanner, Scan Tailor y Transkribus. En Clara Isabel Martínez Cantón, Rocío Ortuño Casanova y Antonio Huertas Morales (coords.), Las humanidades digitales en la enseñanza de las literaturas hispánicas: aplicaciones prácticas. Berlín: Peter Lang, 2023, pp. 43–84. ISBN 978-3-631-90806-8."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
 
       - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 469–544."
 
@@ -716,6 +875,13 @@ publications:
       - "Boadas, Sònia. Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023). Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 153-172."
       - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
       - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 469–544."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
+
 
 
   - id: "discernir"
@@ -736,17 +902,13 @@ publications:
     cited_by:
 
       - "Rojas Zorrilla, Francisco, et al. Comedias áureas de varios ingenios. Tomo II. Edición crítica y anotada bajo la dirección de Rafael González Cañal y Almudena García González, Universidad de Castilla-La Mancha, 2025."
-      - "Gutiérrez Gil, Alberto. “Las reinas de Rojas Zorrilla: nuevas maneras de entender el ejercicio del poder.” Castilla: Estudios de Literatura, vol. 14, 2023, pp. 356–378. "
-      
+      - "Gutiérrez Gil, Alberto. “Las reinas de Rojas Zorrilla: nuevas maneras de entender el ejercicio del poder.” Castilla: Estudios de Literatura, vol. 14, 2023, pp. 356–378."
+      - "Herland, Emmy. Ghosts Across Borders: Don Juan de Castro and his Grateful Dead. En La comedia entre mundos: intersecciones críticas en el teatro de la temprana modernidad, 2023, pp. 295–312. DOI: 10.55422/ppsmp.9.15."
       - "Moyano Moreno, Isabel. La estilometría como técnica de análisis lingüístico-cuantitativo: a propósito del uso terminológico de estilo. Pragmalingüística, no. 31, 2023, pp. 339–361. DOI: 10.25267/Pragmalinguistica.2023.i31.15."
-
-
-
       - "González Escudero, Irene. “Hacia un repertorio de las comedias colaboradas de Rojas Zorrilla: los casos de El pleito del demonio con la Virgen y La trompeta del juicio, a través de la estilometría.” Cuadernos de investigación filológica, vol. 53, 2023, pp. 21-38."
       - "Ruiz Urbón, Cristina. “Sobre la validez de los análisis cuantitativos en los estudios de autoría de textos breves: el caso particular de los entremeses del Siglo de Oro.” Ogigia: Revista electrónica de estudios hispánicos, no. 33, 2023, pp. 69-96."
       - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
       - "Gutiérrez Gil, Alberto. “Espacios de cautiverio de la dama en El Mejor amigo, el muerto, de Belmonte, Rojas y Calderón.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 238–246."
-
       - "Ruiz Urbón, Cristina. Aplicación de la lingüística forense a los estudios de atribución de autoría literaria. Principios teóricos, metodológicos y conclusivos. Signa: Revista de la Asociación Española de Semiótica, nº 34, 2025, pp. 543-568."
       - "Gómez Caballero, Iván. “Puestas en escena de la obra teatral de Luis de Belmonte Bermúdez en el siglo XVII.” Epos: Revista de filología, vol. 38, 2022, pp. 127–147."
       - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
@@ -792,13 +954,25 @@ publications:
     cited_by:
  
  
+      - "Fiore, Arianna, ed. Tres entremeses famosos, a modo de comedia, de entretenimiento, de Pedro Ordóñez de Ceballos. Florencia: Società Editrice Fiorentina, 2025. DOI: 10.35948/DILEF/978-88-6032-806-9."
       - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+      - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92. DOI: 10.15366/edadoro2024.43.002."
+
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
       - "González Escudero, Irene. Hacia un repertorio de las comedias colaboradas de Rojas Zorrilla: los casos de El pleito del demonio con la Virgen y La trompeta del juicio, a través de la estilometría. Cuadernos de Investigación Filológica, vol. 53, 2023, pp. 21–38."
 
 
 
 
       - "Ortuño Casanova, Rocío. ¿Dónde puedo encontrar textos para trabajar con herramientas digitales? Búsqueda y utilización de corpus existentes y bases de datos en las literaturas en español. En Clara Isabel Martínez Cantón, Rocío Ortuño Casanova y Antonio Huertas Morales (coords.), Las humanidades digitales en la enseñanza de las literaturas hispánicas: aplicaciones prácticas. Berlín: Peter Lang, 2023, pp. 25–42. ISBN 978-3-631-90806-8."
+
+
+      - "Madroñal Durán, Abraham. El renacer del Fénix: Yo he hecho lo que he podido, Fortuna lo que ha querido: una nueva comedia de Lope de Vega. Valladolid: Ediciones Universidad de Valladolid; Ayuntamiento de Olmedo, 2021. (Colección Olmedo Clásico, 17). ISBN 978-84-1320-133-7."
+
+
+
+
 
 
 
@@ -831,29 +1005,45 @@ publications:
 
     cited_by:
     
-      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
+      - "García-Reidy, Alejandro. “Odres nuevos (digitales) para el teatro áureo español.” En: Arteaga, F., Peirats, A., Calvo Gómez, J. A. y Sánchez, D. (coords.), Humanidades Digitales: innovación, memoria y conexiones culturales en la era tecnológica, Valencia, Tirant lo Blanch, 2025, pp. 113–138."
+
+
+
+      - "Fiore, Arianna, ed. Tres entremeses famosos, a modo de comedia, de entretenimiento, de Pedro Ordóñez de Ceballos. Florencia: Società Editrice Fiorentina, 2025. DOI: 10.35948/DILEF/978-88-6032-806-9."
+
+
+
       - "Barrocal, Jorge Ferreira. “El auto sacramental de Escarramán: respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
       - "Lara Raírez, Alberto. Propuesta de un análisis estilométrico para las comedias colaboradas de Rojas. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 345–352."
       - "Pacheco Martínez, Irene. Reescritura y traducción del teatro calderoniano en el contexto fundacional de la dramaturgia nacional alemana. Tesis doctoral, Universitat de València, 2025."
       - "García-Reidy, Alejandro. Una comedia en colaboración desatendida y el sitio de Barcelona (1651–1652): El padrino de su afrenta. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 242–259."
       - "Rodríguez Nicolás, Sergio. Una nueva comedia colaborada para Juan de Zabaleta: la primera jornada de Los triunfos de José. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 470–484."
+      - "Fuente Rams, Martina de la. Hacia una edición crítica de la comedia Vida, muerte y colocación de San Isidro a partir del manuscrito a seis manos. Trabajo Final de Grado, Universitat de Barcelona, 2025. Tutor: Gaston Gilabert Viciana."
+
+
+
+
+
       - "Campión Larumbe, Miguel. Posibles aplicaciones de la estilometría a la investigación de los métodos de colaboración en las comedias de varios ingenios. eHumanista, vol. 61, 2025, pp. 200–210."
       - "Gilabert Viciana, Gaston. El teatro de Moreto en colaboración: constantes y variables métricas. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 276–289."
+      - "Ferreira Barrocal, Jorge. “Adenda a Zurdo, gracioso despiadado de la comedia claramontesca Púsoseme el sol, saliome la luna.” Bulletin of the Comediantes, vol. 76, no. 1, 2025, pp. 39–59. DOI: 10.1353/boc.2025.a970250."
+
+
+
       
-      
-      
+    
 
       - "Belmonte Bermúdez, Luis de. El ollero de Ocaña. Edición crítica y anotada de C. George Peale. Santa Barbara: Publications of eHumanista, 2025."
       - "Escudero Baztán, Juan Manuel. Poéticas calderonianas en las comedias colaboradas: el caso de El monstruo de la fortuna, la lavandera de Nápoles, Felipa Catanea. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 219–227."
       - "Zabaleta, Juan de; Martínez de Meneses, Antonio; Rosete Niño, Pedro; Villaviciosa, Sebastián de; Cáncer y Velasco, Jerónimo; y Moreto, Agustín. El rey don Enrique, el Enfermo. Ed. crítica de Sergio Rodríguez Nicolás. Alicante: Biblioteca Virtual Miguel de Cervantes, 2025. (Colección Digital PROTEO, 26). ISBN 978-84-1143-987-9."
       - "Walde-Moheno, Lillian von der. Muerte en escena y otros aspectos de la dramaturgia alarconiana. En Las caras de la huesuda. Variaciones sobre la muerte en el teatro hispánico, 2025, pp. 305–326."
-
+      - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
 
       - "González Cañal, Rafael. La genealogía burlesca, recurso de los graciosos en el teatro de la generación calderoniana. Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 13, no. 1, 2025, pp. 267–291."
       - "Ferrer Valls, Teresa. Dos obras de Rodrigo de Herrera en el contexto de la polémica sobre el patronazgo de Santiago: El voto de Santiago y batalla de Clavijo y El primer templo de España y segundo obispo de Ávila. En Cultura de defensa en la literatura española desde el Siglo de Oro (Biblioteca Áurea Hispánica, 165). Madrid–Frankfurt: Iberoamericana / Vervuert, 2024, pp. 33–48."
       - "Enríquez Gómez, Antonio. El obispo de Crobia, san Estanislao. Edición crítica, prólogo y notas de Sergio Rodríguez Nicolás. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. ISBN 978-84-1143-945-9."
       - "Boadas, Sònia. Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020-2023). Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 153-172."
-      - "Resta, Ilaria. “Investigaciones sobre el teatro del Siglo de Oro en el trienio 2020–2023: balance y perspectivas.” *Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO*, 2024, pp. 217–235."
+      - "Resta, Ilaria. “Investigaciones sobre el teatro del Siglo de Oro en el trienio 2020–2023: balance y perspectivas.” Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 217–235."
       - "Massanet Rodríguez, Rafael. De El celoso prudente a Del rey abajo, ninguno: revisionismo crítico y análisis comparativo de sus conexiones literarias. Symposium: A Quarterly Journal in Modern Literatures, vol. 78, no. 3, 2024."
       - "García-Reidy, Alejandro. Dos copias manuscritas localizadas: La serrana de Tormes, de Lope, y El bien nacido encubierto, no de Lope. 2024."
       - "Godínez, Felipe. El primer condenado. Introducción, edición crítica y notas de Irene G. Escudero. Alicante: Biblioteca Virtual Miguel de Cervantes, 2024. (Colección Obra dramática de Felipe Godínez, 1). ISBN 978-84-1143-944-2."
@@ -876,12 +1066,38 @@ publications:
       - "Gómez Sánchez-Ferrer, Guillermo. La construcción de la comedia de enredo de Juan Ruiz de Alarcón: a propósito de El desdichado en fingir. Atalanta. Revista de las Letras Barrocas, vol. 12, no. 2, 2024, pp. 66–93."
       - "Abate, Anna; y Lorenzo Bocchi. Herramientas digitales para la edición del teatro aurisecular: el informe de una tentativa a partir de EVT (Edition Visualization Technology). Revista de Humanidades Digitales, vol. 9, 2024, pp. 114–131."
       - "Lorenzo, Alejandra Ulla. Preservar, describir e identificar comedias sueltas antiguas: incógnitas y hallazgos bibliográficos. En Demattè, Claudia; Llàcer, Arantxa; y Presotto, Marco (eds.), Imprenta y literatura española en los siglos XVI y XVII: de las periferias al centro. Venecia: Edizioni Ca’ Foscari, 2024, pp. 125–138."
+    
       - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
+      - "Falivene, Samuele. “El conde don Sancho Niño, edición de William R. Manson y C. George Peale.” Orillas: Rivista d’Ispanistica, nº 13, 2024, pp. 965–967. ISSN 2280-4390."
+      - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+
+
+
+
+
+
+
+
 
       - "Gilabert, Gaston. Usos métricos de Matos, Diamante y Vélez de Guevara en El hidalgo de la Mancha: comedia en colaboración y teatro breve. En Emilio Martínez Mata; María Fernández Ferreiro; y María Álvarez Álvarez (eds.), Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, Oviedo: Universidad de Oviedo, 2024, pp. 285–297."
       - "González Cañal, Rafael. Rojas Zorrilla y su colaboración dramática con Jerónimo de Villanueva. Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 299–312."
       - "Crivellari, Daniele. Una nueva aportación para el estudio del teatro áureo de tema caballeresco. Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 269-284."
       - "Tronch Pérez, Jesús. Editar en TEI teatro clásico español e inglés en los proyectos ARTELOPE y EMOTHE. Studia Aurea Monográfica, no. 9, 2024, pp. 49–64."
+      - "Marcos Rodríguez, Emma María. Sentido y pervivencia del teatro de Antonio Mira de Amescua. Dir. Germán Vega García-Luengos y Héctor Urzáiz Tortajada. Valladolid: Universidad de Valladolid, 2024. DOI: 10.35376/10324/69443."
+
+
+      - "Gómez Caballero, Iván. El mito de Ulises en el teatro español del siglo XVII. Dir. Rafael González Cañal. Universidad de Castilla-La Mancha, 2024."
+
+
+
+
+
+
+
+
+
+
+
       - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
 
       - "Ferrer-Blé, Laura. Análisis del género teatral en el caso de El loco por fuerza, una comedia atribuida a Lope de Vega. 2024."
@@ -896,6 +1112,14 @@ publications:
       - "Ferrer Valls, Teresa, y Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
       - "Kroll, Simón; y Fernando Sanz-Lázaro. “Ritmo e inteligencia artificial: nuevas perspectivas sobre teatro lopesco desde las Humanidades Digitales.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 351–375."
       - "Rodríguez-Gallego, Fernando. “Entre Lope y Calderón: ecos de ¡Ay, verdades, que en amor…! en El astrólogo fingido.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 431–468."
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+
+
+
+
+
+
+
       - "Fernández Rodríguez, Daniel; y Alejandro García-Reidy. “Una nueva obra para Cepeda desde la filología digital y analógica: Las burlas y enredos de Benito.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 173–195."
       - "Santos, Héctor Brioso. “El caballero, comedia famosa… ¿de don Agustín Moreto?” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 2, 2023, pp. 469–485."
       - "Rodríguez-Gallego, Fernando. “Identificación de ediciones de comedias trabajando con la base de datos ISTAE: sobre unas sueltas de La sibila del oriente y gran reina de Sabá, de Calderón.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 429–462."
@@ -905,7 +1129,34 @@ publications:
       - "González Martínez, Javier J. “La autoría de Los valles de Sopetrán a la luz de la censura.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 267–279."
       - "Marcos Rodríguez, Emma María. “Antonio Mira de Amescua en ASODAT: testimonios, representaciones y censuras.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 305–317."
       - "Massanet Rodríguez, Rafael. “El conde de Sex: un intento por despejar su compleja atribución.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 349–363."
+      - "Campión Larumbe, Miguel. Reseña de Luis Vélez de Guevara, El conde don Sancho Niño, eds. William R. Manson y C. George Peale. Newark: Juan de la Cuesta Hispanic Monographs, 2023, 169 pp. ISBN 978-1-58871-394-0."
+
+
+
+
+
+
+
+      - "Reseña de Agustín Moreto, Comedias de Agustín Moreto. Tercera parte de comedias, vol. IX, dir. María Luisa Lobato, coord. Gaston Gilabert, eds. Marta Martínez Gutiérrez y Zaida Vila Carneiro. Kassel: Edition Reichenberger, 2023, 404 pp. ISBN 978-3-96728-054-8."
+
+
+
+
+
+
+
+      - "Amelang, David J. Explorando la presencia de personajes femeninos en la comedia en tiempos de Lope de Vega desde las Humanidades Digitales. Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 59–78. DOI: 10.13035/H.2023.11.01.04."
+
+
+
+
+
+
+
       - "Urzáiz, Héctor. “La censura de No hay vida como la honra, de Pérez de Montalbán.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 529–549."
+      - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
+
+
       - "Carro, Elena Martínez. “Epílogos moretianos: la originalidad del gracioso y su léxico en Yo por vos y vos por otro.” Revista de Literatura, vol. 85, no. 170, 2023, pp. 647–667."
       - "Castrillo Alaguero, Javier. “Una refundición moretiana de una comedia de Claramonte: El valiente justiciero y El rey don Pedro en Madrid.” Neophilologus, vol. 107, no. 3, 2023, pp. 363–388."
       - "Matos Fragoso, Juan de, Jerónimo de Cáncer y Velasco y Agustín Moreto. Dejar un reino por otro y Mártires de Madrid. Estudio preliminar de Roberta Alviti; edición crítica de Carmen Pinillos. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. (Colección Digital PROTEO, 24). ISBN 978-84-1143-969-5."
@@ -917,19 +1168,23 @@ publications:
       - "Crivellari, Daniele. “«Teatro Caballeresco»: una base de datos para el estudio de la presencia de los libros de caballerías en el drama áureo.” Historias Fingidas, vol. 11, 2023, pp. 27–51."
       - "López Lorenzo, Cipriano. “Farfán dramaturgo: nuevas aportaciones al tema de Judith y Holofernes en el teatro del Siglo de Oro.” Atalanta. Revista de las Letras Barrocas, vol. 11, no. 2, 2023, pp. 28–62."
       - "Salucio del Poyo, Damián. El rey muerto. Edición crítica y anotada de C. George Peale; introducción de Christopher B. Weimer. Santa Barbara: eHumanista, 2023."
+      - "Vega García-Luengos, Germán. “El Rayo de la Guerra Sancho Dávila (1523–1583) en la Comedia Nueva.” En Juan Manuel Escudero y Rebeca Lázaro Niso (eds.), El hacedor de las musas: homenaje al Prof. Francisco Domínguez Matito. San Millán de la Cogolla: Cilengua, Centro Internacional de Investigación de la Lengua Española, 2023, pp. 539–554. ISBN 978-84-18088-30-8."
 
 
-
-
+      - "Lope de Vega. Comedias. Parte XXII (2 vols.). Eds. Fausta Antonucci y Marco Presotto. Madrid: Gredos, 2023. ISBN 978-84-249-4053-9."
 
 
 
       - "Moreto, Agustín (atribuida). La confusión de un jardín. Edición crítica de Ane Zapatero Molinuevo. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. (Colección Digital PROTEO, 23). ISBN 978-84-17422-91-2."
       - "Enríquez Gómez, Antonio. La montañesa de Burgos. Edición crítica, prólogo y notas de Sergio Rodríguez Nicolás. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. ISBN 978-84-1143-719-6."
-      - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” En *A la sombra de las luces: Homenaje a Fernando Doménech*, 2022, pp. 65–79."
+      - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” En A la sombra de las luces: Homenaje a Fernando Doménech, 2022, pp. 65–79."
       - "Carro, Elena Martínez. “David perseguido y montes de Gelboé: novedades estilométricas ante una atribución dudosa.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 28, 2022, pp. 401–422."
       - "Ferreira Barrocal, Jorge. “Estudio de una comedia del Siglo de Oro atribuida a Adrián Guerrero: El ignorante discreto.” Studia Aurea, vol. 16, 2022, pp. 283–307."
       - "Lorenzo, Alejandra Ulla; y Paula Casariego Castiñeira. “Sobre falsas atribuciones y duplicidad de títulos en el teatro calderoniano: Haz bien y guárdate o La confusión de un jardín.” Studia Aurea, vol. 16, 2022, pp. 229–259."
+      - "Martos Pérez, María D. La literatura áurea en el entorno digital (2017–2020): balance, metodologías y diagnósticos. Etiópicas: Revista de Letras Renacentistas, vol. 18, 2022, pp. 517–592. DOI: 10.33776/eti.v18.7836."
+
+
+
       - "Crivellari, Daniele. “Un papel de actor desconocido de Amor, honor y poder de Calderón.” Edad de Oro, vol. 41, 2022."
       - "Vega García-Luengos, Germán. “La subida al trono de Felipe IV en una comedia de 1621: viejos métodos y recursos últimos para esclarecer atribuciones en el teatro aurisecular.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 39–58."
       - "Di Pastena, Enrico. Alessandro Martinengo (Savona, 1930–2021): In memoriam. Alicante: Biblioteca Virtual Miguel de Cervantes, 2025. Edición digital a partir de La Perinola: Revista de Investigación Quevediana, núm. 26, 2022, pp. 11–16."
@@ -955,7 +1210,11 @@ publications:
       - "Martínez-Carro, Elena. “Hacia un corpus lingüístico del gracioso moretiano en las comedias palatinas.” 2021."
       - "Gilabert, Gastón. El encanto de los dioses. Murcia: Editum, Ediciones de la Universidad de Murcia, 2021."
       - "Rojas Zorrilla, Francisco de; y Alberto Gutiérrez Gil (ed.). Obras completas. Volumen IX. Comedias sueltas. Cuenca: Ediciones de la Universidad de Castilla-La Mancha, 2021. ISBN 978-84-9044-419-1."
-      - "Fernández Rodríguez, Daniel. “Edición crítica, problemas textuales y de autoría: métrica y ortología en Lope de Vega.” En *La edición del diálogo teatral (siglos XVI–XVII)*, eds. Luigi Giuliani y Victoria Pineda. Firenze: Firenze University Press, 2021. DOI: 10.36253/978-88-5518-224-9.02."
+      - "Fernández Rodríguez, Daniel. “Edición crítica, problemas textuales y de autoría: métrica y ortología en Lope de Vega.” En La edición del diálogo teatral (siglos XVI–XVII), eds. Luigi Giuliani y Victoria Pineda. Firenze: Firenze University Press, 2021. DOI: 10.36253/978-88-5518-224-9.02."
+      - "Madroñal Durán, Abraham. El renacer del Fénix: Yo he hecho lo que he podido, Fortuna lo que ha querido: una nueva comedia de Lope de Vega. Valladolid: Ediciones Universidad de Valladolid; Ayuntamiento de Olmedo, 2021. (Colección Olmedo Clásico, 17). ISBN 978-84-1320-133-7."
+
+
+
 
 
 
@@ -974,11 +1233,21 @@ publications:
       - "Julia, M.; y María Luisa Lobato. “La recuperación de un dramaturgo áureo: Agustín Moreto en la Biblioteca Virtual Miguel de Cervantes.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 9, no. 1, 2021, pp. 1089–1109."
       - "Moreto, Agustín. La confusión de un jardín. SAGA Egmont, 2020."
       - "Belmonte Bermúdez, Luis de, Agustín Moreto y Antonio Martínez de Meneses. La renegada de Valladolid. Edición crítica de Paula Casariego Castiñeira. Alicante: Biblioteca Virtual Miguel de Cervantes, 2021. (Colección Digital PROTEO, 18). ISBN 978-84-17422-85-1."
+      
+      - "Amelang, David L. Las Humanidades Digitales y la redefinición del canon teatral del Siglo de Oro. Alicante: Biblioteca Virtual Miguel de Cervantes, 2023. Edición digital a partir de Boletín de la Biblioteca de Menéndez Pelayo, año 97, no. 1, 2021, pp. 115–134."
+
+
+
+
+
+
+
+
       - "Zapatero Molinuevo, Ane. Estudio y edición crítica de un díptico dramático de Lope de Vega: Los Tellos de Meneses y Valor, fortuna y lealtad de los Tellos de Meneses. Tesis doctoral, Universidad del País Vasco (UPV/EHU), 2021."
       - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
       - "Fernández Rodríguez, Daniel. Los primeros años del teatro comercial en España y el primer Lope (1560–1598). Anuario Lope de Vega. Texto, literatura, cultura, vol. 27, 2021, pp. 1–8. DOI: https://doi.org/10.5565/rev/anuariolopedevega.423."
       - "Caballero, Iván Gómez. “Estudio estilométrico del teatro latino: a vueltas con Octavia y Hercules Oetaeus de Séneca.” Cuadernos de Filología Clásica. Estudios Latinos, vol. 41, no. 1, 2021, pp. 57–75."
-
+      - "Rojas Zorrilla, Francisco de. Obras completas. Volumen IX: Comedias sueltas. Ed. Alberto Gutiérrez Gil. Cuenca: Ediciones de la Universidad de Castilla-La Mancha, 2021. DOI: 10.18239/edcri_2021.29.00."
       - "Merino Recalde, David. Estudios teatrales y Humanidades Digitales: un estado de la cuestión del cruce entre disciplinas en la investigación del teatro español. 2020."
       - "Fiore, Arianna. “Questioni di autorialità a proposito di tre commedie seicentesche: Pedro de Urdemalas tra Cervantes, Lope, Montalbán, Diamante e la scuola di Calderón.” Artifara, vol. 20, no. 2, 2020, pp. 53–77."
       - "García, Delia Gavela; y Juan Antonio Martínez Berbel. “Pico y Canente, de Luis de Ulloa y Rodrigo Dávila: un mito menor para una fiesta real.” Librosdelacorte.es, no. 21, 2020, pp. 223–246."
@@ -987,8 +1256,9 @@ publications:
       - "González Cañal, Rafael. Los sonetos de Rojas Zorrilla. 2020."
       - "Emma, M. Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna. 2020."
       - "Hernández Tornero, Celio. “Investigaciones sobre la transmisión, recepción y tradición cultural de La dama boba: del manuscrito autógrafo a la era digital.” 2020."
+      - "Hernández Lorenzo, Laura. “Humanidades Digitales y Literatura española: 50 años de repaso histórico y panorámica de proyectos representativos.” Janus: Estudios sobre el Siglo de Oro, no. 9, 2020, pp. 562–595. DOI: 10.17979/janus.2020.0.09.10400."
       - "Borja Macías, David Elías. Desarrollo de un sistema de análisis de autoría de textos de literatura de autores hispanohablantes. 2019."
-      - "Matos Fragoso, Juan de; Jerónimo Cáncer y Velasco; y Agustín Moreto. *La adúltera penitente.* Edición crítica de Fernando Rodríguez-Gallego. Alicante: Biblioteca Virtual Miguel de Cervantes, 2019. (Colección Digital PROTEO, 8). ISBN 978-84-17422-58-5."
+      - "Matos Fragoso, Juan de; Jerónimo Cáncer y Velasco; y Agustín Moreto. La adúltera penitente. Edición crítica de Fernando Rodríguez-Gallego. Alicante: Biblioteca Virtual Miguel de Cervantes, 2019. (Colección Digital PROTEO, 8). ISBN 978-84-17422-58-5."
       - "Madroñal, Abraham. “Entre la historia y la leyenda. A propósito de Las dos bandoleras, comedia atribuida a Lope de Vega.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 25, 2019, pp. 281–310."
 
 
