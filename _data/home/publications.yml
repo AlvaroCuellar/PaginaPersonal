@@ -1,52 +1,24 @@
-# Este archivo contiene la lista de publicaciones académicas.
-# Instrucciones para completar los datos:
-# 1. Campos obligatorios:
-#    - id: Identificador único para cada entrada (por ejemplo, "article01").
-#    - type: Tipo de publicación. Categorías posibles:
-#      - article: Artículo
-#      - incollection: Capítulo de libro
-#      - inproceedings: Actas
-#      - inbook: Capítulo
-#      - book: Libro
-#      - phdthesis: Tesis doctoral
-#      - mastersthesis: Tesis de máster
-#      - inpress: En prensa
-#      - techreport: Informe técnico
-#      - misc: Otros
-#      - proceedings: Actas
-#      - manual: Manual
-#      - booklet: Folleto
-#      - model: Modelo
-#    - title: Título de la publicación.
-#    - authors:  - "Nombre Apellido"
+# ═══════════════════════════════════════════════════════════
+# PUBLICACIONES ACADÉMICAS
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS OBLIGATORIOS:
+#   id, type, title, authors (lista con guiones), year, url
+#
+# TIPOS DE PUBLICACIÓN:
+#   article, incollection, inproceedings, book, phdthesis, mastersthesis, inpress, techreport, misc, proceedings, manual, booklet, model
+#
+# CAMPOS OPCIONALES (según tipología):
+#   publication (título de libro o de revista, lo que va en cursiva), editor o coordinator, volume, number, pages, place, 
+#   publisher (editorial), thumbnail, abstract, cited_by
+#
+# NOTA: Usar siempre formato de lista con guiones para authors/editor/coordinator
+#   Correcto:  authors:
 #                - "Nombre Apellido"
-# * El formato inline de lista (["Nombre Apellido", "Nombre Apellido"]) a veces puede dar error o verse los corchetes y comillas, por lo que se recomienda usar el formato de lista con guiones, que es más confiable.
-#    - year: Año de publicación.
-#    - url: Enlace único a la publicación (para el botón "Acceder").
-# 2. Campos opcionales:
-#    - publication: Nombre de la revista, libro o actas.
-#    - editor: Editor(es) del libro o volumen. Puede ser:
-#      * String simple: "Nombre Apellido"
-#      * Lista:  - "Nombre Apellido"
 #                - "Nombre Apellido"
-#    - coordinator: Coordinador(es) del libro o volumen. Puede ser:
-#      * String simple: "Nombre Apellido"
-#      * Lista:  - "Nombre Apellido"
-#                - "Nombre Apellido"
-#    - volume: Volumen de la publicación.
-#    - number: Número de la publicación.
-#    - pages: Páginas (por ejemplo, "455-478").
-#    - place: Lugar de publicación.
-#    - publisher: Editorial o institución publicadora.
-#    - thumbnail: Ruta a la imagen de vista previa.
-#    - abstract: Resumen de la publicación.
-#    - cited_by: Referencias completas de publicaciones que citan esta entrada.
-# 3. Publicaciones destacadas:
-#    - featured_ids: Lista de IDs de publicaciones destacadas que aparecerán al inicio de la sección.
-# 4. Notas adicionales:
-#    - Asegúrate de que los IDs sean únicos y descriptivos.
-#    - Mantén el formato YAML y respeta la indentación.
-#    - Puedes agregar tantas entradas como sea necesario siguiendo el formato proporcionado.
+#   Evitar:    authors: ["Nombre Apellido", "Nombre Apellido"]
+#
+# FEATURED: Agregar IDs en 'featured_ids' para destacar al inicio
 
 subtitle:
   es: "Selección de"
@@ -560,13 +532,11 @@ publications:
       - "Álvaro Cuéllar"
     year: 2023
     publication: "Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII"
-    editor:
-      - "Juan Manuel Escudero Baztán"
+    editor: "Juan Manuel Escudero Baztán"
     place: "Madrid / Frankfurt am Main"
     publisher: "Iberoamericana / Vervuert"
     pages: "165–198"
-    isbn:
-      - "978-84-9192-322-5"
+    isbn: "978-84-9192-322-5"
     url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
     thumbnail: "/assets/images/pubs/moreto.png"
     abstract: "El capítulo examina la etapa final de la producción dramática de Agustín Moreto (1655–1659) mediante análisis estilométricos. A partir del estudio cuantitativo del léxico y los patrones autorales, se exploran rasgos que distinguen este periodo tardío y su relación con la influencia calderoniana. Disponible también en la editorial Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."

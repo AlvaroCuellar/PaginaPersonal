@@ -1,4 +1,11 @@
-# Research lines and developments
+# ═══════════════════════════════════════════════════════════
+# LÍNEAS DE INVESTIGACIÓN
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS:
+#   title (es/en): Nombre de la línea de investigación
+#   description (es/en): Breve descripción del área de trabajo
+#   image: Ruta a imagen representativa (opcional)
 
 section_title:
   es: "Investigación"

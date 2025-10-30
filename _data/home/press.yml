@@ -1,25 +1,19 @@
-# Este archivo contiene la lista de apariciones en medios de comunicación.
-# Instrucciones para completar los datos:
-# 1. Campos obligatorios:
-#    - id: Identificador único para cada artículo (por ejemplo, "press01").
-#    - title: Título del artículo o mención, con claves "es" y "en" para idiomas.
-#    - outlet: Nombre del medio de comunicación.
-#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD).
-#    - url: Enlace al artículo original.
-# 2. Campos opcionales:
-#    - thumbnail: Ruta a la imagen de captura del artículo.
-#    - summary: Breve resumen del contenido, con claves "es" y "en".
-#    - type: Tipo de aparición (ver tipos disponibles abajo).
-# 3. Para destacar artículos, agregar sus IDs en el campo 'featured' al inicio del archivo.
-# 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
-#    - news      → fa-solid fa-newspaper (Noticia general)
-#    
-#    Para añadir nuevos tipos:
-#    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'press_types'
-#    b) Agregar el ícono correspondiente en el código HTML/CSS
-# 5. Notas adicionales:
-#    - Mantén el formato YAML y respeta la indentación.
-#    - Los artículos se mostrarán en orden cronológico inverso.
+# ═══════════════════════════════════════════════════════════
+# APARICIONES EN PRENSA
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS OBLIGATORIOS:
+#   id, title (es/en), outlet, date (YYYY-MM-DD), url
+#
+# CAMPOS OPCIONALES:
+#   thumbnail, summary (es/en), type, author
+#
+# TIPOS DISPONIBLES:
+#   news (definido en _data/i18n/en.yml y es.yml)
+#   Para añadir tipos: agregar en i18n y asignar ícono en HTML/CSS
+#
+# FEATURED: Agregar IDs en 'featured' para mostrar con badge especial
+# ORDEN: Los artículos se muestran en orden cronológico inverso
 
 section_title:
   es: "Prensa"

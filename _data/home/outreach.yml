@@ -1,64 +1,18 @@
 # ═══════════════════════════════════════════════════════════
-# OUTREACH - Masonry Layout Configuration
+# OUTREACH - Divulgación Científica
 # ═══════════════════════════════════════════════════════════
-# Este archivo contiene la lista de artículos y contenido de divulgación científica.
-# Ahora utiliza un layout tipo masonry/Pinterest donde las tarjetas tienen diferentes tamaños
-# según su contenido y los items destacados aparecen primero con un badge.
 
-# ·········································
-# INSTRUCCIONES PARA COMPLETAR LOS DATOS
-# ·········································
-
-# 1. CAMPOS OBLIGATORIOS:
-#    - id: Identificador único para cada ítem (por ejemplo, "outreach-1")
-#    - title: Título del ítem o contenido, con claves "es" y "en" para idiomas
-#    - type: Tipo de contenido (ver tipos disponibles abajo)
-#    - medium: Nombre del medio o plataforma donde se publicó
-#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD)
-#    - url: Enlace al contenido original
-
-# 2. CAMPOS OPCIONALES:
-#    - description: Breve descripción del contenido, con claves "es" y "en"
-#    - image: Ruta a la imagen de preview (ejemplo: "/assets/images/outreach/mi-imagen.jpg")
-#             * Las imágenes se mostrarán en la parte superior de la tarjeta
-#             * Tamaño recomendado: 600x400px o similar (aspect ratio 3:2)
-#             * Las tarjetas CON imagen ocuparán más espacio en el masonry grid
-
-# 3. LAYOUT MASONRY - TAMAÑOS DE TARJETAS:
-#    Las tarjetas tienen diferentes alturas según su contenido:
-#    - Tarjeta estándar: ~200px
-#    - Con imagen: ~300px
-#    - Destacada (featured): ~350px
-#    - Destacada con imagen: ~450px
-#    El sistema ajusta automáticamente según el contenido y la presencia de imagen.
-
-# 4. ITEMS DESTACADOS (FEATURED):
-#    - Agregar los IDs en el campo 'featured_ids' al inicio del archivo
-#    - Los items destacados aparecerán PRIMEROS en el grid con un badge de "Destacado"
-#    - Ya NO hay carrusel separado - todo está integrado en el masonry grid
-#    - Los items destacados siempre están visibles en la cuadrícula principal
-
-# 5. TIPOS DISPONIBLES para 'type' (definidos en _data/i18n/en.yml y es.yml):
-#    - article   → fa-file-text (Artículo escrito)
-#    - tv        → fa-tv (Aparición en TV o video)
-#    - radio     → fa-microphone (Entrevista de radio/podcast)
-#    - interview → fa-comment (Entrevista escrita)
-#    
-#    Para añadir nuevos tipos:
-#    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'outreach_types'
-#    b) Agregar el ícono correspondiente en _includes/sections/outreach.html
-
-# 6. NOTAS ADICIONALES:
-#    - Los ítems se ordenan cronológicamente (featured primero, luego por fecha descendente)
-#    - El botón "Ver más" muestra inicialmente 9 items, luego carga 6 más por click
-#    - El layout es responsive: 4 columnas (desktop XL), 3 (desktop), 2 (tablet), 1 (mobile)
-
-# ·········································
-# CONFIGURACIÓN DE VISUALIZACIÓN
-# ·········································
-
-# Esta opción ya no se usa (legacy) - los featured siempre aparecen en el grid principal
-repeat_featured_in_all: true
+# CAMPOS OBLIGATORIOS:
+#   id, title (es/en), type, medium (medio de comunicación), date, url
+#
+# CAMPOS OPCIONALES:
+#   description (es/en), image
+#
+# TIPOS DISPONIBLES:
+#   article (artículos escritos), tv (programas de televisión), radio (programas de radio), interview (entrevistas escritas)
+#
+# FEATURED:
+#   Agregar IDs en 'featured_ids' para mostrar con badge y borde destacado
 
 section_title:
   es: "Divulgación"

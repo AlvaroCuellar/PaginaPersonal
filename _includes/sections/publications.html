@@ -59,20 +59,22 @@
                         {% assign editor_text = "" %}
                         {% if pub.editor %}
                           {% if pub.editor.first %}
+                            {% assign editor_names = pub.editor | join: ", " %}
                             {% if pub.editor.size == 1 %}
-                              {% assign editor_text = " (ed. " | append: pub.editor[0] | append: ")" %}
+                              {% assign editor_text = " (ed. " | append: editor_names | append: ")" %}
                             {% else %}
-                              {% assign editor_text = " (eds. " | append: pub.editor | join: ", " | append: ")" %}
+                              {% assign editor_text = " (eds. " | append: editor_names | append: ")" %}
                             {% endif %}
                           {% else %}
                             {% assign editor_text = " (ed. " | append: pub.editor | append: ")" %}
                           {% endif %}
                         {% elsif pub.coordinator %}
                           {% if pub.coordinator.first %}
+                            {% assign coord_names = pub.coordinator | join: ", " %}
                             {% if pub.coordinator.size == 1 %}
-                              {% assign editor_text = " (coord. " | append: pub.coordinator[0] | append: ")" %}
+                              {% assign editor_text = " (coord. " | append: coord_names | append: ")" %}
                             {% else %}
-                              {% assign editor_text = " (coords. " | append: pub.coordinator | join: ", " | append: ")" %}
+                              {% assign editor_text = " (coords. " | append: coord_names | append: ")" %}
                             {% endif %}
                           {% else %}
                             {% assign editor_text = " (coord. " | append: pub.coordinator | append: ")" %}
@@ -90,9 +92,6 @@
                     {% if pub.pages %}
                       {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
                     {% endif %}
-                    {% if pub.year and pub.year != "" %}
-                      {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
-                      {% assign source_text = source_text | append: pub.year %}
                     {% endif %}
                     {% if pub.place %}
                       {% assign source_text = source_text | append: ", " | append: pub.place %}
@@ -100,6 +99,9 @@
                     {% if pub.publisher %}
                       {% assign source_text = source_text | append: ", " | append: pub.publisher %}
                     {% endif %}
+                    {% if pub.year and pub.year != "" %}
+                      {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
+                      {% assign source_text = source_text | append: pub.year %}
                     {% if pub.isbn %}
                       {% assign source_text = source_text | append: ", ISBN: " | append: pub.isbn %}
                     {% endif %}
@@ -193,20 +195,22 @@
                           {% assign editor_text = "" %}
                           {% if pub.editor %}
                             {% if pub.editor.first %}
+                              {% assign editor_names = pub.editor | join: ", " %}
                               {% if pub.editor.size == 1 %}
-                                {% assign editor_text = " (ed. " | append: pub.editor[0] | append: ")" %}
+                                {% assign editor_text = " (ed. " | append: editor_names | append: ")" %}
                               {% else %}
-                                {% assign editor_text = " (eds. " | append: pub.editor | join: ", " | append: ")" %}
+                                {% assign editor_text = " (eds. " | append: editor_names | append: ")" %}
                               {% endif %}
                             {% else %}
                               {% assign editor_text = " (ed. " | append: pub.editor | append: ")" %}
                             {% endif %}
                           {% elsif pub.coordinator %}
                             {% if pub.coordinator.first %}
+                              {% assign coord_names = pub.coordinator | join: ", " %}
                               {% if pub.coordinator.size == 1 %}
-                                {% assign editor_text = " (coord. " | append: pub.coordinator[0] | append: ")" %}
+                                {% assign editor_text = " (coord. " | append: coord_names | append: ")" %}
                               {% else %}
-                                {% assign editor_text = " (coords. " | append: pub.coordinator | join: ", " | append: ")" %}
+                                {% assign editor_text = " (coords. " | append: coord_names | append: ")" %}
                               {% endif %}
                             {% else %}
                               {% assign editor_text = " (coord. " | append: pub.coordinator | append: ")" %}
@@ -224,16 +228,16 @@
                       {% if pub.pages %}
                         {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
                       {% endif %}
+                      {% endif %}
+                      {% if pub.place %}
+                        {% assign source_text = source_text | append: ", " | append: pub.place | append: ": " %}
+                      {% endif %}
+                      {% if pub.publisher %}
+                        {% assign source_text = source_text | append: pub.publisher %}
+                      {% endif %}
                       {% if pub.year and pub.year != "" %}
                         {% if source_text != "" %}{% assign source_text = source_text | append: ", " %}{% endif %}
                         {% assign source_text = source_text | append: pub.year %}
-                      {% endif %}
-                      {% if pub.place %}
-                        {% assign source_text = source_text | append: ", " | append: pub.place %}
-                      {% endif %}
-                      {% if pub.publisher %}
-                        {% assign source_text = source_text | append: ", " | append: pub.publisher %}
-                      {% endif %}
                       {% if pub.isbn %}
                         {% assign source_text = source_text | append: ", ISBN: " | append: pub.isbn %}
                       {% endif %}

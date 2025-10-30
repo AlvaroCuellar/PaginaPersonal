@@ -46,7 +46,7 @@
             {% assign is_featured = true %}
           {% endif %}
           
-          <article class="outreach-card{% if item_count > initial_visible %} hidden{% endif %}" data-type="{{ item.type }}">
+          <article class="outreach-card{% if item_count > initial_visible %} hidden{% endif %}" data-type="{{ item.type }}"{% if is_featured %} data-featured="true"{% endif %}>
             <!-- Featured Badge (solo si es featured) -->
             {% if is_featured %}
               <div class="featured-badge featured-badge-absolute featured-badge-top-right">

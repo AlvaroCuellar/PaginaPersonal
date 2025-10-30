@@ -1,3 +1,14 @@
+# ═══════════════════════════════════════════════════════════
+# PROYECTOS DE INVESTIGACIÓN
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS:
+#   badge (es/en): Rol en el proyecto (ej: "Codirector", "Colaborador")
+#   title (es/en): Nombre del proyecto
+#   description (es/en): Descripción detallada
+#   image: Ruta a imagen representativa
+#   url: Enlace al sitio web del proyecto
+
 section_title:
   es: "Proyectos"
   en: "Projects"

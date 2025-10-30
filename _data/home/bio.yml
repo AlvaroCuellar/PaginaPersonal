@@ -1,4 +1,13 @@
 
+# ═══════════════════════════════════════════════════════════
+# BIOGRAFÍA Y TRAYECTORIA
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS:
+#   bio (es/en): Texto biográfico en formato markdown
+#   show_timeline: true/false (mostrar u ocultar línea temporal)
+#   timeline: Lista de hitos (date, title, subtitle, description bilingües)
+
 section_title:
   es: "Trayectoria"
   en: "Career"

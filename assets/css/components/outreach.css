@@ -26,6 +26,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease, top 0.3s ease, left 0.3s ease;
   overflow: hidden;
   margin-bottom: var(--spacing-l); /* Fallback si JS no carga */
+  border: 2px solid transparent; /* Borde transparente por defecto */
+}
+
+/* Highlight visual para cards featured */
+.outreach-card[data-featured="true"] {
+  border: 2px solid var(--accent-color);
 }
 
 /* Image container */

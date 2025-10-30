@@ -1,38 +1,21 @@
-# Este archivo contiene la lista de ponencias, charlas y presentaciones académicas.
-# Instrucciones para completar los datos:
-# 1. Campos obligatorios:
-#    - id: Identificador único para cada entrada (por ejemplo, "Prolope2024").
-#    - type: Tipo de presentación. Categorías posibles:
-#      - invited: Conferencia invitada
-#      - conference: Comunicación científica (peer reviewed)
-#      - plenary: Conferencia plenaria
-#      - panel: Mesa redonda o panel
-#      - poster: Póster
-#      - workshop: Taller
-#      - keynote: Conferencia magistral
-#    - date: Fecha de inicio en formato ISO (YYYY-MM-DD).
-#    - title: Título de la comunicación o presentación.
-#    - event: Nombre del evento académico.
-# 2. Campos opcionales:
-#    - date_end: Fecha de finalización en formato ISO (YYYY-MM-DD).
-#    - institution: Institución organizadora o anfitriona.
-#    - location: Ubicación del evento (ciudad, país). Puede ser:
-#      * String simple: "Madrid, España"
-#      * Objeto con idiomas:
-#          location:
-#            es: "Madrid, España"
-#            en: "Madrid, Spain"
-# 3. Ponencias destacadas:
-#    - featured_ids: Lista de IDs de ponencias destacadas que aparecerán al inicio de la sección.
-#    - repeat_featured_in_all: true/false - Controla si las ponencias destacadas aparecen también en la lista completa
-#      * true: Las ponencias destacadas se muestran tanto en el carrusel como en la cuadrícula completa
-#      * false: Las ponencias destacadas solo aparecen en el carrusel (se excluyen de la lista completa)
-# 4. Idiomas:
-#    - Los campos de texto pueden incluir versiones en español e inglés usando las claves "es" y "en".
-# 5. Notas adicionales:
-#    - Asegúrate de que los IDs sean únicos y descriptivos.
-#    - Mantén el formato YAML y respeta la indentación.
-#    - Puedes agregar tantas entradas como sea necesario siguiendo el formato proporcionado.
+# ═══════════════════════════════════════════════════════════
+# PONENCIAS Y CONFERENCIAS
+# ═══════════════════════════════════════════════════════════
+
+# CAMPOS OBLIGATORIOS:
+#   id, type, date (YYYY-MM-DD), title, event
+#
+# TIPOS DE PRESENTACIÓN:
+#   invited, conference, plenary, panel, poster, workshop, keynote
+#
+# CAMPOS OPCIONALES:
+#   date_end, institution, location (string o bilingüe es/en)
+#
+# FEATURED:
+#   - featured_ids: IDs de ponencias destacadas (aparecen al inicio)
+#   - repeat_featured_in_all: true/false (mostrar featured también en lista completa)
+#
+# IDIOMAS: Campos de texto pueden ser bilingües con claves "es" y "en"
 
 # Configuración de repetición de ponencias destacadas (true/false)
 repeat_featured_in_all: true
