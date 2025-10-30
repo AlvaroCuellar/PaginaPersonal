@@ -30,18 +30,17 @@ function initPressCarousel() {
     return 1;                   // Mobile: 1 item
   }
   
-  // Crear indicadores dinámicamente
+  // Crear indicadores dinámicamente (uno por página completa)
   function createIndicators() {
     const visibleItems = getVisibleItems();
-    const maxIndex = totalCards - visibleItems;
-    const numIndicators = maxIndex + 1; // Total de posiciones posibles
+    const numPages = Math.ceil(totalCards / visibleItems); // Número de páginas
     
     indicatorsContainer.innerHTML = '';
     
-    for (let i = 0; i <= maxIndex; i++) {
+    for (let i = 0; i < numPages; i++) {
       const indicator = document.createElement('button');
       indicator.classList.add('carousel-indicator');
-      indicator.setAttribute('aria-label', `Go to position ${i + 1}`);
+      indicator.setAttribute('aria-label', `Go to page ${i + 1}`);
       
       indicator.addEventListener('click', () => {
         currentIndex = i;
@@ -58,8 +57,8 @@ function initPressCarousel() {
     const cardWidth = cards[0].offsetWidth;
     const gap = parseFloat(getComputedStyle(carousel).gap) || 0;
     
-    // Calcular el desplazamiento (avance de 1 en 1)
-    const offset = -(cardWidth + gap) * currentIndex;
+    // Calcular el desplazamiento (avance por página completa)
+    const offset = -(cardWidth + gap) * visibleItems * currentIndex;
     carousel.style.transform = `translateX(${offset}px)`;
     
     // Actualizar indicadores
@@ -75,28 +74,28 @@ function initPressCarousel() {
   // Función para actualizar estado de botones de navegación
   function updateNavigationButtons() {
     const visibleItems = getVisibleItems();
-    const maxIndex = totalCards - visibleItems;
+    const numPages = Math.ceil(totalCards / visibleItems);
     
     if (prevArrow) {
       prevArrow.disabled = currentIndex === 0;
     }
     if (nextArrow) {
-      nextArrow.disabled = currentIndex >= maxIndex;
+      nextArrow.disabled = currentIndex >= numPages - 1;
     }
   }
   
-  // Navegar al siguiente (avanzar 1 posición)
+  // Navegar al siguiente (avanzar una página completa)
   function nextSlide() {
     const visibleItems = getVisibleItems();
-    const maxIndex = totalCards - visibleItems;
+    const numPages = Math.ceil(totalCards / visibleItems);
     
-    if (currentIndex < maxIndex) {
+    if (currentIndex < numPages - 1) {
       currentIndex++;
       updateCarousel();
     }
   }
   
-  // Navegar al anterior (retroceder 1 posición)
+  // Navegar al anterior (retroceder una página completa)
   function prevSlide() {
     if (currentIndex > 0) {
       currentIndex--;
@@ -111,9 +110,9 @@ function initPressCarousel() {
     resizeTimeout = setTimeout(() => {
       // Ajustar índice si es necesario
       const visibleItems = getVisibleItems();
-      const maxIndex = totalCards - visibleItems;
-      if (currentIndex > maxIndex) {
-        currentIndex = Math.max(0, maxIndex);
+      const numPages = Math.ceil(totalCards / visibleItems);
+      if (currentIndex >= numPages) {
+        currentIndex = Math.max(0, numPages - 1);
       }
       
       // Recrear indicadores y actualizar
@@ -186,9 +185,9 @@ function initPressCarousel() {
   // function startAutoPlay() {
   //   autoPlayInterval = setInterval(() => {
   //     const visibleItems = getVisibleItems();
-  //     const maxIndex = totalCards - visibleItems;
+  //     const numPages = Math.ceil(totalCards / visibleItems);
   //     
-  //     if (currentIndex < maxIndex) {
+  //     if (currentIndex < numPages - 1) {
   //       nextSlide();
   //     } else {
   //       currentIndex = 0;
@@ -205,9 +204,50 @@ function initPressCarousel() {
   // carousel.addEventListener('mouseenter', stopAutoPlay);
   // carousel.addEventListener('mouseleave', startAutoPlay);
   
+  // Crear hint de swipe para móviles
+  function createSwipeHint() {
+    // Solo crear si no existe ya
+    let swipeHint = carouselContainer.querySelector('.swipe-hint');
+    
+    if (!swipeHint) {
+      const swipeText = carouselContainer.getAttribute('data-swipe-hint') || 'Desliza para ver más';
+      swipeHint = document.createElement('div');
+      swipeHint.classList.add('swipe-hint');
+      swipeHint.innerHTML = `<span><span>${swipeText}</span> <i class="fa fa-arrow-right"></i></span>`;
+      carouselContainer.appendChild(swipeHint);
+    }
+    
+    // Mostrar solo en móvil y si hay más de 1 página
+    const visibleItems = getVisibleItems();
+    const numPages = Math.ceil(totalCards / visibleItems);
+    
+    if (visibleItems === 1 && numPages > 1) {
+      swipeHint.style.display = 'flex';
+    } else {
+      swipeHint.style.display = 'none';
+    }
+  }
+  
   // Inicializar
   createIndicators();
   updateCarousel();
+  createSwipeHint();
+  
+  // Actualizar hint en resize
+  const originalResize = window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      const visibleItems = getVisibleItems();
+      const numPages = Math.ceil(totalCards / visibleItems);
+      if (currentIndex >= numPages) {
+        currentIndex = Math.max(0, numPages - 1);
+      }
+      
+      createIndicators();
+      updateCarousel();
+      createSwipeHint();
+    }, 250);
+  });
   
   // startAutoPlay(); // Descomentar para activar auto-play
   

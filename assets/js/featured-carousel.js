@@ -43,7 +43,6 @@ function initFeaturedCarousels() {
             carousel.style.scrollBehavior = 'auto'; // Desactivar smooth durante drag
             startX = e.pageX - carousel.offsetLeft;
             scrollLeft = carousel.scrollLeft;
-            e.preventDefault(); // Prevenir selección de texto
         });
         
         carousel.addEventListener('mouseleave', () => {
@@ -90,12 +89,12 @@ function initFeaturedCarousels() {
         carousel.addEventListener('keydown', (e) => {
             if (e.key === 'ArrowLeft') {
                 carousel.scrollBy({
-                    left: -300,
+                    left: -600,
                     behavior: 'smooth'
                 });
             } else if (e.key === 'ArrowRight') {
                 carousel.scrollBy({
-                    left: 300,
+                    left: 600,
                     behavior: 'smooth'
                 });
             }
@@ -105,7 +104,7 @@ function initFeaturedCarousels() {
         carousel.setAttribute('tabindex', '0');
         
         // ============================================
-        // SCROLL INDICATOR FUNCTIONALITY
+        // SCROLL NAVIGATION BUTTONS
         // ============================================
         
         if (scrollHintButton) {

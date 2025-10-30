@@ -16,6 +16,7 @@ featured_label: "Destacada"
 featured_talks_title: "Selección de ponencias"
 all_talks_title: "Todas las ponencias"
 carousel_scroll_hint: "Ver más"
+swipe_hint: "Desliza para ver más"
 
 # Publications section titles
 featured_publications_title: "Publicaciones destacadas"

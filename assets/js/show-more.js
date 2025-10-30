@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', function() {
             scrollToSection: 'talks',
             responsive: true, // Enable responsive loading
             itemsToShow: {
-                desktop: 6,  // Initial: 2 rows x 3 cols
-                tablet: 4,   // Initial: 2 rows x 2 cols
-                mobile: 2    // Initial: 2 rows x 1 col
+                desktop: 6,  
+                tablet: 4,   
+                mobile: 2   
             },
             itemsPerLoad: {
-                desktop: 3,  // Load 3 at a time (1 row) on desktop
-                tablet: 2,   // Load 2 at a time (1 row) on tablet
-                mobile: 2    // Load 2 at a time (2 rows) on mobile
+                desktop: 6,
+                tablet: 4,   
+                mobile: 2    
             }
         },
         'outreach': {

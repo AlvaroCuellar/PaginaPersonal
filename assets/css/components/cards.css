@@ -160,7 +160,7 @@
     border-radius: var(--border-radius);
     overflow: hidden;
     background: var(--bg-secondary);
-    cursor: pointer;
+    cursor: default;
     transition: transform 0.5s ease;
     text-decoration: none;
     display: block;
@@ -525,8 +525,7 @@
     scroll-behavior: smooth;
     padding-bottom: var(--spacing-l); /* Espacio para la scrollbar */
     margin-bottom: calc(-1 * var(--spacing-s)); /* Compensar el padding para mantener el espaciado */
-    cursor: grab;
-    user-select: none;
+    cursor: default;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: thin;
     scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Más sutil */
@@ -535,10 +534,6 @@
 /* Prevenir scroll horizontal cuando el modal está abierto */
 body.modal-open .featured-carousel {
     overflow-x: hidden;
-}
-
-.featured-carousel:active {
-    cursor: grabbing;
 }
 
 /* Custom scrollbar for webkit browsers */

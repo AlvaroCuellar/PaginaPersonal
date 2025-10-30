@@ -17,6 +17,7 @@ featured_label: "Featured"
 featured_talks_title: "Featured Talks"
 all_talks_title: "All Talks"
 carousel_scroll_hint: "See more"
+swipe_hint: "Swipe to see more"
 
 # Publications section titles
 featured_publications_title: "Featured Publications"
