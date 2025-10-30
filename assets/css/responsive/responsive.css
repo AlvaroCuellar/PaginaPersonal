@@ -13,10 +13,106 @@
    ═══════════════════════════════════════════════════════════ */
 
 /* =================================================================
+   PANTALLAS 13" Y TABLETS MEDIANAS - 1025px to 1366px
+   ================================================================= */
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    
+    /* ·········································
+       BANNER HERO SECTION
+       ········································· */
+    
+    #banner {
+        min-height: 100vh;
+    }
+    
+    #banner-content.row {
+        padding-top: 110px;
+    }
+    
+    #banner h1 {
+        font-size: var(--text-5xl);
+        padding-top: 0;
+    }
+    
+    #banner h2 {
+        font-size: var(--text-base);
+    }
+    
+    .banner-profile-photo {
+        padding-top: 15px;
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 280px;
+        height: 280px;
+        min-width: 280px;
+        min-height: 280px;
+        max-width: 280px;
+        max-height: 280px;
+    }
+    
+    .banner-achievements-row {
+        padding: var(--spacing-l) 20px;
+    }
+    
+    .achievement-item {
+        font-size: var(--text-xs);
+    }
+}
+
+/* =================================================================
    TABLET & SMALL DESKTOP - 1024px
    ================================================================= */
 
 @media (max-width: 1024px) {
+    
+    /* ·········································
+       BANNER HERO SECTION
+       ········································· */
+    
+    #banner {
+        min-height: 100vh;
+    }
+    
+    #banner h1 {
+        font-size: var(--text-4xl);
+        line-height: var(--line-height-tight);
+        padding-top: 0;
+    }
+
+    #banner h2 {
+        font-size: var(--text-sm);
+    }
+    
+    #banner-content.row {
+        padding-top: 90px;
+    }
+    
+    .banner-profile-photo {
+        padding-top: 5px;
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 220px;
+        height: 220px;
+        min-width: 220px;
+        min-height: 220px;
+        max-width: 220px;
+        max-height: 220px;
+    }
+    
+    .banner-achievements-row {
+        padding: var(--spacing-m) 20px;
+    }
+    
+    .achievement-item {
+        font-size: var(--text-xs);
+    }
+    
+    .banner-social-icons {
+        margin-bottom: var(--spacing-s);
+    }
     
     /* ·········································
        NAVIGATION SYSTEM
@@ -92,6 +188,72 @@
    ================================================================= */
 
 @media (max-width: 768px) {
+    
+    /* ·········································
+       BANNER HERO SECTION
+       ········································· */
+    
+    #banner {
+        min-height: 100vh;
+    }
+    
+    #banner h1 {
+        font-size: var(--text-3xl);
+        line-height: var(--line-height-tight);
+        padding-top: 0;
+    }
+
+    #banner h2 {
+        font-size: var(--text-sm);
+    }
+
+    #banner-content.row {
+        padding-top: 90px;
+    }
+    
+    .banner-main-content {
+        flex-direction: column;
+    }
+    
+    .banner-main-content .col-2-3 {
+        order: 2;
+    }
+    
+    .banner-main-content .col-3 {
+        order: 1;
+        margin-bottom: var(--spacing-none);
+        padding-bottom: var(--spacing-none);
+    }
+    
+    .banner-profile-photo {
+        padding-top: 0;
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 220px;
+        height: 220px;
+        min-width: 220px;
+        min-height: 220px;
+        max-width: 220px;
+        max-height: 220px;
+    }
+    
+    .banner-achievements-row {
+        padding: var(--spacing-m) 20px;
+    }
+    
+    .achievement-item {
+        font-size: var(--text-xs);
+    }
+    
+    .achievement-separator {
+        margin: 0 var(--spacing-xxs);
+    }
+    
+    .banner-social-icons {
+        justify-content: center;
+        margin-bottom: var(--spacing-m);
+    }
     
     /* ·········································
        CORE LAYOUT
@@ -447,6 +609,31 @@
 @media (max-width: 480px) {
     
     /* ·········································
+       BANNER HERO SECTION - Hitos fuera de viewport
+       ········································· */
+    
+    #banner h1 {
+        font-size: var(--text-3xl);
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 180px;
+        height: 180px;
+        min-width: 180px;
+        min-height: 180px;
+        max-width: 180px;
+        max-height: 180px;
+    }
+    
+    .banner-achievements-row {
+        padding: var(--spacing-xl) 20px;
+    }
+    
+    .banner-social-icons {
+        margin-bottom: var(--spacing-l);
+    }
+    
+    /* ·········································
        GRID SYSTEM
        ········································· */
     
@@ -511,6 +698,23 @@
    ================================================================= */
 
 @media (max-width: 360px) {
+    
+    /* ·········································
+       BANNER HERO SECTION - Muy compacto
+       ········································· */
+    
+    #banner h1 {
+        font-size: var(--text-2xl);
+    }
+    
+    .banner-profile-photo .profile-img {
+        width: 140px;
+        height: 140px;
+        min-width: 140px;
+        min-height: 140px;
+        max-width: 140px;
+        max-height: 140px;
+    }
     
     /* ·········································
        CONTENT SPACING

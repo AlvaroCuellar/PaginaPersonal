@@ -12,7 +12,7 @@
         url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
     /* Textura de grano sutil */
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -21,10 +21,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-top: 140px;
     padding-bottom: 0;
-    gap: var(--spacing-m);
 }
 
 .banner-main-content {
@@ -32,6 +30,7 @@
     flex-wrap: wrap;
     width: 100%;
     align-items: flex-start;
+    flex: 0 0 auto;
 }
 
 /* ·········································
@@ -70,9 +69,6 @@
 
 #banner-email {
     color: var(--accent-color);
-    background: var(--primary-color);
-    padding: 6px 16px;
-    border-radius: var(--border-radius);
     text-decoration: none;
     font-weight: 500;
     display: inline-block;
@@ -113,8 +109,10 @@
 .banner-achievements-row {
     width: 100%;
     max-width: 1245px;
-    margin: auto auto 0;
-    padding: var(--spacing-l) 20px var(--spacing-xl) 20px;
+    margin: 0 auto;
+    margin-top: auto;
+    padding: var(--spacing-xl) 20px;
+    flex-shrink: 0;
 }
 
 .banner-achievements {
@@ -145,198 +143,3 @@
     font-weight: var(--font-light);
 }
 
-/* ·········································
-   Responsive design
-   ········································· */
-
-/* Móvil grande y tablet pequeño (hasta 768px) - Hitos todavía visibles */
-@media (max-width: 768px) {
-    #banner {
-        min-height: 100vh;
-        height: auto;
-    }
-    
-    #banner h1 {
-        font-size: var(--text-4xl);
-        line-height: var(--line-height-tight);
-        padding-top: 0;
-    }
-
-    #banner h2 {
-        font-size: var(--text-sm);
-    }
-
-    #banner-content.row {
-        padding-top: 100px;
-        padding-bottom: var(--spacing-s);
-        gap: var(--spacing-m);
-    }
-    
-    .banner-main-content {
-        flex-direction: column;
-    }
-    
-    /* Reordenar elementos en móvil */
-    .col-2-3 {
-        order: 2;
-    }
-    
-    .col-3 {
-        order: 1;
-        margin-bottom: var(--spacing-m);
-    }
-    
-    /* Foto más pequeña */
-    .banner-profile-photo {
-        padding-top: 0;
-    }
-    
-    .banner-profile-photo .profile-img {
-        width: 180px;
-        height: 180px;
-        min-width: 180px;
-        min-height: 180px;
-        max-width: 180px;
-        max-height: 180px;
-    }
-    
-    /* Hitos visibles */
-    .banner-achievements-row {
-        padding: var(--spacing-s) 20px;
-    }
-    
-    .achievement-item {
-        font-size: var(--text-xs);
-    }
-    
-    .achievement-separator {
-        margin: 0 var(--spacing-xs);
-    }
-    
-    /* Iconos sociales centrados con más espacio del borde */
-    .banner-social-icons {
-        justify-content: center;
-        margin-bottom: var(--spacing-xl);
-    }
-}
-
-/* Móvil pequeño (<600px) - Hitos fuera de viewport, social icons visibles */
-@media (max-width: 599px) {
-    #banner {
-        height: auto;
-        min-height: 100vh;
-    }
-    
-    #banner h1 {
-        font-size: var(--text-4xl);
-    }
-    
-    #banner-content.row {
-        padding-top: 100px;
-        padding-bottom: var(--spacing-l);
-        gap: var(--spacing-l);
-    }
-    
-    .banner-profile-photo .profile-img {
-        width: 160px;
-        height: 160px;
-        min-width: 160px;
-        min-height: 160px;
-        max-width: 160px;
-        max-height: 160px;
-    }
-    
-    /* Hitos fuera del viewport inicial */
-    .banner-achievements-row {
-        padding: var(--spacing-l) 20px;
-    }
-}
-
-/* Pantallas de 13" y tablets medianas (1280-1366px) */
-@media (min-width: 1025px) and (max-width: 1366px) {
-    #banner {
-        height: 100vh;
-    }
-    
-    #banner-content.row {
-        padding-top: 120px;
-        padding-bottom: var(--spacing-m);
-        gap: var(--spacing-m);
-    }
-    
-    #banner h1 {
-        font-size: var(--text-5xl);
-        padding-top: 1%;
-    }
-    
-    #banner h2 {
-        font-size: var(--text-base);
-    }
-    
-    .banner-profile-photo {
-        padding-top: 20px;
-    }
-    
-    .banner-profile-photo .profile-img {
-        width: 240px;
-        height: 240px;
-        min-width: 240px;
-        min-height: 240px;
-        max-width: 240px;
-        max-height: 240px;
-    }
-    
-    .banner-achievements-row {
-        padding: var(--spacing-m) 20px;
-    }
-}
-
-/* Tablets (769-1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    #banner {
-        height: 100vh;
-    }
-    
-    #banner h1 {
-        font-size: var(--text-5xl);
-        line-height: var(--line-height-tight);
-        padding-top: 0;
-    }
-
-    #banner h2 {
-        font-size: var(--text-base);
-    }
-    
-    #banner-content.row {
-        padding-top: 100px;
-        padding-bottom: var(--spacing-xs);
-        gap: var(--spacing-s);
-    }
-    
-    /* Foto más pequeña en tablet */
-    .banner-profile-photo {
-        padding-top: 10px;
-    }
-    
-    .banner-profile-photo .profile-img {
-        width: 200px;
-        height: 200px;
-        min-width: 200px;
-        min-height: 200px;
-        max-width: 200px;
-        max-height: 200px;
-    }
-    
-    .banner-achievements-row {
-        padding: var(--spacing-s) 20px;
-    }
-    
-    .achievement-item {
-        font-size: var(--text-sm);
-    }
-    
-    /* Iconos sociales con espacio reducido */
-    .banner-social-icons {
-        margin-bottom: var(--spacing-m);
-    }
-}
