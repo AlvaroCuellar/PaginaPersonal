@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         'outreach': {
-            containerSelector: '.outreach-grid',
+            containerSelector: '.outreach-masonry-grid',
             itemSelector: '.outreach-card',
             buttonId: 'show-more-outreach',
             showMoreKey: 'show_more_outreach',
@@ -60,14 +60,14 @@ document.addEventListener('DOMContentLoaded', function() {
             scrollToSection: 'outreach',
             responsive: true,
             itemsToShow: {
-                desktop: 6,
-                tablet: 4,
-                mobile: 2
+                desktop: 9,
+                tablet: 6,
+                mobile: 4
             },
             itemsPerLoad: {
-                desktop: 3,
-                tablet: 2,
-                mobile: 2
+                desktop: 6,
+                tablet: 4,
+                mobile: 3
             }
         }
     };

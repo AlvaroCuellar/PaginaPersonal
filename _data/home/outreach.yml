@@ -1,33 +1,63 @@
+# ═══════════════════════════════════════════════════════════
+# OUTREACH - Masonry Layout Configuration
+# ═══════════════════════════════════════════════════════════
 # Este archivo contiene la lista de artículos y contenido de divulgación científica.
-# Instrucciones para completar los datos:
-# 1. Campos obligatorios:
-#    - id: Identificador único para cada ítemm (por ejemplo, "outreach-1").
-#    - title: Título del ítem o contenido, con claves "es" y "en" para idiomas.
-#    - type: Tipo de contenido (ver tipos disponibles abajo).
-#    - medium: Nombre del medio o plataforma donde se publicó.
-#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD).
-#    - url: Enlace al contenido original.
-# 2. Campos opcionales:
-#    - description: Breve descripción del contenido, con claves "es" y "en".
-#    - image: Ruta a la imagen asociada al contenido.
-# 3. Para destacar ítems, agregar sus IDs en el campo 'featured_ids' al inicio del archivo.
-#    Los ítems destacados se mostrarán en un carrusel principal con transiciones suaves.
-#    - repeat_featured_in_all: true/false - Controla si los ítems destacados aparecen también en la cuadrícula completa
-#      * true: Los ítems destacados se muestran tanto en el carrusel como en la cuadrícula completa
-#      * false: Los ítems destacados solo aparecen en el carrusel (se excluyen de la cuadrícula)
-# 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
+# Ahora utiliza un layout tipo masonry/Pinterest donde las tarjetas tienen diferentes tamaños
+# según su contenido y los items destacados aparecen primero con un badge.
+
+# ·········································
+# INSTRUCCIONES PARA COMPLETAR LOS DATOS
+# ·········································
+
+# 1. CAMPOS OBLIGATORIOS:
+#    - id: Identificador único para cada ítem (por ejemplo, "outreach-1")
+#    - title: Título del ítem o contenido, con claves "es" y "en" para idiomas
+#    - type: Tipo de contenido (ver tipos disponibles abajo)
+#    - medium: Nombre del medio o plataforma donde se publicó
+#    - date: Fecha de publicación en formato ISO (YYYY-MM-DD)
+#    - url: Enlace al contenido original
+
+# 2. CAMPOS OPCIONALES:
+#    - description: Breve descripción del contenido, con claves "es" y "en"
+#    - image: Ruta a la imagen de preview (ejemplo: "/assets/images/outreach/mi-imagen.jpg")
+#             * Las imágenes se mostrarán en la parte superior de la tarjeta
+#             * Tamaño recomendado: 600x400px o similar (aspect ratio 3:2)
+#             * Las tarjetas CON imagen ocuparán más espacio en el masonry grid
+
+# 3. LAYOUT MASONRY - TAMAÑOS DE TARJETAS:
+#    Las tarjetas tienen diferentes alturas según su contenido:
+#    - Tarjeta estándar: ~200px
+#    - Con imagen: ~300px
+#    - Destacada (featured): ~350px
+#    - Destacada con imagen: ~450px
+#    El sistema ajusta automáticamente según el contenido y la presencia de imagen.
+
+# 4. ITEMS DESTACADOS (FEATURED):
+#    - Agregar los IDs en el campo 'featured_ids' al inicio del archivo
+#    - Los items destacados aparecerán PRIMEROS en el grid con un badge de "Destacado"
+#    - Ya NO hay carrusel separado - todo está integrado en el masonry grid
+#    - Los items destacados siempre están visibles en la cuadrícula principal
+
+# 5. TIPOS DISPONIBLES para 'type' (definidos en _data/i18n/en.yml y es.yml):
 #    - article   → fa-file-text (Artículo escrito)
 #    - tv        → fa-tv (Aparición en TV o video)
-#    - radio     → fa-microphone (Entrevista oral)
+#    - radio     → fa-microphone (Entrevista de radio/podcast)
 #    - interview → fa-comment (Entrevista escrita)
 #    
 #    Para añadir nuevos tipos:
 #    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'outreach_types'
 #    b) Agregar el ícono correspondiente en _includes/sections/outreach.html
-# 5. Notas adicionales:
-#    - Los ítems se mostrarán en orden cronológico inverso.
 
-# Configuración de visualización
+# 6. NOTAS ADICIONALES:
+#    - Los ítems se ordenan cronológicamente (featured primero, luego por fecha descendente)
+#    - El botón "Ver más" muestra inicialmente 9 items, luego carga 6 más por click
+#    - El layout es responsive: 4 columnas (desktop XL), 3 (desktop), 2 (tablet), 1 (mobile)
+
+# ·········································
+# CONFIGURACIÓN DE VISUALIZACIÓN
+# ·········································
+
+# Esta opción ya no se usa (legacy) - los featured siempre aparecen en el grid principal
 repeat_featured_in_all: true
 
 section_title:
@@ -61,7 +91,7 @@ items:
       es: "Reflexión sobre el uso de la Inteligencia Artificial en Filología y su potencial para abordar cuestiones de autoría, datación y transcripción en el teatro del Siglo de Oro."
       en: "A reflection on the use of Artificial Intelligence in Philology and its potential to address authorship, dating, and transcription issues in Spanish Golden Age theatre."
     url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
-    image: "/assets/images/outreach/filologia-artificial.jpg"
+    image: "/assets/images/press/14.png"
 
 
   - id: "outreach-informe-semanal"
@@ -75,7 +105,7 @@ items:
       es: "Reportaje emitido en Informe Semanal sobre el uso de inteligencia artificial y fotografía espectral para investigar los manuscritos autógrafos de Lope de Vega. Con la participación de Sònia Boadas y Álvaro Cuéllar (UAB)."
       en: "Feature aired on Informe Semanal about the use of artificial intelligence and spectral imaging to study Lope de Vega’s autograph manuscripts. Featuring Sònia Boadas and Álvaro Cuéllar (UAB)."
     url: "https://www.rtve.es/play/videos/informe-semanal/aun-esconde-lope/16069618/"
-    image: "/assets/images/outreach/informe-semanal-lope.jpg"
+    image: "/assets/images/press/15.png"
 
 
   - id: "outreach-transkribus"
@@ -89,7 +119,7 @@ items:
       es: "Entrevista publicada por el equipo de Transkribus sobre el hallazgo de La francesa Laura. Álvaro Cuéllar explica el proceso técnico y filológico que permitió atribuir la obra a Lope de Vega mediante herramientas de inteligencia artificial y estilometría dentro del proyecto ETSO."
       en: "Interview published by the Transkribus team about the discovery of La Francesa Laura. Álvaro Cuéllar explains the technical and philological process that led to the attribution of the play to Lope de Vega through artificial intelligence and stylometry within the ETSO project."
     url: "https://www.transkribus.org/en/success-story/discovering-a-lost-play-by-lope-de-vega-alvaro-cuellar"
-    image: "/assets/images/outreach/transkribus-lope.png"
+    image: "/assets/images/press/16.png"
 
 
   - id: "outreach-laguna-al-dia"
@@ -103,7 +133,7 @@ items:
       es: "Entrevista con Álvaro Cuéllar tras el hallazgo de una comedia inédita de Lope de Vega mediante inteligencia artificial. Reflexiona sobre su trayectoria internacional, los retos de la investigación filológica y el potencial de la IA para transformar el estudio del Siglo de Oro."
       en: "Interview with Álvaro Cuéllar following the discovery of a previously unknown Lope de Vega play through artificial intelligence. He reflects on his international career, the challenges of philological research, and the transformative potential of AI in the study of the Spanish Golden Age."
     url: "https://www.lagunaaldia.com/alvaro-cuellar-poder-recuperar-una-obra-del-fenix-de-los-ingenios-supone-un-regalo-para-el-patrimonio-hispanico/"
-    image: "/assets/images/outreach/laguna-al-dia.png"
+    image: "/assets/images/press/17.png"
 
   - id: "outreach-lasexta-columna"
     title:
@@ -116,7 +146,7 @@ items:
       es: "Reportaje de La Sexta Columna que analiza el hallazgo de la comedia inédita 'La francesa Laura', atribuida a Lope de Vega mediante técnicas de inteligencia artificial. Con la participación de Germán Vega y Álvaro Cuéllar."
       en: "TV feature by La Sexta Columna examining the discovery of the previously unknown play 'La francesa Laura', attributed to Lope de Vega through artificial intelligence. Featuring Germán Vega and Álvaro Cuéllar."
     url: "https://www.lasexta.com/programas/sexta-columna/obra-perdida-lope-vega-que-descubierto-inteligencia-artificial-como-encontramos-velazquez_2024031565f4b7f4ab79d80001a6ebc1.html"
-    image: "/assets/images/outreach/lasexta-columna-lope.jpg"
+    image: "/assets/images/press/18.png"
 
 
   - id: "outreach-un-idioma-sin-fronteras"
@@ -130,7 +160,7 @@ items:
       es: "Entrevista radiofónica en la que Álvaro Cuéllar explica cómo la inteligencia artificial y la estilometría permiten atribuir autorías, leer manuscritos complejos y fechar textos del Siglo de Oro. Entre los hallazgos destaca la identificación de La francesa Laura como obra de Lope de Vega."
       en: "Radio interview where Álvaro Cuéllar explains how artificial intelligence and stylometry help attribute authorship, read complex manuscripts, and date Spanish Golden Age texts. Among the discoveries is the identification of La francesa Laura as a play by Lope de Vega."
     url: "https://www.rtve.es/play/audios/un-idioma-sin-fronteras/estilometria-alvaro-cuellar/7006620/"
-    image: "/assets/images/outreach/un-idioma-sin-fronteras.png"
+    image: "/assets/images/press/19.png"
 
 
 

@@ -1,219 +1,19 @@
 /* ═══════════════════════════════════════════════════════════
-   OUTREACH SECTION
+   OUTREACH SECTION - Masonry Layout
    ═══════════════════════════════════════════════════════════ */
 
 /* ·········································
-   Featured Articles Carousel
+   Masonry Grid Layout - JavaScript-based
    ········································· */
-.outreach-featured-carousel-container {
-  position: relative;
-  margin-bottom: var(--spacing-3xl);
-}
-
-.outreach-featured-carousel {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--border-radius);
-  min-height: 400px;
-  touch-action: pan-x;
-  -webkit-overflow-scrolling: touch;
-}
-
-.outreach-carousel-track {
-  display: flex;
-  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+.outreach-masonry-grid {
+  position: relative; /* Para posicionamiento absoluto de las tarjetas */
   width: 100%;
-  touch-action: pan-x;
-}
-
-.outreach-featured-slide {
-  flex: 0 0 100%;
-  width: 100%;
-  min-width: 100%;
-}
-
-.outreach-featured {
-  position: relative;
-  background: var(--primary-color);
-  border-radius: var(--border-radius);
-  padding: var(--spacing-3xl);
-  overflow: hidden;
-  color: var(--color-white);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  margin: 0 calc(var(--spacing-xl) / 2);
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/* Featured badge uses shared class from cards.css */
-.outreach-featured .featured-badge {
-  margin-bottom: var(--spacing-l);
-}
-
-.featured-content {
-  position: relative;
-  z-index: 2;
-  max-width: 100%;
-}
-
-.featured-title {
-  font-family: var(--font-family-headings);
-  font-size: var(--text-3xl);
-  font-weight: var(--font-light);
-  line-height: var(--line-height-tight);
-  margin: var(--spacing-l) 0;
-  color: var(--color-white);
-}
-
-.featured-description {
-  font-size: var(--text-lg);
-  line-height: var(--line-height-relaxed);
-  margin: 0 0 var(--spacing-l);
-  color: rgba(255, 255, 255, 0.95);
-}
-
-.featured-meta {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-l);
-  margin-bottom: var(--spacing-l);
-  font-size: var(--text-sm);
-  color: rgba(255, 255, 255, 0.9);
-  flex-wrap: wrap;
-}
-
-.featured-medium,
-.featured-date {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-}
-
-.featured-medium i {
-  opacity: 0.8;
-}
-
-.outreach-featured .button-inverse {
-    color: var(--color-white);
-    background-color: var(--accent-color);
-    border: 2px solid var(--accent-color);
-}
-.outreach-featured .button-inverse:hover {
-    background-color: transparent;
-    color: var(--color-white);
-    border: 2px solid var(--accent-color);
-}
-
-
-/* Decorative circle */
-.featured-decoration {
-  position: absolute;
-  top: -100px;
-  right: -100px;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* ·········································
-   Carousel Navigation & Indicators
-   ········································· */
-.outreach-carousel-indicators {
-  position: absolute;
-  bottom: var(--spacing-l);
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-m);
-  z-index: 100;
-}
-
-.outreach-carousel-prev,
-.outreach-carousel-next {
-  background: transparent;
-  border: none;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  padding: 0;
-}
-
-.outreach-carousel-prev:hover,
-.outreach-carousel-next:hover {
-  transform: scale(1.2);
-}
-
-.outreach-carousel-prev i,
-.outreach-carousel-next i {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: var(--text-base);
-  transition: color 0.3s ease;
-}
-
-.outreach-carousel-prev:hover i,
-.outreach-carousel-next:hover i {
-  color: var(--color-white);
-}
-
-/* Separador entre flechas e indicadores */
-.outreach-carousel-indicators > .outreach-indicator:first-of-type {
-  margin-left: var(--spacing-xs);
-}
-
-.outreach-carousel-indicators > .outreach-indicator:last-of-type {
-  margin-right: var(--spacing-xs);
-}
-
-.outreach-indicator {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.7);
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  padding: 0;
-}
-
-.outreach-indicator:hover {
-  background: rgba(255, 255, 255, 0.5);
-  border-color: var(--color-white);
-}
-
-.outreach-indicator.active {
-  background: var(--color-white);
-  border-color: var(--color-white);
-}
-
-/* ·········································
-   More Articles Section
-   ········································· */
-.outreach-more {
-  margin-top: var(--spacing-3xl);
-}
-
-/* ·········································
-   Grid Masonry Layout
-   ········································· */
-.outreach-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--spacing-xl);
   margin-bottom: var(--spacing-xl);
+  /* El JavaScript aplicará el height dinámicamente */
 }
 
 /* ·········································
-   Outreach Cards
+   Outreach Cards - Altura automática (Pinterest)
    ········································· */
 .outreach-card {
   background: var(--bg-secondary);
@@ -221,115 +21,129 @@
   padding: var(--spacing-l);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  position: relative;
+  position: relative; /* El JavaScript cambiará a absolute */
   box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, top 0.3s ease, left 0.3s ease;
+  overflow: hidden;
+  margin-bottom: var(--spacing-l); /* Fallback si JS no carga */
+}
+
+/* Image container */
+.outreach-image {
+  width: calc(100% + calc(2 * var(--spacing-l))); /* Extender más allá del padding */
+  height: 200px;
+  margin: calc(-1 * var(--spacing-l)) calc(-1 * var(--spacing-l)) var(--spacing-m);
+  overflow: hidden;
+  background: var(--color-light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outreach-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  flex-shrink: 0;
+  filter: brightness(0.9);
+}
+
+/* Card content spacing */
+.outreach-card .category-badge {
+  margin-bottom: var(--spacing-m);
+}
+
+.outreach-card .card-title {
+  font-size: var(--text-lg);
+  font-weight: var(--font-semibold);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-m);
+  color: var(--text-primary);
+}
+
+.outreach-card .card-metadata {
+  margin-bottom: var(--spacing-m);
+}
+
+.outreach-card .card-description {
+  font-size: var(--text-sm);
+  line-height: var(--line-height-relaxed);
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-m);
+  flex-grow: 1;
+}
+
+.outreach-card .card-link {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* Show more container */
+.show-more-outreach-container {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  animation: fadeIn 0.3s ease-in-out;
 }
 
 /* ·········································
    Responsive Design
    ········································· */
 
-/* Tablet: 2 columns */
+/* ·········································
+   Responsive Design
+   ········································· */
+
+/* El JavaScript maneja las columnas según viewport */
+
+/* Tablet */
 @media (max-width: 1024px) {
-  .outreach-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--spacing-l);
-  }
-  
-  .outreach-featured {
-    padding: var(--spacing-2xl) var(--spacing-xl);
-  }
-  
-  .featured-title {
-    font-size: var(--text-2xl);
-  }
-  
-  .featured-decoration {
-    width: 300px;
-    height: 300px;
-    top: -80px;
-    right: -80px;
-  }
-}
-
-/* Mobile: 1 column */
-@media (max-width: 768px) {
-  .outreach-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-l);
-  }
-  
-  .outreach-featured {
-    padding: var(--spacing-xl);
-  }
-  
-  .featured-title {
-    font-size: var(--text-xl);
-  }
-  
-  .featured-description {
-    font-size: var(--text-base);
-  }
-  
-  .featured-meta {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--spacing-s);
-  }
-  
-  .featured-decoration {
-    width: 200px;
-    height: 200px;
-    top: -50px;
-    right: -50px;
-  }
-  
-  .more-title {
-    font-size: var(--text-xl);
-  }
-  
   .outreach-card {
-    padding: var(--spacing-l);
+    padding: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
   }
   
-  /* Carousel navigation en móvil - ocultar flechas */
-  .outreach-carousel-prev,
-  .outreach-carousel-next {
-    display: none;
-  }
-  
-  .outreach-carousel-indicators {
-    bottom: var(--spacing-s);
-    gap: var(--spacing-s);
+  .outreach-image {
+    width: calc(100% + calc(2 * var(--spacing-m)));
+    height: 150px;
+    margin: calc(-1 * var(--spacing-m)) calc(-1 * var(--spacing-m)) var(--spacing-m);
   }
 }
 
-@media (max-width: 480px) {
-  .outreach-featured-carousel {
-    min-height: 500px;
-  }
-  
-  .outreach-featured {
-    padding: var(--spacing-xl) var(--spacing-l);
-    min-height: 500px;
-  }
-  
-  .featured-title {
-    font-size: var(--text-xl);
-  }
-  
-  .featured-description {
-    font-size: var(--text-sm);
-  }
-  
-  .featured-cta {
-    padding: 11px 16px;
-    font-size: var(--text-sm);
+/* Mobile: 1 column - layout normal (sin masonry) */
+@media (max-width: 768px) {
+  .outreach-masonry-grid {
+    position: static; /* Resetear para mobile */
   }
   
   .outreach-card {
     padding: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+    position: static !important; /* Forzar static en mobile */
+    width: 100% !important;
+    left: auto !important;
+    top: auto !important;
+  }
+  
+  .outreach-image {
+    height: 180px;
+  }
+  
+  .outreach-card .card-title {
+    font-size: var(--text-base);
+  }
+}
+
+@media (max-width: 480px) {
+  .outreach-card {
+    padding: var(--spacing-s);
+    margin-bottom: var(--spacing-s);
+  }
+  
+  .outreach-image {
+    width: calc(100% + calc(2 * var(--spacing-s)));
+    height: 160px;
+    margin: calc(-1 * var(--spacing-s)) calc(-1 * var(--spacing-s)) var(--spacing-s);
   }
 }
