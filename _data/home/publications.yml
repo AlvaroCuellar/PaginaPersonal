@@ -64,10 +64,10 @@ repeat_featured_in_all: true
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
   - "atoms2waves"
-  - "writersonia"
   - "transcri"
   - "stylo100"
   - "crono"
+  - "writersonia"
   - "FrancesaLaura"
   
   
@@ -217,16 +217,21 @@ publications:
 
   - id: "stylo100"
     type: "incollection"
-    title: "Stylometry and Spanish Golden Age Theatre: An Evaluation of Authorship Attribution in a Control Group of Undisputed Plays"
-    authors: ["Álvaro Cuéllar"]
-    publisher: "Heidelberg University Publishing"
-    place: "Heidelberg"
-    volume: "Digital Stylistics in Romance Studies and Beyond"
+    title: "Stylometry and Spanish Golden Age Theatre. An Evaluation of Authorship Attribution in a Control Group of One Hundred Undisputed Plays"
+    authors:
+      - "Álvaro Cuéllar"
     year: 2024
-    isbn:
     url: "https://doi.org/10.17885/heiup.1157.c19368"
+    publication: "Digital Stylistics in Romance Studies and Beyond"
+    editor:
+      - "Robert Hesselbach"
+      - "José Calvo Tello"
+      - "y otros"
     pages: "101-117"
+    place: "Heidelberg"
+    publisher: "Heidelberg University Publishing"
     thumbnail: "/assets/images/pubs/stylo100.png"
+
     abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
     cited_by:
       - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
@@ -554,11 +559,14 @@ publications:
       - "Elena Martínez Carro"
       - "Álvaro Cuéllar"
     year: 2023
-    booktitle: "Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII"
-    editor: "Juan Manuel Escudero Baztán"
-    publisher: "Iberoamericana Editorial Vervuert"
+    publication: "Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII"
+    editor:
+      - "Juan Manuel Escudero Baztán"
+    place: "Madrid / Frankfurt am Main"
+    publisher: "Iberoamericana / Vervuert"
     pages: "165–198"
-    isbn: "8491923225"
+    isbn:
+      - "978-84-9192-322-5"
     url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
     thumbnail: "/assets/images/pubs/moreto.png"
     abstract: "El capítulo examina la etapa final de la producción dramática de Agustín Moreto (1655–1659) mediante análisis estilométricos. A partir del estudio cuantitativo del léxico y los patrones autorales, se exploran rasgos que distinguen este periodo tardío y su relación con la influencia calderoniana. Disponible también en la editorial Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."
