@@ -180,40 +180,40 @@
                 <!-- Content - Metadatos (columna 2) -->
                 <div class="publication-content-grid">
                   <h5 class="category-label">{{ site.data.i18n[lang].publication_types[pub.type] | default: pub.type | capitalize }}</h5>
-                  <div class="publication-title">
-                    {{ pub.title }}
-                    {% if pub.editor or pub.coordinator %}
-                      {% assign editor_text = "" %}
-                      {% if pub.editor %}
-                        {% if pub.editor.first %}
-                          {% if pub.editor.size == 1 %}
-                            {% assign editor_text = "(ed. " | append: pub.editor[0] | append: ")" %}
-                          {% else %}
-                            {% assign editor_text = "(eds. " | append: pub.editor | join: ", " | append: ")" %}
-                          {% endif %}
-                        {% else %}
-                          {% assign editor_text = "(ed. " | append: pub.editor | append: ")" %}
-                        {% endif %}
-                      {% elsif pub.coordinator %}
-                        {% if pub.coordinator.first %}
-                          {% if pub.coordinator.size == 1 %}
-                            {% assign editor_text = "(coord. " | append: pub.coordinator[0] | append: ")" %}
-                          {% else %}
-                            {% assign editor_text = "(coords. " | append: pub.coordinator | join: ", " | append: ")" %}
-                          {% endif %}
-                        {% else %}
-                          {% assign editor_text = "(coord. " | append: pub.coordinator | append: ")" %}
-                        {% endif %}
-                      {% endif %}
-                      <span style="font-style: italic; font-weight: normal;">{{ editor_text }}</span>
-                    {% endif %}
-                  </div>
+                  <div class="publication-title">{{ pub.title }}</div>
                   <div class="publication-authors">{{ pub.authors | join: ", " }}</div>
                   <div class="publication-metadata">
                     <div class="publication-source">
                       {% assign source_text = "" %}
                       {% if pub.publication and pub.publication != "" %}
                         {% assign source_text = "<em>" | append: pub.publication | append: "</em>" %}
+                        
+                        {% comment %} Añadir editores/coordinadores después del nombre de la publicación {% endcomment %}
+                        {% if pub.editor or pub.coordinator %}
+                          {% assign editor_text = "" %}
+                          {% if pub.editor %}
+                            {% if pub.editor.first %}
+                              {% if pub.editor.size == 1 %}
+                                {% assign editor_text = " (ed. " | append: pub.editor[0] | append: ")" %}
+                              {% else %}
+                                {% assign editor_text = " (eds. " | append: pub.editor | join: ", " | append: ")" %}
+                              {% endif %}
+                            {% else %}
+                              {% assign editor_text = " (ed. " | append: pub.editor | append: ")" %}
+                            {% endif %}
+                          {% elsif pub.coordinator %}
+                            {% if pub.coordinator.first %}
+                              {% if pub.coordinator.size == 1 %}
+                                {% assign editor_text = " (coord. " | append: pub.coordinator[0] | append: ")" %}
+                              {% else %}
+                                {% assign editor_text = " (coords. " | append: pub.coordinator | join: ", " | append: ")" %}
+                              {% endif %}
+                            {% else %}
+                              {% assign editor_text = " (coord. " | append: pub.coordinator | append: ")" %}
+                            {% endif %}
+                          {% endif %}
+                          {% assign source_text = source_text | append: editor_text %}
+                        {% endif %}
                       {% endif %}
                       {% if pub.volume %}
                         {% assign source_text = source_text | append: ", Vol. " | append: pub.volume %}

@@ -18,19 +18,21 @@
 #      - booklet: Folleto
 #      - model: Modelo
 #    - title: Título de la publicación.
-#    - authors: Lista de autores (por ejemplo, ["Nombre Apellido", "Nombre Apellido"]).
+#    - authors:  - "Nombre Apellido"
+#                - "Nombre Apellido"
+# * El formato inline de lista (["Nombre Apellido", "Nombre Apellido"]) a veces puede dar error o verse los corchetes y comillas, por lo que se recomienda usar el formato de lista con guiones, que es más confiable.
 #    - year: Año de publicación.
 #    - url: Enlace único a la publicación (para el botón "Acceder").
 # 2. Campos opcionales:
 #    - publication: Nombre de la revista, libro o actas.
 #    - editor: Editor(es) del libro o volumen. Puede ser:
 #      * String simple: "Nombre Apellido"
-#      * Lista: ["Nombre Apellido", "Nombre Apellido"]
+#      * Lista:  - "Nombre Apellido"
+#                - "Nombre Apellido"
 #    - coordinator: Coordinador(es) del libro o volumen. Puede ser:
 #      * String simple: "Nombre Apellido"
-#      * Lista: ["Nombre Apellido", "Nombre Apellido"]
-#      Nota: Los editores/coordinadores aparecerán entre paréntesis después del título del libro.
-#            Ejemplo: "Libro de estudios (ed. Juan Pérez)" o "(coords. Ana García, Luis López)"
+#      * Lista:  - "Nombre Apellido"
+#                - "Nombre Apellido"
 #    - volume: Volumen de la publicación.
 #    - number: Número de la publicación.
 #    - pages: Páginas (por ejemplo, "455-478").
@@ -92,7 +94,7 @@ publications:
   - id: "redesneuronales"
     type: "inpress"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
-    authors: ["Álvaro Cuéllar"]
+    authors: "Álvaro Cuéllar"
     publication: "XXXIV SELITEN@T: Literatura, Teatro e Inteligencia Artificial"
     volume:
     number:
@@ -285,7 +287,10 @@ publications:
       - "Álvaro Cuéllar"
     year: 2024
     publication: "Un caballero para Olmedo. Homenaje al profesor Germán Vega García-Luengos"
-    editor: ["Gema Cienfuegos Antelo", "Javier J. González Martínez", "y otros"]
+    editor:
+      - "Gema Cienfuegos Antelo"
+      - "Javier J. González Martínez"
+      - "y otros"
     publisher: "Ediciones de la Universidad de Valladolid"
     pages: "277–286"
     isbn:
@@ -297,7 +302,7 @@ publications:
   - id: "transcri"
     type: "article"
     title: "La Inteligencia Artificial al rescate del Siglo de Oro: transcripción y modernización automática de mil trescientos impresos y manuscritos teatrales"
-    authors: ["Álvaro Cuéllar"]
+    authors: "Álvaro Cuéllar"
     publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
     year: 2023
     volume: "XI"
