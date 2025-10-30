@@ -129,8 +129,17 @@
         {% assign initial_visible = 5 %}
         {% assign pub_count = 0 %}
         {% assign featured_ids = site.data.home.publications.featured_ids %}
+        {% assign repeat_featured = site.data.home.publications.repeat_featured_in_all %}
         {% for pub in site.data.home.publications.publications %}
-          {% unless featured_ids contains pub.id %}
+          {% if repeat_featured %}
+            {% assign show_pub = true %}
+          {% else %}
+            {% assign show_pub = true %}
+            {% if featured_ids contains pub.id %}
+              {% assign show_pub = false %}
+            {% endif %}
+          {% endif %}
+          {% if show_pub %}
             {% assign pub_count = pub_count | plus: 1 %}
             <div class="publication-item{% if pub_count > initial_visible %} hidden{% endif %}">
           <div class="publication-card">
@@ -215,11 +224,15 @@
           </div>
           {% endif %}
           </div>
-          {% endunless %}
+          {% endif %}
         {% endfor %}
       </div>
 
-      {% assign total_non_featured = site.data.home.publications.publications.size | minus: featured_ids.size %}
+      {% if repeat_featured %}
+        {% assign total_non_featured = site.data.home.publications.publications.size %}
+      {% else %}
+        {% assign total_non_featured = site.data.home.publications.publications.size | minus: featured_ids.size %}
+      {% endif %}
       {% if total_non_featured > initial_visible %}
         <div class="show-more-publications-container">
           <button id="show-more-publications" class="button">

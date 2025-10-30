@@ -23,12 +23,18 @@
 #            en: "Madrid, Spain"
 # 3. Ponencias destacadas:
 #    - featured_ids: Lista de IDs de ponencias destacadas que aparecerán al inicio de la sección.
+#    - repeat_featured_in_all: true/false - Controla si las ponencias destacadas aparecen también en la lista completa
+#      * true: Las ponencias destacadas se muestran tanto en el carrusel como en la cuadrícula completa
+#      * false: Las ponencias destacadas solo aparecen en el carrusel (se excluyen de la lista completa)
 # 4. Idiomas:
 #    - Los campos de texto pueden incluir versiones en español e inglés usando las claves "es" y "en".
 # 5. Notas adicionales:
 #    - Asegúrate de que los IDs sean únicos y descriptivos.
 #    - Mantén el formato YAML y respeta la indentación.
 #    - Puedes agregar tantas entradas como sea necesario siguiendo el formato proporcionado.
+
+# Configuración de repetición de ponencias destacadas (true/false)
+repeat_featured_in_all: true
 
 subtitle:
   es: "Ponencias, seminarios y charlas"

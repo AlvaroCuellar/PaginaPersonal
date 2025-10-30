@@ -48,6 +48,9 @@ url_slug:
   es: "publicaciones"
   en: "publications"
 
+# Repetir items destacados en el listado general (true/false)
+repeat_featured_in_all: true
+
 # Selecciona aquí las publicaciones que quieres destacar al comienzo de la sección
 featured_ids:
   - "atoms2waves"

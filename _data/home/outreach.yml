@@ -12,6 +12,9 @@
 #    - image: Ruta a la imagen asociada al contenido.
 # 3. Para destacar artículos, agregar sus IDs en el campo 'featured_ids' al inicio del archivo.
 #    Los artículos destacados se mostrarán en un carrusel principal con transiciones suaves.
+#    - repeat_featured_in_all: true/false - Controla si los artículos destacados aparecen también en la cuadrícula completa
+#      * true: Los artículos destacados se muestran tanto en el carrusel como en la cuadrícula completa
+#      * false: Los artículos destacados solo aparecen en el carrusel (se excluyen de la cuadrícula)
 # 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
 #    - article   → fa-file-text (Artículo escrito)
 #    - tv        → fa-tv (Aparición en TV o video)
@@ -22,7 +25,9 @@
 #    b) Agregar el ícono correspondiente en _includes/sections/outreach.html
 # 5. Notas adicionales:
 #    - Los artículos se mostrarán en orden cronológico inverso.
-#    - Los artículos destacados (featured_ids) se excluyen automáticamente del grid principal.
+
+# Configuración de visualización
+repeat_featured_in_all: true
 
 section_title:
   es: "Divulgación"

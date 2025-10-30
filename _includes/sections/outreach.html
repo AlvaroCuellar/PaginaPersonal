@@ -105,9 +105,19 @@
         <div class="outreach-grid">
           {% assign initial_visible = 6 %}
           {% assign item_count = 0 %}
+          {% assign repeat_featured = site.data.home.outreach.repeat_featured_in_all | default: false %}
           {% assign sorted_items = site.data.home.outreach.items | sort: "date" | reverse %}
           {% for item in sorted_items %}
-            {% unless featured_ids contains item.id %}
+            {% assign should_show = false %}
+            {% if repeat_featured %}
+              {% assign should_show = true %}
+            {% else %}
+              {% unless featured_ids contains item.id %}
+                {% assign should_show = true %}
+              {% endunless %}
+            {% endif %}
+            
+            {% if should_show %}
               {% assign item_count = item_count | plus: 1 %}
               <article class="outreach-card{% if item_count > initial_visible %} hidden{% endif %}" data-type="{{ item.type }}">
                 <div class="category-badge badge-{{ item.type }}">
@@ -150,12 +160,16 @@
                   <i class="fa fa-arrow-right"></i>
                 </a>
               </article>
-            {% endunless %}
+            {% endif %}
           {% endfor %}
         </div>
         
         <!-- Show more button -->
-        {% assign total_non_featured = site.data.home.outreach.items.size | minus: featured_ids.size %}
+        {% if repeat_featured %}
+          {% assign total_non_featured = site.data.home.outreach.items.size %}
+        {% else %}
+          {% assign total_non_featured = site.data.home.outreach.items.size | minus: featured_ids.size %}
+        {% endif %}
         {% if total_non_featured > initial_visible %}
             <div class="show-more-outreach-container" style="text-align: center; margin-top: var(--spacing-xl);">
               <button id="show-more-outreach" class="button">
