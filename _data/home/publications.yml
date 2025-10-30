@@ -23,6 +23,14 @@
 #    - url: Enlace único a la publicación (para el botón "Acceder").
 # 2. Campos opcionales:
 #    - publication: Nombre de la revista, libro o actas.
+#    - editor: Editor(es) del libro o volumen. Puede ser:
+#      * String simple: "Nombre Apellido"
+#      * Lista: ["Nombre Apellido", "Nombre Apellido"]
+#    - coordinator: Coordinador(es) del libro o volumen. Puede ser:
+#      * String simple: "Nombre Apellido"
+#      * Lista: ["Nombre Apellido", "Nombre Apellido"]
+#      Nota: Los editores/coordinadores aparecerán entre paréntesis después del título del libro.
+#            Ejemplo: "Libro de estudios (ed. Juan Pérez)" o "(coords. Ana García, Luis López)"
 #    - volume: Volumen de la publicación.
 #    - number: Número de la publicación.
 #    - pages: Páginas (por ejemplo, "455-478").
@@ -139,9 +147,7 @@ publications:
     type: "inpress"
     title: "Examen de autorías en el teatro del Siglo de Oro"
     authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
-    publication: "Edition Reichenberger"
-    volume:
-    number:
+    Publisher: "Edition Reichenberger"
     pages:
     year: 2026
     url:
@@ -159,8 +165,7 @@ publications:
     type: "article"
     title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
     authors: ["Álvaro Cuéllar, Sònia Boadas"]
-    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
-    place:
+    publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
     year: 2025
     volume: "XIII"
     number: "1"
@@ -176,7 +181,7 @@ publications:
     type: "incollection"
     title: "Writer Identification Using Simplified Handwritten Text Recognition Models"
     authors: ["Alejandro H.Toselli", "Álvaro Cuéllar", "Sònia Boadas", "Enrique Vidal", "Joan Andreu Sánchez"]
-    publisher: "Pattern Recognition and Image Analysis. IbPRIA"
+    publication: "Pattern Recognition and Image Analysis. IbPRIA"
     place:
     year: 2025
     volume: "15937"
@@ -258,8 +263,7 @@ publications:
     type: "article"
     title: "The Moderniſa Project: orthographic modernization of Spanish golden age dramas with language models"
     authors: ["Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"]
-    publisher: "Anuario Lope de Vega Texto literatura cultura"
-    place:
+    publication: "Anuario Lope de Vega Texto literatura cultura"
     year: 2024
     volume: "XXX"
     number:
@@ -280,8 +284,8 @@ publications:
     authors:
       - "Álvaro Cuéllar"
     year: 2024
-    booktitle: "Un caballero para Olmedo. Homenaje al profesor Germán Vega García-Luengos"
-    editor: "Gema Cienfuegos Antelo, Javier J. González Martínez y otros"
+    publication: "Un caballero para Olmedo. Homenaje al profesor Germán Vega García-Luengos"
+    editor: ["Gema Cienfuegos Antelo", "Javier J. González Martínez", "y otros"]
     publisher: "Ediciones de la Universidad de Valladolid"
     pages: "277–286"
     isbn:
@@ -294,8 +298,7 @@ publications:
     type: "article"
     title: "La Inteligencia Artificial al rescate del Siglo de Oro: transcripción y modernización automática de mil trescientos impresos y manuscritos teatrales"
     authors: ["Álvaro Cuéllar"]
-    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
-    place:
+    publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
     year: 2023
     volume: "XI"
     number: "1"
@@ -446,8 +449,7 @@ publications:
     type: "article"
     title: "Un nuevo repertorio dramático para Andrés de Claramonte"
     authors: ["Álvaro Cuéllar, Germán Vega García-Luengos"]
-    publisher: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
-    place:
+    publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
     year: 2023
     volume: "XI"
     number: "1"

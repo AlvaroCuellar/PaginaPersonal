@@ -656,7 +656,7 @@ body.modal-open .featured-carousel {
     font-size: var(--text-sm);
     color: var(--text-secondary);
     margin-bottom: 0.75rem;
-    font-style: normal;
+    font-weight: var(--font-medium);
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -730,7 +730,7 @@ body.modal-open .featured-carousel {
     position: relative;
     background: var(--bg-secondary);
     border-radius: var(--border-radius);
-    overflow: hidden;
+    padding: var(--spacing-l);
     display: grid;
     grid-template-columns: 160px 1fr 35%;
     gap: var(--spacing-l);
@@ -852,28 +852,27 @@ body.modal-open .featured-carousel {
 
 /* Thumbnail para grid normal - columna 1 */
 .publication-thumbnail-grid {
-    width: 100%;
+    width: 160px;
     height: 100%;
     display: flex;
-    align-items: center; /* Centrado vertical */
-    justify-content: center; /* Centrado horizontal */
+    align-items: center;
+    justify-content: center;
 }
 
 .pub-thumb-grid {
     width: 100%;
-    height: auto;
-    max-height: auto;
+    height: 100%;
+    max-height: 200px;
     object-fit: cover;
-    object-position: center; /* Centrado en la imagen */
+    object-position: center;
     border-radius: var(--border-radius);
 }
 
 /* Content area para grid normal - columna 2 (metadatos) */
 .publication-content-grid {
-    padding: var(--spacing-l) 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .publication-content-grid .category-label {
@@ -896,7 +895,7 @@ body.modal-open .featured-carousel {
     font-size: var(--text-sm);
     color: var(--text-secondary);
     margin-bottom: var(--spacing-s);
-    font-style: normal;
+    font-weight: var(--font-medium);
 }
 
 .publication-content-grid .publication-source {
@@ -907,8 +906,6 @@ body.modal-open .featured-carousel {
 
 /* Abstract area - columna 3 */
 .publication-abstract {
-    padding: var(--spacing-l);
-    padding-left: 0;
     display: flex;
     flex-direction: column;
     border-left: 2px solid var(--color-light-grey);
