@@ -1,8 +1,8 @@
 # Este archivo contiene la lista de artículos y contenido de divulgación científica.
 # Instrucciones para completar los datos:
 # 1. Campos obligatorios:
-#    - id: Identificador único para cada artículo (por ejemplo, "outreach-1").
-#    - title: Título del artículo o contenido, con claves "es" y "en" para idiomas.
+#    - id: Identificador único para cada ítemm (por ejemplo, "outreach-1").
+#    - title: Título del ítem o contenido, con claves "es" y "en" para idiomas.
 #    - type: Tipo de contenido (ver tipos disponibles abajo).
 #    - medium: Nombre del medio o plataforma donde se publicó.
 #    - date: Fecha de publicación en formato ISO (YYYY-MM-DD).
@@ -10,21 +10,22 @@
 # 2. Campos opcionales:
 #    - description: Breve descripción del contenido, con claves "es" y "en".
 #    - image: Ruta a la imagen asociada al contenido.
-# 3. Para destacar artículos, agregar sus IDs en el campo 'featured_ids' al inicio del archivo.
-#    Los artículos destacados se mostrarán en un carrusel principal con transiciones suaves.
-#    - repeat_featured_in_all: true/false - Controla si los artículos destacados aparecen también en la cuadrícula completa
-#      * true: Los artículos destacados se muestran tanto en el carrusel como en la cuadrícula completa
-#      * false: Los artículos destacados solo aparecen en el carrusel (se excluyen de la cuadrícula)
+# 3. Para destacar ítems, agregar sus IDs en el campo 'featured_ids' al inicio del archivo.
+#    Los ítems destacados se mostrarán en un carrusel principal con transiciones suaves.
+#    - repeat_featured_in_all: true/false - Controla si los ítems destacados aparecen también en la cuadrícula completa
+#      * true: Los ítems destacados se muestran tanto en el carrusel como en la cuadrícula completa
+#      * false: Los ítems destacados solo aparecen en el carrusel (se excluyen de la cuadrícula)
 # 4. Tipos disponibles para 'type' (definidos en _data/i18n/en.yml y es.yml):
 #    - article   → fa-file-text (Artículo escrito)
 #    - tv        → fa-tv (Aparición en TV o video)
-#    - interview → fa-comment (Entrevista o podcast)
+#    - radio     → fa-microphone (Entrevista oral)
+#    - interview → fa-comment (Entrevista escrita)
 #    
 #    Para añadir nuevos tipos:
 #    a) Agregar el tipo en _data/i18n/en.yml y es.yml bajo 'outreach_types'
 #    b) Agregar el ícono correspondiente en _includes/sections/outreach.html
 # 5. Notas adicionales:
-#    - Los artículos se mostrarán en orden cronológico inverso.
+#    - Los ítems se mostrarán en orden cronológico inverso.
 
 # Configuración de visualización
 repeat_featured_in_all: true

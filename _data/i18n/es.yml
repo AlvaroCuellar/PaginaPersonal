@@ -1,4 +1,4 @@
- Textos generales reutilizables - NO modificar
+# Textos generales reutilizables - NO modificar
 # General reusable texts - DO NOT modify
 cv_button: "CV completo"
 project_button: "Ver proyecto"
@@ -40,6 +40,7 @@ outreach_types:
   article: "Artículo"
   tv: "Televisión"
   interview: "Entrevista"
+  radio: "Radio"
   
 access_text: "Acceder"
 view_citations: "Ver citas"
@@ -89,8 +90,8 @@ months:
   december: "Diciembre"
 
 # Outreach section
-
 outreach:
   more_title: "Más artículos y contenido"
   read: "Leer"
   watch: "Ver"
+  listen: "Escuchar"

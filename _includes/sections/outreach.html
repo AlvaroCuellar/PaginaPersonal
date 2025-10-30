@@ -47,6 +47,8 @@
                               <i class="fa fa-tv"></i>
                             {% when 'interview' %}
                               <i class="fa fa-comment"></i>
+                            {% when 'radio' %}
+                              <i class="fa fa-microphone"></i>
                           {% endcase %}
                           {{ featured.medium }}
                         </span>
@@ -60,11 +62,14 @@
                       </div>
                     
                       <a href="{{ featured.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
-                        {% if featured.type == 'tv' %}
-                          {{ site.data.i18n[lang].outreach.watch }}
-                        {% else %}
-                          {{ site.data.i18n[lang].outreach.read }}
-                        {% endif %}
+                        {% case featured.type %}
+                          {% when 'tv' %}
+                            {{ site.data.i18n[lang].outreach.watch }}
+                          {% when 'radio' %}
+                            {{ site.data.i18n[lang].outreach.listen }}
+                          {% else %}
+                            {{ site.data.i18n[lang].outreach.read }}
+                        {% endcase %}
                       </a>
                     </div>
                     
@@ -128,6 +133,8 @@
                       <i class="fa fa-tv"></i>
                     {% when 'interview' %}
                       <i class="fa fa-comment"></i>
+                    {% when 'radio' %}
+                      <i class="fa fa-microphone"></i>
                   {% endcase %}
                   <span>{{ site.data.i18n[lang].outreach_types[item.type] }}</span>
                 </div>
@@ -152,11 +159,14 @@
                 {% endif %}
                 
                 <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" class="card-link no-icon">
-                  {% if item.type == 'tv' %}
-                    {{ site.data.i18n[lang].outreach.watch }}
-                  {% else %}
-                    {{ site.data.i18n[lang].outreach.read }}
-                  {% endif %}
+                  {% case item.type %}
+                    {% when 'tv' %}
+                      {{ site.data.i18n[lang].outreach.watch }}
+                    {% when 'radio' %}
+                      {{ site.data.i18n[lang].outreach.listen }}
+                    {% else %}
+                      {{ site.data.i18n[lang].outreach.read }}
+                  {% endcase %}
                   <i class="fa fa-arrow-right"></i>
                 </a>
               </article>
