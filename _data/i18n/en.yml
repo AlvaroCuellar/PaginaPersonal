@@ -26,7 +26,8 @@ all_publications_title: "All Publications"
 # Talk types
 talk_types:
   invited: "Invited talk"
-  conference: "Conference paper"
+  communication: "Oral communication"
+  plenary: "Plenary lecture"
   panel: "Panel"
   poster: "Poster"
   workshop: "Workshop"

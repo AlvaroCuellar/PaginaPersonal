@@ -1131,7 +1131,7 @@ body.modal-open .featured-carousel {
 
 .event-card.featured {
     border: 2px solid var(--accent-color); /* Borde destacado para featured */
-    min-height: 300px;
+    min-height: 330px;
     height: auto;
     background: var(--bg-primary);
 }
@@ -1165,6 +1165,13 @@ body.modal-open .featured-carousel {
 
 .event-card-content {
     margin-top: auto;
+}
+
+.event-authors {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--spacing-s);
 }
 
 .event-name {

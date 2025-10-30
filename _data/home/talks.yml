@@ -3,8 +3,9 @@
 # 1. Campos obligatorios:
 #    - id: Identificador único para cada entrada (por ejemplo, "Prolope2024").
 #    - type: Tipo de presentación. Categorías posibles:
-#      - invited: Charla invitada
-#      - conference: Ponencia
+#      - invited: Conferencia invitada
+#      - conference: Comunicación científica (peer reviewed)
+#      - plenary: Conferencia plenaria
 #      - panel: Mesa redonda o panel
 #      - poster: Póster
 #      - workshop: Taller
@@ -64,8 +65,8 @@ talks:
 
 
   - id: "aiso2026"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2026-07-20"
     date_end: "2026-07-24"
     title: "Encuentro de Investigadores en Humanidades Digitales"
@@ -77,8 +78,8 @@ talks:
 
 
   - id: "asodat2026"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2026-05-27"
     date_end: "2026-05-29"
     title: "TEXORO 2.0: un gran buscador para la literatura aurisecular"
@@ -90,8 +91,8 @@ talks:
 
 
   - id: "motivarte2026"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2026-02-04"
     title: "Lope sintético: generación artificial de letra manuscrita para la investigación filológica"
     event: "MOTIV-ARTE VII. Humanidades e Inteligencia Artificial: De la investigación a la enseñanza y la divulgación"
@@ -101,8 +102,8 @@ talks:
       en: "Madrid, Spain"
       
   - id: "hddmalaga2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-12-16"
     title: "Estilometría léxica, rítmica y estrófica: un tridente computacional para estudiar la autoría en el teatro del Siglo de Oro"
     event: "I Seminario HHDD - Humanidades Digitales y Datos"
@@ -112,8 +113,8 @@ talks:
       en: "Málaga, Spain"
       
   - id: "unedmaster2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2025-11-04"
     title: "Tras la huella autorial y caligráfica: Inteligencia Artificial para el estudio del patrimonio textual"
     event: "Inauguración del Máster en Humanidades Digitales"
@@ -125,8 +126,8 @@ talks:
 
   
   - id: "hdh2025"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2025-10-22"
     date_end: "2025-10-24"
     title: "De los átomos a las ondas: estilometría rítmica para el estudio de la autoría en el teatro del Siglo de Oro"
@@ -138,8 +139,8 @@ talks:
 
       
   - id: "aitenso2025"
-    autor: "Joel Reverter, Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Joel Reverter, Álvaro Cuéllar"
+    type: communication
     date: "2025-09-23"
     date_end: "2025-09-26"
     title: "La generación sintética de letra manuscrita: ¿una herramienta para el entrenamiento de modelos de reconocimiento de caligrafías?"
@@ -151,8 +152,8 @@ talks:
 
 
   - id: "uned2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2025-06-25"
     date_end: "2025-06-27"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
@@ -164,8 +165,8 @@ talks:
 
 
   - id: "leon2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-05-29"
     date_end: "2025-05-30"
     title: "Hacia la construcción de un gran modelo de transcripción para el Siglo de Oro"
@@ -176,8 +177,8 @@ talks:
       en: "León, Spain"
       
   - id: "calderon2025"
-    autor: "Germán Vega García-Luengos, Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Germán Vega García-Luengos, Álvaro Cuéllar"
+    type: communication
     date: "2025-05-30"
     title: "Crece el repertorio de Calderón con El bandolero Solposto, una nueva comedia en colaboración"
     event: "Congreso Internacional «Astro, exhalación, prodigio: el gran teatro de Calderón»"
@@ -188,8 +189,8 @@ talks:
 
 
   - id: "thal_autografos2025"
-    autor: "Álvaro Cuéllar, Arantxa Llàcer"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar, Arantxa Llàcer"
+    type: invited
     date: "2025-05-08"
     title: "Primeros resultados del proyecto THAL-IA: corpus, entrenamiento y detección"
     event: "Seminario internacional: El proceso de composición de los autógrafos teatrales del Siglo de Oro"
@@ -200,8 +201,8 @@ talks:
 
 
   - id: "tubinga2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-05-20"
     title: "Una lectura distante del Siglo de Oro"
     event: "Conferencia invitada por la estancia como Mercator Fellow"
@@ -212,8 +213,8 @@ talks:
 
 
   - id: "acatlan2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-04-09"
     title: "Análisis computacionales de la literatura áurea"
     event: "Conferencia invitada en la Facultad de Estudios Superiores Acatlán"
@@ -225,8 +226,8 @@ talks:
 
 
   - id: "uam2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-03-26"
     title: "Inteligencia Artificial al encuentro del Siglo de Oro: retos y perspectivas"
     event: "Jornadas Humanidades y Competencias en Inteligencia Artificial"
@@ -237,8 +238,8 @@ talks:
 
 
   - id: "perugia2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-03-03"
     date_end: "2025-03-04"
     title: "¿Testimonio único, variante o refundición? Rastreos masivos computarizados para el estudio del teatro áureo"
@@ -250,8 +251,8 @@ talks:
 
 
   - id: "usc2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2025-03-19"
     date_end: "2025-03-21"
     title: "Problemas tradicionales, soluciones digitales"
@@ -262,8 +263,8 @@ talks:
       en: "Santiago de Compostela, Spain"
 
   - id: "istae2025"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2025-02-20"
     date_end: "2025-02-21"
     title: "Thal-IA e ISTAE: sinergias entre dos proyectos paralelos"
@@ -275,8 +276,8 @@ talks:
 
  
   - id: "hkadh2025"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2025-01-16"
     date_end: "2025-01-19"
     title: "HTR for Hands Identification in Early Modern Spanish Literature"
@@ -288,8 +289,8 @@ talks:
 
 
   - id: "cadiz2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2024-11-20"
     date_end: "2024-11-22"
     title: "La vida es software"
@@ -301,8 +302,8 @@ talks:
 
  
   - id: "uam2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-11-14"
     title: "Inteligencia Artificial para el estudio del patrimonio literario del Siglo de Oro"
     event: "II Seminario Nuevas Tecnologías e Innovación Docente en Literatura Hispánica"
@@ -314,8 +315,8 @@ talks:
  
  
   - id: "usc2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-11-07"
     date_end: "2024-11-08"
     title: "Filología digital para el estudio de la lírica áurea"
@@ -327,8 +328,8 @@ talks:
 
  
   - id: "olmedo2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-07-24"
     title: "Nuevos horizontes para la investigación sobre el teatro del Siglo de Oro"
     event: "18 Jornadas sobre teatro clásico del Festival Olmedo Clásico"
@@ -340,8 +341,8 @@ talks:
  
  
   - id: "chle2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-07-01"
     date_end: "2024-07-04"
     title: "Hacia el futuro de la Historia de la lengua española: nuevos métodos, nuevos retos en la época de la IA"
@@ -354,8 +355,8 @@ talks:
  
  
   - id: "aispi2024"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2024-06-19"
     date_end: "2024-06-22"
     title: "La voz femenina en el teatro de Lope de Vega bajo la mirada de la estilística computacional"
@@ -367,8 +368,8 @@ talks:
 
  
   - id: "ile2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-05-07"
     title: "Cómo descubrimos un Lope escondido"
     event: "La inteligencia artificial y la industria cultural"
@@ -379,8 +380,8 @@ talks:
 
  
   - id: "leon2024"
-    autor: "Álvaro Cuéllar, Sònia Boadas"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar, Sònia Boadas"
+    type: communication
     date: "2024-05-27"
     date_end: "2024-05-29"
     title: "Inteligencia Artificial para la detección de manos en los manuscritos teatrales del Siglo de Oro"
@@ -394,8 +395,8 @@ talks:
  
  
   - id: "thal2024"
-    autor: "Álvaro Cuéllar, Sònia Boadas"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar, Sònia Boadas"
+    type: invited
     date: "2024-04-18"
     date_end: "2024-04-19"
     title: "Thal-IA: Inteligencia Artificial aplicada al patrimonio teatral áureo"
@@ -407,8 +408,8 @@ talks:
 
  
   - id: "stylometrie2024conf"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2024-05-13"
     title: "Stylométrie et datation"
     event: "Conferencia invitada en la Universidad de Ginebra"
@@ -418,7 +419,7 @@ talks:
       en: "Geneva, Switzerland"
 
   - id: "stylometrie2024"
-    autor: "Álvaro Cuéllar"
+    author: "Álvaro Cuéllar"
     type: "workshop"
     date: "2024-05-13"
     title: "Exercices pratiques de Stylométrie"
@@ -429,8 +430,8 @@ talks:
       en: "Geneva, Switzerland"
 
   - id: "ginebra2024"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2024-05-13"
     title: "Datation du corpus dramatique de Lope de Vega"
     event: "Conferencia plenaria por invitación ante la comunidad universitaria de la Universidad de Ginebra"
@@ -441,8 +442,8 @@ talks:
 
 
   - id: "bruselas2023"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia plenaria"
+    author: "Álvaro Cuéllar"
+    type: plenary
     date: "2023-12-08"
     date_end: "2023-12-09"
     title: "Artificial Philology"
@@ -453,8 +454,8 @@ talks:
       en: "Brussels, Belgium"
 
   - id: "lopeuab2023"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2023-12-05"
     title: "Hacia la datación automática del teatro del Siglo de Oro"
     event: "Seminario internacional: estudios clásicos y modernos en torno a Lope de Vega: tres propuestas"
@@ -466,8 +467,8 @@ talks:
  
  
   - id: "bne2023ia"
-    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: invited
     date: "2023-11-07"
     date_end: "2023-11-08"
     title: "Herramienta TRANSKRIBUS y la Estilometría aplicada al Teatro del Siglo de Oro (ETSO) y la asignación de autoría a Lope de La francesa Laura"
@@ -480,8 +481,8 @@ talks:
  
  
   - id: "dariah2023"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2023-11-07"
     title: "Datación de textos literarios con estilometría"
     event: "DARIAH-DAY ES"
@@ -494,8 +495,8 @@ talks:
  
  
   - id: "aitenso2023"
-    autor: "Álvaro Cuéllar, Javier J. González Martínez, Germán Vega García-Luengos"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar, Javier J. González Martínez, Germán Vega García-Luengos"
+    type: communication
     date: "2023-10-30"
     date_end: "2023-11-01"
     title: "Propuestas de incorporación de nuevas obras al repertorio dramático de Luis Vélez de Guevara"
@@ -508,8 +509,8 @@ talks:
 
 
   - id: "valladolid2023"
-    autor: "Álvaro Cuéllar, Irene G. Escudero"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar, Irene G. Escudero"
+    type: communication
     date: "2023-09-27"
     date_end: "2023-09-29"
     title: "Neutralización de la señal temática en los análisis estilométricos de autoría"
@@ -521,8 +522,8 @@ talks:
 
  
   - id: "olmedo2023"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2023-07-24"
     date_end: "2023-07-26"
     title: "La francesa Laura: el vuelo del Fénix del ordenador a la escena"
@@ -534,8 +535,8 @@ talks:
 
  
   - id: "hispanistas2023"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2023-02-22"
     date_end: "2023-02-25"
     title: "Luis Belmonte Bermúdez y Gaspar de Ávila, dos grandes tapados del teatro del Siglo de Oro español"
@@ -548,8 +549,8 @@ talks:
  
  
   - id: "bne2023"
-    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: communication
     date: "2023-02-08"
     date_end: "2023-02-10"
     title: "Un nuevo repertorio para Andrés de Claramonte"
@@ -562,7 +563,7 @@ talks:
  
  
   - id: "transkribus2023"
-    autor: "Álvaro Cuéllar"
+    author: "Álvaro Cuéllar"
     type: "workshop"
     date: "2023-02-03"
     title: "Introducción a Transkribus"
@@ -574,8 +575,8 @@ talks:
 
  
   - id: "uab2023"
-    autor: "Álvaro Cuéllar, Germán Vega García-Luengos"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar, Germán Vega García-Luengos"
+    type: invited
     date: "2023-02-03"
     title: "La francesa Laura: comedia inédita de Lope de Vega"
     event: "Conferencia en la Universidad Autónoma de Barcelona"
@@ -587,8 +588,8 @@ talks:
  
  
   - id: "aitenso2022"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2022-09-14"
     date_end: "2022-09-17"
     title: "Datación automática de comedias lopescas a través de la Inteligencia Artificial"
@@ -601,8 +602,8 @@ talks:
 
  
   - id: "istae2022"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2022-09-08"
     title: "Nuevas líneas de trabajo desde la bibliografía computacional"
     event: "I Seminario de trabajo del proyecto ISTAE (Impresos sueltos del teatro antiguo español): La(s) cultura(s) impresa(s) del teatro del Siglo de Oro: el problema de las comedias sueltas"
@@ -614,8 +615,8 @@ talks:
  
  
   - id: "dh2022tokyo"
-    autor: "Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"
-    type: "Comunicación científica"
+    author: "Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"
+    type: communication
     date: "2022-07-25"
     date_end: "2022-07-29"
     title: "The Moderniſa Project: Orthographic Modernization of Spanish Golden Age Dramas with Language Models"
@@ -629,8 +630,8 @@ talks:
  
  
   - id: "olmedo2022"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2022-07-25"
     date_end: "2022-07-27"
     title: "La investigación sobre el teatro del Siglo de Oro: últimas propuestas desde las Humanidades Digitales"
@@ -642,8 +643,8 @@ talks:
 
  
   - id: "paris2022"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2022-06-23"
     date_end: "2022-06-24"
     title: "Un modèle ouvert pour la reconnaissance automatique des manuscrits du théâtre espagnol du Siècle d’Or"
@@ -656,8 +657,8 @@ talks:
  
  
   - id: "viena2022"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2022-06-02"
     date_end: "2022-06-03"
     title: "La francesa Laura: The Discovery of an Unknown Play by Lope de Vega Thanks to Artificial Intelligence"
@@ -670,8 +671,8 @@ talks:
      
      
   - id: "doctorandos2021"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2021-11-12"
     title: "Humanidades Digitales y Siglo de Oro"
     event: "I Encuentro de Doctorandos Áureos de Castilla y León"
@@ -683,7 +684,7 @@ talks:
      
      
   - id: "hdh2021"
-    autor: "Javier J. González Martínez, Olaia Andaluz-Pinedo, Hugo Sanjurjo-González, Álvaro Cuéllar, Claudia Demattè, Emma Mª Marcos Rodríguez"
+    author: "Javier J. González Martínez, Olaia Andaluz-Pinedo, Hugo Sanjurjo-González, Álvaro Cuéllar, Claudia Demattè, Emma Mª Marcos Rodríguez"
     type: "panel"
     date: "2021-10-04"
     date_end: "2021-10-08"
@@ -696,8 +697,8 @@ talks:
 
 
   - id: "olmedo2021"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2021-07-26"
     date_end: "2021-07-28"
     title: "Los avances previsibles y deseables en la investigación del teatro del Siglo de Oro"
@@ -709,8 +710,8 @@ talks:
 
       
   - id: "almagro2021"
-    autor: "Álvaro Cuéllar"
-    type: "Conferencia invitada"
+    author: "Álvaro Cuéllar"
+    type: invited
     date: "2021-07-13"
     date_end: "2021-07-15"
     title: "Hacia la transcripción y modernización automática de manuscritos e impresos teatrales del Siglo de Oro"
@@ -723,8 +724,8 @@ talks:
       
       
   - id: "autorias2019"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2019-10-23"
     date_end: "2019-10-25"
     title: "Autorías cuestionadas en el teatro del Siglo de Oro. Primeros resultados del proyecto EstilometríaTSO"
@@ -738,8 +739,8 @@ talks:
       
       
   - id: "hdh2019"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2019-10-23"
     date_end: "2019-10-25"
     title: "Estilística computacional y literatura hispánica: retos y perspectivas"
@@ -751,8 +752,8 @@ talks:
 
 
   - id: "tinglado"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2019-10-14"
     date_end: "2019-10-17"
     title: "Las comedias en colaboración en el teatro del Siglo de Oro bajo la lupa de la estilometría"
@@ -764,7 +765,7 @@ talks:
 
       
   - id: "sorjuana"
-    type: "Conferencia invitada"
+    type: invited
     date: "2019-07-09"
     date_end: "2019-07-11"
     title: "El teatro de Alarcón y Sor Juana Inés de la Cruz ante las humanidades digitales"
@@ -777,7 +778,7 @@ talks:
       
       
   - id: "presen"
-    type: "Comunicación científica"
+    type: communication
     date: "2019-02-25"
     date_end: "2019-03-02"
     title: "Presentation of the EstilometríaTSO Project: Stylometry Applied to Spanish Golden Age Theatre"
@@ -790,8 +791,8 @@ talks:
       
       
   - id: "necesidad"
-    autor: "Álvaro Cuéllar"
-    type: "Comunicación científica"
+    author: "Álvaro Cuéllar"
+    type: communication
     date: "2018-04-17"
     date_end: "2018-04-19"
     title: "La necesidad de la validación cruzada y cómo programarla en R"

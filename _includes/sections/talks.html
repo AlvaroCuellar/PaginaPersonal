@@ -32,6 +32,15 @@
                                             </div>
                                             <h4>{{ talk.title }}</h4>
                                             <div class="event-card-content">
+                                                {% if talk.author %}
+                                                    <div class="event-authors">
+                                                        {% if talk.author.first %}
+                                                            {{ talk.author | join: ", " }}
+                                                        {% else %}
+                                                            {{ talk.author }}
+                                                        {% endif %}
+                                                    </div>
+                                                {% endif %}
                                                 <div class="event-name">{{ talk.event }}</div>
                                                 {% if talk.institution %}<div class="event-institution">{{ talk.institution }}</div>{% endif %}
                                                 <div class="event-metadata">
@@ -98,6 +107,15 @@
                                 </div>
                                 <h4>{{ talk.title }}</h4>
                                 <div class="event-card-content">
+                                    {% if talk.author %}
+                                        <div class="event-authors">
+                                            {% if talk.author.first %}
+                                                {{ talk.author | join: ", " }}
+                                            {% else %}
+                                                {{ talk.author }}
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
                                     <div class="event-name">{{ talk.event }}</div>
                                     {% if talk.institution %}<div class="event-institution">{{ talk.institution }}</div>{% endif %}
                                     <div class="event-metadata">

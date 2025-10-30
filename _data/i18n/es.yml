@@ -24,8 +24,9 @@ all_publications_title: "Todas las publicaciones"
 # Types
 # Talk types
 talk_types:
-  invited: "Charla invitada"
-  conference: "Ponencia"
+  invited: "Conferencia invitada"
+  communication: "Comunicación científica"
+  plenary: "Conferencia plenaria"
   panel: "Mesa redonda"
   poster: "Póster"
   workshop: "Taller"
