@@ -1,0 +1,6 @@
+# Permitir el acceso completo a todos los motores de búsqueda
+User-agent: *
+Allow: /
+
+# Indicar la ubicación del sitemap
+Sitemap: https://www.alvarocuellar.com/sitemap.xml
