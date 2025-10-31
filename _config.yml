@@ -4,7 +4,7 @@ timezone: Europe/Madrid
 permalink: pretty
 
 # GitHub Pages configuration
-url: "https://alvarocuellar.github.io"
+url: "https://alvarocuellar.com"
 baseurl: ""
 
 markdown: kramdown
