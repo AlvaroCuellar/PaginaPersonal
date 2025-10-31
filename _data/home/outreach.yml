@@ -33,17 +33,16 @@ items:
 
   - id: "outreach-filologia-artificial"
     title:
-      es: "Filología artificial"
+      es: "Filología Artificial"
       en: "Artificial Philology"
     type: "article"
     medium: "Revista La Pluma"
     date: "2024-01-01"
     description:
-      es: "Reflexión sobre el uso de la Inteligencia Artificial en Filología y su potencial para abordar cuestiones de autoría, datación y transcripción en el teatro del Siglo de Oro."
-      en: "A reflection on the use of Artificial Intelligence in Philology and its potential to address authorship, dating, and transcription issues in Spanish Golden Age theatre."
+      es: "Artículo de divulgación sobre cómo la inteligencia artificial está transformando la Filología del Siglo de Oro. Explora su aplicación en la atribución de autorías, la datación automática y la lectura de manuscritos mediante herramientas computacionales."
+      en: "Outreach article on how artificial intelligence is transforming Golden Age Philology. It explores its use in authorship attribution, automatic dating, and the reading of manuscripts through computational tools."
     url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
     image: "/assets/images/outreach/pluma.jpg"
-
 
   - id: "outreach-informe-semanal"
     title:
