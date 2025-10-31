@@ -26,9 +26,6 @@ subtitle:
 
 # Elementos destacados (se mostrarán en el carrusel principal)
 featured_ids:
-  - "outreach-filologia-artificial"
-  - "outreach-informe-semanal"
-  - "outreach-lasexta-columna"
 
 # Artículos y contenido de divulgación
 items:
@@ -45,7 +42,7 @@ items:
       es: "Reflexión sobre el uso de la Inteligencia Artificial en Filología y su potencial para abordar cuestiones de autoría, datación y transcripción en el teatro del Siglo de Oro."
       en: "A reflection on the use of Artificial Intelligence in Philology and its potential to address authorship, dating, and transcription issues in Spanish Golden Age theatre."
     url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
-    image: "/assets/images/press/14.png"
+    image: "/assets/images/outreach/pluma.jpg"
 
 
   - id: "outreach-informe-semanal"
@@ -59,7 +56,7 @@ items:
       es: "Reportaje emitido en Informe Semanal sobre el uso de inteligencia artificial y fotografía espectral para investigar los manuscritos autógrafos de Lope de Vega. Con la participación de Sònia Boadas y Álvaro Cuéllar (UAB)."
       en: "Feature aired on Informe Semanal about the use of artificial intelligence and spectral imaging to study Lope de Vega’s autograph manuscripts. Featuring Sònia Boadas and Álvaro Cuéllar (UAB)."
     url: "https://www.rtve.es/play/videos/informe-semanal/aun-esconde-lope/16069618/"
-    image: "/assets/images/press/15.png"
+    image: "/assets/images/outreach/lope.png"
 
 
   - id: "outreach-transkribus"
@@ -73,7 +70,7 @@ items:
       es: "Entrevista publicada por el equipo de Transkribus sobre el hallazgo de La francesa Laura. Álvaro Cuéllar explica el proceso técnico y filológico que permitió atribuir la obra a Lope de Vega mediante herramientas de inteligencia artificial y estilometría dentro del proyecto ETSO."
       en: "Interview published by the Transkribus team about the discovery of La Francesa Laura. Álvaro Cuéllar explains the technical and philological process that led to the attribution of the play to Lope de Vega through artificial intelligence and stylometry within the ETSO project."
     url: "https://www.transkribus.org/en/success-story/discovering-a-lost-play-by-lope-de-vega-alvaro-cuellar"
-    image: "/assets/images/press/16.png"
+    image: "/assets/images/outreach/trans.jpg"
 
 
   - id: "outreach-laguna-al-dia"
@@ -87,7 +84,7 @@ items:
       es: "Entrevista con Álvaro Cuéllar tras el hallazgo de una comedia inédita de Lope de Vega mediante inteligencia artificial. Reflexiona sobre su trayectoria internacional, los retos de la investigación filológica y el potencial de la IA para transformar el estudio del Siglo de Oro."
       en: "Interview with Álvaro Cuéllar following the discovery of a previously unknown Lope de Vega play through artificial intelligence. He reflects on his international career, the challenges of philological research, and the transformative potential of AI in the study of the Spanish Golden Age."
     url: "https://www.lagunaaldia.com/alvaro-cuellar-poder-recuperar-una-obra-del-fenix-de-los-ingenios-supone-un-regalo-para-el-patrimonio-hispanico/"
-    image: "/assets/images/press/17.png"
+    image: "/assets/images/outreach/cuellar.jpg"
 
   - id: "outreach-lasexta-columna"
     title:
@@ -100,7 +97,7 @@ items:
       es: "Reportaje de La Sexta Columna que analiza el hallazgo de la comedia inédita 'La francesa Laura', atribuida a Lope de Vega mediante técnicas de inteligencia artificial. Con la participación de Germán Vega y Álvaro Cuéllar."
       en: "TV feature by La Sexta Columna examining the discovery of the previously unknown play 'La francesa Laura', attributed to Lope de Vega through artificial intelligence. Featuring Germán Vega and Álvaro Cuéllar."
     url: "https://www.lasexta.com/programas/sexta-columna/obra-perdida-lope-vega-que-descubierto-inteligencia-artificial-como-encontramos-velazquez_2024031565f4b7f4ab79d80001a6ebc1.html"
-    image: "/assets/images/press/18.png"
+    image: "/assets/images/outreach/sexta.png"
 
 
   - id: "outreach-un-idioma-sin-fronteras"
@@ -114,7 +111,7 @@ items:
       es: "Entrevista radiofónica en la que Álvaro Cuéllar explica cómo la inteligencia artificial y la estilometría permiten atribuir autorías, leer manuscritos complejos y fechar textos del Siglo de Oro. Entre los hallazgos destaca la identificación de La francesa Laura como obra de Lope de Vega."
       en: "Radio interview where Álvaro Cuéllar explains how artificial intelligence and stylometry help attribute authorship, read complex manuscripts, and date Spanish Golden Age texts. Among the discoveries is the identification of La francesa Laura as a play by Lope de Vega."
     url: "https://www.rtve.es/play/audios/un-idioma-sin-fronteras/estilometria-alvaro-cuellar/7006620/"
-    image: "/assets/images/press/19.png"
+    image: "/assets/images/outreach/bne.png"
 
 
 
