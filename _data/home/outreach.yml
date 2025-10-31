@@ -59,6 +59,20 @@ items:
     image: "/assets/images/outreach/lope.png"
 
 
+  - id: "outreach-bbc-entrevista"
+    title:
+      es: "Entrevista en la BBC"
+      en: "Interview on the BBC"
+    type: "radio"
+    medium: "BBC Radio 4 — The World Tonight"
+    date: "2023-02-01"
+    description:
+      es: "El prestigioso programa británico The World Tonight de BBC Radio 4 entrevistó a Álvaro Cuéllar (UAB) en un segmento dedicado a la recuperación de La francesa Laura. Se analiza cómo la inteligencia artificial permitió atribuir esta comedia inédita a Lope de Vega, dentro de un espacio de referencia internacional en periodismo cultural y científico."
+      en: "BBC Radio 4’s prestigious current-affairs programme The World Tonight featured an interview with Álvaro Cuéllar (UAB) about the rediscovery of La francesa Laura. The segment explained how artificial intelligence helped attribute this lost play to Lope de Vega, within one of the UK’s leading programmes for cultural and scientific journalism."
+    url: "https://www.podchaser.com/podcasts/the-world-tonight-56081/episodes/the-biggest-public-sector-stri-162316712/transcript"
+    image: "/assets/images/outreach/bbc.jpg"
+
+
   - id: "outreach-transkribus"
     title:
       es: "Discovering a lost play by Lope de Vega: Álvaro Cuéllar"
@@ -114,5 +128,5 @@ items:
     image: "/assets/images/outreach/bne.png"
 
 
-
+ 
  
