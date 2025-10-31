@@ -11,3 +11,5 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem 'bibtex-ruby'
 end
+
+gem "jekyll-sitemap", "~> 1.4"

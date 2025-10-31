@@ -13,6 +13,7 @@ highlighter: rouge
 # Jekyll Scholar Configuration
 plugins:
   - jekyll-scholar
+  - jekyll-sitemap
 
 scholar:
   style: apa
