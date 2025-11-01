@@ -127,5 +127,16 @@ items:
     image: "/assets/images/outreach/bne.png"
 
 
- 
- 
+  - id: "outreach-radio-ule-faisan-del-amor"
+    title:
+      es: "Pódcast: Asar el Faisán del Amor — Álvaro Cuéllar y Sergio Rodríguez Nicolás"
+      en: "Podcast: Asar el Faisán del Amor — Álvaro Cuéllar and Sergio Rodríguez Nicolás"
+    type: "radio"
+    medium: "Radio Universitaria de León"
+    date: "2024-06-14"
+    description:
+      es: "Episodio del pódcast Asar el Faisán del Amor, emitido por la Radio Universitaria de León, donde Álvaro Cuéllar y Sergio Rodríguez Nicolás conversan sobre el impacto de las Humanidades Digitales y la estilometría en el estudio del teatro del Siglo de Oro."
+      en: "Episode of the podcast Asar el Faisán del Amor, broadcast by the University of León Radio, where Álvaro Cuéllar and Sergio Rodríguez Nicolás discuss the impact of Digital Humanities and stylometry on the study of Spanish Golden Age theatre."
+
+    url: "https://open.spotify.com/episode/4dHHSvnjt0JS7KdEELgM8K"
+    image: "/assets/images/outreach/asar.jpeg"
