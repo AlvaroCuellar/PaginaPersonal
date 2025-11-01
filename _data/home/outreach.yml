@@ -140,3 +140,17 @@ items:
 
     url: "https://open.spotify.com/episode/4dHHSvnjt0JS7KdEELgM8K"
     image: "/assets/images/outreach/asar.jpeg"
+
+
+  - id: "outreach-bne-exposicion"
+    title:
+      es: "Exposición «Lope y el teatro del Siglo de Oro»"
+      en: "Exhibition 'Lope and the Theatre of the Spanish Golden Age'"
+    type: "article"
+    medium: "Biblioteca Nacional de España (BNE)"
+    date: "2018-12-26"
+    description:
+      es: "Participación en la exposición de la BNE Lope y el teatro del Siglo de Oro, donde se presentó un dendrograma de relaciones estilométricas elaborado por Álvaro Cuéllar y Germán Vega."
+      en: "Participation in the BNE exhibition Lope and the Theatre of the Spanish Golden Age, featuring a stylometric dendrogram created by Álvaro Cuéllar and Germán Vega."
+    url: "https://www.descubrirelarte.es/2018/12/26/las-claves-del-teatro-del-siglo-de-oro.html"
+    image: "/assets/images/outreach/bne.jpg"
