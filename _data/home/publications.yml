@@ -286,6 +286,9 @@ publications:
     abstract: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
     cited_by:
     
+      - "Depizzolatti, Ana Terra; y Manoel Mourivaldo Santiago-Almeida. Transkribus no fazer filológico: um relato de experiência. LaborHistórico, vol. 11, no. 2, 2025, e66189. DOI: 10.24206/lh.v11i2.66189. ISSN 2359-6910."
+
+
       - "García-Reidy, Alejandro. “Odres nuevos (digitales) para el teatro áureo español.” En: Arteaga, F., Peirats, A., Calvo Gómez, J. A. y Sánchez, D. (coords.), Humanidades Digitales: innovación, memoria y conexiones culturales en la era tecnológica, Valencia, Tirant lo Blanch, 2025, pp. 113–138."
 
       - "Gutiérrez, Juan David; Manrique, Rubén. Inteligencia artificial: teorías, aplicaciones, futuro. Bogotá: Ediciones Uniandes, 2025. ISBN 978-958-798-845-1."
@@ -299,6 +302,8 @@ publications:
 
       - "Murrieta-Flores, Patricia, et al. “Unlocking Colonial Records with Artificial Intelligence: Achieving the Automated Transcription of Large-Scale 16th and 17th-Century Latin American Historical Collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828. "
       - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "Cruz Volio, Gabriela. El “Corpus histórico del español de Costa Rica” (COHIECOS): camino a la digitalización. Studia linguistica romanica, no. 12, 2024, pp. 107–135. ISSN-e 2663-9815."
+
       - "Gutiérrez Valencia, Cristina. Tantas veces Lope: la autoconfiguración del primer autor moderno. Valladolid: Ediciones Universidad de Valladolid, 2024. (Colección Olmedo Clásico). ISBN 978-84-1320-296-9. DOI: https://doi.org/10.24197/eduva.2992."
       - "Iglesias Balsa, Candela. “Las humanidades digitales al servicio de los estudios de teatro áureo: el caso de El segundo Escipión.” En Alejandra Ulla Lorenzo (coord.), Dixitalidade(s) e tecnoloxía(s) nos ámbitos literarios, culturais e lingüísticos. 2024, pp. 15–22. ISBN 978-84-10142-220."
 
@@ -358,6 +363,14 @@ publications:
       - "Hernández-Lorenzo, Laura. “Los sonetos de autoría femenina en el Siglo de Oro: aproximación estilométrica.” Castilla. Estudios de Literatura, vol. 16, 2025, pp. 175–198."
       - "Vega García-Luengos, Germán. Más evidencias y consideraciones sobre la controvertida «Segunda parte de comedias» de Tirso de Molina. En Guillermo Serés, Bienvenido Morros y Laura Fernández (eds.), No importa. Homenaje a Francisco Rico. Bellaterra: Centro para la Edición de los Clásicos Españoles, Universitat Autònoma de Barcelona, 2025, pp. 1037–1055."
       - "Iglesias Balsa, Candela. “Las humanidades digitales al servicio de los estudios de teatro áureo: el caso de El segundo Escipión.” En Alejandra Ulla Lorenzo (coord.), Dixitalidade(s) e tecnoloxía(s) nos ámbitos literarios, culturais e lingüísticos. 2024, pp. 15–22. ISBN 978-84-10142-220."
+      - "Toro Nader, Mariana. Arqueología digital: en busca del archivo perdido. Anuario AC/E de cultura digital, año 2024, págs. 57–69. (Ejemplar dedicado a: Focus: análisis internacional sobre el uso de las lenguas minoritarias en la cultura digital). ISSN 2952-525X."
+
+
+
+
+
+
+
 
 
 
@@ -682,6 +695,10 @@ publications:
       - "Torterolo-Orta, Yanco Amor, et al. “Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite.” arXiv preprint arXiv:2507.04878, 2025."
 
       - "Murrieta-Flores, Patricia, et al. “Unlocking colonial records with Artificial Intelligence. Achieving the automated transcription of large-scale 16th and 17th-century Latin American historical collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828. DOI: 10.1080/20548923.2025.2484828."
+      - "Toro Nader, Mariana. Arqueología digital: en busca del archivo perdido. Anuario AC/E de cultura digital, año 2024, págs. 57–69. (Ejemplar dedicado a: Focus: análisis internacional sobre el uso de las lenguas minoritarias en la cultura digital). ISSN 2952-525X."
+
+
+
 
       - "Castro, Antonio Rojas, y Grisel Terrón Quintero. “Nuevos retos en torno a la edición digital en la Oficina del Historiador: Hacia una transcripción automatizada de documentos históricos.” En Archivos Abiertos: El patrimonio documental cubano y la transformación digital, Berlin/Boston: De Gruyter, 2024, pp. 101–120. DOI: 10.1515/9783111187846-004."
 
@@ -745,9 +762,7 @@ publications:
 
 
 
-
-
-
+      - "Gutiérrez Valencia, Cristina. Tantas veces Lope: la autoconfiguración del primer autor moderno. Valladolid: Ediciones Universidad de Valladolid, 2024. (Colección Olmedo Clásico). ISBN 978-84-1320-296-9. DOI: https://doi.org/10.24197/eduva.2992."
 
 
 
@@ -1015,6 +1030,13 @@ publications:
 
 
       - "Lope de Vega. Comedias. Parte XXIII (2 vols.). Coord. Fernando Rodríguez-Gallego. Madrid: Gredos, 2024. ISBN 978-84-249-4113-0."
+      - "Toro Nader, Mariana. Arqueología digital: en busca del archivo perdido. Anuario AC/E de cultura digital, año 2024, págs. 57–69. (Ejemplar dedicado a: Focus: análisis internacional sobre el uso de las lenguas minoritarias en la cultura digital). ISSN 2952-525X."
+
+
+
+
+
+
 
       - "González Escudero, Irene. Hacia un repertorio de las comedias colaboradas de Rojas Zorrilla: los casos de El pleito del demonio con la Virgen y La trompeta del juicio, a través de la estilometría. Cuadernos de Investigación Filológica, vol. 53, 2023, pp. 21–38."
 
@@ -1185,6 +1207,12 @@ publications:
 
 
       - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
+      - "Gutiérrez Valencia, Cristina. Tantas veces Lope: la autoconfiguración del primer autor moderno. Valladolid: Ediciones Universidad de Valladolid, 2024. (Colección Olmedo Clásico). ISBN 978-84-1320-296-9. DOI: https://doi.org/10.24197/eduva.2992."
+      - "Toro Nader, Mariana. Arqueología digital: en busca del archivo perdido. Anuario AC/E de cultura digital, año 2024, págs. 57–69. (Ejemplar dedicado a: Focus: análisis internacional sobre el uso de las lenguas minoritarias en la cultura digital). ISSN 2952-525X."
+
+
+
+
 
       - "Ferrer-Blé, Laura. Análisis del género teatral en el caso de El loco por fuerza, una comedia atribuida a Lope de Vega. 2024."
       - "Demattè, Claudia; Arantxa Llàcer; y Marco Presotto. Imprenta y literatura española en los siglos XVI y XVII: de las periferias al centro. Vol. 38. Venecia: Edizioni Ca’ Foscari, 2024."
