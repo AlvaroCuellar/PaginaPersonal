@@ -62,19 +62,6 @@ publications:
     abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
 
 
-
-  - id: "redesneuronales"
-    type: "inpress"
-    title: "Redes neuronales convolucionales al servicio del teatro áureo"
-    authors: "Álvaro Cuéllar"
-    publication: "XXXIV SELITEN@T: Literatura, Teatro e Inteligencia Artificial"
-    volume:
-    number:
-    pages:
-    year: 2025
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "Las redes neuronales convolucionales permiten transcribir automáticamente manuscritos del Siglo de Oro y reconocer manos autorales por sus rasgos caligráficos. La escritura sintética amplía los datos y mejora el entrenamiento, consolidando el papel de la inteligencia artificial en la investigación filológica."
     
     
   - id: "PropuestasVelez"
@@ -132,7 +119,18 @@ publications:
       - "Kroll, Simón, y Fernando Sanz-Lázaro. “Ritmo e inteligencia artificial: nuevas perspectivas sobre teatro lopesco desde las Humanidades Digitales.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 351–375."
       - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
 
-    
+  - id: "redesneuronales"
+    type: "incollection"
+    title: "Redes neuronales convolucionales al servicio del teatro áureo"
+    authors: "Álvaro Cuéllar"
+    publication: "En José Romera Castillo (ed.), Literatura, teatro e inteligencia artificial"
+    publisher: "Editorial Verbum"
+    place: "Madrid"
+    pages: "78–82"
+    year: 2025
+    url: "https://www.academia.edu/144758174/Redes_neuronales_convolucionales_al_servicio_del_teatro_%C3%A1ureo"
+    thumbnail: "/assets/images/pubs/redes.png"
+    abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
     
 
   - id: "writersonia"
