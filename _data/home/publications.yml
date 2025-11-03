@@ -287,7 +287,7 @@ publications:
     publisher: "Ediciones de la Universidad de Valladolid"
     pages: "277–286"
     isbn:
-    url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
+    url: "https://www.academia.edu/122478284/Querido_Germ%C3%A1n_un_experimento_estilom%C3%A9trico_sobre_el_tama%C3%B1o_de_los_textos_en_un_corpus_de_correspondencia_digital"
     thumbnail: "/assets/images/pubs/german.png"
     abstract: "El capítulo presenta un experimento estilométrico sobre la correspondencia digital entre Álvaro Cuéllar y Germán Vega, con el objetivo de comprobar si la estilometría puede identificar la autoría de mensajes breves. A pesar de la reducida extensión de los correos, los resultados muestran una notable capacidad clasificatoria de ciertos algoritmos de inteligencia artificial aplicados al estilo individual."
 
@@ -797,6 +797,7 @@ publications:
       - "Marcos Rodríguez, Emma María. Sentido y pervivencia del teatro de Antonio Mira de Amescua. Dir. Germán Vega García-Luengos y Héctor Urzáiz Tortajada. Valladolid: Universidad de Valladolid, 2024. DOI: 10.35376/10324/69443."
       - "Demattè, Claudia. Humanidades digitales y motivos caballerescos: sinergia entre los estudios teatrales y la base de datos MeMoRam. En Gema Cienfuegos Antelo et al. (coords.), Un caballero para Olmedo: homenaje al profesor Germán Vega García-Luengos. Valladolid: Ediciones Universidad de Valladolid, 2024, pp. 287–295."
 
+      - "Martínez Gutiérrez, Míriam. Teatro barroco español en Europa: la proyección de Agustín Moreto en Francia. Tesis doctoral, Universidad de Burgos, 2024."
 
 
 
@@ -1093,6 +1094,10 @@ publications:
     cited_by:
  
  
+       - "Santana Bustamante, Carmen. La Santa Táez atribuida a Rojas Zorrilla y la de Enríquez Gómez: edición crítica, estudio y análisis comparativo. Tesis doctoral, Universidad de Castilla-La Mancha, 2025."
+
+
+
       - "Fiore, Arianna, ed. Tres entremeses famosos, a modo de comedia, de entretenimiento, de Pedro Ordóñez de Ceballos. Florencia: Società Editrice Fiorentina, 2025. DOI: 10.35948/DILEF/978-88-6032-806-9."
       - "Hernández Tornero, Celio. La reescritura de la crónica valenciana de Pere Antoni Beuter: otra mirada con perspectiva digital. En Sònia Boadas, Arantxa Llàcer y Eulàlia Miralles (eds.), In nova forma: Reescrituras de la literatura del Barroco. Kassel: Edition Reichenberger, 2025."
 
@@ -1166,6 +1171,12 @@ publications:
 
     cited_by:
     
+    
+       - "Santana Bustamante, Carmen. La Santa Táez atribuida a Rojas Zorrilla y la de Enríquez Gómez: edición crítica, estudio y análisis comparativo. Tesis doctoral, Universidad de Castilla-La Mancha, 2025."
+
+
+
+
       - "García-Reidy, Alejandro. “Odres nuevos (digitales) para el teatro áureo español.” En: Arteaga, F., Peirats, A., Calvo Gómez, J. A. y Sánchez, D. (coords.), Humanidades Digitales: innovación, memoria y conexiones culturales en la era tecnológica, Valencia, Tirant lo Blanch, 2025, pp. 113–138."
 
       - "Vaccari, Debora. “Mujeres forzadas y Derecho castellano en el teatro del Siglo de Oro.” En Ana Macannuco Rodríguez (ed.), Horizontes de género: lenguajes, identidades y resistencias. Dykinson, 2025, pp. 235–259. ISBN 979-13-7006-246-0."
@@ -1322,6 +1333,8 @@ publications:
 
       - "Ferrer-Blé, Laura. Análisis del género teatral en el caso de El loco por fuerza, una comedia atribuida a Lope de Vega. 2024."
       - "Demattè, Claudia; Arantxa Llàcer; y Marco Presotto. Imprenta y literatura española en los siglos XVI y XVII: de las periferias al centro. Vol. 38. Venecia: Edizioni Ca’ Foscari, 2024."
+      - "Martínez Gutiérrez, Míriam. Teatro barroco español en Europa: la proyección de Agustín Moreto en Francia. Tesis doctoral, Universidad de Burgos, 2024."
+
       - "Casariego Castiñeira, Paula, y Alejandra Ulla Lorenzo. Las atribuciones fraudulentas a Calderón en impresos sueltos: limitaciones y posibilidades. En Gema Cienfuegos Antelo, Pedro Conde Parrado, Javier J. González Martínez, Raquel Gutiérrez Sebastián, Borja Rodríguez Gutiérrez y Héctor Urzáiz Tortajada (coords.), Un caballero para Olmedo: homenaje al profesor Germán Vega García-Luengos. Vol. 1. Valladolid: Ediciones Universidad de Valladolid, 2024, pp. 195–205."
       - "Gutiérrez Meza, José Elías, y Henrry A. Ibáñez Mogrovejo (eds.). Las cadenas del Demonio, de Pedro Calderón de la Barca. Madrid / Frankfurt: Iberoamericana Vervuert, 2024."
 
