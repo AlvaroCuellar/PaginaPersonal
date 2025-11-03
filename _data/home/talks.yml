@@ -136,7 +136,7 @@ talks:
 
   - id: "uned2025"
     author: "Álvaro Cuéllar"
-    type: plenary
+    type: invited
     date: "2025-06-25"
     date_end: "2025-06-27"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
