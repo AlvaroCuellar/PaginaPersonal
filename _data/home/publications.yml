@@ -92,18 +92,8 @@ publications:
     abstract: "El artículo propone un sistema de identificación de escribas basado en técnicas simplificadas de reconocimiento automático de texto manuscrito. Los resultados muestran una elevada precisión en la diferenciación entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
 
     
-  - id: "Bandolero"
-    type: "inpress"
-    title: "Crece el repertorio de Calderón con El bandolero Solposto, una nueva comedia en colaboración"
-    authors: ["Álvaro Cuéllar", "Germán Vega García-Luengos"]
-    publication: "Anuario Calderoniano"
-    volume:
-    number:
-    pages:
-    year: 2025
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "Las herramientas digitales revelan una nueva comedia colaborada que amplía el repertorio de Calderón. La primera jornada de El bandolero Solposto, atribuida a Cáncer, Rosete y Rojas Zorrilla en 1669, muestra una marcada huella calderoniana. La estilometría léxica confirma su autoría, además de la alta concentración de estilemas característicos del dramaturgo"
+
+
 
   - id: "examenautorías"
     type: "inpress"
@@ -132,7 +122,9 @@ publications:
     url: "https://www.academia.edu/144758174/Redes_neuronales_convolucionales_al_servicio_del_teatro_%C3%A1ureo"
     thumbnail: "/assets/images/pubs/redes.png"
     abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
-    
+   
+   
+   
 
   - id: "writersonia"
     type: "article"
@@ -166,7 +158,23 @@ publications:
     abstract: "En este artículo se presenta un enfoque automático de identificación de escribas que combina redes neuronales profundas convolucionales y recurrentes con modelos de lenguaje n-grama en un marco probabilístico de clasificación. Los experimentos preliminares muestran la eficacia del método para distinguir entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
     cited_by:
     
-    
+  - id: "bandolero"
+    type: "article"
+    title: "Crece el repertorio de Calderón con «El bandolero Solposto», una nueva comedia en colaboración"
+    authors:
+      - "Álvaro Cuéllar"
+      - "Germán Vega García-Luengos"
+    publication: "Anuario Calderoniano"
+    volume: "18"
+    number:
+    pages: "59–83"
+    year: 2025
+    url: "https://recyt.fecyt.es/index.php/acal/article/view/115157"
+    thumbnail: "/assets/images/pubs/astro.jpg"
+    abstract: "Las herramientas digitales han proporcionado los primeros indicios de que al repertorio calderoniano habría que sumarle una comedia colaborada más. Calderón sería el verdadero responsable de la primera jornada de «El bandolero Solposto», atribuida a Cáncer, Rosete y Rojas Zorrilla en la edición de la Parte XXXII de *Nuevas escogidas* (1669). Los resultados de estilometría léxica confirman la afinidad con sus pautas de escritura, sus usos métricos y su sistema expresivo, destacando el elevado número de estilemas calderonianos detectados."
+
+
+
   - id: "xviicatalanprints"
     type: "model"
     title: "XVII Catalan Prints"
