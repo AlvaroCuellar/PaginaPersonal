@@ -95,6 +95,7 @@ publications:
 
 
 
+
   - id: "examenautorías"
     type: "inpress"
     title: "Examen de autorías en el teatro del Siglo de Oro"
@@ -110,6 +111,17 @@ publications:
       - "Kroll, Simón, y Fernando Sanz-Lázaro. “Ritmo e inteligencia artificial: nuevas perspectivas sobre teatro lopesco desde las Humanidades Digitales.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 351–375."
       - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
 
+
+  - id: "rhythmiccorpus100"
+    type: "dataset"
+    title: "Rhythmic Corpus of 100 Spanish Golden Age Plays"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Zenodo"
+    year: 2025
+    url: "https://doi.org/10.5281/zenodo.17537343"
+    thumbnail: "/assets/images/pubs/r100.png"
+    abstract: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
+    
   - id: "redesneuronales"
     type: "incollection"
     title: "Redes neuronales convolucionales al servicio del teatro áureo"
