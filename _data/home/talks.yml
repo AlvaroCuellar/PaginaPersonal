@@ -147,6 +147,19 @@ talks:
       en: "Madrid, Spain"
 
 
+  - id: "ibpria2025_writerid"
+    author: "Alejandro H. Toselli, Álvaro Cuéllar, Sònia Boadas, Enrique Vidal, Joan Andreu Sánchez"
+    type: communication
+    date: "2025-06-30"
+    date_end: "2025-07-03"
+    title: "Writer Identification using Simplified Handwritten Text Recognition Models"
+    event: "XII Iberian Conference on Pattern Recognition and Image Analysis (IbPRIA 2025)"
+    institution: "Universidade de Coimbra"
+    location:
+      es: "Coímbra, Portugal"
+      en: "Coimbra, Portugal"
+
+
   - id: "leon2025"
     author: "Álvaro Cuéllar"
     type: invited
