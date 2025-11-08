@@ -110,57 +110,8 @@ $(document).ready(function () {
     // ───────────────────────────────────────────────────────
     // MOBILE MENU
     // ───────────────────────────────────────────────────────
-    
-    $("#nav-mobile").html($("#nav-main").html());
-    
-    $("#nav-trigger span").on("click", function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        if (isAnimating) return false;
-        
-        const $menu = $("nav#nav-mobile ul");
-        const $trigger = $(this);
-        
-        isAnimating = true;
-        
-        if ($menu.hasClass("expanded")) {
-            $menu.removeClass("expanded expanding").addClass("collapsing");
-            $trigger.removeClass("open");
-            
-            setTimeout(() => {
-                $menu.removeClass("collapsing");
-                isAnimating = false;
-            }, 700);
-        } else {
-            $menu.removeClass("collapsing").addClass("expanding");
-            $trigger.addClass("open");
-            
-            requestAnimationFrame(() => {
-                $menu.addClass("expanded");
-                setTimeout(() => {
-                    isAnimating = false;
-                }, 500);
-            });
-        }
-        
-        return false;
-    });
-    
-    $("#nav-mobile ul a:not(.menu-button)").on("click", function(e) {
-        const $menu = $("nav#nav-mobile ul");
-        
-        if ($menu.hasClass("expanded") && !isAnimating) {
-            isAnimating = true;
-            $menu.removeClass("expanded expanding").addClass("collapsing");
-            $("#nav-trigger span").removeClass("open");
-            
-            setTimeout(() => {
-                $menu.removeClass("collapsing");
-                isAnimating = false;
-            }, 700);
-        }
-    });
+    // NOTA: El menú móvil ahora se maneja completamente en mobile-overlay.js
+    // Este archivo solo se encarga de la navegación y el scroll
     
     // ───────────────────────────────────────────────────────
     // HEADER STATE
@@ -384,4 +335,45 @@ $(document).ready(function () {
             }
         }, 100);
     });
+    
+    // ───────────────────────────────────────────────────────
+    // REINICIALIZACIÓN después de cambio de idioma AJAX
+    // ───────────────────────────────────────────────────────
+    
+    function reinitializeNavigation() {
+        console.log('🔄 Reinitializing navigation after language change...');
+        
+        // 1. Re-attachar eventos de scroll suave
+        $('a[href^="#"]:not([href="#"])').off('click.smoothScroll').on('click.smoothScroll', function(e) {
+            const href = $(this).attr('href');
+            const hash = href.substring(1);
+            const lang = getCurrentLanguage();
+            
+            const sectionId = getSectionIdFromSlug(hash, lang);
+            const target = $('#' + sectionId);
+            
+            if (target.length) {
+                e.preventDefault();
+                isScrolling = false;
+                
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 70
+                }, 800);
+            }
+        });
+        
+        // 2. Actualizar estado del header
+        updateHeaderState();
+        markActiveSection();
+        
+        console.log('✅ Navigation reinitialized');
+    }
+    
+    // Escuchar evento de cambio de idioma
+    $(document).on('languageContentReplaced', function(event, newLang) {
+        console.log('🌐 Language changed to:', newLang);
+        reinitializeNavigation();
+    });
+    
 });
+

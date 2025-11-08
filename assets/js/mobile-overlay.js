@@ -1,262 +1,121 @@
-/**
- * ===================================
+﻿/**
  * MOBILE MENU OVERLAY SYSTEM
- * ===================================
- * Sistema de menú móvil unificado con overlay para toda la web
  */
-
 (function() {
     'use strict';
-    
     let isMenuOpen = false;
     
-    /**
-     * Inicializa el sistema de menú móvil overlay
-     */
     function initMobileMenuOverlay() {
-        // Crear elementos del menú si no existen
+        console.log('Mobile menu init');
         createMobileMenuElements();
-        
-        // Configurar event listeners
         setupEventListeners();
-        
-        // Configurar detección de color del hamburger
         handleHamburgerColor();
     }
     
-    /**
-     * Crea los elementos HTML del menú móvil overlay
-     */
     function createMobileMenuElements() {
-        // Verificar si ya existen los elementos
-        if (document.querySelector('.hamburger-menu')) {
-            return;
+        if (document.querySelector('.hamburger-menu')) return;
+        
+        const btn = document.createElement('button');
+        btn.className = 'hamburger-menu';
+        btn.innerHTML = '<span class="hamburger-icon"></span>';
+        
+        const overlay = document.createElement('div');
+        overlay.className = 'mobile-menu-overlay';
+        
+        const content = document.createElement('div');
+        content.className = 'mobile-menu-content';
+        
+        const nav = document.querySelector('#nav-main ul');
+        if (nav) {
+            let html = '<ul>';
+            nav.querySelectorAll('li').forEach(i => html += i.outerHTML);
+            html += '</ul>';
+            content.innerHTML = html;
         }
         
-        // Crear botón hamburger
-        const hamburgerButton = document.createElement('button');
-        hamburgerButton.className = 'hamburger-menu';
-        hamburgerButton.innerHTML = '<span class="hamburger-icon"></span>';
-        
-        // Crear overlay del menú
-        const menuOverlay = document.createElement('div');
-        menuOverlay.className = 'mobile-menu-overlay';
-        
-        // Crear contenido del menú
-        const menuContent = document.createElement('div');
-        menuContent.className = 'mobile-menu-content';
-        
-        // Determinar qué tipo de menú crear según la página
-        if (window.location.pathname.includes('/cv') || document.querySelector('.cv-container')) {
-            // Menú para CV
-            createCVMenu(menuContent);
-        } else {
-            // Menú para página principal
-            createHomeMenu(menuContent);
-        }
-        
-        menuOverlay.appendChild(menuContent);
-        
-        // Añadir elementos al DOM
-        document.body.appendChild(hamburgerButton);
-        document.body.appendChild(menuOverlay);
-        
-        console.log('Mobile menu elements created successfully');
+        overlay.appendChild(content);
+        document.body.appendChild(btn);
+        document.body.appendChild(overlay);
     }
     
-    /**
-     * Crea el menú para la página principal
-     */
-    function createHomeMenu(menuContent) {
-        const navMain = document.querySelector('#nav-main ul');
-        if (navMain) {
-            let menuHTML = '<ul>';
-            
-            // Copiar todos los elementos li del nav original
-            const navItems = navMain.querySelectorAll('li');
-            navItems.forEach(item => {
-                menuHTML += item.outerHTML;
-            });
-            
-            menuHTML += '</ul>';
-            menuContent.innerHTML = menuHTML;
-            console.log('Home menu created with', navItems.length, 'items (lang-switcher excluded)');
-        } else {
-            console.warn('Nav main not found - home overlay menu not created');
-            // Sin fallback - si no hay nav-main, no crear menú
-            menuContent.innerHTML = '<ul></ul>';
-        }
-    }
-    
-    /**
-     * Crea el menú para el CV
-     */
-    function createCVMenu(menuContent) {
-        // Obtener enlaces del menú lateral del CV (generado dinámicamente desde YAML)
-        const sideMenu = document.querySelector('.side-menu ul');
-        if (sideMenu) {
-            let menuHTML = '<ul>';
-            
-            // Añadir icono Back al principio
-            menuHTML += '<li><a href="/index.html" class="cv-back-link" title="Volver al inicio"><svg class="back-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5L3 10L8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 10H11C16.5228 10 21 14.4772 21 20V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>';
-            
-            // Copiar todos los elementos li del menú lateral (dinámico desde YAML)
-            const menuItems = sideMenu.querySelectorAll('li');
-            menuItems.forEach(item => {
-                menuHTML += item.outerHTML;
-            });
-            
-            menuHTML += '</ul>';
-            menuContent.innerHTML = menuHTML;
-            console.log('CV menu created from side-menu with', menuItems.length, 'items');
-        } else {
-            console.warn('Side menu not found - CV overlay menu not created');
-            // Sin fallback - si no hay side-menu, no crear menú
-            menuContent.innerHTML = '<ul><li><a href="/index.html" class="cv-back-link" title="Volver al inicio"><svg class="back-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 5L3 10L8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 10H11C16.5228 10 21 14.4772 21 20V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li></ul>';
-        }
-    }
-    
-    /**
-     * Configura los event listeners del overlay
-     */
     function setupEventListeners() {
-        const hamburgerButton = document.querySelector('.hamburger-menu');
-        const menuOverlay = document.querySelector('.mobile-menu-overlay');
+        const btn = document.querySelector('.hamburger-menu');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        if (!btn || !overlay) return;
         
-        if (!hamburgerButton || !menuOverlay) {
-            console.warn('Mobile menu overlay elements not found');
-            return;
-        }
+        const newBtn = btn.cloneNode(true);
+        btn.parentNode.replaceChild(newBtn, btn);
         
-        // Toggle menú al hacer clic en hamburger
-        hamburgerButton.addEventListener('click', function(e) {
+        document.querySelector('.hamburger-menu').addEventListener('click', e => {
             e.preventDefault();
-            e.stopPropagation();
             toggleMenuOverlay();
         });
         
-        // Cerrar menú al hacer clic en el overlay (fuera del contenido)
-        menuOverlay.addEventListener('click', function(e) {
-            if (e.target === menuOverlay) {
-                closeMenuOverlay();
-            }
+        overlay.addEventListener('click', e => {
+            if (e.target === overlay) closeMenuOverlay();
         });
         
-        // Configurar event listeners para enlaces
-        updateMenuEventListeners();
-    }
-    
-    /**
-     * Actualiza los event listeners de los enlaces del menú overlay
-     */
-    function updateMenuEventListeners() {
-        const menuLinks = document.querySelectorAll('.mobile-menu-content a:not(.menu-button)');
-        
-        // Cerrar menú al hacer clic en enlaces
-        menuLinks.forEach(function(link) {
-            link.addEventListener('click', function() {
-                // Solo cerrar el menú - usar navegación nativa del navegador
-                closeMenuOverlay();
-            });
-        });
-        
-        // Cerrar menú con tecla Escape
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && isMenuOpen) {
-                closeMenuOverlay();
-            }
+        document.querySelectorAll('.mobile-menu-content a').forEach(link => {
+            link.addEventListener('click', () => closeMenuOverlay());
         });
     }
     
-    /**
-     * Alterna el estado del menú overlay
-     */
     function toggleMenuOverlay() {
-        if (isMenuOpen) {
-            closeMenuOverlay();
-        } else {
-            openMenuOverlay();
-        }
+        isMenuOpen ? closeMenuOverlay() : openMenuOverlay();
     }
     
-    /**
-     * Abre el menú overlay
-     */
     function openMenuOverlay() {
-        const hamburgerButton = document.querySelector('.hamburger-menu');
-        const menuOverlay = document.querySelector('.mobile-menu-overlay');
-        
-        if (!hamburgerButton || !menuOverlay) return;
+        const btn = document.querySelector('.hamburger-menu');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        if (!btn || !overlay) return;
         
         isMenuOpen = true;
-        
-        // Añadir clases activas
-        hamburgerButton.classList.add('active');
-        menuOverlay.classList.add('show');
-        
-        // Prevenir scroll del body
+        btn.classList.add('active');
+        overlay.classList.add('show');
         document.body.classList.add('menu-open');
-        
-        // Foco en el overlay para accesibilidad
-        menuOverlay.focus();
     }
     
-    /**
-     * Cierra el menú overlay
-     */
     function closeMenuOverlay() {
-        const hamburgerButton = document.querySelector('.hamburger-menu');
-        const menuOverlay = document.querySelector('.mobile-menu-overlay');
-        
-        if (!hamburgerButton || !menuOverlay) return;
+        const btn = document.querySelector('.hamburger-menu');
+        const overlay = document.querySelector('.mobile-menu-overlay');
+        if (!btn || !overlay) return;
         
         isMenuOpen = false;
-        
-        // Remover clases activas
-        hamburgerButton.classList.remove('active');
-        menuOverlay.classList.remove('show');
-        
-        // Restaurar scroll del body
+        btn.classList.remove('active');
+        overlay.classList.remove('show');
         document.body.classList.remove('menu-open');
     }
     
-    /**
-     * Maneja el color del hamburger menu según la posición del scroll
-     */
     function handleHamburgerColor() {
-        const hamburgerButton = document.querySelector('.hamburger-menu');
+        const btn = document.querySelector('.hamburger-menu');
         const banner = document.querySelector('#banner');
+        if (!btn || !banner) return;
         
-        if (!hamburgerButton || !banner) return;
-        
-        // Usar scroll listener simple en lugar de waypoints
-        window.addEventListener('scroll', function() {
-            const bannerHeight = banner.offsetHeight;
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop >= bannerHeight * 0.9) {
-                // Fuera del banner: usar primary
-                hamburgerButton.classList.add('over-content');
-            } else {
-                // Sobre el banner: usar accent
-                hamburgerButton.classList.remove('over-content');
-            }
+        window.addEventListener('scroll', () => {
+            const height = banner.offsetHeight;
+            const scroll = window.pageYOffset;
+            btn.classList.toggle('over-content', scroll >= height * 0.9);
         });
     }
     
-    // Exponer funciones para uso externo
-    window.MobileMenuOverlay = {
-        init: initMobileMenuOverlay,
-        open: openMenuOverlay,
-        close: closeMenuOverlay,
-        toggle: toggleMenuOverlay
-    };
+    function reinitMobileMenu() {
+        closeMenuOverlay();
+        document.querySelector('.hamburger-menu')?.remove();
+        document.querySelector('.mobile-menu-overlay')?.remove();
+        createMobileMenuElements();
+        setupEventListeners();
+        handleHamburgerColor();
+    }
     
-    // Inicializar cuando el DOM esté listo
+    window.MobileMenuOverlay = { init: initMobileMenuOverlay, reinit: reinitMobileMenu, open: openMenuOverlay, close: closeMenuOverlay, toggle: toggleMenuOverlay };
+    
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initMobileMenuOverlay);
     } else {
         initMobileMenuOverlay();
     }
     
+    document.addEventListener('languageContentReplaced', () => {
+        setTimeout(reinitMobileMenu, 100);
+    });
 })();

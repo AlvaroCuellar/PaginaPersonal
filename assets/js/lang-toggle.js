@@ -11,29 +11,44 @@
 
 // Función para inicializar/reinicializar el toggle
 function initLanguageToggle() {
-    const langSwitcher = document.querySelector('.lang-switcher');
-    const langOptions = document.querySelectorAll('.lang-option');
+    // Buscar TODOS los lang-switchers (header y mobile menu)
+    const langSwitchers = document.querySelectorAll('.lang-switcher');
     
-    if (!langSwitcher || langOptions.length === 0) return;
+    if (langSwitchers.length === 0) {
+        console.warn('⚠️ No lang-switcher found');
+        return;
+    }
     
-    // Configurar posición inicial del slider
     const currentLang = document.documentElement.lang || 'es';
-    langSwitcher.setAttribute('data-active', currentLang);
-    
     console.log(`🎨 Language toggle initialized with lang: ${currentLang}`);
     
-    // Solo animación visual del slider
-    langOptions.forEach(option => {
-        // Remover listeners anteriores para evitar duplicados
-        const newOption = option.cloneNode(true);
-        option.parentNode.replaceChild(newOption, option);
+    langSwitchers.forEach(langSwitcher => {
+        // Configurar posición inicial del slider
+        langSwitcher.setAttribute('data-active', currentLang);
         
-        newOption.addEventListener('click', function(e) {
-            const lang = this.getAttribute('data-lang');
-            langSwitcher.setAttribute('data-active', lang);
-            // La navegación y scroll se manejan en ajax-language-switcher.js
+        const langOptions = langSwitcher.querySelectorAll('.lang-option');
+        
+        // Solo animación visual del slider
+        langOptions.forEach(option => {
+            // Remover listeners anteriores para evitar duplicados
+            const newOption = option.cloneNode(true);
+            option.parentNode.replaceChild(newOption, option);
+            
+            newOption.addEventListener('click', function(e) {
+                const lang = this.getAttribute('data-lang');
+                
+                // Actualizar TODOS los switchers en la página
+                document.querySelectorAll('.lang-switcher').forEach(sw => {
+                    sw.setAttribute('data-active', lang);
+                });
+                
+                console.log(`🎨 Visual toggle updated to: ${lang}`);
+                // La navegación y scroll se manejan en ajax-language-switcher.js
+            });
         });
     });
+    
+    console.log(`✅ ${langSwitchers.length} language toggle(s) initialized`);
 }
 
 // Inicializar en carga inicial

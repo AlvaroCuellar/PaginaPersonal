@@ -17,6 +17,7 @@ class AjaxLanguageSwitcher {
     constructor() {
         this.isLoading = false;
         this.currentLang = document.documentElement.lang || 'es';
+        this.languageClickHandler = null;
         this.init();
     }
 
@@ -31,8 +32,13 @@ class AjaxLanguageSwitcher {
     // ───────────────────────────────────────────────────────
     
     attachLanguageEvents() {
-        // Interceptar clics en el switcher de idioma
-        document.addEventListener('click', (e) => {
+        // Remover listener anterior si existe
+        if (this.languageClickHandler) {
+            document.removeEventListener('click', this.languageClickHandler, true);
+        }
+        
+        // Crear nuevo handler
+        this.languageClickHandler = (e) => {
             const langLink = e.target.closest('.lang-switcher a, .lang-option');
             
             if (langLink && !this.isLoading) {
@@ -47,7 +53,12 @@ class AjaxLanguageSwitcher {
                     this.switchLanguage(targetLang);
                 }
             }
-        }, true); // Usar capture=true para interceptar ANTES que otros handlers
+        };
+        
+        // Interceptar clics en el switcher de idioma
+        document.addEventListener('click', this.languageClickHandler, true); // Usar capture=true para interceptar ANTES que otros handlers
+        
+        console.log('✅ Language click events attached');
     }
 
     // ───────────────────────────────────────────────────────
@@ -349,6 +360,10 @@ class AjaxLanguageSwitcher {
             // Extraer secciones
             const sections = this.extractSections(newContent);
             
+            // Actualizar estado interno PRIMERO
+            this.currentLang = newLang;
+            document.documentElement.lang = newLang;
+            
             // Reemplazar contenido
             this.replaceContent(sections, newLang);
             
@@ -356,10 +371,6 @@ class AjaxLanguageSwitcher {
             if (updateUrl) {
                 this.updateUrl(newUrl, newLang);
             }
-            
-            // Actualizar estado interno
-            this.currentLang = newLang;
-            document.documentElement.lang = newLang;
             
             console.log('✅ Language content switch completed');
             
@@ -388,6 +399,11 @@ class AjaxLanguageSwitcher {
     reattachEvents() {
         console.log('🔗 Re-attaching events and reinitializing components...');
         
+        // Cerrar menú móvil overlay si está abierto
+        if (window.MobileMenuOverlay && typeof window.MobileMenuOverlay.close === 'function') {
+            window.MobileMenuOverlay.close();
+        }
+        
         // 1. Re-calcular estado del header (navbar)
         if (window.$ && $.fn.trigger) {
             // Forzar re-cálculo del estado del header
@@ -403,103 +419,28 @@ class AjaxLanguageSwitcher {
             console.log(`🏠 Header state recalculated (scroll: ${scroll}, banner: ${bannerHeight})`);
         }
         
-        // 2. Re-inicializar navegación si jQuery está disponible
-        if (window.$ && $.fn.trigger) {
-            // Copiar navegación a mobile menu
-            $("#nav-mobile").html($("#nav-main").html());
-            
-            // Re-attachar eventos de scroll suave
-            $('a[href^="#"]:not([href="#"])').off('click.ajaxNav').on('click.ajaxNav', function(e) {
-                const href = $(this).attr('href');
-                const hash = href.substring(1);
-                
-                // Usar las funciones de traducción si están disponibles
-                let sectionId = hash;
-                if (window.sectionTranslations) {
-                    // Convertir slug a ID si es necesario
-                    const currentTranslations = window.sectionTranslations[this.currentLang];
-                    if (currentTranslations) {
-                        for (const [id, slug] of Object.entries(currentTranslations)) {
-                            if (slug === hash) {
-                                sectionId = id;
-                                break;
-                            }
-                        }
-                    }
-                }
-                
-                const target = $('#' + sectionId);
-                if (target.length) {
-                    e.preventDefault();
-                    $('html, body').animate({
-                        scrollTop: target.offset().top - 80
-                    }, 800);
-                }
-            });
-            
-            console.log('✅ Navigation reinitialized');
-        }
+        // 2. Nota: La navegación se reinicializa en unified-navigation.js
+        // mediante el evento 'languageContentReplaced'
         
-        // 3. Re-attachar eventos móviles (menú hamburguesa)
-        if (window.$ && $.fn.trigger) {
-            // Re-attachar eventos del menú móvil
-            $("#nav-trigger span").off('click.ajaxNav').on("click.ajaxNav", function(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                
-                const $menu = $("nav#nav-mobile ul");
-                const $trigger = $(this);
-                
-                if ($menu.hasClass("expanded")) {
-                    $menu.removeClass("expanded expanding").addClass("collapsing");
-                    $trigger.removeClass("open");
-                    
-                    setTimeout(() => {
-                        $menu.removeClass("collapsing");
-                    }, 700);
-                } else {
-                    $menu.removeClass("collapsing").addClass("expanding");
-                    $trigger.addClass("open");
-                    
-                    requestAnimationFrame(() => {
-                        $menu.addClass("expanded");
-                    });
-                }
-                
-                return false;
-            });
-            
-            // Re-attachar eventos de cierre del menú móvil
-            $("#nav-mobile ul a:not(.menu-button)").off('click.ajaxNav').on("click.ajaxNav", function(e) {
-                const $menu = $("nav#nav-mobile ul");
-                
-                if ($menu.hasClass("expanded")) {
-                    $menu.removeClass("expanded expanding").addClass("collapsing");
-                    $("#nav-trigger span").removeClass("open");
-                    
-                    setTimeout(() => {
-                        $menu.removeClass("collapsing");
-                    }, 700);
-                }
-            });
-            
-            console.log('✅ Mobile menu reinitialized');
-        }
-        
-        // 4. Re-attachar eventos de este sistema AJAX
+        // 3. Re-attachar eventos de este sistema AJAX
         // (Se hace automáticamente por el constructor, pero asegurémonos)
         this.attachLanguageEvents();
         
-        // 5. Disparar evento personalizado para otros scripts (incluyendo lang-toggle.js)
+        // 4. Disparar evento personalizado para otros scripts
+        // IMPORTANTE: Este evento activa la reinicialización en unified-navigation.js y lang-toggle.js
+        console.log('📢 Dispatching languageContentReplaced event...');
+        
         const event = new CustomEvent('languageContentReplaced', {
             detail: { 
                 lang: this.currentLang,
                 timestamp: Date.now()
-            }
+            },
+            bubbles: true,
+            cancelable: false
         });
         document.dispatchEvent(event);
         
-        // 6. También disparar evento jQuery si está disponible
+        // 5. También disparar evento jQuery si está disponible
         if (window.$ && $.fn.trigger) {
             $(document).trigger('languageContentReplaced', [this.currentLang]);
         }

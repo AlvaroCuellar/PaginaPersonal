@@ -120,32 +120,17 @@
     
     /* Mostrar hamburger menu overlay */
     .hamburger-menu {
-        display: block;
+        display: block !important;
     }
     
-    /* Ocultar navegación principal en móvil SOLO en página principal */
-    body:not(.cv-page) #nav-main {
+    /* Ocultar navegación principal en móvil */
+    #nav-main {
         display: none !important;
     }
     
-    /* En el CV, ocultar sidebar solo en móvil y mostrar overlay */
+    /* En el CV, ocultar sidebar solo en móvil */
     .cv-page .cv-sidebar {
         display: none;
-    }
-    
-    /* Ocultar sistema de menú móvil antiguo cuando overlay está activo */
-    #nav-trigger,
-    #nav-mobile {
-        display: none !important;
-    }
-    
-    /* Navegación tradicional mobile (backup) - solo página principal */
-    body:not(.cv-page) nav#nav-main {
-        display: none;
-    }
-
-    nav#nav-mobile {
-        display: block;
     }
 
     nav#nav-mobile li {
