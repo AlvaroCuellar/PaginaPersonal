@@ -250,15 +250,20 @@ $(document).ready(function () {
         
         // Convertir slug a ID si es necesario
         const sectionId = getSectionIdFromSlug(hash, lang);
-        const target = $('#' + sectionId);
+        const target = document.getElementById(sectionId);
         
-        if (target.length) {
+        if (target) {
             e.preventDefault();
             isScrolling = false;
             
-            $('html, body').animate({
-                scrollTop: target.offset().top - 70
-            }, 800);
+            // Usar scrollIntoView nativo para comportamiento más suave y consistente
+            const headerOffset = 80;
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
         }
     });
     
@@ -272,12 +277,16 @@ $(document).ready(function () {
             if (hash) {
                 const lang = getCurrentLanguage();
                 const sectionId = getSectionIdFromSlug(hash, lang);
-                const target = $('#' + sectionId);
+                const target = document.getElementById(sectionId);
                 
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top - 70
-                    }, 800);
+                if (target) {
+                    const headerOffset = 80;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
                 }
             }
         }
@@ -321,9 +330,13 @@ $(document).ready(function () {
                     // Solo si NO venimos de un cambio de idioma
                     if (!sessionStorage.getItem('langChangeScroll')) {
                         console.log('📍 Navigating to section:', sectionId);
-                        $('html, body').animate({
-                            scrollTop: target.offset().top - 70
-                        }, 800);
+                        const headerOffset = 80;
+                        const targetPosition = target[0].getBoundingClientRect().top + window.pageYOffset - headerOffset;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
                     } else {
                         console.log('⏭️ Skipping navigation (came from language change)');
                     }
@@ -350,15 +363,19 @@ $(document).ready(function () {
             const lang = getCurrentLanguage();
             
             const sectionId = getSectionIdFromSlug(hash, lang);
-            const target = $('#' + sectionId);
+            const target = document.getElementById(sectionId);
             
-            if (target.length) {
+            if (target) {
                 e.preventDefault();
                 isScrolling = false;
                 
-                $('html, body').animate({
-                    scrollTop: target.offset().top - 70
-                }, 800);
+                const headerOffset = 80;
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
             }
         });
         

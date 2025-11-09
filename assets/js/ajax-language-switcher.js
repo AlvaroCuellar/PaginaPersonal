@@ -327,10 +327,14 @@ class AjaxLanguageSwitcher {
                     }
                     
                     const target = document.getElementById(sectionId);
-                    if (target && window.$) {
-                        $('html, body').animate({
-                            scrollTop: $(target).offset().top - 80
-                        }, 800);
+                    if (target) {
+                        const headerOffset = 80;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
                     }
                 }
             }
