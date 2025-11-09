@@ -204,36 +204,37 @@ function initPressCarousel() {
   // carousel.addEventListener('mouseenter', stopAutoPlay);
   // carousel.addEventListener('mouseleave', startAutoPlay);
   
-  // Crear hint de swipe para móviles
-  function createSwipeHint() {
-    // Solo crear si no existe ya
-    let swipeHint = carouselContainer.querySelector('.swipe-hint');
-    
-    if (!swipeHint) {
-      const swipeText = carouselContainer.getAttribute('data-swipe-hint') || 'Desliza para ver más';
-      swipeHint = document.createElement('div');
-      swipeHint.classList.add('swipe-hint');
-      swipeHint.innerHTML = `<span><span>${swipeText}</span> <i class="fa fa-arrow-right"></i></span>`;
-      carouselContainer.appendChild(swipeHint);
-    }
-    
-    // Mostrar solo en móvil y si hay más de 1 página
+  // Actualizar visibilidad de controles según viewport
+  function updateControlsVisibility() {
     const visibleItems = getVisibleItems();
     const numPages = Math.ceil(totalCards / visibleItems);
     
-    if (visibleItems === 1 && numPages > 1) {
-      swipeHint.style.display = 'flex';
+    // En móvil (1 item), mostrar flechas abajo si hay más de 1 página
+    if (visibleItems === 1) {
+      carouselContainer.classList.add('mobile-arrows');
+      
+      // Mostrar/ocultar flechas según si hay múltiples páginas
+      if (numPages > 1) {
+        if (prevArrow) prevArrow.style.display = 'flex';
+        if (nextArrow) nextArrow.style.display = 'flex';
+      } else {
+        if (prevArrow) prevArrow.style.display = 'none';
+        if (nextArrow) nextArrow.style.display = 'none';
+      }
     } else {
-      swipeHint.style.display = 'none';
+      // Desktop/tablet: flechas en los laterales
+      carouselContainer.classList.remove('mobile-arrows');
+      if (prevArrow) prevArrow.style.display = 'flex';
+      if (nextArrow) nextArrow.style.display = 'flex';
     }
   }
   
   // Inicializar
   createIndicators();
   updateCarousel();
-  createSwipeHint();
+  updateControlsVisibility();
   
-  // Actualizar hint en resize
+  // Actualizar en resize
   const originalResize = window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
@@ -245,7 +246,7 @@ function initPressCarousel() {
       
       createIndicators();
       updateCarousel();
-      createSwipeHint();
+      updateControlsVisibility();
     }, 250);
   });
   

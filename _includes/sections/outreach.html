@@ -111,11 +111,11 @@
         {% endfor %}
       </div>
       
-      <!-- Show more button -->
-      {% if site.data.home.outreach.items.size > initial_visible %}
+      <!-- Show more button - Siempre mostrar si hay más de 5 items (mínimo para mobile) -->
+      {% if site.data.home.outreach.items.size > 5 %}
         <div class="show-more-outreach-container">
           <button id="show-more-outreach" class="button no-icon">
-            {{ site.data.i18n[lang].show_more_outreach | default: "Ver más artículos" }}
+            {{ site.data.i18n[lang].show_more_outreach | default: "Ver más" }}
           </button>
         </div>
       {% endif %}

@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             itemsToShow: {
                 desktop: 9,
                 tablet: 6,
-                mobile: 4
+                mobile: 5
             },
             itemsPerLoad: {
                 desktop: 6,

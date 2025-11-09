@@ -238,31 +238,31 @@
 }
 
 /* ·········································
-   Swipe Hint para móviles
+   Controles móviles - flechas en la parte inferior
    ········································· */
-.swipe-hint {
-  display: none; /* Oculto por defecto, se muestra solo en móvil via JS */
-  justify-content: flex-end;
-  margin-top: var(--spacing-m);
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
+
+/* En móvil, las flechas se posicionan abajo pero mantienen el mismo estilo de desktop */
+.press-carousel-container.mobile-arrows .carousel-arrow {
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  transform: none;
 }
 
-.swipe-hint span {
-  background: transparent;
-  border: none;
-  color: var(--primary-color);
-  font-size: var(--text-sm);
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-  padding: var(--spacing-xs) var(--spacing-s);
-  font-weight: var(--font-medium);
-  font-style: italic;
+.press-carousel-container.mobile-arrows .carousel-prev {
+  left: 50%;
+  margin-left: -60px; /* Centro menos ancho de flecha menos gap */
 }
 
-.swipe-hint i {
-  font-size: var(--text-base);
+.press-carousel-container.mobile-arrows .carousel-next {
+  right: auto;
+  left: 50%;
+  margin-left: 12px; /* Gap desde el centro */
+}
+
+/* En móvil, el hover solo agranda sin desplazar verticalmente */
+.press-carousel-container.mobile-arrows .carousel-arrow:hover:not(:disabled) {
+  transform: scale(1.5);
 }
 
 /* ·········································
@@ -292,7 +292,12 @@
 @media (max-width: 768px) {
   .press-carousel-container {
     max-width: 100%;
-    padding: 0 50px;
+    padding: 0 20px; /* Menos padding lateral */
+  }
+  
+  /* Ajustar espacio para flechas en móvil */
+  .press-carousel-container.mobile-arrows {
+    padding-bottom: 50px;
   }
   
   .press-card {
@@ -320,18 +325,23 @@
     font-size: var(--text-base);
   }
   
-  /* Ocultar flechas en móvil - navegación táctil */
-  .carousel-arrow {
-    display: none;
-  }
+  /* Las flechas se muestran en la parte inferior via JS (mobile-arrows class) */
+  /* No ocultar por defecto, JS controla la visibilidad */
   
-  /* Ocultar indicadores en móvil - usar swipe hint en su lugar */
+  /* Ocultar indicadores en móvil */
   .carousel-indicators {
     display: none;
   }
   
   .press-carousel-container {
     padding: 0; /* Sin padding para que las tarjetas ocupen todo el ancho */
+  }
+  
+  /* Ajustes específicos para flechas en móvil */
+  .press-carousel-container.mobile-arrows .carousel-arrow {
+    /* Asegurar que las flechas sean visibles y clicables */
+    pointer-events: auto;
+    z-index: 100;
   }
 }
 
