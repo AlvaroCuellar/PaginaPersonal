@@ -191,6 +191,8 @@ publications:
   - id: "xviicatalanprints"
     type: "model"
     title: "XVII Catalan Prints"
+    publication: "Transkribus"
+
     authors: ["Anaïs Freixes Castells", "Álvaro Cuéllar"]
     year: 2025
     url:
@@ -199,6 +201,8 @@ publications:
 
   - id: "xviicatalanprintsmodern"
     type: "model"
+    publication: "Transkribus"
+
     title: "XVII Catalan Prints (Spelling modernization)"
     authors: ["Anaïs Freixes Castells", "Álvaro Cuéllar"]
     year: 2025
@@ -729,9 +733,10 @@ publications:
 
   - id: "coloso"
     type: "model"
-    title: "Coloso Español"
+    title: "Coloso Español - Modelo general de transcripción con 11 millones de palabras"
     authors: ["Álvaro Cuéllar (coordinador)", "Stefano Bazzaco", "Alba Comino", "Andrés Echavarría Peláez", "José Manuel Fradejas Rueda", "Francisco Gago Jover", "Ana García Serrano", "Raquel Liceras-Garrido", "Patricia Murrieta-Flores", "Humberto Olea Montero", "Rocío Ortuño Casanova", "Fernando J. Pancorbo", "Milena Peralta Friedburg", "Eva Sánchez-Salido", "Rodrigo Vega Sánchez", "Juan Carlos Vallejo Velásquez", "Ezequiel Villani"]
     year: 2023
+    publication: "Transkribus"
     url: "https://readcoop.eu/model/coloso-espanol/"
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
@@ -949,6 +954,8 @@ publications:
     title: "Spanish Golden Age Manuscripts (Spelling modernization)"
     authors: ["Álvaro Cuéllar"]
     year: 2021
+    publication: "Transkribus"
+
     url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Modelo de IA entrenado con 3.250.116 palabras capaz de transcribir y modernizar manuscritos del Siglo de Oro español con un 90,8 % de acierto. Recurso ampliamente utilizado por la comunidad académica y citado en al menos cuatro publicaciones."
@@ -986,6 +993,8 @@ publications:
     title: "Spanish Golden Age Prints 1.0 (Spelling modernization)"
     authors: ["Álvaro Cuéllar"]
     year: 2021
+    publication: "Transkribus"
+
     url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-spelling-modernization-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Modelo entrenado con 2.757.908 palabras capaz de transcribir y modernizar impresos del Siglo de Oro español con un 96,90 % de acierto. Está disponible para la comunidad investigadora y se utiliza de forma generalizada en proyectos de transcripción de archivos y bibliotecas."
@@ -1016,6 +1025,8 @@ publications:
     title: "Spanish Golden Age Prints 1.0"
     authors: ["Álvaro Cuéllar"]
     year: 2021
+    publication: "Transkribus"
+
     url: "https://readcoop.eu/model/spanish-golden-age-prints-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Modelo de inteligencia artificial entrenado con 74.000 palabras, capaz de transcribir de forma paleográfica impresos del Siglo de Oro español con un 99,09 % de acierto. Disponible públicamente y ampliamente utilizado para la transcripción de archivos y bibliotecas."
