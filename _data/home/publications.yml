@@ -284,20 +284,7 @@ publications:
     thumbnail: "/assets/images/pubs/r100.png"
     abstract: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
 
-  - id: "writersonia"
-    type: "article"
-    title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
-    authors: ["Álvaro Cuéllar, Sònia Boadas"]
-    publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
-    year: 2025
-    volume: "XIII"
-    number: "1"
-    pages: "517-532"
-    isbn:
-    url: "https://doi.org/10.13035/H.2025.13.01.36"
-    thumbnail: "/assets/images/pubs/writersonia.png"
-    abstract: "Se presenta una vía computacional para detectar la huella caligráfica de un escriba en grandes conjuntos documentales mediante técnicas de HTR aplicadas a la identificación de manos autorales. En un experimento con la escritura autógrafa de Lope de Vega, el modelo alcanzó métricas cercanas a 0.95–1.00, demostrando su potencial para reconocer autores, copistas o censores y descubrir testimonios inéditos de alto valor histórico y literario."
-    cited_by:
+
 
    
   - id: "redesneuronales"
@@ -313,6 +300,24 @@ publications:
     thumbnail: "/assets/images/pubs/redes.png"
     abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
    
+   
+   
+  - id: "writersonia"
+    type: "article"
+    title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
+    authors: ["Álvaro Cuéllar, Sònia Boadas"]
+    publication: "Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro"
+    year: 2025
+    volume: "XIII"
+    number: "1"
+    pages: "517-532"
+    isbn:
+    url: "https://doi.org/10.13035/H.2025.13.01.36"
+    thumbnail: "/assets/images/pubs/writersonia.png"
+    abstract: "Se presenta una vía computacional para detectar la huella caligráfica de un escriba en grandes conjuntos documentales mediante técnicas de HTR aplicadas a la identificación de manos autorales. En un experimento con la escritura autógrafa de Lope de Vega, el modelo alcanzó métricas cercanas a 0.95–1.00, demostrando su potencial para reconocer autores, copistas o censores y descubrir testimonios inéditos de alto valor histórico y literario."
+    cited_by:
+
+
    
    
 
