@@ -274,6 +274,15 @@ publications:
 
       - "Fradejas Rueda, José Manuel. “El Coloso español.” 7PartidasDigital. Edición crítica digital de las Siete Partidas, 19 de diciembre de 2023. DOI: 10.58079/vemr."
 
+  - id: "rhythmiccorpus100"
+    type: "dataset"
+    title: "Rhythmic Corpus of 100 Spanish Golden Age Plays"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Zenodo"
+    year: 2025
+    url: "https://doi.org/10.5281/zenodo.17537343"
+    thumbnail: "/assets/images/pubs/r100.png"
+    abstract: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
 
   - id: "writersonia"
     type: "article"
@@ -498,15 +507,7 @@ publications:
       - "Valls, Teresa Ferrer, and Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
       - "Barrocal, Jorge Ferreira. “Edición crítica de la Relación del nacimiento del nuevo infante y de la muerte de la reina nuestra señora, de Claramonte.” Dicenda: Estudios de lengua y literatura españolas, no. 41, 2023, pp. 75–97."
 
-  - id: "rhythmiccorpus100"
-    type: "dataset"
-    title: "Rhythmic Corpus of 100 Spanish Golden Age Plays"
-    authors: ["Álvaro Cuéllar"]
-    publication: "Zenodo"
-    year: 2025
-    url: "https://doi.org/10.5281/zenodo.17537343"
-    thumbnail: "/assets/images/pubs/r100.png"
-    abstract: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
+
     
     
   - id: "PropuestasVelez"
