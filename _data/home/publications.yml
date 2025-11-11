@@ -300,6 +300,21 @@ publications:
     cited_by:
 
    
+  - id: "redesneuronales"
+    type: "incollection"
+    title: "Redes neuronales convolucionales al servicio del teatro áureo"
+    authors: "Álvaro Cuéllar"
+    publication: "En José Romera Castillo (ed.), Literatura, teatro e inteligencia artificial"
+    publisher: "Editorial Verbum"
+    place: "Madrid"
+    pages: "78–82"
+    year: 2025
+    url: "https://www.academia.edu/144758174/Redes_neuronales_convolucionales_al_servicio_del_teatro_%C3%A1ureo"
+    thumbnail: "/assets/images/pubs/redes.png"
+    abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
+   
+   
+   
 
 
   - id: "FrancesaLaura"
@@ -558,21 +573,6 @@ publications:
 
 
 
-  - id: "redesneuronales"
-    type: "incollection"
-    title: "Redes neuronales convolucionales al servicio del teatro áureo"
-    authors: "Álvaro Cuéllar"
-    publication: "En José Romera Castillo (ed.), Literatura, teatro e inteligencia artificial"
-    publisher: "Editorial Verbum"
-    place: "Madrid"
-    pages: "78–82"
-    year: 2025
-    url: "https://www.academia.edu/144758174/Redes_neuronales_convolucionales_al_servicio_del_teatro_%C3%A1ureo"
-    thumbnail: "/assets/images/pubs/redes.png"
-    abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
-   
-   
-   
 
 
 
