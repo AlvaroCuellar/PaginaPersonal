@@ -37,8 +37,8 @@ repeat_featured_in_all: true
 featured_ids:
   - "atoms2waves"
   - "transcri"
-  - "stylo100"
   - "crono"
+  - "stylo100"
   - "coloso"
   - "writersonia"
   - "FrancesaLaura"
@@ -134,65 +134,7 @@ publications:
       - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
 
-  - id: "stylo100"
-    type: "incollection"
-    title: "Stylometry and Spanish Golden Age Theatre. An Evaluation of Authorship Attribution in a Control Group of One Hundred Undisputed Plays"
-    authors:
-      - "Álvaro Cuéllar"
-    year: 2024
-    url: "https://heiup.uni-heidelberg.de/catalog/book/1157/chapter/19368"
-    publication: "Digital Stylistics in Romance Studies and Beyond"
-    editor:
-      - "Robert Hesselbach"
-      - "José Calvo Tello"
-      - "y otros"
-    pages: "101-117"
-    place: "Heidelberg"
-    publisher: "Heidelberg University Publishing"
-    thumbnail: "/assets/images/pubs/stylo100.png"
 
-    abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
-    cited_by:
-      - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
-
-      - "Alonso Medel, Rocío. El divino portugués, san Antonio de Padua: una comedia hagiográfica, varias versiones y ¿un mismo autor? En Sònia Boadas, Arantxa Llàcer y Eulàlia Miralles (eds.), In nova forma: Reescrituras de la literatura del Barroco. Kassel: Edition Reichenberger, 2025."
-
-
-      - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
-      - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
-      - "Vega García-Luengos, Germán. Para la restitución a Tirso de Molina de Los terceros de San Francisco, comedia atribuida a Lope de Vega y Pérez de Montalbán. En Teresa Gómez Trueba, Patricia Marín Cepeda, María Martínez Deyros y Carmen Morán Rodríguez (eds.), «Claro espejo donde la ilusión se mira». Homenaje a Pilar Celma Valero y Javier Blasco Pascual. Valladolid: Ediciones Universidad de Valladolid, 2025, pp. 695–716. ISBN 978-84-1320-348-5."
-
-
-      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
-      - "Giovannini, Luca, and Daniil Skorinkin. “Computational Approaches to Opera Libretti.” Journal of Computational Literary Studies, vol. 3, no. 1, 2024, pp. 1–23."
-      - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
-      - "Vega García-Luengos, Germán. “Lope de Vega y la comedia en colaboración. Un replanteamiento novedoso.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 105–142."
-      - "Veloso, María José Alonso. “La zurriaga: unas «octavas seriojocosas» atribuidas a Quevedo.” Mélanges de la Casa de Velázquez, no. 54-1, 2024, pp. 233–274."
-      - "Vega García-Luengos, Germán. Nuevos indicios y propuestas para fijar el repertorio de comedias colaboradas de Calderón. En Juan Manuel Escudero Baztán (ed.), Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII. Madrid / Frankfurt am Main: Iberoamericana Vervuert, 2023, pp. 1–25."
-      - "Vega García-Luengos, Germán. “Una nueva comedia en colaboración de Calderón de la Barca: «Las lágrimas de David», atribuida a Felipe Godínez.” En: Aun a pesar de las tinieblas bella, aun a pesar de las estrellas clara: scritti in ricordo di Ines Ravasini (Due punti, 85), Bari: Edizioni di Pagina, 2023, pp. 637–658."
-
-
-
-
-      - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega, vol. 29, 2023, pp. 469–544."
-      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
-      - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” A la sombra de las luces: Homenaje a Fernando Doménech, 2022, pp. 65–79."
-      - "Vega García-Luengos, Germán. “La subida al trono de Felipe IV en una comedia de 1621: viejos métodos y recursos últimos para esclarecer atribuciones en el teatro aurisecular.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 39–58."
-      - "Martínez Carro, Elena. “«David perseguido y montes de Gelboé»: novedades estilométricas ante una atribución dudosa.” Anuario Lope de Vega: Texto, literatura, cultura, vol. 28, 2022, pp. 401–422."
-      - "Alonso Medel, Rocío. Modalidades hagiográficas: comedias de Juan Pérez de Montalbán (1601–1638) y atribuidas. Tesis doctoral, Universidad Complutense de Madrid, 2022."
-
-      - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
-      - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
-      - "Vega García-Luengos, Germán. “Las comedias de Lope de Vega: confirmaciones de autoría y nuevas atribuciones desde la estilometría (I).” Talía. Revista de Estudios Teatrales, vol. 3, 2021, pp. 91–108."
-      - "Demattè, Claudia. “El segundo tomo de comedias de Juan Pérez de Montalbán: hacia un mapa estilométrico de las comedias auténticas, dudosas y ajenas.” Talía, vol. 3, 2021, pp. 71–78."
-      - "Martínez Carro, Elena. “Límites estilométricos en una miscelánea áurea: «Favores de las musas» de Sebastián Francisco de Medrano.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 9, no. 1, 2021, pp. 159–174."
-      - "Martínez Carro, Elena. “Hacia un corpus lingüístico del gracioso moretiano en las comedias palatinas.” Anuario Calderoniano, vol. 14, 2021, pp. 245–270."
-      - "Zapatero Molinuevo, Ane. Estudio y edición crítica de un díptico dramático de Lope de Vega: Los Tellos de Meneses y Valor, fortuna y lealtad de los Tellos de Meneses. Tesis doctoral, Universidad del País Vasco (UPV/EHU), 2021."
-      - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
-      - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
-      - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
-    
-    
   - id: "crono"
     type: "article"
     title: "«Cronología y estilometría: datación automática de comedias de Lope de Vega"
@@ -269,7 +211,66 @@ publications:
       - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
       
    
+  - id: "stylo100"
+    type: "incollection"
+    title: "Stylometry and Spanish Golden Age Theatre. An Evaluation of Authorship Attribution in a Control Group of One Hundred Undisputed Plays"
+    authors:
+      - "Álvaro Cuéllar"
+    year: 2024
+    url: "https://heiup.uni-heidelberg.de/catalog/book/1157/chapter/19368"
+    publication: "Digital Stylistics in Romance Studies and Beyond"
+    editor:
+      - "Robert Hesselbach"
+      - "José Calvo Tello"
+      - "y otros"
+    pages: "101-117"
+    place: "Heidelberg"
+    publisher: "Heidelberg University Publishing"
+    thumbnail: "/assets/images/pubs/stylo100.png"
 
+    abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
+    cited_by:
+      - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
+      - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
+
+      - "Alonso Medel, Rocío. El divino portugués, san Antonio de Padua: una comedia hagiográfica, varias versiones y ¿un mismo autor? En Sònia Boadas, Arantxa Llàcer y Eulàlia Miralles (eds.), In nova forma: Reescrituras de la literatura del Barroco. Kassel: Edition Reichenberger, 2025."
+
+
+      - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
+      - "Vega García-Luengos, Germán. Para la restitución a Tirso de Molina de Los terceros de San Francisco, comedia atribuida a Lope de Vega y Pérez de Montalbán. En Teresa Gómez Trueba, Patricia Marín Cepeda, María Martínez Deyros y Carmen Morán Rodríguez (eds.), «Claro espejo donde la ilusión se mira». Homenaje a Pilar Celma Valero y Javier Blasco Pascual. Valladolid: Ediciones Universidad de Valladolid, 2025, pp. 695–716."
+
+      - "Sanz-Lázaro, Fernando. “libEscansión: A Recursive Precedence Approach to Metrical Scansion.” DHQ: Digital Humanities Quarterly, vol. 3, 2024."
+      - "Vega García-Luengos, Germán. “La cara oculta del repertorio de Alarcón. Propuestas de incorporación de dos comedias nuevas: El vencido vencedor y La lealtad en la traición.” Edad de Oro, vol. 43, 2024, pp. 31–92."
+      - "Giovannini, Luca, and Daniil Skorinkin. “Computational Approaches to Opera Libretti.” Journal of Computational Literary Studies, vol. 3, no. 1, 2024, pp. 1–23."
+
+      - "Vega García-Luengos, Germán. “Lope de Vega y la comedia en colaboración. Un replanteamiento novedoso.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 105–142."
+      - "Veloso, María José Alonso. “La zurriaga: unas «octavas seriojocosas» atribuidas a Quevedo.” Mélanges de la Casa de Velázquez, no. 54-1, 2024, pp. 233–274."
+      - "Vega García-Luengos, Germán. Nuevos indicios y propuestas para fijar el repertorio de comedias colaboradas de Calderón. En Juan Manuel Escudero Baztán (ed.), Bajo la égida calderoniana: Calderón y los dramaturgos de la segunda mitad del siglo XVII. Madrid / Frankfurt am Main: Iberoamericana Vervuert, 2023, pp. 1–25."
+      - "Alonso Medel, Rocío. Modalidades hagiográficas: comedias de Juan Pérez de Montalbán (1601–1638) y atribuidas. Tesis doctoral, Universidad Complutense de Madrid, 2022."
+
+      - "Vega García-Luengos, Germán. “Una nueva comedia en colaboración de Calderón de la Barca: «Las lágrimas de David», atribuida a Felipe Godínez.” En: Aun a pesar de las tinieblas bella, aun a pesar de las estrellas clara: scritti in ricordo di Ines Ravasini (Due punti, 85), Bari: Edizioni di Pagina, 2023, pp. 637–658."
+      - "Lehmann, Jörg, and Sebastian Padó. “Clasificación de tragedias y comedias en las comedias nuevas de Calderón de la Barca.” Revista de Humanidades Digitales, vol. 7, 2022, pp. 80–103."
+
+
+      - "Vega García-Luengos, Germán. “Para la delimitación del repertorio de comedias auténticas de Lope: confirmaciones de autoría y nuevas atribuciones desde la estilometría (II).” Anuario Lope de Vega, vol. 29, 2023, pp. 469–544."
+      - "Albrecht, Jane W. “An Overview of Stylometry and Its Application to the Comedia.” Bulletin of the Comediantes, vol. 74, no. 1, 2022, pp. 351–372."
+
+      - "Vega García-Luengos, Germán. “Los problemas de autoría en el teatro del Siglo de Oro: la ayuda digital para su detección y remedio.” Archiletras Científica, vol. IX, verano 2023, pp. 67–84. ISBN 978-84-09-51655-1."
+      - "Martínez Carro, Elena. “Límites estilométricos en una miscelánea áurea: «Favores de las musas» de Sebastián Francisco de Medrano.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 9, no. 1, 2021, pp. 159–174."
+
+      - "Vega García-Luengos, Germán. “Identificación y confirmación de Coello, Rojas y Calderón como autores de Los privilegios de las mujeres.” A la sombra de las luces: Homenaje a Fernando Doménech, 2022, pp. 65–79."
+      - "Zapatero Molinuevo, Ane. Estudio y edición crítica de un díptico dramático de Lope de Vega: Los Tellos de Meneses y Valor, fortuna y lealtad de los Tellos de Meneses. Tesis doctoral, Universidad del País Vasco (UPV/EHU), 2021."
+
+      - "Vega García-Luengos, Germán. “La subida al trono de Felipe IV en una comedia de 1621: viejos métodos y recursos últimos para esclarecer atribuciones en el teatro aurisecular.” Confluencia: Revista Hispánica de Cultura y Literatura, vol. 38, no. 1, 2022, pp. 39–58."
+      - "Martínez Carro, Elena. “«David perseguido y montes de Gelboé»: novedades estilométricas ante una atribución dudosa.” Anuario Lope de Vega: Texto, literatura, cultura, vol. 28, 2022, pp. 401–422."
+      - "Vega García-Luengos, Germán. “Las comedias de Lope de Vega: confirmaciones de autoría y nuevas atribuciones desde la estilometría (I).” Talía. Revista de Estudios Teatrales, vol. 3, 2021, pp. 91–108."
+      - "Demattè, Claudia. “El segundo tomo de comedias de Juan Pérez de Montalbán: hacia un mapa estilométrico de las comedias auténticas, dudosas y ajenas.” Talía, vol. 3, 2021, pp. 71–78."
+      - "Martínez Carro, Elena. “Hacia un corpus lingüístico del gracioso moretiano en las comedias palatinas.” Anuario Calderoniano, vol. 14, 2021, pp. 245–270."
+      - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
+      - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
+      - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
+    
+    
 
   - id: "coloso"
     type: "model"
