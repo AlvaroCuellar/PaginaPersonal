@@ -55,10 +55,10 @@ publications:
     authors: ["Álvaro Cuéllar"]
     publication: "Janus. Estudios sobre el Siglo de Oro"
     volume:
-    number:
+    number: "14"
     pages:
     year: 2025
-    url:
+    url: "https://doi.org/10.17979/janus.2025.14.12653"
     thumbnail: "/assets/images/pubs/ritmos.png"
     abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
 
