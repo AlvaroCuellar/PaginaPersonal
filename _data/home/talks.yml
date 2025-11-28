@@ -95,6 +95,18 @@ talks:
       es: "Málaga, España"
       en: "Málaga, Spain"
       
+  - id: "bytesdocs2025"
+    author: "Álvaro Cuéllar"
+    type: invited
+    date: "2025-11-29"
+    title: "Inteligencia Artificial para la identificación caligráfica: el caso de los autógrafos de Lope de Vega"
+    event: "Seminario online «Bytes + documentos escritos»"
+    institution: "Campus Forense (Córdoba, Argentina)"
+    location:
+      es: "Córdoba, Argentina"
+      en: "Córdoba, Argentina"
+
+      
   - id: "unedmaster2025"
     author: "Álvaro Cuéllar"
     type: plenary
