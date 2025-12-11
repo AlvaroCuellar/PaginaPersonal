@@ -244,16 +244,6 @@ talks:
       en: "Madrid, Spain"
 
 
-  - id: "uam2025"
-    author: "Álvaro Cuéllar"
-    type: invited
-    date: "2025-03-26"
-    title: "Inteligencia Artificial al encuentro del Siglo de Oro: retos y perspectivas"
-    event: "Jornadas Humanidades y Competencias en Inteligencia Artificial"
-    institution: "Universidad Autónoma de Madrid"
-    location:
-      es: "Madrid, España"
-      en: "Madrid, Spain"
       
   - id: "uam2025-2"
     author: "Álvaro Cuéllar"
