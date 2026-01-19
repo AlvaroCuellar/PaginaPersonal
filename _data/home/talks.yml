@@ -72,20 +72,6 @@ talks:
       es: "Salamanca, España"
       en: "Salamanca, Spain"
 
-
-
-  - id: "santina2026"
-    author: "Álvaro Cuéllar"
-    type: invited
-    date: "2026-05-07"
-    date_end: "2026-05-08"
-    title: "Round table: Linguistics 4.0: How AI is transforming the study of language"
-    event: "4th International SAnTINA Conference"
-    institution: "Universidade de Vigo"
-    location:
-      es: "Vigo, España"
-      en: "Vigo, Spain"
-
       
   - id: "motivarte2026"
     author: "Álvaro Cuéllar"
