@@ -355,6 +355,21 @@ publications:
 
 
 
+
+  - id: "resumenes"
+    type: "inpress"
+    title: "Resúmenes asistidos por modelos de lenguaje para un vasto corpus de obras literarias del Siglo de Oro"
+    authors: ["Álvaro Cuéllar"]
+    publication: "El teatro del Siglo de Oro en el horizonte de las humanidades digitales"
+    publisher: "Peter Lang"
+    place:
+    year: 2026
+    pages:
+    isbn:
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El trabajo explica la generación a gran escala de miles de resúmenes automáticos de obras del Siglo de Oro con modelos de lenguaje y su publicación en una base de datos pública, junto con síntesis de personajes, espacios y temas para facilitar la exploración y la comparación del corpus."
+
    
   - id: "redesneuronales"
     type: "incollection"
