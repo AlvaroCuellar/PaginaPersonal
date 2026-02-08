@@ -368,7 +368,7 @@ publications:
     isbn:
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El trabajo explica la generación a gran escala de miles de resúmenes automáticos de obras del Siglo de Oro con modelos de lenguaje y su publicación en una base de datos pública, junto con síntesis de personajes, espacios y temas para facilitar la exploración y la comparación del corpus."
+    abstract: "El trabajo explica la generación a gran escala de miles de resúmenes automáticos de obras del Siglo de Oro con modelos de lenguaje y su publicación, junto con síntesis de personajes, espacios y temas para facilitar la exploración y la comparación del corpus."
 
    
   - id: "redesneuronales"
