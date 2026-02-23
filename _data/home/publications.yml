@@ -77,6 +77,8 @@ publications:
     abstract: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
     cited_by:
     
+      - "Torres Álvarez, José. «From Formal Literary Language to Digital Literary Language: the Link Between XML-TEI, the Dramatic Genre, and ChatGPT», en Artificial Intelligence and Discourse, Springer, 2026."
+    
       - "Ribes-Lafoz, María A., Sebastián Miras, Cristina Cañamares-Torrijos y José Rovira-Collado. “Mario Benedetti 5.0: preguntas para la inteligencia artificial.” Revista Colombiana de Educación, núm. 98, 2026."
 
       - "Salas Ruiz, María. “Construyendo el futuro desde los archivos: papel de la academia en la evolución de la formación archivística en Costa Rica después de 35 años de la Ley 7202.” Revista del Archivo Nacional, vol. 89, 2025."
@@ -167,10 +169,13 @@ publications:
     thumbnail: "/assets/images/pubs/crono.png"
     abstract: "Se aplica la estilometría a la datación de comedias del Siglo de Oro, empleando autógrafos de Lope de Vega con fecha conocida. El análisis de palabras, lemas y categorías gramaticales muestra una correlación entre estilo y cronología, con un error medio de ±5 años, reducido a ±4 en un corpus más amplio, lo que confirma el potencial de esta técnica para estimar fechas de composición."
     cited_by:
+    
+      - "Gilabert, Gastón. «La escenificación de la maravilla a través de la métrica en *Los celos de Rodamonte* de Lope de Vega», en Luigi Giuliani y Marcella Trambaioli (eds.), *En torno al primer Lope. Origen y paradigma. Actas de las Primeras Jornadas*, Perugia, Morlacchi Editore U.P., 2025, pp. 66–94."
+    
       - "Ruiz Urbon, Cristina. “Aplicación de la lingüística forense a los estudios de atribución de autoría literaria: principios teóricos, metodológicos y conclusivos.” Signa: Revista de la Asociación Española de Semiótica, no. 34, 2025, pp. 543–568."
       - "Azofra Sierra, María Elena. “Cartas y 'pensamientos' en la prensa del siglo XVIII: La pensadora gaditana.” Anuari de Filologia. Estudis de Lingüística, vol. 15, 2025, pp. 1–24."
       - "Peralta, Alberto. “Implementing AI in the National Library of Spain: The ETSO Project and Stylometric Analysis of Golden Age Theatre.” En Ines Mergel y Carsten Schmidt (eds.), AI Innovations in Public Services: The Case of National Libraries. Cham: Springer, 2026, pp. 135–150."
-
+      - "Gentilli, Luciana. «El galán escarmentado lopeveguesco: “un saco en que cabe todo”», en Luigi Giuliani y Marcella Trambaioli (eds.), *En torno al primer Lope. Origen y paradigma. Actas de las Primeras Jornadas*, Perugia, Morlacchi Editore U.P., 2025, pp. 44–65."
       - "Vega García-Luengos, Germán. “La mujer por fuerza”, una comedia atribuida a Tirso de Molina que reclama la incorporación al repertorio de Lope de Vega. Anuario Lope de Vega. Texto, literatura, cultura, vol. 32, 2026."
 
 
