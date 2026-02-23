@@ -32,6 +32,7 @@ url_slug:
 
 featured_ids:
   - "aiso2026"
+  - "jpd2026"
   - "motivarte2026"
   - "unedmaster2025"
   - "acatlan2025"
@@ -58,6 +59,20 @@ talks:
     location:
       es: "Buenos Aires, Argentina"
       en: "Buenos Aires, Argentina"
+
+
+  - id: "jpd2026"
+    author: "Álvaro Cuéllar"
+    type: plenary
+    date: "2026-06-11"
+    date_end: "2026-06-12"
+    title: "Conferencia inaugural"
+    event: "III Jornadas de Patrimonio Documental"
+    institution: "Sociedad Científica El Museo Canario"
+    location:
+      es: "Las Palmas de Gran Canaria, España"
+      en: "Las Palmas de Gran Canaria, Spain"
+
 
 
   - id: "asodat2026"
