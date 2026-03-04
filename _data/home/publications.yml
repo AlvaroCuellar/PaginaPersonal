@@ -257,6 +257,20 @@ publications:
     thumbnail: "/assets/images/pubs/prensa.png"
     abstract: "El artículo cuantifica la robustez de la atribución estilométrica ante la corrupción textual. Concluye que el rendimiento se mantiene alto incluso con degradación notable, pero disminuye de forma progresiva cuando la corrupción pasa a ser dominante, especialmente si afecta al texto que se desea atribuir."
     cited_by:
+    
+  - id: "estiloritm"
+    type: "article"
+    title: "La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Castilla. Estudios de Literatura"
+    volume:
+    number:
+    pages:
+    year: 2026
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El artículo evalúa la capacidad de la estilometría rítmica para distinguir comedias de Lope de Vega frente a obras no lopescas mediante patrones acentuales del verso y modelos de aprendizaje automático. Los resultados alcanzan F1 cercanos a 0,95 cuando se usan unos 100–200 patrones frecuentes. Sin embargo, aparecen falsos negativos —incluso en obras con autógrafo—, lo que obliga a interpretar el método con cautela."
+    cited_by:
  
  
   - id: "stylo100"
