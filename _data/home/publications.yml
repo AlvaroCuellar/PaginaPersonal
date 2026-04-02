@@ -62,6 +62,29 @@ publications:
     thumbnail: "/assets/images/pubs/ritmos.png"
     abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
 
+
+
+
+
+  - id: "indig"
+    type: "article"
+    title: "For the Indignity of the Text: Measuring Stylometric Robustness in Authorship Attribution under Textual Corruption"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Arte Nuevo. Revista de Estudios Áureos"
+    volume: "13"
+    number:
+    pages: "123–144"
+    year: 2026
+    url: "https://doi.org/10.14603/13E2026"
+    thumbnail: "/assets/images/pubs/artenuevo.png"
+    abstract: "El artículo cuantifica la robustez de la atribución estilométrica ante la corrupción textual. Concluye que el rendimiento se mantiene alto incluso con degradación notable, pero disminuye de forma progresiva cuando la corrupción pasa a ser dominante, especialmente si afecta al texto que se desea atribuir."
+    cited_by:
+    
+    
+    
+    
+    
+    
   - id: "transcri"
     type: "article"
     title: "La Inteligencia Artificial al rescate del Siglo de Oro: transcripción y modernización automática de mil trescientos impresos y manuscritos teatrales"
@@ -244,19 +267,7 @@ publications:
       - "Chapinal-Heras, Diego, and Carlos Díaz-Sánchez. “A Review of AI Applications in Human Sciences Research.” Digital Applications in Archaeology and Cultural Heritage, vol. 30, 2023, e00288."
       
  
-  - id: "indig"
-    type: "article"
-    title: "For the Indignity of the Text: Measuring Stylometric Robustness in Authorship Attribution under Textual Corruption"
-    authors: ["Álvaro Cuéllar"]
-    publication: "Arte Nuevo. Revista de Estudios Áureos"
-    volume:
-    number:
-    pages:
-    year: 2026
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El artículo cuantifica la robustez de la atribución estilométrica ante la corrupción textual. Concluye que el rendimiento se mantiene alto incluso con degradación notable, pero disminuye de forma progresiva cuando la corrupción pasa a ser dominante, especialmente si afecta al texto que se desea atribuir."
-    cited_by:
+
     
   - id: "estiloritm"
     type: "article"
