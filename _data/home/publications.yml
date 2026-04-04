@@ -429,7 +429,15 @@ publications:
     thumbnail: "/assets/images/pubs/redes.png"
     abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
    
-   
+  - id: "scansiondataset326"
+    type: "dataset"
+    title: "Rhythmic Scansion Dataset of 326 Spanish Golden Age Plays for Authorship Attribution"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Zenodo"
+    year: 2026
+    url: "https://doi.org/10.5281/zenodo.19418278"
+    thumbnail: "/assets/images/pubs/scansiondataset.png"
+    abstract: "Dataset de escansión rítmica de 326 comedias del Siglo de Oro utilizado en el artículo La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega. Reúne materiales de recursos previos y datos adicionales preparados por el autor para facilitar la replicación de los experimentos de atribución y el estudio computacional del ritmo en el teatro áureo."
    
   - id: "writersonia"
     type: "article"
