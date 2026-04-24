@@ -91,9 +91,9 @@ talks:
   - id: "unifrdecouverte2026"
     author: "Álvaro Cuéllar"
     type: invited
-    date: "2026-MM-DD"
+    date: "2026-04-06"
     title: "Séance de découverte"
-    event: "Conférence invitée pour les étudiant·e·s du Département d’espagnol de l’UNIFR et des gymnases fribourgeois"
+    event: "Conférence invitée pour les étudiant·e·s des gymnases fribourgeois"
     institution: "Département d’espagnol, Université de Fribourg"
     location:
       es: "Friburgo, Suiza"
@@ -102,9 +102,9 @@ talks:
   - id: "unifrpeda2026"
     author: "Álvaro Cuéllar"
     type: invited
-    date: "2026-MM-DD"
+    date: "2026-04-06"
     title: "Séance pédagogique"
-    event: "Conférence invitée pour les enseignant·e·s du Département d’espagnol de l’UNIFR, des gymnases fribourgeois et d’ALCE"
+    event: "Conférence invitée pour les enseignant·e·s du Département d’espagnol"
     institution: "Département d’espagnol, Université de Fribourg"
     location:
       es: "Friburgo, Suiza"
