@@ -66,7 +66,7 @@ talks:
     type: plenary
     date: "2026-06-11"
     date_end: "2026-06-12"
-    title: "Conferencia inaugural"
+    title: "Patrimonio documental e inteligencia artificial: una mirada tecnoptimista"
     event: "III Jornadas de Patrimonio Documental"
     institution: "Sociedad Científica El Museo Canario"
     location:
@@ -87,7 +87,42 @@ talks:
       es: "Salamanca, España"
       en: "Salamanca, Spain"
 
-      
+
+  - id: "unifrdecouverte2026"
+    author: "Álvaro Cuéllar"
+    type: invited
+    date: "2026-MM-DD"
+    title: "Séance de découverte"
+    event: "Conférence invitée pour les étudiant·e·s du Département d’espagnol de l’UNIFR et des gymnases fribourgeois"
+    institution: "Département d’espagnol, Université de Fribourg"
+    location:
+      es: "Friburgo, Suiza"
+      en: "Fribourg, Switzerland"
+
+  - id: "unifrpeda2026"
+    author: "Álvaro Cuéllar"
+    type: invited
+    date: "2026-MM-DD"
+    title: "Séance pédagogique"
+    event: "Conférence invitée pour les enseignant·e·s du Département d’espagnol de l’UNIFR, des gymnases fribourgeois et d’ALCE"
+    institution: "Département d’espagnol, Université de Fribourg"
+    location:
+      es: "Friburgo, Suiza"
+      en: "Fribourg, Switzerland"
+
+  - id: "literaturasdisidentes2026"
+    author: "Álvaro Cuéllar"
+    type: invited
+    date: "2026-04-24"
+    title: "Siglo de Oro queer: el caso de la Monja Alférez y Juan Ruiz de Alarcón"
+    event: "Literaturas disidentes: cuerpos, voces y diversidades en el mundo hispánico"
+    institution: "Departament de Filologia Espanyola, Facultat de Filosofia i Lletres, Universitat Autònoma de Barcelona"
+    location:
+      es: "Bellaterra, España"
+      en: "Bellaterra, Spain" 
+
+
+     
   - id: "motivarte2026"
     author: "Álvaro Cuéllar"
     type: plenary
