@@ -62,7 +62,9 @@ publications:
     thumbnail: "/assets/images/pubs/ritmos.png"
     abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
 
+    cited_by:
 
+      - "Ruiz Fabo, Pablo, Anxo Alonso Pérez, Pablo Rodríguez Fernández y Pablo Gamallo. “Automatic Metrical Scansion of Poetry in a Low-Resource Setting.” LLMs4SSH @LREC 2026: Shaping Multilingual, Multimodal AI for the Social Sciences and Humanities, 2026."
 
 
 
