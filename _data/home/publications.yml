@@ -83,7 +83,19 @@ publications:
     cited_by:
     
     
-    
+  - id: "sizematters"
+    type: "article"
+    title: "Size Does Matter, But Asymmetrically: Training and Test Length Effects on Stylometric Authorship Attribution"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Studia Aurea"
+    volume:
+    number:
+    pages:
+    year: "en prensa"
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El artículo analiza cómo la longitud textual afecta a la atribución estilométrica en teatro del Siglo de Oro. Muestra que acortar el texto que se desea atribuir perjudica más que reducir el corpus de entrenamiento, por lo que los textos muy breves resultan especialmente problemáticos."
+    cited_by:    
     
     
     
