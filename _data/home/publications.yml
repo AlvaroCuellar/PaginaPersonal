@@ -363,7 +363,19 @@ publications:
       - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
       - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
     
-    
+  - id: "tenotodistante"
+    type: "chapter"
+    title: "«Te noto distante». La consolidación de las Humanidades Digitales para el estudio del Siglo de Oro (2023–2026)"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Actas del XIV Congreso de la Asociación Internacional Siglo de Oro"
+    volume:
+    number:
+    pages:
+    year: "en prensa"
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract: "El capítulo ofrece un repaso de las publicaciones y recursos digitales sobre Siglo de Oro y Humanidades Digitales de los últimos tres años. Atiende a la consolidación del campo entre 2023 y 2026, con especial atención a las líneas de trabajo, herramientas y proyectos que han marcado este periodo."
+    cited_by:    
 
   - id: "coloso"
     type: "model"
