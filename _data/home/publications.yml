@@ -389,7 +389,7 @@ publications:
     thumbnail: "/assets/images/pubs/model.png"
     abstract: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
     cited_by:
-    
+      - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."      
       - "Torterolo-Orta, Yanco Amor, et al. “Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite.” arXiv preprint arXiv:2507.04878, 2025."
       - "Cleofe, Edward Arellano. “Close Textual Analysis, Close Skeletal Analysis: Postcolonial Hybridity Approaches to Administrative & Clerical Document Content Analysis and Osteobiographies of Care of Early Modern Period Spanish Colonialism in Camarines, Bicol, Philippines.” PhD dissertation, University of California, Los Angeles, 2025."
 
@@ -1293,7 +1293,7 @@ publications:
     abstract: "Modelo entrenado con 2.757.908 palabras capaz de transcribir y modernizar impresos del Siglo de Oro español con un 96,90 % de acierto. Está disponible para la comunidad investigadora y se utiliza de forma generalizada en proyectos de transcripción de archivos y bibliotecas."
 
     cited_by:
-    
+      - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."    
     
       - "Menta, Antonio; y Ana Mª García Serrano. “Guía de estilo para la simplificación de oraciones del Diario de Madrid: creación de un corpus para el desarrollo de un modelo del lenguaje.” 2025."
       - "Romero, Martin Horna; y Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
@@ -1325,6 +1325,8 @@ publications:
     abstract: "Modelo de inteligencia artificial entrenado con 74.000 palabras, capaz de transcribir de forma paleográfica impresos del Siglo de Oro español con un 99,09 % de acierto. Disponible públicamente y ampliamente utilizado para la transcripción de archivos y bibliotecas."
 
     cited_by:
+
+      - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."  
 
       - "Menta, Antonio; y Ana Mª García Serrano. “Guía de estilo para la simplificación de oraciones del Diario de Madrid: creación de un corpus para el desarrollo de un modelo del lenguaje.” 2025."
       - "Peralta, Alberto. “Implementing AI in the National Library of Spain: The ETSO Project and Stylometric Analysis of Golden Age Theatre.” En Ines Mergel y Carsten Schmidt (eds.), AI Innovations in Public Services: The Case of National Libraries. Cham: Springer, 2026, pp. 135–150."
@@ -1452,7 +1454,10 @@ publications:
 
 
     cited_by:
- 
+
+
+
+      - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."   
 
       - "Pérez de Montalbán, Juan. El caballero del Febo, ed. crítica de Rocío Alonso Medel. Alicante: Biblioteca Virtual Miguel de Cervantes, 2026. (Colección Teatro Caballeresco, 4). ISBN 978-84-1143-922." 
       - "Santana Bustamante, Carmen. La Santa Táez atribuida a Rojas Zorrilla y la de Enríquez Gómez: edición crítica, estudio y análisis comparativo. Tesis doctoral, Universidad de Castilla-La Mancha, 2025."
