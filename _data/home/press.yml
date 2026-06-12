@@ -28,6 +28,7 @@ subtitle:
 # IDs de artículos destacados (se mostrarán primero con badge especial)
 featured:
 
+  - "press82"
   - "press43"
   - "press72"
   - "press63"
@@ -43,6 +44,80 @@ featured:
   - "press69"
   
 articles:
+
+
+  - id: "press82"
+    title:
+      es: "El Museo Canario aborda el impacto de la inteligencia artificial en el patrimonio histórico"
+      en: "El Museo Canario Addresses the Impact of Artificial Intelligence on Historical Heritage"
+    outlet: "Libertad Digital Canarias"
+    author: "Redacción Gran Canaria"
+    date: "2026-06-08"
+    url: "https://www.libertaddigital.com/canarias/2026-06-08/el-museo-canario-aborda-el-impacto-de-la-inteligencia-artificial-en-el-patrimonio-historico-7417145/"
+    thumbnail: "/assets/images/press/82.png"
+    type: "news"
+    summary:
+      es: "Libertad Digital informa sobre la inauguración de las III Jornadas de Patrimonio Documental de El Museo Canario, centradas en la aplicación de la inteligencia artificial y las nuevas tecnologías a la gestión de fondos históricos. La noticia destaca la conferencia inaugural de Álvaro Cuéllar González, «Patrimonio documental e inteligencia artificial: una mirada tecnoptimista», y el debate sobre transcripción automática, estilometría y digitalización de prensa histórica."
+      en: "Libertad Digital reports on the opening of El Museo Canario's 3rd Documentary Heritage Conference, focused on the application of artificial intelligence and new technologies to the management of historical collections. The article highlights the opening lecture by Álvaro Cuéllar González, 'Documentary Heritage and Artificial Intelligence: A Techno-Optimistic View', and the discussion of automatic transcription, stylometry, and historical press digitization."
+
+
+  - id: "press83"
+    title:
+      es: "El Museo Canario analiza el uso de la inteligencia artificial en la gestión del patrimonio documental"
+      en: "El Museo Canario Analyzes the Use of Artificial Intelligence in Documentary Heritage Management"
+    outlet: "Europa Press Islas Canarias"
+    author: "Europa Press Islas Canarias"
+    date: "2026-06-08"
+    url: "https://www.europapress.es/islas-canarias/noticia-museo-canario-analiza-uso-inteligencia-artificial-gestion-patrimonio-documental-20260608102931.html"
+    thumbnail: "/assets/images/press/83.png"
+    type: "news"
+    summary:
+      es: "Europa Press cubre las III Jornadas de Patrimonio Documental de El Museo Canario, celebradas bajo el título «Recursos y procedimientos digitales». La pieza subraya que Álvaro Cuéllar González, especialista en inteligencia artificial y lingüística computacional de la UAB, abrió el programa con una ponencia sobre la relación entre patrimonio documental y tecnología."
+      en: "Europa Press covers El Museo Canario's 3rd Documentary Heritage Conference, held under the title 'Digital Resources and Procedures'. The article notes that Álvaro Cuéllar González, a specialist in artificial intelligence and computational linguistics at the UAB, opened the program with a lecture on the relationship between documentary heritage and technology."
+
+
+  - id: "press84"
+    title:
+      es: "El Museo Canario explora el impacto de la inteligencia artificial en la conservación del patrimonio documental"
+      en: "El Museo Canario Explores the Impact of Artificial Intelligence on Documentary Heritage Conservation"
+    outlet: "La Provincia - Diario de Las Palmas"
+    author: "La Provincia"
+    date: "2026-06-08"
+    url: "https://www.laprovincia.es/gran-canaria/2026/06/08/museo-canario-explora-impacto-inteligencia-131143088.html"
+    thumbnail: "/assets/images/press/84.png"
+    type: "news"
+    summary:
+      es: "La Provincia informa sobre las jornadas de El Museo Canario dedicadas a la inteligencia artificial y la conservación del patrimonio documental. El artículo destaca que Álvaro Cuéllar González impartió la conferencia inaugural y abordó las posibilidades de la IA para el estudio y la preservación de archivos históricos."
+      en: "La Provincia reports on El Museo Canario's conference devoted to artificial intelligence and the conservation of documentary heritage. The article highlights that Álvaro Cuéllar González delivered the opening lecture and discussed the possibilities of AI for the study and preservation of historical archives."
+
+
+  - id: "press85"
+    title:
+      es: "IA y patrimonio documental: El Museo Canario impulsa el debate"
+      en: "AI and Documentary Heritage: El Museo Canario Drives the Debate"
+    outlet: "La Voz Canaria"
+    author: "Gara León Betancourt"
+    date: "2026-06-08"
+    url: "https://lavozcanaria.com/area-metropolitana-gran-canaria/general/ia-y-patrimonio-documental-el-museo-canario-impulsa-el-debate"
+    thumbnail: "/assets/images/press/85.png"
+    type: "news"
+    summary:
+      es: "La Voz Canaria recoge el encuentro organizado por El Museo Canario para debatir el papel de la inteligencia artificial en la conservación y análisis de archivos históricos. La noticia señala la intervención inaugural de Álvaro Cuéllar González, de la Universidad Autónoma de Barcelona, sobre las posibilidades de la IA para el patrimonio documental."
+      en: "La Voz Canaria covers the event organized by El Museo Canario to discuss the role of artificial intelligence in the conservation and analysis of historical archives. The article notes the opening lecture by Álvaro Cuéllar González, from the Autonomous University of Barcelona, on the possibilities of AI for documentary heritage."
+
+
+  - id: "press81"
+    title:
+      es: "«Recursos y procedimientos digitales», título de las III Jornadas de Patrimonio Documental de El Museo Canario"
+      en: "'Digital Resources and Procedures', the Title of El Museo Canario's 3rd Documentary Heritage Conference"
+    outlet: "El Museo Canario"
+    date: "2026-05-14"
+    url: "https://www.elmuseocanario.com/recursos-y-procedimientos-digitales-sera-el-titulo-de-las-iii-jornadas-de-patrimonio-documental-que-celebrara-en-junio-el-museo-canario/"
+    thumbnail: "/assets/images/press/81.jpg"
+    type: "news"
+    summary:
+      es: "El Museo Canario anunció sus III Jornadas de Patrimonio Documental, dedicadas a «Recursos y procedimientos digitales» y celebradas los días 8 y 9 de junio de 2026. El programa incluyó la conferencia inaugural de Álvaro Cuéllar González, «Patrimonio documental e inteligencia artificial: una mirada tecnoptimista», así como su participación en una mesa redonda sobre innovación, tecnología y documentos."
+      en: "El Museo Canario announced its 3rd Documentary Heritage Conference, devoted to 'Digital Resources and Procedures' and held on June 8 and 9, 2026. The program included the opening lecture by Álvaro Cuéllar González, 'Documentary Heritage and Artificial Intelligence: A Techno-Optimistic View', as well as his participation in a round table on innovation, technology, and documents."
 
 
   - id: "press80"
