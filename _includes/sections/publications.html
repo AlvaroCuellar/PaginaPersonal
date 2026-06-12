@@ -260,8 +260,14 @@
                 
                 <!-- Abstract (columna 3) -->
                 {% if pub.abstract %}
+                  {% assign abstract_text = pub.abstract %}
+                  {% if pub.abstract[lang] %}
+                    {% assign abstract_text = pub.abstract[lang] %}
+                  {% elsif pub.abstract.es %}
+                    {% assign abstract_text = pub.abstract.es %}
+                  {% endif %}
                   <div class="publication-abstract">
-                    <div class="abstract-text">{{ pub.abstract }}</div>
+                    <div class="abstract-text">{{ abstract_text }}</div>
                   </div>
                 {% endif %}
               </div>

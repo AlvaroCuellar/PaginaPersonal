@@ -60,7 +60,9 @@ publications:
     year: 2025
     url: "https://doi.org/10.17979/janus.2025.14.12653"
     thumbnail: "/assets/images/pubs/ritmos.png"
-    abstract: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
+    abstract:
+      es: "El estudio explora la aplicación de la estilometría rítmica al teatro del Siglo de Oro, analizando patrones de sílabas tónicas y átonas para identificar la huella autorial. Los resultados muestran un enfoque prometedor y complementario a la estilometría léxica tradicional."
+      en: "The study explores the application of rhythmic stylometry to Spanish Golden Age theatre, analyzing patterns of stressed and unstressed syllables to identify authorial fingerprints. The results show a promising approach that complements traditional lexical stylometry."
 
     cited_by:
 
@@ -79,7 +81,9 @@ publications:
     year: 2026
     url: "https://doi.org/10.14603/13E2026"
     thumbnail: "/assets/images/pubs/artenuevo.png"
-    abstract: "El artículo cuantifica la robustez de la atribución estilométrica ante la corrupción textual. Concluye que el rendimiento se mantiene alto incluso con degradación notable, pero disminuye de forma progresiva cuando la corrupción pasa a ser dominante, especialmente si afecta al texto que se desea atribuir."
+    abstract:
+      es: "El artículo cuantifica la robustez de la atribución estilométrica ante la corrupción textual. Concluye que el rendimiento se mantiene alto incluso con degradación notable, pero disminuye de forma progresiva cuando la corrupción pasa a ser dominante, especialmente si afecta al texto que se desea atribuir."
+      en: "The article quantifies the robustness of stylometric attribution under textual corruption. It concludes that performance remains high even under substantial degradation, but declines progressively when corruption becomes dominant, especially when it affects the text to be attributed."
     cited_by:
     
     
@@ -94,7 +98,9 @@ publications:
     year: "en prensa"
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El artículo analiza cómo la longitud textual afecta a la atribución estilométrica en teatro del Siglo de Oro. Muestra que acortar el texto que se desea atribuir perjudica más que reducir el corpus de entrenamiento, por lo que los textos muy breves resultan especialmente problemáticos."
+    abstract:
+      es: "El artículo analiza cómo la longitud textual afecta a la atribución estilométrica en teatro del Siglo de Oro. Muestra que acortar el texto que se desea atribuir perjudica más que reducir el corpus de entrenamiento, por lo que los textos muy breves resultan especialmente problemáticos."
+      en: "The article analyzes how text length affects stylometric attribution in Spanish Golden Age theatre. It shows that shortening the text to be attributed is more harmful than reducing the training corpus, making very short texts especially problematic."
     cited_by:    
     
     
@@ -111,7 +117,9 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2023.11.01.08"
     thumbnail: "/assets/images/pubs/transcri.png"
-    abstract: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
+    abstract:
+      es: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
+      en: "Using artificial intelligence and HTR techniques (Transkribus), three public models were trained to transcribe and modernize Spanish Golden Age theatrical texts with high accuracy (approximately 97% for prints and 91% for manuscripts). They enabled the processing of around 1,300 plays, integrated into the ETSO and TEXORO projects, providing a solid basis for philological editing and stylometric authorship studies."
     cited_by:
     
 
@@ -208,7 +216,9 @@ publications:
     year: 2023
     url: "https://doi.org/10.5565/rev/anuariolopedevega.483"
     thumbnail: "/assets/images/pubs/crono.png"
-    abstract: "Se aplica la estilometría a la datación de comedias del Siglo de Oro, empleando autógrafos de Lope de Vega con fecha conocida. El análisis de palabras, lemas y categorías gramaticales muestra una correlación entre estilo y cronología, con un error medio de ±5 años, reducido a ±4 en un corpus más amplio, lo que confirma el potencial de esta técnica para estimar fechas de composición."
+    abstract:
+      es: "Se aplica la estilometría a la datación de comedias del Siglo de Oro, empleando autógrafos de Lope de Vega con fecha conocida. El análisis de palabras, lemas y categorías gramaticales muestra una correlación entre estilo y cronología, con un error medio de ±5 años, reducido a ±4 en un corpus más amplio, lo que confirma el potencial de esta técnica para estimar fechas de composición."
+      en: "Stylometry is applied to the dating of Spanish Golden Age plays, using dated autograph manuscripts by Lope de Vega. The analysis of words, lemmas, and grammatical categories shows a correlation between style and chronology, with an average error of ±5 years, reduced to ±4 in a larger corpus, confirming the potential of this technique for estimating dates of composition."
     cited_by:
  
 
@@ -300,7 +310,9 @@ publications:
     year: 2026
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El artículo evalúa la capacidad de la estilometría rítmica para distinguir comedias de Lope de Vega frente a obras no lopescas mediante patrones acentuales del verso y modelos de aprendizaje automático. Los resultados alcanzan F1 cercanos a 0,95 cuando se usan unos 100–200 patrones frecuentes. Sin embargo, aparecen falsos negativos —incluso en obras con autógrafo—, lo que obliga a interpretar el método con cautela."
+    abstract:
+      es: "El artículo evalúa la capacidad de la estilometría rítmica para distinguir comedias de Lope de Vega frente a obras no lopescas mediante patrones acentuales del verso y modelos de aprendizaje automático. Los resultados alcanzan F1 cercanos a 0,95 cuando se usan unos 100–200 patrones frecuentes. Sin embargo, aparecen falsos negativos —incluso en obras con autógrafo—, lo que obliga a interpretar el método con cautela."
+      en: "The article evaluates the ability of rhythmic stylometry to distinguish plays by Lope de Vega from non-Lopean works through verse accentual patterns and machine-learning models. The results reach F1 scores close to 0.95 when using about 100–200 frequent patterns. However, false negatives appear, even in autograph works, which means the method must be interpreted with caution."
     cited_by:
  
  
@@ -321,7 +333,9 @@ publications:
     publisher: "Heidelberg University Publishing"
     thumbnail: "/assets/images/pubs/stylo100.png"
 
-    abstract: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
+    abstract:
+      es: "Este estudio evalúa cien comedias del Siglo de Oro de autoría segura mediante el paquete stylo de R. Se analizan las configuraciones que optimizan la clasificación autoral (algoritmos, MFW, culling y n-gramas) y la extensión mínima necesaria para resultados fiables. La validación cruzada demuestra la eficacia de la estilometría en la atribución de autoría en el teatro áureo."
+      en: "This study evaluates one hundred securely attributed Spanish Golden Age plays with the R package stylo. It analyzes the settings that optimize authorial classification (algorithms, MFW, culling, and n-grams) and the minimum length required for reliable results. Cross-validation demonstrates the effectiveness of stylometry for authorship attribution in Golden Age theatre."
     cited_by:
       - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
       - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
@@ -376,7 +390,9 @@ publications:
     year: "en prensa"
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El capítulo ofrece un repaso de las publicaciones y recursos digitales sobre Siglo de Oro y Humanidades Digitales de los últimos tres años. Atiende a la consolidación del campo entre 2023 y 2026, con especial atención a las líneas de trabajo, herramientas y proyectos que han marcado este periodo."
+    abstract:
+      es: "El capítulo ofrece un repaso de las publicaciones y recursos digitales sobre Siglo de Oro y Humanidades Digitales de los últimos tres años. Atiende a la consolidación del campo entre 2023 y 2026, con especial atención a las líneas de trabajo, herramientas y proyectos que han marcado este periodo."
+      en: "The chapter reviews publications and digital resources on the Spanish Golden Age and Digital Humanities from the last three years. It addresses the consolidation of the field between 2023 and 2026, with particular attention to the lines of work, tools, and projects that marked this period."
     cited_by:    
 
   - id: "coloso"
@@ -387,7 +403,9 @@ publications:
     publication: "Transkribus"
     url: "https://readcoop.eu/model/coloso-espanol/"
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
+    abstract:
+      es: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
+      en: "An artificial-intelligence supermodel that unifies all previous models for the transcription of Spanish texts, both printed and manuscript, from any period. Trained on 11 million words with 96% accuracy. Coordinated by Álvaro Cuéllar, it brings together materials from different academic teams and represents a milestone for the processing of Hispanic archives and libraries."
     cited_by:
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."      
       - "Torterolo-Orta, Yanco Amor, et al. “Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite.” arXiv preprint arXiv:2507.04878, 2025."
@@ -428,7 +446,9 @@ publications:
     year: 2025
     url: "https://doi.org/10.5281/zenodo.17537343"
     thumbnail: "/assets/images/pubs/r100.png"
-    abstract: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
+    abstract:
+      es: "Conjunto de datos que acompaña el artículo From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. Incluye cien comedias de autoría segura de nueve dramaturgos del Siglo de Oro, en dos versiones: texto original y escansión rítmica automática corregida. El corpus permite replicar los experimentos del estudio y avanzar en la investigación estilométrica rítmica, la atribución de autoría y el análisis métrico computacional del teatro áureo."
+      en: "Dataset accompanying the article From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre. It includes one hundred securely attributed plays by nine Spanish Golden Age playwrights in two versions: original text and corrected automatic rhythmic scansion. The corpus makes it possible to replicate the study's experiments and advance research on rhythmic stylometry, authorship attribution, and computational metrical analysis of Golden Age theatre."
 
 
 
@@ -445,7 +465,9 @@ publications:
     isbn:
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El trabajo explica la generación a gran escala de miles de resúmenes automáticos de obras del Siglo de Oro con modelos de lenguaje y su publicación, junto con síntesis de personajes, espacios y temas para facilitar la exploración y la comparación del corpus."
+    abstract:
+      es: "El trabajo explica la generación a gran escala de miles de resúmenes automáticos de obras del Siglo de Oro con modelos de lenguaje y su publicación, junto con síntesis de personajes, espacios y temas para facilitar la exploración y la comparación del corpus."
+      en: "The work explains the large-scale generation of thousands of automatic summaries of Spanish Golden Age plays with language models, and their publication together with syntheses of characters, spaces, and themes to facilitate corpus exploration and comparison."
 
    
   - id: "redesneuronales"
@@ -459,7 +481,9 @@ publications:
     year: 2025
     url: "https://www.academia.edu/144758174/Redes_neuronales_convolucionales_al_servicio_del_teatro_%C3%A1ureo"
     thumbnail: "/assets/images/pubs/redes.png"
-    abstract: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
+    abstract:
+      es: "El teatro del Siglo de Oro afronta retos filológicos difíciles de abordar desde la investigación analógica. Las redes neuronales convolucionales (CNN) ofrecen soluciones potentes para la transcripción automática y la identificación caligráfica, así como para la generación de escritura sintética que amplía los datos y fortalece el entrenamiento de los modelos."
+      en: "Spanish Golden Age theatre poses philological challenges that are difficult to address through analogue research alone. Convolutional neural networks (CNNs) offer powerful solutions for automatic transcription and handwriting identification, as well as for generating synthetic writing that expands data and strengthens model training."
    
   - id: "scansiondataset326"
     type: "dataset"
@@ -469,7 +493,9 @@ publications:
     year: 2026
     url: "https://doi.org/10.5281/zenodo.19418278"
     thumbnail: "/assets/images/pubs/scansiondataset.png"
-    abstract: "Dataset de escansión rítmica de 326 comedias del Siglo de Oro utilizado en el artículo La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega. Reúne materiales de recursos previos y datos adicionales preparados por el autor para facilitar la replicación de los experimentos de atribución y el estudio computacional del ritmo en el teatro áureo."
+    abstract:
+      es: "Dataset de escansión rítmica de 326 comedias del Siglo de Oro utilizado en el artículo La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega. Reúne materiales de recursos previos y datos adicionales preparados por el autor para facilitar la replicación de los experimentos de atribución y el estudio computacional del ritmo en el teatro áureo."
+      en: "Rhythmic scansion dataset of 326 Spanish Golden Age plays used in the article La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega. It brings together materials from previous resources and additional data prepared by the author to facilitate replication of attribution experiments and the computational study of rhythm in Golden Age theatre."
    
   - id: "writersonia"
     type: "article"
@@ -483,7 +509,9 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2025.13.01.36"
     thumbnail: "/assets/images/pubs/writersonia.png"
-    abstract: "Se presenta una vía computacional para detectar la huella caligráfica de un escriba en grandes conjuntos documentales mediante técnicas de HTR aplicadas a la identificación de manos autorales. En un experimento con la escritura autógrafa de Lope de Vega, el modelo alcanzó métricas cercanas a 0.95–1.00, demostrando su potencial para reconocer autores, copistas o censores y descubrir testimonios inéditos de alto valor histórico y literario."
+    abstract:
+      es: "Se presenta una vía computacional para detectar la huella caligráfica de un escriba en grandes conjuntos documentales mediante técnicas de HTR aplicadas a la identificación de manos autorales. En un experimento con la escritura autógrafa de Lope de Vega, el modelo alcanzó métricas cercanas a 0.95–1.00, demostrando su potencial para reconocer autores, copistas o censores y descubrir testimonios inéditos de alto valor histórico y literario."
+      en: "A computational approach is presented for detecting the handwriting trace of a scribe in large documentary collections through HTR techniques applied to hand identification. In an experiment with Lope de Vega's autograph handwriting, the model reached metrics close to 0.95–1.00, demonstrating its potential to recognize authors, copyists, or censors and to discover unpublished witnesses of high historical and literary value."
     cited_by:
 
 
@@ -508,7 +536,9 @@ publications:
     year: 2023
     url: "https://revistes.uab.cat/anuariolopedevega/article/view/v29-cuellar-vega-garcia-luengos"
     thumbnail: "/assets/images/pubs/francesalaura.png"
-    abstract: "Se propone incorporar La francesa Laura al repertorio de Lope de Vega a partir de un manuscrito anónimo de la BNE. Los análisis con Transkribus y ETSO muestran una clara afinidad léxica con las obras del Fénix, reforzada por evidencias filológicas, métricas e históricas. El estudio confirma el potencial de las herramientas digitales para la investigación del teatro aurisecular."
+    abstract:
+      es: "Se propone incorporar La francesa Laura al repertorio de Lope de Vega a partir de un manuscrito anónimo de la BNE. Los análisis con Transkribus y ETSO muestran una clara afinidad léxica con las obras del Fénix, reforzada por evidencias filológicas, métricas e históricas. El estudio confirma el potencial de las herramientas digitales para la investigación del teatro aurisecular."
+      en: "The study proposes adding La francesa Laura to Lope de Vega's repertory on the basis of an anonymous manuscript held at the BNE. Analyses with Transkribus and ETSO show a clear lexical affinity with Lope's works, reinforced by philological, metrical, and historical evidence. The study confirms the potential of digital tools for research on early modern Spanish theatre."
     cited_by:
     
     
@@ -594,7 +624,9 @@ publications:
     isbn:
     url: "https://doi.org/10.13035/H.2023.11.01.09"
     thumbnail: "/assets/images/pubs/claramonte.png"
-    abstract: "Se analizan 2.800 comedias del Siglo de Oro mediante técnicas estilométricas para aislar la huella autoral de Claramonte y definir un repertorio fiable. Los resultados vinculan al dramaturgo con 39 comedias y 7 autos, confirman autorías seguras (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea…) y respaldan atribuciones recientes como La estrella de Sevilla o Tan largo me lo fiáis."
+    abstract:
+      es: "Se analizan 2.800 comedias del Siglo de Oro mediante técnicas estilométricas para aislar la huella autoral de Claramonte y definir un repertorio fiable. Los resultados vinculan al dramaturgo con 39 comedias y 7 autos, confirman autorías seguras (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea…) y respaldan atribuciones recientes como La estrella de Sevilla o Tan largo me lo fiáis."
+      en: "A corpus of 2,800 Spanish Golden Age plays is analyzed with stylometric techniques to isolate Claramonte's authorial fingerprint and define a reliable repertory. The results link the playwright to 39 plays and 7 autos, confirm secure authorships (De lo vivo a lo pintado, Deste agua no beberé, La infelice Dorotea, among others), and support recent attributions such as La estrella de Sevilla and Tan largo me lo fiáis."
     
     cited_by:
 
@@ -747,7 +779,9 @@ publications:
     year: 2026
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
+    abstract:
+      es: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
+      en: "This article applies stylometric and artificial-intelligence methods to revise the dramatic repertory of Luis Vélez de Guevara. Through computational authorship-attribution models and textual-similarity analysis on a broad corpus of Spanish Golden Age theatre, it proposes new inclusions and exclusions within his oeuvre. The results help redefine the boundaries of the Velezian canon from an empirical and automated perspective."
  
   - id: "writerid2026"
     type: "inpress"
@@ -760,7 +794,9 @@ publications:
     year: 2026
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "El artículo propone un sistema de identificación de escribas basado en técnicas simplificadas de reconocimiento automático de texto manuscrito. Los resultados muestran una elevada precisión en la diferenciación entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+    abstract:
+      es: "El artículo propone un sistema de identificación de escribas basado en técnicas simplificadas de reconocimiento automático de texto manuscrito. Los resultados muestran una elevada precisión en la diferenciación entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+      en: "The article proposes a writer-identification system based on simplified handwritten text recognition techniques. The results show high accuracy in distinguishing between Lope de Vega's autograph manuscripts and copies written by other hands."
 
     
 
@@ -776,7 +812,9 @@ publications:
     year: 2026
     url:
     thumbnail: "/assets/images/pubs/prensa.png"
-    abstract: "Monografía dedicada al análisis de la autoría en el teatro del Siglo de Oro mediante métodos filológicos y computacionales. Se ofrecen estudios sobre más de 3.000 obras, tanto completas como por jornadas, con atribuciones inéditas y resultados novedosos en la identificación de dramaturgos."
+    abstract:
+      es: "Monografía dedicada al análisis de la autoría en el teatro del Siglo de Oro mediante métodos filológicos y computacionales. Se ofrecen estudios sobre más de 3.000 obras, tanto completas como por jornadas, con atribuciones inéditas y resultados novedosos en la identificación de dramaturgos."
+      en: "A monograph devoted to the analysis of authorship in Spanish Golden Age theatre through philological and computational methods. It offers studies of more than 3,000 works, both complete plays and individual jornadas, with unpublished attributions and new results in playwright identification."
     cited_by:
     
       - "Kroll, Simón, y Fernando Sanz-Lázaro. “Ritmo e inteligencia artificial: nuevas perspectivas sobre teatro lopesco desde las Humanidades Digitales.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 29, 2023, pp. 351–375."
@@ -800,7 +838,9 @@ publications:
     isbn:
     url: "https://doi.org/10.1007/978-3-031-99565-1_20"
     thumbnail: "/assets/images/pubs/writervalencia.png"
-    abstract: "En este artículo se presenta un enfoque automático de identificación de escribas que combina redes neuronales profundas convolucionales y recurrentes con modelos de lenguaje n-grama en un marco probabilístico de clasificación. Los experimentos preliminares muestran la eficacia del método para distinguir entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+    abstract:
+      es: "En este artículo se presenta un enfoque automático de identificación de escribas que combina redes neuronales profundas convolucionales y recurrentes con modelos de lenguaje n-grama en un marco probabilístico de clasificación. Los experimentos preliminares muestran la eficacia del método para distinguir entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
+      en: "This article presents an automatic approach to writer identification that combines deep convolutional and recurrent neural networks with n-gram language models in a probabilistic classification framework. Preliminary experiments show the effectiveness of the method for distinguishing between Lope de Vega's autograph manuscripts and copies written by other hands."
     cited_by:
     
   - id: "bandolero"
@@ -816,7 +856,9 @@ publications:
     year: 2025
     url: "https://recyt.fecyt.es/index.php/acal/article/view/115157"
     thumbnail: "/assets/images/pubs/astro.jpg"
-    abstract: "Las herramientas digitales han proporcionado los primeros indicios de que al repertorio calderoniano habría que sumarle una comedia colaborada más. Calderón sería el verdadero responsable de la primera jornada de «El bandolero Solposto», atribuida a Cáncer, Rosete y Rojas Zorrilla en la edición de la Parte XXXII de Nuevas escogidas (1669). Los resultados de estilometría léxica confirman la afinidad con sus pautas de escritura, sus usos métricos y su sistema expresivo, destacando el elevado número de estilemas calderonianos detectados."
+    abstract:
+      es: "Las herramientas digitales han proporcionado los primeros indicios de que al repertorio calderoniano habría que sumarle una comedia colaborada más. Calderón sería el verdadero responsable de la primera jornada de «El bandolero Solposto», atribuida a Cáncer, Rosete y Rojas Zorrilla en la edición de la Parte XXXII de Nuevas escogidas (1669). Los resultados de estilometría léxica confirman la afinidad con sus pautas de escritura, sus usos métricos y su sistema expresivo, destacando el elevado número de estilemas calderonianos detectados."
+      en: "Digital tools have provided the first indications that one more collaborative play should be added to the Calderonian repertory. Calderón appears to be the true author of the first jornada of El bandolero Solposto, attributed to Cáncer, Rosete, and Rojas Zorrilla in the edition of Parte XXXII de Nuevas escogidas (1669). Lexical stylometry confirms its affinity with his writing patterns, metrical habits, and expressive system, highlighting the large number of Calderonian style markers detected."
 
 
 
@@ -829,7 +871,9 @@ publications:
     year: 2025
     url:
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Modelo de inteligencia artificial entrenado para la transcripción automática de impresos catalanes del siglo XVII en letra redonda. Entrenado con 137.338 palabras (18.519 líneas), alcanza una tasa de error del 1,63 % y permite conservar la ortografía original de los textos, facilitando la digitalización del patrimonio documental catalán."
+    abstract:
+      es: "Modelo de inteligencia artificial entrenado para la transcripción automática de impresos catalanes del siglo XVII en letra redonda. Entrenado con 137.338 palabras (18.519 líneas), alcanza una tasa de error del 1,63 % y permite conservar la ortografía original de los textos, facilitando la digitalización del patrimonio documental catalán."
+      en: "Artificial-intelligence model trained for the automatic transcription of seventeenth-century Catalan prints in roman type. Trained on 137,338 words (18,519 lines), it achieves an error rate of 1.63% and preserves the original spelling of the texts, facilitating the digitization of Catalan documentary heritage."
 
   - id: "xviicatalanprintsmodern"
     type: "model"
@@ -840,7 +884,9 @@ publications:
     year: 2025
     url:
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Modelo de transcripción automática con modernización ortográfica para impresos catalanes del siglo XVII. Entrenado con 165.096 palabras (22.219 líneas), alcanza un error del 3,41 %. Permite obtener versiones normalizadas de los textos antiguos, optimizando su lectura y análisis filológico."
+    abstract:
+      es: "Modelo de transcripción automática con modernización ortográfica para impresos catalanes del siglo XVII. Entrenado con 165.096 palabras (22.219 líneas), alcanza un error del 3,41 %. Permite obtener versiones normalizadas de los textos antiguos, optimizando su lectura y análisis filológico."
+      en: "Automatic transcription model with spelling modernization for seventeenth-century Catalan prints. Trained on 165,096 words (22,219 lines), it achieves an error rate of 3.41%. It produces normalized versions of early texts, optimizing their reading and philological analysis."
 
 
 
@@ -857,7 +903,9 @@ publications:
     isbn:
     url: "https://doi.org/10.5565/rev/anuariolopedevega.530"
     thumbnail: "/assets/images/pubs/modernisa.jpg"
-    abstract: "Se presenta el primer uso de técnicas de PLN para modernizar automáticamente textos del Siglo de Oro (ca. 1590–1680) hacia un español normalizado (RAE 2010). Mediante modelos transformadores entrenados con comedias, se obtiene un buen desempeño en dependencias contextuales y signos tipográficos, con limitaciones en nombres propios y variantes ortográficas. La herramienta demuestra un alto potencial para la filología y las humanidades digitales."
+    abstract:
+      es: "Se presenta el primer uso de técnicas de PLN para modernizar automáticamente textos del Siglo de Oro (ca. 1590–1680) hacia un español normalizado (RAE 2010). Mediante modelos transformadores entrenados con comedias, se obtiene un buen desempeño en dependencias contextuales y signos tipográficos, con limitaciones en nombres propios y variantes ortográficas. La herramienta demuestra un alto potencial para la filología y las humanidades digitales."
+      en: "The article presents the first use of NLP techniques to automatically modernize Spanish Golden Age texts (ca. 1590–1680) into normalized Spanish (RAE 2010). Using transformer models trained on comedias, it achieves good performance with contextual dependencies and typographical signs, with limitations regarding proper names and spelling variants. The tool shows strong potential for philology and the digital humanities."
     cited_by:
     
       - "Bengoetxea, Jaione, Itziar Gonzalez-Dios, and Rodrigo Agerri. “Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants.” arXiv preprint arXiv:2506.15239, 2025."
@@ -886,7 +934,9 @@ publications:
     isbn:
     url: "https://www.academia.edu/122478284/Querido_Germ%C3%A1n_un_experimento_estilom%C3%A9trico_sobre_el_tama%C3%B1o_de_los_textos_en_un_corpus_de_correspondencia_digital"
     thumbnail: "/assets/images/pubs/german.png"
-    abstract: "El capítulo presenta un experimento estilométrico sobre la correspondencia digital entre Álvaro Cuéllar y Germán Vega, con el objetivo de comprobar si la estilometría puede identificar la autoría de mensajes breves. A pesar de la reducida extensión de los correos, los resultados muestran una notable capacidad clasificatoria de ciertos algoritmos de inteligencia artificial aplicados al estilo individual."
+    abstract:
+      es: "El capítulo presenta un experimento estilométrico sobre la correspondencia digital entre Álvaro Cuéllar y Germán Vega, con el objetivo de comprobar si la estilometría puede identificar la autoría de mensajes breves. A pesar de la reducida extensión de los correos, los resultados muestran una notable capacidad clasificatoria de ciertos algoritmos de inteligencia artificial aplicados al estilo individual."
+      en: "The chapter presents a stylometric experiment on the digital correspondence between Álvaro Cuéllar and Germán Vega, aimed at testing whether stylometry can identify the authorship of short messages. Despite the limited length of the emails, the results show a notable classificatory capacity in certain artificial-intelligence algorithms applied to individual style."
 
     
 
@@ -906,7 +956,9 @@ publications:
     isbn: "978-84-9192-322-5"
     url: "https://www.academia.edu/114162230/El_periodo_final_de_la_dramaturgia_moretiana_1655_1699_Apuntes_desde_la_estilometr%C3%ADa"
     thumbnail: "/assets/images/pubs/moreto.png"
-    abstract: "El capítulo examina la etapa final de la producción dramática de Agustín Moreto (1655–1659) mediante análisis estilométricos. A partir del estudio cuantitativo del léxico y los patrones autorales, se exploran rasgos que distinguen este periodo tardío y su relación con la influencia calderoniana. Disponible también en la editorial Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."
+    abstract:
+      es: "El capítulo examina la etapa final de la producción dramática de Agustín Moreto (1655–1659) mediante análisis estilométricos. A partir del estudio cuantitativo del léxico y los patrones autorales, se exploran rasgos que distinguen este periodo tardío y su relación con la influencia calderoniana. Disponible también en la editorial Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."
+      en: "The chapter examines the final stage of Agustín Moreto's dramatic production (1655–1659) through stylometric analyses. Based on the quantitative study of vocabulary and authorial patterns, it explores features that distinguish this late period and its relationship with Calderonian influence. Also available from Iberoamericana Vervuert: https://www.iberoamericana-vervuert.es/BuscaTotal.aspx?C1=%C3%A9gida."
 
     
      
@@ -920,7 +972,9 @@ publications:
     isbn: "9788424940621"
     url: "https://www.rbalibros.com/gredos/la-francesa-laura_7132"
     thumbnail: "/assets/images/pubs/francesalibro.png"
-    abstract: "Edición crítica de la comedia La francesa Laura, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
+    abstract:
+      es: "Edición crítica de la comedia La francesa Laura, atribuida a Lope de Vega. La publicación, realizada en la prestigiosa editorial RBA - Gredos, ha tenido un notable impacto tanto en el ámbito académico como en la sociedad, consolidando la autoría propuesta y difundiendo los resultados de la investigación estilométrica y filológica."
+      en: "Critical edition of the comedy La francesa Laura, attributed to Lope de Vega. Published by the prestigious RBA - Gredos imprint, it has had a notable impact both in academia and society, consolidating the proposed authorship and disseminating the results of stylometric and philological research."
     cited_by:
 
 
@@ -951,7 +1005,9 @@ publications:
     isbn:
     url: "https://doi.org/10.13023/etd.2022.428"
     thumbnail: "/assets/images/pubs/tesis.png"
-    abstract: "La tesis desarrolla métodos de inteligencia artificial y estilometría para analizar la autoría y cronología de las comedias de Lope de Vega. A partir de un corpus de miles de textos, propone nuevas atribuciones y dataciones automáticas, demostrando la eficacia de los modelos computacionales en la investigación filológica."
+    abstract:
+      es: "La tesis desarrolla métodos de inteligencia artificial y estilometría para analizar la autoría y cronología de las comedias de Lope de Vega. A partir de un corpus de miles de textos, propone nuevas atribuciones y dataciones automáticas, demostrando la eficacia de los modelos computacionales en la investigación filológica."
+      en: "The dissertation develops artificial-intelligence and stylometric methods to analyze the authorship and chronology of Lope de Vega's plays. Based on a corpus of thousands of texts, it proposes new attributions and automatic datings, demonstrating the effectiveness of computational models in philological research."
     cited_by:
   
 
@@ -1028,7 +1084,9 @@ publications:
     year: "2022–actualidad"
     url: "http://istae.uv.es"
     thumbnail: "/assets/images/pubs/istae.png"
-    abstract: "Base de datos integrada del teatro clásico español que reúne y describe los impresos sueltos teatrales del Siglo de Oro. ISTAE centraliza información dispersa en diversos catálogos y archivos, facilitando la consulta y el estudio del patrimonio teatral áureo mediante recursos digitales abiertos."
+    abstract:
+      es: "Base de datos integrada del teatro clásico español que reúne y describe los impresos sueltos teatrales del Siglo de Oro. ISTAE centraliza información dispersa en diversos catálogos y archivos, facilitando la consulta y el estudio del patrimonio teatral áureo mediante recursos digitales abiertos."
+      en: "Integrated database of Spanish classical theatre that gathers and describes loose theatrical prints from the Spanish Golden Age. ISTAE centralizes information scattered across various catalogues and archives, facilitating consultation and study of Golden Age theatrical heritage through open digital resources."
     
     cited_by:
       - "Casariego Castiñeira, Paula. “Los impresos sueltos teatrales del tomo CD.122.514 de la Biblioteca Nacional Universitaria de Estrasburgo: noticia bibliográfica.” Janus, núm. 14, 2025."
@@ -1049,7 +1107,9 @@ publications:
     year: "2022–actualidad"
     url: "https://etso.es/texoro"
     thumbnail: "/assets/images/pubs/texoro.png"
-    abstract: "Sistema de búsqueda en abierto del corpus del teatro del Siglo de Oro, compuesto por más de 3.000 obras y 400 dramaturgos, con un total de 37 millones de palabras. Es utilizado diariamente por especialistas para realizar consultas lingüísticas y filológicas."
+    abstract:
+      es: "Sistema de búsqueda en abierto del corpus del teatro del Siglo de Oro, compuesto por más de 3.000 obras y 400 dramaturgos, con un total de 37 millones de palabras. Es utilizado diariamente por especialistas para realizar consultas lingüísticas y filológicas."
+      en: "Open-access search system for the corpus of Spanish Golden Age theatre, comprising more than 3,000 works and 400 playwrights, with a total of 37 million words. It is used daily by specialists for linguistic and philological queries."
  
     cited_by:
 
@@ -1245,7 +1305,9 @@ publications:
 
     url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Modelo de IA entrenado con 3.250.116 palabras capaz de transcribir y modernizar manuscritos del Siglo de Oro español con un 90,8 % de acierto. Recurso ampliamente utilizado por la comunidad académica y citado en al menos cuatro publicaciones."
+    abstract:
+      es: "Modelo de IA entrenado con 3.250.116 palabras capaz de transcribir y modernizar manuscritos del Siglo de Oro español con un 90,8 % de acierto. Recurso ampliamente utilizado por la comunidad académica y citado en al menos cuatro publicaciones."
+      en: "AI model trained on 3,250,116 words, capable of transcribing and modernizing Spanish Golden Age manuscripts with 90.8% accuracy. A resource widely used by the academic community and cited in at least four publications."
     
     cited_by:
     
@@ -1292,7 +1354,9 @@ publications:
 
     url: "https://readcoop.eu/model/spanish-golden-age-theatre-prints-spelling-modernization-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Modelo entrenado con 2.757.908 palabras capaz de transcribir y modernizar impresos del Siglo de Oro español con un 96,90 % de acierto. Está disponible para la comunidad investigadora y se utiliza de forma generalizada en proyectos de transcripción de archivos y bibliotecas."
+    abstract:
+      es: "Modelo entrenado con 2.757.908 palabras capaz de transcribir y modernizar impresos del Siglo de Oro español con un 96,90 % de acierto. Está disponible para la comunidad investigadora y se utiliza de forma generalizada en proyectos de transcripción de archivos y bibliotecas."
+      en: "Model trained on 2,757,908 words, capable of transcribing and modernizing Spanish Golden Age prints with 96.90% accuracy. It is available to the research community and widely used in archival and library transcription projects."
 
     cited_by:
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."    
@@ -1324,7 +1388,9 @@ publications:
 
     url: "https://readcoop.eu/model/spanish-golden-age-prints-1-0/"
     thumbnail: "/assets/images/pubs/model.png"
-    abstract: "Modelo de inteligencia artificial entrenado con 74.000 palabras, capaz de transcribir de forma paleográfica impresos del Siglo de Oro español con un 99,09 % de acierto. Disponible públicamente y ampliamente utilizado para la transcripción de archivos y bibliotecas."
+    abstract:
+      es: "Modelo de inteligencia artificial entrenado con 74.000 palabras, capaz de transcribir de forma paleográfica impresos del Siglo de Oro español con un 99,09 % de acierto. Disponible públicamente y ampliamente utilizado para la transcripción de archivos y bibliotecas."
+      en: "Artificial-intelligence model trained on 74,000 words, capable of paleographically transcribing Spanish Golden Age prints with 99.09% accuracy. Publicly available and widely used for the transcription of archives and libraries."
 
     cited_by:
 
@@ -1363,7 +1429,9 @@ publications:
     isbn:
     url: "https://doi.org/10.5209/tret.74021"
     thumbnail: "/assets/images/pubs/discernir.png"
-    abstract: "Se aplica un protocolo estilométrico para distinguir entre original y refundición en El mejor amigo, el muerto, obra transmitida en dos versiones. El análisis sugiere que la versión manuscrita atribuida a Belmonte, Rojas y Calderón corresponde al texto original y que la segunda jornada fue escrita por Francisco de Rojas Zorrilla."
+    abstract:
+      es: "Se aplica un protocolo estilométrico para distinguir entre original y refundición en El mejor amigo, el muerto, obra transmitida en dos versiones. El análisis sugiere que la versión manuscrita atribuida a Belmonte, Rojas y Calderón corresponde al texto original y que la segunda jornada fue escrita por Francisco de Rojas Zorrilla."
+      en: "A stylometric protocol is applied to distinguish between original and reworking in El mejor amigo, el muerto, a play transmitted in two versions. The analysis suggests that the manuscript version attributed to Belmonte, Rojas, and Calderón corresponds to the original text, and that the second jornada was written by Francisco de Rojas Zorrilla."
     
     cited_by:
 
@@ -1431,7 +1499,9 @@ publications:
     pages: "301–320"
     url: "https://acortar.link/AjIJVS"
     thumbnail: "/assets/images/pubs/cruzada.png"
-    abstract: "El artículo analiza los procesos informáticos más adecuados para la atribución de autoría mediante técnicas computacionales, y propone una implementación práctica de la validación cruzada en el entorno de R y el paquete Stylo."
+    abstract:
+      es: "El artículo analiza los procesos informáticos más adecuados para la atribución de autoría mediante técnicas computacionales, y propone una implementación práctica de la validación cruzada en el entorno de R y el paquete Stylo."
+      en: "The article analyzes the most suitable computational procedures for authorship attribution using computational techniques, and proposes a practical implementation of cross-validation in R and the Stylo package."
 
     cited_by:
 
@@ -1452,7 +1522,9 @@ publications:
     year: "2017–actualidad"
     url: "https://etso.es/cetso"
     thumbnail: "/assets/images/pubs/cetso.png"
-    abstract: "CETSO es el corpus base de ETSO, con unas 3.000 obras teatrales del Siglo de Oro modernizadas y normalizadas para análisis estilométricos. Reúne textos públicos, de investigación y transcritos automáticamente con Transkribus. Constituye el mayor corpus comparativo del teatro aurisecular en lengua española."
+    abstract:
+      es: "CETSO es el corpus base de ETSO, con unas 3.000 obras teatrales del Siglo de Oro modernizadas y normalizadas para análisis estilométricos. Reúne textos públicos, de investigación y transcritos automáticamente con Transkribus. Constituye el mayor corpus comparativo del teatro aurisecular en lengua española."
+      en: "CETSO is ETSO's base corpus, with around 3,000 Spanish Golden Age plays modernized and normalized for stylometric analysis. It brings together public, research, and automatically transcribed texts produced with Transkribus. It constitutes the largest comparative corpus of early modern Spanish theatre in Spanish."
 
 
     cited_by:
@@ -1553,7 +1625,9 @@ publications:
     year: "2017–actualidad"
     url: "https://etso.es/"
     thumbnail: "/assets/images/pubs/etso.png"
-    abstract: "Portal digital que ofrece en abierto los análisis estilométricos de más de 3.000 obras del teatro del Siglo de Oro. Es el proyecto al que el autor ha dedicado más tiempo en los últimos años y se ha consolidado como uno de los recursos más utilizados por los investigadores del ámbito áureo."
+    abstract:
+      es: "Portal digital que ofrece en abierto los análisis estilométricos de más de 3.000 obras del teatro del Siglo de Oro. Es el proyecto al que el autor ha dedicado más tiempo en los últimos años y se ha consolidado como uno de los recursos más utilizados por los investigadores del ámbito áureo."
+      en: "Digital portal that provides open access to stylometric analyses of more than 3,000 Spanish Golden Age plays. It is the project to which the author has devoted the most time in recent years and has become one of the most widely used resources among researchers in the field."
 
 
 
