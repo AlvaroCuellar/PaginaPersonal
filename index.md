@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /
+robots: noindex,follow
+sitemap: false
 ---
 
 <script>

@@ -4,8 +4,14 @@ timezone: Europe/Madrid
 permalink: pretty
 
 # GitHub Pages configuration
-url: "https://alvarocuellar.com"
+url: "https://www.alvarocuellar.com"
 baseurl: ""
+
+defaults:
+  - scope:
+      path: "google3b03c4a42fe99cea.html"
+    values:
+      sitemap: false
 
 markdown: kramdown
 highlighter: rouge
@@ -26,4 +32,3 @@ scholar:
   details_link: Details
 
   query: "@*"
-

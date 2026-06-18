@@ -11,7 +11,7 @@
 <meta name="description" content="{{ page.description | default: site.description | default: default_description }}" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-<meta name="robots" content="index,follow" />
+<meta name="robots" content="{{ page.robots | default: 'index,follow' }}" />
 <meta name="keywords" content="Álvaro Cuéllar, Inteligencia Artificial, Humanidades Digitales, Estilometría, Teatro del Siglo de Oro, Lope de Vega, Transcripción automática, Datación automática, UAB, Patrimonio literario" />
 <meta name="author" content="Álvaro Cuéllar" />
 <meta name="theme-color" content="#0b132b" />
@@ -83,38 +83,65 @@
       "url": "{{ site.url }}/",
       "name": "Álvaro Cuéllar",
       "description": {{ (page.description | default: site.description | default: default_description) | jsonify }},
-      "inLanguage": "es",
+      "inLanguage": "{{ page.lang | default: 'es' }}",
       "publisher": { "@id": "{{ site.url }}/#person" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "{{ absolute_url }}#profilepage",
+      "url": "{{ absolute_url }}",
+      "name": "Álvaro Cuéllar",
+      "description": {{ (page.description | default: site.description | default: default_description) | jsonify }},
+      "inLanguage": "{{ page.lang | default: 'es' }}",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "mainEntity": { "@id": "{{ site.url }}/#person" }
     },
     {
       "@type": "Person",
       "@id": "{{ site.url }}/#person",
       "name": "Álvaro Cuéllar",
-      "alternateName": "Álvaro Cuéllar González",
-      "jobTitle": "Investigador postdoctoral Juan de la Cierva",
+      "alternateName": [
+        "Álvaro Cuéllar González",
+        "Alvaro Cuellar Gonzalez",
+        "Alvaro Cuellar"
+      ],
+      "honorificPrefix": "Dr.",
+      "jobTitle": "{{ site.data.personal.position.es }}",
       "affiliation": {
-        "@type": "Organization",
-        "name": "Universitat Autònoma de Barcelona"
+        "@type": "CollegeOrUniversity",
+        "name": "{{ site.data.personal.affiliation }}",
+        "url": "https://www.uab.cat/"
+      },
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "{{ site.data.personal.affiliation }}",
+        "url": "https://www.uab.cat/"
       },
       "email": "mailto:alvaro.cuellar@uab.cat",
       "image": "{{ og_image_abs }}",
       "url": "{{ site.url }}/",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-9934-6321",
+          "url": "https://orcid.org/0000-0002-9934-6321"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Google Scholar",
+          "value": "WQeGPf4AAAAJ",
+          "url": "https://scholar.google.com/citations?user=WQeGPf4AAAAJ"
+        }
+      ],
       "sameAs": [
-        "https://scholar.google.es/citations?user=WQeGPf4AAAAJ",
+        "https://scholar.google.com/citations?user=WQeGPf4AAAAJ",
         "https://orcid.org/0000-0002-9934-6321",
         "https://uab.academia.edu/ÁlvaroCuéllar",
-        "https://x.com/AlvaroCuellarDH"
+        "https://x.com/AlvaroCuellarDH",
+        "https://portalrecerca.uab.cat/en/persons/alvaro-cuellar-gonzalez/"
       ],
-      "knowsAbout": [
-        "Inteligencia Artificial",
-        "Humanidades Digitales",
-        "Estilometría",
-        "Teatro del Siglo de Oro",
-        "Transcripción automática",
-        "Datación automática",
-        "Detección de copistas",
-        "Patrimonio literario"
-      ]
+      "knowsAbout": {{ site.data.personal.interests.es | jsonify }}
     }
   ]
 }
@@ -132,4 +159,3 @@
 <!-- Prefetch del idioma opuesto para cambiar rápido entre ES/EN -->
 <link rel="prefetch" href="{{ site.url }}/en/" as="document" />
 <link rel="prefetch" href="{{ site.url }}/es/" as="document" />
-
