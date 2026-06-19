@@ -121,6 +121,7 @@ publications:
       es: "Se han entrenado, mediante inteligencia artificial y técnicas de HTR (Transkribus), tres modelos públicos capaces de transcribir y modernizar textos teatrales del Siglo de Oro con alta precisión (≈97 % en impresos, 91 % en manuscritos). Gracias a ellos se han procesado unas 1.300 obras, integradas en los proyectos ETSO y TEXORO, que proporcionan una base sólida para la edición filológica y los estudios estilométricos de autoría."
       en: "Using artificial intelligence and HTR techniques (Transkribus), three public models were trained to transcribe and modernize Spanish Golden Age theatrical texts with high accuracy (approximately 97% for prints and 91% for manuscripts). They enabled the processing of around 1,300 plays, integrated into the ETSO and TEXORO projects, providing a solid basis for philological editing and stylometric authorship studies."
     cited_by:
+      - "Vega Sánchez, Rodrigo; Favila Vázquez, Mariana; Trejo Rivera, Flor; et al. “Navegando en tres siglos de historia socioeconómica marítima con ayuda de la Inteligencia Artificial: el proyecto Flotas de la Nueva España.” CLIP de SEDIC: Revista de la Sociedad Española de Documentación e Información Científica, núm. 93, 2026. DOI: 10.47251/clip.n93.195."
     
 
       - "Alshwiah, A. A. “The Role of Artificial Intelligence (AI) in Assisting Students with Writing Zoom Meeting Minutes: A Qualitative Study.” Cogent Education, vol. 13, núm. 1, 2026."
@@ -407,6 +408,7 @@ publications:
       es: "Supermodelo de inteligencia artificial que unifica todos los modelos anteriores para la transcripción de textos en español, tanto impresos como manuscritos de cualquier época. Entrenado con 11 millones de palabras y una precisión del 96 %. Coordinado por Álvaro Cuéllar, reúne materiales de distintos equipos académicos y representa un hito en el tratamiento de archivos y bibliotecas hispanas."
       en: "An artificial-intelligence supermodel that unifies all previous models for the transcription of Spanish texts, both printed and manuscript, from any period. Trained on 11 million words with 96% accuracy. Coordinated by Álvaro Cuéllar, it brings together materials from different academic teams and represents a milestone for the processing of Hispanic archives and libraries."
     cited_by:
+      - "Vega Sánchez, Rodrigo; Favila Vázquez, Mariana; Trejo Rivera, Flor; et al. “Navegando en tres siglos de historia socioeconómica marítima con ayuda de la Inteligencia Artificial: el proyecto Flotas de la Nueva España.” CLIP de SEDIC: Revista de la Sociedad Española de Documentación e Información Científica, núm. 93, 2026. DOI: 10.47251/clip.n93.195."
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."      
       - "Torterolo-Orta, Yanco Amor, et al. “Transcribing Spanish Texts from the Past: Experiments with Transkribus, Tesseract and Granite.” arXiv preprint arXiv:2507.04878, 2025."
       - "Cleofe, Edward Arellano. “Close Textual Analysis, Close Skeletal Analysis: Postcolonial Hybridity Approaches to Administrative & Clerical Document Content Analysis and Osteobiographies of Care of Early Modern Period Spanish Colonialism in Camarines, Bicol, Philippines.” PhD dissertation, University of California, Los Angeles, 2025."
@@ -2194,7 +2196,6 @@ publications:
 
 
       - "Cavadas Docampo, Miguel. Estrategias de atribución automática de autoría aplicadas al teatro de Tirso de Molina. Dir. Pablo Gamallo Otero. Universidade de Santiago de Compostela, 2018. Traballo de Fin de Grao en Lingua e Literatura Españolas."
-
 
 
 
