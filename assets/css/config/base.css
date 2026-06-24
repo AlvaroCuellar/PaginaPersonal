@@ -18,6 +18,27 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
     direction: ltr;
 }
 
+html[dir="rtl"] body,
+html[dir="rtl"] div,
+html[dir="rtl"] dl,
+html[dir="rtl"] dt,
+html[dir="rtl"] dd,
+html[dir="rtl"] ul,
+html[dir="rtl"] ol,
+html[dir="rtl"] li,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] form,
+html[dir="rtl"] blockquote,
+html[dir="rtl"] th,
+html[dir="rtl"] td {
+    direction: rtl;
+}
+
 body {
     margin: 0;
     padding: 0;
