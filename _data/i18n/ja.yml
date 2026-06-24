@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "完全な履歴書"
+project_button: "プロジェクトを見る"
+show_more_projects: "さらにプロジェクトを表示"
+show_less_projects: "表示するプロジェクトの数を減らす"
+show_more_publications: "さらに出版物を表示する"
+show_less_publications: "出版物の表示を減らす"
+show_more_talks: "さらにトークを表示"
+show_less_talks: "トークの表示を減らす"
+show_more_outreach: "もっと見る"
+show_less_outreach: "表示を少なくする"
+featured_label: "注目の"
+
+
+# Talks section titles
+featured_talks_title: "注目の講演"
+all_talks_title: "すべてのトーク"
+carousel_scroll_hint: "もっと見る"
+swipe_hint: "スワイプしてもっと見る"
+
+# Publications section titles
+featured_publications_title: "注目の出版物"
+all_publications_title: "すべての出版物"
+
+# Types
+# Talk types
+talk_types:
+  invited: "招待講演"
+  communication: "口頭コミュニケーション"
+  plenary: "全体講演"
+  panel: "パネル"
+  poster: "ポスター"
+  workshop: "ワークショップ"
+  keynote: "基調"
+
+# Press types
+press_types:
+  news: "ニュース"
+
+# Outreach types
+outreach_types:
+  article: "記事"
+  tv: "テレビ"
+  interview: "インタビュー"
+  radio: "無線"
+access_text: "アクセス"
+view_citations: "引用を見る"
+citations: "引用"
+total_citations: "総引用数"
+cited_by_title: "引用者"
+abstract_label: "抽象的な"
+view_achievements: "実績を見る"
+hide_achievements: "実績を非表示にする"
+toggle_achievements: "実績の切り替え"
+
+# Publication types
+publication_types:
+  article: "記事"
+  incollection: "本の章"
+  inproceedings: "議事録"
+  inbook: "章"
+  book: "本"
+  phdthesis: "博士論文"
+  mastersthesis: "修士論文"
+  inpress: "プレス中"
+  techreport: "テクニカルレポート"
+  misc: "その他"
+  proceedings: "議事録"
+  manual: "マニュアル"
+  booklet: "冊子"
+  model: "モデル"
+  project: "プロジェクト"
+
+# Publication text
+publication_text:
+  in: "で"
+
+# Month names
+months:
+  january: "1月"
+  february: "2月"
+  march: "3月"
+  april: "4月"
+  may: "5月"
+  june: "6月"
+  july: "7月"
+  august: "8月"
+  september: "9月"
+  october: "10月"
+  november: "11月"
+  december: "12月"
+
+# Outreach section
+outreach:
+  more_title: "その他の記事とメディア"
+  read: "読む"
+  watch: "時計"
+  listen: "聞く"
+language_selector: 言語セレクター
+read_article: 記事を読む

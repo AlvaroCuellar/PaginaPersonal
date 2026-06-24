@@ -17,14 +17,41 @@
 section_title:
   es: "Divulgación"
   en: "Outreach"
+  fr: Sensibilisation
+  pt: Divulgação
+  it: Sensibilizzazione
+  de: Reichweite
+  zh: 外展
+  ja: アウトリーチ
+  ko: 쭉 내밀다
+  ru: Информационно-пропагандистская деятельность
+  ar: التوعية
 url_slug:
   es: "divulgacion"
   en: "outreach"
+  fr: "vulgarisation"
+  pt: "divulgacao"
+  it: "divulgazione"
+  de: "wissenschaftskommunikation"
+  zh: "outreach"
+  ja: "outreach"
+  ko: "outreach"
+  ru: "outreach"
+  ar: "outreach"
 subtitle:
   es: "Comunicación científica"
   en: "Scientific Communication"
 
 # Elementos destacados (se mostrarán en el carrusel principal)
+  fr: Communication scientifique
+  pt: Comunicação Científica
+  it: Comunicazione scientifica
+  de: Wissenschaftliche Kommunikation
+  zh: 科学传播
+  ja: 科学コミュニケーション
+  ko: 과학 커뮤니케이션
+  ru: Научная коммуникация
+  ar: التواصل العلمي
 featured_ids:
 
 # Artículos y contenido de divulgación
@@ -35,12 +62,30 @@ items:
     title:
       es: "Filología Artificial"
       en: "Artificial Philology"
+      fr: Philologie artificielle
+      pt: Filologia Artificial
+      it: Filologia artificiale
+      de: Künstliche Philologie
+      zh: 人工语言学
+      ja: 人工言語学
+      ko: 인공 언어학
+      ru: Искусственная филология
+      ar: فقه اللغة الاصطناعية
     type: "article"
     medium: "Revista La Pluma"
     date: "2024-01-01"
     description:
       es: "Artículo de divulgación sobre cómo la inteligencia artificial está transformando la Filología del Siglo de Oro. Explora su aplicación en la atribución de autorías, la datación automática y la lectura de manuscritos mediante herramientas computacionales."
       en: "Outreach article on how artificial intelligence is transforming Golden Age Philology. It explores its use in authorship attribution, automatic dating, and the reading of manuscripts through computational tools."
+      fr: Article de sensibilisation sur la façon dont l'intelligence artificielle transforme la philologie de l'âge d'or. Il explore son utilisation dans l'attribution de la paternité, la datation automatique et la lecture de manuscrits au moyen d'outils informatiques.
+      pt: Artigo de divulgação sobre como a inteligência artificial está transformando a filologia da Idade de Ouro. Explora seu uso na atribuição de autoria, na datação automática e na leitura de manuscritos por meio de ferramentas computacionais.
+      it: Articolo di divulgazione su come l'intelligenza artificiale sta trasformando la filologia dell'età dell'oro. Ne esplora l'uso nell'attribuzione della paternità, nella datazione automatica e nella lettura di manoscritti attraverso strumenti computazionali.
+      de: Outreach-Artikel darüber, wie künstliche Intelligenz die Philologie des Goldenen Zeitalters verändert. Es untersucht seinen Einsatz bei der Urheberschaftszuordnung, der automatischen Datierung und dem Lesen von Manuskripten mithilfe von Computertools.
+      zh: 关于人工智能如何改变黄金时代文献学的科普文章。它探讨了人工智能在作者归属、自动断代以及通过计算工具阅读手稿方面的应用。
+      ja: 人工知能が黄金時代の文献学をどのように変革するかについてのアウトリーチ記事。著者の帰属、自動年代測定、計算ツールによる原稿の読み取りにおけるその使用法を調査します。
+      ko: 인공 지능이 황금 시대 문헌학을 어떻게 변화시키고 있는지에 대한 홍보 기사입니다. 저자 귀속, 자동 연대 측정, 계산 도구를 통한 원고 판독에서의 사용을 탐구합니다.
+      ru: Информационная статья о том, как искусственный интеллект меняет филологию Золотого века. В нем исследуется его использование для установления авторства, автоматического датирования и чтения рукописей с помощью вычислительных инструментов.
+      ar: مقالة توعية حول كيفية قيام الذكاء الاصطناعي بتحويل فقه اللغة في العصر الذهبي. ويستكشف استخدامه في إسناد التأليف، والتأريخ التلقائي، وقراءة المخطوطات من خلال الأدوات الحسابية.
     url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
     image: "/assets/images/outreach/pluma.jpg"
 
@@ -48,12 +93,30 @@ items:
     title:
       es: "Al Puro Estilo Delacroix"
       en: "In True Delacroix Style"
+      fr: Dans le plus pur style Delacroix
+      pt: No verdadeiro estilo Delacroix
+      it: Nel vero stile Delacroix
+      de: Im wahren Delacroix-Stil
+      zh: 真正的德拉克洛瓦风格
+      ja: 真のドラクロワスタイルで
+      ko: 진정한 들라크루아 스타일
+      ru: В истинном стиле Делакруа
+      ar: بأسلوب ديلاكروا الحقيقي
     type: "article"
     medium: "Revista La Pluma"
     date: "2025-12-16"
     description:
       es: "Artículo de divulgación sobre la autonomía técnica que la inteligencia artificial generativa abre para la investigación humanística. Presenta ejemplos recientes en la Biblioteca Digital Prolope, TEXORO y Thal-IA."
       en: "Outreach article on the technical autonomy that generative artificial intelligence opens up for humanities research. It presents recent examples from Biblioteca Digital Prolope, TEXORO, and Thal-IA."
+      fr: Article de sensibilisation sur l'autonomie technique qu'offre l'intelligence artificielle générative à la recherche en sciences humaines. Il présente des exemples récents de Biblioteca Digital Prolope, TEXORO et Thal-IA.
+      pt: Artigo de divulgação sobre a autonomia técnica que a inteligência artificial generativa abre para a pesquisa em humanidades. Apresenta exemplos recentes da Biblioteca Digital Prolope, TEXORO e Thal-IA.
+      it: Articolo di divulgazione sull'autonomia tecnica che l'intelligenza artificiale generativa offre alla ricerca umanistica. It presents recent examples from Biblioteca Digital Prolope, TEXORO, and Thal-IA.
+      de: Outreach-Artikel über die technische Autonomie, die generative künstliche Intelligenz der geisteswissenschaftlichen Forschung eröffnet. Es präsentiert aktuelle Beispiele von Biblioteca Digital Prolope, TEXORO und Thal-IA.
+      zh: 关于生成人工智能为人文研究开辟的技术自主权的外展文章。它介绍了 Biblioteca Digital Prolope、TEXORO 和 Thal-IA 的最新示例。
+      ja: 生成人工知能が人文科学研究に切り開く技術的自律性に関するアウトリーチ記事。 Biblioteca Digital Prolope、TEXORO、および Thal-IA の最近の例を紹介します。
+      ko: 생성 인공 지능이 인문학 연구에 열어주는 기술적 자율성에 대한 홍보 기사입니다. Biblioteca Digital Prolope, TEXORO 및 Thal-IA의 최근 사례를 소개합니다.
+      ru: Информационная статья о технической автономии, которую генеративный искусственный интеллект открывает для гуманитарных исследований. В нем представлены недавние примеры от Biblioteca Digital Prolope, TEXORO и Thal-IA.
+      ar: مقالة توعية حول الاستقلال الفني الذي يفتحه الذكاء الاصطناعي التوليدي لأبحاث العلوم الإنسانية. ويعرض أمثلة حديثة من Biblioteca Digital Prolope وTEXORO وThal-IA.
     url: "https://revistalapluma.com/lapluma_articulos/al-puro-estilo-delacroix/"
     image: "/assets/images/outreach/delacroix.png"
 
@@ -61,12 +124,30 @@ items:
     title:
       es: "Lo que aún esconde Lope de Vega"
       en: "What Lope de Vega Still Hides"
+      fr: Ce que cache encore Lope de Vega
+      pt: O que Lope de Vega ainda esconde
+      it: Ciò che Lope de Vega nasconde ancora
+      de: Was Lope de Vega immer noch verbirgt
+      zh: 洛普·德·维加仍然隐藏着什么
+      ja: ロペ・デ・ベガがまだ隠しているもの
+      ko: 로페 데 베가가 아직도 숨기고 있는 것
+      ru: Что еще скрывает Лопе де Вега
+      ar: ما لا يزال يخفيه لوبي دي فيغا
     type: "tv"
     medium: "Informe Semanal — RTVE"
     date: "2024-04-21"
     description:
       es: "Reportaje emitido en Informe Semanal sobre el uso de inteligencia artificial y fotografía espectral para investigar los manuscritos autógrafos de Lope de Vega. Con la participación de Sònia Boadas y Álvaro Cuéllar (UAB)."
       en: "Feature aired on Informe Semanal about the use of artificial intelligence and spectral imaging to study Lope de Vega’s autograph manuscripts. Featuring Sònia Boadas and Álvaro Cuéllar (UAB)."
+      fr: Reportage diffusé sur Informe Semanal sur l'utilisation de l'intelligence artificielle et de l'imagerie spectrale pour étudier les manuscrits autographes de Lope de Vega. Avec Sònia Boadas et Álvaro Cuéllar (UAB).
+      pt: Reportagem veiculada no Informe Semanal sobre o uso de inteligência artificial e imagens espectrais para estudar os manuscritos autógrafos de Lope de Vega. Apresentando Sònia Boadas e Álvaro Cuéllar (UAB).
+      it: Servizio trasmesso su Informe Semanal sull'uso dell'intelligenza artificiale e dell'imaging spettrale per studiare i manoscritti autografi di Lope de Vega. Con Sònia Boadas e Álvaro Cuéllar (UAB).
+      de: Auf Informe Semanal wurde ein Beitrag über den Einsatz von künstlicher Intelligenz und Spektralbildgebung zur Untersuchung der Autogrammmanuskripte von Lope de Vega ausgestrahlt. Mit Sònia Boadas und Álvaro Cuéllar (UAB).
+      zh: Informe Semanal 播出了有关使用人工智能和光谱成像来研究洛普·德·维加 (Lope de Vega) 亲笔手稿的专题报道。其中收录有 Sònia Boadas 和 Álvaro Cuéllar (UAB) 的作品。
+      ja: ロペ・デ・ベガのサイン原稿を研究するための人工知能とスペクトルイメージングの使用に関する特集がInforme Semanalで放映されました。ソニア・ボアダスとアルバロ・クエヤル（UAB）が出演。
+      ko: Lope de Vega의 사인 원고를 연구하기 위해 인공 지능과 스펙트럼 이미징을 사용하는 방법에 대해 Informe Semanal에서 방송되었습니다. Sònia Boadas와 Álvaro Cuéllar(UAB)가 출연합니다.
+      ru: На канале Informe Semanal был показан материал об использовании искусственного интеллекта и спектральной визуализации для изучения рукописей с автографами Лопе де Веги. В ролях Соня Боадас и Альваро Куэльяр (UAB).
+      ar: تم بث ميزة على قناة Informe Semanal حول استخدام الذكاء الاصطناعي والتصوير الطيفي لدراسة مخطوطات توقيع لوبي دي فيغا. يضم سونيا بواداس وألفارو كويلار (UAB).
     url: "https://www.rtve.es/play/videos/informe-semanal/aun-esconde-lope/16069618/"
     image: "/assets/images/outreach/lope.png"
 
@@ -75,12 +156,30 @@ items:
     title:
       es: "Entrevista en la BBC"
       en: "Interview on the BBC"
+      fr: Interview sur la BBC
+      pt: Entrevista na BBC
+      it: Intervista alla BBC
+      de: Interview auf der BBC
+      zh: BBC 采访
+      ja: BBCのインタビュー
+      ko: BBC 인터뷰
+      ru: Интервью на BBC
+      ar: مقابلة على بي بي سي
     type: "radio"
     medium: "BBC Radio 4 — The World Tonight"
     date: "2023-02-01"
     description:
       es: "El prestigioso programa británico The World Tonight de BBC Radio 4 entrevistó a Álvaro Cuéllar (UAB) en un segmento dedicado a la recuperación de La francesa Laura. Se analiza cómo la inteligencia artificial permitió atribuir esta comedia inédita a Lope de Vega, dentro de un espacio de referencia internacional en periodismo cultural y científico."
       en: "BBC Radio 4’s prestigious current-affairs programme The World Tonight featured an interview with Álvaro Cuéllar (UAB) about the rediscovery of La francesa Laura. The segment explained how artificial intelligence helped attribute this lost play to Lope de Vega, within one of the UK’s leading programmes for cultural and scientific journalism."
+      fr: La prestigieuse émission d'actualité de BBC Radio 4, The World Tonight, a présenté une interview d'Álvaro Cuéllar (UAB) sur la redécouverte de La francesa Laura. Le segment expliquait comment l’intelligence artificielle avait contribué à attribuer cette pièce perdue à Lope de Vega, dans le cadre de l’un des principaux programmes britanniques de journalisme culturel et scientifique.
+      pt: O prestigiado programa de atualidades da BBC Radio 4, The World Tonight, apresentou uma entrevista com Álvaro Cuéllar (UAB) sobre a redescoberta de La francesa Laura. O segmento explicou como a inteligência artificial ajudou a atribuir esta peça perdida a Lope de Vega, dentro de um dos principais programas de jornalismo cultural e científico do Reino Unido.
+      it: Il prestigioso programma di attualità della BBC Radio 4, The World Tonight, ha presentato un'intervista con Álvaro Cuéllar (UAB) sulla riscoperta di La francesa Laura. Il segmento spiegava come l’intelligenza artificiale abbia contribuito ad attribuire questa opera perduta a Lope de Vega, all’interno di uno dei principali programmi del Regno Unito per il giornalismo culturale e scientifico.
+      de: In der prestigeträchtigen aktuellen Nachrichtensendung The World Tonight von BBC Radio 4 gab es ein Interview mit Álvaro Cuéllar (UAB) über die Wiederentdeckung von La Francesa Laura. Der Abschnitt erläuterte, wie künstliche Intelligenz dazu beitrug, dieses verlorene Stück Lope de Vega zuzuschreiben, im Rahmen eines der führenden Programme für Kultur- und Wissenschaftsjournalismus Großbritanniens.
+      zh: BBC 广播四台著名的时事节目《今夜世界》对阿尔瓦罗·奎利亚尔 (UAB) 进行了采访，内容涉及 La francesa Laura 的重新发现。该片段解释了人工智能如何帮助将这场失利归因于英国领先的文化和科学新闻项目之一的洛普·德·维加(Lope de Vega)。
+      ja: BBCラジオ4の権威ある時事番組「ザ・ワールド・トゥナイト」では、ラ・フランセサ・ローラの再発見についてアルバロ・クエヤル氏（UAB）のインタビューが特集された。このコーナーでは、英国を代表する文化的および科学的ジャーナリズム プログラムの 1 つにおいて、人工知能がこの失われたプレーをロペ デ ベガのせいにするのにどのように役立ったかを説明しました。
+      ko: BBC Radio 4의 명망 높은 시사 프로그램 The World Tonight에서는 La francesa Laura의 재발견에 관해 Álvaro Cuéllar(UAB)와의 인터뷰를 특집으로 다루었습니다. 이 세그먼트에서는 인공 지능이 영국의 문화 및 과학 저널리즘을 위한 주요 프로그램 중 하나인 Lope de Vega의 잃어버린 연극을 어떻게 귀속시키는 데 도움이 되었는지 설명했습니다.
+      ru: В престижной программе о текущих событиях BBC Radio 4 «Мир сегодня вечером» было опубликовано интервью с Альваро Куэльяром (UAB) о новом открытии «Французской Лауры». В этом сегменте объяснялось, как искусственный интеллект помог приписать эту утраченную пьесу Лопе де Веге в рамках одной из ведущих британских программ культурной и научной журналистики.
+      ar: تضمن برنامج الشؤون الجارية المرموق على راديو بي بي سي 4 The World Tonight مقابلة مع ألفارو كويلار (UAB) حول إعادة اكتشاف La francesa Laura. وأوضح هذا المقطع كيف ساعد الذكاء الاصطناعي في نسب هذه المسرحية المفقودة إلى لوبي دي فيغا، ضمن أحد البرامج الرائدة في المملكة المتحدة للصحافة الثقافية والعلمية.
     url: "https://www.podchaser.com/podcasts/the-world-tonight-56081/episodes/the-biggest-public-sector-stri-162316712/transcript"
     image: "/assets/images/outreach/bbc.jpg"
 
@@ -89,12 +188,30 @@ items:
     title:
       es: "Discovering a lost play by Lope de Vega: Álvaro Cuéllar"
       en: "Discovering a Lost Play by Lope de Vega: Álvaro Cuéllar"
+      fr: "À la découverte d'une pièce perdue de Lope de Vega: Álvaro Cuéllar"
+      pt: 'Descobrindo uma peça perdida de Lope de Vega: Álvaro Cuéllar'
+      it: "Alla scoperta di un'opera perduta di Lope de Vega: Álvaro Cuéllar"
+      de: 'Ein verlorenes Stück von Lope de Vega entdecken: Álvaro Cuéllar'
+      zh: 发现洛佩·德·维加遗失的戏剧：阿尔瓦罗·奎利亚尔
+      ja: ロペ・デ・ベガの失われた戯曲を発見：アルバロ・クエヤル
+      ko: 'Lope de Vega의 잃어버린 연극 발견: Álvaro Cuéllar'
+      ru: 'Обнаружение утраченной пьесы Лопе де Веги: Альваро Куэльяр'
+      ar: 'اكتشاف مسرحية ضائعة بقلم لوبي دي فيجا: ألفارو كويلار'
     type: "interview"
     medium: "Transkribus — Success Stories"
     date: "2023-02-01"
     description:
       es: "Entrevista publicada por el equipo de Transkribus sobre el hallazgo de La francesa Laura. Álvaro Cuéllar explica el proceso técnico y filológico que permitió atribuir la obra a Lope de Vega mediante herramientas de inteligencia artificial y estilometría dentro del proyecto ETSO."
       en: "Interview published by the Transkribus team about the discovery of La Francesa Laura. Álvaro Cuéllar explains the technical and philological process that led to the attribution of the play to Lope de Vega through artificial intelligence and stylometry within the ETSO project."
+      fr: Interview publiée par l'équipe Transkribus sur la découverte de La Francesa Laura. Álvaro Cuéllar explique le processus technique et philologique qui a conduit à l'attribution de la pièce à Lope de Vega grâce à l'intelligence artificielle et à la stylométrie dans le cadre du projet ETSO.
+      pt: Entrevista publicada pela equipe do Transkribus sobre a descoberta de La Francesa Laura. Álvaro Cuéllar explica o processo técnico e filológico que levou à atribuição da peça a Lope de Vega através da inteligência artificial e da estilometria no âmbito do projeto ETSO.
+      it: Intervista pubblicata dal team Transkribus sulla scoperta di La Francesa Laura. Álvaro Cuéllar spiega il processo tecnico e filologico che ha portato all'attribuzione dell'opera a Lope de Vega attraverso l'intelligenza artificiale e la stilometria nell'ambito del progetto ETSO.
+      de: Vom Transkribus-Team veröffentlichtes Interview über die Entdeckung von La Francesa Laura. Álvaro Cuéllar erklärt den technischen und philologischen Prozess, der durch künstliche Intelligenz und Stilometrie im Rahmen des ETSO-Projekts zur Zuschreibung des Stücks an Lope de Vega führte.
+      zh: Transkribus 团队发表的有关 La Francesa Laura 发现的采访。阿尔瓦罗·奎利亚尔 (Álvaro Cuéllar) 解释了通过 ETSO 项目中的人工智能和文体测量学将该剧归属于洛佩·德·维加 (Lope de Vega) 的技术和语言过程。
+      ja: La Francesa Laura の発見について Transkribus チームによって公開されたインタビュー。アルバロ・クエヤルは、ETSO プロジェクト内の人工知能とスタイロメトリーを通じて、この劇がロペ・デ・ベガのものであると認定するに至った技術的および文献学的プロセスを説明します。
+      ko: La Francesa Laura의 발견에 관해 Transkribus 팀이 게시한 인터뷰입니다. Álvaro Cuéllar는 ETSO 프로젝트 내에서 인공 지능과 문체 측정을 ​​통해 극을 Lope de Vega에 귀속시키는 기술 및 언어학적 과정을 설명합니다.
+      ru: Интервью, опубликованное командой Transkribus, об открытии La Francesa Laura. Альваро Куэльяр объясняет технический и филологический процесс, который привел к приписыванию пьесы Лопе де Веге с помощью искусственного интеллекта и стилометрии в рамках проекта ETSO.
+      ar: مقابلة نشرها فريق Transkribus حول اكتشاف La Francesa Laura. يشرح ألفارو كويلار العملية التقنية واللغوية التي أدت إلى إسناد المسرحية إلى لوبي دي فيغا من خلال الذكاء الاصطناعي وقياس الأسلوب ضمن مشروع ETSO.
     url: "https://www.transkribus.org/en/success-story/discovering-a-lost-play-by-lope-de-vega-alvaro-cuellar"
     image: "/assets/images/outreach/trans.jpg"
 
@@ -103,12 +220,30 @@ items:
     title:
       es: "Álvaro Cuéllar: «Poder recuperar una obra del fénix de los ingenios supone un regalo para el patrimonio hispánico»"
       en: "Álvaro Cuéllar: “Recovering a Work by the Phoenix of Wits Is a Gift to Hispanic Heritage”"
+      fr: "Álvaro Cuéllar: « Récupérer une œuvre du Phénix de l'esprit est un cadeau pour le patrimoine hispanique »"
+      pt: 'Álvaro Cuéllar: “Recuperar uma obra da Fênix do Raciocínio é um presente para a herança hispânica”'
+      it: "Álvaro Cuéllar: “Recuperare un'opera della Fenice dell'ingegno è un dono al patrimonio ispanico”"
+      de: 'Álvaro Cuéllar: „Die Wiedergewinnung eines Werks des Phönix des Geistes ist ein Geschenk an das hispanische Erbe“'
+      zh: 阿尔瓦罗·奎利亚尔：“恢复智慧凤凰的作品是对西班牙遗产的一份礼物”
+      ja: アルバロ・クエヤル：「機知の不死鳥の作品の修復はヒスパニック系遺産への贈り物である」
+      ko: 'Álvaro Cuéllar: “재치 있는 불사조의 작품을 복원하는 것은 히스패닉 유산에 대한 선물입니다”'
+      ru: 'Альваро Куэльяр: «Возвращение произведения Феникса ума — это подарок латиноамериканскому наследию»'
+      ar: 'ألفارو كويلار: "استعادة عمل عنقاء الذكاء هدية للتراث الإسباني"'
     type: "interview"
     medium: "Laguna al Día"
     date: "2023-03-20"
     description:
       es: "Entrevista con Álvaro Cuéllar tras el hallazgo de una comedia inédita de Lope de Vega mediante inteligencia artificial. Reflexiona sobre su trayectoria internacional, los retos de la investigación filológica y el potencial de la IA para transformar el estudio del Siglo de Oro."
       en: "Interview with Álvaro Cuéllar following the discovery of a previously unknown Lope de Vega play through artificial intelligence. He reflects on his international career, the challenges of philological research, and the transformative potential of AI in the study of the Spanish Golden Age."
+      fr: Entretien avec Álvaro Cuéllar suite à la découverte d'une pièce jusqu'alors inconnue de Lope de Vega grâce à l'intelligence artificielle. Il réfléchit sur sa carrière internationale, les défis de la recherche philologique et le potentiel transformateur de l'IA dans l'étude de l'âge d'or espagnol.
+      pt: Entrevista com Álvaro Cuéllar após a descoberta de uma peça até então desconhecida de Lope de Vega através da inteligência artificial. Reflete sobre a sua carreira internacional, os desafios da investigação filológica e o potencial transformador da IA ​​no estudo da Idade de Ouro espanhola.
+      it: Intervista ad Álvaro Cuéllar in seguito alla scoperta di un'opera teatrale di Lope de Vega precedentemente sconosciuta attraverso l'intelligenza artificiale. Riflette sulla sua carriera internazionale, sulle sfide della ricerca filologica e sul potenziale di trasformazione dell'intelligenza artificiale nello studio dell'età dell'oro spagnola.
+      de: Interview mit Álvaro Cuéllar nach der Entdeckung eines bisher unbekannten Lope de Vega-Stücks durch künstliche Intelligenz. Er reflektiert über seine internationale Karriere, die Herausforderungen der philologischen Forschung und das transformative Potenzial der KI bei der Erforschung des spanischen Goldenen Zeitalters.
+      zh: 通过人工智能发现此前未知的洛佩·德·维加戏剧后对阿尔瓦罗·奎利亚尔的采访。他反思了自己的国际职业生涯、语言学研究的挑战以及人工智能在西班牙黄金时代研究中的变革潜力。
+      ja: 人工知能を通じてこれまで知られていなかったロペ・デ・ベガの劇が発見された後のアルバロ・クエヤルへのインタビュー。彼は、自身の国際的なキャリア、文献学研究の課題、スペイン黄金時代の研究における AI の変革の可能性について振り返ります。
+      ko: 인공 지능을 통해 이전에 알려지지 않은 Lope de Vega 연극을 발견한 후 Álvaro Cuéllar와의 인터뷰. 그는 자신의 국제적인 경력, 문헌학 연구의 과제, 스페인 황금 시대 연구에서 AI의 변혁적 잠재력에 대해 성찰합니다.
+      ru: Интервью с Альваро Куэльяром после обнаружения ранее неизвестной пьесы Лопе де Веги с помощью искусственного интеллекта. Он размышляет о своей международной карьере, проблемах филологических исследований и преобразующем потенциале искусственного интеллекта в изучении Золотого века Испании.
+      ar: مقابلة مع ألفارو كويلار بعد اكتشاف مسرحية لوبي دي فيغا غير المعروفة سابقًا من خلال الذكاء الاصطناعي. ويتأمل في مسيرته الدولية، وتحديات البحث اللغوي، والإمكانات التحويلية للذكاء الاصطناعي في دراسة العصر الذهبي الإسباني.
     url: "https://www.lagunaaldia.com/alvaro-cuellar-poder-recuperar-una-obra-del-fenix-de-los-ingenios-supone-un-regalo-para-el-patrimonio-hispanico/"
     image: "/assets/images/outreach/cuellar.jpg"
 
@@ -116,12 +251,30 @@ items:
     title:
       es: "La obra perdida de Lope de Vega que ha 'descubierto' la inteligencia artificial"
       en: "The Lost Play by Lope de Vega 'Discovered' by Artificial Intelligence"
+      fr: La pièce perdue de Lope de Vega « découverte » par l'intelligence artificielle
+      pt: A peça perdida de Lope de Vega 'descoberta' pela inteligência artificial
+      it: L'opera perduta di Lope de Vega 'scoperta' dall'intelligenza artificiale
+      de: Das verlorene Stück von Lope de Vega „entdeckt“ durch künstliche Intelligenz
+      zh: 洛普·德·维加遗失的戏剧被人工智能“发现”
+      ja: ロペ・デ・ベガの失われた劇、人工知能によって「発見」される
+      ko: 인공지능이 발견한 로페 데 베가의 잃어버린 극
+      ru: Утраченная пьеса Лопе де Веги «обнаружена» искусственным интеллектом
+      ar: المسرحية المفقودة للوب دي فيجا "التي تم اكتشافها" بواسطة الذكاء الاصطناعي
     type: "tv"
     medium: "laSexta Columna — Atresmedia Televisión"
     date: "2024-03-15"
     description:
       es: "Reportaje de La Sexta Columna que analiza el hallazgo de la comedia inédita 'La francesa Laura', atribuida a Lope de Vega mediante técnicas de inteligencia artificial. Con la participación de Germán Vega y Álvaro Cuéllar."
       en: "TV feature by La Sexta Columna examining the discovery of the previously unknown play 'La francesa Laura', attributed to Lope de Vega through artificial intelligence. Featuring Germán Vega and Álvaro Cuéllar."
+      fr: Reportage télévisé de La Sexta Columna sur la découverte de la pièce jusqu'alors inconnue "La francesa Laura", attribuée à Lope de Vega grâce à l'intelligence artificielle. Avec Germán Vega et Álvaro Cuéllar.
+      pt: Reportagem televisiva de La Sexta Columna que examina a descoberta da peça até então desconhecida 'La francesa Laura', atribuída a Lope de Vega através da inteligência artificial. Apresentando Germán Vega e Álvaro Cuéllar.
+      it: Servizio televisivo di La Sexta Columna che esamina la scoperta dell'opera precedentemente sconosciuta "La francesa Laura", attribuita a Lope de Vega attraverso l'intelligenza artificiale. Con Germán Vega e Álvaro Cuéllar.
+      de: Fernsehbeitrag von La Sexta Columna über die Entdeckung des bisher unbekannten Stücks „La francesa Laura“, das Lope de Vega durch künstliche Intelligenz zugeschrieben wird. Mit Germán Vega und Álvaro Cuéllar.
+      zh: La Sexta Columna 制作的电视专题片探讨了通过人工智能发现的先前未知的戏剧“La francesa Laura”，该戏剧归因于洛佩·德·维加 (Lope de Vega)。其中收录有 Germán Vega 和 Álvaro Cuéllar 的作品。
+      ja: La Sexta Columna による TV 特集。ロペ デ ベガ作とされるこれまで知られていなかった戯曲「ラ フランセサ ラウラ」の発見を人工知能によって検証しています。ジェルマン・ベガとアルバロ・クエヤルが出演。
+      ko: La Sexta Columna의 TV 특집에서는 인공 지능을 통해 Lope de Vega의 작품으로 알려진 이전에 알려지지 않은 연극 'La francesa Laura'의 발견을 조사합니다. Germán Vega와 Álvaro Cuéllar가 출연합니다.
+      ru: Телевизионный репортаж La Sexta Columna, посвященный открытию ранее неизвестной пьесы «Французская Лаура», приписываемой Лопе де Веге с помощью искусственного интеллекта. В ролях Херман Вега и Альваро Куэльяр.
+      ar: برنامج تلفزيوني من إنتاج La Sexta Columna يفحص اكتشاف المسرحية غير المعروفة سابقًا "La francesa Laura"، المنسوبة إلى Lope de Vega من خلال الذكاء الاصطناعي. يضم جيرمان فيجا وألفارو كويلار.
     url: "https://www.lasexta.com/programas/sexta-columna/obra-perdida-lope-vega-que-descubierto-inteligencia-artificial-como-encontramos-velazquez_2024031565f4b7f4ab79d80001a6ebc1.html"
     image: "/assets/images/outreach/sexta.png"
 
@@ -130,12 +283,30 @@ items:
     title:
       es: "Estilometría: conversación con Álvaro Cuéllar"
       en: "Stylometry: A Conversation with Álvaro Cuéllar"
+      fr: 'Stylométrie: une conversation avec Álvaro Cuéllar'
+      pt: 'Estilometria: uma conversa com Álvaro Cuéllar'
+      it: 'Stilometria: conversazione con Álvaro Cuéllar'
+      de: 'Stilometrie: Ein Gespräch mit Álvaro Cuéllar'
+      zh: 风格测定：与阿尔瓦罗·奎利亚尔的对话
+      ja: 'スチロメトリー: アルバロ・クエヤルとの会話'
+      ko: '스타일로메트리: Álvaro Cuéllar와의 대화'
+      ru: 'Стилометрия: разговор с Альваро Куэльяром'
+      ar: 'قياس الأسلوب: محادثة مع ألفارو كويلار'
     type: "interview"
     medium: "RTVE — Un idioma sin fronteras (Radio Exterior de España)"
     date: "2023-11-11"
     description:
       es: "Entrevista radiofónica en la que Álvaro Cuéllar explica cómo la inteligencia artificial y la estilometría permiten atribuir autorías, leer manuscritos complejos y fechar textos del Siglo de Oro. Entre los hallazgos destaca la identificación de La francesa Laura como obra de Lope de Vega."
       en: "Radio interview where Álvaro Cuéllar explains how artificial intelligence and stylometry help attribute authorship, read complex manuscripts, and date Spanish Golden Age texts. Among the discoveries is the identification of La francesa Laura as a play by Lope de Vega."
+      fr: Interview radiophonique dans laquelle Álvaro Cuéllar explique comment l'intelligence artificielle et la stylométrie aident à attribuer la paternité, à lire des manuscrits complexes et à dater les textes espagnols du Siècle d'or. Parmi les découvertes figure l'identification de La francesa Laura comme une pièce de Lope de Vega.
+      pt: Entrevista de rádio onde Álvaro Cuéllar explica como a inteligência artificial e a estilometria ajudam a atribuir autoria, ler manuscritos complexos e datar textos da Idade de Ouro espanhola. Entre as descobertas está a identificação de La francesa Laura como peça de Lope de Vega.
+      it: Intervista radiofonica in cui Álvaro Cuéllar spiega come l'intelligenza artificiale e la stilometria aiutano ad attribuire la paternità, leggere manoscritti complessi e datare testi del Secolo d'oro spagnolo. Tra le scoperte c'è l'identificazione de La francesa Laura con un'opera teatrale di Lope de Vega.
+      de: Radiointerview, in dem Álvaro Cuéllar erklärt, wie künstliche Intelligenz und Stilometrie dabei helfen, die Urheberschaft zu bestimmen, komplexe Manuskripte zu lesen und spanische Texte aus dem Goldenen Zeitalter zu datieren. Zu den Entdeckungen gehört die Identifizierung von La francesa Laura als Theaterstück von Lope de Vega.
+      zh: 阿尔瓦罗·奎利亚尔 (Álvaro Cuéllar) 在电台采访中解释了人工智能和文体测定法如何帮助确定作者身份、阅读复杂的手稿以及确定西班牙黄金时代文本的日期。其中一项发现是确认《法国劳拉》是洛佩·德·维加的戏剧。
+      ja: アルバロ・クエヤルが、人工知能とスタイロメトリーがどのようにして著者の特定、複雑な原稿の読み取り、スペイン黄金時代のテキストの日付付けに役立つかを説明するラジオインタビュー。発見の中には、『ラ・フランセサ・ラウラ』がロペ・デ・ベガの戯曲であると特定されたことも含まれる。
+      ko: Álvaro Cuéllar가 인공 지능과 문체 측정법을 사용하여 저자를 식별하고, 복잡한 원고를 읽고, 스페인 황금기 텍스트의 연대를 측정하는 데 어떻게 도움이 되는지 설명하는 라디오 인터뷰입니다. 발견 중에는 La francesa Laura가 Lope de Vega의 연극으로 확인된 것도 있습니다.
+      ru: Радиоинтервью, в котором Альваро Куэльяр объясняет, как искусственный интеллект и стилометрия помогают определять авторство, читать сложные рукописи и датировать тексты Золотого века Испании. Среди открытий - идентификация «Французской Лауры» как пьесы Лопе де Веги.
+      ar: مقابلة إذاعية يشرح فيها ألفارو كويلار كيف يساعد الذكاء الاصطناعي وقياس الأسلوب في إسناد التأليف، وقراءة المخطوطات المعقدة، وتاريخ نصوص العصر الذهبي الإسباني. ومن بين الاكتشافات تحديد مسرحية La francesa Laura على أنها مسرحية من تأليف Lope de Vega.
     url: "https://www.rtve.es/play/audios/un-idioma-sin-fronteras/estilometria-alvaro-cuellar/7006620/"
     image: "/assets/images/outreach/bne.png"
 
@@ -144,6 +315,15 @@ items:
     title:
       es: "Pódcast: Asar el Faisán del Amor — Álvaro Cuéllar y Sergio Rodríguez Nicolás"
       en: "Podcast: Asar el Faisán del Amor — Álvaro Cuéllar and Sergio Rodríguez Nicolás"
+      fr: 'Podcast: Asar el Faisán del Amor — Álvaro Cuéllar et Sergio Rodríguez Nicolás'
+      pt: 'Podcast: Asar el Faisán del Amor — Álvaro Cuéllar e Sergio Rodríguez Nicolás'
+      it: 'Podcast: Asar el Faisán del Amor — Álvaro Cuéllar e Sergio Rodríguez Nicolás'
+      de: 'Podcast: Asar el Faisán del Amor – Álvaro Cuéllar und Sergio Rodríguez Nicolás'
+      zh: 播客：Asar el Faisán del Amor — Álvaro Cuéllar 和 Sergio Rodríguez Nicolás
+      ja: 'ポッドキャスト: Asar el Faisán del Amor — アルバロ・クエヤルとセルヒオ・ロドリゲス・ニコラス'
+      ko: '팟캐스트: Asar el Faisán del Amor — Álvaro Cuéllar 및 Sergio Rodríguez Nicolás'
+      ru: 'Подкаст: Asar el Faisán del Amor — Альваро Куэльяр и Серхио Родригес Николас'
+      ar: 'البودكاست: Asar el Faisán del Amor — ألفارو كويلار وسيرجيو رودريغيز نيكولاس'
     type: "radio"
     medium: "Radio Universitaria de León"
     date: "2024-06-14"
@@ -151,6 +331,15 @@ items:
       es: "Episodio del pódcast Asar el Faisán del Amor, emitido por la Radio Universitaria de León, donde Álvaro Cuéllar y Sergio Rodríguez Nicolás conversan sobre el impacto de las Humanidades Digitales y la estilometría en el estudio del teatro del Siglo de Oro."
       en: "Episode of the podcast Asar el Faisán del Amor, broadcast by the University of León Radio, where Álvaro Cuéllar and Sergio Rodríguez Nicolás discuss the impact of Digital Humanities and stylometry on the study of Spanish Golden Age theatre."
 
+      fr: Épisode du podcast Asar el Faisán del Amor, diffusé par la Radio de l'Université de León, où Álvaro Cuéllar et Sergio Rodríguez Nicolás discutent de l'impact des humanités numériques et de la stylométrie sur l'étude du théâtre espagnol du Siècle d'Or.
+      pt: Episódio do podcast Asar el Faisán del Amor, transmitido pela Rádio Universidade de León, onde Álvaro Cuéllar e Sergio Rodríguez Nicolás discutem o impacto das Humanidades Digitais e da estilometria no estudo do teatro da Idade de Ouro espanhola.
+      it: Episodio del podcast Asar el Faisán del Amor, trasmesso dalla Radio dell'Università di León, in cui Álvaro Cuéllar e Sergio Rodríguez Nicolás discutono dell'impatto delle Digital Humanities e della stilometria sullo studio del teatro spagnolo dell'Età dell'Oro.
+      de: Folge des Podcasts „Asar el Faisán del Amor“, ausgestrahlt vom Radio der Universität León, in dem Álvaro Cuéllar und Sergio Rodríguez Nicolás die Auswirkungen der Digital Humanities und der Stilometrie auf die Erforschung des spanischen Theaters des Goldenen Zeitalters diskutieren.
+      zh: 莱昂大学广播电台播出的播客《Asar el Faisán del Amor》的一集，其中阿尔瓦罗·奎利亚尔和塞尔吉奥·罗德里格斯·尼古拉斯讨论了数字人文和风格测量学对西班牙黄金时代戏剧研究的影响。
+      ja: レオン大学ラジオが放送するポッドキャスト「Asar el Faisán del Amor」のエピソード。アルバロ・クエヤルとセルヒオ・ロドリゲス・ニコラスがスペイン黄金時代演劇の研究に対するデジタル・ヒューマニティーとスタイロメトリーの影響について議論します。
+      ko: University of León Radio에서 방송한 팟캐스트 Asar el Faisán del Amor의 에피소드입니다. 여기서 Álvaro Cuéllar와 Sergio Rodríguez Nicolás는 디지털 인문학과 스타일로메트리가 스페인 황금기 연극 연구에 미친 영향에 대해 논의합니다.
+      ru: Эпизод подкаста Asar el Faisán del Amor, транслируемого Радио Университета Леона, где Альваро Куэльяр и Серхио Родригес Николас обсуждают влияние цифровых гуманитарных наук и стилометрии на изучение испанского театра Золотого века.
+      ar: حلقة من البودكاست Asar el Faisán del Amor، التي تبثها إذاعة جامعة ليون، حيث يناقش ألفارو كويلار وسيرجيو رودريغيز نيكولاس تأثير العلوم الإنسانية الرقمية وقياس الأسلوب في دراسة مسرح العصر الذهبي الإسباني.
     url: "https://open.spotify.com/episode/4dHHSvnjt0JS7KdEELgM8K"
     image: "/assets/images/outreach/asar.jpeg"
 
@@ -159,11 +348,29 @@ items:
     title:
       es: "Exposición «Lope y el teatro del Siglo de Oro»"
       en: "Exhibition 'Lope and the Theatre of the Spanish Golden Age'"
+      fr: Exposition 'Lope et le théâtre du siècle d'or espagnol'
+      pt: Exposição 'Lope e o Teatro da Idade de Ouro Espanhola'
+      it: Mostra 'Lope e il teatro dell'età d'oro spagnola'
+      de: Ausstellung „Lope und das Theater des spanischen Goldenen Zeitalters“
+      zh: 展览“洛普与西班牙黄金时代的剧院”
+      ja: 展覧会「ロペとスペイン黄金時代の劇場」
+      ko: 전시회 '로페와 스페인 황금시대의 극장'
+      ru: Выставка «Лопе и театр Золотого века Испании»
+      ar: معرض "لوبي ومسرح العصر الذهبي الإسباني"
     type: "article"
     medium: "Biblioteca Nacional de España (BNE)"
     date: "2018-12-26"
     description:
       es: "Participación en la exposición de la BNE Lope y el teatro del Siglo de Oro, donde se presentó un dendrograma de relaciones estilométricas elaborado por Álvaro Cuéllar y Germán Vega."
       en: "Participation in the BNE exhibition Lope and the Theatre of the Spanish Golden Age, featuring a stylometric dendrogram created by Álvaro Cuéllar and Germán Vega."
+      fr: Participation à l'exposition du BNE Lope et le Théâtre du Siècle d'Or espagnol, présentant un dendrogramme stylométrique créé par Álvaro Cuéllar et Germán Vega.
+      pt: Participação na exposição Lope e o Teatro da Idade de Ouro Espanhola do BNE, apresentando um dendrograma estilométrico criado por Álvaro Cuéllar e Germán Vega.
+      it: Partecipazione alla mostra BNE Lope e il teatro dell'età dell'oro spagnola, con un dendrogramma stilometrico creato da Álvaro Cuéllar e Germán Vega.
+      de: Teilnahme an der BNE-Ausstellung „Lope und das Theater des Goldenen Zeitalters Spaniens“ mit einem stilometrischen Dendrogramm von Álvaro Cuéllar und Germán Vega.
+      zh: 参加 BNE 展览《洛佩与西班牙黄金时代的剧院》，展出由 Álvaro Cuéllar 和 Germán Vega 创作的风格树状图。
+      ja: BNE の展覧会「ロペとスペイン黄金時代の劇場」に参加。アルバロ・クエヤルとジェルマン・ベガが作成したスタイロメーター樹形図が展示されています。
+      ko: Álvaro Cuéllar와 Germán Vega가 제작한 문체 덴드로그램을 선보이는 BNE 전시회 Lope와 스페인 황금 시대의 극장에 참여합니다.
+      ru: Участие в выставке BNE «Лопе и театр золотого века Испании», где представлена ​​стилометрическая дендрограмма, созданная Альваро Куэльяром и Херманом Вегой.
+      ar: المشاركة في معرض BNE Lope ومسرح العصر الذهبي الإسباني، الذي يعرض مخططًا شجريًا أسلوبيًا أنشأه ألفارو كويلار وجيرمان فيجا.
     url: "https://www.descubrirelarte.es/2018/12/26/las-claves-del-teatro-del-siglo-de-oro.html"
     image: "/assets/images/outreach/bne.jpg"

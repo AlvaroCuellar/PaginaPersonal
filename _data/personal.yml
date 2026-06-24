@@ -1,4 +1,3 @@
-
 name: "Álvaro Cuéllar"
 email: "alvaro.cuellar@uab.cat"
 affiliation: "Universitat Autònoma de Barcelona"
@@ -6,6 +5,15 @@ subaffiliation: "Departament de Filologia Espanyola. PROLOPE"
 position:
   es: "Investigador postdoctoral"
   en: "Postdoctoral Researcher"
+  fr: Chercheur postdoctoral
+  pt: Pesquisador de pós-doutorado
+  it: Ricercatore post-dottorato
+  de: Postdoktorand
+  zh: 博士后研究员
+  ja: 博士研究員
+  ko: 박사후 연구원
+  ru: Постдокторант-исследователь
+  ar: باحث ما بعد الدكتوراه
 interests:
   es:
     - "Inteligencia Artificial"
@@ -25,9 +33,89 @@ interests:
     - "Automatic Transcription"
     - "Automatic Dating"
     - "Writer Identification"
-    
+  fr:
+    - Intelligence artificielle
+    - Linguistique computationnelle
+    - Patrimoine littéraire
+    - Théâtre espagnol de l’âge d’or
+    - Stylométrie
+    - Transcription automatique
+    - Datation automatique
+    - Identification de mains et de copistes
+  pt:
+    - Inteligência artificial
+    - Linguística computacional
+    - Património literário
+    - Teatro espanhol do Século de Ouro
+    - Estilometria
+    - Transcrição automática
+    - Datação automática
+    - Identificação de copistas
+  it:
+    - Intelligenza artificiale
+    - Linguistica computazionale
+    - Patrimonio letterario
+    - Teatro spagnolo dell'Età dell'Oro
+    - Stilometria
+    - Trascrizione automatica
+    - Datazione automatica
+    - Identificazione dei copisti
+  de:
+    - Künstliche Intelligenz
+    - Computerlinguistik
+    - Literarisches Erbe
+    - Spanisches Theater des Goldenen Zeitalters
+    - Stilometrie
+    - Automatische Transkription
+    - Automatische Datierung
+    - Identifizierung von Schreibern
+  zh:
+    - 人工智能
+    - 计算语言学
+    - 文学遗产
+    - 西班牙黄金时代戏剧
+    - 文体计量学
+    - 自动转录
+    - 自动断代
+    - 抄写员识别
+  ja:
+    - 人工知能
+    - 計算言語学
+    - 文学遺産
+    - スペイン黄金世紀演劇
+    - 文体計量学
+    - 自動翻刻
+    - 自動年代推定
+    - 写字生識別
+  ko:
+    - 인공지능
+    - 전산언어학
+    - 문학유산
+    - 스페인 황금세기 연극
+    - 문체계량학
+    - 자동 전사
+    - 자동 연대 추정
+    - 필사자 식별
+  ru:
+    - Искусственный интеллект
+    - Компьютерная лингвистика
+    - Литературное наследие
+    - Испанский театр Золотого века
+    - Стилометрия
+    - Автоматическая транскрипция
+    - Автоматическая датировка
+    - Идентификация переписчиков
+  ar:
+    - الذكاء الاصطناعي
+    - اللغويات الحاسوبية
+    - التراث الأدبي
+    - مسرح العصر الذهبي الإسباني
+    - قياس الأسلوب
+    - النسخ التلقائي
+    - التأريخ الآلي
+    - تحديد النساخ
 social:
-  google_scholar: "WQeGPf4AAAAJ"  
+  google_scholar: "WQeGPf4AAAAJ"
   orcid: "0000-0002-9934-6321"
   academia: "ÁlvaroCuéllar"
   x: "AlvaroCuellarDH"
@@ -71,6 +159,150 @@ hitos:
 
 
 
-license: 
+  fr:
+    - +600 citations
+    - Boursier Ruta Quetzal (Espagne-Pérou)
+    - Boursier de troisième cycle La Caixa, Amérique du Nord et Asie-Pacifique (États-Unis)
+    - Chercheur (Autriche)
+    - Collaborations avec La Sexta Columna et Informe Semanal
+    - Juan de la Cierva Chercheur postdoctoral (Espagne)
+    - Mercator Fellow (Allemagne)
+    - Sceau d'excellence – Bourse postdoctorale Marie Curie (Commission européenne)
+    - Première page d’El País (2023)
+    - Accrédité comme Docteur Contratado (Espagne)
+    - Prix ​​HDH du meilleur projet (2017) et du meilleur article (2023)
+    - Finaliste du Prix Archiletras (2022)
+    - Présenté dans les médias internationaux (BBC, CNN, Le Figaro, The Guardian, Japan News...)
+    - Coordinateur de la Rencontre AISO Digital Humanities (Buenos Aires 2026)
+  pt:
+    - +600 citações
+    - Bolsista Ruta Quetzal (Espanha – Peru)
+    - La Caixa Postgraduate Fellow, América do Norte e Ásia-Pacífico (EUA)
+    - Bolsista de Pesquisa (Áustria)
+    - Colaborações com La Sexta Columna e Informe Semanal
+    - Juan de la Cierva Pesquisador de Pós-Doutorado (Espanha)
+    - Mercator Fellow (Alemanha)
+    - Selo de Excelência – Bolsa Marie Curie de Pós-Doutorado (Comissão Europeia)
+    - Primeira página do El País (2023)
+    - Credenciado como Médico Contratado (Espanha)
+    - Prêmio HDH de Melhor Projeto (2017) e Melhor Artigo (2023)
+    - Finalista do Prêmio Archiletras (2022)
+    - Destaque na mídia internacional (BBC, CNN, Le Figaro, The Guardian, Japan News...)
+    - Coordenador do Encontro de Humanidades Digitais da AISO (Buenos Aires 2026)
+  it:
+    - +600 citazioni
+    - Ruta Quetzal Fellow (Spagna-Perù)
+    - Fellow post-laurea La Caixa, Nord America e Asia-Pacifico (USA)
+    - Assegnista di ricerca (Austria)
+    - Collaborazioni con La Sexta Columna e Informe Semanal
+    - Juan de la Cierva Ricercatore Post-dottorato (Spagna)
+    - Borsa di Mercator (Germania)
+    - Sigillo di eccellenza – Borsa di studio post-dottorato Marie Curie (Commissione europea)
+    - Prima pagina di El País (2023)
+    - Accreditato come Dottore del Contratado (Spagna)
+    - Premio HDH per il miglior progetto (2017) e il miglior articolo (2023)
+    - Finalista al Premio Archiletras (2022)
+    - Presentato nei media internazionali (BBC, CNN, Le Figaro, The Guardian, Japan News...)
+    - Coordinatore del Meeting AISO Digital Humanities (Buenos Aires 2026)
+  de:
+    - +600 Zitate
+    - Ruta Quetzal Fellow (Spanien–Peru)
+    - La Caixa Postgraduate Fellow, Nordamerika und Asien-Pazifik (USA)
+    - Wissenschaftlicher Mitarbeiter (Österreich)
+    - Kooperationen mit La Sexta Columna und Informe Semanal
+    - Juan de la Cierva Postdoktorand (Spanien)
+    - Mercator Fellow (Deutschland)
+    - Exzellenzsiegel – Marie-Curie-Postdoktorandenstipendium (Europäische Kommission)
+    - Titelseite von El País (2023)
+    - Akkreditiert als Contratado Doctor (Spanien)
+    - HDH Award für das beste Projekt (2017) und den besten Artikel (2023)
+    - Finalist für den Archiletras Award (2022)
+    - In internationalen Medien vorgestellt (BBC, CNN, Le Figaro, The Guardian, Japan News...)
+    - Koordinator des AISO Digital Humanities Meeting (Buenos Aires 2026)
+  zh:
+    - +600 次引用
+    - Ruta Quetzal 研究员（西班牙-秘鲁）
+    - La Caixa 研究生研究员，北美和亚太地区（美国）
+    - 研究员（奥地利）
+    - 与 La Sexta Columna 和 Informe Semanal 的合作
+    - Juan de la Cierva 博士后研究员（西班牙）
+    - 墨卡托研究员（德国）
+    - 卓越奖章——居里夫人博士后奖学金（欧盟委员会）
+    - 《国家报》头版 (2023)
+    - 获得Contratado Doctor（西班牙）认证
+    - HDH 最佳项目奖（2017 年）和最佳文章奖（2023 年）
+    - Archiletras 奖决赛入围者（2022 年）
+    - 国际媒体报道（BBC、CNN、费加罗报、卫报、日本新闻...）
+    - AISO数字人文会议（布宜诺斯艾利斯2026）协调员
+  ja:
+    - +600 件の引用
+    - ルタ・ケツァル・フェロー (スペイン – ペルー)
+    - ラ・カイシャ大学院生フェロー、北米およびアジア太平洋（米国）
+    - 研究員（オーストリア）
+    - La Sexta Columna および Informe Semanal とのコラボレーション
+    - フアン・デ・ラ・シエルバ博士研究員（スペイン）
+    - メルカトルフェロー（ドイツ）
+    - 優秀性のシール – マリー・キュリー博士研究員フェローシップ (欧州委員会)
+    - El País の表紙 (2023)
+    - コントラタードドクター認定（スペイン）
+    - HDH賞最優秀プロジェクト賞（2017年）および最優秀論文賞（2023年）
+    - Archiletras Award のファイナリスト (2022)
+    - 国際メディアで紹介されました (BBC、CNN、フィガロ紙、ガーディアン紙、ジャパンニュース...)
+    - AISOデジタル・ヒューマニティーズ・ミーティング（ブエノスアイレス2026）コーディネーター
+  ko:
+    - +600 인용
+    - Ruta Quetzal 연구원(스페인-페루)
+    - La Caixa 대학원 연구원, 북미 및 아시아 태평양(미국)
+    - 연구위원(오스트리아)
+    - La Sexta Columna 및 Informe Semanal과의 협업
+    - Juan de la Cierva 박사후 연구원 (스페인)
+    - 메르카토르 펠로(독일)
+    - 우수상 - Marie Curie 박사후 연구원 (유럽위원회)
+    - El País의 첫 페이지 (2023)
+    - Contratado Doctor 인증(스페인)
+    - 최우수 프로젝트(2017) 및 최우수 기사(2023) HDH 상
+    - Archiletras Award 최종 후보(2022)
+    - 해외 언론(BBC, CNN, Le Figaro, The Guardian, Japan News...)에 소개됨
+    - AISO 디지털 인문학 회의 코디네이터(부에노스 아이레스 2026)
+  ru:
+    - +600 цитат
+    - Стипендиат Руты Кецаль (Испания-Перу)
+    - Аспирант Ла Кайша, Северная Америка и Азиатско-Тихоокеанский регион (США)
+    - научный сотрудник (Австрия)
+    - Сотрудничество с La Sexta Columna и Informe Semanal
+    - Хуан де ла Сьерва Постдокторант (Испания)
+    - Стипендиат Меркатора (Германия)
+    - Знак качества – Постдокторская стипендия Марии Кюри (Европейская комиссия)
+    - Титульная страница El País (2023)
+    - Аккредитован как Доктор Контратадо (Испания).
+    - Премия HDH за лучший проект (2017 г.) и лучшую статью (2023 г.)
+    - Финалист премии Archiletras (2022)
+    - Опубликовано в международных СМИ (BBC, CNN, Le Figaro, The Guardian, Japan News...)
+    - Координатор встречи AISO Digital Humanities (Буэнос-Айрес, 2026 г.)
+  ar:
+    - +600 الاستشهادات
+    - زميل روتا كيتزال (إسبانيا-بيرو)
+    - زميل الدراسات العليا في لا كايكسا، أمريكا الشمالية وآسيا والمحيط الهادئ (الولايات المتحدة الأمريكية)
+    - زميل باحث (النمسا)
+    - التعاون مع La Sexta Columna وInforme Semanal
+    - خوان دي لا سيرفا باحث ما بعد الدكتوراه (إسبانيا)
+    - زميل مركاتور (ألمانيا)
+    - ختم التميز – زمالة ماري كوري لما بعد الدكتوراه (المفوضية الأوروبية)
+    - الصفحة الأولى من صحيفة الباييس (2023)
+    - معتمد كطبيب كونتراتادو (إسبانيا)
+    - جائزة HDH لأفضل مشروع (2017) وأفضل مقال (2023)
+    - التصفيات النهائية لجائزة أرشيليتراس (2022)
+    - ظهرت في وسائل الإعلام الدولية (بي بي سي، سي إن إن، لوفيجارو، الغارديان، أخبار اليابان...)
+    - منسق اجتماع العلوم الإنسانية الرقمية AISO (بوينس آيرس 2026)
+license:
   es: "Diseñado y desarrollado por <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>."
   en: "Designed and developed by <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>."
+  fr: Conçu et développé par <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>.
+  pt: Projetado e desenvolvido por <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>.
+  it: Progettato e sviluppato da <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>.
+  de: Entworfen und entwickelt von <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>.
+  zh: 由 <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a> 设计和开发。
+  ja: <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a> によって設計および開発されました。
+  ko: <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>이 디자인하고 개발했습니다.
+  ru: Разработан и разработан <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>Дэвидом Мерино Рекальде</a>.
+  ar: تم تصميمه وتطويره بواسطة <a href='https://dxvidmr.github.io/' target='_blank' class='no-icon'>David Merino Recalde</a>.

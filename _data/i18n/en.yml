@@ -44,7 +44,6 @@ outreach_types:
   tv: "TV"
   interview: "Interview"
   radio: "Radio"
-  
 access_text: "Access"
 view_citations: "View citations"
 citations: "citations"
@@ -98,3 +97,5 @@ outreach:
   read: "Read"
   watch: "Watch"
   listen: "Listen"
+language_selector: Language selector
+read_article: Read article

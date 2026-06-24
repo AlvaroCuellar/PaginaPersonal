@@ -10,67 +10,214 @@
 section_title:
   es: "Investigación"
   en: "Research"
+  fr: Recherche
+  pt: Investigação
+  it: Ricerca
+  de: Forschung
+  zh: 研究
+  ja: 研究
+  ko: 연구
+  ru: Исследования
+  ar: بحث
 url_slug:
   es: "investigacion"
   en: "research"
+  fr: "recherche"
+  pt: "pesquisa"
+  it: "ricerca"
+  de: "forschung"
+  zh: "research"
+  ja: "research"
+  ko: "research"
+  ru: "research"
+  ar: "research"
 subtitle:
   es: "Líneas de investigación"
   en: "Research Lines"
 
+  fr: Lignes de recherche
+  pt: Linhas de Pesquisa
+  it: Linee di ricerca
+  de: Forschungslinien
+  zh: 研究方向
+  ja: 研究ライン
+  ko: 연구 라인
+  ru: Направления исследований
+  ar: خطوط البحث
 research_lines:
   - title:
       es: "Estilometría"
       en: "Stylometry"
+      fr: Stylométrie
+      pt: Estilometria
+      it: Stilometria
+      de: Stilometrie
+      zh: 文体计量学
+      ja: 文体計量学
+      ko: 문체계량학
+      ru: Стилометрия
+      ar: قياس الأسلوب
     description:
       es: "Análisis computacional del estilo literario para la atribución de autoría de textos del Siglo de Oro español."
       en: "Computational analysis of literary style for authorship attribution and characterization of Spanish Golden Age texts."
+      fr: Analyse informatique du style littéraire pour l'attribution de la paternité et la caractérisation des textes espagnols de l'âge d'or.
+      pt: Análise computacional do estilo literário para atribuição de autoria e caracterização de textos da Idade de Ouro espanhola.
+      it: Analisi computazionale dello stile letterario per l'attribuzione della paternità e la caratterizzazione dei testi del Secolo d'oro spagnolo.
+      de: Computergestützte Analyse des literarischen Stils zur Autorenschaftszuordnung und Charakterisierung spanischer Texte aus dem Goldenen Zeitalter.
+      zh: 西班牙黄金时代文本的作者归属和表征的文学风格计算分析。
+      ja: スペイン黄金時代のテキストの著者帰属と特徴付けのための文学スタイルの計算分析。
+      ko: 스페인 황금기 텍스트의 저자 귀속 및 특성화를 위한 문학 스타일의 전산 분석.
+      ru: Компьютерный анализ литературного стиля для установления авторства и характеристики текстов Золотого века Испании.
+      ar: التحليل الحسابي للأسلوب الأدبي لإسناد التأليف وتوصيف نصوص العصر الذهبي الإسباني.
     image: "fondo.png"
-    
   - title:
       es: "Construcción de corpus"
       en: "Corpus Construction"
+      fr: Construction du corpus
+      pt: Construção do Corpus
+      it: Costruzione del corpo
+      de: Korpuskonstruktion
+      zh: 语料库建设
+      ja: コーパス構築
+      ko: 코퍼스 구축
+      ru: Создание корпусов
+      ar: بناء المدونات النصية
     description:
       es: "Desarrollo de grandes corpus digitales de teatro áureo con metadatos enriquecidos y anotación lingüística avanzada."
       en: "Development of large digital corpora of Golden Age theater with enriched metadata and advanced linguistic annotation."
+      fr: Développement de grands corpus numériques du théâtre de l'âge d'or avec des métadonnées enrichies et des annotations linguistiques avancées.
+      pt: Desenvolvimento de grandes corpora digitais do teatro da Era de Ouro com metadados enriquecidos e anotação linguística avançada.
+      it: Sviluppo di grandi corpora digitali del teatro dell'Età dell'Oro con metadati arricchiti e annotazione linguistica avanzata.
+      de: Entwicklung großer digitaler Korpora des Theaters des Goldenen Zeitalters mit angereicherten Metadaten und fortschrittlicher sprachlicher Annotation.
+      zh: 开发具有丰富元数据和高级语言注释的黄金时代戏剧大型数字语料库。
+      ja: 充実したメタデータと高度な言語注釈を備えた黄金時代劇場の大規模なデジタル コーパスの開発。
+      ko: 풍부한 메타데이터와 고급 언어 주석을 갖춘 황금 시대 극장의 대규모 디지털 자료 개발.
+      ru: Разработка крупных цифровых корпусов театра Золотого века с обогащенными метаданными и расширенными лингвистическими аннотациями.
+      ar: تطوير مجموعات رقمية كبيرة لمسرح العصر الذهبي مع البيانات الوصفية الغنية والتعليقات اللغوية المتقدمة.
     image: "fondo.png"
-    
   - title:
       es: "Inteligencia Artificial"
       en: "Artificial Intelligence"
+      fr: Intelligence artificielle
+      pt: Inteligência artificial
+      it: Intelligenza artificiale
+      de: Künstliche Intelligenz
+      zh: 人工智能
+      ja: 人工知能
+      ko: 인공지능
+      ru: Искусственный интеллект
+      ar: الذكاء الاصطناعي
     description:
       es: "Aplicación de técnicas de machine learning y deep learning para el análisis automatizado de patrimonio literario histórico."
       en: "Application of machine learning and deep learning techniques for automated analysis of historical literary heritage."
+      fr: Application de techniques d'apprentissage automatique et d'apprentissage profond pour l'analyse automatisée du patrimoine littéraire historique.
+      pt: Aplicação de técnicas de aprendizado de máquina e aprendizado profundo para análise automatizada do patrimônio histórico literário.
+      it: Applicazione di tecniche di machine learning e deep learning per l'analisi automatizzata del patrimonio storico letterario.
+      de: Anwendung maschineller Lern- und Deep-Learning-Techniken zur automatisierten Analyse des historischen literarischen Erbes.
+      zh: 应用机器学习和深度学习技术对历史文学遗产进行自动分析。
+      ja: 歴史的文学遺産の自動分析のための機械学習および深層学習技術の応用。
+      ko: 역사적 문학유산의 자동화된 분석을 위한 머신러닝과 딥러닝 기술의 적용.
+      ru: Применение методов машинного обучения и глубокого обучения для автоматизированного анализа исторического литературного наследия.
+      ar: تطبيق التعلم الآلي وتقنيات التعلم العميق للتحليل الآلي للتراث الأدبي التاريخي.
     image: "fondo.png"
 
   - title:
       es: "Transcripción automática"
       en: "Automatic Transcription"
+      fr: Transcription automatique
+      pt: Transcrição Automática
+      it: Trascrizione automatica
+      de: Automatische Transkription
+      zh: 自动转录
+      ja: 自動文字起こし
+      ko: 자동 전사
+      ru: Автоматическая транскрипция
+      ar: النسخ التلقائي
     description:
       es: "Desarrollo de sistemas de reconocimiento óptico de caracteres especializados en manuscritos y textos impresos antiguos."
       en: "Development of optical character recognition systems specialized in manuscripts and old printed texts."
+      fr: Développement de systèmes de reconnaissance optique de caractères spécialisés dans les manuscrits et les textes imprimés anciens.
+      pt: Desenvolvimento de sistemas de reconhecimento óptico de caracteres especializados em manuscritos e textos impressos antigos.
+      it: Sviluppo di sistemi di riconoscimento ottico dei caratteri specializzati in manoscritti e testi antichi a stampa.
+      de: Entwicklung optischer Zeichenerkennungssysteme, spezialisiert auf Manuskripte und alte gedruckte Texte.
+      zh: 开发专门针对手稿和旧印刷文本的光学字符识别系统。
+      ja: 写本・古活字に特化した光学式文字認識システムの開発。
+      ko: 원고 및 오래된 인쇄본에 특화된 광학 문자 인식 시스템 개발.
+      ru: Разработка систем оптического распознавания символов, специализирующихся на рукописях и старопечатных текстах.
+      ar: تطوير أنظمة التعرف الضوئي على الحروف المتخصصة في المخطوطات والنصوص المطبوعة القديمة.
     image: "fondo.png"
-    
   - title:
       es: "Detección automática de copistas"
       en: "Automatic Copyist Detection"
+      fr: Détection automatique des copistes
+      pt: Detecção Automática de Copista
+      it: Rilevamento automatico del copista
+      de: Automatische Kopistenerkennung
+      zh: 抄写员自动识别
+      ja: 写字生の自動識別
+      ko: 필사자 자동 식별
+      ru: Автоматическое обнаружение переписчика
+      ar: الكشف التلقائي عن الناسخ
     description:
       es: "Identificación computacional de manos escribanas en manuscritos mediante análisis paleográfico automatizado."
       en: "Computational identification of scribal hands in manuscripts through automated paleographic analysis."
+      fr: Identification informatique des mains des scribes dans les manuscrits grâce à une analyse paléographique automatisée.
+      pt: Identificação computacional de mãos de escribas em manuscritos por meio de análise paleográfica automatizada.
+      it: Identificazione computazionale delle mani degli scribi nei manoscritti mediante analisi paleografica automatizzata.
+      de: Computergestützte Identifizierung von Schreibhänden in Manuskripten durch automatisierte paläographische Analyse.
+      zh: 通过自动古文字分析计算识别手稿中的抄写手。
+      ja: 自動化された古文書解析による写本内の筆記者のコンピュータによる識別。
+      ko: 자동화된 고문서학적 분석을 통해 원고에 있는 필사자의 손을 컴퓨터로 식별합니다.
+      ru: Компьютерная идентификация рук писцов в рукописях посредством автоматизированного палеографического анализа.
+      ar: التعرف الحسابي على أيدي الناسخين في المخطوطات من خلال التحليل الخطي الآلي.
     image: "fondo.png"
-    
   - title:
       es: "Datación automática"
       en: "Automatic Dating"
+      fr: Datation automatique
+      pt: Datação automática
+      it: Datazione automatica
+      de: Automatische Datierung
+      zh: 自动断代
+      ja: 自動年代推定
+      ko: 자동 연대 추정
+      ru: Автоматическая датировка
+      ar: التأريخ الآلي
     description:
       es: "Estimación cronológica de textos literarios mediante análisis lingüístico y estilístico computacional."
       en: "Chronological estimation of literary texts through computational linguistic and stylistic analysis."
+      fr: Estimation chronologique de textes littéraires par analyse linguistique et stylistique informatique.
+      pt: Estimativa cronológica de textos literários através de análise linguística e estilística computacional.
+      it: Stima cronologica dei testi letterari attraverso l'analisi linguistica e stilistica computazionale.
+      de: Chronologische Einschätzung literarischer Texte durch computerlinguistische und stilistische Analyse.
+      zh: 通过计算语言学和文体分析对文学文本进行时间顺序估计。
+      ja: 計算言語学的および文体分析による文学テキストの年代推定。
+      ko: 전산 언어 및 문체 분석을 통한 문학 텍스트의 연대순 추정.
+      ru: Хронологическая оценка художественных текстов посредством компьютерного лингвистического и стилистического анализа.
+      ar: التقدير الزمني للنصوص الأدبية من خلال التحليل اللغوي والأسلوبي الحسابي.
     image: "fondo.png"
-    
   - title:
       es: "Generación de manuscritos sintéticos"
       en: "Synthetic Handwriting Generation"
+      fr: Génération d'écriture manuscrite synthétique
+      pt: Geração de caligrafia sintética
+      it: Generazione di scrittura sintetica
+      de: Erzeugung synthetischer Handschriften
+      zh: 合成手写生成
+      ja: 合成手書きの生成
+      ko: 합성 필기 생성
+      ru: Генерация синтетического почерка
+      ar: جيل الكتابة اليدوية الاصطناعية
     description:
       es: "Creación de escritura manuscrita artificial mediante modelos generativos y redes neuronales."
       en: "Creation of artificial handwriting using generative models and neural networks."
+      fr: Création d'écriture manuscrite artificielle à l'aide de modèles génératifs et de réseaux de neurones.
+      pt: Criação de caligrafia artificial utilizando modelos generativos e redes neurais.
+      it: Creazione di scrittura artificiale utilizzando modelli generativi e reti neurali.
+      de: Erstellung künstlicher Handschriften mithilfe generativer Modelle und neuronaler Netze.
+      zh: 使用生成模型和神经网络创建人工笔迹。
+      ja: 生成モデルとニューラルネットワークを使用した人工手書きの作成。
+      ko: 생성 모델과 신경망을 사용하여 인공 손글씨를 만듭니다.
+      ru: Создание искусственного почерка с помощью генеративных моделей и нейронных сетей.
+      ar: إنشاء خط يد اصطناعي باستخدام النماذج التوليدية والشبكات العصبية.
     image: "fondo.png"
-

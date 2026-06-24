@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "سيرة ذاتية كاملة"
+project_button: "عرض المشروع"
+show_more_projects: "عرض المزيد من المشاريع"
+show_less_projects: "عرض مشاريع أقل"
+show_more_publications: "عرض المزيد من المنشورات"
+show_less_publications: "عرض منشورات أقل"
+show_more_talks: "عرض المزيد من ‏الأحاديث"
+show_less_talks: "عرض محادثات أقل"
+show_more_outreach: "عرض المزيد"
+show_less_outreach: "عرض أقل"
+featured_label: "مميز"
+
+
+# Talks section titles
+featured_talks_title: "محادثات مميزة"
+all_talks_title: "جميع المحادثات"
+carousel_scroll_hint: "شاهد المزيد"
+swipe_hint: "اسحب لرؤية المزيد"
+
+# Publications section titles
+featured_publications_title: "منشورات مميزة"
+all_publications_title: "جميع المنشورات"
+
+# Types
+# Talk types
+talk_types:
+  invited: "الحديث المدعو"
+  communication: "التواصل الشفهي"
+  plenary: "محاضرة عامة"
+  panel: "لوحة"
+  poster: "ملصق"
+  workshop: "ورشة عمل"
+  keynote: "الكلمة الرئيسية"
+
+# Press types
+press_types:
+  news: "أخبار"
+
+# Outreach types
+outreach_types:
+  article: "شرط"
+  tv: "تلفزيون"
+  interview: "مقابلة"
+  radio: "راديو"
+access_text: "وصول"
+view_citations: "عرض الاقتباسات"
+citations: "الاستشهادات"
+total_citations: "مجموع الاستشهادات"
+cited_by_title: "استشهد بها"
+abstract_label: "خلاصة"
+view_achievements: "عرض الإنجازات"
+hide_achievements: "إخفاء الإنجازات"
+toggle_achievements: "تبديل الإنجازات"
+
+# Publication types
+publication_types:
+  article: "شرط"
+  incollection: "فصل الكتاب"
+  inproceedings: "الإجراءات"
+  inbook: "الفصل"
+  book: "كتاب"
+  phdthesis: "رسالة دكتوراه"
+  mastersthesis: "رسالة الماجستير"
+  inpress: "في الصحافة"
+  techreport: "التقرير الفني"
+  misc: "متنوع"
+  proceedings: "الإجراءات"
+  manual: "يدوي"
+  booklet: "كتيب"
+  model: "نموذج"
+  project: "مشروع"
+
+# Publication text
+publication_text:
+  in: "في"
+
+# Month names
+months:
+  january: "يناير"
+  february: "فبراير"
+  march: "مارس"
+  april: "أبريل"
+  may: "مايو"
+  june: "يونيو"
+  july: "يوليو"
+  august: "أغسطس"
+  september: "سبتمبر"
+  october: "أكتوبر"
+  november: "نوفمبر"
+  december: "ديسمبر"
+
+# Outreach section
+outreach:
+  more_title: "المزيد من المقالات والوسائط"
+  read: "يقرأ"
+  watch: "يشاهد"
+  listen: "يستمع"
+language_selector: محدد اللغة
+read_article: اقرأ المقال

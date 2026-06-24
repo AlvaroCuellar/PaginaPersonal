@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "完整简历"
+project_button: "查看项目"
+show_more_projects: "显示更多项目"
+show_less_projects: "显示较少项目"
+show_more_publications: "显示更多出版物"
+show_less_publications: "显示更少的出版物"
+show_more_talks: "显示更多演讲"
+show_less_talks: "显示较少的演讲"
+show_more_outreach: "显示更多"
+show_less_outreach: "显示较少"
+featured_label: "精选"
+
+
+# Talks section titles
+featured_talks_title: "专题讲座"
+all_talks_title: "所有讲座"
+carousel_scroll_hint: "查看更多"
+swipe_hint: "左右滑动查看更多"
+
+# Publications section titles
+featured_publications_title: "特色出版物"
+all_publications_title: "所有出版物"
+
+# Types
+# Talk types
+talk_types:
+  invited: "特邀演讲"
+  communication: "口头交流"
+  plenary: "全体报告"
+  panel: "控制板"
+  poster: "海报"
+  workshop: "车间"
+  keynote: "基调"
+
+# Press types
+press_types:
+  news: "消息"
+
+# Outreach types
+outreach_types:
+  article: "文章"
+  tv: "电视"
+  interview: "面试"
+  radio: "收音机"
+access_text: "使用权"
+view_citations: "查看引文"
+citations: "引文"
+total_citations: "总引用次数"
+cited_by_title: "被引用者"
+abstract_label: "抽象的"
+view_achievements: "查看成就"
+hide_achievements: "隐藏成就"
+toggle_achievements: "切换成就"
+
+# Publication types
+publication_types:
+  article: "文章"
+  incollection: "本书章节"
+  inproceedings: "会议记录"
+  inbook: "章"
+  book: "书"
+  phdthesis: "博士论文"
+  mastersthesis: "硕士论文"
+  inpress: "新闻中"
+  techreport: "技术报告"
+  misc: "各种各样的"
+  proceedings: "会议记录"
+  manual: "手动的"
+  booklet: "小册子"
+  model: "模型"
+  project: "项目"
+
+# Publication text
+publication_text:
+  in: "在"
+
+# Month names
+months:
+  january: "一月"
+  february: "二月"
+  march: "三月"
+  april: "四月"
+  may: "五月"
+  june: "六月"
+  july: "七月"
+  august: "八月"
+  september: "九月"
+  october: "十月"
+  november: "十一月"
+  december: "十二月"
+
+# Outreach section
+outreach:
+  more_title: "更多文章和媒体"
+  read: "读"
+  watch: "手表"
+  listen: "听"
+language_selector: 语言选择器
+read_article: 阅读文章

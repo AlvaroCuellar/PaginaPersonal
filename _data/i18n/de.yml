@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "Vollständiger Lebenslauf"
+project_button: "Projekt ansehen"
+show_more_projects: "Weitere Projekte anzeigen"
+show_less_projects: "Weniger Projekte anzeigen"
+show_more_publications: "Weitere Publikationen anzeigen"
+show_less_publications: "Weniger Publikationen anzeigen"
+show_more_talks: "Weitere Vorträge anzeigen"
+show_less_talks: "Weniger Vorträge anzeigen"
+show_more_outreach: "Mehr anzeigen"
+show_less_outreach: "Weniger anzeigen"
+featured_label: "Hervorgehoben"
+
+
+# Talks section titles
+featured_talks_title: "Empfohlene Vorträge"
+all_talks_title: "Alle Gespräche"
+carousel_scroll_hint: "Mehr sehen"
+swipe_hint: "Wischen Sie, um mehr zu sehen"
+
+# Publications section titles
+featured_publications_title: "Ausgewählte Veröffentlichungen"
+all_publications_title: "Alle Veröffentlichungen"
+
+# Types
+# Talk types
+talk_types:
+  invited: "Eingeladener Vortrag"
+  communication: "Mündliche Kommunikation"
+  plenary: "Plenarvortrag"
+  panel: "Panel"
+  poster: "Poster"
+  workshop: "Werkstatt"
+  keynote: "Keynote"
+
+# Press types
+press_types:
+  news: "Nachricht"
+
+# Outreach types
+outreach_types:
+  article: "Artikel"
+  tv: "Fernseher"
+  interview: "Interview"
+  radio: "Radio"
+access_text: "Zugang"
+view_citations: "Zitate anzeigen"
+citations: "Zitate"
+total_citations: "Gesamtzitate"
+cited_by_title: "Zitiert von"
+abstract_label: "Abstrakt"
+view_achievements: "Erfolge anzeigen"
+hide_achievements: "Erfolge ausblenden"
+toggle_achievements: "Erfolge umschalten"
+
+# Publication types
+publication_types:
+  article: "Artikel"
+  incollection: "Buchkapitel"
+  inproceedings: "Verfahren"
+  inbook: "Kapitel"
+  book: "Buch"
+  phdthesis: "Doktorarbeit"
+  mastersthesis: "Masterarbeit"
+  inpress: "Im Druck"
+  techreport: "Technischer Bericht"
+  misc: "Verschiedenes"
+  proceedings: "Verfahren"
+  manual: "Handbuch"
+  booklet: "Broschüre"
+  model: "Modell"
+  project: "Projekt"
+
+# Publication text
+publication_text:
+  in: "In"
+
+# Month names
+months:
+  january: "Januar"
+  february: "Februar"
+  march: "März"
+  april: "April"
+  may: "Mai"
+  june: "Juni"
+  july: "Juli"
+  august: "August"
+  september: "September"
+  october: "Oktober"
+  november: "November"
+  december: "Dezember"
+
+# Outreach section
+outreach:
+  more_title: "Weitere Artikel & Medien"
+  read: "Lesen"
+  watch: "Betrachten"
+  listen: "Hören"
+language_selector: Sprachauswahl
+read_article: Artikel lesen

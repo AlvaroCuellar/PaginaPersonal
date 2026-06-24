@@ -23,13 +23,39 @@ repeat_featured_in_all: true
 subtitle:
   es: "Ponencias, seminarios y charlas"
   en: "Conferences, seminars, and talks"
+  fr: Conférences, séminaires et discussions
+  pt: Conferências, seminários e palestras
+  it: Conferenze, seminari e conferenze
+  de: Konferenzen, Seminare und Vorträge
+  zh: 会议、研讨会和讲座
+  ja: カンファレンス、セミナー、講演会
+  ko: 컨퍼런스, 세미나, 강연
+  ru: Конференции, семинары и переговоры
+  ar: المؤتمرات والندوات والمحاضرات
 section_title:
   es: "Conferencias"
   en: "Talks"
+  fr: Communications
+  pt: Conferências
+  it: Conferenze
+  de: Vorträge
+  zh: 讲座
+  ja: 講演
+  ko: 강연
+  ru: Доклады
+  ar: المحاضرات
 url_slug:
   es: "conferencias"
   en: "talks"
-
+  fr: "communications"
+  pt: "conferencias"
+  it: "conferenze"
+  de: "vortraege"
+  zh: "talks"
+  ja: "talks"
+  ko: "talks"
+  ru: "talks"
+  ar: "talks"
 featured_ids:
   - "aiso2026"
   - "jpd2026"
@@ -44,7 +70,6 @@ featured_ids:
   - "paris2022"
   - "dh2022tokyo"
   - "viena2022"
-  
 talks:
 
 
@@ -61,6 +86,15 @@ talks:
       en: "Buenos Aires, Argentina"
 
 
+      fr: Buenos Aires, Argentine
+      pt: Buenos Aires, Argentina
+      it: Buenos Aires, Argentina
+      de: Buenos Aires, Argentinien
+      zh: 阿根廷布宜诺斯艾利斯
+      ja: ブエノスアイレス、アルゼンチン
+      ko: 아르헨티나 부에노스아이레스
+      ru: Буэнос-Айрес, Аргентина
+      ar: بوينس آيرس، الأرجنتين
   - id: "jpd2026"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -75,6 +109,15 @@ talks:
 
 
 
+      fr: Las Palmas de Gran Canaria, Espagne
+      pt: Las Palmas de Gran Canária, Espanha
+      it: Las Palmas di Gran Canaria, Spagna
+      de: Las Palmas de Gran Canaria, Spanien
+      zh: 西班牙大加那利岛拉斯帕尔马斯
+      ja: ラス パルマス デ グラン カナリア、スペイン
+      ko: 라스 팔마스 데 그란 카나리아, 스페인
+      ru: Лас-Пальмас-де-Гран-Канария, Испания
+      ar: لاس بالماس دي جران كناريا، إسبانيا
   - id: "asodat2026"
     author: "Álvaro Cuéllar"
     type: invited
@@ -88,6 +131,15 @@ talks:
       en: "Salamanca, Spain"
 
 
+      fr: Salamanque, Espagne
+      pt: Salamanca, Espanha
+      it: Salamanca, Spagna
+      de: Salamanca, Spanien
+      zh: 西班牙萨拉曼卡
+      ja: サラマンカ、スペイン
+      ko: 살라망카, 스페인
+      ru: Саламанка, Испания
+      ar: سالامانكا، اسبانيا
   - id: "unifrdecouverte2026"
     author: "Álvaro Cuéllar"
     type: invited
@@ -99,6 +151,15 @@ talks:
       es: "Friburgo, Suiza"
       en: "Fribourg, Switzerland"
 
+      fr: Fribourg, Suisse
+      pt: Friburgo, Suíça
+      it: Friburgo, Svizzera
+      de: Freiburg, Schweiz
+      zh: 瑞士弗里堡
+      ja: フリブール、スイス
+      ko: 프리부르, 스위스
+      ru: Фрибур, Швейцария
+      ar: فريبورغ، سويسرا
   - id: "unifrpeda2026"
     author: "Álvaro Cuéllar"
     type: invited
@@ -110,6 +171,15 @@ talks:
       es: "Friburgo, Suiza"
       en: "Fribourg, Switzerland"
 
+      fr: Fribourg, Suisse
+      pt: Friburgo, Suíça
+      it: Friburgo, Svizzera
+      de: Freiburg, Schweiz
+      zh: 瑞士弗里堡
+      ja: フリブール、スイス
+      ko: 프리부르, 스위스
+      ru: Фрибур, Швейцария
+      ar: فريبورغ، سويسرا
   - id: "literaturasdisidentes2026"
     author: "Álvaro Cuéllar"
     type: invited
@@ -119,10 +189,19 @@ talks:
     institution: "Departament de Filologia Espanyola, Facultat de Filosofia i Lletres, Universitat Autònoma de Barcelona"
     location:
       es: "Bellaterra, España"
-      en: "Bellaterra, Spain" 
+      en: "Bellaterra, Spain"
 
 
      
+      fr: Bellaterra, Espagne
+      pt: Bellaterra, Espanha
+      it: Bellaterra, Spagna
+      de: Bellaterra, Spanien
+      zh: 西班牙贝拉特拉
+      ja: ベラテッラ、スペイン
+      ko: 스페인 벨라테라
+      ru: Беллатерра, Испания
+      ar: بيلاتيرا، إسبانيا
   - id: "motivarte2026"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -133,7 +212,15 @@ talks:
     location:
       es: "Madrid, España"
       en: "Madrid, Spain"
-      
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "hddmalaga2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -144,7 +231,15 @@ talks:
     location:
       es: "Málaga, España"
       en: "Málaga, Spain"
-      
+      fr: Malaga, Espagne
+      pt: Málaga, Espanha
+      it: Malaga, Spagna
+      de: Málaga, Spanien
+      zh: 西班牙马拉加
+      ja: マラガ、スペイン
+      ko: 말라가, 스페인
+      ru: Малага, Испания
+      ar: مالقة، اسبانيا
   - id: "bytesdocs2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -157,6 +252,15 @@ talks:
       en: "Córdoba, Argentina"
 
       
+      fr: Cordoue, Argentine
+      pt: Córdoba, Argentina
+      it: Cordoba, Argentina
+      de: Córdoba, Argentinien
+      zh: 阿根廷科尔多瓦
+      ja: コルドバ、アルゼンチン
+      ko: 아르헨티나 코르도바
+      ru: Кордова, Аргентина
+      ar: قرطبة، الأرجنتين
   - id: "unedmaster2025"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -170,6 +274,15 @@ talks:
 
 
   
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "hdh2025"
     author: "Álvaro Cuéllar"
     type: communication
@@ -183,6 +296,15 @@ talks:
       en: "Valencia, Spain"
 
       
+      fr: Valence, Espagne
+      pt: Valência, Espanha
+      it: Valenza, Spagna
+      de: Valencia, Spanien
+      zh: 西班牙巴伦西亚
+      ja: バレンシア、スペイン
+      ko: 발렌시아, 스페인
+      ru: Валенсия, Испания
+      ar: فالنسيا، إسبانيا
   - id: "aitenso2025"
     author: "Joel Reverter, Álvaro Cuéllar"
     type: communication
@@ -196,6 +318,15 @@ talks:
       en: "León, Spain"
 
 
+      fr: Léon, Espagne
+      pt: Leão, Espanha
+      it: Leon, Spagna
+      de: Leon, Spanien
+      zh: 西班牙莱昂
+      ja: レオン、スペイン
+      ko: 레온, 스페인
+      ru: Леон, Испания
+      ar: ليون، اسبانيا
   - id: "uned2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -209,6 +340,15 @@ talks:
       en: "Madrid, Spain"
 
 
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "ibpria2025_writerid"
     author: "Alejandro H. Toselli, Álvaro Cuéllar, Sònia Boadas, Enrique Vidal, Joan Andreu Sánchez"
     type: communication
@@ -222,6 +362,15 @@ talks:
       en: "Coimbra, Portugal"
 
 
+      fr: Coimbra, Portugal
+      pt: Coimbra, Portugal
+      it: Coimbra, Portogallo
+      de: Coimbra, Portugal
+      zh: 葡萄牙科英布拉
+      ja: コインブラ、ポルトガル
+      ko: 코임브라, 포르투갈
+      ru: Коимбра, Португалия
+      ar: كويمبرا، البرتغال
   - id: "leon2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -233,7 +382,15 @@ talks:
     location:
       es: "León, España"
       en: "León, Spain"
-      
+      fr: Léon, Espagne
+      pt: Leão, Espanha
+      it: Leon, Spagna
+      de: Leon, Spanien
+      zh: 西班牙莱昂
+      ja: レオン、スペイン
+      ko: 레온, 스페인
+      ru: Леон, Испания
+      ar: ليون، اسبانيا
   - id: "calderon2025"
     author: "Germán Vega García-Luengos, Álvaro Cuéllar"
     type: communication
@@ -246,6 +403,15 @@ talks:
       en: "San Millán de la Cogolla, Spain"
 
 
+      fr: San Millán de la Cogolla, Espagne
+      pt: San Millán de la Cogolla, Espanha
+      it: San Millán de la Cogolla, Spagna
+      de: San Millán de la Cogolla, Spanien
+      zh: 圣米兰德拉科戈拉, 西班牙
+      ja: サン・ミジャン・デ・ラ・コゴジャ、スペイン
+      ko: 스페인 산미얀데라코고야
+      ru: Сан-Мильян-де-ла-Коголья, Испания
+      ar: سان ميلان دي لا كوجولا، إسبانيا
   - id: "thal_autografos2025"
     author: "Álvaro Cuéllar, Arantxa Llàcer"
     type: invited
@@ -258,6 +424,15 @@ talks:
       en: "Barcelona, Spain"
 
 
+      fr: Barcelone, Espagne
+      pt: Barcelona, ​​Espanha
+      it: Barcellona, ​​Spagna
+      de: Barcelona, ​​Spanien
+      zh: 西班牙巴塞罗那
+      ja: バルセロナ、スペイン
+      ko: 바르셀로나, 스페인
+      ru: Барселона, Испания
+      ar: برشلونة، اسبانيا
   - id: "tubinga2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -270,6 +445,15 @@ talks:
       en: "Tübingen, Germany"
 
 
+      fr: Tubingue, Allemagne
+      pt: Tubinga, Alemanha
+      it: Tubinga, Germania
+      de: Tübingen, Deutschland
+      zh: 德国蒂宾根
+      ja: テュービンゲン、ドイツ
+      ko: 독일 튀빙겐
+      ru: Тюбинген, Германия
+      ar: توبنغن، ألمانيا
   - id: "acatlan2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -282,6 +466,15 @@ talks:
       en: "Naucalpan, Mexico"
 
 
+      fr: Naucalpan, Mexique
+      pt: Naucalpan, México
+      it: Naucalpan, Messico
+      de: Naucalpan, Mexiko
+      zh: 墨西哥 瑙卡尔潘
+      ja: ナウカルパン、メキシコ
+      ko: 멕시코 나우칼판
+      ru: Наукальпан, Мексика
+      ar: ناوكالبان، المكسيك
   - id: "uam2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -295,6 +488,15 @@ talks:
 
 
       
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "uam2025-2"
     author: "Álvaro Cuéllar"
     type: panel
@@ -308,6 +510,15 @@ talks:
 
 
 
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "perugia2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -321,6 +532,15 @@ talks:
       en: "Perugia, Italy"
 
 
+      fr: Pérouse, Italie
+      pt: Perúgia, Itália
+      it: Perugia, Italia
+      de: Perugia, Italien
+      zh: 意大利佩鲁贾
+      ja: ペルージャ、イタリア
+      ko: 페루자, 이탈리아
+      ru: Перуджа, Италия
+      ar: بيروجيا، إيطاليا
   - id: "usc2025"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -333,6 +553,15 @@ talks:
       es: "Santiago de Compostela, España"
       en: "Santiago de Compostela, Spain"
 
+      fr: Saint-Jacques-de-Compostelle, Espagne
+      pt: Santiago de Compostela, Espanha
+      it: Santiago di Compostela, Spagna
+      de: Santiago de Compostela, Spanien
+      zh: 西班牙圣地亚哥德孔波斯特拉
+      ja: サンティアゴ デ コンポステーラ、スペイン
+      ko: 스페인 산티아고 데 콤포스텔라
+      ru: Сантьяго-де-Компостела, Испания
+      ar: سانتياغو دي كومبوستيلا، إسبانيا
   - id: "istae2025"
     author: "Álvaro Cuéllar"
     type: invited
@@ -346,6 +575,15 @@ talks:
       en: "Santiago de Compostela, Spain"
 
  
+      fr: Saint-Jacques-de-Compostelle, Espagne
+      pt: Santiago de Compostela, Espanha
+      it: Santiago di Compostela, Spagna
+      de: Santiago de Compostela, Spanien
+      zh: 西班牙圣地亚哥德孔波斯特拉
+      ja: サンティアゴ デ コンポステーラ、スペイン
+      ko: 스페인 산티아고 데 콤포스텔라
+      ru: Сантьяго-де-Компостела, Испания
+      ar: سانتياغو دي كومبوستيلا، إسبانيا
   - id: "hkadh2025"
     author: "Álvaro Cuéllar"
     type: communication
@@ -359,6 +597,15 @@ talks:
       en: "Hong Kong, China"
 
 
+      fr: Hong Kong, Chine
+      pt: Hong Kong, China
+      it: Hong Kong, Cina
+      de: Hongkong, China
+      zh: 中国香港
+      ja: 香港、中国
+      ko: 홍콩, 중국
+      ru: Гонконг, Китай
+      ar: هونج كونج، الصين
   - id: "cadiz2024"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -374,6 +621,15 @@ talks:
 
 
  
+      fr: Cadix, Espagne
+      pt: Cádis, Espanha
+      it: Cadice, Spagna
+      de: Cádiz, Spanien
+      zh: 西班牙加的斯
+      ja: カディス、スペイン
+      ko: 카디스, 스페인
+      ru: Кадис, Испания
+      ar: قادس، إسبانيا
   - id: "uam2024"
     author: "Álvaro Cuéllar"
     type: invited
@@ -387,6 +643,15 @@ talks:
 
  
  
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "usc2024"
     author: "Álvaro Cuéllar"
     type: invited
@@ -400,6 +665,15 @@ talks:
       en: "Santiago de Compostela, Spain"
 
  
+      fr: Saint-Jacques-de-Compostelle, Espagne
+      pt: Santiago de Compostela, Espanha
+      it: Santiago di Compostela, Spagna
+      de: Santiago de Compostela, Spanien
+      zh: 西班牙圣地亚哥德孔波斯特拉
+      ja: サンティアゴ デ コンポステーラ、スペイン
+      ko: 스페인 산티아고 데 콤포스텔라
+      ru: Сантьяго-де-Компостела, Испания
+      ar: سانتياغو دي كومبوستيلا، إسبانيا
   - id: "olmedo2024"
     author: "Álvaro Cuéllar"
     type: invited
@@ -413,6 +687,15 @@ talks:
 
  
  
+      fr: Olmedo, Espagne
+      pt: Olmedo, Espanha
+      it: Olmedo, Spagna
+      de: Olmedo, Spanien
+      zh: 西班牙奥尔梅多
+      ja: オルメド、スペイン
+      ko: 올메도, 스페인
+      ru: Ольмедо, Испания
+      ar: أولميدو، إسبانيا
   - id: "chle2024"
     author: "Álvaro Cuéllar"
     type: invited
@@ -427,6 +710,15 @@ talks:
 
  
  
+      fr: Zurich, Suisse
+      pt: Zurique, Suíça
+      it: Zurigo, Svizzera
+      de: Zürich, Schweiz
+      zh: 瑞士苏黎世
+      ja: チューリッヒ、スイス
+      ko: 취리히, 스위스
+      ru: Цюрих, Швейцария
+      ar: زيوريخ، سويسرا
   - id: "aispi2024"
     author: "Álvaro Cuéllar"
     type: communication
@@ -440,6 +732,15 @@ talks:
       en: "Rome, Italy"
 
  
+      fr: Rome, Italie
+      pt: Roma, Itália
+      it: Roma, Italia
+      de: Rom, Italien
+      zh: 意大利罗马
+      ja: ローマ、イタリア
+      ko: 로마, 이탈리아
+      ru: Рим, Италия
+      ar: روما، إيطاليا
   - id: "ile2024"
     author: "Álvaro Cuéllar"
     type: invited
@@ -452,6 +753,15 @@ talks:
       en: "Madrid, Spain"
 
  
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "leon2024"
     author: "Álvaro Cuéllar, Sònia Boadas"
     type: communication
@@ -467,6 +777,15 @@ talks:
  
  
  
+      fr: Léon, Espagne
+      pt: Leão, Espanha
+      it: Leon, Spagna
+      de: Leon, Spanien
+      zh: 西班牙莱昂
+      ja: レオン、スペイン
+      ko: 레온, 스페인
+      ru: Леон, Испания
+      ar: ليون، اسبانيا
   - id: "thal2024"
     author: "Álvaro Cuéllar, Sònia Boadas"
     type: invited
@@ -480,6 +799,15 @@ talks:
       en: "Barcelona, Spain"
 
  
+      fr: Barcelone, Espagne
+      pt: Barcelona, ​​Espanha
+      it: Barcellona, ​​Spagna
+      de: Barcelona, ​​Spanien
+      zh: 西班牙巴塞罗那
+      ja: バルセロナ、スペイン
+      ko: 바르셀로나, 스페인
+      ru: Барселона, Испания
+      ar: برشلونة، اسبانيا
   - id: "stylometrie2024conf"
     author: "Álvaro Cuéllar"
     type: invited
@@ -491,6 +819,15 @@ talks:
       es: "Ginebra, Suiza"
       en: "Geneva, Switzerland"
 
+      fr: Genève, Suisse
+      pt: Genebra, Suíça
+      it: Ginevra, Svizzera
+      de: Genf, Schweiz
+      zh: 瑞士日内瓦
+      ja: ジュネーブ、スイス
+      ko: 제네바, 스위스
+      ru: Женева, Швейцария
+      ar: جنيف، سويسرا
   - id: "stylometrie2024"
     author: "Álvaro Cuéllar"
     type: "workshop"
@@ -502,6 +839,15 @@ talks:
       es: "Ginebra, Suiza"
       en: "Geneva, Switzerland"
 
+      fr: Genève, Suisse
+      pt: Genebra, Suíça
+      it: Ginevra, Svizzera
+      de: Genf, Schweiz
+      zh: 瑞士日内瓦
+      ja: ジュネーブ、スイス
+      ko: 제네바, 스위스
+      ru: Женева, Швейцария
+      ar: جنيف، سويسرا
   - id: "ginebra2024"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -514,6 +860,15 @@ talks:
       en: "Geneva, Switzerland"
 
 
+      fr: Genève, Suisse
+      pt: Genebra, Suíça
+      it: Ginevra, Svizzera
+      de: Genf, Schweiz
+      zh: 瑞士日内瓦
+      ja: ジュネーブ、スイス
+      ko: 제네바, 스위스
+      ru: Женева, Швейцария
+      ar: جنيف، سويسرا
   - id: "bruselas2023"
     author: "Álvaro Cuéllar"
     type: plenary
@@ -526,6 +881,15 @@ talks:
       es: "Bruselas, Bélgica"
       en: "Brussels, Belgium"
 
+      fr: Bruxelles, Belgique
+      pt: Bruxelas, Bélgica
+      it: Bruxelles, Belgio
+      de: Brüssel, Belgien
+      zh: 比利时布鲁塞尔
+      ja: ブリュッセル、ベルギー
+      ko: 브뤼셀, 벨기에
+      ru: Брюссель, Бельгия
+      ar: بروكسل، بلجيكا
   - id: "lopeuab2023"
     author: "Álvaro Cuéllar"
     type: invited
@@ -539,6 +903,15 @@ talks:
 
  
  
+      fr: Barcelone, Espagne
+      pt: Barcelona, ​​Espanha
+      it: Barcellona, ​​Spagna
+      de: Barcelona, ​​Spanien
+      zh: 西班牙巴塞罗那
+      ja: バルセロナ、スペイン
+      ko: 바르셀로나, 스페인
+      ru: Барселона, Испания
+      ar: برشلونة، اسبانيا
   - id: "bne2023ia"
     author: "Álvaro Cuéllar, Germán Vega García-Luengos"
     type: invited
@@ -553,6 +926,15 @@ talks:
 
  
  
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "dariah2023"
     author: "Álvaro Cuéllar"
     type: invited
@@ -567,6 +949,15 @@ talks:
  
  
  
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "aitenso2023"
     author: "Álvaro Cuéllar, Javier J. González Martínez, Germán Vega García-Luengos"
     type: communication
@@ -581,6 +972,15 @@ talks:
 
 
 
+      fr: Puebla, Mexique
+      pt: Puebla, México
+      it: Puebla, Messico
+      de: Puebla, Mexiko
+      zh: 墨西哥普埃布拉
+      ja: メキシコ、プエブラ
+      ko: 멕시코 푸에블라
+      ru: Пуэбла, Мексика
+      ar: بويبلا، المكسيك
   - id: "valladolid2023"
     author: "Álvaro Cuéllar, Irene G. Escudero"
     type: communication
@@ -594,6 +994,15 @@ talks:
       en: "Valladolid, Spain"
 
  
+      fr: Valladolid, Espagne
+      pt: Valladolid, Espanha
+      it: Valladolid, Spagna
+      de: Valladolid, Spanien
+      zh: 西班牙巴利亚多利德
+      ja: バリャドリード、スペイン
+      ko: 바야돌리드, 스페인
+      ru: Вальядолид, Испания
+      ar: بلد الوليد، إسبانيا
   - id: "olmedo2023"
     author: "Álvaro Cuéllar"
     type: invited
@@ -607,6 +1016,15 @@ talks:
       en: "Olmedo, Spain"
 
  
+      fr: Olmedo, Espagne
+      pt: Olmedo, Espanha
+      it: Olmedo, Spagna
+      de: Olmedo, Spanien
+      zh: 西班牙奥尔梅多
+      ja: オルメド、スペイン
+      ko: 올메도, 스페인
+      ru: Ольмедо, Испания
+      ar: أولميدو، إسبانيا
   - id: "hispanistas2023"
     author: "Álvaro Cuéllar"
     type: communication
@@ -621,6 +1039,15 @@ talks:
 
  
  
+      fr: Graz, Autriche
+      pt: Graz, Áustria
+      it: Graz, Austria
+      de: Graz, Österreich
+      zh: 奥地利格拉茨
+      ja: グラーツ、オーストリア
+      ko: 그라츠, 오스트리아
+      ru: Грац, Австрия
+      ar: غراتس، النمسا
   - id: "bne2023"
     author: "Álvaro Cuéllar, Germán Vega García-Luengos"
     type: communication
@@ -635,6 +1062,15 @@ talks:
 
  
  
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "transkribus2023"
     author: "Álvaro Cuéllar"
     type: "workshop"
@@ -647,6 +1083,15 @@ talks:
       en: "Barcelona, Spain"
 
  
+      fr: Barcelone, Espagne
+      pt: Barcelona, ​​Espanha
+      it: Barcellona, ​​Spagna
+      de: Barcelona, ​​Spanien
+      zh: 西班牙巴塞罗那
+      ja: バルセロナ、スペイン
+      ko: 바르셀로나, 스페인
+      ru: Барселона, Испания
+      ar: برشلونة، اسبانيا
   - id: "uab2023"
     author: "Álvaro Cuéllar, Germán Vega García-Luengos"
     type: invited
@@ -660,6 +1105,15 @@ talks:
 
  
  
+      fr: Barcelone, Espagne
+      pt: Barcelona, ​​Espanha
+      it: Barcellona, ​​Spagna
+      de: Barcelona, ​​Spanien
+      zh: 西班牙巴塞罗那
+      ja: バルセロナ、スペイン
+      ko: 바르셀로나, 스페인
+      ru: Барселона, Испания
+      ar: برشلونة، اسبانيا
   - id: "aitenso2022"
     author: "Álvaro Cuéllar"
     type: communication
@@ -674,6 +1128,15 @@ talks:
 
 
  
+      fr: Toulouse, France
+      pt: Toulouse, França
+      it: Tolosa, Francia
+      de: Toulouse, Frankreich
+      zh: 法国图卢兹
+      ja: トゥールーズ、フランス
+      ko: 프랑스 툴루즈
+      ru: Тулуза, Франция
+      ar: تولوز، فرنسا
   - id: "istae2022"
     author: "Álvaro Cuéllar"
     type: invited
@@ -687,6 +1150,15 @@ talks:
 
  
  
+      fr: Saint-Jacques-de-Compostelle, Espagne
+      pt: Santiago de Compostela, Espanha
+      it: Santiago di Compostela, Spagna
+      de: Santiago de Compostela, Spanien
+      zh: 西班牙圣地亚哥德孔波斯特拉
+      ja: サンティアゴ デ コンポステーラ、スペイン
+      ko: 스페인 산티아고 데 콤포스텔라
+      ru: Сантьяго-де-Компостела, Испания
+      ar: سانتياغو دي كومبوستيلا، إسبانيا
   - id: "dh2022tokyo"
     author: "Javier de la Rosa, Álvaro Cuéllar, Jörg Lehmann"
     type: communication
@@ -702,6 +1174,15 @@ talks:
 
  
  
+      fr: Tokyo, Japon
+      pt: Tóquio, Japão
+      it: Tokio, Giappone
+      de: Tokio, Japan
+      zh: 日本东京
+      ja: 東京、日本
+      ko: 일본 도쿄
+      ru: Токио, Япония
+      ar: طوكيو، اليابان
   - id: "olmedo2022"
     author: "Álvaro Cuéllar"
     type: invited
@@ -715,6 +1196,15 @@ talks:
       en: "Olmedo, Spain"
 
  
+      fr: Olmedo, Espagne
+      pt: Olmedo, Espanha
+      it: Olmedo, Spagna
+      de: Olmedo, Spanien
+      zh: 西班牙奥尔梅多
+      ja: オルメド、スペイン
+      ko: 올메도, 스페인
+      ru: Ольмедо, Испания
+      ar: أولميدو، إسبانيا
   - id: "paris2022"
     author: "Álvaro Cuéllar"
     type: communication
@@ -729,6 +1219,15 @@ talks:
 
  
  
+      fr: Paris, France
+      pt: Paris, França
+      it: Parigi, Francia
+      de: Paris, Frankreich
+      zh: 法国巴黎
+      ja: パリ、フランス
+      ko: 파리, 프랑스
+      ru: Париж, Франция
+      ar: باريس، فرنسا
   - id: "viena2022"
     author: "Álvaro Cuéllar"
     type: invited
@@ -743,6 +1242,15 @@ talks:
 
      
      
+      fr: Vienne, Autriche
+      pt: Viena, Áustria
+      it: Vienna, Austria
+      de: Wien, Österreich
+      zh: 奥地利维也纳
+      ja: ウィーン、オーストリア
+      ko: 비엔나, 오스트리아
+      ru: Вена, Австрия
+      ar: فيينا، النمسا
   - id: "doctorandos2021"
     author: "Álvaro Cuéllar"
     type: communication
@@ -756,6 +1264,15 @@ talks:
 
      
      
+      fr: Salamanque, Espagne
+      pt: Salamanca, Espanha
+      it: Salamanca, Spagna
+      de: Salamanca, Spanien
+      zh: 西班牙萨拉曼卡
+      ja: サラマンカ、スペイン
+      ko: 살라망카, 스페인
+      ru: Саламанка, Испания
+      ar: سالامانكا، اسبانيا
   - id: "hdh2021"
     author: "Javier J. González Martínez, Olaia Andaluz-Pinedo, Hugo Sanjurjo-González, Álvaro Cuéllar, Claudia Demattè, Emma Mª Marcos Rodríguez"
     type: "panel"
@@ -769,6 +1286,15 @@ talks:
       en: "Santiago de Compostela, Spain"
 
 
+      fr: Saint-Jacques-de-Compostelle, Espagne
+      pt: Santiago de Compostela, Espanha
+      it: Santiago di Compostela, Spagna
+      de: Santiago de Compostela, Spanien
+      zh: 西班牙圣地亚哥德孔波斯特拉
+      ja: サンティアゴ デ コンポステーラ、スペイン
+      ko: 스페인 산티아고 데 콤포스텔라
+      ru: Сантьяго-де-Компостела, Испания
+      ar: سانتياغو دي كومبوستيلا، إسبانيا
   - id: "olmedo2021"
     author: "Álvaro Cuéllar"
     type: invited
@@ -782,6 +1308,15 @@ talks:
       en: "Olmedo, Spain"
 
       
+      fr: Olmedo, Espagne
+      pt: Olmedo, Espanha
+      it: Olmedo, Spagna
+      de: Olmedo, Spanien
+      zh: 西班牙奥尔梅多
+      ja: オルメド、スペイン
+      ko: 올메도, 스페인
+      ru: Ольмедо, Испания
+      ar: أولميدو، إسبانيا
   - id: "almagro2021"
     author: "Álvaro Cuéllar"
     type: invited
@@ -796,6 +1331,15 @@ talks:
 
       
       
+      fr: Almagro, Espagne
+      pt: Almagro, Espanha
+      it: Almagro, Spagna
+      de: Almagro, Spanien
+      zh: 西班牙阿尔马格罗
+      ja: アルマグロ、スペイン
+      ko: 스페인 알마그로
+      ru: Альмагро, Испания
+      ar: ألماجرو، إسبانيا
   - id: "autorias2019"
     author: "Álvaro Cuéllar"
     type: communication
@@ -811,6 +1355,15 @@ talks:
       
       
       
+      fr: Tolède, Espagne
+      pt: Toledo, Espanha
+      it: Toledo, Spagna
+      de: Toledo, Spanien
+      zh: 西班牙托莱多
+      ja: トレド、スペイン
+      ko: 스페인 톨레도
+      ru: Толедо, Испания
+      ar: توليدو، إسبانيا
   - id: "hdh2019"
     author: "Álvaro Cuéllar"
     type: communication
@@ -824,6 +1377,15 @@ talks:
       en: "Toledo, Spain"
 
 
+      fr: Tolède, Espagne
+      pt: Toledo, Espanha
+      it: Toledo, Spagna
+      de: Toledo, Spanien
+      zh: 西班牙托莱多
+      ja: トレド、スペイン
+      ko: 스페인 톨레도
+      ru: Толедо, Испания
+      ar: توليدو، إسبانيا
   - id: "tinglado"
     author: "Álvaro Cuéllar"
     type: communication
@@ -837,6 +1399,15 @@ talks:
       en: "Madrid, Spain"
 
       
+      fr: Madrid, Espagne
+      pt: Madri, Espanha
+      it: Madrid, Spagna
+      de: Madrid, Spanien
+      zh: 西班牙马德里
+      ja: マドリッド、スペイン
+      ko: 마드리드, 스페인
+      ru: Мадрид, Испания
+      ar: مدريد، اسبانيا
   - id: "sorjuana"
     type: invited
     date: "2019-07-09"
@@ -847,9 +1418,15 @@ talks:
     location:
       es: "Almagro, España"
       en: "Almagro, Spain"
-      
-      
-      
+      fr: Almagro, Espagne
+      pt: Almagro, Espanha
+      it: Almagro, Spagna
+      de: Almagro, Spanien
+      zh: 西班牙阿尔马格罗
+      ja: アルマグロ、スペイン
+      ko: 스페인 알마그로
+      ru: Альмагро, Испания
+      ar: ألماجرو، إسبانيا
   - id: "presen"
     type: communication
     date: "2019-02-25"
@@ -860,9 +1437,15 @@ talks:
     location:
       es: "Würzburg, Alemania"
       en: "Würzburg, Germany"
-      
-      
-      
+      fr: Wurtzbourg, Allemagne
+      pt: Wurtzburgo, Alemanha
+      it: Würzburg, Germania
+      de: Würzburg, Deutschland
+      zh: 德国维尔茨堡
+      ja: ヴュルツブルク、ドイツ
+      ko: 독일 뷔르츠부르크
+      ru: Вюрцбург, Германия
+      ar: فورتسبورغ، ألمانيا
   - id: "necesidad"
     author: "Álvaro Cuéllar"
     type: communication
@@ -874,3 +1457,12 @@ talks:
     location:
       es: "Valladolid, España"
       en: "Valladolid, Spain"
+      fr: Valladolid, Espagne
+      pt: Valladolid, Espanha
+      it: Valladolid, Spagna
+      de: Valladolid, Spanien
+      zh: 西班牙巴利亚多利德
+      ja: バリャドリード、スペイン
+      ko: 바야돌리드, 스페인
+      ru: Вальядолид, Испания
+      ar: بلد الوليد، إسبانيا

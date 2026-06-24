@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "CV complet"
+project_button: "Voir le projet"
+show_more_projects: "Afficher plus de projets"
+show_less_projects: "Afficher moins de projets"
+show_more_publications: "Afficher plus de publications"
+show_less_publications: "Afficher moins de publications"
+show_more_talks: "Afficher plus de discussions"
+show_less_talks: "Afficher moins de discussions"
+show_more_outreach: "Afficher plus"
+show_less_outreach: "Afficher moins"
+featured_label: "En vedette"
+
+
+# Talks section titles
+featured_talks_title: "Discussions en vedette"
+all_talks_title: "Toutes les discussions"
+carousel_scroll_hint: "Voir plus"
+swipe_hint: "Faites glisser pour en voir plus"
+
+# Publications section titles
+featured_publications_title: "Publications en vedette"
+all_publications_title: "Toutes les publications"
+
+# Types
+# Talk types
+talk_types:
+  invited: "Conférence invitée"
+  communication: "Communication orale"
+  plenary: "Conférence plénière"
+  panel: "Panneau"
+  poster: "Affiche"
+  workshop: "Atelier"
+  keynote: "Discours d'ouverture"
+
+# Press types
+press_types:
+  news: "Nouvelles"
+
+# Outreach types
+outreach_types:
+  article: "Article"
+  tv: "TV"
+  interview: "Entretien"
+  radio: "Radio"
+access_text: "Accéder"
+view_citations: "Afficher les citations"
+citations: "citations"
+total_citations: "citations totales"
+cited_by_title: "Cité par"
+abstract_label: "Abstrait"
+view_achievements: "Voir les réalisations"
+hide_achievements: "Masquer les réalisations"
+toggle_achievements: "Basculer les réalisations"
+
+# Publication types
+publication_types:
+  article: "Article"
+  incollection: "Chapitre de livre"
+  inproceedings: "Procédure"
+  inbook: "Chapitre"
+  book: "Livre"
+  phdthesis: "Thèse de doctorat"
+  mastersthesis: "Mémoire de maîtrise"
+  inpress: "Sous Presse"
+  techreport: "Rapport technique"
+  misc: "Divers"
+  proceedings: "Procédure"
+  manual: "Manuel"
+  booklet: "Brochure"
+  model: "Modèle"
+  project: "Projet"
+
+# Publication text
+publication_text:
+  in: "Dans"
+
+# Month names
+months:
+  january: "Janvier"
+  february: "Février"
+  march: "Mars"
+  april: "Avril"
+  may: "Mai"
+  june: "Juin"
+  july: "Juillet"
+  august: "Août"
+  september: "Septembre"
+  october: "Octobre"
+  november: "Novembre"
+  december: "Décembre"
+
+# Outreach section
+outreach:
+  more_title: "Plus d'articles et de médias"
+  read: "Lire"
+  watch: "Montre"
+  listen: "Écouter"
+language_selector: Sélecteur de langue
+read_article: Lire l’article

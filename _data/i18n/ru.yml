@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "Полное резюме"
+project_button: "Посмотреть проект"
+show_more_projects: "Показать больше проектов"
+show_less_projects: "Показать меньше проектов"
+show_more_publications: "Показать больше публикаций"
+show_less_publications: "Показать меньше публикаций"
+show_more_talks: "Показать больше докладов"
+show_less_talks: "Показать меньше разговоров"
+show_more_outreach: "Показать больше"
+show_less_outreach: "Показать меньше"
+featured_label: "Рекомендуемые"
+
+
+# Talks section titles
+featured_talks_title: "Рекомендуемые доклады"
+all_talks_title: "Все доклады"
+carousel_scroll_hint: "Посмотреть больше"
+swipe_hint: "Проведите пальцем, чтобы увидеть больше"
+
+# Publications section titles
+featured_publications_title: "Рекомендуемые публикации"
+all_publications_title: "Все публикации"
+
+# Types
+# Talk types
+talk_types:
+  invited: "Приглашенный доклад"
+  communication: "Устное общение"
+  plenary: "Пленарная лекция"
+  panel: "Панель"
+  poster: "Плакат"
+  workshop: "Мастерская"
+  keynote: "Основной доклад"
+
+# Press types
+press_types:
+  news: "Новости"
+
+# Outreach types
+outreach_types:
+  article: "Статья"
+  tv: "ТВ"
+  interview: "Интервью"
+  radio: "Радио"
+access_text: "Доступ"
+view_citations: "Посмотреть цитаты"
+citations: "цитаты"
+total_citations: "общее количество цитирований"
+cited_by_title: "Цитируется"
+abstract_label: "Абстрактный"
+view_achievements: "Посмотреть достижения"
+hide_achievements: "Скрыть достижения"
+toggle_achievements: "Переключить достижения"
+
+# Publication types
+publication_types:
+  article: "Статья"
+  incollection: "Глава книги"
+  inproceedings: "Слушания"
+  inbook: "Глава"
+  book: "Книга"
+  phdthesis: "Кандидатская диссертация"
+  mastersthesis: "Магистерская диссертация"
+  inpress: "В прессе"
+  techreport: "Технический отчет"
+  misc: "Разнообразный"
+  proceedings: "Слушания"
+  manual: "Руководство"
+  booklet: "Буклет"
+  model: "Модель"
+  project: "Проект"
+
+# Publication text
+publication_text:
+  in: "В"
+
+# Month names
+months:
+  january: "Январь"
+  february: "Февраль"
+  march: "Март"
+  april: "Апрель"
+  may: "Май"
+  june: "Июнь"
+  july: "Июль"
+  august: "Август"
+  september: "Сентябрь"
+  october: "Октябрь"
+  november: "Ноябрь"
+  december: "Декабрь"
+
+# Outreach section
+outreach:
+  more_title: "Больше статей и медиа"
+  read: "Читать"
+  watch: "Смотреть"
+  listen: "Слушать"
+language_selector: Выбор языка
+read_article: Читать статью

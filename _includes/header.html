@@ -13,6 +13,7 @@
         <nav id="nav-main">
           <ul>
             {% assign lang = page.lang | default: 'es' %}
+            {% assign current_locale = site.data.locales.supported | where: "code", lang | first %}
             {% for item in site.data.home.menu %}
               {% if item.show != false %}
                 <li>
@@ -25,24 +26,43 @@
                   {% endif %}
                   
                   {% assign section_data = site.data.home[item.key] %}
-                  <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
+                  <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% elsif section_data.section_title.en %}{{ section_data.section_title.en }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
                 </li>
               {% endif %}
             {% endfor %}
             <li>
-              {% if lang == 'es' %}
-                {% assign en_url = page.url | replace: '/es/', '/en/' %}
-                {% assign es_url = page.url %}
-              {% else %}
-                {% assign en_url = page.url %}
-                {% assign es_url = page.url | replace: '/en/', '/es/' %}
-              {% endif %}
-              
-              <div class="lang-switcher" data-active="{{ lang }}">
-                <a href="{{ es_url | relative_url }}" class="lang-option{% if lang == 'es' %} active{% endif %}" data-lang="es">ES</a>
-                <a href="{{ en_url | relative_url }}" class="lang-option{% if lang == 'en' %} active{% endif %}" data-lang="en">EN</a>
-                <div class="lang-slider"></div>
-              </div>
+              <details class="lang-switcher" data-active="{{ lang }}">
+                <summary class="lang-current" aria-label="{{ site.data.i18n[lang].language_selector | default: 'Language selector' }}">
+                  <svg class="lang-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="m5 8 6 6"></path>
+                    <path d="m4 14 6-6 2-3"></path>
+                    <path d="M2 5h12"></path>
+                    <path d="M7 2h1"></path>
+                    <path d="m22 22-5-10-5 10"></path>
+                    <path d="M14 18h6"></path>
+                  </svg>
+                  <span>{{ current_locale.short | default: lang | upcase }}</span>
+                </summary>
+                <div class="lang-menu">
+                  {% for locale in site.data.locales.supported %}
+                    {% assign locale_prefix = '/' | append: lang | append: '/' %}
+                    {% assign new_prefix = '/' | append: locale.code | append: '/' %}
+                    {% if page.url contains locale_prefix %}
+                      {% assign locale_url = page.url | replace_first: locale_prefix, new_prefix %}
+                    {% else %}
+                      {% assign locale_url = new_prefix %}
+                    {% endif %}
+                    <a href="{{ locale_url | relative_url }}"
+                       class="lang-option{% if lang == locale.code %} active{% endif %}"
+                       data-lang="{{ locale.code }}"
+                       hreflang="{{ locale.code }}"
+                       {% if lang == locale.code %}aria-current="true"{% endif %}>
+                      <span class="lang-name">{{ locale.label }}</span>
+                      <span class="lang-code">{{ locale.short }}</span>
+                    </a>
+                  {% endfor %}
+                </div>
+              </details>
             </li>
           </ul>
         </nav>

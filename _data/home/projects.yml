@@ -12,23 +12,77 @@
 section_title:
   es: "Proyectos"
   en: "Projects"
+  fr: Projets
+  pt: Projetos
+  it: Progetti
+  de: Projekte
+  zh: 项目
+  ja: プロジェクト
+  ko: 프로젝트
+  ru: Проекты
+  ar: المشاريع
 url_slug:
   es: "proyectos"
   en: "projects"
+  fr: "projets"
+  pt: "projetos"
+  it: "progetti"
+  de: "projekte"
+  zh: "projects"
+  ja: "projects"
+  ko: "projects"
+  ru: "projects"
+  ar: "projects"
 subtitle:
   es: "Investigación aplicada"
   en: "Applied research"
 
+  fr: Recherche appliquée
+  pt: Pesquisa aplicada
+  it: Ricerca applicata
+  de: Angewandte Forschung
+  zh: 应用研究
+  ja: 応用研究
+  ko: 응용연구
+  ru: Прикладные исследования
+  ar: البحوث التطبيقية
 projects:
   - badge:
       es: "Codirector"
       en: "Co-director"
+      fr: Co-directeur
+      pt: Codiretor
+      it: Co-direttore
+      de: Co-Direktor
+      zh: 联合导演
+      ja: 共同ディレクター
+      ko: 공동 감독
+      ru: Содиректор
+      ar: مدير مشارك
     title:
       es: "Estilometría aplicada al Teatro del Siglo de Oro"
       en: "Stylometry Applied to the Spanish Golden Age Theatre"
+      fr: Stylométrie appliquée au théâtre espagnol du Siècle d'Or
+      pt: Estilometria aplicada ao teatro espanhol da Idade de Ouro
+      it: Stilometria applicata al teatro spagnolo del Secolo d'Oro
+      de: Auf das spanische Theater des Goldenen Zeitalters angewandte Stilometrie
+      zh: 风格测量法在西班牙黄金时代剧院的应用
+      ja: スペイン黄金時代劇場に適用されたスタイロメトリー
+      ko: 스페인 황금시대 극장에 적용된 스타일로메트리
+      ru: Стилометрия в применении к театру Золотого века Испании
+      ar: قياس الأسلوب المطبق على مسرح العصر الذهبي الإسباني
     description:
       es: "Estilometría aplicada al Teatro del Siglo de Oro (ETSO) es un proyecto dirigido por Álvaro Cuéllar (UAB) y Germán Vega García-Luengos (Universidad de Valladolid) que aplica métodos de inteligencia artificial y análisis estilométrico al estudio de miles de comedias del Siglo de Oro. A partir de un corpus de más de 2.800 textos, el proyecto investiga la autoría, la cronología y las relaciones textuales entre obras, combinando filología tradicional y humanidades digitales para descubrir nuevas atribuciones y comprender mejor los procesos creativos de los dramaturgos auriseculares."
       en: "Stylometry Applied to the Spanish Golden Age Theatre (ETSO) is a project directed by Álvaro Cuéllar (UAB) and Germán Vega García-Luengos (University of Valladolid) that applies artificial intelligence and stylometric methods to the study of thousands of Golden Age plays. Based on a corpus of more than 2,800 texts, the project investigates authorship, chronology, and textual relationships among works, combining traditional philology and digital humanities to uncover new attributions and better understand the creative processes of early modern playwrights."
+      fr: Stylométrie appliquée au Théâtre espagnol du Siècle d'Or (ETSO) est un projet dirigé par Álvaro Cuéllar (UAB) et Germán Vega García-Luengos (Université de Valladolid) qui applique l'intelligence artificielle et les méthodes stylométriques à l'étude de milliers de pièces du Siècle d'or. Basé sur un corpus de plus de 2 800 textes, le projet étudie la paternité, la chronologie et les relations textuelles entre les œuvres, combinant philologie traditionnelle et humanités numériques pour découvrir de nouvelles attributions et mieux comprendre les processus créatifs des premiers dramaturges modernes.
+      pt: A Estilometria Aplicada ao Teatro Espanhol da Idade de Ouro (ETSO) é um projeto dirigido por Álvaro Cuéllar (UAB) e Germán Vega García-Luengos (Universidade de Valladolid) que aplica inteligência artificial e métodos estilométricos ao estudo de milhares de peças da Idade de Ouro. Com base em um corpus de mais de 2.800 textos, o projeto investiga autoria, cronologia e relações textuais entre obras, combinando filologia tradicional e humanidades digitais para descobrir novas atribuições e compreender melhor os processos criativos dos primeiros dramaturgos modernos.
+      it: Stylometry Applied to the Spanish Golden Age Theatre (ETSO) è un progetto diretto da Álvaro Cuéllar (UAB) e Germán Vega García-Luengos (Università di Valladolid) che applica l'intelligenza artificiale e metodi stilometrici allo studio di migliaia di opere teatrali dell'Età dell'Oro. Basato su un corpus di oltre 2.800 testi, il progetto indaga la paternità, la cronologia e le relazioni testuali tra le opere, combinando la filologia tradizionale e le discipline umanistiche digitali per scoprire nuove attribuzioni e comprendere meglio i processi creativi dei primi drammaturghi moderni.
+      de: Stylometry Applied to the Spanish Golden Age Theatre (ETSO) ist ein von Álvaro Cuéllar (UAB) und Germán Vega García-Luengos (Universität Valladolid) geleitetes Projekt, das künstliche Intelligenz und stilometrische Methoden auf die Untersuchung Tausender Theaterstücke des Goldenen Zeitalters anwendet. Basierend auf einem Korpus von mehr als 2.800 Texten untersucht das Projekt Urheberschaft, Chronologie und Textbeziehungen zwischen Werken und kombiniert traditionelle Philologie und digitale Geisteswissenschaften, um neue Zuschreibungen aufzudecken und die kreativen Prozesse frühneuzeitlicher Dramatiker besser zu verstehen.
+      zh: 应用于西班牙黄金时代剧院的文体测量 (ETSO) 是由 Álvaro Cuéllar (UAB) 和 Germán Vega García-Luengos（巴利亚多利德大学）指导的一个项目，该项目将人工智能和文体测量方法应用于对数千部黄金时代戏剧的研究。该项目基于 2,800 多篇文本的语料库，调查作品之间的作者身份、年代顺序和文本关系，结合传统语言学和数字人文，以发现新的归属并更好地理解早期现代剧作家的创作过程。
+      ja: スペイン黄金時代劇場に適用されたスタイロメトリー (ETSO) は、アルバロ・クエヤル (UAB) とジェルマン・ベガ・ガルシア・ルエンゴス (バリャドリード大学) が監督するプロジェクトで、人工知能とスタイロメトリーの手法を何千もの黄金時代の演劇の研究に適用しています。このプロジェクトは、2,800 を超えるテキストのコーパスに基づいて、著作者、年代、作品間のテキスト関係を調査し、伝統的な文献学とデジタル人文科学を組み合わせて、新しい帰属を明らかにし、近世の劇作家の創造プロセスをより深く理解します。
+      ko: 스페인 황금 시대 극장(ETSO)에 적용되는 스타일로메트리는 Álvaro Cuéllar(UAB)와 Germán Vega García-Luengos(바야돌리드 대학)가 감독한 프로젝트로, 수천 편의 황금 시대 연극 연구에 인공 지능과 문체 측정 방법을 적용합니다. 2,800개 이상의 텍스트 모음을 기반으로 하는 이 프로젝트는 저작자, 연대기, 작품 간의 텍스트 관계를 조사하고, 전통 문헌학과 디지털 인문학을 결합하여 새로운 속성을 찾아내고 초기 현대 극작가의 창작 과정을 더 잘 이해합니다.
+      ru: «Стилометрия, примененная в Испанском театре Золотого века» (ETSO) — это проект под руководством Альваро Куэльяра (UAB) и Хермана Веги Гарсиа-Луэнгоса (Университет Вальядолида), который применяет искусственный интеллект и стилометрические методы для изучения тысяч пьес Золотого века. Основываясь на корпусе из более чем 2800 текстов, проект исследует авторство, хронологию и текстовые связи между произведениями, объединяя традиционную филологию и цифровые гуманитарные науки, чтобы раскрыть новые атрибуции и лучше понять творческие процессы драматургов раннего Нового времени.
+      ar: قياس الأنماط المطبق على مسرح العصر الذهبي الإسباني (ETSO) هو مشروع من إخراج ألفارو كويلار (UAB) وجيرمان فيغا غارسيا لونغوس (جامعة بلد الوليد) الذي يطبق الذكاء الاصطناعي وأساليب قياس الأسلوب لدراسة الآلاف من مسرحيات العصر الذهبي. استنادًا إلى مجموعة مكونة من أكثر من 2800 نص، يبحث المشروع في التأليف والتسلسل الزمني والعلاقات النصية بين الأعمال، ويجمع بين فقه اللغة التقليدية والعلوم الإنسانية الرقمية للكشف عن سمات جديدة وفهم أفضل للعمليات الإبداعية للكتاب المسرحيين المعاصرين المبكرين.
     image: "etso.png"
     url: "https://etso.es/"
 
@@ -36,12 +90,39 @@ projects:
   - badge:
       es: "Codirector"
       en: "Co-director"
+      fr: Co-directeur
+      pt: Codiretor
+      it: Co-direttore
+      de: Co-Direktor
+      zh: 联合导演
+      ja: 共同ディレクター
+      ko: 공동 감독
+      ru: Содиректор
+      ar: مدير مشارك
     title:
       es: "TEXORO: búsquedas en 3000 obras literarias auriseculares"
       en: "TEXORO: Searching 3,000 Spanish Golden Age Plays"
+      fr: TEXORO: Recherche parmi 3 000 pièces de théâtre espagnoles de l’âge d’or
+      pt: 'TEXORO: Pesquisando 3.000 peças da Era de Ouro Espanhola'
+      it: "TEXORO: ricerca di 3.000 opere teatrali spagnole dell'età dell'oro"
+      de: 'TEXORO: Suche in 3.000 spanischen Stücken des Goldenen Zeitalters'
+      zh: TEXORO：搜索 3,000 部西班牙黄金时代戏剧
+      ja: 'TEXORO: 3,000 のスペイン黄金時代の演劇を検索'
+      ko: 'TEXORO: 스페인 황금기 희곡 3,000편 검색'
+      ru: 'TEXORO: поиск 3000 пьес Золотого века Испании'
+      ar: 'تيكسورو: البحث في 3000 مسرحية من العصر الذهبي الإسباني'
     description:
       es: "TEXORO es una plataforma digital que permite realizar búsquedas textuales en casi 3.000 obras teatrales de más de 350 autores. Desarrollada por Álvaro Cuéllar y Germán Vega García-Luengos, ofrece un acceso unificado al mayor corpus digital del teatro aurisecular, facilitando la consulta y el estudio directo de los textos. Actualmente permite búsquedas simples por palabras o frases exactas, con futuras mejoras previstas para ampliar sus capacidades de análisis y exploración."
       en: "TEXORO is a digital platform that enables textual searches across nearly 3,000 theatrical works by more than 350 authors. Developed by Álvaro Cuéllar and Germán Vega García-Luengos, it provides unified access to the largest digital corpus of Spanish Golden Age theatre, facilitating the consultation and direct study of texts. It currently supports simple searches by words or exact phrases, with future developments planned to expand its analytical and exploratory capabilities."
+      fr: TEXORO est une plateforme numérique qui permet des recherches textuelles dans près de 3 000 œuvres théâtrales de plus de 350 auteurs. Développé par Álvaro Cuéllar et Germán Vega García-Luengos, il offre un accès unifié au plus grand corpus numérique du théâtre espagnol du Siècle d'Or, facilitant la consultation et l'étude directe des textes. Il prend actuellement en charge des recherches simples par mots ou expressions exactes, et des développements futurs sont prévus pour étendre ses capacités analytiques et exploratoires.
+      pt: TEXORO é uma plataforma digital que permite pesquisas textuais em cerca de 3.000 obras teatrais de mais de 350 autores. Desenvolvido por Álvaro Cuéllar e Germán Vega García-Luengos, permite acesso unificado ao maior corpus digital do teatro espanhol da Idade de Ouro, facilitando a consulta e o estudo direto dos textos. Atualmente suporta pesquisas simples por palavras ou frases exatas, com desenvolvimentos futuros planejados para expandir suas capacidades analíticas e exploratórias.
+      it: TEXORO è una piattaforma digitale che consente ricerche testuali tra quasi 3.000 opere teatrali di più di 350 autori. Sviluppato da Álvaro Cuéllar e Germán Vega García-Luengos, fornisce un accesso unificato al più grande corpus digitale del teatro spagnolo del Secolo d'oro, facilitando la consultazione e lo studio diretto dei testi. Attualmente supporta semplici ricerche per parole o frasi esatte, con sviluppi futuri pianificati per espandere le sue capacità analitiche ed esplorative.
+      de: TEXORO ist eine digitale Plattform, die eine Textsuche in fast 3.000 Theaterwerken von mehr als 350 Autoren ermöglicht. Es wurde von Álvaro Cuéllar und Germán Vega García-Luengos entwickelt und bietet einen einheitlichen Zugang zum größten digitalen Korpus des spanischen Theaters des Goldenen Zeitalters und erleichtert die Konsultation und das direkte Studium von Texten. Derzeit unterstützt es die einfache Suche nach Wörtern oder genauen Phrasen. Zukünftige Entwicklungen sind geplant, um die analytischen und explorativen Fähigkeiten zu erweitern.
+      zh: TEXORO 是一个数字平台，可以对 350 多名作者的近 3,000 部戏剧作品进行文本搜索。它由 Álvaro Cuéllar 和 Germán Vega García-Luengos 开发，提供对西班牙黄金时代剧院最大的数字语料库的统一访问，促进文本的咨询和直接研究。它目前支持通过单词或精确短语进行简单搜索，未来计划扩展其分析和探索能力。
+      ja: TEXORO は、350 人を超える作家による 3,000 近くの演劇作品のテキスト検索を可能にするデジタル プラットフォームです。アルバロ・クエヤルとゲルマン・ベガ・ガルシア＝ルエンゴスによって開発されたこのツールは、スペイン黄金時代演劇の最大のデジタル コーパスへの統合アクセスを提供し、テキストの参照と直接学習を容易にします。現在、単語または正確な語句による単純な検索をサポートしていますが、将来の開発では分析機能と探索機能を拡張することが計画されています。
+      ko: TEXORO는 350명 이상의 작가가 제작한 약 3,000편의 연극 작품에 대한 텍스트 검색을 가능하게 하는 디지털 플랫폼입니다. Álvaro Cuéllar와 Germán Vega García-Luengos가 개발한 이 솔루션은 스페인 황금기 극장의 가장 큰 디지털 코퍼스에 대한 통합 액세스를 제공하여 텍스트에 대한 상담과 직접적인 연구를 촉진합니다. 현재는 단어나 정확한 구문을 사용한 간단한 검색을 지원하며 향후 분석 및 탐색 기능을 확장하기 위한 개발이 계획되어 있습니다.
+      ru: TEXORO — это цифровая платформа, позволяющая осуществлять текстовый поиск по почти 3000 театральным произведениям более чем 350 авторов. Разработанный Альваро Куэльяром и Херманом Вегой Гарсиа-Луэнгосом, он обеспечивает единый доступ к крупнейшему цифровому корпусу испанского театра Золотого века, облегчая консультации и прямое изучение текстов. В настоящее время он поддерживает простой поиск по словам или точным фразам, а в будущем планируется расширить его аналитические и исследовательские возможности.
+      ar: TEXORO هي منصة رقمية تتيح البحث النصي في ما يقرب من 3000 عمل مسرحي لأكثر من 350 مؤلفًا. تم تطويره بواسطة ألفارو كويلار وجيرمان فيغا غارسيا لونغوس، وهو يوفر وصولاً موحدًا إلى أكبر مجموعة رقمية لمسرح العصر الذهبي الإسباني، مما يسهل التشاور والدراسة المباشرة للنصوص. وهو يدعم حاليًا عمليات البحث البسيطة عن طريق الكلمات أو العبارات الدقيقة، مع التخطيط للتطورات المستقبلية لتوسيع قدراته التحليلية والاستكشافية.
     image: "texoro.png"
     url: "https://etso.es/texoro"
 
@@ -49,12 +130,39 @@ projects:
   - badge:
       es: "Investigador contratado"
       en: "Researcher"
+      fr: Chercheur
+      pt: Pesquisador
+      it: Ricercatore
+      de: Forscher
+      zh: 研究员
+      ja: 研究者
+      ko: 연구원
+      ru: Исследователь
+      ar: الباحث
     title:
       es: "THAL-IA: Patrimonio teatral áureo: inteligencia artificial y fotografía espectral"
       en: "THAL-IA: Golden Age Theatrical Heritage — Artificial Intelligence and Spectral Imaging"
+      fr: 'THAL-IA: Patrimoine théâtral de l’âge d’or — Intelligence artificielle et imagerie spectrale'
+      pt: 'THAL-IA: Herança Teatral da Idade de Ouro - Inteligência Artificial e Imagem Espectral'
+      it: "THAL-IA: Patrimonio teatrale dell'età dell'oro: intelligenza artificiale e imaging spettrale"
+      de: 'THAL-IA: Theatererbe des Goldenen Zeitalters – Künstliche Intelligenz und Spektralbildgebung'
+      zh: THAL-IA：黄金时代戏剧遗产——人工智能和光谱成像
+      ja: 'THAL-IA: 黄金時代の演劇遺産 — 人工知能とスペクトル イメージング'
+      ko: 'THAL-IA: 황금기 연극 유산 — 인공 지능 및 스펙트럼 이미징'
+      ru: 'THAL-IA: Театральное наследие Золотого века — искусственный интеллект и спектральная визуализация'
+      ar: 'THAL-IA: التراث المسرحي للعصر الذهبي – الذكاء الاصطناعي والتصوير الطيفي'
     description:
       es: "Thal-IA (Patrimonio teatral áureo: inteligencia artificial y fotografía espectral) es un proyecto dirigido por Sònia Boadas (Universitat Autònoma de Barcelona) que investiga las relaciones entre los manuscritos teatrales del Siglo de Oro y los distintos agentes implicados en su transmisión —autores, copistas, censores y libreros—. Mediante técnicas de inteligencia artificial y análisis multiespectral, el proyecto busca identificar manos autógrafas y de copistas, reconstruir redes de producción y circulación de textos, y aportar nuevas perspectivas sobre la materialidad y autoría en el teatro aurisecular."
       en: "THAL-IA (Golden Age Theatrical Heritage: Artificial Intelligence and Spectral Imaging) is a project directed by Sònia Boadas (Universitat Autònoma de Barcelona) that explores the relationships between Spanish Golden Age theatrical manuscripts and the various agents involved in their transmission —authors, scribes, censors, and booksellers. Using artificial intelligence and multispectral imaging techniques, the project aims to identify authorial and scribal hands, reconstruct networks of textual production and circulation, and offer new perspectives on materiality and authorship in early modern theatre."
+      fr: 'THAL-IA (Golden Age Theatrical Heritage: Artificial Intelligence and Spectral Imaging) est un projet dirigé par Sònia Boadas (Universitat Autònoma de Barcelona) qui explore les relations entre les manuscrits théâtraux espagnols de l’âge d’or et les différents agents impliqués dans leur transmission – auteurs, scribes, censeurs et libraires. Utilisant l’intelligence artificielle et des techniques d’imagerie multispectrale, le projet vise à identifier les mains des auteurs et des scribes, à reconstruire les réseaux de production et de circulation textuelles et à offrir de nouvelles perspectives sur la matérialité et la paternité dans le théâtre moderne.'
+      pt: 'THAL-IA (Herança Teatral da Idade de Ouro: Inteligência Artificial e Imagem Espectral) é um projeto dirigido por Sònia Boadas (Universitat Autònoma de Barcelona) que explora as relações entre os manuscritos teatrais da Idade de Ouro espanhola e os vários agentes envolvidos na sua transmissão – autores, escribas, censores e livreiros. Utilizando inteligência artificial e técnicas de imagem multiespectral, o projeto visa identificar mãos autorais e de escribas, reconstruir redes de produção e circulação textual e oferecer novas perspectivas sobre materialidade e autoria no teatro moderno.'
+      it: "THAL-IA (Golden Age Theatrical Heritage: Artificial Intelligence and Spectral Imaging) è un progetto diretto da Sònia Boadas (Universitat Autònoma de Barcelona) che esplora le relazioni tra i manoscritti teatrali spagnoli del Secolo d'oro e i vari agenti coinvolti nella loro trasmissione: autori, scribi, censori e librai. Utilizzando l'intelligenza artificiale e tecniche di imaging multispettrale, il progetto mira a identificare le mani dell'autore e dello scriba, ricostruire le reti di produzione e circolazione testuale e offrire nuove prospettive sulla materialità e sulla paternità nel teatro della prima età moderna."
+      de: 'THAL-IA (Golden Age Theatrical Heritage: Artificial Intelligence and Spectral Imaging) ist ein von Sònia Boadas (Universitat Autònoma de Barcelona) geleitetes Projekt, das die Beziehungen zwischen spanischen Theatermanuskripten des Goldenen Zeitalters und den verschiedenen Akteuren untersucht, die an ihrer Übermittlung beteiligt sind – Autoren, Schreiber, Zensoren und Buchhändler. Mithilfe künstlicher Intelligenz und multispektraler Bildgebungstechniken zielt das Projekt darauf ab, Autoren- und Schreibhände zu identifizieren, Netzwerke der Textproduktion und -zirkulation zu rekonstruieren und neue Perspektiven auf Materialität und Autorschaft im frühneuzeitlichen Theater zu bieten.'
+      zh: THAL-IA（黄金时代戏剧遗产：人工智能和光谱成像）是由 Sònia Boadas（巴塞罗那自治大学）指导的一个项目，旨在探索西班牙黄金时代戏剧手稿与参与其传播的各种代理人（作者、抄写员、审查员和书商）之间的关系。该项目旨在利用人工智能和多光谱成像技术，识别作者和抄写者的手，重建文本生产和流通的网络，并为早期现代戏剧的物质性和作者身份提供新的视角。
+      ja: 'THAL-IA (黄金時代の演劇遺産: 人工知能とスペクトル イメージング) は、ソニア ボアダス (バルセロナ自治大学) が監督するプロジェクトで、スペインの黄金時代の演劇原稿と、その伝達に関与したさまざまなエージェント (著者、筆記者、検閲官、書店) との関係を調査します。このプロジェクトは、人工知能とマルチスペクトル イメージング技術を使用して、作者と脚本家の手を特定し、テキストの制作と流通のネットワークを再構築し、近世演劇における物質性と作者についての新しい視点を提供することを目的としています。'
+      ko: 'THAL-IA(황금 시대 연극 유산: 인공 지능 및 스펙트럼 이미징)는 Sònia Boadas(Universitat Autònoma de Barcelona)가 감독하는 프로젝트로, 스페인 황금 시대 연극 원고와 그 전송에 관련된 다양한 주체(작가, 서기관, 검열관 및 서점) 간의 관계를 탐구합니다. 인공 지능과 다중 스펙트럼 이미징 기술을 사용하여 이 프로젝트는 작가와 필사자의 손을 식별하고, 텍스트 생산 및 유통 네트워크를 재구성하고, 초기 현대 극장의 물질성과 작가성에 대한 새로운 관점을 제공하는 것을 목표로 합니다.'
+      ru: 'THAL-IA (Театральное наследие Золотого века: искусственный интеллект и спектральная визуализация) — это проект Сони Боадас (Автономный университет Барселоны), который исследует отношения между театральными рукописями Золотого века Испании и различными агентами, участвующими в их передаче — авторами, писцами, цензорами и книготорговцами. Используя искусственный интеллект и методы мультиспектральной визуализации, проект направлен на выявление рук авторов и переписчиков, реконструирует сети производства и распространения текстов, а также предлагает новые взгляды на материальность и авторство в театре раннего Нового времени.'
+      ar: 'THAL-IA (التراث المسرحي للعصر الذهبي: الذكاء الاصطناعي والتصوير الطيفي) هو مشروع تديره سونيا بوداس (جامعة برشلونة المستقلة) ويستكشف العلاقات بين المخطوطات المسرحية الإسبانية في العصر الذهبي ومختلف الوكلاء المشاركين في نقلها - المؤلفون والكتبة والرقباء وبائعو الكتب. باستخدام الذكاء الاصطناعي وتقنيات التصوير متعدد الأطياف، يهدف المشروع إلى تحديد الأيدي المؤلفة والكاتبة، وإعادة بناء شبكات إنتاج النص وتداوله، وتقديم وجهات نظر جديدة حول المادية والتأليف في المسرح الحديث المبكر.'
     image: "thalia.jpg"
     url: "https://webs.uab.cat/thal-ia/"
 
@@ -62,12 +170,39 @@ projects:
   - badge:
       es: "Mercator Fellow"
       en: "Mercator Fellow"
+      fr: Boursier Mercator
+      pt: Companheiro Mercador
+      it: Compagno di Mercatore
+      de: Mercator Fellow
+      zh: 墨卡托研究员
+      ja: メルカトルフェロー
+      ko: 메르카토르 펠로우
+      ru: Товарищ Меркатора
+      ar: زميل مركاتور
     title:
       es: "Tracing Regularities in Pedro Calderón de la Barca's Dramatic Œuvre with a Computational Approach"
       en: "Tracing Regularities in Pedro Calderón de la Barca's Dramatic Œuvre with a Computational Approach"
+      fr: Retracer les régularités dans l'œuvre dramatique de Pedro Calderón de la Barca avec une approche informatique
+      pt: Rastreando Regularidades na Obra Dramática de Pedro Calderón de la Barca com uma Abordagem Computacional
+      it: Tracciare le regolarità nell'opera drammatica di Pedro Calderón de la Barca con un approccio computazionale
+      de: Aufspüren von Regelmäßigkeiten im dramatischen Werk von Pedro Calderón de la Barca mit einem rechnerischen Ansatz
+      zh: 用计算方法追踪佩德罗·卡尔德隆·德拉·巴尔卡戏剧作品中的规律
+      ja: ペドロ・カルデロン・デ・ラ・バルサの劇的な演技の規則性を計算的アプローチで追跡する
+      ko: 전산적 접근 방식을 사용하여 Pedro Calderón de la Barca의 극적인 작품에서 규칙성 추적
+      ru: Отслеживание закономерностей в драматическом творчестве Педро Кальдерона де ла Барки с помощью вычислительного подхода
+      ar: تتبع الانتظام في العمل الدرامي لبيدرو كالديرون دي لا برشلونة من خلال النهج الحسابي
     description:
       es: "Proyecto financiado por la DFG dentro del programa Computational Literary Studies, desarrollado entre la Universidad de Tübingen y el Instituto de Lingüística Computacional de Stuttgart. Su objetivo es analizar cuantitativamente la obra dramática de Calderón de la Barca a partir de textos codificados en TEI-XML, aplicando métodos de análisis léxico, redes de personajes, estructura métrica y dinámica temporal. El estudio busca establecer regularidades estilísticas, proponer nuevas clasificaciones genéricas y contribuir a la datación de obras de autoría o cronología discutida."
       en: "DFG-funded project within the Computational Literary Studies program, carried out between the University of Tübingen and the Institute for Computational Linguistics at the University of Stuttgart. It quantitatively analyzes Calderón de la Barca’s dramatic works using TEI-XML encoded texts, applying lexical analysis, character network modeling, metrical structure, and temporal dynamics. The project aims to identify stylistic regularities, refine genre classifications, and propose new datings for works of uncertain or disputed authorship."
+      fr: Projet financé par la DFG dans le cadre du programme Computational Literary Studies, réalisé entre l'Université de Tübingen et l'Institut de linguistique computationnelle de l'Université de Stuttgart. Il analyse quantitativement les œuvres dramatiques de Calderón de la Barca à l’aide de textes codés TEI-XML, en appliquant l’analyse lexicale, la modélisation de réseaux de caractères, la structure métrique et la dynamique temporelle. Le projet vise à identifier des régularités stylistiques, à affiner les classifications des genres et à proposer de nouvelles datations pour des œuvres à la paternité incertaine ou contestée.
+      pt: Projeto financiado pela DFG no âmbito do programa de Estudos Literários Computacionais, realizado entre a Universidade de Tübingen e o Instituto de Lingüística Computacional da Universidade de Stuttgart. Analisa quantitativamente as obras dramáticas de Calderón de la Barca usando textos codificados em TEI-XML, aplicando análise lexical, modelagem de redes de caracteres, estrutura métrica e dinâmica temporal. O projeto visa identificar regularidades estilísticas, refinar classificações de gênero e propor novas datações para obras de autoria incerta ou contestada.
+      it: Progetto finanziato dalla DFG nell'ambito del programma Computational Literary Studies, realizzato tra l'Università di Tubinga e l'Istituto di Linguistica Computazionale dell'Università di Stoccarda. Analizza quantitativamente le opere drammatiche di Calderón de la Barca utilizzando testi codificati TEI-XML, applicando analisi lessicale, modellazione della rete di caratteri, struttura metrica e dinamica temporale. Il progetto si propone di individuare regolarità stilistiche, affinare classificazioni di genere e proporre nuove datazioni per opere di paternità incerta o controversa.
+      de: DFG-gefördertes Projekt im Rahmen des Studiengangs Computational Literary Studies, durchgeführt zwischen der Universität Tübingen und dem Institut für Computerlinguistik der Universität Stuttgart. Es analysiert quantitativ die dramatischen Werke von Calderón de la Barca mithilfe von TEI-XML-codierten Texten und wendet dabei lexikalische Analyse, Zeichennetzwerkmodellierung, metrische Struktur und zeitliche Dynamik an. Ziel des Projekts ist es, stilistische Regelmäßigkeiten zu identifizieren, Genreklassifikationen zu verfeinern und neue Datierungen für Werke ungewisser oder umstrittener Urheberschaft vorzuschlagen.
+      zh: DFG 资助的计算文学研究项目中的项目，由蒂宾根大学和斯图加特大学计算语言学研究所合作开展。它使用 TEI-XML 编码文本，应用词法分析、字符网络建模、韵律结构和时间动态来定量分析 Calderón de la Barca 的戏剧作品。该项目旨在识别文体规律，完善流派分类，并为作者身份不确定或有争议的作品提出新的年代确定方法。
+      ja: 計算文学研究プログラム内で DFG が資金提供したプロジェクト。テュービンゲン大学とシュトゥットガルト大学の計算言語学研究所の間で実施されました。 TEI-XML でエンコードされたテキストを使用し、語彙分析、文字ネットワーク モデリング、韻律構造、および時間的ダイナミクスを適用して、カルデロン デ ラ バルカの劇的な作品を定量的に分析します。このプロジェクトは、文体の規則性を特定し、ジャンル分類を洗練し、作者が不明または論争のある作品の新しい年代を提案することを目的としています。
+      ko: 튀빙겐 대학교와 슈투트가르트 대학교의 컴퓨터 언어학 연구소 간에 수행된 컴퓨터 문학 연구 프로그램 내의 DFG 자금 지원 프로젝트입니다. TEI-XML로 인코딩된 텍스트를 사용하고 어휘 분석, 문자 네트워크 모델링, 운율 구조 및 시간 역학을 적용하여 Calderón de la Barca의 연극 작품을 정량적으로 분석합니다. 이 프로젝트는 문체적 규칙성을 식별하고, 장르 분류를 개선하고, 불확실하거나 논쟁의 여지가 있는 저자의 작품에 대한 새로운 날짜를 제안하는 것을 목표로 합니다.
+      ru: Финансируемый DFG проект в рамках программы компьютерных литературных исследований, реализуемый Тюбингенским университетом и Институтом компьютерной лингвистики Штутгартского университета. В нем количественно анализируются драматические произведения Кальдерона де ла Барки с использованием текстов, закодированных TEI-XML, с применением лексического анализа, моделирования сети персонажей, метрической структуры и временной динамики. Целью проекта является выявление стилистических закономерностей, уточнение жанровых классификаций и предложение новых датировок произведений неопределенного или спорного авторства.
+      ar: مشروع ممول من DFG ضمن برنامج الدراسات الأدبية الحاسوبية، والذي يتم تنفيذه بين جامعة توبنغن ومعهد اللغويات الحاسوبية في جامعة شتوتغارت. يقوم بتحليل كمي لأعمال كالديرون دي لا باركا الدرامية باستخدام النصوص المشفرة بـ TEI-XML، وتطبيق التحليل المعجمي، ونمذجة شبكة الشخصيات، والبنية المترية، والديناميكيات الزمنية. يهدف المشروع إلى تحديد الأنماط الأسلوبية، وتحسين تصنيفات الأنواع، واقتراح تواريخ جديدة للأعمال ذات التأليف غير المؤكد أو المتنازع عليه.
     image: "tracing.png"
     url: "https://romanistik.de/aktuelles/6456"
 
@@ -78,12 +213,39 @@ projects:
   - badge:
       es: "Colaborador"
       en: "Collaborator"
+      fr: Collaborateur
+      pt: Colaborador
+      it: Collaboratore
+      de: Mitarbeiter
+      zh: 合作者
+      ja: 協力者
+      ko: 협력자
+      ru: Соавтор
+      ar: متعاون
     title:
       es: "PROLOPE"
       en: "PROLOPE"
+      fr: PROLOPE
+      pt: PRÓLOPO
+      it: PROLOPE
+      de: PROLOP
+      zh: 普洛普
+      ja: プロロープ
+      ko: 프롤로페
+      ru: ПРОЛОПА
+      ar: برولوب
     description:
       es: "PROLOPE es un grupo de investigación de la Universitat Autònoma de Barcelona, fundado en 1989 por Alberto Blecua y dirigido actualmente por Gonzalo Pontón Gijón y Sònia Boadas. Su misión es la edición crítica y el estudio filológico integral del teatro de Lope de Vega, atendiendo a la transmisión textual, la historia editorial y el contexto literario de sus comedias. Desde su creación, el grupo ha publicado las Partes de comedias en ediciones rigurosas y comentadas, y promueve la difusión internacional del legado lopesco a través de la revista Anuario Lope de Vega y de proyectos de investigación en humanidades digitales."
       en: "PROLOPE is a research group at the Universitat Autònoma de Barcelona, founded in 1989 by Alberto Blecua and currently directed by Gonzalo Pontón Gijón and Sònia Boadas. Its mission is the critical edition and comprehensive philological study of Lope de Vega’s theatre, focusing on textual transmission, editorial history, and the literary context of his comedias. Since its foundation, the group has published the Partes de comedias in rigorous, annotated editions and promotes the international dissemination of Lope’s legacy through the journal Anuario Lope de Vega and various digital humanities research projects."
+      fr: PROLOPE est un groupe de recherche de l'Université autonome de Barcelone, fondé en 1989 par Alberto Blecua et actuellement dirigé par Gonzalo Pontón Gijón et Sònia Boadas. Sa mission est l’édition critique et l’étude philologique approfondie du théâtre de Lope de Vega, en se concentrant sur la transmission textuelle, l’histoire éditoriale et le contexte littéraire de ses comédies. Depuis sa création, le groupe publie les Partes de comedias dans des éditions rigoureuses et annotées et promeut la diffusion internationale de l’héritage de Lope à travers la revue Anuario Lope de Vega et divers projets de recherche en humanités numériques.
+      pt: PROLOPE é um grupo de investigação da Universitat Autònoma de Barcelona, ​​fundado em 1989 por Alberto Blecua e atualmente dirigido por Gonzalo Pontón Gijón e Sònia Boadas. A sua missão é a edição crítica e o estudo filológico abrangente do teatro de Lope de Vega, centrando-se na transmissão textual, na história editorial e no contexto literário das suas comédias. Desde a sua fundação, o grupo publica as Partes de comedias em edições rigorosas e comentadas e promove a divulgação internacional do legado de Lope através da revista Anuario Lope de Vega e de vários projetos de investigação em humanidades digitais.
+      it: PROLOPE è un gruppo di ricerca dell'Universitat Autònoma de Barcelona, ​​fondato nel 1989 da Alberto Blecua e attualmente diretto da Gonzalo Pontón Gijón e Sònia Boadas. La sua missione è l’edizione critica e lo studio filologico completo del teatro di Lope de Vega, concentrandosi sulla trasmissione testuale, sulla storia editoriale e sul contesto letterario delle sue commedie. Fin dalla sua fondazione, il gruppo pubblica le Partes de comedias in edizioni rigorose e commentate e promuove la diffusione internazionale dell’eredità di Lope attraverso la rivista Anuario Lope de Vega e vari progetti di ricerca di digital humanities.
+      de: PROLOPE ist eine Forschungsgruppe an der Universitat Autònoma de Barcelona, ​​die 1989 von Alberto Blecua gegründet wurde und derzeit von Gonzalo Pontón Gijón und Sònia Boadas geleitet wird. Seine Mission ist die kritische Edition und umfassende philologische Untersuchung des Theaters von Lope de Vega, wobei der Schwerpunkt auf der Textüberlieferung, der Herausgebergeschichte und dem literarischen Kontext seiner Komödien liegt. Seit ihrer Gründung veröffentlicht die Gruppe die Partes de comedias in strengen, kommentierten Ausgaben und fördert die internationale Verbreitung von Lopes Vermächtnis durch die Zeitschrift Anuario Lope de Vega und verschiedene Forschungsprojekte im Bereich der digitalen Geisteswissenschaften.
+      zh: PROLOPE 是巴塞罗那自治大学的一个研究小组，由 Alberto Blecua 于 1989 年创立，目前由 Gonzalo Pontón Gijón 和 Sònia Boadas 领导。它的使命是对洛佩·德·维加的戏剧进行批判性编辑和全面的语言学研究，重点关注他的喜剧的文本传播、编辑历史和文学背景。自成立以来，该组织出版了严谨的带注释版本的《喜剧部分》，并通过《Anuario Lope de Vega》杂志和各种数字人文研究项目促进洛佩遗产的国际传播。
+      ja: PROLOPE はバルセロナ自治大学の研究グループで、1989 年にアルベルト ブレクアによって設立され、現在はゴンサロ ポントン ヒホンとソニア ボアダスが監督しています。その使命は、ロペ・デ・ベガの演劇の批評版と包括的な文献学的研究であり、テキストの伝達、編集の歴史、彼のコメディの文学的文脈に焦点を当てています。設立以来、このグループは厳密な注釈付き版で『コメディ』を出版し、雑誌『アヌアリオ ロペ デ ベガ』やさまざまなデジタル人文科学研究プロジェクトを通じてロペの遺産の国際的な普及を促進しています。
+      ko: PROLOPE는 Universitat Autònoma de Barcelona의 연구 그룹으로 Alberto Blecua가 1989년에 설립했으며 현재 Gonzalo Pontón Gijón과 Sònia Boadas가 이끌고 있습니다. 이 단체의 사명은 텍스트 전달, 편집 역사 및 그의 코미디의 문학적 맥락에 초점을 맞춘 로페 데 베가 극장에 대한 비평 판이자 포괄적인 문학적 연구입니다. 창립 이래 이 그룹은 주석이 달린 엄격한 버전의 코미디 파티를 출판했으며 Anuario Lope de Vega 저널과 다양한 디지털 인문학 연구 프로젝트를 통해 Lope의 유산의 국제적 보급을 촉진합니다.
+      ru: ПРОЛОП — исследовательская группа Автономного университета Барселоны, основанная в 1989 году Альберто Блекуа и в настоящее время возглавляемая Гонсало Понтон Хихон и Соней Боадас. Его миссия — критическое издание и всестороннее филологическое исследование театра Лопе де Веги с упором на текстовую передачу, редакционную историю и литературный контекст его комедий. С момента своего основания группа публикует «Партии комедии» в подробных, аннотированных изданиях и способствует международному распространению наследия Лопе через журнал «Ануарио Лопе де Вега» и различные исследовательские проекты в области цифровых гуманитарных наук.
+      ar: PROLOPE هي مجموعة بحثية في الجامعة المستقلة ببرشلونة، تأسست عام 1989 على يد ألبرتو بليكوا ويديرها حاليًا غونزالو بونتون خيخون وسونيا بواداس. وتتمثل مهمتها في إصدار نقدي ودراسة فقهية شاملة لمسرح لوبي دي فيغا، مع التركيز على النقل النصي، وتاريخ التحرير، والسياق الأدبي لمسرحياته الكوميدية. منذ تأسيسها، قامت المجموعة بنشر أجزاء من الكوميديا ​​في طبعات صارمة ومشروحة وتشجع النشر الدولي لتراث لوبي من خلال مجلة Anuario Lope de Vega ومختلف المشاريع البحثية في العلوم الإنسانية الرقمية.
     image: "prolope.png"
     url: "https://prolope.uab.cat/"
 
@@ -91,12 +253,39 @@ projects:
   - badge:
       es: "Colaborador"
       en: "Collaborator"
+      fr: Collaborateur
+      pt: Colaborador
+      it: Collaboratore
+      de: Mitarbeiter
+      zh: 合作者
+      ja: 協力者
+      ko: 협력자
+      ru: Соавтор
+      ar: متعاون
     title:
       es: "METADRAMA: Aula de teatro e investigación"
       en: "METADRAMA: Theatre and Research Workshop"
+      fr: 'METADRAMA: Atelier Théâtre et Recherche'
+      pt: 'METADRAMA: Oficina de Teatro e Pesquisa'
+      it: 'METADRAMA: Laboratorio di teatro e ricerca'
+      de: 'METADRAMA: Theater- und Forschungswerkstatt'
+      zh: 元戏剧：戏剧与研究工作坊
+      ja: 'メタドラマ: 演劇と研究のワークショップ'
+      ko: '메타드라마: 연극 및 연구 워크숍'
+      ru: 'МЕТАДРАМА: Театрально-исследовательская мастерская'
+      ar: 'الميتادراما: ورشة عمل المسرح والبحث'
     description:
       es: "METADRAMA es un proyecto de investigación de la Universitat de Barcelona, dirigido por Gastón Gilabert, que estudia el verso y la métrica en el teatro del Siglo de Oro desde una perspectiva filológica y digital. Su objetivo es analizar cómo la forma poética contribuye al sentido dramático y escénico de las obras, explorando también motivos recurrentes —como el de Dido y Eneas— y su proyección en la puesta en escena del teatro aurisecular."
       en: "METADRAMA is a research project at the University of Barcelona, directed by Gastón Gilabert, that studies verse and metrics in Spanish Golden Age theatre from both philological and digital perspectives. Its aim is to analyze how poetic form contributes to the dramatic and scenic meaning of plays, while also exploring recurring motifs —such as that of Dido and Aeneas— and their projection in the staging of early modern theatre."
+      fr: METADRAMA est un projet de recherche de l'Université de Barcelone, dirigé par Gastón Gilabert, qui étudie les vers et la métrique du théâtre espagnol du Siècle d'Or du point de vue philologique et numérique. Son objectif est d'analyser comment la forme poétique contribue à la signification dramatique et scénique des pièces de théâtre, tout en explorant des motifs récurrents – comme celui de Didon et d'Énée – et leur projection dans la mise en scène du théâtre moderne.
+      pt: METADRAMA é um projeto de pesquisa da Universidade de Barcelona, ​​dirigido por Gastón Gilabert, que estuda versos e métricas no teatro espanhol da Idade de Ouro a partir de perspectivas filológicas e digitais. Seu objetivo é analisar como a forma poética contribui para o significado dramático e cênico das peças, ao mesmo tempo em que explora motivos recorrentes —como os de Dido e Enéias— e sua projeção na encenação do início do teatro moderno.
+      it: METADRAMA è un progetto di ricerca dell'Università di Barcellona, ​​diretto da Gastón Gilabert, che studia la strofa e la metrica del teatro spagnolo del Secolo d'Oro sia da una prospettiva filologica che digitale. Il suo scopo è analizzare il modo in cui la forma poetica contribuisce al significato drammatico e scenico delle opere teatrali, esplorando anche motivi ricorrenti – come quello di Didone ed Enea – e la loro proiezione nella messa in scena del teatro della prima età moderna.
+      de: METADRAMA ist ein Forschungsprojekt an der Universität Barcelona unter der Leitung von Gastón Gilabert, das Verse und Metriken im spanischen Theater des Goldenen Zeitalters sowohl aus philologischer als auch aus digitaler Perspektive untersucht. Ziel ist es, zu analysieren, wie die poetische Form zur dramatischen und szenischen Bedeutung von Theaterstücken beiträgt, und gleichzeitig wiederkehrende Motive – wie das von Dido und Aeneas – und ihre Projektion in der Inszenierung des frühneuzeitlichen Theaters zu untersuchen.
+      zh: METADRAMA 是巴塞罗那大学的一个研究项目，由加斯顿·吉拉伯特 (Gastón Gilabert) 指导，从语言学和数字角度研究西班牙黄金时代戏剧的诗句和韵律。其目的是分析诗歌形式如何有助于戏剧和场景的意义，同时探索反复出现的主题（例如狄多和埃涅阿斯的主题）及其在早期现代戏剧舞台中的投射。
+      ja: METADRAMA は、ガストン ジラバートが監督を務めるバルセロナ大学の研究プロジェクトで、スペイン黄金時代の演劇における韻文と韻律を文献学とデジタルの両方の観点から研究しています。その目的は、詩的な形式が劇の劇的な意味や風景的な意味にどのように寄与しているかを分析すると同時に、ディドやアエネアスなどの反復的なモチーフと近世演劇の演出におけるそれらの投影を探ることです。
+      ko: METADRAMA는 Gastón Gilabert가 감독하는 바르셀로나 대학의 연구 프로젝트로, 문학적 관점과 디지털 관점 모두에서 스페인 황금기 연극의 운문과 측정법을 연구합니다. 이 책의 목적은 시적 형식이 연극의 드라마틱하고 풍경적인 의미에 어떻게 기여하는지 분석하는 동시에 디도(Dido)와 아이네이아스(Aeneas)의 모티브와 같이 반복되는 모티프와 초기 현대 연극 무대에서의 투영을 탐구하는 것입니다.
+      ru: МЕТАДРАМА — это исследовательский проект Университета Барселоны под руководством Гастона Гилаберта, который изучает стихи и метрику испанского театра Золотого века как с филологической, так и с цифровой точки зрения. Его цель — проанализировать, как поэтическая форма способствует драматическому и сценическому значению пьес, а также изучить повторяющиеся мотивы, такие как мотивы Дидоны и Энея, и их проекцию в постановках раннего современного театра.
+      ar: ميتادراما هو مشروع بحثي في ​​جامعة برشلونة، يديره غاستون جيلابيرت، يدرس الشعر والقياسات في مسرح العصر الذهبي الإسباني من المنظورين الفلسفي والرقمي. هدفها هو تحليل كيفية مساهمة الشكل الشعري في المعنى الدرامي والخلابي للمسرحيات، مع استكشاف أيضًا العناصر المتكررة - مثل ديدو وإينياس - وإسقاطها في عرض المسرح الحديث المبكر.
     image: "metadrama.png"
     url: "https://www.ub.edu/metadrama/"
 
@@ -106,12 +295,39 @@ projects:
   - badge:
       es: "Colaborador"
       en: "Collaborator"
+      fr: Collaborateur
+      pt: Colaborador
+      it: Collaboratore
+      de: Mitarbeiter
+      zh: 合作者
+      ja: 協力者
+      ko: 협력자
+      ru: Соавтор
+      ar: متعاون
     title:
       es: "ISTAE: Impresos sueltos del teatro antiguo español"
       en: "ISTAE: Loose Prints of Early Modern Spanish Theatre"
+      fr: 'ISTAE: Impressions libres du théâtre espagnol moderne'
+      pt: 'ISTAE: Impressões soltas do teatro espanhol moderno'
+      it: 'ISTAE: Stampe sciolte del teatro spagnolo della prima età moderna'
+      de: 'ISTAE: Lose Drucke des frühneuzeitlichen spanischen Theaters'
+      zh: ISTAE：早期现代西班牙剧院的松散版画
+      ja: 'ISTAE: 近世スペイン演劇のゆるい版画'
+      ko: 'ISTAE: 초기 근대 스페인 연극의 느슨한 판화'
+      ru: 'ISTAE: Отрывки испанского театра раннего Нового времени'
+      ar: 'ISTAE: مطبوعات فضفاضة للمسرح الإسباني الحديث المبكر'
     description:
       es: "ISTAE: Impresos sueltos del teatro antiguo español es un proyecto liderado por Alejandra Ulla Lorenzo (Universidade de Santiago de Compostela) que desarrolla una base de datos especializada en los impresos teatrales sueltos publicados entre 1600 y 1834 que contienen textos dramáticos del Siglo de Oro. Su propósito es identificar, describir y documentar estas ediciones unitarias mediante un sistema de descripción tipográfica, bibliográfico y material, facilitando su reconocimiento incluso cuando carecen de datos de imprenta explícitos. La base de datos se va alimentando progresivamente con nuevos registros, y permite que investigadores consulten detalles estructurales y ortotipográficos de estas obras para estudiar su transmisión editorial."
       en: "ISTAE: Loose Prints of Early Modern Spanish Theatre is a project led by Alejandra Ulla Lorenzo (University of Santiago de Compostela) that develops a specialized database of loose theatrical prints published between 1600 and 1834 containing Golden Age dramatic texts. Its goal is to identify, describe, and document these single-play editions through a typographical, bibliographical, and material description system, allowing their recognition even when lacking explicit printing data. The database is continuously updated with new entries, enabling researchers to consult structural and orthotypographical details of these works to study their editorial transmission."
+      fr: "ISTAE: Loose Prints of Early Modern Spanish Theatre est un projet dirigé par Alejandra Ulla Lorenzo (Université de Saint-Jacques-de-Compostelle) qui développe une base de données spécialisée de gravures théâtrales en vrac publiées entre 1600 et 1834 contenant des textes dramatiques de l'âge d'or. Son objectif est d'identifier, de décrire et de documenter ces éditions uniques à travers un système de description typographique, bibliographique et matérielle, permettant leur reconnaissance même en l'absence de données d'impression explicites. La base de données est continuellement mise à jour avec de nouvelles entrées, permettant aux chercheurs de consulter les détails structurels et orthotypographiques de ces œuvres pour étudier leur transmission éditoriale."
+      pt: 'ISTAE: Loose Prints of Early Modern Spanish Theatre é um projeto liderado por Alejandra Ulla Lorenzo (Universidade de Santiago de Compostela) que desenvolve uma base de dados especializada de gravuras teatrais soltas publicadas entre 1600 e 1834 contendo textos dramáticos da Idade de Ouro. Seu objetivo é identificar, descrever e documentar essas edições single-play por meio de um sistema tipográfico, bibliográfico e de descrição de materiais, permitindo seu reconhecimento mesmo na falta de dados explícitos de impressão. A base de dados é continuamente atualizada com novas entradas, permitindo aos pesquisadores consultar detalhes estruturais e ortotipográficos dessas obras para estudar sua transmissão editorial.'
+      it: "ISTAE: Stampe sciolte del teatro spagnolo della prima età moderna è un progetto guidato da Alejandra Ulla Lorenzo (Università di Santiago de Compostela) che sviluppa un database specializzato di stampe teatrali sciolte pubblicate tra il 1600 e il 1834 contenenti testi drammatici dell'Età dell'Oro. Il suo obiettivo è identificare, descrivere e documentare queste edizioni a riproduzione unica attraverso un sistema di descrizione tipografica, bibliografica e materiale, che ne consenta il riconoscimento anche in mancanza di dati di stampa espliciti. Il database viene continuamente aggiornato con nuove voci, consentendo ai ricercatori di consultare i dettagli strutturali e ortotipografici di queste opere per studiarne la trasmissione editoriale."
+      de: 'ISTAE: Loose Prints of Early Modern Spanish Theatre ist ein von Alejandra Ulla Lorenzo (Universität Santiago de Compostela) geleitetes Projekt, das eine spezielle Datenbank mit losen Theaterdrucken entwickelt, die zwischen 1600 und 1834 veröffentlicht wurden und dramatische Texte aus dem Goldenen Zeitalter enthalten. Ziel ist es, diese Einzelausgaben mithilfe eines typografischen, bibliografischen und materiellen Beschreibungssystems zu identifizieren, zu beschreiben und zu dokumentieren, sodass sie auch dann erkannt werden können, wenn explizite Druckdaten fehlen. Die Datenbank wird kontinuierlich mit neuen Einträgen aktualisiert, sodass Forscher strukturelle und orthotypografische Details dieser Werke einsehen können, um ihre redaktionelle Überlieferung zu untersuchen.'
+      zh: ISTAE：早期现代西班牙戏剧的散装版画是由 Alejandra Ulla Lorenzo（圣地亚哥德孔波斯特拉大学）领导的一个项目，该项目开发了一个专门数据库，包含 1600 年至 1834 年间出版的散装戏剧版画，其中包含黄金时代的戏剧文本。其目标是通过印刷、书目和材料描述系统来识别、描述和记录这些单播放版本，即使在缺乏明确的印刷数据时也能识别它们。该数据库不断更新新条目，使研究人员能够查阅这些作品的结构和正字印刷细节，以研究其编辑传播。
+      ja: 'ISTAE: 初期近代スペイン演劇の緩い版画は、アレハンドラ ウラ ロレンソ (サンティアゴ デ コンポステーラ大学) が主導するプロジェクトで、黄金時代の劇的なテキストを含む 1600 年から 1834 年の間に出版された緩い演劇版画の専門データベースを開発しています。 Its goal is to identify, describe, and document these single-play editions through a typographical, bibliographical, and material description system, allowing their recognition even when lacking explicit printing data.データベースは新しいエントリで継続的に更新されるため、研究者はこれらの作品の構造的および正誤植の詳細を参照して、編集上の伝達を研究することができます。'
+      ko: 'ISTAE: Loose Prints of Early Modern Spanish Theatre is a project led by Alejandra Ulla Lorenzo (University of Santiago de Compostela) that develops a specialized database of loose theatrical prints published between 1600 and 1834 containing Golden Age dramatic texts. 그 목표는 인쇄, 서지 및 자료 설명 시스템을 통해 이러한 싱글 플레이 판을 식별, 설명 및 문서화하여 명시적인 인쇄 데이터가 부족한 경우에도 인식할 수 있도록 하는 것입니다. 데이터베이스는 새로운 항목으로 지속적으로 업데이트되므로 연구자는 편집 전달을 연구하기 위해 이러한 작품의 구조적 및 철자법 세부 사항을 참조할 수 있습니다.'
+      ru: 'ISTAE: «Свободные репродукции испанского театра раннего Нового времени» — это проект, возглавляемый Алехандрой Уллой Лоренцо (Университет Сантьяго-де-Компостела), который создает специализированную базу данных отдельных театральных репродукций, опубликованных между 1600 и 1834 годами и содержащих драматические тексты Золотого века. Его цель — идентифицировать, описать и документировать эти одноигровые издания с помощью типографской, библиографической и системы описания материалов, позволяя их распознавать даже при отсутствии явных печатных данных. База данных постоянно пополняется новыми записями, что позволяет исследователям обращаться к структурным и ортотипографическим деталям этих работ для изучения их редакционной передачи.'
+      ar: 'ISTAE: مطبوعات فضفاضة للمسرح الإسباني الحديث المبكر هو مشروع بقيادة أليخاندرا أولا لورنزو (جامعة سانتياغو دي كومبوستيلا) يقوم بتطوير قاعدة بيانات متخصصة للمطبوعات المسرحية الفضفاضة المنشورة بين عامي 1600 و1834 والتي تحتوي على نصوص درامية من العصر الذهبي. هدفها هو تحديد ووصف وتوثيق هذه الإصدارات الفردية من خلال نظام مطبعي وببليوغرافي ووصف مادي، مما يسمح بالتعرف عليها حتى في حالة عدم وجود بيانات طباعة واضحة. يتم تحديث قاعدة البيانات بشكل مستمر بإدخالات جديدة، مما يمكّن الباحثين من استشارة التفاصيل الهيكلية والتعامدية لهذه الأعمال لدراسة نقلها التحريري.'
     image: "istae.png"
     url: "https://istae.uv.es/"
 
@@ -119,12 +335,39 @@ projects:
   - badge:
       es: "Investigador contratado"
       en: "Researcher"
+      fr: Chercheur
+      pt: Pesquisador
+      it: Ricercatore
+      de: Forscher
+      zh: 研究员
+      ja: 研究者
+      ko: 연구원
+      ru: Исследователь
+      ar: الباحث
     title:
       es: "Sound and Meaning in Spanish Golden Age Literature"
       en: "Sound and Meaning in Spanish Golden Age Literature"
+      fr: Son et signification dans la littérature espagnole du Siècle d’Or
+      pt: Som e significado na literatura espanhola da Idade de Ouro
+      it: Suono e significato nella letteratura spagnola del Secolo d'oro
+      de: Klang und Bedeutung in der spanischen Literatur des Goldenen Zeitalters
+      zh: 西班牙黄金时代文学中的声音和意义
+      ja: スペイン黄金時代文学の音と意味
+      ko: 스페인 황금기 문학의 소리와 의미
+      ru: Звук и значение в литературе Золотого века Испании
+      ar: الصوت والمعنى في أدب العصر الذهبي الإسباني
     description:
       es: "Sound and Meaning in Spanish Golden Age Literature es un proyecto dirigido por Simon Kroll (Universidad de Viena) que investiga la relación entre sonoridad y significado en la literatura del Siglo de Oro. A través de métodos filológicos y herramientas digitales, analiza cómo los patrones sonoros del verso generan efectos de sentido y emoción en la poesía y el teatro de autores como Lope de Vega o Calderón de la Barca."
       en: "Sound and Meaning in Spanish Golden Age Literature is a project directed by Simon Kroll (University of Vienna) that investigates the relationship between sound and meaning in Spanish Golden Age literature. Through philological methods and digital tools, it analyzes how the sonic patterns of verse produce effects of meaning and emotion in the poetry and theatre of authors such as Lope de Vega and Calderón de la Barca."
+      fr: Son et sens dans la littérature espagnole de l’âge d’or est un projet dirigé par Simon Kroll (Université de Vienne) qui étudie la relation entre le son et le sens dans la littérature espagnole de l’âge d’or. À travers des méthodes philologiques et des outils numériques, il analyse comment les modèles sonores du vers produisent des effets de sens et d'émotion dans la poésie et le théâtre d'auteurs tels que Lope de Vega et Calderón de la Barca.
+      pt: Som e Significado na Literatura Espanhola da Idade de Ouro é um projeto dirigido por Simon Kroll (Universidade de Viena) que investiga a relação entre som e significado na literatura espanhola da Idade de Ouro. Através de métodos filológicos e ferramentas digitais, analisa como os padrões sonoros do verso produzem efeitos de sentido e emoção na poesia e no teatro de autores como Lope de Vega e Calderón de la Barca.
+      it: Suono e significato nella letteratura spagnola del Secolo d'oro è un progetto diretto da Simon Kroll (Università di Vienna) che indaga la relazione tra suono e significato nella letteratura spagnola del Secolo d'oro. Attraverso metodi filologici e strumenti digitali, analizza come i modelli sonori dei versi producono effetti di significato ed emozione nella poesia e nel teatro di autori come Lope de Vega e Calderón de la Barca.
+      de: Klang und Bedeutung in der spanischen Literatur des Goldenen Zeitalters ist ein von Simon Kroll (Universität Wien) geleitetes Projekt, das die Beziehung zwischen Klang und Bedeutung in der spanischen Literatur des Goldenen Zeitalters untersucht. Mithilfe philologischer Methoden und digitaler Werkzeuge wird analysiert, wie die Klangmuster von Versen Bedeutungs- und Emotionseffekte in der Poesie und im Theater von Autoren wie Lope de Vega und Calderón de la Barca hervorrufen.
+      zh: 西班牙黄金时代文学中的声音和意义是西蒙·克罗尔（维也纳大学）指导的一个项目，旨在研究西班牙黄金时代文学中声音和意义之间的关系。通过语言学方法和数字工具，它分析了诗歌的声音模式如何在洛普·德·维加和卡尔德龙·德拉·巴尔卡等作家的诗歌和戏剧中产生意义和情感的效果。
+      ja: 「スペイン黄金時代文学における音と意味」は、スペイン黄金時代文学における音と意味の関係を調査する、サイモン・クロール（ウィーン大学）監督のプロジェクトです。文献学的手法とデジタルツールを通じて、ロペ・デ・ベガやカルデロン・デ・ラ・バルカなどの作家の詩や演劇において、詩の音のパターンがどのように意味や感情の効果を生み出すのかを分析します。
+      ko: 스페인 황금기 문학의 소리와 의미(Sound and Meaning in Spanish Golden Age Literature)는 사이먼 크롤(비엔나 대학교)이 감독한 프로젝트로 스페인 황금기 문학의 소리와 의미 사이의 관계를 조사합니다. 문학적 방법과 디지털 도구를 통해 시의 음향 패턴이 Lope de Vega 및 Calderón de la Barca와 같은 작가의 시와 연극에서 의미와 감정의 효과를 어떻게 생성하는지 분석합니다.
+      ru: Звук и значение в испанской литературе Золотого века — это проект Саймона Кролла (Венский университет), который исследует взаимосвязь между звуком и значением в испанской литературе Золотого века. С помощью филологических методов и цифровых инструментов он анализирует, как звуковые модели стихов создают смысловые и эмоциональные эффекты в поэзии и театре таких авторов, как Лопе де Вега и Кальдерон де ла Барка.
+      ar: الصوت والمعنى في أدب العصر الذهبي الإسباني هو مشروع من إخراج سيمون كرول (جامعة فيينا) يبحث في العلاقة بين الصوت والمعنى في أدب العصر الذهبي الإسباني. ومن خلال الأساليب اللغوية والأدوات الرقمية، يحلل كيف تنتج الأنماط الصوتية للشعر تأثيرات المعنى والعاطفة في الشعر والمسرح لمؤلفين مثل لوبي دي فيغا وكالديرون دي لا باركا.
     image: "sound.png"
     url: "https://soundandmeaning.univie.ac.at/"
 
@@ -132,12 +375,39 @@ projects:
   - badge:
       es: "Colaborador"
       en: "Collaborator"
+      fr: Collaborateur
+      pt: Colaborador
+      it: Collaboratore
+      de: Mitarbeiter
+      zh: 合作者
+      ja: 協力者
+      ko: 협력자
+      ru: Соавтор
+      ar: متعاون
     title:
       es: "ASODAT: Bases de Datos Integradas del Teatro Clásico Español"
       en: "ASODAT: Integrated Databases of Spanish Classical Theatre"
+      fr: 'ASODAT: Bases de données intégrées du théâtre classique espagnol'
+      pt: 'ASODAT: Bases de Dados Integradas do Teatro Clássico Espanhol'
+      it: 'ASODAT: Database integrati del teatro classico spagnolo'
+      de: 'ASODAT: Integrierte Datenbanken des spanischen klassischen Theaters'
+      zh: ASODAT：西班牙古典戏剧综合数据库
+      ja: 'ASODAT: スペイン古典演劇の統合データベース'
+      ko: 'ASODAT: 스페인 고전극 통합 데이터베이스'
+      ru: 'ASODAT: Интегрированные базы данных испанского классического театра'
+      ar: 'ASODAT: قواعد بيانات متكاملة للمسرح الكلاسيكي الإسباني'
     description:
       es: "ASODAT (Bases de Datos Integradas del Teatro Clásico Español) es un proyecto dirigido por Alejandro García Reidy (Universidad de Salamanca) y fundado por Teresa Ferrer Valls (Universitat de València). Nacido con el propósito de unificar y enlazar las principales bases de datos dedicadas al teatro clásico español, ASODAT permite realizar búsquedas transversales sobre obras, autores, manuscritos, ediciones y representaciones, ofreciendo una visión integrada y dinámica del patrimonio dramático del Siglo de Oro."
       en: "ASODAT (Integrated Databases of Spanish Classical Theatre) is a project directed by Alejandro García Reidy (University of Salamanca) and founded by Teresa Ferrer Valls (University of Valencia). Created with the goal of unifying and linking the main databases devoted to Spanish classical theatre, ASODAT enables cross-searches across plays, authors, manuscripts, editions, and performances, offering an integrated and dynamic view of the dramatic heritage of the Spanish Golden Age."
+      fr: ASODAT (Bases de données intégrées du théâtre classique espagnol) est un projet dirigé par Alejandro García Reidy (Université de Salamanque) et fondé par Teresa Ferrer Valls (Université de Valence). Créé dans le but d'unifier et de relier les principales bases de données consacrées au théâtre classique espagnol, ASODAT permet des recherches croisées parmi les pièces de théâtre, les auteurs, les manuscrits, les éditions et les représentations, offrant une vision intégrée et dynamique de l'héritage dramatique du Siècle d'Or espagnol.
+      pt: ASODAT (Bancos de Dados Integrados do Teatro Clássico Espanhol) é um projeto dirigido por Alejandro García Reidy (Universidade de Salamanca) e fundado por Teresa Ferrer Valls (Universidade de Valência). Criado com o objetivo de unificar e interligar as principais bases de dados dedicadas ao teatro clássico espanhol, o ASODAT permite pesquisas cruzadas entre peças, autores, manuscritos, edições e espetáculos, oferecendo uma visão integrada e dinâmica da herança dramática da Idade de Ouro espanhola.
+      it: ASODAT (Database Integrati del Teatro Classico Spagnolo) è un progetto diretto da Alejandro García Reidy (Università di Salamanca) e fondato da Teresa Ferrer Valls (Università di Valencia). Creato con l'obiettivo di unificare e collegare i principali database dedicati al teatro classico spagnolo, ASODAT consente ricerche incrociate tra opere teatrali, autori, manoscritti, edizioni e rappresentazioni, offrendo una visione integrata e dinamica del patrimonio drammatico del Secolo d'Oro spagnolo.
+      de: ASODAT (Integrated Databases of Spanish Classical Theatre) ist ein Projekt unter der Leitung von Alejandro García Reidy (Universität Salamanca) und gegründet von Teresa Ferrer Valls (Universität Valencia). ASODAT wurde mit dem Ziel erstellt, die wichtigsten Datenbanken zum klassischen spanischen Theater zu vereinheitlichen und zu verknüpfen. Es ermöglicht eine übergreifende Suche nach Theaterstücken, Autoren, Manuskripten, Editionen und Aufführungen und bietet so einen integrierten und dynamischen Blick auf das dramatische Erbe des spanischen Goldenen Zeitalters.
+      zh: ASODAT（西班牙古典戏剧综合数据库）是由 Alejandro García Reidy（萨拉曼卡大学）指导、Teresa Ferrer Valls（瓦伦西亚大学）创立的项目。 ASODAT 的创建目标是统一和链接西班牙古典戏剧的主要数据库，可实现戏剧、作者、手稿、版本和表演之间的交叉搜索，提供西班牙黄金时代戏剧遗产的综合动态视图。
+      ja: ASODAT (スペイン古典劇場統合データベース) は、Alejandro García Reidy (サラマンカ大学) が監督し、Teresa Ferrer Valls (バレンシア大学) が設立したプロジェクトです。 ASODAT は、スペインの古典演劇専用の主要なデータベースを統合してリンクすることを目的として作成され、戯曲、作者、原稿、版、公演にわたる横断検索を可能にし、スペイン黄金時代の演劇遺産の統合的かつダイナミックなビューを提供します。
+      ko: ASODAT(스페인 고전극 통합 데이터베이스)는 Alejandro García Reidy(살라망카 대학교)가 감독하고 Teresa Ferrer Valls(발렌시아 대학교)가 설립한 프로젝트입니다. 스페인 고전 연극에 관한 주요 데이터베이스를 통합하고 연결하려는 목표로 만들어진 ASODAT는 연극, 작가, 원고, 판 및 공연 전반에 걸쳐 교차 검색을 가능하게 하여 스페인 황금 시대의 극적인 유산에 대한 통합적이고 역동적인 관점을 제공합니다.
+      ru: ASODAT (Интегрированные базы данных испанского классического театра) — это проект под руководством Алехандро Гарсиа Рейди (Университет Саламанки) и основанный Терезой Феррер Вальс (Университет Валенсии). Созданный с целью объединить и связать основные базы данных, посвященные испанскому классическому театру, ASODAT позволяет осуществлять перекрестный поиск по пьесам, авторам, рукописям, изданиям и спектаклям, предлагая интегрированный и динамичный взгляд на драматическое наследие Золотого века Испании.
+      ar: ASODAT (قواعد البيانات المتكاملة للمسرح الكلاسيكي الإسباني) هو مشروع يديره أليخاندرو غارسيا ريدي (جامعة سالامانكا) وأسسته تيريزا فيرير فالس (جامعة فالنسيا). تم إنشاء ASODAT بهدف توحيد وربط قواعد البيانات الرئيسية المخصصة للمسرح الكلاسيكي الإسباني، وهو يتيح إجراء عمليات بحث مشتركة عبر المسرحيات والمؤلفين والمخطوطات والإصدارات والعروض، مما يوفر رؤية متكاملة وديناميكية للتراث الدرامي للعصر الذهبي الإسباني.
     image: "asodat.png"
     url: "https://asodat.uv.es/"
 
@@ -145,11 +415,38 @@ projects:
   - badge:
       es: "Colaborador"
       en: "Collaborator"
+      fr: Collaborateur
+      pt: Colaborador
+      it: Collaboratore
+      de: Mitarbeiter
+      zh: 合作者
+      ja: 協力者
+      ko: 협력자
+      ru: Соавтор
+      ar: متعاون
     title:
       es: "El teatro áureo en colaboración: textos, autorías, ámbitos literarios de sociabilidad y nuevos instrumentos de investigación"
       en: "Golden Age Theatre in Collaboration: Texts, Authorships, Literary Networks, and New Research Tools"
+      fr: 'Le théâtre de l’âge d’or en collaboration: textes, paternités, réseaux littéraires et nouveaux outils de recherche'
+      pt: 'Teatro da Era de Ouro em Colaboração: Textos, Autorias, Redes Literárias e Novas Ferramentas de Pesquisa'
+      it: "Teatro dell'Età dell'Oro in collaborazione: testi, paternità, reti letterarie e nuovi strumenti di ricerca"
+      de: 'Theater des Goldenen Zeitalters in Zusammenarbeit: Texte, Autorenschaften, literarische Netzwerke und neue Forschungsinstrumente'
+      zh: 黄金时代剧院的合作：文本、作者、文学网络和新的研究工具
+      ja: '黄金時代演劇のコラボレーション: テキスト、著者、文学ネットワーク、新しい研究ツール'
+      ko: '협업의 황금시대 극장: 텍스트, 저자, 문학 네트워크 및 새로운 연구 도구'
+      ru: 'Театр Золотого века в сотрудничестве: тексты, авторство, литературные сети и новые инструменты исследования'
+      ar: 'مسرح العصر الذهبي بالتعاون: النصوص والتأليف والشبكات الأدبية وأدوات البحث الجديدة'
     description:
       es: "El teatro áureo en colaboración: textos, autorías, ámbitos literarios de sociabilidad y nuevos instrumentos de investigación es un proyecto coordinado por Rafael González Cañal y María Luisa Lobato que estudia las comedias escritas en colaboración durante el Siglo de Oro. A través de la edición crítica, el análisis filológico y las técnicas estilométricas, investiga las dinámicas de autoría compartida y sociabilidad literaria entre dramaturgos como Rojas Zorrilla, Calderón o Moreto, incorporando además nuevas herramientas digitales para el estudio del teatro barroco español."
       en: "Golden Age Theatre in Collaboration: Texts, Authorships, Literary Networks, and New Research Tools is a project coordinated by Rafael González Cañal and María Luisa Lobato that studies collaborative comedies written during the Spanish Golden Age. Through critical editing, philological analysis, and stylometric techniques, it investigates shared authorship dynamics and literary sociability among playwrights such as Rojas Zorrilla, Calderón, and Moreto, while also incorporating new digital tools for the study of Baroque Spanish theatre."
+      fr: "Théâtre de l'âge d'or en collaboration: textes, paternités, réseaux littéraires et nouveaux outils de recherche est un projet coordonné par Rafael González Cañal et María Luisa Lobato qui étudie les comédies collaboratives écrites pendant le siècle d'or espagnol. Grâce à l'édition critique, à l'analyse philologique et aux techniques stylométriques, il étudie la dynamique de paternité commune et la sociabilité littéraire entre des dramaturges tels que Rojas Zorrilla, Calderón et Moreto, tout en intégrant de nouveaux outils numériques pour l'étude du théâtre baroque espagnol."
+      pt: 'Teatro da Idade de Ouro em Colaboração: Textos, Autorias, Redes Literárias e Novas Ferramentas de Pesquisa é um projeto coordenado por Rafael González Cañal e María Luisa Lobato que estuda comédias colaborativas escritas durante a Idade de Ouro espanhola. Através da edição crítica, análise filológica e técnicas estilométricas, investiga a dinâmica de autoria compartilhada e a sociabilidade literária entre dramaturgos como Rojas Zorrilla, Calderón e Moreto, ao mesmo tempo que incorpora novas ferramentas digitais para o estudo do teatro barroco espanhol.'
+      it: "Teatro dell'Età dell'Oro in collaborazione: testi, paternità, reti letterarie e nuovi strumenti di ricerca è un progetto coordinato da Rafael González Cañal e María Luisa Lobato che studia le commedie collaborative scritte durante l'Età dell'oro spagnola. Attraverso il montaggio critico, l’analisi filologica e le tecniche stilometriche, indaga le dinamiche di paternità condivisa e la socialità letteraria tra drammaturghi come Rojas Zorrilla, Calderón e Moreto, incorporando anche nuovi strumenti digitali per lo studio del teatro barocco spagnolo."
+      de: 'Golden Age Theatre in Collaboration: Texts, Authorships, Literary Networks, and New Research Tools ist ein von Rafael González Cañal und María Luisa Lobato koordiniertes Projekt, das kollaborative Komödien untersucht, die während des spanischen Goldenen Zeitalters geschrieben wurden. Durch kritische Bearbeitung, philologische Analyse und stilometrische Techniken untersucht es die gemeinsame Dynamik der Autorenschaft und die literarische Geselligkeit unter Dramatikern wie Rojas Zorrilla, Calderón und Moreto und integriert gleichzeitig neue digitale Werkzeuge für das Studium des barocken spanischen Theaters.'
+      zh: 黄金时代戏剧合作：文本、作者、文学网络和新研究工具是由拉斐尔·冈萨雷斯·卡纳尔和玛丽亚·路易莎·洛巴托协调的一个项目，研究西班牙黄金时代创作的合作喜剧。通过批判性编辑、语言学分析和文体计量技术，它调查了罗哈斯·索里拉、卡尔德龙和莫雷托等剧作家之间的共享作者动态和文学社交性，同时还融入了新的数字工具来研究巴洛克西班牙戏剧。
+      ja: '「黄金時代劇場のコラボレーション: テキスト、著者、文学ネットワーク、および新しい研究ツール」は、ラファエル・ゴンサレス・カニャルとマリア・ルイーサ・ロバトがコーディネートした、スペイン黄金時代に書かれた共同コメディを研究するプロジェクトです。批判的な編集、文献学的分析、およびスタイロメトリーの手法を通じて、ロハス・ソリーリャ、カルデロン、モレトなどの劇作家の間で共有されている作家力学と文学的社交性を調査するとともに、バロック時代のスペイン演劇の研究のための新しいデジタルツールも組み込んでいます。'
+      ko: 'Golden Age Theatre in Collaboration: Texts, Authorships, Literary Networks, and New Research Tools는 Rafael González Cañal과 María Luisa Lobato가 공동으로 기획한 프로젝트로 스페인 황금 시대에 쓰여진 공동 코미디를 연구합니다. 비판적 편집, 문헌학 분석 및 문체 기술을 통해 Rojas Zorrilla, Calderón 및 Moreto와 같은 극작가 간의 공유된 저자 역학 및 문학적 사교성을 조사하는 동시에 바로크 스페인 연극 연구를 위한 새로운 디지털 도구를 통합합니다.'
+      ru: 'Театр Золотого века в сотрудничестве: тексты, авторство, литературные сети и новые исследовательские инструменты — это проект, координируемый Рафаэлем Гонсалесом Каньялем и Марией Луизой Лобато, который изучает совместные комедии, написанные во время Золотого века Испании. Посредством критического редактирования, филологического анализа и стилометрических методов он исследует общую динамику авторства и литературную коммуникабельность таких драматургов, как Рохас Соррилья, Кальдерон и Морето, а также включает новые цифровые инструменты для изучения испанского театра в стиле барокко.'
+      ar: 'مسرح العصر الذهبي بالتعاون: النصوص والمؤلفات والشبكات الأدبية وأدوات البحث الجديدة هو مشروع ينسقه رافائيل غونزاليس كانيال وماريا لويزا لوباتو ويدرس الأعمال الكوميدية التعاونية المكتوبة خلال العصر الذهبي الإسباني. من خلال التحرير النقدي، والتحليل اللغوي، وتقنيات قياس الأسلوب، فإنه يبحث في ديناميكيات التأليف المشتركة والتواصل الأدبي بين الكتاب المسرحيين مثل روخاس زوريلا، وكالديرون، وموريتو، مع دمج أدوات رقمية جديدة لدراسة المسرح الإسباني الباروكي.'
     image: "colaboracion.jpg"
     url: "https://www.cervantesvirtual.com/portales/francisco_rojas_zorrilla/proyectos_investigacion/#comedias"

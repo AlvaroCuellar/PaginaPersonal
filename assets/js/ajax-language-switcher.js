@@ -27,6 +27,16 @@ class AjaxLanguageSwitcher {
         this.handleBackButton();
     }
 
+    getSupportedLanguages() {
+        const languages = window.sectionTranslations ? Object.keys(window.sectionTranslations) : ['es', 'en'];
+        return languages.length ? languages : ['es', 'en'];
+    }
+
+    detectLanguageFromPath(pathname = window.location.pathname) {
+        const firstSegment = pathname.split('/').filter(Boolean)[0];
+        return this.getSupportedLanguages().includes(firstSegment) ? firstSegment : 'es';
+    }
+
     // ───────────────────────────────────────────────────────
     // INTERCEPTAR CLICS DE CAMBIO DE IDIOMA
     // ───────────────────────────────────────────────────────
@@ -46,7 +56,7 @@ class AjaxLanguageSwitcher {
                 e.stopPropagation();
                 
                 const targetLang = langLink.getAttribute('data-lang') || 
-                                 langLink.getAttribute('href')?.match(/\/(es|en)\//)?.[1];
+                                 this.detectLanguageFromPath(new URL(langLink.href, window.location.origin).pathname);
                 
                 if (targetLang && targetLang !== this.currentLang) {
                     console.log(`🔄 Switching from ${this.currentLang} to ${targetLang}`);
@@ -77,12 +87,11 @@ class AjaxLanguageSwitcher {
         const currentPath = window.location.pathname;
         const currentHash = window.location.hash;
         
-        // Cambiar el idioma en la URL: /es/ → /en/ o viceversa
+        // Cambiar el idioma en la URL: /es/ → /fr/ → /zh/, etc.
         let newPath;
-        if (currentPath.startsWith('/es/')) {
-            newPath = currentPath.replace('/es/', `/${newLang}/`);
-        } else if (currentPath.startsWith('/en/')) {
-            newPath = currentPath.replace('/en/', `/${newLang}/`);
+        const languagePattern = new RegExp(`^/(${this.getSupportedLanguages().join('|')})(/|$)`);
+        if (languagePattern.test(currentPath)) {
+            newPath = currentPath.replace(languagePattern, `/${newLang}$2`);
         } else if (currentPath === '/' || currentPath === '') {
             newPath = `/${newLang}/`;
         } else {
@@ -162,7 +171,8 @@ class AjaxLanguageSwitcher {
             wrapper: newDoc.querySelector('#wrapper')?.innerHTML || '',
             navMain: newDoc.querySelector('#nav-main')?.innerHTML || '',
             langSwitcher: newDoc.querySelector('.lang-switcher')?.outerHTML || '',
-            htmlLang: newDoc.documentElement.getAttribute('lang') || 'es'
+            htmlLang: newDoc.documentElement.getAttribute('lang') || 'es',
+            htmlDir: newDoc.documentElement.getAttribute('dir') || 'ltr'
         };
         
         // Verificar que tenemos el contenido principal
@@ -248,8 +258,9 @@ class AjaxLanguageSwitcher {
             }
         }
         
-        // 5. Actualizar atributo lang del HTML
+        // 5. Actualizar atributos de idioma del HTML
         document.documentElement.setAttribute('lang', newLang);
+        document.documentElement.setAttribute('dir', sections.htmlDir || (newLang === 'ar' ? 'rtl' : 'ltr'));
         
         // 6. Re-attachar eventos ANTES de restaurar scroll
         this.reattachEvents();
@@ -296,8 +307,7 @@ class AjaxLanguageSwitcher {
             console.log('🔙 Browser back/forward button pressed', event.state);
             
             // Detectar el idioma de la URL actual
-            const currentUrl = window.location.href;
-            const urlLang = currentUrl.includes('/en/') ? 'en' : 'es';
+            const urlLang = this.detectLanguageFromPath(window.location.pathname);
             
             console.log(`🔍 URL language detected: ${urlLang}, current: ${this.currentLang}`);
             
@@ -367,6 +377,7 @@ class AjaxLanguageSwitcher {
             // Actualizar estado interno PRIMERO
             this.currentLang = newLang;
             document.documentElement.lang = newLang;
+            document.documentElement.dir = sections.htmlDir || (newLang === 'ar' ? 'rtl' : 'ltr');
             
             // Reemplazar contenido
             this.replaceContent(sections, newLang);

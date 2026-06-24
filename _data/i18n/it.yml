@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "CV completo"
+project_button: "Visualizza progetto"
+show_more_projects: "Mostra più progetti"
+show_less_projects: "Mostra meno progetti"
+show_more_publications: "Mostra più pubblicazioni"
+show_less_publications: "Mostra meno pubblicazioni"
+show_more_talks: "Mostra più discorsi"
+show_less_talks: "Mostra meno discorsi"
+show_more_outreach: "Mostra di più"
+show_less_outreach: "Mostra meno"
+featured_label: "In primo piano"
+
+
+# Talks section titles
+featured_talks_title: "Discorsi in primo piano"
+all_talks_title: "Tutti i discorsi"
+carousel_scroll_hint: "Vedi di più"
+swipe_hint: "Scorri per vedere di più"
+
+# Publications section titles
+featured_publications_title: "Pubblicazioni in primo piano"
+all_publications_title: "Tutte le pubblicazioni"
+
+# Types
+# Talk types
+talk_types:
+  invited: "Discorso su invito"
+  communication: "Comunicazione orale"
+  plenary: "Lezione plenaria"
+  panel: "Pannello"
+  poster: "Poster"
+  workshop: "Officina"
+  keynote: "Nota chiave"
+
+# Press types
+press_types:
+  news: "Notizia"
+
+# Outreach types
+outreach_types:
+  article: "Articolo"
+  tv: "TV"
+  interview: "Colloquio"
+  radio: "Radio"
+access_text: "Accesso"
+view_citations: "Visualizza citazioni"
+citations: "citazioni"
+total_citations: "citazioni totali"
+cited_by_title: "Citato da"
+abstract_label: "Astratto"
+view_achievements: "Visualizza risultati"
+hide_achievements: "Nascondi risultati"
+toggle_achievements: "Attiva/disattiva gli obiettivi"
+
+# Publication types
+publication_types:
+  article: "Articolo"
+  incollection: "Capitolo del libro"
+  inproceedings: "Atti"
+  inbook: "Capitolo"
+  book: "Libro"
+  phdthesis: "Tesi di dottorato"
+  mastersthesis: "Tesi di Master"
+  inpress: "Nella stampa"
+  techreport: "Relazione tecnica"
+  misc: "Varie"
+  proceedings: "Atti"
+  manual: "Manuale"
+  booklet: "Libretto"
+  model: "Modello"
+  project: "Progetto"
+
+# Publication text
+publication_text:
+  in: "In"
+
+# Month names
+months:
+  january: "Gennaio"
+  february: "Febbraio"
+  march: "Marzo"
+  april: "Aprile"
+  may: "Maggio"
+  june: "Giugno"
+  july: "Luglio"
+  august: "Agosto"
+  september: "Settembre"
+  october: "Ottobre"
+  november: "Novembre"
+  december: "Dicembre"
+
+# Outreach section
+outreach:
+  more_title: "Altri articoli e media"
+  read: "Leggere"
+  watch: "Orologio"
+  listen: "Ascoltare"
+language_selector: Selettore della lingua
+read_article: Leggi articolo

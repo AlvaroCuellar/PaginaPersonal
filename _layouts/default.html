@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: 'es' }}">
+{% assign current_lang = page.lang | default: 'es' %}
+{% assign current_locale = site.data.locales.supported | where: "code", current_lang | first %}
+<html lang="{{ current_lang }}" dir="{{ current_locale.dir | default: 'ltr' }}">
   <head>
     {% include head/head.html %}
     <!-- Prevenir scroll automático del navegador -->

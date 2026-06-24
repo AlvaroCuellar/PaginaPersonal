@@ -1,0 +1,101 @@
+# Textos generales reutilizables - NO modificar
+# General reusable texts - DO NOT modify
+cv_button: "CV completo"
+project_button: "Ver projeto"
+show_more_projects: "Mostrar mais projetos"
+show_less_projects: "Mostrar menos projetos"
+show_more_publications: "Mostrar mais publicações"
+show_less_publications: "Mostrar menos publicações"
+show_more_talks: "Mostrar mais palestras"
+show_less_talks: "Mostrar menos palestras"
+show_more_outreach: "Mostrar mais"
+show_less_outreach: "Mostrar menos"
+featured_label: "Apresentou"
+
+
+# Talks section titles
+featured_talks_title: "Palestras em destaque"
+all_talks_title: "Todas as palestras"
+carousel_scroll_hint: "Ver mais"
+swipe_hint: "Deslize para ver mais"
+
+# Publications section titles
+featured_publications_title: "Publicações em destaque"
+all_publications_title: "Todas as publicações"
+
+# Types
+# Talk types
+talk_types:
+  invited: "Palestra convidada"
+  communication: "Comunicação oral"
+  plenary: "Palestra plenária"
+  panel: "Painel"
+  poster: "Poster"
+  workshop: "Oficina"
+  keynote: "Palestra"
+
+# Press types
+press_types:
+  news: "Notícias"
+
+# Outreach types
+outreach_types:
+  article: "Artigo"
+  tv: "TV"
+  interview: "Entrevista"
+  radio: "Rádio"
+access_text: "Acesso"
+view_citations: "Ver citações"
+citations: "citações"
+total_citations: "citações totais"
+cited_by_title: "Citado por"
+abstract_label: "Resumo"
+view_achievements: "Ver conquistas"
+hide_achievements: "Ocultar conquistas"
+toggle_achievements: "Alternar conquistas"
+
+# Publication types
+publication_types:
+  article: "Artigo"
+  incollection: "Capítulo do livro"
+  inproceedings: "Processos"
+  inbook: "Capítulo"
+  book: "Livro"
+  phdthesis: "Tese de Doutorado"
+  mastersthesis: "Dissertação de mestrado"
+  inpress: "Na imprensa"
+  techreport: "Relatório Técnico"
+  misc: "Variado"
+  proceedings: "Processos"
+  manual: "Manual"
+  booklet: "Livreto"
+  model: "Modelo"
+  project: "Projeto"
+
+# Publication text
+publication_text:
+  in: "Em"
+
+# Month names
+months:
+  january: "Janeiro"
+  february: "Fevereiro"
+  march: "Março"
+  april: "Abril"
+  may: "Maio"
+  june: "Junho"
+  july: "Julho"
+  august: "Agosto"
+  september: "Setembro"
+  october: "Outubro"
+  november: "Novembro"
+  december: "Dezembro"
+
+# Outreach section
+outreach:
+  more_title: "Mais artigos e mídia"
+  read: "Ler"
+  watch: "Assistir"
+  listen: "Ouvir"
+language_selector: Seletor de idioma
+read_article: Ler artigo

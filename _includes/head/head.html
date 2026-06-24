@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
+{%- assign lang = page.lang | default: 'es' -%}
 {%- assign default_title = "Álvaro Cuéllar — Inteligencia Artificial y Teatro del Siglo de Oro" -%}
 <title>{{ site.title | default: default_title }}</title>
 
@@ -19,8 +20,9 @@
 <!-- Canonical & hreflang -->
 {%- capture absolute_url -%}{{ site.url | append: site.baseurl | append: page.url }}{%- endcapture -%}
 <link rel="canonical" href="{{ absolute_url }}" />
-<link rel="alternate" href="{{ site.url }}/es/" hreflang="es" />
-<link rel="alternate" href="{{ site.url }}/en/" hreflang="en" />
+{% for locale in site.data.locales.supported -%}
+<link rel="alternate" href="{{ site.url }}/{{ locale.code }}/" hreflang="{{ locale.code }}" />
+{% endfor -%}
 <link rel="alternate" href="{{ site.url }}/" hreflang="x-default" />
 
 <!-- ═══════════════════════════════════════
@@ -37,8 +39,12 @@
 <meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'article' %}article{% else %}website{% endif %}" />
 <meta property="og:url" content="{{ absolute_url }}" />
 <meta property="og:image" content="{{ og_image_abs }}" />
-<meta property="og:locale" content="es_ES" />
-<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:locale" content="{{ lang | replace: '-', '_' }}" />
+{% for locale in site.data.locales.supported -%}
+  {% unless locale.code == lang -%}
+<meta property="og:locale:alternate" content="{{ locale.code | replace: '-', '_' }}" />
+  {% endunless -%}
+{% endfor -%}
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ og_title }}" />
@@ -141,7 +147,7 @@
         "https://x.com/AlvaroCuellarDH",
         "https://portalrecerca.uab.cat/en/persons/alvaro-cuellar-gonzalez/"
       ],
-      "knowsAbout": {{ site.data.personal.interests.es | jsonify }}
+      "knowsAbout": {{ site.data.personal.interests[lang] | default: site.data.personal.interests.es | jsonify }}
     }
   ]
 }
@@ -156,6 +162,6 @@
     history.scrollRestoration = "manual";
   }
 </script>
-<!-- Prefetch del idioma opuesto para cambiar rápido entre ES/EN -->
-<link rel="prefetch" href="{{ site.url }}/en/" as="document" />
+<!-- Prefetch de los idiomas principales para cambiar rápido -->
 <link rel="prefetch" href="{{ site.url }}/es/" as="document" />
+<link rel="prefetch" href="{{ site.url }}/en/" as="document" />

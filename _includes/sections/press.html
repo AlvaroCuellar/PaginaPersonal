@@ -108,7 +108,7 @@
                   
                   <div class="press-button">
                     <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="button-inverse no-icon">
-                      {% if lang == 'es' %}Leer artículo{% else %}Read article{% endif %}
+                      {{ site.data.i18n[lang].read_article | default: site.data.i18n.en.read_article | default: "Read article" }}
                     </a>
                   </div>
                 </div>

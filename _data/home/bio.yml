@@ -1,4 +1,3 @@
-
 # ═══════════════════════════════════════════════════════════
 # BIOGRAFÍA Y TRAYECTORIA
 # ═══════════════════════════════════════════════════════════
@@ -11,9 +10,27 @@
 section_title:
   es: "Trayectoria"
   en: "Career"
+  fr: Carrière
+  pt: Carreira
+  it: Carriera
+  de: Karriere
+  zh: 职业
+  ja: キャリア
+  ko: 직업
+  ru: Карьера
+  ar: حياة مهنية
 url_slug:
   es: "trayectoria"
   en: "career"
+  fr: "parcours"
+  pt: "trajetoria"
+  it: "percorso"
+  de: "laufbahn"
+  zh: "career"
+  ja: "career"
+  ko: "career"
+  ru: "career"
+  ar: "career"
 subtitle:
   # es: ""
   # en: ""
@@ -24,7 +41,7 @@ bio:
     Ha presentado sus investigaciones en <strong><b>congresos internacionales</b></strong> celebrados en México, Francia, España, Japón, Austria, China, Alemania, Suiza, Italia, Portugal, etc., y ha ofrecido <strong><b>conferencias invitadas</b></strong> en instituciones como la Biblioteca Nacional de España, la Universidad de Viena, la Universidad de Zúrich, la Universidad Nacional Autónoma de México, la Università degli Studi di Perugia, la Institución Libre de Enseñanza, o los Festivales de Teatro Clásico de Almagro y Olmedo. Asimismo, ha impartido <strong><b>conferencias plenarias</b></strong> en el centro iMAL de Bruselas, la Universidad de Ginebra, la Universidad de Cádiz, la Universidad de Santiago de Compostela, la Universidad Rey Juan Carlos, la UNED, etc., y ha sido nombrado coordinador del Encuentro en Humanidades Digitales para el congreso AISO (Buenos Aires, 2026). Sus resultados han despertado un <strong><b>notable interés mediático</b></strong>, con presencia en medios como <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> o <em>Der Standard</em>, entre otros. Dos de las obras cuya autoría ha podido establecerse en el marco de sus investigaciones —<em>La monja alférez</em> y <em>La francesa Laura</em>— han sido representadas por compañías profesionales en Estados Unidos y España.
 
     Su producción científica incluye monografías publicadas por <strong><b>editoriales</b></strong> como <em>RBA Gredos</em> y <em>Reichenberger</em>, artículos en <strong><b>revistas académicas</b></strong> como <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano</em>, <em>Revista de Literatura</em>, etc. y recursos digitales de uso extendido entre los investigadores del Siglo de Oro. Sus trabajos cuentan con <strong><b>más de 600 citas</b></strong> y se enmarcan en <strong><b>nueve proyectos de investigación</b></strong> financiados en España, Alemania y Austria. Ha recibido <strong><b>becas y reconocimientos</b></strong> como la Beca La Caixa para estudios de posgrado en Estados Unidos, el premio al Mejor Proyecto de 2018 y al Mejor Artículo de 2023 de la Asociación Internacional de Humanidades Digitales Hispánicas, finalista en los Premios Archiletras (2023), la beca Sigma Delta Phi (2021), el contrato Juan de la Cierva (Universidad Autónoma de Barcelona), el Seal of Excellence Marie Skłodowska-Curie, o la invitación como <strong><b>Mercator Fellow</b></strong> de la Deutsche Forschungsgemeinschaft (DFG) en la Universidad de Tubinga.
-    
+
   en: |
     Álvaro Cuéllar González has developed a career defined by international collaboration, interdisciplinary research, scientific leadership, and the transfer of knowledge to society in the field of <strong><b>computational approaches to early modern Spanish literature</b></strong>. Since 2017, he has co-led the project <strong><b><em>Stylometry Applied to Spanish Golden Age Theatre</em></b></strong>, which brings together more than 120 researchers from different countries (Italy, Germany, France, the United States, Mexico, Norway, among others) and over 100 university students contributing texts for the computational analysis of a corpus of around 3,000 plays. He is responsible for creating <strong><b><em>TEXORO</em></b></strong>, the largest textual database dedicated to Spanish Golden Age theatre, which contains 40 million words and is used daily by scholars. Its development has involved the use of artificial intelligence techniques applied to the automatic transcription of early modern printed and manuscript sources.
 
@@ -32,42 +49,204 @@ bio:
 
     His scholarly output includes monographs published by leading <strong><b>academic publishers</b></strong> such as <em>RBA Gredos</em> and <em>Reichenberger</em>, articles in <strong><b>academic journals</b></strong> such as <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano</em>, and <em>Revista de Literatura</em>, as well as widely used digital resources for Golden Age researchers. His works have received <strong><b>over 500 citations</b></strong> and are part of <strong><b>nine funded research projects</b></strong> in Spain, Germany, and Austria. He has been awarded <strong><b>fellowships and distinctions</b></strong> such as the La Caixa Fellowship for postgraduate studies in the United States, the Best Project (2018) and Best Article (2023) awards from the International Association of Hispanic Digital Humanities, finalist recognition in the Archiletras Awards (2023), the Sigma Delta Phi Fellowship (2021), the Juan de la Cierva Postdoctoral Contract (Autonomous University of Barcelona), the Marie Skłodowska-Curie Seal of Excellence, and an invitation as a <strong><b>Mercator Fellow</b></strong> of the Deutsche Forschungsgemeinschaft (DFG) at the University of Tübingen.
 
-    
+
+  fr: |-
+    Álvaro Cuéllar González a développé une carrière définie par la collaboration internationale, la recherche interdisciplinaire, le leadership scientifique et le transfert de connaissances à la société dans le domaine des <strong><b>approches informatiques de la première littérature espagnole moderne</b></strong>. Depuis 2017, il codirige le projet <strong><b><em>Stylométrie appliquée au théâtre du Siècle d'Or espagnol</em></b></strong>, qui rassemble plus de 120 chercheurs de différents pays (Italie, Allemagne, France, États-Unis, Mexique, Norvège, entre autres) et plus de 100 étudiants universitaires contribuant textes pour l'analyse informatique d'un corpus d'environ 3 000 pièces. Il est responsable de la création de <strong><b><em>TEXORO</em></b></strong>, la plus grande base de données textuelle dédiée au théâtre espagnol du Siècle d'Or, qui contient 40 millions de mots et est utilisée quotidiennement par les chercheurs. Son développement a impliqué l’utilisation de techniques d’intelligence artificielle appliquées à la transcription automatique des premières sources imprimées et manuscrites modernes.
+
+    Il a présenté ses recherches lors de <strong><b>conférences internationales</b></strong> tenues au Mexique, en France, en Espagne, au Japon, en Autriche, en Chine, en Allemagne, en Suisse, en Italie, au Portugal et dans d'autres pays, et a donné <strong><b>conférences invitées</b></strong> dans des institutions telles que la Bibliothèque nationale d'Espagne, l'Université de Vienne, l'Université de Zurich, l'Université nationale autonome du Mexique, l'Université de Pérouse, l'Institución Libre de Enseñanza et les Festivals de théâtre classique d'Almagro et d'Olmedo. Il a également donné des conférences plénières <strong></strong> au Centre iMAL de Bruxelles, à l'Université de Genève, à l'Université de Cadix, à l'Université de Saint-Jacques-de-Compostelle, à l'Université Rey Juan Carlos et à l'UNED, entre autres, et a été nommé coordinateur de la section Humanités numériques de la Conférence AISO (Buenos Aires, 2026). Son travail a attiré <strong><b>une attention médiatique significative</b></strong>, avec une couverture dans des médias tels que <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> et <em>Der Standard</em>, entre autres. Deux pièces dont il a établi la paternité grâce à ses recherches – <em>La monja alférez</em> et <em>La francesa Laura</em> – ont été jouées par des compagnies de théâtre professionnelles en Espagne et aux États-Unis.
+
+    Sa production scientifique comprend des monographies publiées par les principaux éditeurs universitaires <strong></strong> tels que <em>RBA Gredos</em> et <em>Reichenberger</em>, des articles dans des revues universitaires <strong></strong> tel que <em>Annuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Annuario Calderoniano</em> et <em>Revista de Literatura</em>, ainsi que des ressources numériques largement utilisées par les chercheurs de l'âge d'or. Ses travaux ont reçu <strong><b>plus de 500 citations</b></strong> et font partie de <strong><b>neuf projets de recherche financés</b></strong> en Espagne, en Allemagne et en Autriche. Il a reçu des <strong><b>bourses et distinctions</b></strong> telles que la bourse La Caixa pour des études de troisième cycle aux États-Unis, les prix du meilleur projet (2018) et du meilleur article (2023) de l'Association internationale des humanités numériques hispaniques, la reconnaissance de finaliste aux Archiletras Awards (2023), le Sigma Delta Phi Bourse (2021), contrat postdoctoral Juan de la Cierva (Université autonome de Barcelone), sceau d'excellence Marie Skłodowska-Curie et invitation en tant que <strong><b>Mercator Fellow</b></strong> de la Deutsche Forschungsgemeinschaft (DFG) à l'Université de Tübingen.
+  pt: |-
+    Álvaro Cuéllar González desenvolveu uma carreira definida pela colaboração internacional, pesquisa interdisciplinar, liderança científica e transferência de conhecimento para a sociedade no campo de <strong><b>abordagens computacionais da literatura espanhola moderna</b></strong>. Desde 2017, co-lidera o projeto <strong><b><em>Estilometria Aplicada ao Teatro Espanhol da Idade de Ouro</em></b></strong>, que reúne mais de 120 investigadores de diferentes países (Itália, Alemanha, França, Estados Unidos, México, Noruega, entre outros) e mais 100 estudantes universitários contribuindo com textos para análise computacional de um corpus de cerca de 3.000 peças. Ele é responsável pela criação de <strong><b><em>TEXORO</em></b></strong>, a maior base de dados textuais dedicada ao teatro espanhol da Idade de Ouro, que contém 40 milhões de palavras e é usada diariamente por estudiosos. Seu desenvolvimento envolveu o uso de técnicas de inteligência artificial aplicadas à transcrição automática de fontes impressas e manuscritas dos primeiros tempos modernos.
+
+    Ele apresentou sua pesquisa em <strong><b>conferências internacionais</b></strong> realizadas no México, França, Espanha, Japão, Áustria, China, Alemanha, Suíça, Itália, Portugal e outros países, e proferiu <strong><b>palestras convidadas</b></strong> em instituições como a Biblioteca Nacional da Espanha, a Universidade de Viena, a Universidade de Zurique, a Universidade Nacional Autônoma do México, a Universidade de Perugia, a Institución Libre de Enseñanza e os Festivais de Teatro Clássico de Almagro e Olmedo. Também proferiu <strong><b>palestras plenárias</b></strong> no Centro iMAL de Bruxelas, na Universidade de Genebra, na Universidade de Cádiz, na Universidade de Santiago de Compostela, na Universidade Rey Juan Carlos e na UNED, entre outras, e foi nomeado coordenador da seção de Humanidades Digitais da Conferência AISO (Buenos Aires, 2026). Seu trabalho atraiu <strong><b>atenção significativa da mídia</b></strong>, com cobertura em veículos como <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> e <em>Der Standard</em>, entre outros. Duas peças cuja autoria ele estabeleceu através de sua pesquisa — <em>La monja alférez</em> e <em>La francesa Laura</em> — foram apresentadas por companhias de teatro profissionais na Espanha e nos Estados Unidos.
+
+    Sua produção acadêmica inclui monografias publicadas pelas principais editoras acadêmicas <strong></strong>, como <em>RBA Gredos</em> e <em>Reichenberger</em>, artigos em <strong><b>revistas acadêmicas</b></strong> como <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano</em>, e <em>Revista de Literatura</em>, bem como recursos digitais amplamente utilizados por pesquisadores da Idade de Ouro. Seus trabalhos receberam <strong><b>mais de 500 citações</b></strong> e fazem parte de <strong><b>nove projetos de pesquisa financiados</b></strong> na Espanha, Alemanha e Áustria. Ele recebeu <strong><b>bolsas e distinções</b></strong> como a La Caixa Fellowship para estudos de pós-graduação nos Estados Unidos, os prêmios de Melhor Projeto (2018) e Melhor Artigo (2023) da Associação Internacional de Humanidades Digitais Hispânicas, reconhecimento de finalista no Archiletras Awards (2023), o Sigma Delta Phi Fellowship (2021), o Contrato de Pós-Doutorado Juan de la Cierva (Universidade Autônoma de Barcelona), o Selo de Excelência Marie Skłodowska-Curie e um convite como <strong><b>Mercator Fellow</b></strong> da Deutsche Forschungsgemeinschaft (DFG) da Universidade de Tubinga.
+  it: |-
+    Álvaro Cuéllar González ha sviluppato una carriera definita dalla collaborazione internazionale, dalla ricerca interdisciplinare, dalla leadership scientifica e dal trasferimento della conoscenza alla società nel campo degli <strong><b>approcci computazionali alla prima letteratura spagnola moderna</b></strong>. Dal 2017, ha co-diretto il progetto <strong><b><em>Stylometry Applied to Spanish Golden Age Theatre</em></b></strong>, che riunisce più di 120 ricercatori provenienti da diversi paesi (Italia, Germania, Francia, Stati Uniti, Messico, Norvegia, tra altri) e oltre 100 studenti universitari che contribuiscono con testi per l'analisi computazionale di un corpus di circa 3.000 opere teatrali. A lui si deve la creazione di <strong><b><em>TEXORO</em></b></strong>, il più grande database testuale dedicato al teatro del Secolo d'oro spagnolo, che contiene 40 milioni di parole ed è utilizzato quotidianamente dagli studiosi. Il suo sviluppo ha comportato l'uso di tecniche di intelligenza artificiale applicate alla trascrizione automatica di fonti stampate e manoscritte della prima età moderna.
+
+    Ha presentato la sua ricerca alle <strong><b>conferenze internazionali</b></strong> tenutesi in Messico, Francia, Spagna, Giappone, Austria, Cina, Germania, Svizzera, Italia, Portogallo e altri paesi, e ha tenuto <strong><b>conferenze su invito</b></strong> presso istituzioni come la Biblioteca Nazionale di Spagna, l'Università di Vienna, l'Università di Zurigo, l'Università Nazionale Autonoma del Messico, l'Università di Perugia, l'Institución Libre de Enseñanza e i Festival di Teatro Classico di Almagro e Olmedo. Ha anche tenuto <strong><b>conferenze plenarie</b></strong> presso il Centro iMAL di Bruxelles, l'Università di Ginevra, l'Università di Cadice, l'Università di Santiago de Compostela, l'Università Rey Juan Carlos e l'UNED, tra gli altri, ed è stato nominato coordinatore della sezione Digital Humanities per la Conferenza AISO (Buenos Aires, 2026). Il suo lavoro ha attirato <strong><b>una significativa attenzione da parte dei media</b></strong>, con copertura in testate come <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Notizie dal Giappone</em> e <em>Der Standard</em>, tra gli altri. Due opere teatrali di cui ha stabilito la paternità attraverso la sua ricerca - <em>La monja alférez</em> e <em>La francesa Laura</em> - sono state rappresentate da compagnie teatrali professionali sia in Spagna che negli Stati Uniti.
+
+    La sua produzione accademica include monografie pubblicate dai principali <strong><b>editori accademici</b></strong> come <em>RBA Gredos</em> e <em>Reichenberger</em>, articoli in <strong><b>riviste accademiche</b></strong> come <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano</em> e <em>Revista de Literatura</em>, nonché risorse digitali ampiamente utilizzate dai ricercatori dell'Età dell'Oro. I suoi lavori hanno ricevuto <strong><b>oltre 500 citazioni</b></strong> e fanno parte di <strong><b>nove progetti di ricerca finanziati</b></strong> in Spagna, Germania e Austria. Ha ricevuto <strong><b>borse di studio e riconoscimenti</b></strong> come la La Caixa Fellowship per studi post-laurea negli Stati Uniti, i premi Best Project (2018) e Best Article (2023) dall'International Association of Hispanic Digital Humanities, riconoscimento finalista agli Archiletras Awards (2023), la borsa di studio Sigma Delta Phi (2021), il contratto post-dottorato Juan de la Cierva (Università Autonoma di Barcellona), il sigillo di eccellenza Marie Skłodowska-Curie e un invito come <strong><b>Mercator Fellow</b></strong> della Deutsche Forschungsgemeinschaft (DFG) presso l'Università di Tubinga.
+  de: |-
+    Álvaro Cuéllar González hat eine Karriere entwickelt, die von internationaler Zusammenarbeit, interdisziplinärer Forschung, wissenschaftlicher Führung und dem Wissenstransfer in die Gesellschaft im Bereich <strong><b>rechnerischer Ansätze zur frühneuzeitlichen spanischen Literatur</b></strong> geprägt ist. Seit 2017 ist er Co-Leiter des Projekts <strong><b><em>Stylometry Applied to Spanish Golden Age Theatre</em></b></strong>, an dem mehr als 120 Forscher aus verschiedenen Ländern (unter anderem Italien, Deutschland, Frankreich, die Vereinigten Staaten, Mexiko, Norwegen) und über 100 Universitätsstudenten mit Texten teilnehmen für die rechnerische Analyse eines Korpus von rund 3.000 Stücken. Er ist verantwortlich für die Erstellung von <strong><b><em>TEXORO</em></b></strong>, der größten Textdatenbank zum spanischen Theater des Goldenen Zeitalters, die 40 Millionen Wörter enthält und täglich von Wissenschaftlern verwendet wird. Seine Entwicklung umfasste den Einsatz künstlicher Intelligenztechniken zur automatischen Transkription frühneuzeitlicher gedruckter und handschriftlicher Quellen.
+
+    Er hat seine Forschung auf <strong><b>internationalen Konferenzen</b></strong> in Mexiko, Frankreich, Spanien, Japan, Österreich, China, Deutschland, der Schweiz, Italien, Portugal und anderen Ländern vorgestellt und <strong><b>eingeladene Vorträge</b></strong> an Institutionen wie der Nationalbibliothek von Spanien und der Universität gehalten Wien, der Universität Zürich, der Nationalen Autonomen Universität Mexiko, der Universität Perugia, der Institución Libre de Enseñanza und den Festivals für klassisches Theater von Almagro und Olmedo. Er hat außerdem Plenarvorträge <strong></strong> unter anderem am iMAL-Zentrum in Brüssel, an der Universität Genf, der Universität Cádiz, der Universität Santiago de Compostela, der Universität Rey Juan Carlos und der UNED gehalten und wurde zum Koordinator der Sektion Digital Humanities für die AISO-Konferenz (Buenos Aires, 2026). Seine Arbeit hat <strong><b>erhebliche mediale Aufmerksamkeit erregt</b></strong>, mit Berichterstattung in Medien wie <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> und <em>Der Standard</em>, unter anderem. Zwei Stücke, deren Urheberschaft er durch seine Forschungen nachgewiesen hat – <em>La monja alférez</em> und <em>La francesa Laura</em> – wurden von professionellen Theatergruppen sowohl in Spanien als auch in den Vereinigten Staaten aufgeführt.
+
+    Sein wissenschaftliches Schaffen umfasst Monographien, die von führenden <strong><b>akademischen Verlagen</b></strong> wie <em>RBA Gredos</em> und <em>Reichenberger</em> veröffentlicht wurden, sowie Artikel in <strong><b>Fachzeitschriften</b></strong> wie <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano</em> und <em>Revista de Literatura</em> sowie weit verbreitete digitale Ressourcen für Forscher des Goldenen Zeitalters. Seine Werke wurden <strong><b>über 500 Mal zitiert</b></strong> und sind Teil von <strong><b>neun geförderten Forschungsprojekten</b></strong> in Spanien, Deutschland und Österreich. Er wurde mit <strong><b>Stipendien und Auszeichnungen</b></strong> ausgezeichnet, darunter dem La Caixa Fellowship für Postgraduiertenstudien in den Vereinigten Staaten, den Preisen für das beste Projekt (2018) und den besten Artikel (2023) der International Association of Hispanic Digital Humanities, der Finalistenauszeichnung bei den Archiletras Awards (2023) und dem Sigma Delta Phi Fellowship (2021), der Juan de la Cierva-Postdoktorandenvertrag (Autonome Universität Barcelona), das Marie-Skłodowska-Curie-Exzellenzsiegel und eine Einladung als <strong><b>Mercator Fellow</b></strong> der Deutschen Forschungsgemeinschaft (DFG) an der Universität Tübingen.
+  zh: |-
+    Álvaro Cuéllar González 在 <strong><b>早期现代西班牙文学计算方法</b></strong> 领域开展了由国际合作、跨学科研究、科学领导力和知识向社会转移所定义的职业生涯。自2017年以来，他共同领导了项目<strong><b><em>Stylometry Applied to Spain Golden Age Theater</em></b></strong> ，该项目汇集了来自不同国家（意大利、德国、法国、美国、墨西哥、挪威等）的120多名研究人员和100多名贡献文本的大学生用于对大约 3,000 个戏剧的语料库进行计算分析。他负责创建 <strong><b><em>TEXORO</em></b></strong> ，这是西班牙黄金时代戏剧专用的最大文本数据库，包含 4000 万字，每天被学者使用。它的开发涉及使用人工智能技术来自动转录早期现代印刷品和手稿来源。
+
+    他曾在墨西哥、法国、西班牙、日本、奥地利、中国、德国、瑞士、意大利、葡萄牙等国家举办的<strong><b>国际会议</b></strong>上发表研究成果，并在西班牙国家图书馆、大学等机构发表<strong><b>特邀报告</b></strong>维也纳大学、苏黎世大学、墨西哥国立自治大学、佩鲁贾大学、Institución Libre de Enseñanza 以及阿尔马格罗和奥尔梅多古典戏剧节。他还在布鲁塞尔 iMAL 中心、日内瓦大学、加的斯大学、圣地亚哥德孔波斯特拉大学、胡安卡洛斯国王大学和 UNED 等机构做过 <strong><b>全体演讲</b></strong> ，并被任命为 AISO 会议（布宜诺斯艾利斯）数字人文部分协调员艾利斯，2026）。他的作品吸引了 <strong><b>重要媒体关注</b></strong> ，并在 <em>泰晤士报</em> 、 <em>卫报</em> 、 <em>费加罗报</em> 等媒体进行了报道, <em>路透社</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em> 、 <em>El Mundo</em> 、 <em>日本新闻</em> 和 <em>Der Standard</em> 等。他通过研究确定了两部戏剧的作者身份——《<em>La monja alférez</em>》和《<em>La francesa Laura</em>》——已由西班牙和美国的专业剧院公司演出。
+
+    他的学术成果包括由领先的 <strong><b>学术出版商</b></strong> 出版的专着，例如 <em>RBA Gredos</em> 和 <em>Reichenberger</em> ，以及在 <strong><b>学术期刊上发表的文章</b></strong> 例如 <em>Anuario Lope de Vega</em> 、 <em>Hipogrifo</em> 、 <em>Janus</em> 、 <em>Anuario Calderoniano</em> 和 <em>Revista de Literatura</em> ，以及黄金时代研究人员广泛使用的数字资源。他的作品已获得 <strong><b>超过 500 次引用</b></strong> ，并且是 <strong><b>在西班牙、德国和奥地利的九个资助研究项目</b></strong> 的一部分。他曾获得 <strong><b>奖学金和荣誉</b></strong> 例如美国 La Caixa 研究生奖学金、国际西班牙数字人文协会颁发的最佳项目（2018 年）和最佳文章（2023 年）奖、Archiletras 奖（2023 年）入围奖、Sigma Delta 奖Phi 奖学金（2021 年）、Juan de la Cierva 博士后合同（巴塞罗那自治大学）、Marie Skłodowska-Curie 卓越印章，以及蒂宾根大学德国研究协会 (DFG) <strong><b>墨卡托研究员</b></strong> 的邀请。
+  ja: |-
+    アルバロ・クエラル・ゴンサレスは、近世スペイン文学への計算的アプローチ <strong></strong> の分野で、国際協力、学際的研究、科学的リーダーシップ、社会への知識の伝達によって定義されるキャリアを築いてきました。 2017 年以来、彼はプロジェクト <strong><b><em>スペイン黄金時代劇場にスタイロメトリーを適用</em></b></strong> を共同主導しています。このプロジェクトには、さまざまな国 (イタリア、ドイツ、フランス、米国、メキシコ、ノルウェーなど) から 120 人以上の研究者と 100 人以上の大学生が集まり、この映画にテキストを提供しています。約 3,000 の再生のコーパスのコンピューター分析。彼は、スペイン黄金時代演劇専用の最大のテキスト データベースである <strong><b><em>TEXORO</em></b></strong> の作成を担当しています。このデータベースには 4,000 万語が含まれており、学者によって毎日使用されています。その開発には、近世の印刷物や写本ソースの自動転写に適用される人工知能技術の使用が含まれています。
+
+    彼は、メキシコ、フランス、スペイン、日本、オーストリア、中国、ドイツ、スイス、イタリア、ポルトガルなどの国々で開催された<strong><b>国際会議</b></strong> で研究を発表し、スペイン国立図書館、ウィーン大学、ウィーン大学などの機関で <strong><b>招待講演</b></strong> を行ってきました。チューリッヒ大学、メキシコ国立自治大学、ペルージャ大学、エンセニャンサ自由研究所、アルマグロおよびオルメド古典演劇祭。また、ブリュッセルの iMAL センター、ジュネーブ大学、カディス大学、サンティアゴ デ コンポステーラ大学、レイ ファン カルロス大学、UNED などで <strong><b>全体講義</b></strong> を行っており、AISO 会議のデジタル ヒューマニティー部門のコーディネーターに任命されています。 （ブエノスアイレス、2026年）。彼の作品は、<strong><b>大きなメディアの注目を集めており、</b></strong> 、<em>The Times</em> 、<em>The Guardian</em> 、<em>Le Figaro</em> 、 <em>ロイター</em> 、 <em>BBC</em> 、 <em>CNN</em> 、 <em>エル・パイス</em> 、 <em>ABC</em> 、 <em>RTVE</em> 、 <em>El Mundo</em> 、 <em>Japan News</em> 、 <em>Der Standard</em> など。彼が研究を通じてその原作者であることを証明した 2 つの演劇 — <em>La monja alférez</em> および <em>La francesa Laura</em> — は、スペインと米国両国のプロの劇団によって上演されました。
+
+    彼の学術成果には、<em>RBA Gredos</em> および <em>Reichenberger</em> などの主要な <strong><b>学術出版社</b></strong> によって出版された単行本、<strong><b>学術誌の記事</b> が含まれます。</strong> (例: <em>Anuario Lope de Vega</em> 、<em>Hipogrifo</em> 、<em>Janus</em> 、<em>Anuario Calderoniano</em> 、および <em>Revista de Literatura</em> 、および黄金時代の研究者向けに広く使用されているデジタル リソース。彼の作品は、<strong><b>500 以上の引用を受けており、</b></strong> を獲得しており、スペイン、ドイツ、オーストリアにおける <strong><b>9 つの資金提供された研究プロジェクト</b></strong> の一部となっています。彼は、<strong><b>フェローシップと優秀賞</b></strong> を受賞しています。たとえば、米国の大学院研究を対象としたラ・カイシャ・フェローシップ、国際ヒスパニック・デジタル・ヒューマニティー協会から最優秀プロジェクト賞 (2018 年) および最優秀論文賞 (2023 年) を受賞、Archiletras Awards (2023 年) の最終候補者としての評価、シグマ デルタ賞などです。ファイフェローシップ（2021）、フアン・デ・ラ・シエルバ博士研究員契約（バルセロナ自治大学）、マリー・スクウォドフスカ＝キュリー・シール・オブ・エクセレンス、およびドイツ教育研究機関（DFG）の<strong><b>メルカトルフェロー</b></strong> としての招待状テュービンゲン大学。
+  ko: |-
+    Álvaro Cuéllar González는 초기 현대 스페인 문학에 대한 <strong><b>컴퓨터 접근 방식</b></strong> 분야에서 국제 협력, 학제간 연구, 과학적 리더십, 사회에 대한 지식 이전으로 정의되는 경력을 개발했습니다. 2017년부터 그는 <strong><b><em>Stylometry Applied to Spanish Golden Age Theatre</em></b></strong> 프로젝트를 공동 주도했으며, 이 프로젝트에는 다양한 국가(이탈리아, 독일, 프랑스, 미국, 멕시코, 노르웨이 등)에서 온 120명 이상의 연구원과 100명 이상의 대학생이 참여했습니다. 약 3,000편의 희곡으로 구성된 코퍼스의 컴퓨터 분석을 위해 텍스트를 기고했습니다. 그는 <strong><b><em>TEXORO</em></b></strong> 를 만드는 일을 담당하고 있습니다. 이 데이터베이스는 4천만 단어를 포함하고 학자들이 매일 사용하는 스페인 황금 시대 극장 전용 최대 규모의 텍스트 데이터베이스입니다. 그 개발에는 초기 현대 인쇄 및 원고 소스의 자동 전사에 적용된 인공 지능 기술의 사용이 포함되었습니다.
+
+    그는 멕시코, 프랑스, 스페인, 일본, 오스트리아, 중국, 독일, 스위스, 이탈리아, 포르투갈 및 기타 국가에서 개최된 <strong><b>국제 회의</b></strong>에서 자신의 연구를 발표했으며, 스페인 국립 도서관, 대학 등 기관에서 <strong><b>초청 강연</b></strong>을 전달했습니다. 비엔나, 취리히 대학교, 멕시코 국립 자치 대학교, 페루자 대학교, Institución Libre de Enseñanza, Almagro 및 Olmedo의 고전 연극 축제. 그는 또한 브뤼셀의 iMAL 센터, 제네바 대학교, 카디스 대학교, 산티아고 데 콤포스텔라 대학교, 레이 후안 카를로스 대학교, UNED 등에서 <strong><b>본회의 강연을 했으며 AISO 회의(부에노스 아이레스, 부에노스 아이레스)의 디지털 인문학 섹션 코디네이터로 임명되었습니다. 2026). 그의 작품은 <strong><b>상당한 언론의 관심을 끌었으며(</b></strong>), <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>과 같은 매체에서 보도되었습니다., <em>로이터</em>, <em>BBC</em>, <em>CNN</em>, <em>엘파이</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> 및 <em>Der Standard</em> 등이 있습니다. 그가 연구를 통해 저작권을 확립한 두 편의 연극 — <em>La monja alférez</em> 및 <em>La francesa Laura</em> —은 스페인과 미국의 전문 극단에서 공연되었습니다.
+
+    그의 학술 결과물에는 <em>RBA Gredos</em> 및 <em>Reichenberger</em>과 같은 주요 <strong><b>학술 출판사</b></strong>에서 출판한 단행본, <strong><b>학술 저널의 기사가 포함됩니다.</b></strong>(예: <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>Janus</em>, <em>Anuario Calderoniano)</em> 및 <em>Revista de Literatura</em> 및 황금기 연구자를 위해 널리 사용되는 디지털 리소스입니다. 그의 작품은 <strong><b>500회 이상의 인용(</b></strong>)을 받았으며 스페인, 독일 및 오스트리아에서 <strong><b>9개의 자금 지원 연구 프로젝트</b></strong>의 일부입니다. 그는 미국 대학원 연구를 위한 La Caixa Fellowship, 국제 히스패닉 디지털 인문학 협회로부터 최우수 프로젝트(2018) 및 최우수 기사(2023) 상, Archiletras Awards(2023) 최종 후보 표창 등 <strong><b>펠로십 및 구별</b></strong>을 수상했습니다. Sigma Delta Phi Fellowship(2021), Juan de la Cierva 박사후 계약(바르셀로나 자치대학교), Marie Skłodowska-Curie 우수 인장, Deutsche Forschungsgemeinschaft의 <strong><b>Mercator Fellow</b></strong> 초대 (DFG) 튀빙겐 대학교.
+  ru: |-
+    Альваро Куэльяр Гонсалес сделал карьеру, основанную на международном сотрудничестве, междисциплинарных исследованиях, научном лидерстве и передаче знаний обществу в области <strong><b>вычислительных подходов к ранней современной испанской литературе</b></strong>. С 2017 года является соруководителем проекта <strong><b><em>Стилометрия в применении к испанскому театру Золотого века</em></b></strong>, который объединяет более 120 исследователей из разных стран (Италии, Германии, Франции, США, Мексики, Норвегии и др.) и более. 100 студентов университета предоставили тексты для компьютерного анализа корпуса, насчитывающего около 3000 пьес. Он отвечает за создание <strong><b><em>TEXORO</em></b></strong>, крупнейшей текстовой базы данных, посвященной испанскому театру Золотого века, которая содержит 40 миллионов слов и ежедневно используется учеными. Его разработка включала использование методов искусственного интеллекта, применяемых для автоматической транскрипции печатных и рукописных источников раннего Нового времени.
+
+    Он представлял свои исследования на <strong><b>международных конференциях</b></strong>, проводимых в Мексике, Франции, Испании, Японии, Австрии, Китае, Германии, Швейцарии, Италии, Португалии и других странах, а также читал <strong><b>приглашенные лекции</b></strong> в таких учреждениях, как Национальная библиотека Испании, Венский университет, Цюрихский университет, Национальный автономный университет Мексики, Университет Перуджи, Свободный институт Энсеньянса и фестивали классического театра Альмагро и Ольмедо. Он также читал <strong><b>пленарные лекции</b></strong> в Центре iMAL в Брюсселе, Женевском университете, Университете Кадиса, Университете Сантьяго-де-Компостела, Университете Рей Хуана Карлоса и UNED, среди других, и был назначен координатором секции цифровых гуманитарных наук на конференции AISO. (Буэнос-Айрес, 2026 г.). Его работа привлекла <strong><b>значительное внимание средств массовой информации</b></strong>, а также освещение в таких изданиях, как <em>The Times</em>, <em>The Guardian</em>, <em>Le Figaro</em>, <em>Reuters</em>, <em>BBC</em>, <em>CNN</em>, <em>El País</em>, <em>ABC</em>, <em>RTVE</em>, <em>El Mundo</em>, <em>Japan News</em> и <em>Der Standard</em> и другие. Две пьесы, авторство которых он установил в ходе своих исследований — <em>La monja alférez</em> и <em>La francesa Laura</em> — были поставлены профессиональными театральными труппами как в Испании, так и в США.
+
+    Его научная деятельность включает монографии, опубликованные ведущими академическими <strong><b>академическими издательствами</b></strong>, такими как <em>RBA Gredos</em> и <em>Reichenberger</em>, статьи в <strong>. <b>академические журналы</b></strong> такие как <em>Ануарио Лопе де Вега</em>, <em>Hipogrifo</em>, <em>Янус</em>, <em>Ануарио Кальдерониано</em> и <em>Revista de Literatura</em>, а также широко используемые цифровые ресурсы для исследователей Золотого века. Его работы получили <strong><b>более 500 цитирований</b></strong> и являются частью <strong><b>девяти финансируемых исследовательских проектов</b></strong> в Испании, Германии и Австрии. Он был удостоен <strong><b>стипендий и наград</b></strong>, таких как стипендия La Caixa для аспирантуры в США, награды за лучший проект (2018 г.) и лучшая статья (2023 г.) от Международной ассоциации латиноамериканских цифровых гуманитарных наук, признание финалиста премии Archiletras Awards (2023 г.), Стипендия Сигмы Дельта Фи (2021 г.), постдокторский контракт Хуана де ла Сьервы (Автономный университет Барселоны), Знак отличия Марии Склодовской-Кюри и приглашение в качестве <strong><b>Товарища Меркатора</b></strong> Deutsche Forschungsgemeinschaft (DFG) в Тюбингенском университете.
+  ar: |-
+    طور ألفارو كويلار غونزاليس مهنة تحددها التعاون الدولي والبحث متعدد التخصصات والقيادة العلمية ونقل المعرفة إلى المجتمع في مجال <strong><b>الأساليب الحسابية للأدب الإسباني الحديث المبكر</b></strong>. منذ عام 2017، شارك في قيادة المشروع <strong><b><em>قياس الأنماط المطبق على مسرح العصر الذهبي الإسباني</em></b></strong>، والذي يجمع أكثر من 120 باحثًا من بلدان مختلفة (إيطاليا وألمانيا وفرنسا والولايات المتحدة والمكسيك والنرويج وغيرها) وأكثر ساهم 100 طالب جامعي بنصوص للتحليل الحسابي لمجموعة مؤلفة من حوالي 3000 مسرحية. وهو مسؤول عن إنشاء <strong><b><em>TEXORO</em></b></strong>، أكبر قاعدة بيانات نصية مخصصة لمسرح العصر الذهبي الإسباني، والتي تحتوي على 40 مليون كلمة ويستخدمها العلماء يوميًا. وقد شمل تطويرها استخدام تقنيات الذكاء الاصطناعي المطبقة على النسخ التلقائي للمصادر المطبوعة والمخطوطات الحديثة المبكرة.
+
+    لقد قدم بحثه في <strong><b>المؤتمرات الدولية</b></strong> المنعقدة في المكسيك وفرنسا وإسبانيا واليابان والنمسا والصين وألمانيا وسويسرا وإيطاليا والبرتغال ودول أخرى، كما ألقى <strong><b>محاضرات مدعوة</b></strong> في مؤسسات مثل المكتبة الوطنية الإسبانية، وجامعة فيينا، وجامعة زيورخ، والجامعة الوطنية المستقلة في المكسيك، وجامعة بيروجيا، ومعهد العلوم الحرة، ومهرجانات المسرح الكلاسيكي في ألماجرو وأولميدو. كما ألقى أيضًا <strong><b>محاضرات عامة</b></strong> في مركز iMAL في بروكسل، وجامعة جنيف، وجامعة قادس، وجامعة سانتياغو دي كومبوستيلا، وجامعة ري خوان كارلوس، وUNED، من بين آخرين، وتم تعيينه منسقًا لقسم العلوم الإنسانية الرقمية في مؤتمر AISO. (بوينس آيرس، 2026). اجتذب عمله <strong><b>اهتمامًا إعلاميًا كبيرًا</b></strong>، مع تغطية في منافذ مثل <em>The Times</em>، <em>The Guardian</em>، <em>Le فيجارو</em>, <em>رويترز</em>, <em>بي بي سي</em>, <em>CNN</em>, <em>البايس</em>, <em>ABC</em>, <em>RTVE</em>, <em>إل موندو</em>, <em>أخبار اليابان</em>, و <em>Der Standard</em>، من بين أمور أخرى. مسرحيتان أثبت مؤلفهما من خلال بحثه - <em>La monja alférez</em> و <em>La francesa Laura</em> - تم عرضهما من قبل شركات مسرحية محترفة في كل من إسبانيا والولايات المتحدة.
+
+    يتضمن إنتاجه العلمي دراسات منشورة من قبل كبار الناشرين الأكاديميين <strong></strong> مثل <em>RBA Gredos</em> و <em>Reichenberger</em> ومقالات في <strong><b>المجلات الأكاديمية</b></strong> مثل <em>Anuario Lope de Vega</em>, <em>Hipogrifo</em>, <em>يانوس</em>, <em>Anuario Calderoniano</em> و <em>Revista de Literatura</em> ، بالإضافة إلى الموارد الرقمية المستخدمة على نطاق واسع لباحثي العصر الذهبي. تلقت أعماله <strong><b>أكثر من 500 استشهاد</b></strong> وهي جزء من <strong><b>تسعة مشاريع بحثية ممولة</b></strong> في إسبانيا وألمانيا والنمسا. حصل على <strong><b>زمالات وأوسمة</b></strong> مثل زمالة La Caixa للدراسات العليا في الولايات المتحدة، وجائزة أفضل مشروع (2018) وأفضل مقال (2023) من الرابطة الدولية للعلوم الإنسانية الرقمية الإسبانية، والاعتراف النهائي في جوائز Archiletras (2023)، زمالة Sigma Delta Phi (2021)، وعقد Juan de la Cierva لما بعد الدكتوراه (جامعة برشلونة المستقلة)، وختم Marie Skłodowska-Curie للتميز، ودعوة كـ <strong><b>زميل مركاتور</b></strong> من Deutsche Forschungsgemeinschaft (DFG) في جامعة توبنغن.
 show_timeline: false
 timeline:
   - date:
       es: "fecha"
       en: "date"
+      fr: date
+      pt: data
+      it: data
+      de: Datum
+      zh: 日期
+      ja: 日付
+      ko: 날짜
+      ru: дата
+      ar: تاريخ
     title:
       es: "Título del hito"
       en: "Title of the milestone"
+      fr: Titre du jalon
+      pt: Título do marco
+      it: Titolo della pietra miliare
+      de: Titel des Meilensteins
+      zh: 里程碑的标题
+      ja: マイルストーンのタイトル
+      ko: 이정표의 제목
+      ru: Название вехи
+      ar: عنوان المعلم
     subtitle:
       es: "Subtítulo del hito"
       en: "Subtitle of the milestone"
+      fr: Sous-titre du jalon
+      pt: Legenda do marco
+      it: Sottotitolo della pietra miliare
+      de: Untertitel des Meilensteins
+      zh: 里程碑的副标题
+      ja: マイルストーンのサブタイトル
+      ko: 이정표의 부제
+      ru: Подзаголовок вехи
+      ar: العنوان الفرعي للمعلم
     description:
       es: "Descripción del hito"
       en: "Description of the milestone"
+      fr: Description du jalon
+      pt: Descrição do marco
+      it: Descrizione della pietra miliare
+      de: Beschreibung des Meilensteins
+      zh: 里程碑的描述
+      ja: マイルストーンの説明
+      ko: 마일스톤에 대한 설명
+      ru: Описание вехи
+      ar: وصف المعلم
   - date:
       es: "fecha"
       en: "date"
+      fr: date
+      pt: data
+      it: data
+      de: Datum
+      zh: 日期
+      ja: 日付
+      ko: 날짜
+      ru: дата
+      ar: تاريخ
     title:
       es: "Título del hito"
       en: "Title of the milestone"
+      fr: Titre du jalon
+      pt: Título do marco
+      it: Titolo della pietra miliare
+      de: Titel des Meilensteins
+      zh: 里程碑的标题
+      ja: マイルストーンのタイトル
+      ko: 이정표의 제목
+      ru: Название вехи
+      ar: عنوان المعلم
     subtitle:
       es: "Subtítulo del hito"
       en: "Subtitle of the milestone"
+      fr: Sous-titre du jalon
+      pt: Legenda do marco
+      it: Sottotitolo della pietra miliare
+      de: Untertitel des Meilensteins
+      zh: 里程碑的副标题
+      ja: マイルストーンのサブタイトル
+      ko: 이정표의 부제
+      ru: Подзаголовок вехи
+      ar: العنوان الفرعي للمعلم
     description:
       es: "Descripción del hito"
       en: "Description of the milestone"
+      fr: Description du jalon
+      pt: Descrição do marco
+      it: Descrizione della pietra miliare
+      de: Beschreibung des Meilensteins
+      zh: 里程碑的描述
+      ja: マイルストーンの説明
+      ko: 마일스톤에 대한 설명
+      ru: Описание вехи
+      ar: وصف المعلم
   - date:
       es: "fecha"
       en: "date"
+      fr: date
+      pt: data
+      it: data
+      de: Datum
+      zh: 日期
+      ja: 日付
+      ko: 날짜
+      ru: дата
+      ar: تاريخ
     title:
       es: "Título del hito"
       en: "Title of the milestone"
+      fr: Titre du jalon
+      pt: Título do marco
+      it: Titolo della pietra miliare
+      de: Titel des Meilensteins
+      zh: 里程碑的标题
+      ja: マイルストーンのタイトル
+      ko: 이정표의 제목
+      ru: Название вехи
+      ar: عنوان المعلم
     subtitle:
       es: "Subtítulo del hito"
       en: "Subtitle of the milestone"
+      fr: Sous-titre du jalon
+      pt: Legenda do marco
+      it: Sottotitolo della pietra miliare
+      de: Untertitel des Meilensteins
+      zh: 里程碑的副标题
+      ja: マイルストーンのサブタイトル
+      ko: 이정표의 부제
+      ru: Подзаголовок вехи
+      ar: العنوان الفرعي للمعلم
     description:
       es: "Descripción del hito"
       en: "Description of the milestone"
+      fr: Description du jalon
+      pt: Descrição do marco
+      it: Descrizione della pietra miliare
+      de: Beschreibung des Meilensteins
+      zh: 里程碑的描述
+      ja: マイルストーンの説明
+      ko: 마일스톤에 대한 설명
+      ru: Описание вехи
+      ar: وصف المعلم
