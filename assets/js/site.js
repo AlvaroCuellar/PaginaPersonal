@@ -33,6 +33,13 @@ $(document).ready(function () {
 
 });
 
+document.addEventListener('languageContentReplaced', function() {
+	setTimeout(function() {
+		initAchievementsState();
+		initProfileMatrixRain();
+	}, 150);
+});
+
 /* ·········································
    Inicializar estado de logros
    ········································· */
@@ -175,6 +182,10 @@ function initProfileMatrixRain() {
 		frame.addEventListener('mouseenter', startMatrix);
 		frame.addEventListener('mouseleave', stopMatrix);
 		frame.addEventListener('touchstart', startMatrix, { passive: true });
+
+		if (frame.matches(':hover')) {
+			startMatrix();
+		}
 	});
 }
 
