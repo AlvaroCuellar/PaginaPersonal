@@ -44,6 +44,19 @@ items:
     url: "https://revistalapluma.com/lapluma_articulos/filologia-artificial/"
     image: "/assets/images/outreach/pluma.jpg"
 
+  - id: "outreach-al-puro-estilo-delacroix"
+    title:
+      es: "Al Puro Estilo Delacroix"
+      en: "In True Delacroix Style"
+    type: "article"
+    medium: "Revista La Pluma"
+    date: "2025-12-16"
+    description:
+      es: "Artículo de divulgación sobre la autonomía técnica que la inteligencia artificial generativa abre para la investigación humanística. Presenta ejemplos recientes en la Biblioteca Digital Prolope, TEXORO y Thal-IA."
+      en: "Outreach article on the technical autonomy that generative artificial intelligence opens up for humanities research. It presents recent examples from Biblioteca Digital Prolope, TEXORO, and Thal-IA."
+    url: "https://revistalapluma.com/lapluma_articulos/al-puro-estilo-delacroix/"
+    image: "/assets/images/outreach/delacroix.png"
+
   - id: "outreach-informe-semanal"
     title:
       es: "Lo que aún esconde Lope de Vega"

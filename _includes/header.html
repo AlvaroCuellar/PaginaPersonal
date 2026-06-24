@@ -78,7 +78,10 @@
       </div>
       <div class="col-3">
         <div class="banner-profile-photo">
-          <img src="{{ site.data.personal.photo }}" alt="profile" class="profile-img">
+          <span class="profile-matrix-frame">
+            <img src="{{ site.data.personal.photo }}" alt="profile" class="profile-img">
+            <canvas class="profile-matrix-canvas" aria-hidden="true"></canvas>
+          </span>
         </div>
       </div>
     </div>
