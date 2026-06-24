@@ -695,8 +695,50 @@ nav#nav-mobile .menu-button {
 }
 
 @media (max-width: 768px) {
+    .mobile-menu-overlay {
+        align-items: flex-start;
+        overflow-y: auto;
+        padding: calc(72px + env(safe-area-inset-top)) 0 calc(28px + env(safe-area-inset-bottom));
+        overscroll-behavior: contain;
+    }
+
+    .mobile-menu-content {
+        max-width: min(320px, calc(100% - 40px));
+        margin: auto;
+    }
+
+    .mobile-menu-content ul {
+        display: flex;
+        flex-direction: column;
+    }
+
     .lang-menu {
         max-height: min(78vh, 520px);
         overflow-y: auto;
+    }
+
+    .mobile-menu-content .lang-switcher {
+        width: 100%;
+    }
+
+    .mobile-menu-content li:has(.lang-switcher) {
+        order: -1;
+        margin-bottom: var(--spacing-l);
+    }
+
+    .mobile-menu-content .lang-current {
+        justify-content: center;
+        width: min(190px, 100%);
+        margin: 0 auto;
+    }
+
+    .mobile-menu-content .lang-menu {
+        top: calc(100% + 8px);
+        bottom: auto;
+        left: 50%;
+        right: auto;
+        width: min(280px, calc(100vw - 48px));
+        max-height: min(54vh, 420px);
+        transform: translateX(-50%);
     }
 }
