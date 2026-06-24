@@ -9,6 +9,41 @@
 
 "use strict";
 
+let languageOutsideClickInitialized = false;
+
+function closeLanguageSwitchers(exceptSwitcher) {
+    document.querySelectorAll('.lang-switcher[open]').forEach(langSwitcher => {
+        if (langSwitcher !== exceptSwitcher) {
+            langSwitcher.removeAttribute('open');
+        }
+    });
+}
+
+function initLanguageOutsideClick() {
+    if (languageOutsideClickInitialized) {
+        return;
+    }
+
+    document.addEventListener('click', function(e) {
+        const clickedSwitcher = e.target.closest('.lang-switcher');
+
+        if (clickedSwitcher) {
+            closeLanguageSwitchers(clickedSwitcher);
+            return;
+        }
+
+        closeLanguageSwitchers();
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeLanguageSwitchers();
+        }
+    });
+
+    languageOutsideClickInitialized = true;
+}
+
 // Función para inicializar/reinicializar el toggle
 function initLanguageToggle() {
     // Buscar TODOS los lang-switchers (header y mobile menu)
@@ -47,6 +82,8 @@ function initLanguageToggle() {
             });
         });
     });
+
+    initLanguageOutsideClick();
     
     console.log(`✅ ${langSwitchers.length} language toggle(s) initialized`);
 }
