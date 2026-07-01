@@ -114,6 +114,25 @@ talks:
       ko: 포르투갈 빌라비소자
       ru: Вила-Висоза, Португалия
       ar: فيلا فيسوزا، البرتغال
+  - id: "codicecodigo2026"
+    author: "Álvaro Cuéllar"
+    type: workshop
+    date: "2026-06-16"
+    title: "Entrenamiento y rastreo computacional de la grafía de Quevedo"
+    event: "Workshop: La mano de Quevedo. Seminario de investigación «Del códice al código: Análisis del verso áureo en la era de la IA»"
+    institution: "Departamento de Filología Española, Facultat de Filosofia i Lletres, Universitat Autònoma de Barcelona"
+    location:
+      es: "Bellaterra, España"
+      en: "Bellaterra, Spain"
+      fr: Bellaterra, Espagne
+      pt: Bellaterra, Espanha
+      it: Bellaterra, Spagna
+      de: Bellaterra, Spanien
+      zh: 西班牙贝拉特拉
+      ja: ベラテッラ、スペイン
+      ko: 스페인 벨라테라
+      ru: Беллатерра, Испания
+      ar: بيلاتيرا، إسبانيا
   - id: "jpd2026"
     author: "Álvaro Cuéllar"
     type: plenary
