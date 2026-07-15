@@ -950,16 +950,21 @@ publications:
       ru: В данной статье стилометрические методы и методы искусственного интеллекта применяются для пересмотра драматического репертуара Луиса Велеса де Гевары. С помощью вычислительных моделей атрибуции авторства и анализа текстового сходства на широком корпусе испанского театра Золотого века он предлагает новые включения и исключения в его творчестве. Результаты помогают переопределить границы велесианского канона с эмпирической и автоматизированной точки зрения.
       ar: تطبق هذه المقالة أساليب القياس الأسلوبي والذكاء الاصطناعي لمراجعة المخزون الدرامي للويس فيليز دي جيفارا. ومن خلال نماذج إسناد التأليف الحسابية وتحليل التشابه النصي على مجموعة واسعة من مسرح العصر الذهبي الإسباني، فإنه يقترح إدراجات واستثناءات جديدة في أعماله. تساعد النتائج في إعادة تعريف حدود القانون الفليزي من منظور تجريبي وآلي.
   - id: "writerid2026"
-    type: "inpress"
-    title: "Simple Handwritten Text Recognition Techniques for Highly Accurate Writer Identification"
-    authors: ["Alejandro H. Toselli", "Álvaro Cuéllar", "Sònia Boadas", "Enrique Vidal", "Joan Andreu Sánchez"]
+    type: "article"
+    title: "Simple handwritten text recognition techniques for highly accurate writer identification"
+    authors:
+      - "Alejandro H. Toselli"
+      - "Álvaro Cuéllar"
+      - "Sònia Boadas"
+      - "Enrique Vidal"
+      - "Joan Andreu Sánchez"
     publication: "Pattern Analysis and Applications"
-    volume:
+    volume: "29"
     number:
-    pages:
+    pages: "144"
     year: 2026
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
+    url: "https://doi.org/10.1007/s10044-026-01718-8"
+    thumbnail: "/assets/images/pubs/writerid2026.png"
     abstract:
       es: "El artículo propone un sistema de identificación de escribas basado en técnicas simplificadas de reconocimiento automático de texto manuscrito. Los resultados muestran una elevada precisión en la diferenciación entre manuscritos autógrafos de Lope de Vega y copias de otras manos."
       en: "The article proposes a writer-identification system based on simplified handwritten text recognition techniques. The results show high accuracy in distinguishing between Lope de Vega's autograph manuscripts and copies written by other hands."
