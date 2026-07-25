@@ -74,6 +74,31 @@ featured_ids:
   
 publications:
 
+  - id: "estiloritm"
+    type: "article"
+    title: "La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega"
+    authors: ["Álvaro Cuéllar"]
+    publication: "Castilla. Estudios de Literatura"
+    volume: "17"
+    number:
+    pages: "114–135"
+    year: 2026
+    url: "https://doi.org/10.24197/6dkssk45"
+    thumbnail: "/assets/images/pubs/estiloritm.png"
+    abstract:
+      es: "El artículo evalúa la capacidad de la estilometría rítmica para distinguir comedias de Lope de Vega frente a obras no lopescas mediante patrones acentuales del verso y modelos de aprendizaje automático. Los resultados alcanzan F1 cercanos a 0,95 cuando se usan unos 100–200 patrones frecuentes. Sin embargo, aparecen falsos negativos —incluso en obras con autógrafo—, lo que obliga a interpretar el método con cautela."
+      en: "The article evaluates the ability of rhythmic stylometry to distinguish plays by Lope de Vega from non-Lopean works through verse accentual patterns and machine-learning models. The results reach F1 scores close to 0.95 when using about 100–200 frequent patterns. However, false negatives appear, even in autograph works, which means the method must be interpreted with caution."
+      fr: L'article évalue la capacité de la stylométrie rythmique à distinguer les pièces de Lope de Vega des œuvres non lopéennes à travers des modèles d'accentuation de vers et des modèles d'apprentissage automatique. Les résultats atteignent des scores F1 proches de 0,95 en utilisant environ 100 à 200 modèles fréquents. Cependant, des faux négatifs apparaissent, même dans les œuvres autographes, ce qui oblige à interpréter la méthode avec prudence.
+      pt: O artigo avalia a capacidade da estilometria rítmica de distinguir peças de Lope de Vega de obras não-Lopeanas por meio de padrões de versos acentuados e modelos de aprendizado de máquina. Os resultados alcançam pontuações F1 próximas de 0,95 ao usar cerca de 100–200 padrões frequentes. Porém, aparecem falsos negativos, mesmo em trabalhos autógrafos, o que significa que o método deve ser interpretado com cautela.
+      it: L'articolo valuta la capacità della stilometria ritmica di distinguere le opere di Lope de Vega da quelle non lopeane attraverso schemi di accentuazione dei versi e modelli di apprendimento automatico. I risultati raggiungono punteggi F1 vicini a 0,95 quando si utilizzano circa 100-200 modelli frequenti. Tuttavia, anche nelle opere autografe compaiono falsi negativi, il che significa che il metodo deve essere interpretato con cautela.
+      de: Der Artikel bewertet die Fähigkeit der rhythmischen Stilometrie, Stücke von Lope de Vega durch akzentuierte Versmuster und Modelle des maschinellen Lernens von nicht-lopeschen Werken zu unterscheiden. Die Ergebnisse erreichen F1-Werte nahe 0,95, wenn etwa 100–200 häufige Muster verwendet werden. Allerdings kommt es selbst bei autographen Werken zu Falschnegativen, weshalb die Methode mit Vorsicht zu interpretieren ist.
+      zh: 本文评估了节奏文体测量法通过诗句重音模式和机器学习模型区分洛普·德·维加戏剧和非洛普作品的能力。当使用大约 100-200 个频繁模式时，结果达到接近 0.95 的 F1 分数。然而，即使在亲笔签名作品中，也会出现假阴性，这意味着必须谨慎解释该方法。
+      ja: この記事では、詩のアクセントパターンと機械学習モデルを通じて、ロペ・デ・ベガの戯曲と非ロペの作品を区別するリズミカル・スタイロメトリーの能力を評価しています。約 100 ～ 200 個の頻度の高いパターンを使用すると、結果は 0.95 に近い F1 スコアに達します。ただし、サイン作品であっても偽陰性が発生するため、この方法は注意して解釈する必要があります。
+      ko: 이 기사에서는 운문 악센트 패턴과 기계 학습 모델을 통해 Lope de Vega의 희곡과 비 Lopean 작품을 구별하는 리듬 스타일로메트리의 능력을 평가합니다. 약 100~200개의 빈번한 패턴을 사용하면 결과는 0.95에 가까운 F1 점수에 도달합니다. 그러나 사인 작업에서도 위음성이 나타나므로 주의해서 해석해야 합니다.
+      ru: В статье оценивается способность ритмической стилометрии отличать пьесы Лопе де Вега от нелопеанских произведений с помощью стиховых акцентных моделей и моделей машинного обучения. Результаты достигают оценки F1, близкой к 0,95 при использовании примерно 100–200 частых шаблонов. Однако ложноотрицательные результаты появляются даже в автографических произведениях, а это значит, что к методу следует относиться с осторожностью.
+      ar: يقيم المقال قدرة قياس الأسلوب الإيقاعي على التمييز بين مسرحيات Lope de Vega والأعمال غير اللوبية من خلال أنماط نبرة الشعر ونماذج التعلم الآلي. تصل النتائج إلى درجات F1 تقترب من 0.95 عند استخدام حوالي 100-200 نمط متكرر. ومع ذلك، تظهر السلبيات الكاذبة، حتى في أعمال التوقيع، مما يعني أنه يجب تفسير الطريقة بحذر.
+    cited_by:
+
 
 
   - id: "atoms2waves"
@@ -365,30 +390,6 @@ publications:
 
 
     
-  - id: "estiloritm"
-    type: "article"
-    title: "La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega"
-    authors: ["Álvaro Cuéllar"]
-    publication: "Castilla. Estudios de Literatura"
-    volume:
-    number:
-    pages:
-    year: 2026
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
-    abstract:
-      es: "El artículo evalúa la capacidad de la estilometría rítmica para distinguir comedias de Lope de Vega frente a obras no lopescas mediante patrones acentuales del verso y modelos de aprendizaje automático. Los resultados alcanzan F1 cercanos a 0,95 cuando se usan unos 100–200 patrones frecuentes. Sin embargo, aparecen falsos negativos —incluso en obras con autógrafo—, lo que obliga a interpretar el método con cautela."
-      en: "The article evaluates the ability of rhythmic stylometry to distinguish plays by Lope de Vega from non-Lopean works through verse accentual patterns and machine-learning models. The results reach F1 scores close to 0.95 when using about 100–200 frequent patterns. However, false negatives appear, even in autograph works, which means the method must be interpreted with caution."
-      fr: L'article évalue la capacité de la stylométrie rythmique à distinguer les pièces de Lope de Vega des œuvres non lopéennes à travers des modèles d'accentuation de vers et des modèles d'apprentissage automatique. Les résultats atteignent des scores F1 proches de 0,95 en utilisant environ 100 à 200 modèles fréquents. Cependant, des faux négatifs apparaissent, même dans les œuvres autographes, ce qui oblige à interpréter la méthode avec prudence.
-      pt: O artigo avalia a capacidade da estilometria rítmica de distinguir peças de Lope de Vega de obras não-Lopeanas por meio de padrões de versos acentuados e modelos de aprendizado de máquina. Os resultados alcançam pontuações F1 próximas de 0,95 ao usar cerca de 100–200 padrões frequentes. Porém, aparecem falsos negativos, mesmo em trabalhos autógrafos, o que significa que o método deve ser interpretado com cautela.
-      it: L'articolo valuta la capacità della stilometria ritmica di distinguere le opere di Lope de Vega da quelle non lopeane attraverso schemi di accentuazione dei versi e modelli di apprendimento automatico. I risultati raggiungono punteggi F1 vicini a 0,95 quando si utilizzano circa 100-200 modelli frequenti. Tuttavia, anche nelle opere autografe compaiono falsi negativi, il che significa che il metodo deve essere interpretato con cautela.
-      de: Der Artikel bewertet die Fähigkeit der rhythmischen Stilometrie, Stücke von Lope de Vega durch akzentuierte Versmuster und Modelle des maschinellen Lernens von nicht-lopeschen Werken zu unterscheiden. Die Ergebnisse erreichen F1-Werte nahe 0,95, wenn etwa 100–200 häufige Muster verwendet werden. Allerdings kommt es selbst bei autographen Werken zu Falschnegativen, weshalb die Methode mit Vorsicht zu interpretieren ist.
-      zh: 本文评估了节奏文体测量法通过诗句重音模式和机器学习模型区分洛普·德·维加戏剧和非洛普作品的能力。当使用大约 100-200 个频繁模式时，结果达到接近 0.95 的 F1 分数。然而，即使在亲笔签名作品中，也会出现假阴性，这意味着必须谨慎解释该方法。
-      ja: この記事では、詩のアクセントパターンと機械学習モデルを通じて、ロペ・デ・ベガの戯曲と非ロペの作品を区別するリズミカル・スタイロメトリーの能力を評価しています。約 100 ～ 200 個の頻度の高いパターンを使用すると、結果は 0.95 に近い F1 スコアに達します。ただし、サイン作品であっても偽陰性が発生するため、この方法は注意して解釈する必要があります。
-      ko: 이 기사에서는 운문 악센트 패턴과 기계 학습 모델을 통해 Lope de Vega의 희곡과 비 Lopean 작품을 구별하는 리듬 스타일로메트리의 능력을 평가합니다. 약 100~200개의 빈번한 패턴을 사용하면 결과는 0.95에 가까운 F1 점수에 도달합니다. 그러나 사인 작업에서도 위음성이 나타나므로 주의해서 해석해야 합니다.
-      ru: В статье оценивается способность ритмической стилометрии отличать пьесы Лопе де Вега от нелопеанских произведений с помощью стиховых акцентных моделей и моделей машинного обучения. Результаты достигают оценки F1, близкой к 0,95 при использовании примерно 100–200 частых шаблонов. Однако ложноотрицательные результаты появляются даже в автографических произведениях, а это значит, что к методу следует относиться с осторожностью.
-      ar: يقيم المقال قدرة قياس الأسلوب الإيقاعي على التمييز بين مسرحيات Lope de Vega والأعمال غير اللوبية من خلال أنماط نبرة الشعر ونماذج التعلم الآلي. تصل النتائج إلى درجات F1 تقترب من 0.95 عند استخدام حوالي 100-200 نمط متكرر. ومع ذلك، تظهر السلبيات الكاذبة، حتى في أعمال التوقيع، مما يعني أنه يجب تفسير الطريقة بحذر.
-    cited_by:
   - id: "stylo100"
     type: "incollection"
     title: "Stylometry and Spanish Golden Age Theatre. An Evaluation of Authorship Attribution in a Control Group of One Hundred Undisputed Plays"
@@ -1753,6 +1754,8 @@ publications:
       ru: Стилометрический протокол применяется для различения оригинала и переделки в пьесе «El mejor amigo, el muerto», переданной в двух версиях. Анализ показывает, что рукописная версия, приписываемая Бельмонте, Рохасу и Кальдерону, соответствует оригинальному тексту и что вторая хорнада была написана Франсиско де Рохасом Соррильей.
       ar: تم تطبيق بروتوكول قياس الأسلوب للتمييز بين الأصل وإعادة الصياغة في El mejor amigo, el muerto، وهي مسرحية منقولة في نسختين. يشير التحليل إلى أن نسخة المخطوطة المنسوبة إلى بلمونت وروجاس وكالديرون تتوافق مع النص الأصلي، وأن الجورنادا الثاني كتبه فرانسيسكو دي روخاس زوريلا.
     cited_by:
+
+      - "Alviti, Roberta. “Un singular caso de amistad: El mejor amigo, el muerto.” En Ir y quedarse y con quedar partirse: relaciones literarias entrañables: ensayos dedicados a Stefano Arata. Madrid: Visor Libros, 2026, pp. 13–56. (Biblioteca filológica hispana, 316). ISBN 979-13-87745-16-5."
 
       - "González Cañal, Rafael; María Luisa Lobato; y Almudena García González. El teatro áureo en colaboración. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 136–144. ISSN-e 1540-5877."
 
