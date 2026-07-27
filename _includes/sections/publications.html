@@ -31,30 +31,77 @@
           <div>
             <span class="citations-timeline-kicker">2018—2026</span>
             <h3 id="citations-timeline-title">
-              {% if lang == 'es' %}Citas por año{% else %}Citations by year{% endif %}
+              {% if lang == 'es' %}Evolución acumulada de las citas{% else %}Cumulative citation growth{% endif %}
             </h3>
           </div>
-          <div class="citations-timeline-peak">
-            <span class="citations-timeline-peak-value">198</span>
-            <span>{% if lang == 'es' %}máximo anual · 2024{% else %}annual peak · 2024{% endif %}</span>
+          <div class="citations-timeline-total">
+            <span class="citations-timeline-total-value">{{ total_citations }}</span>
+            <span>{% if lang == 'es' %}citas totales{% else %}total citations{% endif %}</span>
           </div>
         </figcaption>
 
-        <div class="citations-chart" role="img" aria-label="{% if lang == 'es' %}Evolución anual de las citas entre 2018 y 2026{% else %}Annual citation trend from 2018 to 2026{% endif %}">
-          <div class="citations-chart-grid" aria-hidden="true">
-            <span></span><span></span><span></span><span></span>
-          </div>
-          <div class="citations-bars">
-            {% assign citation_years = "2018|1|0.5,2019|8|4,2020|11|5.6,2021|45|22.7,2022|46|23.2,2023|123|62.1,2024|198|100,2025|146|73.7,2026*|61|30.8" | split: "," %}
-            {% for citation_year in citation_years %}
-              {% assign citation_data = citation_year | split: "|" %}
-              <div class="citation-bar-column" aria-label="{{ citation_data[0] }}: {{ citation_data[1] }}">
-                <span class="citation-bar-value">{{ citation_data[1] }}</span>
-                <span class="citation-bar{% if citation_data[0] == '2024' %} citation-bar-peak{% endif %}{% if citation_data[0] == '2026*' %} citation-bar-current{% endif %}" style="--bar-height: {{ citation_data[2] }}%;"></span>
-                <span class="citation-bar-year">{{ citation_data[0] }}</span>
-              </div>
-            {% endfor %}
-          </div>
+        <div class="citations-chart">
+          <svg class="citations-line-svg" viewBox="0 0 900 320" role="group" aria-label="{% if lang == 'es' %}Las citas acumuladas crecen de 1 en 2018 a 639 en 2026. Cada punto muestra las citas recibidas ese año.{% else %}Cumulative citations grow from 1 in 2018 to 639 in 2026. Each point shows citations received that year.{% endif %}">
+            <defs>
+              <linearGradient id="citations-area-gradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" class="citations-area-stop citations-area-stop-top"></stop>
+                <stop offset="100%" class="citations-area-stop citations-area-stop-bottom"></stop>
+              </linearGradient>
+            </defs>
+
+            <g class="citations-grid">
+              <line x1="50" y1="40" x2="850" y2="40"></line>
+              <line x1="50" y1="117" x2="850" y2="117"></line>
+              <line x1="50" y1="193" x2="850" y2="193"></line>
+              <line x1="50" y1="270" x2="850" y2="270"></line>
+            </g>
+
+            <path class="citations-area" d="M50 270 L150 267 L250 263 L350 247 L450 230 L550 186 L650 115 L750 62 L850 40 L850 270 L50 270 Z"></path>
+            <path class="citations-line" pathLength="1" d="M50 270 L150 267 L250 263 L350 247 L450 230 L550 186 L650 115 L750 62 L850 40"></path>
+
+            <g class="citation-point" tabindex="0" transform="translate(50 270)" aria-label="2018: 1 {% if lang == 'es' %}cita{% else %}citation{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip citation-tooltip-start"><rect x="-4" y="-50" width="112" height="34" rx="9"></rect><text x="52" y="-28">2018 · 1 {% if lang == 'es' %}cita{% else %}citation{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(150 267)" aria-label="2019: 8 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-60" y="-50" width="120" height="34" rx="9"></rect><text x="0" y="-28">2019 · 8 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(250 263)" aria-label="2020: 11 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-64" y="-50" width="128" height="34" rx="9"></rect><text x="0" y="-28">2020 · 11 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(350 247)" aria-label="2021: 45 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-64" y="-50" width="128" height="34" rx="9"></rect><text x="0" y="-28">2021 · 45 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(450 230)" aria-label="2022: 46 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-64" y="-50" width="128" height="34" rx="9"></rect><text x="0" y="-28">2022 · 46 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(550 186)" aria-label="2023: 123 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-68" y="-50" width="136" height="34" rx="9"></rect><text x="0" y="-28">2023 · 123 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(650 115)" aria-label="2024: 198 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-68" y="-50" width="136" height="34" rx="9"></rect><text x="0" y="-28">2024 · 198 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point" tabindex="0" transform="translate(750 62)" aria-label="2025: 146 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="7"></circle>
+              <g class="citation-tooltip"><rect x="-68" y="-50" width="136" height="34" rx="9"></rect><text x="0" y="-28">2025 · 146 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+            <g class="citation-point citation-point-current" tabindex="0" transform="translate(850 40)" aria-label="2026: 61 {% if lang == 'es' %}citas{% else %}citations{% endif %}">
+              <circle r="8"></circle>
+              <g class="citation-tooltip citation-tooltip-end"><rect x="-128" y="14" width="128" height="34" rx="9"></rect><text x="-64" y="36">2026 · 61 {% if lang == 'es' %}citas{% else %}citations{% endif %}</text></g>
+            </g>
+
+            <g class="citations-years">
+              <text x="50" y="304">2018</text><text x="150" y="304">2019</text><text x="250" y="304">2020</text>
+              <text x="350" y="304">2021</text><text x="450" y="304">2022</text><text x="550" y="304">2023</text>
+              <text x="650" y="304">2024</text><text x="750" y="304">2025</text><text x="850" y="304">2026*</text>
+            </g>
+          </svg>
         </div>
 
         <p class="citations-timeline-note">
