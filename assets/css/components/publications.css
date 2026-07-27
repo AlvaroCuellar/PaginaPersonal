@@ -134,35 +134,39 @@
     outline: none;
 }
 
-.citation-point > circle {
+.citation-hit-area {
+    fill: transparent;
+    stroke: none;
+    pointer-events: all;
+}
+
+.citation-point > circle:not(.citation-hit-area) {
     fill: var(--bg-primary);
     stroke: var(--primary-color);
     stroke-width: 5;
-    transform-origin: center;
-    transition: transform 180ms ease, fill 180ms ease;
+    pointer-events: none;
+    transition: fill 140ms ease, stroke-width 140ms ease;
 }
 
-.citation-point:hover > circle,
-.citation-point:focus > circle {
+.citation-point:hover > circle:not(.citation-hit-area),
+.citation-point:focus > circle:not(.citation-hit-area) {
     fill: var(--accent-color);
-    transform: scale(1.35);
+    stroke-width: 6;
 }
 
-.citation-point-current > circle {
+.citation-point-current > circle:not(.citation-hit-area) {
     fill: var(--accent-color);
 }
 
 .citation-tooltip {
     opacity: 0;
     pointer-events: none;
-    transform: translateY(5px);
-    transition: opacity 160ms ease, transform 160ms ease;
+    transition: opacity 120ms ease;
 }
 
 .citation-point:hover .citation-tooltip,
 .citation-point:focus .citation-tooltip {
     opacity: 1;
-    transform: translateY(0);
 }
 
 .citation-tooltip rect {
