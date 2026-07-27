@@ -104,6 +104,14 @@
     stroke-dasharray: 5 7;
 }
 
+.citations-y-axis text {
+    fill: var(--text-secondary);
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    text-anchor: end;
+}
+
 .citations-area-stop-top {
     stop-color: var(--primary-color);
     stop-opacity: 0.22;
@@ -177,9 +185,14 @@
 .citation-tooltip text {
     fill: var(--color-white);
     font-family: var(--font-family-body);
-    font-size: 13px;
-    font-weight: var(--font-semibold);
+    font-size: 12px;
+    font-weight: var(--font-normal);
     text-anchor: middle;
+}
+
+.citation-tooltip .citation-tooltip-year {
+    font-size: 13px;
+    font-weight: var(--font-bold);
 }
 
 .citations-years text {
