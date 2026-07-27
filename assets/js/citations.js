@@ -19,6 +19,29 @@ function toggleCitationOverlay(overlayId) {
     }
 }
 
+/**
+ * En móvil, abre la gráfica por el extremo más reciente.
+ */
+function scrollCitationChartToPresent() {
+    if (!window.matchMedia('(max-width: 640px)').matches) {
+        return;
+    }
+
+    window.requestAnimationFrame(function() {
+        document.querySelectorAll('.citations-chart').forEach(function(chart) {
+            chart.scrollLeft = chart.scrollWidth;
+        });
+    });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scrollCitationChartToPresent);
+} else {
+    scrollCitationChartToPresent();
+}
+
+window.addEventListener('pageshow', scrollCitationChartToPresent);
+
 // Cerrar overlay al hacer clic fuera del contenido
 document.addEventListener('click', function(event) {
     if (event.target.classList.contains('citation-overlay')) {
