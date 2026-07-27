@@ -15,14 +15,196 @@
 }
 
 .total-citations .total-citations-number {
-    font-size: var(--text-l);
+    font-size: var(--text-lg);
     font-weight: var(--font-bold);
     line-height: 1;
 }
 
 .total-citations .total-citations-label {
     font-size: var(--text-sm);
-    font-weight: var(--font-regular);
+    font-weight: var(--font-normal);
     opacity: 0.95;
     text-transform: lowercase;
+}
+
+/* Evolución anual de citas */
+.citations-timeline {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 var(--spacing-xl);
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+    border: 1px solid color-mix(in srgb, var(--primary-color) 16%, transparent);
+    border-radius: 1.25rem;
+    background:
+        radial-gradient(circle at 92% 8%, color-mix(in srgb, var(--primary-color) 10%, transparent), transparent 34%),
+        color-mix(in srgb, var(--bg-primary) 96%, var(--primary-color) 4%);
+    box-shadow: 0 1.25rem 3rem color-mix(in srgb, var(--primary-color) 8%, transparent);
+}
+
+.citations-timeline-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+}
+
+.citations-timeline-kicker {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--primary-color);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    letter-spacing: 0.13em;
+}
+
+.citations-timeline h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: clamp(1.25rem, 2.4vw, 1.8rem);
+    line-height: 1.15;
+}
+
+.citations-timeline-peak {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--text-primary);
+    font-size: var(--text-xs);
+    line-height: 1.35;
+    opacity: 0.85;
+}
+
+.citations-timeline-peak-value {
+    color: var(--primary-color);
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: var(--font-bold);
+    line-height: 1;
+    opacity: 1;
+}
+
+.citations-chart {
+    position: relative;
+    height: clamp(15rem, 32vw, 21rem);
+    padding-top: 2.25rem;
+}
+
+.citations-chart-grid {
+    position: absolute;
+    inset: 2.25rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.citations-chart-grid span {
+    display: block;
+    border-top: 1px dashed color-mix(in srgb, var(--text-primary) 14%, transparent);
+}
+
+.citations-bars {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(9, minmax(1.5rem, 1fr));
+    align-items: end;
+    gap: clamp(0.35rem, 1.6vw, 1rem);
+    height: 100%;
+}
+
+.citation-bar-column {
+    display: grid;
+    grid-template-rows: 1.75rem 1fr 1.4rem;
+    align-items: end;
+    height: 100%;
+    min-width: 0;
+    text-align: center;
+}
+
+.citation-bar-value {
+    align-self: center;
+    color: var(--text-primary);
+    font-size: clamp(0.65rem, 1.4vw, var(--text-xs));
+    font-variant-numeric: tabular-nums;
+    font-weight: var(--font-bold);
+    opacity: 0.8;
+}
+
+.citation-bar {
+    display: block;
+    width: min(100%, 3.25rem);
+    height: max(0.35rem, var(--bar-height));
+    margin: 0 auto;
+    border-radius: 0.55rem 0.55rem 0.18rem 0.18rem;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--primary-color) 78%, white), var(--primary-color));
+    box-shadow: 0 0.5rem 1.25rem color-mix(in srgb, var(--primary-color) 18%, transparent);
+    transform-origin: bottom;
+    animation: citation-bar-rise 750ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+
+.citation-bar-peak {
+    background: linear-gradient(180deg, color-mix(in srgb, var(--primary-color) 62%, white), var(--primary-color));
+    box-shadow: 0 0.65rem 1.6rem color-mix(in srgb, var(--primary-color) 30%, transparent);
+}
+
+.citation-bar-current {
+    opacity: 0.62;
+}
+
+.citation-bar-year {
+    align-self: end;
+    padding-top: 0.45rem;
+    color: var(--text-primary);
+    font-size: clamp(0.62rem, 1.25vw, var(--text-xs));
+    font-variant-numeric: tabular-nums;
+    opacity: 0.72;
+}
+
+.citations-timeline-note {
+    margin: 0.85rem 0 0;
+    color: var(--text-primary);
+    font-size: var(--text-xs);
+    opacity: 0.65;
+}
+
+@keyframes citation-bar-rise {
+    from {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .citations-timeline {
+        padding: 1.15rem 0.9rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .citations-timeline-header {
+        align-items: flex-end;
+    }
+
+    .citations-timeline-peak {
+        max-width: 7rem;
+        text-align: right;
+    }
+
+    .citations-chart {
+        height: 14rem;
+    }
+
+    .citations-bars {
+        gap: 0.25rem;
+    }
+
+    .citation-bar {
+        border-radius: 0.35rem 0.35rem 0.12rem 0.12rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .citation-bar {
+        animation: none;
+    }
 }
