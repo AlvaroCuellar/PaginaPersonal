@@ -25,6 +25,44 @@
         {% endif %}
       </div>
 
+      {% if total_citations > 0 %}
+      <figure class="citations-timeline" aria-labelledby="citations-timeline-title">
+        <figcaption class="citations-timeline-header">
+          <div>
+            <span class="citations-timeline-kicker">2018—2026</span>
+            <h3 id="citations-timeline-title">
+              {% if lang == 'es' %}Citas por año{% else %}Citations by year{% endif %}
+            </h3>
+          </div>
+          <div class="citations-timeline-peak">
+            <span class="citations-timeline-peak-value">198</span>
+            <span>{% if lang == 'es' %}máximo anual · 2024{% else %}annual peak · 2024{% endif %}</span>
+          </div>
+        </figcaption>
+
+        <div class="citations-chart" role="img" aria-label="{% if lang == 'es' %}Evolución anual de las citas entre 2018 y 2026{% else %}Annual citation trend from 2018 to 2026{% endif %}">
+          <div class="citations-chart-grid" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="citations-bars">
+            {% assign citation_years = "2018|1|0.5,2019|8|4,2020|11|5.6,2021|45|22.7,2022|46|23.2,2023|123|62.1,2024|198|100,2025|146|73.7,2026*|61|30.8" | split: "," %}
+            {% for citation_year in citation_years %}
+              {% assign citation_data = citation_year | split: "|" %}
+              <div class="citation-bar-column" aria-label="{{ citation_data[0] }}: {{ citation_data[1] }}">
+                <span class="citation-bar-value">{{ citation_data[1] }}</span>
+                <span class="citation-bar{% if citation_data[0] == '2024' %} citation-bar-peak{% endif %}{% if citation_data[0] == '2026*' %} citation-bar-current{% endif %}" style="--bar-height: {{ citation_data[2] }}%;"></span>
+                <span class="citation-bar-year">{{ citation_data[0] }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <p class="citations-timeline-note">
+          * {% if lang == 'es' %}2026 en curso. Total: {{ total_citations }} citas registradas.{% else %}2026 in progress. Total: {{ total_citations }} recorded citations.{% endif %}
+        </p>
+      </figure>
+      {% endif %}
+
       <!-- Featured Publications Carousel -->
       <div class="featured-carousel-container">
         <h3 class="subsection-title">{{ site.data.i18n[lang].featured_publications_title | default: "Publicaciones destacadas" }}</h3>
