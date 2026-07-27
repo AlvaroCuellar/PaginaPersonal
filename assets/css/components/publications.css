@@ -65,7 +65,7 @@
     line-height: 1.15;
 }
 
-.citations-timeline-peak {
+.citations-timeline-total {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -75,7 +75,7 @@
     opacity: 0.85;
 }
 
-.citations-timeline-peak-value {
+.citations-timeline-total-value {
     color: var(--primary-color);
     font-size: clamp(1.4rem, 3vw, 2rem);
     font-weight: var(--font-bold);
@@ -85,80 +85,105 @@
 
 .citations-chart {
     position: relative;
-    height: clamp(15rem, 32vw, 21rem);
-    padding-top: 2.25rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--primary-color) 35%, transparent) transparent;
 }
 
-.citations-chart-grid {
-    position: absolute;
-    inset: 2.25rem 0 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.citations-line-svg {
+    display: block;
+    width: 100%;
+    min-width: 620px;
+    height: auto;
+    overflow: visible;
+}
+
+.citations-grid line {
+    stroke: color-mix(in srgb, var(--text-primary) 13%, transparent);
+    stroke-width: 1;
+    stroke-dasharray: 5 7;
+}
+
+.citations-area-stop-top {
+    stop-color: var(--primary-color);
+    stop-opacity: 0.22;
+}
+
+.citations-area-stop-bottom {
+    stop-color: var(--primary-color);
+    stop-opacity: 0.01;
+}
+
+.citations-area {
+    fill: url("#citations-area-gradient");
+}
+
+.citations-line {
+    fill: none;
+    stroke: var(--primary-color);
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: citation-line-draw 1.15s cubic-bezier(0.2, 0.75, 0.25, 1) forwards;
+}
+
+.citation-point {
+    cursor: help;
+    outline: none;
+}
+
+.citation-point > circle {
+    fill: var(--bg-primary);
+    stroke: var(--primary-color);
+    stroke-width: 5;
+    transform-origin: center;
+    transition: transform 180ms ease, fill 180ms ease;
+}
+
+.citation-point:hover > circle,
+.citation-point:focus > circle {
+    fill: var(--accent-color);
+    transform: scale(1.35);
+}
+
+.citation-point-current > circle {
+    fill: var(--accent-color);
+}
+
+.citation-tooltip {
+    opacity: 0;
     pointer-events: none;
+    transform: translateY(5px);
+    transition: opacity 160ms ease, transform 160ms ease;
 }
 
-.citations-chart-grid span {
-    display: block;
-    border-top: 1px dashed color-mix(in srgb, var(--text-primary) 14%, transparent);
+.citation-point:hover .citation-tooltip,
+.citation-point:focus .citation-tooltip {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.citations-bars {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(9, minmax(1.5rem, 1fr));
-    align-items: end;
-    gap: clamp(0.35rem, 1.6vw, 1rem);
-    height: 100%;
+.citation-tooltip rect {
+    fill: var(--dark-primary);
+    filter: drop-shadow(0 7px 12px rgba(17, 17, 17, 0.18));
 }
 
-.citation-bar-column {
-    display: grid;
-    grid-template-rows: 1.75rem 1fr 1.4rem;
-    align-items: end;
-    height: 100%;
-    min-width: 0;
-    text-align: center;
+.citation-tooltip text {
+    fill: var(--color-white);
+    font-family: var(--font-family-body);
+    font-size: 13px;
+    font-weight: var(--font-semibold);
+    text-anchor: middle;
 }
 
-.citation-bar-value {
-    align-self: center;
-    color: var(--text-primary);
-    font-size: clamp(0.65rem, 1.4vw, var(--text-xs));
+.citations-years text {
+    fill: var(--text-secondary);
+    font-family: var(--font-family-body);
+    font-size: 14px;
     font-variant-numeric: tabular-nums;
-    font-weight: var(--font-bold);
-    opacity: 0.8;
-}
-
-.citation-bar {
-    display: block;
-    width: min(100%, 3.25rem);
-    height: max(0.35rem, var(--bar-height));
-    margin: 0 auto;
-    border-radius: 0.55rem 0.55rem 0.18rem 0.18rem;
-    background: linear-gradient(180deg, color-mix(in srgb, var(--primary-color) 78%, white), var(--primary-color));
-    box-shadow: 0 0.5rem 1.25rem color-mix(in srgb, var(--primary-color) 18%, transparent);
-    transform-origin: bottom;
-    animation: citation-bar-rise 750ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
-}
-
-.citation-bar-peak {
-    background: linear-gradient(180deg, color-mix(in srgb, var(--primary-color) 62%, white), var(--primary-color));
-    box-shadow: 0 0.65rem 1.6rem color-mix(in srgb, var(--primary-color) 30%, transparent);
-}
-
-.citation-bar-current {
-    opacity: 0.62;
-}
-
-.citation-bar-year {
-    align-self: end;
-    padding-top: 0.45rem;
-    color: var(--text-primary);
-    font-size: clamp(0.62rem, 1.25vw, var(--text-xs));
-    font-variant-numeric: tabular-nums;
-    opacity: 0.72;
+    text-anchor: middle;
 }
 
 .citations-timeline-note {
@@ -168,11 +193,8 @@
     opacity: 0.65;
 }
 
-@keyframes citation-bar-rise {
-    from {
-        opacity: 0;
-        transform: scaleY(0);
-    }
+@keyframes citation-line-draw {
+    to { stroke-dashoffset: 0; }
 }
 
 @media (max-width: 640px) {
@@ -185,26 +207,19 @@
         align-items: flex-end;
     }
 
-    .citations-timeline-peak {
+    .citations-timeline-total {
         max-width: 7rem;
         text-align: right;
     }
 
-    .citations-chart {
-        height: 14rem;
-    }
-
-    .citations-bars {
-        gap: 0.25rem;
-    }
-
-    .citation-bar {
-        border-radius: 0.35rem 0.35rem 0.12rem 0.12rem;
+    .citations-line-svg {
+        min-width: 590px;
     }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .citation-bar {
+    .citations-line {
         animation: none;
+        stroke-dashoffset: 0;
     }
 }
