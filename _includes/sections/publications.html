@@ -10,12 +10,7 @@
           {{ site.data.home.publications.section_title[lang] }}
           <span class="section-count">{{ site.data.home.publications.publications.size }}</span>
         </h2>
-        {% assign total_citations = 0 %}
-        {% for pub in site.data.home.publications.publications %}
-          {% if pub.cited_by and pub.cited_by.size > 0 %}
-            {% assign total_citations = total_citations | plus: pub.cited_by.size %}
-          {% endif %}
-        {% endfor %}
+        {% assign total_citations = site.data.home.publications.citation_total %}
         {% if total_citations > 0 %}
         <div class="total-citations">
           <i class="fa fa-quote-left"></i>
@@ -26,14 +21,13 @@
       </div>
 
       {% if total_citations > 0 %}
-      {% assign citations_through_2025 = 579 %}
-      {% assign citations_2026 = total_citations | minus: citations_through_2025 %}
-      {% assign current_point_offset = total_citations | times: 210 | divided_by: 639 %}
-      {% assign current_point_y = 270 | minus: current_point_offset %}
+      {% assign citation_timeline = site.data.home.publications.citation_timeline %}
+      {% assign first_citation_point = citation_timeline | first %}
+      {% assign last_citation_point = citation_timeline | last %}
       <figure class="citations-timeline" aria-labelledby="citations-timeline-title">
         <figcaption class="citations-timeline-header">
           <div>
-            <span class="citations-timeline-kicker">2018—2026</span>
+            <span class="citations-timeline-kicker">{{ first_citation_point.year }}—{{ last_citation_point.year }}</span>
             <h3 id="citations-timeline-title">
               {% if lang == 'es' %}Evolución de las citas{% else %}Citation growth{% endif %}
             </h3>
@@ -45,7 +39,7 @@
         </figcaption>
 
         <div class="citations-chart">
-          <svg class="citations-line-svg" viewBox="0 0 900 320" role="group" aria-label="{% if lang == 'es' %}Las citas acumuladas crecen de 1 en 2018 a {{ total_citations }} en 2026. Cada punto muestra las citas recibidas ese año.{% else %}Cumulative citations grow from 1 in 2018 to {{ total_citations }} in 2026. Each point shows citations received that year.{% endif %}">
+          <svg class="citations-line-svg" viewBox="0 0 900 320" role="group" aria-label="{% if lang == 'es' %}Las citas acumuladas crecen de {{ first_citation_point.cumulative }} en {{ first_citation_point.year }} a {{ last_citation_point.cumulative }} en {{ last_citation_point.year }}. Cada punto muestra las citas recibidas ese año.{% else %}Cumulative citations grow from {{ first_citation_point.cumulative }} in {{ first_citation_point.year }} to {{ last_citation_point.cumulative }} in {{ last_citation_point.year }}. Each point shows citations received that year.{% endif %}">
             <defs>
               <linearGradient id="citations-area-gradient" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" class="citations-area-stop citations-area-stop-top"></stop>
@@ -54,72 +48,38 @@
             </defs>
 
             <g class="citations-grid">
-              <line x1="50" y1="73" x2="850" y2="73"></line>
-              <line x1="50" y1="139" x2="850" y2="139"></line>
-              <line x1="50" y1="204" x2="850" y2="204"></line>
-              <line x1="50" y1="270" x2="850" y2="270"></line>
+              {% for grid_line in site.data.home.publications.citation_chart_grid %}
+              <line x1="50" y1="{{ grid_line.y }}" x2="850" y2="{{ grid_line.y }}"></line>
+              {% endfor %}
             </g>
 
             <g class="citations-y-axis">
-              <text x="38" y="77">600</text>
-              <text x="38" y="143">400</text>
-              <text x="38" y="208">200</text>
-              <text x="38" y="274">0</text>
+              {% for grid_line in site.data.home.publications.citation_chart_grid %}
+              <text x="38" y="{{ grid_line.label_y }}">{{ grid_line.value }}</text>
+              {% endfor %}
             </g>
 
-            <path class="citations-area" d="M50 270 L150 267 L250 263 L350 249 L450 234 L550 193 L650 128 L750 80 L850 {{ current_point_y }} L850 270 L50 270 Z"></path>
-            <path class="citations-line" pathLength="1" d="M50 270 L150 267 L250 263 L350 249 L450 234 L550 193 L650 128 L750 80 L850 {{ current_point_y }}"></path>
+            <path class="citations-area" d="{{ site.data.home.publications.citation_chart_area_path }}"></path>
+            <path class="citations-line" pathLength="1" d="{{ site.data.home.publications.citation_chart_line_path }}"></path>
 
-            <g class="citation-point" tabindex="0" transform="translate(50 270)" aria-label="2018: 1 {% if lang == 'es' %}cita ese año, 1 acumulada{% else %}citation that year, 1 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip citation-tooltip-start"><rect x="-4" y="-67" width="198" height="51" rx="10"></rect><text x="95" y="-47"><tspan class="citation-tooltip-year">2018</tspan><tspan x="95" dy="17">1 {% if lang == 'es' %}ese año · 1 acumulada{% else %}that year · 1 cumulative{% endif %}</tspan></text></g>
+            {% for point in citation_timeline %}
+            <g class="citation-point{% if point.last %} citation-point-current{% endif %}" tabindex="0" transform="translate({{ point.x }} {{ point.y }})" aria-label="{{ point.year }}: {{ point.count }} {% if lang == 'es' %}{% if point.count == 1 %}cita{% else %}citas{% endif %} ese año, {{ point.cumulative }} {% if point.cumulative == 1 %}acumulada{% else %}acumuladas{% endif %}{% else %}{% if point.count == 1 %}citation{% else %}citations{% endif %} that year, {{ point.cumulative }} cumulative{% endif %}">
+              <circle class="citation-hit-area" r="{% if point.last %}20{% else %}19{% endif %}"></circle>
+              <circle r="{% if point.last %}8{% else %}7{% endif %}"></circle>
+              {% if point.first %}
+              <g class="citation-tooltip citation-tooltip-start"><rect x="-4" y="-67" width="224" height="51" rx="10"></rect><text x="108" y="-47"><tspan class="citation-tooltip-year">{{ point.year }}</tspan><tspan x="108" dy="17">{{ point.count }} {% if lang == 'es' %}ese año · {{ point.cumulative }} {% if point.cumulative == 1 %}acumulada{% else %}acumuladas{% endif %}{% else %}that year · {{ point.cumulative }} cumulative{% endif %}</tspan></text></g>
+              {% elsif point.last %}
+              <g class="citation-tooltip citation-tooltip-end"><rect x="-224" y="14" width="224" height="51" rx="10"></rect><text x="-112" y="34"><tspan class="citation-tooltip-year">{{ point.year }}</tspan><tspan x="-112" dy="17">{{ point.count }} {% if lang == 'es' %}ese año · {{ point.cumulative }} acumuladas{% else %}that year · {{ point.cumulative }} cumulative{% endif %}</tspan></text></g>
+              {% elsif point.tooltip_below %}
+              <g class="citation-tooltip citation-tooltip-top"><rect x="-112" y="15" width="224" height="51" rx="10"></rect><text x="0" y="35"><tspan class="citation-tooltip-year">{{ point.year }}</tspan><tspan x="0" dy="17">{{ point.count }} {% if lang == 'es' %}ese año · {{ point.cumulative }} acumuladas{% else %}that year · {{ point.cumulative }} cumulative{% endif %}</tspan></text></g>
+              {% else %}
+              <g class="citation-tooltip"><rect x="-112" y="-67" width="224" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">{{ point.year }}</tspan><tspan x="0" dy="17">{{ point.count }} {% if lang == 'es' %}ese año · {{ point.cumulative }} acumuladas{% else %}that year · {{ point.cumulative }} cumulative{% endif %}</tspan></text></g>
+              {% endif %}
             </g>
-            <g class="citation-point" tabindex="0" transform="translate(150 267)" aria-label="2019: 8 {% if lang == 'es' %}citas ese año, 9 acumuladas{% else %}citations that year, 9 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-99" y="-67" width="198" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2019</tspan><tspan x="0" dy="17">8 {% if lang == 'es' %}ese año · 9 acumuladas{% else %}that year · 9 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(250 263)" aria-label="2020: 11 {% if lang == 'es' %}citas ese año, 20 acumuladas{% else %}citations that year, 20 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-103" y="-67" width="206" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2020</tspan><tspan x="0" dy="17">11 {% if lang == 'es' %}ese año · 20 acumuladas{% else %}that year · 20 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(350 249)" aria-label="2021: 45 {% if lang == 'es' %}citas ese año, 65 acumuladas{% else %}citations that year, 65 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-103" y="-67" width="206" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2021</tspan><tspan x="0" dy="17">45 {% if lang == 'es' %}ese año · 65 acumuladas{% else %}that year · 65 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(450 234)" aria-label="2022: 46 {% if lang == 'es' %}citas ese año, 111 acumuladas{% else %}citations that year, 111 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-107" y="-67" width="214" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2022</tspan><tspan x="0" dy="17">46 {% if lang == 'es' %}ese año · 111 acumuladas{% else %}that year · 111 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(550 193)" aria-label="2023: 123 {% if lang == 'es' %}citas ese año, 234 acumuladas{% else %}citations that year, 234 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-111" y="-67" width="222" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2023</tspan><tspan x="0" dy="17">123 {% if lang == 'es' %}ese año · 234 acumuladas{% else %}that year · 234 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(650 128)" aria-label="2024: 199 {% if lang == 'es' %}citas ese año, 433 acumuladas{% else %}citations that year, 433 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip"><rect x="-111" y="-67" width="222" height="51" rx="10"></rect><text x="0" y="-47"><tspan class="citation-tooltip-year">2024</tspan><tspan x="0" dy="17">199 {% if lang == 'es' %}ese año · 433 acumuladas{% else %}that year · 433 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point" tabindex="0" transform="translate(750 80)" aria-label="2025: 146 {% if lang == 'es' %}citas ese año, 579 acumuladas{% else %}citations that year, 579 cumulative{% endif %}">
-              <circle class="citation-hit-area" r="19"></circle>
-              <circle r="7"></circle>
-              <g class="citation-tooltip citation-tooltip-top"><rect x="-111" y="15" width="222" height="51" rx="10"></rect><text x="0" y="35"><tspan class="citation-tooltip-year">2025</tspan><tspan x="0" dy="17">146 {% if lang == 'es' %}ese año · 579 acumuladas{% else %}that year · 579 cumulative{% endif %}</tspan></text></g>
-            </g>
-            <g class="citation-point citation-point-current" tabindex="0" transform="translate(850 {{ current_point_y }})" aria-label="2026: {{ citations_2026 }} {% if lang == 'es' %}citas ese año, {{ total_citations }} acumuladas{% else %}citations that year, {{ total_citations }} cumulative{% endif %}">
-              <circle class="citation-hit-area" r="20"></circle>
-              <circle r="8"></circle>
-              <g class="citation-tooltip citation-tooltip-end"><rect x="-214" y="14" width="214" height="51" rx="10"></rect><text x="-107" y="34"><tspan class="citation-tooltip-year">2026</tspan><tspan x="-107" dy="17">{{ citations_2026 }} {% if lang == 'es' %}ese año · {{ total_citations }} acumuladas{% else %}that year · {{ total_citations }} cumulative{% endif %}</tspan></text></g>
-            </g>
+            {% endfor %}
 
             <g class="citations-years">
-              <text x="50" y="304">2018</text><text x="150" y="304">2019</text><text x="250" y="304">2020</text>
-              <text x="350" y="304">2021</text><text x="450" y="304">2022</text><text x="550" y="304">2023</text>
-            <text x="650" y="304">2024</text><text x="750" y="304">2025</text><text x="850" y="304">2026</text>
+              {% for point in citation_timeline %}<text x="{{ point.x }}" y="304">{{ point.year }}</text>{% endfor %}
             </g>
           </svg>
         </div>
