@@ -38,6 +38,7 @@ SELF_AUTHOR_PATTERNS = (
 
 def normalize(value: Any) -> str:
     text = "" if value is None else str(value)
+    text = re.sub(r"<[^>]+>", "", text)
     text = unicodedata.normalize("NFKD", text)
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
     return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()

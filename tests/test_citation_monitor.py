@@ -15,6 +15,19 @@ SPEC.loader.exec_module(MONITOR)
 
 
 class CitationMonitorApplyTests(unittest.TestCase):
+    def test_existing_title_matches_openalex_html_variant(self):
+        existing = [
+            "Marco Remón, Guillermo, and Pablo Núñez Díaz. “Atribución de "
+            "autoría de traducciones mediante análisis estilométricos: Los Cantos "
+            "de Leopardi por Antonio Colinas y Eloy Sánchez Rosillo.” Symposium, 2024."
+        ]
+        openalex_title = (
+            "Atribución de autoría de traducciones mediante análisis estilométricos: "
+            "los <i>Cantos</i> de Leopardi por Antonio Colinas y Eloy Sánchez Rosillo"
+        )
+
+        self.assertTrue(MONITOR.local_has_citation(existing, openalex_title))
+
     def test_citing_works_reads_every_openalex_page(self):
         pages = [
             {"results": [{"id": "first"}], "meta": {"next_cursor": "next"}},
