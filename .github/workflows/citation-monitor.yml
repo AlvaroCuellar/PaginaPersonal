@@ -6,8 +6,12 @@ on:
     - cron: "0 8 * * 1"
   workflow_dispatch:
 
+concurrency:
+  group: citation-monitor-main
+  cancel-in-progress: false
+
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -26,24 +30,35 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pyyaml
 
+      - name: Test automatic citation updates
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
       - name: Run citation monitor
         id: monitor
         shell: bash
         run: |
-          set +e
-          python scripts/find_citation_candidates.py --output citation-candidates.md
-          status=$?
-          set -e
+          python scripts/find_citation_candidates.py \
+            --apply \
+            --output citation-candidates.md
 
           cat citation-candidates.md
 
-          if grep -q "Candidatas nuevas no-autocita: 0" citation-candidates.md; then
-            echo "has_candidates=false" >> "$GITHUB_OUTPUT"
+          if git diff --quiet -- _data/home/publications.yml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_candidates=true" >> "$GITHUB_OUTPUT"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-          echo "script_status=$status" >> "$GITHUB_OUTPUT"
+      - name: Publish new citations to main
+        if: steps.monitor.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/home/publications.yml
+          git commit -m "Actualizar citas académicas automáticamente"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Upload citation report
         uses: actions/upload-artifact@v4
@@ -52,7 +67,7 @@ jobs:
           path: citation-candidates.md
 
       - name: Open or update tracking issue
-        if: steps.monitor.outputs.has_candidates == 'true'
+        if: steps.monitor.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash

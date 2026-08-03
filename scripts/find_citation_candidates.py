@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Find likely missing citation entries for publications.yml.
+"""Find and optionally add missing citation entries to publications.yml.
 
-The script is intentionally conservative: it only reports candidates. It never
-edits _data/home/publications.yml because citation matching requires review.
+Candidates come from OpenAlex's citation graph, are matched to a local work by
+title, exclude Álvaro Cuéllar's own authorship, and are deduplicated against the
+existing citation list. ``--apply`` performs a minimal text edit so the YAML's
+comments and hand-maintained formatting remain intact.
 """
 
 from __future__ import annotations
@@ -177,8 +179,17 @@ def citing_works(openalex_id: str) -> list[dict[str, Any]]:
             "id,display_name,publication_year,doi,authorships,primary_location,biblio"
         ),
         "sort": "publication_year:desc",
+        "cursor": "*",
     }
-    return openalex_query(params).get("results", [])
+    results: list[dict[str, Any]] = []
+    while True:
+        data = openalex_query(dict(params))
+        results.extend(data.get("results", []))
+        next_cursor = (data.get("meta") or {}).get("next_cursor")
+        if not next_cursor or next_cursor == params["cursor"]:
+            break
+        params["cursor"] = next_cursor
+    return results
 
 
 def load_publications(path: Path) -> list[dict[str, Any]]:
@@ -187,13 +198,97 @@ def load_publications(path: Path) -> list[dict[str, Any]]:
     return data.get("publications", [])
 
 
-def build_report(candidates: list[dict[str, Any]], checked_count: int) -> str:
+def yaml_double_quoted(value: str) -> str:
+    """Return a single-line YAML double-quoted scalar."""
+    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+    escaped = re.sub(r"\s+", " ", escaped).strip()
+    return f'"{escaped}"'
+
+
+def apply_candidates(path: Path, candidates: list[dict[str, Any]]) -> int:
+    """Insert candidates under each publication's ``cited_by`` key.
+
+    Edits are applied from the bottom of the file upwards to keep previously
+    resolved line indexes stable. The complete result is parsed before it is
+    written, so invalid YAML never replaces the source file.
+    """
+    publications = load_publications(path)
+    existing_by_id = {
+        str(publication.get("id") or ""): publication.get("cited_by") or []
+        for publication in publications
+    }
+    grouped: dict[str, list[str]] = {}
+    for item in candidates:
+        local_id = str(item.get("local_id") or "").strip()
+        citation = str(item.get("formatted") or "").strip()
+        if not local_id or not citation:
+            continue
+        normalized_existing = {
+            normalize(existing) for existing in existing_by_id.get(local_id, [])
+        }
+        if normalize(citation) in normalized_existing:
+            continue
+        citations = grouped.setdefault(local_id, [])
+        if citation not in citations:
+            citations.append(citation)
+
+    if not grouped:
+        return 0
+
+    original = path.read_text(encoding="utf-8")
+    lines = original.splitlines(keepends=True)
+    insertions: list[tuple[int, list[str]]] = []
+    id_pattern = re.compile(r"^  - id:\s*[\"']?([^\"'\s]+)[\"']?\s*$")
+
+    publication_starts: list[tuple[int, str]] = []
+    for index, line in enumerate(lines):
+        match = id_pattern.match(line.rstrip("\r\n"))
+        if match:
+            publication_starts.append((index, match.group(1)))
+
+    starts_by_id = {local_id: index for index, local_id in publication_starts}
+    for local_id, citations in grouped.items():
+        if local_id not in starts_by_id:
+            raise ValueError(f"Publication id not found in YAML: {local_id}")
+
+        block_start = starts_by_id[local_id]
+        block_end = next(
+            (index for index, _ in publication_starts if index > block_start),
+            len(lines),
+        )
+        cited_by_index = next(
+            (
+                index
+                for index in range(block_start, block_end)
+                if re.match(r"^    cited_by:\s*$", lines[index].rstrip("\r\n"))
+            ),
+            None,
+        )
+        if cited_by_index is None:
+            raise ValueError(f"cited_by key not found for publication: {local_id}")
+
+        new_lines = [f"      - {yaml_double_quoted(citation)}\n" for citation in citations]
+        insertions.append((cited_by_index + 1, new_lines))
+
+    for index, new_lines in sorted(insertions, reverse=True):
+        lines[index:index] = new_lines
+
+    updated = "".join(lines)
+    yaml.safe_load(updated)
+    path.write_text(updated, encoding="utf-8")
+    return sum(len(new_lines) for _, new_lines in insertions)
+
+
+def build_report(
+    candidates: list[dict[str, Any]], checked_count: int, applied_count: int = 0
+) -> str:
     today = dt.date.today().isoformat()
     lines = [
         f"# Citation Monitor Report ({today})",
         "",
         f"Publicaciones rastreadas: {checked_count}",
         f"Candidatas nuevas no-autocita: {len(candidates)}",
+        f"Citas añadidas automáticamente: {applied_count}",
         "",
     ]
 
@@ -202,7 +297,7 @@ def build_report(candidates: list[dict[str, Any]], checked_count: int) -> str:
             [
                 "No se han encontrado candidatas nuevas con las fuentes consultadas.",
                 "",
-                "Fuente consultada: OpenAlex. El rastreo excluye citantes con Álvaro Cuéllar como autor/coautor y no modifica el YAML automáticamente.",
+                "Fuente consultada: OpenAlex. El rastreo excluye citantes con Álvaro Cuéllar como autor/coautor y evita duplicados por título.",
             ]
         )
         return "\n".join(lines) + "\n"
@@ -227,9 +322,9 @@ def build_report(candidates: list[dict[str, Any]], checked_count: int) -> str:
         [
             "",
             "Notas:",
-            "- Estas candidatas requieren revisión manual antes de incorporarse a `_data/home/publications.yml`.",
+            "- Las candidatas se han incorporado automáticamente a `_data/home/publications.yml` cuando el rastreo se ejecutó con `--apply`.",
             "- Se excluyen autocitas detectadas por autoría de OpenAlex.",
-            "- OpenAlex no cubre todo Dialnet ni todas las revistas de Humanidades; el informe es una alarma semanal, no una auditoría exhaustiva.",
+            "- OpenAlex no cubre todo Dialnet ni todas las revistas de Humanidades; el informe conserva la trazabilidad semanal de las altas automáticas.",
         ]
     )
     return "\n".join(lines) + "\n"
@@ -240,6 +335,11 @@ def main() -> int:
     parser.add_argument("--data-file", type=Path, default=DEFAULT_DATA_FILE)
     parser.add_argument("--output", type=Path, default=Path("citation-candidates.md"))
     parser.add_argument("--max-publications", type=int, default=0)
+    parser.add_argument(
+        "--apply",
+        action="store_true",
+        help="Add verified non-self candidates to publications.yml.",
+    )
     args = parser.parse_args()
 
     publications = load_publications(args.data_file)
@@ -247,6 +347,7 @@ def main() -> int:
         publications = publications[: args.max_publications]
 
     candidates: list[dict[str, Any]] = []
+    seen_candidates: set[tuple[str, str]] = set()
     checked_count = 0
 
     for publication in publications:
@@ -268,10 +369,15 @@ def main() -> int:
                 continue
             if local_has_citation(local_citations, citing_title):
                 continue
+            candidate_key = (publication.get("id", ""), normalize(citing_title))
+            if candidate_key in seen_candidates:
+                continue
+            seen_candidates.add(candidate_key)
             candidates.append(
                 {
                     "local_id": publication.get("id", ""),
                     "cited_title": title,
+                    "citing_title": citing_title,
                     "formatted": format_candidate(citing),
                     "source": citing.get("doi") or citing.get("id"),
                     "match_score": round(score, 3),
@@ -279,13 +385,15 @@ def main() -> int:
             )
 
     candidates.sort(key=lambda item: (item["local_id"], item["formatted"]))
-    report = build_report(candidates, checked_count)
+    applied_count = apply_candidates(args.data_file, candidates) if args.apply else 0
+    report = build_report(candidates, checked_count, applied_count)
     args.output.write_text(report, encoding="utf-8")
 
     print(f"Checked publications: {checked_count}")
     print(f"New non-self citation candidates: {len(candidates)}")
+    print(f"Automatically added citations: {applied_count}")
     print(f"Report written to: {args.output}")
-    return 1 if candidates else 0
+    return 0 if args.apply else (1 if candidates else 0)
 
 
 if __name__ == "__main__":

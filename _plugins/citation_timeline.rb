@@ -29,7 +29,7 @@ module Jekyll
                          .map(&:to_i)
                          .reverse
                          .find { |value| value.between?(START_YEAR, current_year) }
-          counts[year] += 1 if year
+          counts[year || current_year] += 1
         end
       end
 
