@@ -420,6 +420,8 @@ publications:
       ru: В этом исследовании оцениваются сто пьес Золотого века Испании, достоверно приписываемых стилусу пакета R. Он анализирует настройки, которые оптимизируют авторскую классификацию (алгоритмы, MFW, отсечение и n-граммы) и минимальную длину, необходимую для получения надежных результатов. Перекрестная проверка демонстрирует эффективность стилометрии для установления авторства в театре Золотого века.
       ar: تقوم هذه الدراسة بتقييم مائة مسرحية من العصر الذهبي الإسباني المنسوبة بشكل آمن باستخدام قلم الحزمة R. فهو يحلل الإعدادات التي تعمل على تحسين تصنيف المؤلف (الخوارزميات، وMFW، والتصفية، وn-grams) والحد الأدنى للطول المطلوب للحصول على نتائج موثوقة. يوضح التحقق المتبادل فعالية قياس الأسلوب في إسناد التأليف في مسرح العصر الذهبي.
     cited_by:
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
+      - "Ruiz Urbón, Cristina. “Problemas de identidad autorial en los entremeses de Luis Vélez de Guevara: una revisión del corpus desde la estilometría.” Librosdelacorte.es, núm. 32, 2026, pp. 360–386. DOI: 10.15366/ldc2026.18.32.017."
       - "Hernández-Lorenzo, Laura, y José Calvo Tello. “Stylometric Evaluation of Parameters and Distance Measures for Hispanic Texts.” Digital Humanities in Medieval and Early Modern Spanish Texts, editado por…, Routledge, 2025, pp. 163-188."
       - "Vega García-Luengos, Germán. “La autoría de Solo el piadoso es mi hijo. Detectores digitales y analógicos para no dejarse confundir por los propios dramaturgos.” eHumanista, vol. 61, 2025, pp. 549–560."
 
@@ -694,6 +696,8 @@ publications:
       ru: В исследовании предлагается добавить «Французскую Лауру» в репертуар Лопе де Веги на основе анонимной рукописи, хранящейся в BNE. Анализы Transkribus и ETSO показывают явное лексическое сходство с произведениями Лопе, подкрепленное филологическими, метрическими и историческими свидетельствами. Исследование подтверждает потенциал цифровых инструментов для исследования испанского театра раннего Нового времени.
       ar: تقترح الدراسة إضافة La francesa Laura إلى مرجع Lope de Vega على أساس مخطوطة مجهولة المصدر محفوظة في BNE. تُظهر التحليلات التي أجريت مع Transkribus وETSO تقاربًا معجميًا واضحًا مع أعمال Lope، معززة بالأدلة اللغوية والمترية والتاريخية. تؤكد الدراسة إمكانات الأدوات الرقمية للبحث في المسرح الإسباني الحديث المبكر.
     cited_by:
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
+      - "Ruiz Urbón, Cristina. “Problemas de identidad autorial en los entremeses de Luis Vélez de Guevara: una revisión del corpus desde la estilometría.” Librosdelacorte.es, núm. 32, 2026, pp. 360–386. DOI: 10.15366/ldc2026.18.32.017."
       - "Jordá Moret, Jaume Vicent. “Juan Morcillo Olalla revisitado: nuevas aportaciones a través de nuevas tecnologías.” Anales de la Real Academia de Ciencias Veterinarias de España, vol. 32, 2024, pp. 95–122."
       - "Crivellari, Daniele. “En busca del hijo perdido: a propósito de una comedia novelesca atribuida a Lope (II).” Anuario Lope de Vega. Texto, literatura, cultura, vol. 32, 2026."
       - "Ferreira Barrocal, Jorge. “El auto sacramental de Escarramán: respaldo filológico de las atribuciones a Claramonte.” Hispanófila, vol. 203, no. 1, 2025, pp. 21–39."
@@ -791,6 +795,8 @@ publications:
       ru: С помощью стилометрических методов анализируется корпус из 2800 пьес Золотого века Испании, чтобы выделить авторский отпечаток Кларамонте и определить надежный репертуар. Результаты связывают драматурга с 39 пьесами и 7 автомобилями, подтверждают надежное авторство («De lo vivo a lo pintado», «Deste agua no beberé», «La infelice Dorotea» и др.) и подтверждают недавние авторства, такие как «La estrella de Sevilla» и «Tan largo me lo fiáis».
       ar: تم تحليل مجموعة مكونة من 2800 مسرحية من العصر الذهبي الإسباني باستخدام تقنيات قياس الأسلوب لعزل بصمة تأليف كلارامونتي وتحديد مرجع موثوق. تربط النتائج الكاتب المسرحي بـ 39 مسرحية و7 سيارات، وتؤكد التأليف الآمن (De lo vivo a lo pintado، Deste agua no beberé، La infelice Dorotea، من بين آخرين)، وتدعم الإسنادات الحديثة مثل La estrella de Sevilla وTan largo me lo fiáis.
     cited_by:
+
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
 
       - "González Martínez, Javier J. “Literatura española en y desde la Corte de Valladolid.” En Carlos Belloso Martín (coord.), Valladolid y la Corte. Valladolid: Ayuntamiento de Valladolid, 2026, pp. 314–355. ISBN 978-84-19582-36-2."
 
@@ -1240,6 +1246,8 @@ publications:
     cited_by:
 
 
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
+
       - "Fernández García, Laura. “Testimonio único y voluntad de autor. A propósito de algunas comedias póstumas de Lope de Vega.” En Luigi Giuliani y Victoria Pineda (eds.), «No tendrás otros textos»: editar testimonios únicos del teatro del Siglo de Oro. Actas del XVIII Taller Internacional de Estudios Textuales. Rassegna iberistica, vol. 45, 2025."
 
       - "Sobrón Tauber, Guadalupe. “Un nuevo Lope que nos sigue hablando: sobre la puesta escénica de La francesa Laura.” Reseñas/CeLeHis, año 11, no. 31, agosto 2024, ISSN 2362-5031, pp. 99–105."
@@ -1399,6 +1407,7 @@ publications:
       ar: نظام بحث مفتوح الوصول لمجموعة مسرح العصر الذهبي الإسباني، الذي يضم أكثر من 3000 عمل و400 كاتب مسرحي، بإجمالي 37 مليون كلمة. ويستخدم يوميا من قبل المتخصصين للاستفسارات اللغوية والفلولوجية.
     cited_by:
 
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
       - "Marcos Rodríguez, Emma María. “Italia como huella de autoría en algunos textos dramáticos del Siglo de Oro.” En Fernando Candón Ríos, Emanuele Isidori y Ricardo de la Fuente Ballesteros (eds.), Aproximaciones a un patrimonio común: Italia y el mundo hispánico. Valladolid: Universitas Castellae, 2026, pp. 79–96. DOI: https://doi.org/10.5281/zenodo.19038139."
 
       - "Sanz-Lázaro, Fernando. “Entre la añoranza y la repulsa: abuelas y antiabuelas en la literatura áurea.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 14, no. 1, 2026. DOI: 10.13035/H.2026.14.01.51."
@@ -1760,6 +1769,7 @@ publications:
       ar: تم تطبيق بروتوكول قياس الأسلوب للتمييز بين الأصل وإعادة الصياغة في El mejor amigo, el muerto، وهي مسرحية منقولة في نسختين. يشير التحليل إلى أن نسخة المخطوطة المنسوبة إلى بلمونت وروجاس وكالديرون تتوافق مع النص الأصلي، وأن الجورنادا الثاني كتبه فرانسيسكو دي روخاس زوريلا.
     cited_by:
 
+      - "Campión Larumbe, Miguel. “De Don Juan de Castro a El mejor amigo, el muerto: fuentes y adaptación argumental en el teatro del Siglo de Oro.” Librosdelacorte.es, núm. 32, 2026, pp. 408–431. DOI: 10.15366/ldc2026.18.32.019."
       - "Alviti, Roberta. “Un singular caso de amistad: El mejor amigo, el muerto.” En Marcella Trambaioli y Debora Vaccari (eds.), Ir y quedarse y con quedar partirse: relaciones literarias entrañables: ensayos dedicados a Stefano Arata. Madrid: Visor Libros, 2026, pp. 13–56. (Biblioteca filológica hispana, 316). ISBN 979-13-87745-16-5."
 
       - "González Cañal, Rafael; María Luisa Lobato; y Almudena García González. El teatro áureo en colaboración. eHumanista: Journal of Iberian Studies, vol. 61, 2025, pp. 136–144. ISSN-e 1540-5877."
@@ -1986,6 +1996,7 @@ publications:
       ru: Цифровой портал, предоставляющий открытый доступ к стилометрическому анализу более 3000 пьес Золотого века Испании. Это проект, которому автор посвятил больше всего времени в последние годы, и который стал одним из наиболее широко используемых ресурсов среди исследователей в этой области.
       ar: بوابة رقمية توفر وصولاً مفتوحًا إلى التحليلات الأسلوبية لأكثر من 3000 مسرحية من العصر الذهبي الإسباني. إنه المشروع الذي خصص له المؤلف معظم وقته في السنوات الأخيرة وأصبح أحد المصادر الأكثر استخدامًا بين الباحثين في هذا المجال.
     cited_by:
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
       - "Marcos Rodríguez, Emma María. “Italia como huella de autoría en algunos textos dramáticos del Siglo de Oro.” En Fernando Candón Ríos, Emanuele Isidori y Ricardo de la Fuente Ballesteros (eds.), Aproximaciones a un patrimonio común: Italia y el mundo hispánico. Valladolid: Universitas Castellae, 2026, pp. 79–96. DOI: https://doi.org/10.5281/zenodo.19038139."
       - "Gilabert, Gastón. “Jerónimo de Cáncer y la versificación de sus comedias colaboradas.” En Marcella Trambaioli y Debora Vaccari (eds.), Ir y quedarse y con quedar partirse: relaciones literarias entrañables: ensayos dedicados a Stefano Arata. Madrid: Visor Libros, 2026, pp. 103–121. (Biblioteca filológica hispana, 316). ISBN 979-13-87745-16-5."
       - "Rodríguez Nicolás, Sergio. “La autoría de Juan de Zabaleta de la primera jornada de Los triunfos de José según el análisis estilístico.” Janus. Estudios sobre el Siglo de Oro, núm. 15, 2026."
