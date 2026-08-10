@@ -31,6 +31,7 @@
             <h3 id="citations-timeline-title">
               {% if lang == 'es' %}Evolución de las citas{% else %}Citation growth{% endif %}
             </h3>
+            <span class="citations-timeline-subtitle">{{ site.data.home.publications.citation_timeline_subtitle[lang] | default: site.data.home.publications.citation_timeline_subtitle.en }}</span>
           </div>
           <div class="citations-timeline-total">
             <span class="citations-timeline-total-value">{{ total_citations }}</span>

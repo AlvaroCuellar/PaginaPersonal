@@ -44,6 +44,18 @@ section_title:
   ko: 출판물
   ru: Публикации
   ar: المنشورات
+citation_timeline_subtitle:
+  es: "(Excluyendo autocitas)"
+  en: "(Excluding self-citations)"
+  fr: "(Hors autocitations)"
+  pt: "(Excluindo autocitações)"
+  it: "(Escluse le autocitazioni)"
+  de: "(Ohne Selbstzitate)"
+  zh: "（不含自引）"
+  ja: "（自己引用を除く）"
+  ko: "(자기 인용 제외)"
+  ru: "(без самоцитирований)"
+  ar: "(باستثناء الاستشهادات الذاتية)"
 url_slug:
   es: "publicaciones"
   en: "publications"
