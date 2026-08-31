@@ -1,0 +1,43 @@
+<section id="professional-services" class="professional-services scrollto">
+  {% assign lang = page.lang | default: 'es' %}
+  {% assign service_data = site.data.home.professional_services %}
+  {% assign company = service_data.company %}
+  <div class="row clearfix">
+    <div class="col-1">
+      <div class="section-heading">
+        <h3>{{ service_data.subtitle[lang] | default: service_data.subtitle.en }}</h3>
+        <h2 class="section-title">{{ service_data.section_title[lang] | default: service_data.section_title.en }}</h2>
+      </div>
+
+      <article class="company-service-card">
+        <div class="company-service-card__brand" aria-hidden="true">
+          <div class="humanitalis-vertical-lockup">
+            <img class="humanitalis-mark" src="{{ '/assets/images/humanitalis/humanitalis-mark.svg' | relative_url }}" alt="">
+            <span class="humanitalis-wordmark">HUMANITALIS</span>
+            <span class="humanitalis-brand-tagline">{{ company.tagline[lang] | default: company.tagline.en }}</span>
+          </div>
+          <span class="humanitalis-index">AI / CULTURAL HERITAGE</span>
+        </div>
+
+        <div class="company-service-card__content">
+          <span class="company-service-card__badge">{{ company.badge[lang] | default: company.badge.en }}</span>
+          <h3>{{ company.name }}</h3>
+          <p class="company-service-card__lead">{{ company.tagline[lang] | default: company.tagline.en }}</p>
+          <p class="company-service-card__description">{{ company.description[lang] | default: company.description.en }}</p>
+
+          {% assign services = company.services[lang] | default: company.services.en %}
+          <ul class="company-service-card__services">
+            {% for service in services %}
+              <li>{{ service }}</li>
+            {% endfor %}
+          </ul>
+
+          {% assign company_url = company.url[lang] | default: company.url.es %}
+          <a href="{{ company_url }}" class="button-inverse no-icon" target="_blank" rel="noopener noreferrer">
+            {{ company.button[lang] | default: company.button.en }} <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

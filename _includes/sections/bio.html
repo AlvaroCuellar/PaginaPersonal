@@ -12,6 +12,10 @@
             </div>
             <div class="bio-content">
                 {{ site.data.home.bio.bio[lang] | markdownify }}
+                {% assign professional_note = site.data.home.professional_services.bio_note[lang] | default: site.data.home.professional_services.bio_note.en %}
+                <div class="bio-professional-note">
+                  {{ professional_note | markdownify }}
+                </div>
             </div>
         </div>
 

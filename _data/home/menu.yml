@@ -19,4 +19,6 @@
 - key: "outreach"
   show: true
   section_id: "outreach"
-
+- key: "professional_services"
+  show: true
+  section_id: "professional-services"

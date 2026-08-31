@@ -26,7 +26,7 @@
                   {% endif %}
                   
                   {% assign section_data = site.data.home[item.key] %}
-                  <a href="{{ link_url }}">{% if section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% elsif section_data.section_title.en %}{{ section_data.section_title.en }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
+                  <a href="{{ link_url }}">{% if section_data.nav_title[lang] %}{{ section_data.nav_title[lang] }}{% elsif section_data.section_title[lang] %}{{ section_data.section_title[lang] }}{% elsif section_data.section_title.en %}{{ section_data.section_title.en }}{% else %}{{ site.data.i18n[lang][item.key] | default: item.key }}{% endif %}</a>
                 </li>
               {% endif %}
             {% endfor %}
