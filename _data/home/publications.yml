@@ -1208,6 +1208,8 @@ publications:
       ko: 이 장에서는 스타일로메트리가 단문 메시지의 작성자를 식별할 수 있는지 여부를 테스트하기 위한 목적으로 Álvaro Cuéllar와 Germán Vega 간의 디지털 통신에 대한 스타일로메트릭 실험을 제시합니다. 이메일의 제한된 길이에도 불구하고 결과는 개인 스타일에 적용된 특정 인공 지능 알고리즘에서 주목할만한 분류 능력을 보여줍니다.
       ru: В главе представлен стилометрический эксперимент по цифровой переписке между Альваро Куэльяром и Херманом Вегой, направленный на проверку того, может ли стилометрия идентифицировать авторство коротких сообщений. Несмотря на ограниченную длину писем, результаты показывают заметную классификационную способность некоторых алгоритмов искусственного интеллекта, применяемых к индивидуальному стилю.
       ar: يعرض هذا الفصل تجربة قياس الأسلوب على المراسلات الرقمية بين ألفارو كويلار وجيرمان فيغا، بهدف اختبار ما إذا كان قياس الأسلوب يمكنه تحديد هوية مؤلف الرسائل القصيرة. على الرغم من الطول المحدود لرسائل البريد الإلكتروني، تظهر النتائج قدرة تصنيفية ملحوظة في بعض خوارزميات الذكاء الاصطناعي المطبقة على الأسلوب الفردي.
+    cited_by:
+      - "Presotto, Marco. Reseña de Gema Cienfuegos Antelo et al. (coords.), Un caballero para Olmedo. Homenaje al profesor Germán Vega García-Luengos. Anuario Lope de Vega. Texto, literatura, cultura, vol. 31, 2025, pp. 275–280. DOI: https://doi.org/10.5565/rev/anuariolopedevega.569."
   - id: "moreto2023"
     type: "incollection"
     title: "El periodo final de la dramaturgia moretiana (1655–1659): apuntes desde la estilometría"
@@ -1392,16 +1394,23 @@ publications:
       ru: Интегрированная база данных испанского классического театра, в которой собраны и описаны отдельные театральные репродукции Золотого века Испании. ISTAE централизует информацию, разбросанную по различным каталогам и архивам, облегчая консультации и изучение театрального наследия Золотого века с помощью открытых цифровых ресурсов.
       ar: قاعدة بيانات متكاملة للمسرح الكلاسيكي الإسباني تجمع وتصف المطبوعات المسرحية الفضفاضة من العصر الذهبي الإسباني. تقوم ISTAE بمركزية المعلومات المنتشرة عبر مختلف الفهارس والمحفوظات، مما يسهل التشاور ودراسة التراث المسرحي للعصر الذهبي من خلال الموارد الرقمية المفتوحة.
     cited_by:
+      - "García Fernández, Óscar. “Nuevos avances en la adscripción tipográfica de algunos impresos sueltos de Rojas Zorrilla.” Janus. Estudios sobre el Siglo de Oro, núm. 15, 2026. DOI: https://doi.org/10.17979/janus.2026.15.12916."
       - "Casariego Castiñeira, Paula. “Los impresos sueltos teatrales del tomo CD.122.514 de la Biblioteca Nacional Universitaria de Estrasburgo: noticia bibliográfica.” Janus, núm. 14, 2025."
 
       - "Demattè, Claudia, Arantxa Llàcer, y Marco Presotto. Imprenta y literatura española en los siglos XVI y XVII: de las periferias al centro. Vol. 38, Edizioni Ca’ Foscari, 2024."
       - "Castiñeira, Paula Casariego. “De sueltas y Escogidas: una iniciativa editorial olvidada del librero Luis Lamarca.” Revista de Filología Española, vol. 104, no. 2, 2024, pp. 1364–1364."
       - "Lorenzo, Alejandra Ulla. “Preservar, describir e identificar comedias sueltas antiguas: incógnitas y hallazgos bibliográficos.” 2024."
       - "Muñoz Rodríguez, Elena. “Estudio y edición crítica de dos comedias de Jacinto Cordeiro: Con partes nunca hay ventura y El malinclinado.” 2024."
+      - "Badía Herrera, Josefa. “Nuevas consideraciones sobre las «autoras de comedias» a la luz de la integración de DICAT en ASODAT.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 69–83. DOI: https://doi.org/10.13035/H.2023.11.01.06."
+      - "Sánchez García, María Dolores. “La ornamentación como elemento distintivo en la composición de las comedias sueltas. Un ejemplo sevillano del siglo XVIII.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 463–481. DOI: https://doi.org/10.13035/H.2023.11.01.24."
+      - "Gómez Sánchez-Ferrer, Guillermo. “La transmisión textual póstuma de las comedias de Lope de Vega: a propósito de «La carbonera» y lo que podemos esperar de MANOS e ISTAE.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 241–265. DOI: https://doi.org/10.13035/H.2023.11.01.13."
+      - "Martínez Carro, Elena, Concepción María Jiménez Fernández y Alejandra Ulla Lorenzo. “Novedades bibliográficas en el patrimonio teatral de Álvaro Cubillo: ejemplares y ediciones raras y curiosas en el fondo de la BNE.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 319–347. DOI: https://doi.org/10.13035/H.2023.11.01.18."
+      - "Ferrer Valls, Teresa, y Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37. DOI: https://doi.org/10.13035/H.2023.11.01.03."
       - "Rodríguez-Gallego, Fernando. “Identificación de ediciones de comedias trabajando con la base de datos ISTAE: sobre unas sueltas de La sibila del oriente y gran reina de Sabá, de Calderón.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 429–462."
       - "Fernández, Óscar García. “Seis sueltas conservadas en la BNE, posiblemente del impresor Simón Fajardo.” Hipogrifo: Revista de literatura y cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 223–240."
       - "Castiñeira, Paula Casariego. “Una imprenta para tres sueltas antiguas sin datos editoriales: La gran Torre del Orbe, Los hermanos más amantes y La dama boba.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 85–100."
       - "Lorenzo, Alejandra Ulla, y Paula Casariego Castiñeira. “Sobre falsas atribuciones y duplicidad de títulos en el teatro calderoniano: Haz bien y guárdate o La confusión de un jardín.” Studia Aurea, vol. 16, 2022, pp. 229–259."
+      - "García-Reidy, Alejandro, Ramón Valdés Gázquez y Germán Vega García-Luengos. “Una nueva edición (¿princeps?) de El castigo sin venganza.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 27, 2021, pp. 270–329. DOI: https://doi.org/10.5565/rev/anuariolopedevega.414."
 
   - id: "texoro"
     type: "database"
@@ -1557,7 +1566,6 @@ publications:
       - "Antonucci, Fausta. “Respeto por el texto y enmienda ope ingenii en la edición de un testimonio único: el caso de Los palacios de Galiana (Parte XXIII) de Lope de Vega.” Creneida. Anuario de Literaturas Hispánicas, vol. 12, 2024, pp. 206–230."
       - "Boadas Cabarrocas, Sònia. “Literatura áurea y Humanidades Digitales: un trienio de constante progresión (2020–2023).” Aureae Litterae Ovetenses. Actas del XIII Congreso de la AISO, 2024, pp. 153–172."
       - "Amelang, David J. “Measuring Protagonism in Early Modern European Theatre: A Distant Reading of the Character of Sophonisba.” Comparative Drama, vol. 58, no. 3, 2024, pp. 367–390."
-      - "Vega García-Luengos, Germán. Un falso encuentro entre Cervantes y Lope en el Quijote: fórmula y propósito del auto Las cortes de la muerte. En Alba Carmona, Blanca Santos de la Morena y Guillermo Gómez Sánchez-Ferrer (coords.), Lope después de Lope: su difusión y fortuna, de 'La fama póstuma' a nuestros días. Kassel: Edition Reichenberger, 2024, pp. 77–94. ISBN 978-3-96728-065-4."
 
 
 
@@ -1769,7 +1777,7 @@ publications:
     year: 2021
     volume: "3"
     number:
-    pages: "56-69"
+    pages: "59-69"
     isbn:
     url: "https://doi.org/10.5209/tret.74021"
     thumbnail: "/assets/images/pubs/discernir.png"
@@ -1786,6 +1794,7 @@ publications:
       ru: Стилометрический протокол применяется для различения оригинала и переделки в пьесе «El mejor amigo, el muerto», переданной в двух версиях. Анализ показывает, что рукописная версия, приписываемая Бельмонте, Рохасу и Кальдерону, соответствует оригинальному тексту и что вторая хорнада была написана Франсиско де Рохасом Соррильей.
       ar: تم تطبيق بروتوكول قياس الأسلوب للتمييز بين الأصل وإعادة الصياغة في El mejor amigo, el muerto، وهي مسرحية منقولة في نسختين. يشير التحليل إلى أن نسخة المخطوطة المنسوبة إلى بلمونت وروجاس وكالديرون تتوافق مع النص الأصلي، وأن الجورنادا الثاني كتبه فرانسيسكو دي روخاس زوريلا.
     cited_by:
+      - "Hernando Morata, Isabel. “Bibliografía calderoniana 2021.” Anuario Calderoniano, vol. 15, 2022, pp. 499–516."
 
       - "Campión Larumbe, Miguel. “De Don Juan de Castro a El mejor amigo, el muerto: fuentes y adaptación argumental en el teatro del Siglo de Oro.” Librosdelacorte.es, núm. 32, 2026, pp. 408–431. DOI: 10.15366/ldc2026.18.32.019."
       - "Alviti, Roberta. “Un singular caso de amistad: El mejor amigo, el muerto.” En Marcella Trambaioli y Debora Vaccari (eds.), Ir y quedarse y con quedar partirse: relaciones literarias entrañables: ensayos dedicados a Stefano Arata. Madrid: Visor Libros, 2026, pp. 13–56. (Biblioteca filológica hispana, 316). ISBN 979-13-87745-16-5."
@@ -1795,7 +1804,7 @@ publications:
 
 
       - "Rojas Zorrilla, Francisco, et al. Comedias áureas de varios ingenios. Tomo II. Edición crítica y anotada bajo la dirección de Rafael González Cañal y Almudena García González, Universidad de Castilla-La Mancha, 2025."
-      - "Pedraza Jiménez, Felipe B., y Milagros Rodríguez Cáceres. “Calderón, Rojas y Coello y las comedias de varios ingenios (1634-1636).” Anuario Calderoniano, vol. 17, 2025, pp. 199–227."
+      - "Pedraza Jiménez, Felipe B., y Milagros Rodríguez Cáceres. “Calderón, Rojas y Coello y las comedias de varios ingenios (1634-1636).” Anuario Calderoniano, vol. 17, 2024, pp. 199–227."
 
 
 
@@ -1899,6 +1908,8 @@ publications:
       ar: CETSO هي المجموعة الأساسية لـ ETSO، مع حوالي 3000 مسرحية من العصر الذهبي الإسباني تم تحديثها وتطبيعها للتحليل الأسلوبي. فهو يجمع بين النصوص العامة والبحثية والنصوص المكتوبة تلقائيًا والتي تم إنتاجها باستخدام Transkribus. وهو يشكل أكبر مجموعة مقارنة للمسرح الإسباني الحديث المبكر باللغة الإسبانية.
     cited_by:
 
+
+      - "Massanet Rodríguez, Rafael. “El conde de Sex: un intento por despejar su compleja atribución.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 349–363. DOI: https://doi.org/10.13035/H.2023.11.01.19."
 
 
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."
@@ -2014,9 +2025,13 @@ publications:
       ru: Цифровой портал, предоставляющий открытый доступ к стилометрическому анализу более 3000 пьес Золотого века Испании. Это проект, которому автор посвятил больше всего времени в последние годы, и который стал одним из наиболее широко используемых ресурсов среди исследователей в этой области.
       ar: بوابة رقمية توفر وصولاً مفتوحًا إلى التحليلات الأسلوبية لأكثر من 3000 مسرحية من العصر الذهبي الإسباني. إنه المشروع الذي خصص له المؤلف معظم وقته في السنوات الأخيرة وأصبح أحد المصادر الأكثر استخدامًا بين الباحثين في هذا المجال.
     cited_by:
+      - "Resta, Ilaria. Reseña de Agustín Moreto, Comedias de Agustín Moreto. Tercera parte de comedias, volumen IX, dir. María Luisa Lobato, coord. Gaston Gilabert, eds. Marta Martínez Gutiérrez y Zaida Vila Carneiro. Anuario Lope de Vega. Texto, literatura, cultura, vol. 31, 2025, pp. 286–295. DOI: https://doi.org/10.5565/rev/anuariolopedevega.570."
+      - "Aracil Varón, Beatriz. “Indígenas cristianos en el teatro del Siglo de Oro: El Nuevo Mundo descubierto por Cristóbal Colón y su lectura novohispana.” Anuario Lope de Vega. Texto, literatura, cultura, vol. 31, 2025, pp. 150–185. DOI: https://doi.org/10.5565/rev/anuariolopedevega.518."
+      - "Lauer, A. Robert. Reseña de Pedro Calderón de la Barca, Las cadenas del demonio, ed. crítica José Elías Gutiérrez Meza y Henrry A. Ibáñez Mogrovejo. Anuario Calderoniano, vol. 18, 2025, pp. 537–539."
       - "Montauban, Jannine. Reseña de Pedro Calderón de la Barca, Las cadenas del Demonio, eds. José Elías Gutiérrez Meza y Henrry A. Ibáñez Mogrovejo, Madrid/Frankfurt, Iberoamericana/Vervuert, 2024, 196 pp. Lexis, vol. 49, núm. 1, 2025, pp. 497–499. DOI: 10.18800/lexis.202501.017."
       - "Moreto, Agustín (atribuida). La ocasión hace al ladrón. Texto base de Elena Muñoz. Alicante: Biblioteca Virtual Miguel de Cervantes, 2025. URI: https://www.cervantesvirtual.com/nd/ark:/59851/bmc1333632."
       - "Alonso Medel, Rocío. Reseña de Juan Pérez de Montalbán, Obras. Segundo tomo de comedias. Volumen 2.4, ed. general María Moya, eds. Davinia Rodríguez Ortega, Mónica García Quintero y Claudia Demattè. Anuario Lope de Vega. Texto, literatura, cultura, vol. 30, 2024, pp. 482–488. DOI: https://doi.org/10.5565/rev/anuariolopedevega.528."
+      - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta como colaborador dramático.” Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 12, no. 1, 2024, pp. 265–281. DOI: https://doi.org/10.13035/H.2024.12.01.17."
       - "Fernández Mosquera, Santiago. “La Lindona de Galicia, comedia de protagonista galega.” Consello da Cultura Galega, 2021. https://consellodacultura.gal/especiais/a-lindona-de-galicia/texto.php?esp=10291&mat=80231."
       - "Tomasi, Giulia. “Las Humanidades Digitales y la base de datos MeMoRam: para un enfoque sistemático hacia los motivos en los libros de caballerías.” Historias Fingidas, núm. 8, 2020, pp. 129–156."
       - "Truan Aguirre, Elena. “La edición y los problemas de autoría en El saco de Amberes.” En Carlos Mata Induráin y Miren Usunáriz Iribertegui (eds.), «Melior auro». Actas del IX Congreso Internacional Jóvenes Investigadores Siglo de Oro (JISO 2019). Pamplona: Servicio de Publicaciones de la Universidad de Navarra, 2020, pp. 317–331. ISBN 978-84-8081-685-4."
@@ -2055,7 +2070,6 @@ publications:
 
       - "Prieto Mueller, María Angela. Anatema de Don Juan: en Tirso de Molina y Zorrilla. Análisis filosófico-teológico, tesis de máster, San Francisco State University, San Francisco, 2025."
 
-      - "Sánchez-Hernández, Sara. “La transmisión textual de la comedia colaborada Enfermar con el remedio: una aproximación.” Cuadernos para la Investigación de la Literatura Hispánica, núm. 51, 2025, pp. 243–268."
       - "Sánchez-Hernández, Sara. “La transmisión textual de la comedia colaborada Enfermar con el remedio: una aproximación.” Cuadernos para la Investigación de la Literatura Hispánica, núm. 51, 2025, pp. 243–268."
       - "Ulla Lorenzo, Alejandra, y Paula Casariego Castiñeira. «Identificación de ediciones y transmisión textual de El imposible más fácil: de Calderón a Matos Fragoso». Boletín de la Real Academia Española, 2025, pp. 763–803."
 
@@ -2368,11 +2382,6 @@ publications:
 
 
 
-
-
-      - "Reseña de Agustín Moreto, Comedias de Agustín Moreto. Tercera parte de comedias, vol. IX, dir. María Luisa Lobato, coord. Gaston Gilabert, eds. Marta Martínez Gutiérrez y Zaida Vila Carneiro. Kassel: Edition Reichenberger, 2023, 404 pp. ISBN 978-3-96728-054-8."
-
-
       - "Vega García-Luengos, Germán. “Una nueva comedia en colaboración de Calderón de la Barca: «Las lágrimas de David», atribuida a Felipe Godínez.” En: Aun a pesar de las tinieblas bella, aun a pesar de las estrellas clara: scritti in ricordo di Ines Ravasini (Due punti, 85), Bari: Edizioni di Pagina, 2023, pp. 637–658."
 
 
@@ -2412,7 +2421,7 @@ publications:
       - "Fernández Rodríguez, Daniel; y Guillermo Gómez Sánchez-Ferrer. “Los romances expósitos: a propósito del estilo en el romancero de Lope de Vega y las atribuciones de María Goyri.” Abenámar. Cuadernos de la Fundación Ramón Menéndez Pidal, vol. 6, 2023, pp. 117–144."
       - "Ferreira Barrocal, Jorge. “Estudio de una comedia anónima del Siglo de Oro sepultada en el olvido: La luna de Florencia.” Bulletin Hispanique, vol. 126, no. 2, 2023, pp. 321–352."
       - "Crivellari, Daniele. “«Teatro Caballeresco»: una base de datos para el estudio de la presencia de los libros de caballerías en el drama áureo.” Historias Fingidas, vol. 11, 2023, pp. 27–51."
-      - "Badía Herrera, Josefa. Nuevas consideraciones sobre las «autoras de comedias» a la luz de la integración de DICAT en ASODAT. Hipogrifo. Revista de literatura y cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 1–17. DOI: 10.13035/H.2023.11.01.06. ISSN 2328-1308."
+      - "Badía Herrera, Josefa. Nuevas consideraciones sobre las «autoras de comedias» a la luz de la integración de DICAT en ASODAT. Hipogrifo. Revista de literatura y cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 69–83. DOI: 10.13035/H.2023.11.01.06. ISSN 2328-1308."
 
 
 
