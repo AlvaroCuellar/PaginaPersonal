@@ -71,6 +71,24 @@ featured:
   - "press69"
 articles:
 
+  - id: "press86"
+    title:
+      es: "Alfredo Rodríguez: «Andrés de Claramonte es el verdadero creador de don Juan Tenorio»"
+      en: "Alfredo Rodríguez: “Andrés de Claramonte is the true creator of Don Juan Tenorio”"
+      fr: "Alfredo Rodríguez : « Andrés de Claramonte est le véritable créateur de Don Juan Tenorio »"
+      pt: "Alfredo Rodríguez: «Andrés de Claramonte é o verdadeiro criador de Don Juan Tenorio»"
+      it: "Alfredo Rodríguez: «Andrés de Claramonte è il vero creatore di Don Juan Tenorio»"
+      de: "Alfredo Rodríguez: „Andrés de Claramonte ist der wahre Schöpfer von Don Juan Tenorio“"
+      zh: "Alfredo Rodríguez：“Andrés de Claramonte 才是唐璜·特诺里奥的真正创造者”"
+      ja: "Alfredo Rodríguez：「ドン・フアン・テノーリオの真の創作者は Andrés de Claramonte である」"
+      ko: "Alfredo Rodríguez: “돈 후안 테노리오의 진정한 창작자는 Andrés de Claramonte다”"
+      ru: "Альфредо Родригес: «Андрес де Кларамонте — истинный создатель Дона Хуана Тенорио»"
+      ar: "ألفريدو رودريغيث: «أندريس دي كلارامونتي هو المبدع الحقيقي لدون خوان تينوريو»"
+    outlet: "The Objective"
+    date: "2026-09-05"
+    url: "https://theobjective.com/cultura/literatura/2026-09-05/alfredo-rodriguez-andres-claramonte-verdadero-creador-don-juan-tenorio/"
+    type: "news"
+
 
   - id: "press82"
     title:
