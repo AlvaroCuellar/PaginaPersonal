@@ -90,10 +90,10 @@ articles:
     type: "news"
 
 
-    thumbnail: "/assets/images/pubs/claramonte.png"
+    thumbnail: "/assets/images/press/86.jpg"
     summary:
-      es: "Entrevista a Alfredo Rodríguez sobre la atribución de El burlador de Sevilla a Andrés de Claramonte y el origen literario de don Juan. Imagen ilustrativa: estudio sobre el repertorio dramático de Claramonte."
-      en: "Interview with Alfredo Rodríguez about the attribution of El burlador de Sevilla to Andrés de Claramonte and the literary origins of Don Juan. Illustrative image: study of Claramonte’s dramatic repertoire."
+      es: "Entrevista a Alfredo Rodríguez sobre la atribución de El burlador de Sevilla a Andrés de Claramonte y el origen literario de don Juan."
+      en: "Interview with Alfredo Rodríguez about the attribution of El burlador de Sevilla to Andrés de Claramonte and the literary origins of Don Juan."
 
   - id: "press82"
     title:
