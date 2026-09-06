@@ -90,6 +90,11 @@ articles:
     type: "news"
 
 
+    thumbnail: "/assets/images/pubs/claramonte.png"
+    summary:
+      es: "Entrevista a Alfredo Rodríguez sobre la atribución de El burlador de Sevilla a Andrés de Claramonte y el origen literario de don Juan. Imagen ilustrativa: estudio sobre el repertorio dramático de Claramonte."
+      en: "Interview with Alfredo Rodríguez about the attribution of El burlador de Sevilla to Andrés de Claramonte and the literary origins of Don Juan. Illustrative image: study of Claramonte’s dramatic repertoire."
+
   - id: "press82"
     title:
       es: "El Museo Canario aborda el impacto de la inteligencia artificial en el patrimonio histórico"
