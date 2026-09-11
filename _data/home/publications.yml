@@ -1753,6 +1753,8 @@ publications:
       ar: نموذج ذكاء اصطناعي تم تدريبه على 74000 كلمة، وهو قادر على نسخ مطبوعات العصر الذهبي الإسباني بدقة تصل إلى 99.09%. متاحة للجمهور وتستخدم على نطاق واسع لنسخ المحفوظات والمكتبات.
     cited_by:
 
+      - "García Serrano, Ana; y Antonio Menta. “Tratamiento de textos históricos soportado por Inteligencia Artificial: caso de estudio con un periódico del periodo 1788–1825.” El Argonauta español, núm. 20, 2026. DOI: https://doi.org/10.4000/16qid."
+
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."
 
       - "Peralta, Alberto. “Implementing AI in the National Library of Spain: The ETSO Project and Stylometric Analysis of Golden Age Theatre.” En Ines Mergel y Carsten Schmidt (eds.), AI Innovations in Public Services: The Case of National Libraries. Cham: Springer, 2026, pp. 135–150."
