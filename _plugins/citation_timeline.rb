@@ -18,6 +18,19 @@ module Jekyll
       return unless publications_data
 
       publications = publications_data.fetch('publications', [])
+
+      extra_citations = site.data.dig('home', 'citations_extra', 'citations') || []
+      extra_citations.each do |entry|
+        publication = publications.find { |item| item['id'] == entry['publication_id'] }
+        next unless publication
+
+        citation = entry['citation'].to_s.strip
+        next if citation.empty?
+
+        publication['cited_by'] ||= []
+        publication['cited_by'] << citation unless publication['cited_by'].include?(citation)
+      end
+
       current_year = site.time.year
       counts = Hash.new(0)
       total = 0
