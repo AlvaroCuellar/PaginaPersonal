@@ -1,6 +1,0 @@
-# Citas adicionales verificadas y añadidas manualmente.
-# Se integran en publications.yml durante la generación del sitio.
-
-citations:
-  - publication_id: "FrancesaLaura"
-    citation: "Jordá Moret, Jaume Vicent. “Juan Morcillo Olalla revisitado: nuevas aportaciones a través de nuevas tecnologías.” Anales de la Real Academia de Ciencias Veterinarias de España, vol. 32, 2024, pp. 95–122."
