@@ -1,0 +1,33 @@
+es:
+  developed: "Desarrollado por"
+  led: "a cargo de"
+en:
+  developed: "Developed by"
+  led: "led by"
+fr:
+  developed: "Développé par"
+  led: "sous la direction de"
+pt:
+  developed: "Desenvolvido por"
+  led: "sob a direção de"
+it:
+  developed: "Sviluppato da"
+  led: "a cura di"
+de:
+  developed: "Entwickelt von"
+  led: "unter der Leitung von"
+zh:
+  developed: "开发方"
+  led: "负责人："
+ja:
+  developed: "開発："
+  led: "担当："
+ko:
+  developed: "개발:"
+  led: "담당:"
+ru:
+  developed: "Разработано"
+  led: "под руководством"
+ar:
+  developed: "طُوّر بواسطة"
+  led: "بإشراف"

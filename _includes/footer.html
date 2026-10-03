@@ -1,6 +1,13 @@
 <footer id="landing-footer" class="clearfix">
   <div class="row clearfix">
     <div class="col-1 footer-content">
+      {% assign lang = page.lang | default: 'es' %}
+      {% assign credit = site.data.development_credit[lang] | default: site.data.development_credit.en %}
+      <p class="footer-development">
+        <span>{{ credit.developed }}</span>
+        <a class="footer-company no-icon" href="https://www.humanitalis.com/" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/humanitalis/humanitalis-lockup.svg' | relative_url }}" alt="HUMANITALIS" width="1052" height="232"></a>
+        <span>{{ credit.led }} <a class="no-icon" href="https://davidmerinorecalde.com/" target="_blank" rel="noopener noreferrer">David Merino Recalde</a></span>
+      </p>
       <!-- Social Icons Section -->
       <div class="footer-social">
         <ul class="footer-social-icons">
@@ -14,7 +21,6 @@
         {% assign lang = page.lang | default: 'es' %}
         <p class="copyright">
           © {{ 'now' | date: '%Y' }} {{ site.data.personal.name }}.
-          {{ site.data.personal.license[lang] }}
         </p>
       </div>
     </div>

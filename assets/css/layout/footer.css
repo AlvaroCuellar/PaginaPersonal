@@ -96,3 +96,20 @@
 .footer-social-icons span {
     display: none;
 }
+
+#landing-footer .footer-development {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--text-secondary);
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+}
+.footer-development .footer-company { display: inline-flex; }
+.footer-development img { display: block; width: 176px; height: auto; }
+.footer-development a { color: var(--primary-color); text-decoration: underline; text-underline-offset: 4px; }
+.footer-development a:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 5px; }
