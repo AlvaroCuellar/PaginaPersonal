@@ -587,6 +587,22 @@ publications:
       ko: '원자에서 파동까지: 초기 현대 스페인 연극의 저자 연구를 위한 리듬 스타일로메트리 기사와 함께 제공되는 데이터세트입니다. 여기에는 9명의 스페인 황금기 극작가가 쓴 안전하게 귀속된 100개의 희곡이 원본 텍스트와 수정된 자동 리듬 스캔의 두 가지 버전으로 포함되어 있습니다. 코퍼스를 통해 연구의 실험을 재현하고 황금시대 극장의 리듬 스타일로메트리, 저작자 귀속 및 전산 측정 분석에 대한 사전 연구를 수행할 수 있습니다.'
       ru: 'Набор данных, сопровождающий статью «От атомов к волнам: ритмическая стилометрия для авторских исследований испанского театра раннего Нового времени». В него вошли сто пьес девяти испанских драматургов Золотого века с достоверной атрибуцией в двух версиях: оригинальном тексте и исправленном автоматическом ритмическом сканировании. Корпус позволяет воспроизводить эксперименты исследования и продвигать исследования в области ритмической стилометрии, установления авторства и компьютерно-метрического анализа театра Золотого века.'
       ar: 'مجموعة البيانات المصاحبة للمقالة من الذرات إلى الأمواج: قياس الأسلوب الإيقاعي لدراسات التأليف في المسرح الإسباني الحديث المبكر. يتضمن مائة مسرحية منسوبة بشكل موثوق لتسعة كتاب مسرحيين إسبان من العصر الذهبي في نسختين: النص الأصلي والمسح الإيقاعي التلقائي المصحح. تتيح المجموعة إمكانية تكرار تجارب الدراسة وتطوير الأبحاث حول قياس الأسلوب الإيقاعي، وإسناد التأليف، والتحليل المتري الحسابي لمسرح العصر الذهبي.'
+  - id: "lecturadesafectada"
+    type: "inpress"
+    title: "Hacia una lectura desafectada del teatro del Siglo de Oro. Mediación algorítmica, atribución y canon"
+    authors: ["Álvaro Cuéllar"]
+    publication: "The mediation effect – La mediación como efecto"
+    editor: ["Hanno Ehrlicher", "Adriana Rodríguez Alfonso"]
+    publisher: "Peter Lang"
+    year: 2027
+    pages:
+    isbn:
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract:
+      es: "El capítulo contrasta treinta y siete decisiones críticas sobre la autoría de veintinueve obras del teatro del Siglo de Oro con resultados estilométricos documentados. Examina cómo la valoración literaria interviene en la delimitación de los repertorios y propone separar el juicio sobre el mérito de una obra de la investigación de su autoría, atendiendo a las consecuencias de esa relación para el canon."
+      en: "The chapter compares thirty-seven critical judgments concerning the authorship of twenty-nine Spanish Golden Age plays with documented stylometric results. It examines how literary evaluation shapes dramatic repertoires and proposes distinguishing judgments of a work’s merit from the investigation of its authorship, considering the implications of this relationship for the canon."
+
   - id: "resumenes"
     type: "inpress"
     title: "Resúmenes asistidos por modelos de lenguaje para un vasto corpus de obras literarias del Siglo de Oro"
