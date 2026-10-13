@@ -672,6 +672,21 @@ publications:
       ko: La estilometría rítmica a Examen en un corpus de 코미디 seguras de Lope de Vega 기사에 사용된 326개의 스페인 황금기 희곡에 대한 리듬 스캔 데이터세트입니다. 이전 리소스의 자료와 저자가 준비한 추가 데이터를 결합하여 귀속 실험의 복제와 황금 시대 극장의 리듬에 대한 컴퓨터 연구를 용이하게 합니다.
       ru: Набор данных ритмического сканирования 326 пьес Золотого века Испании, использованный в статье «La estilometría rítmica a Exemen en un Corpus de Comedias Seguras de Lope de Vega». Он объединяет материалы из предыдущих ресурсов и дополнительные данные, подготовленные автором для облегчения воспроизведения экспериментов по атрибуции и компьютерного исследования ритма в театре Золотого века.
       ar: مجموعة بيانات المسح الإيقاعي لـ 326 مسرحية من العصر الذهبي الإسباني المستخدمة في المقالة La estilometría rítmica a examen en un corpus de commedias seguras de Lope de Vega. فهو يجمع مواد من الموارد السابقة والبيانات الإضافية التي أعدها المؤلف لتسهيل تكرار تجارب الإسناد والدراسة الحسابية للإيقاع في مسرح العصر الذهبي.
+  - id: "infantedearagon"
+    type: "inpress"
+    title: "El infante de Aragón y sus credenciales para considerarla una nueva comedia de Lope de Vega"
+    authors:
+      - "Álvaro Cuéllar"
+      - "Alejandra Ulla Lorenzo"
+      - "Germán Vega García-Luengos"
+    publication: "Anuario Lope de Vega. Texto, literatura, cultura"
+    year: 2027
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract:
+      es: "El artículo propone atribuir a Lope de Vega El infante de Aragón, conservada en una suelta bajo el nombre de Andrés de Claramonte. Los indicios estilométricos se contrastan con el estudio del testimonio impreso, la onomástica, los usos ortológicos, la estructura estrófica y los paralelismos verbales con otras obras de Lope. También se examinan las pérdidas textuales y las discrepancias entre los indicios de datación."
+      en: "The article proposes attributing El infante de Aragón to Lope de Vega. The play survives in a suelta naming Andrés de Claramonte as its author. Stylometric evidence is assessed alongside the printed witness, character names, orthological usage, stanzaic structure, and verbal parallels with other plays by Lope. The study also examines textual losses and discrepancies among dating indicators."
+
   - id: "writersonia"
     type: "article"
     title: "Artificial Intelligence for Calligraphic Writer Identification: The Case of Lope de Vega’s Autographs"
