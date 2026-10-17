@@ -997,16 +997,16 @@ publications:
     
     
   - id: "PropuestasVelez"
-    type: "inpress"
+    type: "article"
     title: "Propuestas novedosas para incrementar y depurar el repertorio dramático de Luis Vélez de Guevara"
     authors: ["Álvaro Cuéllar", "Javier J. González Martínez", "Germán Vega García-Luengos"]
     publication: "Revista de Literatura"
-    volume:
-    number:
-    pages:
+    volume: 88
+    number: 176
+    article_number: 1645
     year: 2026
-    url:
-    thumbnail: "/assets/images/pubs/prensa.png"
+    url: "https://doi.org/10.3989/revliteratura.2026.02.1645"
+    thumbnail: "/assets/images/pubs/PropuestasVelez.png"
     abstract:
       es: "Este artículo aplica métodos de estilometría e inteligencia artificial para revisar el repertorio dramático de Luis Vélez de Guevara. Mediante modelos computacionales de atribución de autoría y análisis de similitud textual sobre un amplio corpus del teatro del Siglo de Oro, se proponen nuevas adscripciones y exclusiones dentro de su obra. Los resultados contribuyen a redefinir los límites del canon véleziano desde una perspectiva empírica y automatizada."
       en: "This article applies stylometric and artificial-intelligence methods to revise the dramatic repertory of Luis Vélez de Guevara. Through computational authorship-attribution models and textual-similarity analysis on a broad corpus of Spanish Golden Age theatre, it proposes new inclusions and exclusions within his oeuvre. The results help redefine the boundaries of the Velezian canon from an empirical and automated perspective."

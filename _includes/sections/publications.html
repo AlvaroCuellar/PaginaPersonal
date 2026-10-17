@@ -152,6 +152,9 @@
                     {% if pub.number %}
                       {% assign source_text = source_text | append: " (Nº " | append: pub.number | append: ")" %}
                     {% endif %}
+                    {% if pub.article_number %}
+                      {% assign source_text = source_text | append: ", " | append: pub.article_number %}
+                    {% endif %}
                     {% if pub.pages %}
                       {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
                     {% endif %}
@@ -287,6 +290,9 @@
                       {% endif %}
                       {% if pub.number %}
                         {% assign source_text = source_text | append: " (Nº " | append: pub.number | append: ")" %}
+                      {% endif %}
+                      {% if pub.article_number %}
+                        {% assign source_text = source_text | append: ", " | append: pub.article_number %}
                       {% endif %}
                       {% if pub.pages %}
                         {% assign source_text = source_text | append: ", pp. " | append: pub.pages %}
