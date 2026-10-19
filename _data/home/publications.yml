@@ -216,6 +216,7 @@ publications:
       ru: С помощью методов искусственного интеллекта и HTR (Transkribus) три публичные модели были обучены расшифровывать и модернизировать театральные тексты Золотого века Испании с высокой точностью (примерно 97% для гравюр и 91% для рукописей). Они позволили обработать около 1300 пьес, интегрированных в проекты ETSO и TEXORO, обеспечив прочную основу для филологического редактирования и стилометрических исследований авторства.
       ar: وباستخدام الذكاء الاصطناعي وتقنيات HTR (Transkribus)، تم تدريب ثلاثة نماذج عامة على نسخ وتحديث النصوص المسرحية للعصر الذهبي الإسباني بدقة عالية (حوالي 97% للمطبوعات و91% للمخطوطات). لقد أتاحت معالجة حوالي 1300 مسرحية، تم دمجها في مشروعي ETSO وTEXORO، مما يوفر أساسًا متينًا للتحرير اللغوي ودراسات التأليف الأسلوبي.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
       - "Vega Sánchez, Rodrigo; Favila Vázquez, Mariana; Trejo Rivera, Flor; et al. “Navegando en tres siglos de historia socioeconómica marítima con ayuda de la Inteligencia Artificial: el proyecto Flotas de la Nueva España.” CLIP de SEDIC: Revista de la Sociedad Española de Documentación e Información Científica, núm. 93, 2026. DOI: 10.47251/clip.n93.195."
 
 
@@ -326,6 +327,8 @@ publications:
       ru: Стилометрия применяется для датировки пьес Золотого века Испании с использованием датированных рукописей с автографом Лопе де Веги. Анализ слов, лемм и грамматических категорий показывает корреляцию между стилем и хронологией со средней ошибкой ± 5 лет, уменьшающейся до ± 4 в более крупном корпусе, что подтверждает потенциал этого метода для оценки дат составления.
       ar: يتم تطبيق قياس الأسلوب على تأريخ مسرحيات العصر الذهبي الإسباني، وذلك باستخدام مخطوطات توقيع مؤرخة من تأليف لوبي دي فيغا. يُظهر تحليل الكلمات والمفردات والفئات النحوية وجود علاقة بين الأسلوب والتسلسل الزمني، مع متوسط ​​خطأ يبلغ ±5 سنوات، وقد تم تخفيضه إلى ±4 في مجموعة أكبر، مما يؤكد إمكانية هذه التقنية في تقدير تواريخ التكوين.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
+      - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230. https://recyt.fecyt.es/index.php/acal/article/view/114898."
 
       - "Keith, Allison; Antonio Rojas Castro; Hanno Ehrlicher; y Sebastian Padó. “Investigating Features of the Gracioso of Pedro Calderón de la Barca.” Revista de Humanidades Digitales, vol. 11, 2026, pp. 68–91. DOI: 10.5944/rhd.vol.11.2026.48402."
       - "Vega García-Luengos, Germán. “La mujer por fuerza”, una comedia atribuida a Tirso de Molina que reclama la incorporación al repertorio de Lope de Vega. Anuario Lope de Vega. Texto, literatura, cultura, vol. 32, 2026."
@@ -748,6 +751,7 @@ publications:
       ru: В исследовании предлагается добавить «Французскую Лауру» в репертуар Лопе де Веги на основе анонимной рукописи, хранящейся в BNE. Анализы Transkribus и ETSO показывают явное лексическое сходство с произведениями Лопе, подкрепленное филологическими, метрическими и историческими свидетельствами. Исследование подтверждает потенциал цифровых инструментов для исследования испанского театра раннего Нового времени.
       ar: تقترح الدراسة إضافة La francesa Laura إلى مرجع Lope de Vega على أساس مخطوطة مجهولة المصدر محفوظة في BNE. تُظهر التحليلات التي أجريت مع Transkribus وETSO تقاربًا معجميًا واضحًا مع أعمال Lope، معززة بالأدلة اللغوية والمترية والتاريخية. تؤكد الدراسة إمكانات الأدوات الرقمية للبحث في المسرح الإسباني الحديث المبكر.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
       - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
       - "Ruiz Urbón, Cristina. “Problemas de identidad autorial en los entremeses de Luis Vélez de Guevara: una revisión del corpus desde la estilometría.” Librosdelacorte.es, núm. 32, 2026, pp. 360–386. DOI: 10.15366/ldc2026.18.32.017."
       - "Crivellari, Daniele. “En busca del hijo perdido: a propósito de una comedia novelesca atribuida a Lope (II).” Anuario Lope de Vega. Texto, literatura, cultura, vol. 32, 2026."
@@ -851,6 +855,7 @@ publications:
       ru: С помощью стилометрических методов анализируется корпус из 2800 пьес Золотого века Испании, чтобы выделить авторский отпечаток Кларамонте и определить надежный репертуар. Результаты связывают драматурга с 39 пьесами и 7 автомобилями, подтверждают надежное авторство («De lo vivo a lo pintado», «Deste agua no beberé», «La infelice Dorotea» и др.) и подтверждают недавние авторства, такие как «La estrella de Sevilla» и «Tan largo me lo fiáis».
       ar: تم تحليل مجموعة مكونة من 2800 مسرحية من العصر الذهبي الإسباني باستخدام تقنيات قياس الأسلوب لعزل بصمة تأليف كلارامونتي وتحديد مرجع موثوق. تربط النتائج الكاتب المسرحي بـ 39 مسرحية و7 سيارات، وتؤكد التأليف الآمن (De lo vivo a lo pintado، Deste agua no beberé، La infelice Dorotea، من بين آخرين)، وتدعم الإسنادات الحديثة مثل La estrella de Sevilla وTan largo me lo fiáis.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
 
       - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
 
@@ -1137,6 +1142,10 @@ publications:
       ko: 디지털 도구는 칼데로니안 레퍼토리에 공동 극이 하나 더 추가되어야 한다는 첫 번째 징후를 제공했습니다. Calderón은 Parte XXXII de Nuevas escogidas(1669) 판에서 Cáncer, Rosete 및 Rojas Zorrilla가 쓴 El bandolero Solposto의 첫 번째 jornada의 진정한 저자인 것으로 보입니다. 어휘 스타일로메트리는 그의 글쓰기 패턴, 운율 습관 및 표현 시스템과의 유사성을 확인하여 감지된 수많은 칼데로니안 스타일 마커를 강조합니다.
       ru: Цифровые инструменты дали первые признаки того, что в репертуар Кальдерона следует добавить еще одну совместную пьесу. Кальдерон, по-видимому, является истинным автором первой хорнады Elbandolero Solposto, приписываемой Раку, Розете и Рохасу Соррилье в издании Parte XXXII de Nuevas escogidas (1669). Лексическая стилометрия подтверждает свою близость к его образцам письма, метрическим привычкам и выразительной системе, подчеркивая большое количество обнаруженных маркеров кальдеронского стиля.
       ar: لقد قدمت الأدوات الرقمية المؤشرات الأولى التي تشير إلى ضرورة إضافة مسرحية تعاونية أخرى إلى ذخيرة كالديرون. يبدو أن كالديرون هو المؤلف الحقيقي للكتاب الأول من El bandolero Solposto، المنسوب إلى كانسر وروزيتي وروجاس زوريلا في طبعة الجزء الثاني والثلاثين من نويفاس إسكوجيداس (1669). يؤكد قياس الأسلوب المعجمي تقاربه مع أنماط كتابته، وعاداته الوزنية، ونظامه التعبيري، مما يسلط الضوء على العدد الكبير من علامات الأسلوب الكالديروني المكتشفة.
+    cited_by:
+      - "Pedraza Jiménez, Felipe B., y Milagros Rodríguez Cáceres. «Calderón colaborador: circunstancias y afinidades». Anuario Calderoniano, vol. 19, 2026, pp. 281–300. https://recyt.fecyt.es/index.php/acal/article/view/118769."
+      - "Núñez Sepúlveda, Ariel. «Bibliografía calderoniana (2025)». Anuario Calderoniano, vol. 19, 2026, pp. 351–365; referencia en p. 355. (Registro en bibliografía anual). https://recyt.fecyt.es/index.php/acal/article/view/123149/89581."
+
   - id: "xviicatalanprints"
     type: "model"
     title: "XVII Catalan Prints"
@@ -1306,6 +1315,7 @@ publications:
       ru: Критическое издание комедии «Французская Лаура», приписываемой Лопе де Веге. Опубликованный престижным издательством RBA - Gredos, он оказал заметное влияние как в академических кругах, так и в обществе, закрепив предполагаемое авторство и распространив результаты стилометрических и филологических исследований.
       ar: طبعة نقدية من الكوميديا ​​La francesa Laura، المنسوبة إلى Lope de Vega. تم نشره من قبل RBA - Gredos بصمة مرموقة، وكان له تأثير ملحوظ في كل من الأوساط الأكاديمية والمجتمع، وتعزيز التأليف المقترح ونشر نتائج البحوث الأسلوبية واللغوية.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
 
 
       - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
@@ -1477,6 +1487,7 @@ publications:
       ru: Система поиска открытого доступа для корпуса испанского театра Золотого века, включающего более 3000 произведений и 400 драматургов, общим объемом 37 миллионов слов. Он ежедневно используется специалистами для лингвистических и филологических запросов.
       ar: نظام بحث مفتوح الوصول لمجموعة مسرح العصر الذهبي الإسباني، الذي يضم أكثر من 3000 عمل و400 كاتب مسرحي، بإجمالي 37 مليون كلمة. ويستخدم يوميا من قبل المتخصصين للاستفسارات اللغوية والفلولوجية.
     cited_by:
+      - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230. https://recyt.fecyt.es/index.php/acal/article/view/114898."
 
       - "Iglesias Balsa, Candela. “Un nuevo testimonio de Ni Amor se libra de amor: el manuscrito 26-III-11 de la biblioteca del Instituto Valencia de Don Juan.” Revista de Literatura, vol. 88, núm. 175, 2026, 1648. DOI: https://doi.org/10.3989/revliteratura.2026.01.1648."
       - "Londero, Renata. “Ecos de la batalla de Aljubarrota en el teatro áureo: dos dramas históricos de Luis Vélez de Guevara y Tirso de Molina.” Revista de Poética Medieval, vol. 40, núm. 1, 2026, pp. 307–322. DOI: 10.37536/RPM.2026.40.1.117904."
@@ -1956,6 +1967,7 @@ publications:
       ru: CETSO - это базовый корпус ETSO, включающий около 3000 пьес Золотого века Испании, модернизированных и нормализованных для стилометрического анализа. Он объединяет общедоступные, исследовательские и автоматически расшифрованные тексты, созданные с помощью Transkribus. Он представляет собой крупнейший сравнительный корпус испанского театра раннего Нового времени на испанском языке.
       ar: CETSO هي المجموعة الأساسية لـ ETSO، مع حوالي 3000 مسرحية من العصر الذهبي الإسباني تم تحديثها وتطبيعها للتحليل الأسلوبي. فهو يجمع بين النصوص العامة والبحثية والنصوص المكتوبة تلقائيًا والتي تم إنتاجها باستخدام Transkribus. وهو يشكل أكبر مجموعة مقارنة للمسرح الإسباني الحديث المبكر باللغة الإسبانية.
     cited_by:
+      - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230. https://recyt.fecyt.es/index.php/acal/article/view/114898."
 
 
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."
@@ -2078,6 +2090,8 @@ publications:
       ru: Цифровой портал, предоставляющий открытый доступ к стилометрическому анализу более 3000 пьес Золотого века Испании. Это проект, которому автор посвятил больше всего времени в последние годы, и который стал одним из наиболее широко используемых ресурсов среди исследователей в этой области.
       ar: بوابة رقمية توفر وصولاً مفتوحًا إلى التحليلات الأسلوبية لأكثر من 3000 مسرحية من العصر الذهبي الإسباني. إنه المشروع الذي خصص له المؤلف معظم وقته في السنوات الأخيرة وأصبح أحد المصادر الأكثر استخدامًا بين الباحثين في هذا المجال.
     cited_by:
+      - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163. https://recyt.fecyt.es/index.php/acal/article/view/118802."
+      - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230. https://recyt.fecyt.es/index.php/acal/article/view/114898."
       - "García Fernández, Óscar. “Adscripción de nuevas comedias sueltas inexploradas al taller de imprenta de Simón Fajardo.” Diablotexto Digital, vol. 18, 2026, e33778, pp. 1–21. https://turia.uv.es/index.php/diablotexto/es/article/view/33778."
       - "Ribao Pereira, Montserrat. “Ecos del Siglo de Oro en el drama La Ricahembra (1854), de Manuel Tamayo y Aureliano Fernández-Guerra.” En Enrique Rubio Cremades, Enrico Di Pastena y Julia Bernal Ferriz (eds.), El Romanticismo hispánico ante el Siglo de Oro. Alicante: Biblioteca Virtual Miguel de Cervantes, 2026, pp. 306–323. https://www.cervantesvirtual.com/nd/ark:/59851/bmc1408600."
       - "Escobar Castillo, Andrea. “Desafíos de la transcripción automática de textos en el presente y futuro de CHARTA: el caso del corpus del marqués de Velada.” En Andrés Enrique-Arias, Marina Gomila Albal y Ruth Miguel Franco (eds.), La historia del español a través de sus documentos: coordenadas geográficas y sociales de la variación lingüística. Berlín: Walter de Gruyter, 2026. https://books.google.es/books?id=UooMEgAAQBAJ&pg=PA391."
