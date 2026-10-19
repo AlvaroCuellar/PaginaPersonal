@@ -72,6 +72,18 @@ featured_ids:
   - "viena2022"
 talks:
 
+  - id: "madridclaramonte2026"
+    author: "Álvaro Cuéllar, Alejandra Ulla Lorenzo, Germán Vega García-Luengos"
+    type: communication
+    date: "2026-10-16"
+    title: "Una nueva comedia de Lope de Vega, erróneamente atribuida a Andrés de Claramonte"
+    event: "Congreso Internacional Madrid en el Teatro Español del Siglo de Oro"
+    institution: "Biblioteca Regional de Madrid"
+    location:
+      es: "Madrid, España"
+      en: "Madrid, Spain"
+
+
 
   - id: "aiso2026"
     author: "Álvaro Cuéllar"
