@@ -298,6 +298,7 @@ publications:
 
       - "Valdés Gázquez, Ramón. “Por la dignidad del texto: El teatro del Siglo de Oro y de Lope de Vega en la red. Principios ecdóticos y de Humanidades Digitales.” Editar el Siglo de Oro en la era digital, 2024, pp. 71–108."
       - "Khan, Arsh, et al. “OCR Approaches for Humanities: Applications of Artificial Intelligence/Machine Learning on Transcription and Transliteration of Historical Documents.” Digital Studies in Language and Literature, vol. 1, no. 1-2, 2024, pp. 85-112."
+      - "Guzmán Reyes, Rafael Marcelino. “Guardianes digitales. La IA al servicio del legado cultural.” En Guadalupe Salazar González (coord.), Desarrollo y conservación del patrimonio cultural-natural en el contexto neoliberal y nuevas tecnologías. Universidad Autónoma de San Luis Potosí, 2024, pp. 307–333. Referencias a “La Inteligencia Artificial al rescate del Siglo de Oro” y ETSO en p. 312, notas 16–17. https://repositorioinstitucional.uaslp.mx/xmlui/bitstream/handle/i/9304/Libro.FH-UASLP.2024.Desarrollo.Salazar.pdf?sequence=1."
       - "Brioso Santos, Héctor. “«El caballero», comedia famosa… ¿de don Agustín Moreto?” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 2, 2023, pp. 469–485."
       - "Sanz-Lázaro, Fernando. Ritmo y estructura de la comedia áurea: posibilidades y límites del análisis digital automático del teatro español clásico. Tesis doctoral, Universität Wien, 2023. DOI: 10.25365/thesis.75102."
       - "Vinatea, Martina. “Noticia sobre la plataforma de Humanidades Digitales «Estudios Indianos».” Boletín de la Academia Peruana de la Lengua, vol. 74, 2023, pp. 283–299."
@@ -566,6 +567,8 @@ publications:
 
       - "Pinche, Ariane, et al. “CATMuS-Medieval: Consistent Approaches to Transcribing ManuScripts.” Digital Humanities–DH2024, 2024."
 
+      - "Ripoll Cervera, Juan Enrique. Inteligencia artificial e incunables poéticos: creación de un modelo extendido de transcripción automática. Tesis doctoral, Universidad de Alicante, 2024. Discusión de Coloso Español en pp. 132, 136 y 467; enlace al modelo en p. 132, nota 207. https://rua.ua.es/server/api/core/bitstreams/f302e6d6-b2db-4692-badd-ea0f96a4f72e/content."
+      - "Ceballos Viro, Álvaro. “Unveiling private anthologies: exploring lay readers’ poetic repertoire.” Póster científico, IGEL Conference 2024, 2024. Uso de Coloso Español para la transcripción de cinco antologías manuscritas. https://orbi.uliege.be/handle/2268/319957."
       - "Fradejas Rueda, José Manuel. “El Coloso español.” 7PartidasDigital. Edición crítica digital de las Siete Partidas, 19 de diciembre de 2023. DOI: 10.58079/vemr."
 
   - id: "rhythmiccorpus100"
@@ -657,6 +660,13 @@ publications:
       ko: 스페인 황금기 연극은 아날로그 연구만으로는 해결하기 어려운 문학적 과제를 제기합니다. CNN(컨벌루션 신경망)은 자동 전사 및 필기 식별은 물론 데이터를 확장하고 모델 훈련을 강화하는 합성 글쓰기 생성을 위한 강력한 솔루션을 제공합니다.
       ru: Испанский театр Золотого века ставит перед собой филологические проблемы, которые трудно решить только с помощью аналоговых исследований. Сверточные нейронные сети (CNN) предлагают мощные решения для автоматической транскрипции и идентификации почерка, а также для создания синтетического письма, которое расширяет данные и усиливает обучение моделей.
       ar: يطرح مسرح العصر الذهبي الإسباني تحديات فقهية يصعب معالجتها من خلال البحث التناظري وحده. توفر الشبكات العصبية التلافيفية (CNNs) حلولاً قوية للنسخ التلقائي وتحديد خط اليد، فضلاً عن توليد الكتابة الاصطناعية التي تعمل على توسيع البيانات وتعزيز التدريب النموذجي.
+    cited_by:
+      - "JVP. Reseña del volumen Literatura, teatro e inteligencia artificial, ed. José Romera Castillo. Artescénicas, núm. 40, marzo de 2026, pp. 87–88. Comentario del capítulo en p. 88. https://academiadelasartesescenicas.es/uploads/files/docs/aaee40webok-1.pdf."
+      - "Arcega Morales, Jesús Ángel. Reseña del volumen Literatura, teatro e inteligencia artificial, ed. José Romera Castillo. Acotaciones. Investigación y Creación Teatral, núm. 56, 2026, pp. 697–702. Comentario del capítulo en p. 700. DOI: https://doi.org/10.32621/ACOTACIONES.2026.56.32."
+      - "Martín Lago, Zoe. Reseña del volumen Literatura, teatro e inteligencia artificial, ed. José Romera Castillo. Castilla. Estudios de Literatura, núm. 17, 2026, pp. 696–698. Comentario del capítulo en p. 697. DOI: https://doi.org/10.24197/ra93vf44."
+      - "Orazi, Veronica. Reseña del volumen Literatura, teatro e inteligencia artificial, ed. José Romera Castillo. Rassegna iberistica, vol. 49, núm. 125, 2026, pp. 97–98. Mención del capítulo en p. 98. DOI: https://doi.org/10.30687/Ri/2037-6588/2026/26/009."
+      - "Ruiz Cano, Marina. Reseña del volumen Literatura, teatro e inteligencia artificial, ed. José Romera Castillo. Anales de Literatura Española, núm. 45, 2026, pp. 301–305. Comentario del capítulo en p. 304. DOI: https://doi.org/10.14198/ALEUA.32783."
+
   - id: "scansiondataset326"
     type: "dataset"
     title: "Rhythmic Scansion Dataset of 326 Spanish Golden Age Plays for Authorship Attribution"
@@ -2221,6 +2231,7 @@ publications:
       - "Belmonte Bermúdez, Luis de. El ollero de Ocaña. Edición crítica y anotada de C. George Peale. Santa Barbara: Publications of eHumanista, 2025."
 
 
+      - "Gómez Martos, Francisco (estudio y edición). La paciencia en la fortuna. Lemir, núm. 29, 2025, sección Textos, pp. 1097–1216. Referencia a ETSO y discusión del análisis en p. 1098, nota 4. https://parnaseo.uv.es/lemir/Revista/Revista29/Textos/05_La_Paciencia_en_la_Fortuna.pdf."
       - "Menta Garuz, Antonio. “Exploring Artificial Intelligence Techniques in the Digital Humanities Domain: From Authorship Verification to Automatic Sentence Simplification.” Tesis doctoral, Universidad Nacional de Educación a Distancia, 2024. Referencia bibliográfica en p. 126. https://hdl.handle.net/20.500.14468/25817."
       - "Alonso Medel, Rocío. Reseña de Juan Pérez de Montalbán, Obras. Segundo tomo de comedias. Volumen 2.4, ed. general María Moya, eds. Davinia Rodríguez Ortega, Mónica García Quintero y Claudia Demattè. Anuario Lope de Vega. Texto, literatura, cultura, vol. 30, 2024, pp. 482–488. DOI: https://doi.org/10.5565/rev/anuariolopedevega.528."
 
@@ -2380,6 +2391,7 @@ publications:
 
 
 
+      - "Guzmán Reyes, Rafael Marcelino. “Guardianes digitales. La IA al servicio del legado cultural.” En Guadalupe Salazar González (coord.), Desarrollo y conservación del patrimonio cultural-natural en el contexto neoliberal y nuevas tecnologías. Universidad Autónoma de San Luis Potosí, 2024, pp. 307–333. Referencias a “La Inteligencia Artificial al rescate del Siglo de Oro” y ETSO en p. 312, notas 16–17. https://repositorioinstitucional.uaslp.mx/xmlui/bitstream/handle/i/9304/Libro.FH-UASLP.2024.Desarrollo.Salazar.pdf?sequence=1."
       - "Ferreira Barrocal, Jorge. “La paciencia en la fortuna: una obra de Claramonte erróneamente atribuida a Lope de Vega.” Anuario Lope de Vega, vol. 29, 2023, pp. 199–223."
       - "Resta, Ilaria. La textura tragicómica en los dramas de Lope inspirados en las novelle de Giraldi Cinzio. Revista de Filología Románica, vol. 40, 2023, pp. 59–69."
       - "Ferrer Valls, Teresa, y Ariadna Fuertes Seder. “Fundamentos y ampliación de la federación de bases de datos sobre teatro clásico español ASODAT (segunda fase).” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 11, no. 1, 2023, pp. 15–37."
@@ -2643,6 +2655,7 @@ publications:
       - "Fernández Mosquera, Santiago. “La Lindona de Galicia, comedia de protagonista galega.” Consello da Cultura Galega, 2021. https://consellodacultura.gal/especiais/a-lindona-de-galicia/texto.php?esp=10291&mat=80231."
       - "Napolskij, Milaydis Sosa. Native Language Influence Detection. Cross-Linguistic Analysis of Health Sciences Original Scientific Research Articles. 2021."
       - "Peale, C. George (ed.). Francisco Agustín Tárrega. El renegado de Jerusalén. Santa Bárbara: Publications of eHumanista, 2021."
+      - "Vázquez Pascual, Blanca. (D)escribiendo a un asesino. Análisis estilométrico de los verba dicendi en cuatro escritores españoles de novela negra. Trabajo de Fin de Grado, Universidad de Valladolid, 2021. Mención a Álvaro Cuéllar, Germán Vega y ETSO en p. 49. https://uvadoc.uva.es/bitstream/handle/10324/51243/TFG_F_2021_250.pdf?sequence=1."
       - "Tomasi, Giulia. “Las Humanidades Digitales y la base de datos MeMoRam: para un enfoque sistemático hacia los motivos en los libros de caballerías.” Historias Fingidas, núm. 8, 2020, pp. 129–156."
       - "Medel, Rocío Alonso. “Reseña de Obras de Juan Pérez de Montalbán, Segundo tomo de comedias, dir. Claudia Demattè, Kassel, Reichenberger, 2019, vol. 2.1, 492 pp.” Hipogrifo: Revista de Literatura y Cultura del Siglo de Oro, vol. 8, no. 1, 2020, pp. 639–642."
       - "Hernández Lorenzo, Laura. “Humanidades Digitales y Literatura española: 50 años de repaso histórico y panorámica de proyectos representativos.” Janus: Estudios sobre el Siglo de Oro, no. 9, 2020, pp. 562–595. DOI: 10.17979/janus.2020.0.09.10400."
