@@ -761,6 +761,8 @@ body.modal-open .featured-carousel {
 }
 
 .citation-overlay-content {
+    box-sizing: border-box;
+    min-width: 0;
     background: var(--color-white);
     border-radius: var(--border-radius);
     max-width: 500px;
@@ -783,12 +785,15 @@ body.modal-open .featured-carousel {
 }
 
 .citation-overlay-header h4 {
+    min-width: 0;
+    overflow-wrap: anywhere;
     margin: 0;
     color: var(--text-primary);
     font-size: var(--text-lg);
 }
 
 .citation-close {
+    flex-shrink: 0;
     background: none;
     border: none;
     font-size: 1.5rem;
@@ -809,6 +814,8 @@ body.modal-open .featured-carousel {
 }
 
 .citation-list {
+    min-height: 0;
+    min-width: 0;
     padding: var(--spacing-l);
     max-height: calc(60vh - 80px); /* Restar altura del header */
     overflow-y: auto;
@@ -817,6 +824,9 @@ body.modal-open .featured-carousel {
 }
 
 .citation-item {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    white-space: normal;
     margin-bottom: var(--spacing-m);
     padding: var(--spacing-m) var(--spacing-m) var(--spacing-m) 3rem;
     background: var(--bg-secondary);
@@ -843,6 +853,36 @@ body.modal-open .featured-carousel {
 
 .citation-item:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+    .citation-overlay-content {
+        width: calc(100% - 24px);
+        max-height: 85vh;
+        max-height: 85dvh;
+    }
+
+    .citation-overlay-header,
+    .citation-list {
+        padding: 12px;
+    }
+
+    .citation-overlay-header {
+        gap: 12px;
+    }
+
+    .citation-list {
+        max-height: none;
+    }
+
+    .citation-item {
+        padding: 12px 12px 12px 3rem;
+        text-align: left;
+    }
+
+    .citation-item::before {
+        top: 12px;
+    }
 }
 
 /* Thumbnail para grid normal - columna 1 */
