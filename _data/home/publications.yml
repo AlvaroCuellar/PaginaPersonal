@@ -191,6 +191,19 @@ publications:
       ru: В статье анализируется влияние длины текста на стилометрическую атрибуцию в театре Золотого века Испании. Это показывает, что сокращение приписываемого текста более вредно, чем сокращение обучающего корпуса, что делает очень короткие тексты особенно проблематичными.
       ar: يحلل المقال كيفية تأثير طول النص على الإسناد الأسلوبي في مسرح العصر الذهبي الإسباني. ويظهر أن تقصير النص المنسوب أكثر ضررًا من تقليل مجموعة التدريب، مما يجعل النصوص القصيرة جدًا إشكالية بشكل خاص.
     cited_by:
+  - id: "belmonte"
+    type: "inpress"
+    title: "Estilometría rodante y aprendizaje automático para la restitución del repertorio teatral de Luis de Belmonte Bermúdez"
+    authors:
+      - "Álvaro Cuéllar"
+    publication: "Arte Nuevo. Revista de Estudios Áureos"
+    year: 2027
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract:
+      es: "El artículo examina el repertorio teatral de Luis de Belmonte Bermúdez mediante estilometría rodante y aprendizaje automático. El análisis de casi tres mil textos apunta a su presencia en veintiséis comedias atribuidas a otros dramaturgos o transmitidas como anónimas, tanto en obras completas como en pasajes de escritura en colaboración. Los resultados plantean nuevas propuestas de atribución que corresponde a la investigación filológica contrastar y precisar."
+      en: "The article examines Luis de Belmonte Bermúdez’s theatrical repertory through rolling stylometry and machine learning. An analysis of nearly three thousand texts points to his presence in twenty-six plays attributed to other dramatists or transmitted anonymously, encompassing both entire plays and passages within collaboratively written works. The results offer new attribution proposals for philological research to assess and refine."
+
   - id: "transcri"
     type: "article"
     title: "La Inteligencia Artificial al rescate del Siglo de Oro: transcripción y modernización automática de mil trescientos impresos y manuscritos teatrales"
