@@ -505,6 +505,19 @@ publications:
       - "González Escudero, Irene. “La figura de Caín en el teatro del Siglo de Oro. Edición y estudio de “El primer condenado”, comedia atribuida a Felipe Godínez.” 2021. (Tesis doctoral, Universidad de Valladolid)"
       - "Vega García-Luengos, Germán. “Juan Ruiz de Alarcón recupera «La monja alférez».” En Rafael González Cañal; y Almudena García González (eds.), Sor Juana Inés de la Cruz y el teatro novohispano: XLII Jornadas de teatro clásico (Almagro, 9-11 julio 2019). Ediciones de la Universidad de Castilla-La Mancha, 2021, pp. 89–149."
       - "Marcos Rodríguez, Emma. “Texto, atribución y censura de Próspera y Adversa fortuna de don Álvaro de Luna.” Talía: Revista de Estudios Teatrales, vol. 3, 2021, pp. 79–89."
+  - id: "cofretexoro"
+    type: "dataset"
+    title: "COFRE del TEXORO: corpus de frecuencias léxicas de la literatura del Siglo de Oro"
+    authors:
+      - "Álvaro Cuéllar"
+    year: 2026
+    publication: "Zenodo"
+    url: "https://doi.org/10.5281/zenodo.23771582"
+    thumbnail: "/assets/images/pubs/cofretexoro.png"
+    abstract:
+      es: "Corpus de frecuencias léxicas de las 3.222 obras y colecciones de teatro, prosa y poesía reunidas en TEXORO. Su primera versión comprende 48.314.924 apariciones de 419.798 formas distintas y ofrece recuentos por obra, jornadas, actos y secciones poéticas, junto con sus atribuciones y fuentes de procedencia. Los datos permiten estudiar el vocabulario, comparar textos y realizar análisis estilométricos. Incluye una guía de uso en español e inglés."
+      en: "Word-frequency corpus of the 3,222 works and collections of drama, prose and poetry gathered in TEXORO. Its first release contains 48,314,924 occurrences of 419,798 distinct forms and provides counts by work, jornada, act and poetry section, together with authorship information and sources. The data support vocabulary research, textual comparison and stylometric analysis. A Spanish–English user guide is included."
+
   - id: "tenotodistante"
     type: "chapter"
     title: "«Te noto distante». La consolidación de las Humanidades Digitales para el estudio del Siglo de Oro (2023–2026)"
