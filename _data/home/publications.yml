@@ -343,6 +343,7 @@ publications:
       ru: Стилометрия применяется для датировки пьес Золотого века Испании с использованием датированных рукописей с автографом Лопе де Веги. Анализ слов, лемм и грамматических категорий показывает корреляцию между стилем и хронологией со средней ошибкой ± 5 лет, уменьшающейся до ± 4 в более крупном корпусе, что подтверждает потенциал этого метода для оценки дат составления.
       ar: يتم تطبيق قياس الأسلوب على تأريخ مسرحيات العصر الذهبي الإسباني، وذلك باستخدام مخطوطات توقيع مؤرخة من تأليف لوبي دي فيغا. يُظهر تحليل الكلمات والمفردات والفئات النحوية وجود علاقة بين الأسلوب والتسلسل الزمني، مع متوسط ​​خطأ يبلغ ±5 سنوات، وقد تم تخفيضه إلى ±4 في مجموعة أكبر، مما يؤكد إمكانية هذه التقنية في تقدير تواريخ التكوين.
     cited_by:
+      - "Escudero, Irene G. «De un yerro nacen mil. Una comedia inédita atribuida a Andrés de Claramonte». Studia Aurea, vol. 20, 2026 (en prensa)."
       - "Gilabert, Gaston. «“Aquesa gravedad maravillosa”: El ganso de oro como laboratorio de versificación en los márgenes del Arte nuevo». En Carlos Brito Díaz, Christophe Couderc, Claudine Marion-Andrès y Philippe Meunier (eds.), El primer teatro de Lope desde el tablado: nuevas lecturas. Estudios ofrecidos a Milagros Torres. Madrid–Frankfurt: Iberoamericana–Vervuert, 2026, pp. 163–194."
       - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163."
       - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230."
@@ -564,6 +565,8 @@ publications:
       ru: Супермодель искусственного интеллекта, которая объединяет все предыдущие модели транскрипции испанских текстов, как печатных, так и рукописных, любого периода. Обучено на 11 миллионах слов с точностью 96%. Координируемый Альваро Куэльяром, он объединяет материалы различных академических групп и представляет собой важную веху в обработке латиноамериканских архивов и библиотек.
       ar: عارضة أزياء فائقة الذكاء تعمل على توحيد جميع النماذج السابقة لنسخ النصوص الإسبانية، المطبوعة والمخطوطة، من أي فترة. تم التدريب على 11 مليون كلمة بدقة 96%. يجمع هذا المشروع، الذي يتولى تنسيقه ألفارو كويلار، مواد من فرق أكاديمية مختلفة ويمثل علامة فارقة في معالجة الأرشيفات والمكتبات ذات الأصول الأسبانية.
     cited_by:
+      - "García Pérez, Marcos. «La filiación de las ediciones y traducciones del Palmerín de Olivia en el siglo XVI». Tirant, núm. 27, 2024, pp. 361–391. DOI: 10.7203/tirant.27.30100."
+      - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
       - "Vega Sánchez, Rodrigo; Favila Vázquez, Mariana; Trejo Rivera, Flor; et al. “Navegando en tres siglos de historia socioeconómica marítima con ayuda de la Inteligencia Artificial: el proyecto Flotas de la Nueva España.” CLIP de SEDIC: Revista de la Sociedad Española de Documentación e Información Científica, núm. 93, 2026. DOI: 10.47251/clip.n93.195."
       - "Echavarria, Andres. “Aplicación de HTR a la transcripción de impresos antiguos y manuscritos.” En Maria José Afanador Llach y Nicolás Vaughan (eds.), Ctrl+F: Texto, archivo e interpretación en entornos digitales, Bogotá: Universidad de los Andes, 2026, pp. 268–313. ISBN 978-628-7903-08-1. HAL: hal-05631466."
       - "González Bañuelos, Katerine Lizet. Reseña de Inteligencia artificial e incunables poéticos: un modelo de transcripción automática. Revista de Cancioneros Impresos y Manuscritos, núm. 15, 2026, pp. 324–329. Comentario sobre Coloso Español en p. 327. DOI: 10.14198/rcim.30397."
@@ -900,6 +903,7 @@ publications:
       ru: С помощью стилометрических методов анализируется корпус из 2800 пьес Золотого века Испании, чтобы выделить авторский отпечаток Кларамонте и определить надежный репертуар. Результаты связывают драматурга с 39 пьесами и 7 автомобилями, подтверждают надежное авторство («De lo vivo a lo pintado», «Deste agua no beberé», «La infelice Dorotea» и др.) и подтверждают недавние авторства, такие как «La estrella de Sevilla» и «Tan largo me lo fiáis».
       ar: تم تحليل مجموعة مكونة من 2800 مسرحية من العصر الذهبي الإسباني باستخدام تقنيات قياس الأسلوب لعزل بصمة تأليف كلارامونتي وتحديد مرجع موثوق. تربط النتائج الكاتب المسرحي بـ 39 مسرحية و7 سيارات، وتؤكد التأليف الآمن (De lo vivo a lo pintado، Deste agua no beberé، La infelice Dorotea، من بين آخرين)، وتدعم الإسنادات الحديثة مثل La estrella de Sevilla وTan largo me lo fiáis.
     cited_by:
+      - "Escudero, Irene G. «De un yerro nacen mil. Una comedia inédita atribuida a Andrés de Claramonte». Studia Aurea, vol. 20, 2026 (en prensa)."
       - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163."
 
       - "Rodríguez Nicolás, Sergio. “Juan de Zabaleta, autor de El pleito del demonio con la Virgen (I).” Librosdelacorte.es, núm. 32, 2026, pp. 387–407. DOI: 10.15366/ldc2026.18.32.018."
@@ -1498,6 +1502,7 @@ publications:
       ru: Интегрированная база данных испанского классического театра, в которой собраны и описаны отдельные театральные репродукции Золотого века Испании. ISTAE централизует информацию, разбросанную по различным каталогам и архивам, облегчая консультации и изучение театрального наследия Золотого века с помощью открытых цифровых ресурсов.
       ar: قاعدة بيانات متكاملة للمسرح الكلاسيكي الإسباني تجمع وتصف المطبوعات المسرحية الفضفاضة من العصر الذهبي الإسباني. تقوم ISTAE بمركزية المعلومات المنتشرة عبر مختلف الفهارس والمحفوظات، مما يسهل التشاور ودراسة التراث المسرحي للعصر الذهبي من خلال الموارد الرقمية المفتوحة.
     cited_by:
+      - "Sánchez García, María Dolores. «Una propuesta para la identificación de las ediciones de las “comedias sueltas” del siglo XVIII: el abandono de la “ese larga” y la sustitución del acento grave por el acento agudo». Hipogrifo. Revista de Literatura y Cultura del Siglo de Oro, vol. 14, núm. 1, 2026, pp. 819–832. DOI: 10.13035/H.2026.14.01.50."
       - "García Fernández, Óscar. “Nuevos avances en la adscripción tipográfica de algunos impresos sueltos de Rojas Zorrilla.” Janus. Estudios sobre el Siglo de Oro, núm. 15, 2026. DOI: 10.17979/janus.2026.15.12916."
       - "Casariego Castiñeira, Paula. “Los impresos sueltos teatrales del tomo CD.122.514 de la Biblioteca Nacional Universitaria de Estrasburgo: noticia bibliográfica.” Janus, núm. 14, 2025."
 
@@ -1536,6 +1541,9 @@ publications:
       ru: Система поиска открытого доступа для корпуса испанского театра Золотого века, включающего более 3000 произведений и 400 драматургов, общим объемом 37 миллионов слов. Он ежедневно используется специалистами для лингвистических и филологических запросов.
       ar: نظام بحث مفتوح الوصول لمجموعة مسرح العصر الذهبي الإسباني، الذي يضم أكثر من 3000 عمل و400 كاتب مسرحي، بإجمالي 37 مليون كلمة. ويستخدم يوميا من قبل المتخصصين للاستفسارات اللغوية والفلولوجية.
     cited_by:
+      - "Fernández Rodríguez, Natalia. «Juana de Austria del lienzo a la escena. Visualidad y estrategias metateatrales en La hija de Carlos V». Studia Aurea, vol. 20, 2026 (en prensa)."
+      - "Escudero, Irene G. «De un yerro nacen mil. Una comedia inédita atribuida a Andrés de Claramonte». Studia Aurea, vol. 20, 2026 (en prensa)."
+      - "Pacheco Martínez, Irene. Reescritura y traducción del teatro calderoniano en el contexto fundacional de la dramaturgia nacional alemana. Tesis doctoral, Universitat de València, 2025."
       - "Blanco Campos, Félix. «Entre la autoparodia y la crítica velada al sistema nobiliario: una aproximación a los figurones de Alonso de Castillo Solórzano». Edad de Oro, vol. 45, 2026, pp. 145–160. DOI: 10.15366/edadoro2026.45.007."
       - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230."
 
@@ -1753,6 +1761,8 @@ publications:
       ru: Модель искусственного интеллекта, обученная на 3 250 116 словах, способна расшифровывать и модернизировать рукописи Золотого века Испании с точностью 90,8%. Ресурс, широко используемый академическим сообществом и цитируемый как минимум в четырех публикациях.
       ar: نموذج ذكاء اصطناعي تم تدريبه على 3,250,116 كلمة، وهو قادر على نسخ وتحديث مخطوطات العصر الذهبي الإسباني بدقة تصل إلى 90.8%. مصدر يستخدم على نطاق واسع من قبل المجتمع الأكاديمي وتم الاستشهاد به في أربعة منشورات على الأقل.
     cited_by:
+      - "Bazzaco, Stefano. “Revolucionar el acceso al patrimonio librario: los sistemas de HTR entre humanidades digitales y ciencia de la información.” Philologia Hispalensis, vol. 38, no. 2, 2024, pp. 59–77."
+      - "Murrieta-Flores, Patricia, et al. “Unlocking Colonial Records with Artificial Intelligence: Achieving the Automated Transcription of Large-Scale 16th and 17th-Century Latin American Historical Collections.” STAR: Science & Technology of Archaeological Research, vol. 11, no. 1, 2025, e2484828."
       - "Romero, Martin Horna; y Roxana Perca Chagua. “Quinquenio de la aplicación de la inteligencia artificial en la archivística: una revisión sistemática en revistas académicas.” BiD, vol. 54, no. 2, 2025."
 
       - "Cleofe, Edward Arellano. “Close Textual Analysis, Close Skeletal Analysis: Postcolonial Hybridity Approaches to Administrative & Clerical Document Content Analysis and Osteobiographies of Care of Early Modern Period Spanish Colonialism in Camarines, Bicol, Philippines.” PhD dissertation, University of California, Los Angeles, 2025."
@@ -2021,6 +2031,8 @@ publications:
       ru: CETSO - это базовый корпус ETSO, включающий около 3000 пьес Золотого века Испании, модернизированных и нормализованных для стилометрического анализа. Он объединяет общедоступные, исследовательские и автоматически расшифрованные тексты, созданные с помощью Transkribus. Он представляет собой крупнейший сравнительный корпус испанского театра раннего Нового времени на испанском языке.
       ar: CETSO هي المجموعة الأساسية لـ ETSO، مع حوالي 3000 مسرحية من العصر الذهبي الإسباني تم تحديثها وتطبيعها للتحليل الأسلوبي. فهو يجمع بين النصوص العامة والبحثية والنصوص المكتوبة تلقائيًا والتي تم إنتاجها باستخدام Transkribus. وهو يشكل أكبر مجموعة مقارنة للمسرح الإسباني الحديث المبكر باللغة الإسبانية.
     cited_by:
+      - "Escudero, Irene G. «De un yerro nacen mil. Una comedia inédita atribuida a Andrés de Claramonte». Studia Aurea, vol. 20, 2026 (en prensa)."
+      - "Crivellari, Daniele. Una nueva aportación para el estudio del teatro áureo de tema caballeresco. Aureae Litterae Ovetenses: Actas del XIII Congreso de la AISO, 2024, pp. 269-284."
       - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230."
 
 
@@ -2144,6 +2156,8 @@ publications:
       ru: Цифровой портал, предоставляющий открытый доступ к стилометрическому анализу более 3000 пьес Золотого века Испании. Это проект, которому автор посвятил больше всего времени в последние годы, и который стал одним из наиболее широко используемых ресурсов среди исследователей в этой области.
       ar: بوابة رقمية توفر وصولاً مفتوحًا إلى التحليلات الأسلوبية لأكثر من 3000 مسرحية من العصر الذهبي الإسباني. إنه المشروع الذي خصص له المؤلف معظم وقته في السنوات الأخيرة وأصبح أحد المصادر الأكثر استخدامًا بين الباحثين في هذا المجال.
     cited_by:
+      - "Escudero, Irene G. «De un yerro nacen mil. Una comedia inédita atribuida a Andrés de Claramonte». Studia Aurea, vol. 20, 2026 (en prensa)."
+      - "Truan Aguirre, Elena. El saco de Amberes: estudio crítico, edición y traducción. Tesis doctoral, Universidad de Salamanca, 2025."
       - "Gilabert, Gaston. «“Aquesa gravedad maravillosa”: El ganso de oro como laboratorio de versificación en los márgenes del Arte nuevo». En Carlos Brito Díaz, Christophe Couderc, Claudine Marion-Andrès y Philippe Meunier (eds.), El primer teatro de Lope desde el tablado: nuevas lecturas. Estudios ofrecidos a Milagros Torres. Madrid–Frankfurt: Iberoamericana–Vervuert, 2026, pp. 163–194."
       - "Vélez Sainz, Julio. «Edición y puesta en escena de “El sitio de Bredá”: de la atribución a Calderón a “Bredá: un dedo que apunta a un mapa” (2024) de José María Esbec». Anuario Calderoniano, vol. 19, 2026, pp. 147–163."
       - "Escudero, Irene G. «Calderón de la Barca y Rojas Zorrilla, colaboradores en la comedia “Troya abrasada”». Anuario Calderoniano, vol. 19, 2026, pp. 205–230."
