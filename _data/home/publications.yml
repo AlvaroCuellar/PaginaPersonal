@@ -86,6 +86,20 @@ featured_ids:
   
 publications:
 
+  - id: "avila"
+    type: "inpress"
+    title: "La singularidad estilométrica de Gaspar de Ávila: indicios para la ampliación de su corpus teatral"
+    authors:
+      - "Álvaro Cuéllar"
+    publication: "Neophilologus"
+    year: 2027
+    url:
+    thumbnail: "/assets/images/pubs/prensa.png"
+    abstract:
+      es: "El artículo estudia la singularidad del perfil léxico de Gaspar de Ávila a partir de diez textos de autoría segura. Combina distancias estilométricas y clasificación supervisada mediante aprendizaje automático para identificar, en un corpus de unas tres mil obras, dieciséis comedias que presentan una afinidad sostenida con su escritura. Los resultados ofrecen indicios para ampliar su repertorio teatral, con distintos grados de certeza y pendientes de contrastación filológica."
+      en: "The article examines the distinctiveness of Gaspar de Ávila’s lexical profile using ten securely attributed texts. It combines stylometric distances and supervised machine-learning classification to identify sixteen plays, within a corpus of some three thousand works, that show sustained affinity with his writing. The results provide evidence for expanding his theatrical repertory, with varying degrees of certainty and subject to philological assessment."
+    cited_by:
+
   - id: "estiloritm"
     type: "article"
     title: "La estilometría rítmica a examen en un corpus de comedias seguras de Lope de Vega"
